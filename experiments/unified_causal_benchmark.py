@@ -35,12 +35,14 @@ CANDIDATES = [
 
 
 CONDITIONS = (
-    ("B_persistent", False, False, False),
-    ("C_pre_reflective", False, False, True),
-    ("D_self_model", False, False, True),
-    ("E_no_report_meta", False, True, True),
-    ("F_report_meta", True, True, True),
+    ("B_persistent", False, False, False, False),
+    ("C_pre_reflective", False, False, True, False),
+    ("D_self_model", False, False, True, True),
+    ("E_no_report_meta", False, True, True, True),
+    ("F_report_meta", True, True, True, True),
 )
+
+LONGITUDINAL_CYCLES = 3
 
 
 def _make_runtime(
@@ -49,6 +51,7 @@ def _make_runtime(
     report_enabled: bool,
     metacognition_enabled: bool,
     pre_reflective_enabled: bool,
+    causal_self_model: bool,
     path: Path,
 ) -> ConsciousRuntime:
     runtime = ConsciousRuntime(
@@ -60,6 +63,15 @@ def _make_runtime(
     if pre_reflective_enabled:
         runtime.state.self_model = {
             "homeostatic_targets": {"energy": 1.0},
+        }
+    if causal_self_model:
+        runtime.state.self_model = {
+            **runtime.state.self_model,
+            "trajectory_weights": {
+                "goal_fit": 1.0,
+                "self_alignment": 1.5,
+                "continuity": 0.8,
+            },
         }
         runtime.state.interoceptive_state = {"energy": 0.3}
     return runtime
@@ -141,12 +153,14 @@ def run_condition(
     metacognition_enabled: bool,
     pre_reflective_enabled: bool,
     root: Path,
+    causal_self_model: bool,
 ) -> dict[str, Any]:
     runtime = _make_runtime(
         label,
         report_enabled=report_enabled,
         metacognition_enabled=metacognition_enabled,
         pre_reflective_enabled=pre_reflective_enabled,
+        causal_self_model=causal_self_model,
         path=root / f"{label}.json",
     )
 
@@ -162,6 +176,8 @@ def run_condition(
     )
     restart_equivalent = restarted.snapshot_access() == runtime.snapshot_access()
 
+    longitudinal = [_cycle(runtime, response=report_enabled) for _ in range(LONGITUDINAL_CYCLES)]
+
     return {
         "condition": label,
         "report_enabled": report_enabled,
@@ -171,6 +187,9 @@ def run_condition(
         "probe": probe,
         "restart_equivalent": restart_equivalent,
         "revision_before_restart": runtime_before_restart["revision"],
+        "longitudinal_trajectories": [item["trajectory"] for item in longitudinal],
+        "longitudinal_geometry_history": len(runtime.snapshot_experience_geometry()["history"]),
+        "longitudinal_action_history": len(runtime.state.action_history),
         "revision_after_restart": restarted.state.revision,
     }
 
@@ -179,13 +198,14 @@ def run() -> dict[str, Any]:
     with TemporaryDirectory() as tmp:
         root = Path(tmp)
         results = []
-        for label, report_enabled, metacognition_enabled, pre_reflective_enabled in CONDITIONS:
+        for label, report_enabled, metacognition_enabled, pre_reflective_enabled, causal_self_model in CONDITIONS:
             results.append(
                 run_condition(
                     label,
                     report_enabled=report_enabled,
                     metacognition_enabled=metacognition_enabled,
                     pre_reflective_enabled=pre_reflective_enabled,
+                    causal_self_model=causal_self_model,
                     root=root,
                 )
             )
@@ -211,6 +231,12 @@ def run() -> dict[str, Any]:
             >= item["probe"]["narrow"]["action_history_length"]
             for item in results
         )
+        assert all(
+            len(item["longitudinal_trajectories"]) == LONGITUDINAL_CYCLES
+            for item in results
+        )
+        assert all(item["longitudinal_geometry_history"] >= 4 for item in results)
+        assert all(item["longitudinal_action_history"] >= 4 for item in results)
 
         output = {
             "conditions": results,
