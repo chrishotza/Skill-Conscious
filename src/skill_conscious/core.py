@@ -3018,7 +3018,6 @@ class ConsciousRuntime:
         )
 
         selected = dict(selected)
-        selected.pop("_metacognitive_breakdown", None)
 
         if self.metacognition_enabled:
             sequence = int(self.state.self_model.get("metacognitive_sequence", 0)) + 1
@@ -3032,6 +3031,7 @@ class ConsciousRuntime:
             ).to_dict()
             selected["metacognition"] = trace
 
+        selected.pop("_metacognitive_breakdown", None)
         return selected
 
     def present(self, external_input: str) -> dict[str, Any]:
