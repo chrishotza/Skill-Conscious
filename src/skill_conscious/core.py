@@ -3941,6 +3941,12 @@ class ConsciousRuntime:
             }
 
         score = base_score + embodiment_score
+
+        # The objective channel ends here. All self-linked, pre-reflective,
+        # self-observation, dynamic-core and SubjectiveField terms are downstream
+        # conscious-layer contributions and must not contaminate objective_score.
+        objective_score = score
+
         pre_reflective = build_pre_reflective_state(
             self._state_view(),
             possibility_count=1,
@@ -3986,7 +3992,6 @@ class ConsciousRuntime:
                 except (TypeError, ValueError):
                     pass
 
-        objective_score = score
         subjective_field_score, subjective_field_diagnostics = (
             self._score_subjective_field_candidate(candidate)
         )
