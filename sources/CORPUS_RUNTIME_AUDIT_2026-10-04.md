@@ -28,7 +28,7 @@ The community archive is the memory layer. This audit is the translation layer. 
 | Consequences must be authoritative | IMPLEMENTED | Host action boundary and complete_action() record actual outcomes. |
 | Dynamic internal organization | IMPLEMENTED | Experience-field, dynamic core, attractor, regime and intervention/reversal layers. |
 | Multidimensional state rather than scalar consciousness | PARTIAL | Existing vectors are multidimensional; dedicated Experience Geometry runtime layer is not yet merged into this branch. |
-| Limited conscious access / bandwidth | DOCUMENTED | Corpus and CONSCIOUS_INTERFACE_BANDWIDTH_V1.md define the hypothesis; access-budget runtime is not yet implemented. |
+| Limited conscious access / bandwidth | IMPLEMENTED | Runtime-owned finite access window, omitted-state persistence, limited-present projection, causal trajectory gating and capacity intervention/restore tests. |
 | No-report / covert-measure logic | IMPLEMENTED AS ARCHITECTURAL RULE | Core can operate with report and metacognition disabled. |
 | Animal-consciousness caution | DOCUMENTED | Epistemic boundary, not a machine-consciousness claim. |
 | Embodiment / substrate may matter | PARTIAL | Interoceptive, affective, temporal and homeostatic structures exist; physical substrate/resource embodiment is not modeled. |
@@ -77,11 +77,11 @@ Implemented: restart persistence, causal interventions, reversal probes, ablatio
 Pending: unified benchmark comparing behavior, runtime state, causal sensitivity, longitudinal adaptation, geometry and report under matched conditions.
 
 ## D. Highest-priority missing translations
-1. Conscious Interface / Bandwidth — runtime-owned bounded access from full persistent state to current present.
-2. Experience Geometry — persistent multidimensional state representation with explicit distance/transition measures.
-3. Unified no-report benchmark — matched core/report/metacognition ablations.
-4. Theory-to-mechanism matrix — map major theories to discriminating runtime mechanisms and tests.
-5. State-regime extension — formal sleep/offline/dream-like regime only after defining measurable computational differences.
+1. Experience Geometry — persistent multidimensional state representation with explicit distance/transition measures.
+2. Unified no-report benchmark — matched core/report/metacognition ablations.
+3. Theory-to-mechanism matrix — map major theories to discriminating runtime mechanisms and tests.
+4. State-regime extension — formal sleep/offline/dream-like regime only after defining measurable computational differences.
+5. Embodiment / ownership — operational analogues of body/ownership coupling and substrate/resource constraints.
 
 ## E. Do not implement merely because a motif is interesting
 Universal metaphysical consciousness, spiritual entities, undocumented paranormal capabilities, quantum vocabulary without falsifiable physical mechanism, a scalar consciousness score, and self-report as a consciousness detector.
@@ -90,13 +90,14 @@ Universal metaphysical consciousness, spiritual entities, undocumented paranorma
 COMMUNITY CLAIM → SOURCE IDENTIFICATION → EVIDENCE CLASSIFICATION → ENGINEERING HYPOTHESIS → IMPLEMENTATION → CAUSAL TEST → LONGITUDINAL RESULT
 
 ## Audit conclusion
-The strongest unresolved engineering gap is no longer persistence, re-entry, self-modeling, metacognition, homeostasis, or causal consequence.
+The strongest unresolved engineering gap is no longer persistence, re-entry, self-modeling, metacognition, homeostasis, causal consequence, or bounded access.
 
-It is the formation and limitation of the present itself:
+The next frontier is the geometry and benchmarking of the present:
 
-FULL INTERNAL STATE → ACCESS / ATTENTION → LIMITED PRESENT → SELF-RELEVANCE → TRAJECTORY
+MULTIDIMENSIONAL STATE → ACCESS → PRESENT → SELF-RELEVANCE → TRAJECTORY → TRANSFORMATION
 
-That is the next runtime frontier. No metaphysical claim is required to implement or test it.
+No metaphysical claim is required to implement or test these mechanisms.
+
 
 
 ## Access/Bandwidth runtime update
