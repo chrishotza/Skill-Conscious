@@ -141,8 +141,9 @@ def build_pre_reflective_state(
             homeostasis.get("fit")
             if isinstance(homeostasis, Mapping)
             and isinstance(homeostasis.get("fit"), (int, float))
-            else 0.0
+            else 1.0
         )
+    # Absence of a configured homeostatic target is neutral, not a deficit.
     homeostatic_fit = _clamp(float(raw_fit))
 
     raw_dissonance = state.get("self_dissonance", 0.0)
