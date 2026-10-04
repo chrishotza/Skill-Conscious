@@ -3530,6 +3530,7 @@ class ConsciousRuntime:
         if prediction_receipt is not None:
             receipt["metacognitive_prediction"] = prediction_receipt
         self.refresh_pre_reflective_state(persist=False)
+        self.refresh_embodiment_state(persist=False)
         if persist:
             self.store.save(self.state)
         return dict(receipt)
