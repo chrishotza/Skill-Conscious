@@ -4553,3 +4553,5 @@ class ConsciousRuntime:
 
     def snapshot(self) -> dict[str, Any]:
         return self.state.to_dict()
+
+# serialization hardening follow-up
