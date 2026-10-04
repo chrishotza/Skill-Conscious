@@ -67,7 +67,7 @@ The system should eventually represent operational experience as a trajectory th
 
 Candidate dimensions already present across the runtime include valence, coherence, self-dissonance, salience, self-relevance, prediction error, uncertainty, dynamic synchrony, metastability, dynamic complexity and dynamic repertoire.
 
-The dedicated persistent Experience Geometry object remains a pending implementation layer.
+The persistent Experience Geometry object is implemented in runtime v1 on PR #74. It derives a fixed multidimensional state from runtime-owned present, self, access and dynamic variables and persists transition history.
 
 ## Master loop
 
@@ -111,3 +111,12 @@ ACCESS-CONSTRAINED TRAJECTORY
 The runtime keeps omitted state persistent, exposes a finite `ConsciousAccessState`, and allows explicit capacity perturbations. Candidate trajectories can declare the persistent keys on which their current decision depends; a key omitted from the current access window cannot causally support that trajectory.
 
 This is a mechanism-level implementation. It is not a scalar consciousness measure and does not prove phenomenal consciousness.
+
+
+## Geometry runtime translation
+
+The geometry layer now connects the present directly to measurable state-space organization:
+
+ACCESS → PRESENT → EXPERIENCE STATE → TRANSITION → TRAJECTORY HISTORY
+
+The current feature vector deliberately includes both internal organization and access regime. This prevents the geometry layer from becoming a detached diagnostic score.
