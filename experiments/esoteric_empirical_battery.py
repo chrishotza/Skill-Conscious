@@ -145,6 +145,7 @@ def projection_error(root: Path) -> dict[str, Any]:
     }
     runtime.store.save(runtime.state)
 
+    runtime.state.self_state = {"focus": 0.4}
     initial_expected = float(
         runtime.state.self_model["expected_self_state"]["focus"]
     )
@@ -191,6 +192,24 @@ def projection_error(root: Path) -> dict[str, Any]:
 def rehearsal_persistence(root: Path) -> dict[str, Any]:
     rehearsed = _runtime(root, "bridge-rehearsed")
     neutral = _runtime(root, "bridge-neutral")
+    rehearsal_candidates = [
+        {
+            "id": "self_path",
+            "signals": {
+                "goal_fit": 0.6,
+                "self_alignment": 0.3,
+                "continuity": 0.8,
+            },
+        },
+        {
+            "id": "world_path",
+            "signals": {
+                "goal_fit": 0.95,
+                "self_alignment": 0.05,
+                "continuity": 0.8,
+            },
+        },
+    ]
 
     for index in range(5):
         rehearsed.integrate(
@@ -215,10 +234,10 @@ def rehearsal_persistence(root: Path) -> dict[str, Any]:
         )
 
     rehearsed_selection = rehearsed.select_trajectory(
-        [dict(item) for item in CANDIDATES]
+        [dict(item) for item in rehearsal_candidates]
     )
     neutral_selection = neutral.select_trajectory(
-        [dict(item) for item in CANDIDATES]
+        [dict(item) for item in rehearsal_candidates]
     )
 
     restarted = ConsciousRuntime(
@@ -229,7 +248,7 @@ def rehearsal_persistence(root: Path) -> dict[str, Any]:
         self_observation_enabled=False,
     )
     restart_selection = restarted.select_trajectory(
-        [dict(item) for item in CANDIDATES]
+        [dict(item) for item in rehearsal_candidates]
     )
 
     return {
