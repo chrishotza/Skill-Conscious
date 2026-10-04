@@ -262,7 +262,17 @@ The benchmark reports the same primary metrics as the deterministic multi-task s
 - `model_generated_candidate_fields`;
 - `candidate_field_match_rate`, computed from a canonical SHA-256 hash of the exact candidate field supplied to both matched conditions.
 
-Each task record stores the candidate-field hash so the matched intervention cannot silently change the model-generated possibilities.
+Each task record stores the candidate-field hash so the matched intervention cannot silently change the model-generated possibilities. The hash is SHA-256 over canonical UTF-8 JSON with sorted object keys and compact separators (sha256-canonical-json-v1).
+
+The model-generated benchmark now also emits an audit ledger for each matched condition. The record includes the canonical candidate-field hash, candidate count, input hash, authoritative outcome hash, intervention identifier, runtime revision before and after restart, and state hashes immediately before restart and after restart. This makes the causal pair auditable after the run instead of requiring trust in transient console output.
+
+Within each matched pair, the benchmark explicitly reports:
+- candidate_field_match_rate;
+- paired_field_hashes_equal;
+- paired_input_hashes_equal;
+- audit_trace_complete.
+
+A provider-facing run should not be interpreted as a valid matched experiment unless the audit trace is complete and the paired field/input invariants are true.
 
 The runner also supports repeated provider trials. Use `--repeats N` (or `SKILL_CONSCIOUS_REPEATS=N`) to regenerate the candidate field and repeat the matched intact/ablation comparison across (N) independent trials.
 
