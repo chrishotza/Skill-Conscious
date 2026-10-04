@@ -497,3 +497,26 @@ A candidate update must satisfy accumulated evidence, direction consistency, con
 The ledger records positive/negative evidence counts, dominant direction, reversal detection, effective thresholds, and the hysteresis configuration. This rejects noisy alternating evidence and makes rapid self-model oscillation harder without eliminating adaptation.
 
 Adversarial coverage now includes mixed-sign utility, alternating internal observations, and deliberate reversal attempts.
+
+
+## Runtime 0.10.0 — bounded conscious access
+
+The pre-reflective core is now paired with a runtime-owned access interface between persistent state and the current present.
+
+~~~text
+FULL INTERNAL STATE
+        ↓
+SALience × SELF-RELEVANCE × PERSISTENCE × PRIORITY
+        ↓
+BOUNDED ACCESS WINDOW
+        ↓
+LIMITED PRESENT
+        ↓
+ACCESS-DEPENDENT TRAJECTORY
+~~~
+
+`ConsciousAccessState` persists capacity, selected and omitted keys, access scores, compression load, self/world access fractions, entropy, and revision. Omitted state is never deleted.
+
+Trajectory candidates may declare `access_keys`. When the runtime access budget excludes a required key, that candidate loses the corresponding causal contribution. Capacity can be intervened on and restored without creating learning evidence.
+
+The mechanism supports no-report and no-metacognition operation and persists across restart. It remains an engineering access mechanism, not a claim of demonstrated phenomenal consciousness.
