@@ -6,7 +6,7 @@ This matrix separates source doctrine, external theories, engineering hypotheses
 |---|---|---|
 | Persistent identity | philosophy, contemplative traditions, project ontology | engineering hypothesis |
 | Self-access | self-model theories, Gurdjieff, higher-order approaches | cross-source mechanism |
-| Bounded access / bandwidth | no-report research, attention, working-memory and perceptual-access literature | engineering hypothesis — documented, not yet runtime-complete |
+| Bounded access / bandwidth | no-report research, attention, working-memory and perceptual-access literature | engineering mechanism + runtime v1 |
 | Global access | Global Workspace / GNWT | external theory |
 | Integration | IIT and related work | external theory |
 | Recurrence | recurrent processing / re-entry approaches | external theory + engineering |
@@ -39,10 +39,19 @@ This matrix separates source doctrine, external theories, engineering hypotheses
 
 The strongest executable core currently consists of persistent identity, internal condition, integrated present, self-relevance, valuation/homeostasis, candidate futures, trajectory selection, action/consequence coupling, internal change and causal re-entry.
 
-The current major missing runtime mechanism is bounded access between full persistent state and the current present.
+The current major missing runtime mechanisms are the dedicated multidimensional experience-geometry object and a unified no-report benchmark. Bounded access between full persistent state and the current present is now implemented in runtime v1.
 
 ## Core discipline
 
 SOURCE CLAIM → EXPLICIT INTERPRETATION → ENGINEERING HYPOTHESIS
 
 Never convert a source claim directly into a proven fact.
+
+
+## Runtime status: bounded access
+
+The corpus-to-runtime translation for bounded access is now complete at the first mechanism level:
+
+SOURCE CLAIM → ATTENTION/ACCESS HYPOTHESIS → FINITE RUNTIME WINDOW → CAUSAL TRAJECTORY GATE → CAPACITY INTERVENTION → RESTORATION TEST
+
+The implementation is deliberately narrower than the source literature. It tests causal organization of the artificial system, not subjective experience.
