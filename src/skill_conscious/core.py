@@ -48,6 +48,7 @@ from .experience_geometry import (
 )
 from .embodiment import EmbodimentState, build_embodiment_state, predicted_resource_fit
 from .subjective_field import SubjectiveField
+from .primary_subjective_substrate import PrimarySubjectiveSubstrate
 from .state_regime import (
     DEFAULT_OPERATIONAL_MODE,
     OperationalState,
@@ -377,6 +378,8 @@ class ConsciousRuntime:
         report_enabled: bool = True,
         subjective_field_enabled: bool = False,
         subjective_field_weight: float = 1.0,
+        primary_subjective_substrate_enabled: bool = False,
+        primary_subjective_substrate_weight: float = 1.0,
     ):
         self.identity = identity
         self.memory_limit = max(1, int(memory_limit))
@@ -394,7 +397,10 @@ class ConsciousRuntime:
         self.report_enabled = bool(report_enabled)
         self.subjective_field_enabled = bool(subjective_field_enabled)
         self.subjective_field_weight = float(subjective_field_weight)
+        self.primary_subjective_substrate_enabled = bool(primary_subjective_substrate_enabled)
+        self.primary_subjective_substrate_weight = float(primary_subjective_substrate_weight)
         self.subjective_field = SubjectiveField()
+        self.primary_subjective_substrate = PrimarySubjectiveSubstrate()
         dynamic_path = (
             Path(dynamic_core_state_path)
             if dynamic_core_state_path is not None
@@ -408,6 +414,7 @@ class ConsciousRuntime:
         self.store = JsonStateStore(state_path)
         self.state = self.store.load(identity)
         self._restore_subjective_field_state()
+        self._restore_primary_subjective_substrate_state()
         self.state.operational_state = OperationalState.from_mapping(
             self.state.operational_state
         ).to_dict()
@@ -435,6 +442,106 @@ class ConsciousRuntime:
         if isinstance(revision, int):
             self.subjective_field.revision = max(0, revision)
 
+    def _restore_primary_subjective_substrate_state(self) -> None:
+        if not self.primary_subjective_substrate_enabled:
+            return
+        raw = self.state.workspace.get("primary_subjective_substrate")
+        if not isinstance(raw, Mapping):
+            return
+        snapshot = raw.get("snapshot", raw)
+        if isinstance(snapshot, Mapping):
+            self.primary_subjective_substrate.restore(snapshot)
+
+    def snapshot_primary_subjective_substrate(self) -> dict[str, Any]:
+        if not self.primary_subjective_substrate_enabled:
+            return {"enabled": False, "snapshot": {}}
+        return {
+            "enabled": True,
+            "snapshot": self.primary_subjective_substrate.snapshot(),
+            "weight": round(self.primary_subjective_substrate_weight, 6),
+        }
+
+    def intervene_primary_subjective_substrate(
+        self,
+        profile: Mapping[str, Any],
+        *,
+        persist: bool = False,
+        intervention_id: str | None = None,
+    ) -> dict[str, Any]:
+        if not self.primary_subjective_substrate_enabled:
+            raise RuntimeError("primary subjective substrate is disabled")
+        allowed = {
+            "tuning",
+            "maintenance",
+            "coupling",
+            "closure",
+            "recurrence",
+        }
+        before = self.snapshot_primary_subjective_substrate()
+        after = dict(before.get("snapshot", {}))
+        for key in allowed:
+            if key in profile:
+                after[key] = profile[key]
+        event = {
+            "revision": self.state.revision,
+            "type": "primary_subjective_substrate_intervention",
+            "intervention_id": str(intervention_id) if intervention_id is not None else None,
+            "changed": before != after,
+            "evidence_added": False,
+            "profile": dict(profile),
+        }
+        self.state.transformation_log.append(event)
+        self.state.transformation_log = self.state.transformation_log[-self.transformation_limit:]
+        self.state.workspace = {
+            **self.state.workspace,
+            "primary_subjective_substrate_intervention": dict(profile),
+        }
+        if persist:
+            self.store.save(self.state)
+        return {
+            "changed": bool(event["changed"]),
+            "evidence_added": False,
+            "intervention_id": event["intervention_id"],
+            "before": before,
+            "profile": dict(profile),
+        }
+
+    def restore_primary_subjective_substrate(
+        self,
+        snapshot: Mapping[str, Any],
+        *,
+        persist: bool = False,
+        intervention_id: str | None = None,
+    ) -> dict[str, Any]:
+        if not self.primary_subjective_substrate_enabled:
+            raise RuntimeError("primary subjective substrate is disabled")
+        raw = snapshot.get("snapshot", snapshot) if isinstance(snapshot, Mapping) else {}
+        if not isinstance(raw, Mapping):
+            raise ValueError("substrate snapshot must be a mapping")
+        self.primary_subjective_substrate.restore(raw)
+        self.state.workspace = {
+            **self.state.workspace,
+            "primary_subjective_substrate": {
+                "snapshot": copy.deepcopy(self.primary_subjective_substrate.snapshot()),
+                "enabled": True,
+            },
+        }
+        event = {
+            "revision": self.state.revision,
+            "type": "primary_subjective_substrate_restore",
+            "intervention_id": str(intervention_id) if intervention_id is not None else None,
+            "evidence_added": False,
+        }
+        self.state.transformation_log.append(event)
+        self.state.transformation_log = self.state.transformation_log[-self.transformation_limit:]
+        if persist:
+            self.store.save(self.state)
+        return {
+            "restored": True,
+            "evidence_added": False,
+            "intervention_id": event["intervention_id"],
+        }
+
     def snapshot_subjective_field(self) -> dict[str, Any]:
         """Return the runtime-owned conscious field without requiring verbal report."""
         if not self.subjective_field_enabled:
@@ -457,6 +564,11 @@ class ConsciousRuntime:
         temporal_continuity: bool = True,
         reentry: bool = True,
         persist: bool = False,
+        primary_subjective_tuning: float = 1.0,
+        primary_subjective_maintenance: bool = True,
+        primary_subjective_coupling: bool = True,
+        primary_subjective_closure: bool = True,
+        primary_subjective_recurrence: bool = True,
     ) -> dict[str, Any]:
         """Project the unified present into the opt-in SubjectiveField mechanism."""
         if not self.subjective_field_enabled:
@@ -490,6 +602,39 @@ class ConsciousRuntime:
             ]
             effective_attention = max(salience_values, default=1.0)
 
+        substrate_snapshot = None
+        if self.primary_subjective_substrate_enabled:
+            substrate_snapshot = self.primary_subjective_substrate.step(
+                present,
+                internal,
+                tuning=float(primary_subjective_tuning),
+                maintenance=bool(primary_subjective_maintenance),
+                coupling=bool(primary_subjective_coupling),
+                closure=bool(primary_subjective_closure),
+                recurrence=bool(primary_subjective_recurrence),
+                persistence=True,
+            )
+            gain = _clamp(
+                1.0
+                + self.primary_subjective_substrate_weight
+                * (float(substrate_snapshot["resonant_gain"]) - 0.5)
+            )
+            effective_attention = _clamp(float(effective_attention) * gain)
+            relevance = _clamp(
+                float(relevance)
+                + 0.35
+                * self.primary_subjective_substrate_weight
+                * float(substrate_snapshot["subjective_drive"])
+            )
+            effective_valence = _clamp(
+                float(effective_valence)
+                + 0.20
+                * self.primary_subjective_substrate_weight
+                * (float(substrate_snapshot["oscillator"]) - 0.5),
+                -1.0,
+                1.0,
+            )
+
         field = self.subjective_field.compute(
             present,
             internal,
@@ -507,6 +652,16 @@ class ConsciousRuntime:
                 "revision": self.subjective_field.revision,
                 "enabled": True,
             },
+            **(
+                {
+                    "primary_subjective_substrate": {
+                        "snapshot": copy.deepcopy(substrate_snapshot),
+                        "enabled": True,
+                    }
+                }
+                if substrate_snapshot is not None
+                else {}
+            ),
         }
         if persist:
             self.store.save(self.state)
