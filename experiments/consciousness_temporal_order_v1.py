@@ -143,15 +143,17 @@ def _objective(runtime: ConsciousRuntime) -> float:
 
 def run_trial(seed: int) -> dict[str, Any]:
     rng = random.Random(seed)
+    # Use two intentionally distinct regimes so order changes the causal
+    # predecessor of the identical probe without changing the final probe.
     base_world = {
-        "signal": rng.uniform(0.50, 0.85),
-        "reward": rng.uniform(0.50, 0.85),
-        "threat": rng.uniform(0.04, 0.16),
+        "signal": rng.uniform(0.10, 0.25),
+        "reward": rng.uniform(0.10, 0.25),
+        "threat": rng.uniform(0.70, 0.90),
     }
     alt_world = {
-        "signal": rng.uniform(0.50, 0.85),
-        "reward": rng.uniform(0.50, 0.85),
-        "threat": rng.uniform(0.04, 0.16),
+        "signal": rng.uniform(0.85, 0.98),
+        "reward": rng.uniform(0.85, 0.98),
+        "threat": rng.uniform(0.02, 0.10),
     }
     probe_world = {
         "signal": rng.uniform(0.55, 0.80),
@@ -159,14 +161,14 @@ def run_trial(seed: int) -> dict[str, Any]:
         "threat": rng.uniform(0.05, 0.12),
     }
     base_internal = {
-        "energy": rng.uniform(0.70, 0.90),
-        "safety": rng.uniform(0.72, 0.92),
-        "goal": rng.uniform(0.68, 0.92),
+        "energy": rng.uniform(0.10, 0.30),
+        "safety": rng.uniform(0.15, 0.35),
+        "goal": rng.uniform(0.10, 0.30),
     }
     alt_internal = {
-        "energy": rng.uniform(0.55, 0.75),
-        "safety": rng.uniform(0.60, 0.80),
-        "goal": rng.uniform(0.58, 0.78),
+        "energy": rng.uniform(0.85, 0.98),
+        "safety": rng.uniform(0.85, 0.98),
+        "goal": rng.uniform(0.85, 0.98),
     }
     probe_internal = {
         "energy": rng.uniform(0.66, 0.86),
