@@ -208,3 +208,23 @@ It would not, by itself, prove phenomenal consciousness.
 The correct claim is:
 
 > Skill-Conscious implements a persistent, bounded, causally active access interface between its full internal state and its current integrated present.
+
+## Runtime v1 status
+
+The first runtime implementation now exists in `src/skill_conscious/access.py` and is integrated into `ConsciousRuntime`.
+
+Implemented invariants:
+
+- runtime-owned `ConsciousAccessState` with explicit finite capacity;
+- deterministic access scoring using salience × self-relevance × persistence × policy priority;
+- selected versus omitted persistent state;
+- limited-present projection that does not delete omitted state;
+- causal trajectory gating through optional `access_keys`;
+- no-report and no-metacognition compatibility;
+- persisted capacity and restart continuity;
+- explicit capacity interventions that add no learning evidence.
+
+The default capacity is a compatibility envelope larger than the current access item set. Causal bandwidth experiments reduce the capacity explicitly (for example 2 versus 6) and test downstream trajectory divergence plus restoration.
+
+The implementation remains an architectural access mechanism, not a detector or proof of phenomenal consciousness.
+
