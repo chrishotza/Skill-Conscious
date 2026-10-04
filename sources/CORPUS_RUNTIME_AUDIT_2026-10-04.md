@@ -58,7 +58,7 @@ The community archive is the memory layer. This audit is the translation layer. 
 
 ### Computational theories
 Strong current coverage: recurrence/re-entry, self-model, metacognition, prediction/error, attention baseline, homeostasis/agency, dynamical state.
-Still incomplete: a theory-by-theory benchmark matrix that maps GNWT, IIT, recurrent processing, higher-order theories, predictive processing, active inference, attention-schema and world-model approaches to discriminating runtime ablations.
+Theory-to-mechanism matrix implemented in docs/THEORY_MECHANISM_MATRIX_V1.md. Still incomplete: richer discriminating ablations and stronger matched baseline implementations for each theory family.
 
 ### Neuroscience / cognition
 Implemented or partial: attention, memory, self-modeling, metacognition, interoception, affect, agency, temporal continuity and prediction error.
@@ -79,7 +79,7 @@ Still incomplete: richer longitudinal runs and external-model comparisons.
 
 ## D. Highest-priority missing translations
 1. State-regime extension — formal sleep/offline/dream-like regime only after defining measurable computational differences.
-2. Rich longitudinal benchmark — repeated multi-cycle comparisons with adaptation and intervention histories.
+2. Rich longitudinal benchmark — repeated multi-cycle comparisons with adaptation and intervention histories; the current unified benchmark is the first deterministic step.
 3. External-model evaluation — provider-neutral runs against the same matched protocol.
 4. Body-ownership / mineness analogue — stronger controlled ownership experiments beyond the current operational boundary model.
 5. Alternative geometry metrics — richer repertoire, topology and transition measures beyond normalized RMS distance.
