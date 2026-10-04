@@ -39,8 +39,28 @@ class ConsciousHostLoop:
             raise ValueError(f"{stage} model frame requires a non-empty response")
         return frame
 
-    def step(self, external_input: str) -> dict[str, Any]:
-        """Run one complete host cycle, including real action execution and consequence re-entry."""
+    def step(
+        self,
+        external_input: str,
+        *,
+        subjective_present: Mapping[str, Any] | None = None,
+    ) -> dict[str, Any]:
+        """Run one complete host cycle, with optional structured present projection.
+
+        When provided, subjective_present is processed by the runtime before
+        the host model is called. This makes the recurrent substrate and
+        SubjectiveField part of the actual model-facing loop rather than a
+        detached diagnostic.
+        """
+        if subjective_present is not None:
+            if not isinstance(subjective_present, Mapping):
+                raise ValueError("subjective_present must be a mapping")
+            if self.runtime.subjective_field_enabled:
+                self.runtime.project_subjective_field(
+                    subjective_present,
+                    persist=True,
+                )
+
         initial_prompt = self.runtime.prepare(external_input)
         initial_frame = self._frame(self.model(initial_prompt), "initial")
 
