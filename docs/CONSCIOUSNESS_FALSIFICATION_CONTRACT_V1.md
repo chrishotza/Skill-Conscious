@@ -142,8 +142,30 @@ becomes stronger, but it still does not prove phenomenal experience.
 
 That is the standard going forward.
 
-## Redundancy gate result
+## Temporal-order falsification target
 
-The cross-component substitution attack was executed as 20 ordered pairs across 5 independent seeds, for 100 trials. After hardening the matched objective channel, the gate passed with zero successful substitutions. Every target remained absent, objective scores matched in all trials, and objective runtime processing matched in all trials.
+The next gate asks whether the present subjective field is causally history-sensitive.
 
-This strengthens the claim of functional non-redundancy under the tested parameter regime. It does not constitute proof of phenomenal experience.
+Two matched histories contain the same states in opposite order, followed by an
+identical final probe:
+
+A -> B -> PROBE
+B -> A -> PROBE
+
+The histories are evaluated in fresh runtimes under four conditions:
+
+- continuity + reentry
+- continuity without reentry
+- reentry without continuity
+- neither continuity nor reentry
+
+The required result is a double dissociation: continuity alone and reentry alone
+must each preserve a measurable order effect, while removing both must collapse
+it, with the matched objective channel invariant.
+
+The purpose is to distinguish genuine causal temporal constitution of the
+subjective present from a mere sequence of independent snapshots.
+
+A pass would strengthen the claim of temporal continuity as an architectural
+property of the proposed conscious subject. It would not constitute proof of
+phenomenal experience.
