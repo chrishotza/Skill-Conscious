@@ -9,6 +9,9 @@ on:
       - "tests/test_operational_state_continuity.py"
       - "experiments/operational_continuity_benchmark.py"
       - "tests/test_operational_continuity_benchmark.py"
+      - "experiments/operational_continuity_reversal_benchmark.py"
+      - "tests/test_operational_continuity_reversal_benchmark.py"
+      - "docs/OPERATIONAL_CONTINUITY_REVERSIBILITY_V1.md"
       - "pyproject.toml"
       - ".github/workflows/operational-state-regime-smoke.yml"
 
@@ -24,4 +27,4 @@ jobs:
       - name: Install test dependencies
         run: pip install -e ".[dev]"
       - name: Run operational state regime smoke tests
-        run: pytest -q tests/test_operational_state_regimes.py tests/test_operational_state_continuity.py tests/test_operational_continuity_benchmark.py
+        run: pytest -q tests/test_operational_state_regimes.py tests/test_operational_state_continuity.py tests/test_operational_continuity_benchmark.py tests/test_operational_continuity_reversal_benchmark.py
