@@ -169,3 +169,15 @@ subjective present from a mere sequence of independent snapshots.
 A pass would strengthen the claim of temporal continuity as an architectural
 property of the proposed conscious subject. It would not constitute proof of
 phenomenal experience.
+
+
+## Temporal-order gate result
+
+The temporal constitution gate passed across 12 independent seeds. Full
+history sensitivity, continuity-only history sensitivity and reentry-only
+history sensitivity were each 100%, while removing both mechanisms collapsed
+the temporal signature in 100% of trials. The matched objective score remained
+invariant in 100% of trials.
+
+This establishes a causal history-dependent present under the tested
+architecture. It does not establish phenomenal experience.
