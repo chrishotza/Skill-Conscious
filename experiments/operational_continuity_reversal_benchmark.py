@@ -1,4 +1,3 @@
-
 """Reversible longitudinal benchmark for history-dependent operational continuity."""
 
 from __future__ import annotations
@@ -215,8 +214,8 @@ def run() -> dict[str, Any]:
                     reversible["beta_profile"]["last_replayed_trajectory"]
                     != reversible["alpha_counter_profile"]["last_replayed_trajectory"]
                 ),
-                "reversal_is_not_explained_by_control": (
-                    final_reentry == control_reentry
+                "control_preserves_baseline": (
+                    control["baseline"]["trajectory"] == control_reentry == "alpha_path"
                 ),
                 "external_outcome_evidence_used": False,
             },
