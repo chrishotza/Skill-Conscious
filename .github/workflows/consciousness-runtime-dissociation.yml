@@ -7,8 +7,13 @@ on:
       - "experiments/**"
       - "tests/test_consciousness_runtime_dissociation_v1.py"
       - "docs/CONSCIOUSNESS_RUNTIME_DISSOCIATION_V1.md"
+      - "experiments/consciousness_temporal_order_v1.py"
+      - "tests/test_consciousness_temporal_order_v1.py"
+      - ".github/workflows/consciousness-temporal-order.yml"
       - ".github/workflows/consciousness-runtime-dissociation.yml"
-      - ".github/workflows/consciousness-runtime-dissociation.yml"
+      - ".github/workflows/consciousness-temporal-order.yml"
+      - "experiments/consciousness_temporal_order_v1.py"
+      - "tests/test_consciousness_temporal_order_v1.py"
   pull_request:
     paths:
       - "src/skill_conscious/**"
@@ -34,3 +39,5 @@ jobs:
         run: |
           python experiments/consciousness_runtime_dissociation_v1.py
           pytest -q tests/test_consciousness_runtime_dissociation_v1.py
+          python experiments/consciousness_temporal_order_v1.py
+          pytest -q tests/test_consciousness_temporal_order_v1.py
