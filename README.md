@@ -562,3 +562,24 @@ python -m experiments.experience_geometry_bandwidth_probe
 ~~~
 
 This is an operational state-space mechanism, not a scalar consciousness score and not proof of phenomenal experience.
+
+
+## Reflective independence benchmark v1
+
+The repository now contains a focused benchmark for the no-report architecture:
+
+~~~text
+C  no report + no metacognition
+E  no report + metacognition
+F  report + metacognition
+~~~
+
+The same controlled internal state and candidate-future field are used across conditions. The benchmark checks whether pre-reflective state, bounded access, experience geometry and trajectory selection remain causally independent of the reflective/reporting layers.
+
+Run:
+
+~~~bash
+python -m experiments.reflective_independence_benchmark
+~~~
+
+This is a focused architectural benchmark. The unified longitudinal consciousness-oriented benchmark remains a separate open target.
