@@ -5,7 +5,7 @@ from dataclasses import asdict, dataclass
 from math import log
 
 
-DEFAULT_ACCESS_CAPACITY = 32
+DEFAULT_ACCESS_CAPACITY = 12
 
 # Each entry: base salience, self-relevance, persistence, policy priority, domain.
 _ACCESS_SPECS: dict[str, tuple[float, float, float, float, str]] = {
