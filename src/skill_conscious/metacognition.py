@@ -67,6 +67,8 @@ def state_delta(
         "affective_state",
         "temporal_state",
         "regime",
+        "pending_action",
+        "action_history",
     )
     result: dict[str, Any] = {}
     for key in selected_keys:
