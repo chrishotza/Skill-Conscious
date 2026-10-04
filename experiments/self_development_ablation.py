@@ -82,7 +82,15 @@ def make_runtime(
             "bounds": {"goal_fit": [-3.0, 3.0]},
         }
 
-    runtime = ConsciousRuntime(name, path)
+    # Self-development A/B/C/D isolates homeostasis and adaptive learning.
+    # Metacognition/self-report are orthogonal layers and would otherwise add
+    # large persistent traces without changing the mechanism under test.
+    runtime = ConsciousRuntime(
+        name,
+        path,
+        metacognition_enabled=False,
+        report_enabled=False,
+    )
     runtime.integrate(
         {
             "response": "initialize controlled ablation",
