@@ -55,7 +55,7 @@ def _run_continuity(runtime: ConsciousRuntime) -> dict[str, Any]:
     runtime.set_operational_mode("offline")
     offline_cycles = [runtime.advance_operational_cycle() for _ in range(OFFLINE_WARMUP_CYCLES)]
     runtime.set_operational_mode("dream_like")
-    dream_cycles = [runtime.advance_operational_cycle() for _ in range(LONGITUDINAL_CYCLES)]
+    dream_cycles = [runtime.advance_operational_cycle(candidate_futures=[dict(item) for item in CANDIDATES]) for _ in range(LONGITUDINAL_CYCLES)]
     restarted = ConsciousRuntime(
         runtime.identity,
         state_path=Path(runtime.store.path),
