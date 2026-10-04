@@ -54,6 +54,7 @@ jobs:
               "tests/test_external_host_behavioral_suite.py",
               "tests/test_external_host_model_behavioral_benchmark.py",
               "tests/test_self_model_causal_intervention_benchmark.py",
+              "tests/test_esoteric_empirical_battery.py",
               ])
           )
           PY
