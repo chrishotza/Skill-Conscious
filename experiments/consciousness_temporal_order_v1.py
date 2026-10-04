@@ -254,3 +254,5 @@ def run_benchmark(seeds: int = 12) -> dict[str, Any]:
 
 if __name__ == "__main__":
     print(json.dumps(run_benchmark(), indent=2, sort_keys=True))
+
+# CI trigger: keep temporal-order gate explicitly wired to the real runtime.
