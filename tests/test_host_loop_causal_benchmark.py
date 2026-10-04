@@ -9,6 +9,8 @@ def test_host_consequence_reentry_changes_next_trajectory():
 
     assert metrics["same_initial_selection"] is True
     assert metrics["reentry_changes_next_selection"] is True
-    assert metrics["control_preserves_initial_preference"] is True
+    assert metrics["ablation_preserves_initial_selection"] is True
     assert metrics["reentry_switches_trajectory"] is True
+    assert metrics["intervention_added_evidence"] is False
+    assert metrics["causal_state_diverged"] is True
     assert metrics["authoritative_outcome_present"] is True
