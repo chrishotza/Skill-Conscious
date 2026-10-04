@@ -7,9 +7,11 @@ on:
       - "experiments/host_loop_causal_benchmark.py"
       - "experiments/openai_compatible_host_benchmark.py"
       - "experiments/external_host_behavioral_suite.py"
+      - "experiments/external_host_model_behavioral_benchmark.py"
       - "tests/test_host_loop_causal_benchmark.py"
       - "tests/test_openai_compatible_host_benchmark.py"
       - "tests/test_external_host_behavioral_suite.py"
+      - "tests/test_external_host_model_behavioral_benchmark.py"
       - ".github/workflows/host-loop-causal-smoke.yml"
   pull_request:
     paths:
@@ -48,6 +50,7 @@ jobs:
                   "tests/test_host_loop_causal_benchmark.py",
               "tests/test_openai_compatible_host_benchmark.py",
               "tests/test_external_host_behavioral_suite.py",
+              "tests/test_external_host_model_behavioral_benchmark.py",
               ])
           )
           PY
