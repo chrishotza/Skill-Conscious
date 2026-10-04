@@ -5,7 +5,9 @@ on:
     paths:
       - "src/skill_conscious/**"
       - "experiments/host_loop_causal_benchmark.py"
+      - "experiments/openai_compatible_host_benchmark.py"
       - "tests/test_host_loop_causal_benchmark.py"
+      - "tests/test_openai_compatible_host_benchmark.py"
       - ".github/workflows/host-loop-causal-smoke.yml"
   pull_request:
     paths:
