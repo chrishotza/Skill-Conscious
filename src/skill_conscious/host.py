@@ -115,6 +115,21 @@ class ConsciousHostLoop:
             raise ValueError("selected trajectory requires a non-empty id")
         action_receipt = self.runtime.complete_action(outcome)
 
+        # Re-project the authoritative post-action body/world state before the
+        # consequence model call. A structured subjective_present supplied by
+        # the executor overrides the previous external present; otherwise the
+        # same external present is applied to the transformed internal state.
+        if subjective_present is not None and self.runtime.subjective_field_enabled:
+            next_subjective_present = outcome.get(
+                "subjective_present",
+                subjective_present,
+            )
+            if isinstance(next_subjective_present, Mapping):
+                self.runtime.project_subjective_field(
+                    next_subjective_present,
+                    persist=True,
+                )
+
         consequence_prompt = self.runtime.prepare_consequence(
             trajectory_id,
             outcome,
