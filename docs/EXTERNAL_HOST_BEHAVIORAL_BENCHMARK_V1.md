@@ -260,8 +260,22 @@ The model therefore participates in the experiment, while the causal variable re
 The benchmark reports the same primary metrics as the deterministic multi-task suite, plus:
 
 - `model_generated_candidate_fields`;
+- `candidate_field_match_rate`, computed from a canonical SHA-256 hash of the exact candidate field supplied to both matched conditions.
 
-and it records the exact candidate IDs used in each matched pair.
+Each task record stores the candidate-field hash so the matched intervention cannot silently change the model-generated possibilities.
+
+The runner also supports repeated provider trials. Use `--repeats N` (or `SKILL_CONSCIOUS_REPEATS=N`) to regenerate the candidate field and repeat the matched intact/ablation comparison across (N) independent trials.
+
+Example:
+
+```bash
+python -m experiments.external_host_model_behavioral_benchmark \
+  --endpoint http://127.0.0.1:11434/v1 \
+  --model llama3.1 \
+  --repeats 5
+```
+
+The repeat count changes the empirical sample size; it does not change the causal contrast within each matched pair.
 
 This distinction matters: the deterministic five-task suite validates the harness, whereas the model-generated suite is the actual provider-facing behavioral experiment.
 
