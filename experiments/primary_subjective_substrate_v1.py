@@ -120,8 +120,8 @@ def _project(runtime: ConsciousRuntime, present: Mapping[str, float]) -> dict[st
         valence=runtime.state.valence,
         attention=1.0,
         integration=True,
-        temporal_continuity=True,
-        reentry=True,
+        temporal_continuity=False,
+        reentry=False,
         persist=True,
     )
 
@@ -195,7 +195,8 @@ def run_benchmark(seeds: int = 12) -> dict[str, Any]:
                 primary_subjective_substrate_enabled=True,
                 primary_subjective_substrate_weight=1.0,
             )
-            restarted_field = _project(restarted, present)
+            restarted_snapshot = restarted.snapshot_subjective_field()
+            restarted_field = dict(restarted_snapshot.get("field", {}))
             restarted_selected = restarted.select_trajectory(candidates)
 
             objective_after = {
