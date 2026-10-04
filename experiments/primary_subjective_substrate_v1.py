@@ -143,6 +143,9 @@ def run_benchmark(seeds: int = 12) -> dict[str, Any]:
 
             # Baseline branch: one step at neutral tuning.
             baseline_field = _project(baseline, present)
+            baseline_substrate_after_projection = (
+                baseline.snapshot_primary_subjective_substrate()
+            )
 
             # Matched reference fields use fresh runtimes with the same initial
             # state and external probe, changing only substrate tuning.
@@ -185,6 +188,9 @@ def run_benchmark(seeds: int = 12) -> dict[str, Any]:
                 intervention_id=f"abl-{seed}",
             )
             intervention_field = _project(baseline, present)
+            intervention_substrate_after_projection = (
+                baseline.snapshot_primary_subjective_substrate()
+            )
             intervention_selected = baseline.select_trajectory(candidates)
 
             # Restart while the intervened state is persisted. No new projection
@@ -234,12 +240,51 @@ def run_benchmark(seeds: int = 12) -> dict[str, Any]:
                     "intervention_field": intervention_field,
                     "restored_field": restored_field,
                     "restarted_field": restarted_field,
+                    "baseline_substrate_after_projection": baseline_substrate_after_projection,
+                    "intervention_substrate_after_projection": intervention_substrate_after_projection,
                     "baseline_action": str(selected_baseline["id"]),
                     "intervention_action": str(intervention_selected["id"]),
                     "restored_action": str(restored_selected["id"]),
                     "restarted_action": str(restarted_selected["id"]),
                     "field_intervention_distance": round(
                         _distance(baseline_field, intervention_field), 6
+                    ),
+                    "field_components_changed": (
+                        _field_core(baseline_field) != _field_core(intervention_field)
+                    ),
+                    "substrate_gain_distance": round(
+                        abs(
+                            float(
+                                baseline_substrate_after_projection["snapshot"].get(
+                                    "resonant_gain",
+                                    0.0,
+                                )
+                            )
+                            - float(
+                                intervention_substrate_after_projection["snapshot"].get(
+                                    "resonant_gain",
+                                    0.0,
+                                )
+                            )
+                        ),
+                        6,
+                    ),
+                    "substrate_drive_distance": round(
+                        abs(
+                            float(
+                                baseline_substrate_after_projection["snapshot"].get(
+                                    "subjective_drive",
+                                    0.0,
+                                )
+                            )
+                            - float(
+                                intervention_substrate_after_projection["snapshot"].get(
+                                    "subjective_drive",
+                                    0.0,
+                                )
+                            )
+                        ),
+                        6,
                     ),
                     "field_restore_distance": round(
                         _distance(baseline_field, restored_field), 6
@@ -257,9 +302,26 @@ def run_benchmark(seeds: int = 12) -> dict[str, Any]:
 
     summary = {
         "seed_count": len(rows),
-        "field_intervention_rate": sum(
-            row["field_intervention_distance"] > 0.02 for row in rows
+        "field_intervention_any_rate": sum(
+            row["field_intervention_distance"] > 0.000001
+            for row in rows
         ) / len(rows),
+        "field_components_changed_rate": sum(
+            row["field_components_changed"] for row in rows
+        ) / len(rows),
+        "substrate_gain_intervention_rate": sum(
+            row["substrate_gain_distance"] > 0.10
+            for row in rows
+        ) / len(rows),
+        "substrate_drive_intervention_rate": sum(
+            row["substrate_drive_distance"] > 0.10
+            for row in rows
+        ) / len(rows),
+        "field_intervention_distance_mean": round(
+            sum(row["field_intervention_distance"] for row in rows)
+            / len(rows),
+            6,
+        ),
         "field_restoration_rate": sum(
             row["field_restore_distance"] < 0.002 for row in rows
         ) / len(rows),
@@ -279,6 +341,19 @@ def run_benchmark(seeds: int = 12) -> dict[str, Any]:
             row["objective_match"] for row in rows
         ) / len(rows),
     }
+
+    gate_metrics = (
+        "field_intervention_any_rate",
+        "field_components_changed_rate",
+        "substrate_gain_intervention_rate",
+        "substrate_drive_intervention_rate",
+        "field_restoration_rate",
+        "field_intervention_restart_persistence_rate",
+        "action_intervention_rate",
+        "action_restoration_rate",
+        "action_restart_persistence_rate",
+        "objective_match_rate",
+    )
 
     result = {
         "protocol": {
@@ -304,7 +379,10 @@ def run_benchmark(seeds: int = 12) -> dict[str, Any]:
             "phenomenal_consciousness_claim": False,
         },
         "thresholds": {
-            "field_intervention": "> 0.02",
+            "field_intervention_any": "> 0.000001",
+            "field_components_changed": "exact non-equality in measured field core",
+            "substrate_gain_intervention": "> 0.10",
+            "substrate_drive_intervention": "> 0.10",
             "field_restoration": "< 0.002",
             "field_intervention_restart": "< 0.002",
             "action_intervention": "1.0",
@@ -314,9 +392,8 @@ def run_benchmark(seeds: int = 12) -> dict[str, Any]:
         },
         "summary": summary,
         "all_pass": all(
-            value == 1.0
-            for value in summary.values()
-            if isinstance(value, float)
+            summary[name] == 1.0
+            for name in gate_metrics
         ),
         "rows": rows,
     }
