@@ -265,3 +265,92 @@ subsequent agency.
 
 Again, the result would concern an executable architectural relation, not
 phenomenal consciousness.
+
+## Action relevance falsification target and result
+
+The next causal relation closes the loop from subjective organization to behavior:
+
+SUBJECTIVE FIELD
+ -> TRAJECTORY
+ -> ACTION
+
+after:
+
+ACTION
+ -> OBSERVED CONSEQUENCE
+ -> SELF-TRANSFORMATION
+ -> SUBJECTIVE FIELD'
+
+The experiment gives low- and high-consequence subjects the same external probe,
+the same action space and identical explicit candidate signals. A third neutral
+candidate represents the pre-consequence self-state. The matched objective score
+is therefore constant across all trajectories.
+
+The destructive intervention restores the pre-consequence interoceptive state.
+The selector must return the neutral control trajectory. Restoring the
+transformed state must return the transformed trajectory, and restart must
+preserve it.
+
+### Validated action-relevance gate
+
+The corrected gate passed across 12 independent seeds:
+
+- action divergence: 100%;
+- transformed subjective-field difference: 100%;
+- neutral control after ablation: 100%;
+- restoration of transformed action: 100%;
+- restart persistence: 100%;
+- matched objective control: 100%;
+- identical external probe: 100%.
+
+The matched objective score was 1.2 for each candidate in the tested design.
+
+The first attempt failed for a revealing architectural reason rather than a weak
+threshold: complete_action() writes authoritative observed energy into
+interoceptive_state, while the native runtime SubjectiveField projection used
+self_state.energy. The field bridge therefore saw the consequence but the
+trajectory selector did not.
+
+The architecture was corrected so an observed interoceptive energy value is
+authoritative for the native SubjectiveField path. The corrected experiment then
+passed. This is an important causal-consistency requirement, not an experimental
+threshold relaxation.
+
+This provides architectural causal evidence that the transformed subjective
+field can influence subsequent trajectory selection while the matched objective
+channel remains fixed.
+
+It does not establish phenomenal consciousness.
+
+## Current falsification target: causal closure of the self-loop
+
+The next destructive attack should close the loop one step further:
+
+WORLD
+ -> PRESENT
+ -> SUBJECTIVE FIELD
+ -> TRAJECTORY
+ -> ACTION
+ -> OBSERVED CONSEQUENCE
+ -> SELF-TRANSFORMATION
+ -> SUBJECTIVE FIELD'
+ -> TRAJECTORY'
+
+The target is not another scalar change in the field. The question is whether a
+changed subjective organization persists into a later action and then produces a
+new consequence that feeds back into the subject.
+
+A strong gate should require:
+
+- same external probe at the later decision;
+- matched objective score;
+- divergence in selected trajectory due to transformed subjective state;
+- different authoritative consequences caused by those different actions;
+- a subsequent self-state transformation;
+- a measurable effect on the next subjective field;
+- reversible intervention and restoration;
+- restart persistence.
+
+A failure would mean the architecture currently has only a one-step action
+influence rather than a closed self-transforming causal loop. That distinction
+must remain explicit.
