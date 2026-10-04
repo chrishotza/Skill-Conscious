@@ -68,6 +68,42 @@ DEFAULT_REGIME_WEIGHTS: dict[str, float] = {
     "learning": 0.25,
 }
 
+def _compact_runtime_mapping(value: Mapping[str, Any] | None) -> dict[str, Any]:
+    """Keep historical runtime snapshots bounded and non-recursive."""
+    if not isinstance(value, Mapping):
+        return {}
+
+    scalars: dict[str, Any] = {}
+    containers: dict[str, dict[str, Any]] = {}
+    for raw_key, raw_value in value.items():
+        key = str(raw_key)
+        if isinstance(raw_value, (str, int, float, bool)) or raw_value is None:
+            if isinstance(raw_value, str) and len(raw_value) > 128:
+                scalars[key] = raw_value[:128]
+            else:
+                scalars[key] = raw_value
+        elif isinstance(raw_value, Mapping):
+            containers[key] = {
+                "type": "mapping",
+                "size": len(raw_value),
+                "keys": sorted(str(item) for item in raw_value.keys())[:64],
+            }
+        elif isinstance(raw_value, list):
+            containers[key] = {
+                "type": "list",
+                "length": len(raw_value),
+            }
+        else:
+            containers[key] = {"type": type(raw_value).__name__}
+
+    return {
+        "type": "mapping",
+        "size": len(value),
+        "scalars": scalars,
+        "containers": containers,
+    }
+
+
 DEFAULT_TRAJECTORY_WEIGHTS: dict[str, float] = {
     "goal_fit": 1.0,
     "self_alignment": 1.0,
@@ -4223,9 +4259,15 @@ class ConsciousRuntime:
 
         changed: dict[str, Any] = {}
         current_snapshot = self.state.to_dict()
+        history_summary_keys = {"self_model", "workspace"}
         for key in ("self_state", "self_model", "workspace", "intention", "attention", "salience", "layers", "regime", "operational_state", "attractor", "valuation", "valence", "coherence", "relation_topology", "latent_patterns", "self_dissonance", "interoceptive_state", "affective_state", "temporal_state", "perspectives", "pre_reflective_state", "access_state", "embodiment_state"):
-            if previous_snapshot.get(key) != current_snapshot.get(key):
-                changed[key] = {"before": previous_snapshot.get(key), "after": current_snapshot.get(key)}
+            before_value = previous_snapshot.get(key)
+            after_value = current_snapshot.get(key)
+            if key in history_summary_keys:
+                before_value = _compact_runtime_mapping(before_value)
+                after_value = _compact_runtime_mapping(after_value)
+            if before_value != after_value:
+                changed[key] = {"before": before_value, "after": after_value}
         if changed:
             self.state.transformation_log.append({
                 "revision": self.state.revision,
@@ -4238,9 +4280,9 @@ class ConsciousRuntime:
                 "revision": self.state.revision,
                 "response": response,
                 "self_state": dict(self.state.self_state),
-                "self_model": dict(self.state.self_model),
+                "self_model": _compact_runtime_mapping(self.state.self_model),
                 "intention": self.state.intention,
-                "workspace": self.state.workspace,
+                "workspace": _compact_runtime_mapping(self.state.workspace),
                 "selected_trajectory": self.state.selected_trajectory,
                 "attention": self.state.attention,
                 "salience": self.state.salience,
