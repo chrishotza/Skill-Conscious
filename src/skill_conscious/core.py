@@ -862,6 +862,44 @@ class ConsciousRuntime:
             "diagnostics": dict(result),
         }
 
+    def snapshot_metacognition_prediction(self) -> dict[str, Any]:
+        """Return the runtime-owned metacognitive prediction state."""
+        model = self.state.self_model
+        evidence = model.get("metacognitive_prediction_evidence", {})
+        history = model.get("metacognitive_prediction_history", [])
+        return {
+            "error": float(model.get("metacognitive_prediction_error", 0.0))
+            if isinstance(model.get("metacognitive_prediction_error"), (int, float))
+            and not isinstance(model.get("metacognitive_prediction_error"), bool)
+            else 0.0,
+            "accuracy": float(model.get("metacognitive_prediction_accuracy", 0.0))
+            if isinstance(model.get("metacognitive_prediction_accuracy"), (int, float))
+            and not isinstance(model.get("metacognitive_prediction_accuracy"), bool)
+            else 0.0,
+            "expected_accuracy": float(
+                model.get("metacognitive_prediction_expected_accuracy", 0.5)
+            )
+            if isinstance(
+                model.get("metacognitive_prediction_expected_accuracy"),
+                (int, float),
+            )
+            and not isinstance(
+                model.get("metacognitive_prediction_expected_accuracy"),
+                bool,
+            )
+            else 0.5,
+            "sequence": int(model.get("metacognitive_prediction_sequence", 0))
+            if isinstance(model.get("metacognitive_prediction_sequence"), (int, float))
+            and not isinstance(model.get("metacognitive_prediction_sequence"), bool)
+            else 0,
+            "evidence": dict(evidence) if isinstance(evidence, Mapping) else {},
+            "history": [
+                dict(item)
+                for item in history
+                if isinstance(item, Mapping)
+            ] if isinstance(history, list) else [],
+        }
+
     def snapshot_metacognition(self) -> dict[str, Any]:
         if not self.metacognition_enabled:
             return {"enabled": False}
