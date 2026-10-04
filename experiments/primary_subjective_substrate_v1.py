@@ -146,27 +146,14 @@ def run_benchmark(seeds: int = 12) -> dict[str, Any]:
             # substrate-sensitive possibility space. Explicit candidate signals
             # remain identical.
             low_ref = _runtime(root, f"low-ref-{seed}")
-            low_ref.primary_subjective_substrate.step(
-                present,
-                low_ref._numeric_state(low_ref.state.self_state),
-                tuning=0.55,
-            )
+            low_ref.intervene_primary_subjective_substrate({"tuning": 0.55}, intervention_id=f"low-ref-{seed}")
             low_field = _project(low_ref, present)
 
             neutral_ref = _runtime(root, f"neutral-ref-{seed}")
-            neutral_ref.primary_subjective_substrate.step(
-                present,
-                neutral_ref._numeric_state(neutral_ref.state.self_state),
-                tuning=1.00,
-            )
             neutral_field = _project(neutral_ref, present)
 
             high_ref = _runtime(root, f"high-ref-{seed}")
-            high_ref.primary_subjective_substrate.step(
-                present,
-                high_ref._numeric_state(high_ref.state.self_state),
-                tuning=1.45,
-            )
+            high_ref.intervene_primary_subjective_substrate({"tuning": 1.45}, intervention_id=f"high-ref-{seed}")
             high_field = _project(high_ref, present)
 
             candidates = _candidates(low_field, neutral_field, high_field)
