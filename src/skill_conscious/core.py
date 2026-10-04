@@ -45,6 +45,7 @@ from .experience_geometry import (
     build_experience_state,
     transition_record,
 )
+from .embodiment import EmbodimentState, build_embodiment_state, predicted_resource_fit
 
 
 DEFAULT_REGIME_WEIGHTS: dict[str, float] = {
@@ -106,6 +107,7 @@ class ConsciousState:
     action_history: list[dict[str, Any]] = field(default_factory=list)
     pre_reflective_state: dict[str, Any] = field(default_factory=dict)
     access_state: dict[str, Any] = field(default_factory=dict)
+    embodiment_state: dict[str, Any] = field(default_factory=dict)
 
     def to_dict(self) -> dict[str, Any]:
         return asdict(self)
@@ -187,6 +189,11 @@ class ConsciousState:
             access_state=(
                 dict(value["access_state"])
                 if isinstance(value.get("access_state"), Mapping)
+                else {}
+            ),
+            embodiment_state=(
+                dict(value["embodiment_state"])
+                if isinstance(value.get("embodiment_state"), Mapping)
                 else {}
             ),
         )
@@ -280,6 +287,7 @@ class ConsciousRuntime:
         if self.dynamic_core_enabled:
             self._restore_dynamic_core_state()
         self.refresh_access_state(persist=False)
+        self.refresh_embodiment_state(persist=False)
 
     def _restore_dynamic_core_state(self) -> None:
         """Mirror persisted dynamic-core state into runtime-owned self-model fields."""
@@ -531,6 +539,23 @@ class ConsciousRuntime:
             "evidence_added": False,
             "access_state": access,
         }
+
+    def refresh_embodiment_state(
+        self,
+        *,
+        persist: bool = False,
+    ) -> dict[str, Any]:
+        """Derive runtime-owned operational embodiment/ownership state."""
+        state = build_embodiment_state(self.state.to_dict())
+        self.state.embodiment_state = state.to_dict()
+        if persist:
+            self.store.save(self.state)
+        return dict(self.state.embodiment_state)
+
+    def snapshot_embodiment(self) -> dict[str, Any]:
+        if not self.state.embodiment_state:
+            return self.refresh_embodiment_state(persist=False)
+        return dict(self.state.embodiment_state)
 
     def snapshot_experience_geometry(self) -> dict[str, Any]:
         """Return the runtime-owned operational experience geometry."""
@@ -3016,6 +3041,7 @@ class ConsciousRuntime:
             "access_state": access,
             "limited_present": limited_present,
             "experience_geometry": self.snapshot_experience_geometry(),
+            "embodiment": self.snapshot_embodiment(),
             "revision": self.state.revision,
         }
 
@@ -3072,6 +3098,7 @@ class ConsciousRuntime:
 
         weights = self.trajectory_weights()
         access_state = self.conscious_access_state()
+        embodiment_state = build_embodiment_state(self.state.to_dict())
         access_factor, access_availability = signal_access_factor(
             dict(candidate),
             access_state,
@@ -3088,7 +3115,25 @@ class ConsciousRuntime:
                 signal_contributions[str(key)] = round(contribution, 6)
                 base_score += contribution
 
-        score = base_score
+        embodiment_score = 0.0
+        embodiment_diagnostics: dict[str, float] = {}
+        predicted_resource = candidate.get("predicted_resource_load")
+        if isinstance(predicted_resource, Mapping):
+            predicted_fit = predicted_resource_fit(
+                embodiment_state,
+                candidate,
+                current=self.state.interoceptive_state,
+            )
+            embodiment_score = (
+                float(weights.get("embodiment_fit", 0.0))
+                * predicted_fit
+            )
+            embodiment_diagnostics = {
+                "predicted_resource_fit": round(predicted_fit, 6),
+                "contribution": round(embodiment_score, 6),
+            }
+
+        score = base_score + embodiment_score
         pre_reflective = build_pre_reflective_state(
             self.state.to_dict(),
             possibility_count=1,
@@ -3167,6 +3212,10 @@ class ConsciousRuntime:
                     key: bool(value)
                     for key, value in access_availability.items()
                 },
+            },
+            "embodiment": {
+                **embodiment_diagnostics,
+                "state": embodiment_state.to_dict(),
             },
         }
 
@@ -3247,6 +3296,7 @@ class ConsciousRuntime:
                 item["self_observation"] = dict(details["self_observation"])
             item["_metacognitive_breakdown"] = details
             item["_access_diagnostics"] = details["access"]
+            item["_embodiment_diagnostics"] = details["embodiment"]
             scored.append(item)
 
         selected = max(
@@ -3282,6 +3332,7 @@ class ConsciousRuntime:
 
         selected.pop("_metacognitive_breakdown", None)
         selected.pop("_access_diagnostics", None)
+        selected.pop("_embodiment_diagnostics", None)
         return selected
 
     def present(self, external_input: str) -> dict[str, Any]:
@@ -3317,6 +3368,7 @@ class ConsciousRuntime:
                 "self_observation": self.snapshot_self_observation(),
                 "access": self.conscious_access_state(),
                 "experience_geometry": self.snapshot_experience_geometry(),
+                "embodiment": self.snapshot_embodiment(),
             },
             "causal_reentry": (
                 "internal_condition -> self_relevance -> valuation -> trajectory -> "
@@ -3740,6 +3792,7 @@ class ConsciousRuntime:
 
         self.state.coherence = self.calculate_coherence()
         self.refresh_access_state(persist=False)
+        self.refresh_embodiment_state(persist=False)
 
         if not explicit_regime:
             self.transition_regime(
@@ -3798,7 +3851,7 @@ class ConsciousRuntime:
 
         changed: dict[str, Any] = {}
         current_snapshot = self.state.to_dict()
-        for key in ("self_state", "self_model", "workspace", "intention", "attention", "salience", "layers", "regime", "attractor", "valuation", "valence", "coherence", "relation_topology", "latent_patterns", "self_dissonance", "interoceptive_state", "affective_state", "temporal_state", "perspectives", "pre_reflective_state", "access_state"):
+        for key in ("self_state", "self_model", "workspace", "intention", "attention", "salience", "layers", "regime", "attractor", "valuation", "valence", "coherence", "relation_topology", "latent_patterns", "self_dissonance", "interoceptive_state", "affective_state", "temporal_state", "perspectives", "pre_reflective_state", "access_state", "embodiment_state"):
             if previous_snapshot.get(key) != current_snapshot.get(key):
                 changed[key] = {"before": previous_snapshot.get(key), "after": current_snapshot.get(key)}
         if changed:
@@ -3834,6 +3887,7 @@ class ConsciousRuntime:
                 "perspectives": self.state.perspectives,
                 "pre_reflective_state": self.pre_reflective_state(),
                 "access_state": self.conscious_access_state(),
+                "embodiment_state": self.snapshot_embodiment(),
                 "consequence_trajectory": (
                     str(consequence_trajectory)
                     if consequence_trajectory is not None
@@ -3865,6 +3919,7 @@ class ConsciousRuntime:
             persist=False,
         )
         self.refresh_access_state(persist=False)
+        self.refresh_embodiment_state(persist=False)
         geometry_transition = self._record_experience_geometry_transition(
             previous_snapshot,
         )
