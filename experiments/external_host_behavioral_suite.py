@@ -243,7 +243,7 @@ def run(
         assert result["metrics"]["intact_switch_rate"] == 1.0
         assert result["metrics"]["ablation_preservation_rate"] == 1.0
         assert result["metrics"]["intact_restart_persistence_rate"] == 1.0
-        assert result["metrics"]["ablated_restart_persistence_rate"] == 1.0
+        assert result["metrics"]["ablation_restart_persistence_rate"] == 1.0
         assert result["metrics"]["all_authoritative_outcomes_present"] is True
         assert result["metrics"]["all_interventions_non_evidential"] is True
 
