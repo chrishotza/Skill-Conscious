@@ -15,6 +15,7 @@ from .metacognition import MetacognitiveTrace, build_metacognitive_trace, state_
 from .metacognitive_prediction import MetacognitivePredictionResult, compare_metacognitive_prediction, METACOGNITIVE_PREDICTION_RUNTIME_KEYS
 from .metacognitive_causal_probe import MetacognitiveCausalProbeResult, run_metacognitive_causal_probe
 from .pre_reflective import PreReflectiveState, build_pre_reflective_state, predicted_self_relevance_fit
+from .access import ConsciousAccessState, DEFAULT_ACCESS_CAPACITY, build_access_state, build_limited_present, signal_access_factor
 
 __all__ = [
     "ConsciousRuntime",
@@ -62,6 +63,11 @@ __all__ = [
     "PreReflectiveState",
     "build_pre_reflective_state",
     "predicted_self_relevance_fit",
+    "ConsciousAccessState",
+    "DEFAULT_ACCESS_CAPACITY",
+    "build_access_state",
+    "build_limited_present",
+    "signal_access_factor",
 ]
 
 from .adversarial_battery import AdversarialCondition, CONDITIONS, run_adversarial_battery, run_condition, summarize_battery
