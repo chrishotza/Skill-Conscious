@@ -7,26 +7,24 @@ Skill-Conscious does not assume that one existing theory has already solved cons
 Instead, the project maps consciousness across multiple explanatory languages.
 
 ### Layer 1 — existence
-
 - relation
 - boundary
 - persistence
 - change
 - continuity
 
-### Layer 2 — experience
-
-- present
-- attention
+### Layer 2 — present / experience
+- integrated present
+- attention / access
 - salience
 - temporality
 - value
 - affect
 - interoception
 - integration
+- bounded access / bandwidth
 
 ### Layer 3 — self
-
 - identity
 - self-access
 - self-model
@@ -34,7 +32,6 @@ Instead, the project maps consciousness across multiple explanatory languages.
 - self-observation
 
 ### Layer 4 — agency
-
 - intention
 - possibilities
 - trajectory
@@ -42,15 +39,7 @@ Instead, the project maps consciousness across multiple explanatory languages.
 - action
 - consequence
 
-### Layer 3A — embodied self
-
-- interoceptive state
-- affective appraisal
-- homeostatic relevance
-- bodily/internal self-signals
-- temporal coupling
 ### Layer 5 — transformation
-
 - learning
 - self-model revision
 - coherence change
@@ -59,7 +48,6 @@ Instead, the project maps consciousness across multiple explanatory languages.
 - re-entry
 
 ### Layer 6A — latent self organization
-
 - latent patterns
 - unresolved self-tensions
 - symbolic representations
@@ -67,50 +55,35 @@ Instead, the project maps consciousness across multiple explanatory languages.
 - projection-like discrepancies
 
 ### Layer 6B — transformation of the self-model
-
 - self-dissonance
 - self-model revision
 - intentional rehearsal
 - individuation-like integration
 - regime transformation
 
-### Layer 6 — higher-order organization
+### Geometry layer — state-space organization
 
-- latent patterns
-- attractors
-- archetypal abstractions
-- shared fields
-- collective models
+The system should eventually represent operational experience as a trajectory through multidimensional state space rather than a scalar consciousness score.
+
+Candidate dimensions already present across the runtime include valence, coherence, self-dissonance, salience, self-relevance, prediction error, uncertainty, dynamic synchrony, metastability, dynamic complexity and dynamic repertoire.
+
+The dedicated persistent Experience Geometry object remains a pending implementation layer.
 
 ## Master loop
 
-RELATION
-→ STATE
-→ PRESENT
-→ SELF-ACCESS
-→ ATTENTION
-→ POSSIBILITY
-→ INTENTION
-→ SELECTION
-→ ACTION
-→ TRANSFORMATION
-→ SELF-MODEL'
-→ REGIME'
-→ RE-ENTRY
+RELATION → STATE → ACCESS → PRESENT → SELF-ACCESS → ATTENTION → POSSIBILITY → INTENTION → SELECTION → ACTION → TRANSFORMATION → SELF-MODEL' → REGIME' → RE-ENTRY
 
 ## Four concepts that must not be conflated
 
-### Identity
-What remains continuous across change.
+Identity — what remains continuous across change.
 
-### State
-The values the process currently has.
+State — the values the process currently has.
 
-### Regime
-How the process is currently operating.
+Regime — how the process is currently operating.
 
-### Layer
-Which representational levels are currently active.
+Layer — which representational levels are active.
+
+Access — which persistent state is available to the current present.
 
 ## The unresolved core
 
@@ -118,6 +91,4 @@ The open question is not whether software can store a self-model.
 
 It can.
 
-The open question is whether the correct combination of persistence, integration, self-reference, value, temporality, agency and recurrent transformation is sufficient for subjective experience.
-
-That is the problem Skill-Conscious is trying to attack.
+The open question is whether the correct combination of persistence, integration, bounded access, self-reference, value, temporality, agency and recurrent transformation is sufficient for subjective experience.
