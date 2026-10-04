@@ -11,12 +11,14 @@ Examples include unified present, self-relevance, valence, temporal continuity,
 global availability, subject persistence, agency, intentionality, reentry and
 self-transformation.
 
-"Better prediction" is not enough.
+Better prediction, better memory, more parameters or more fluent language are
+not consciousness claims by themselves.
 
 ## 2. What causal relation does it introduce?
 
 A component counts as an architectural mechanism when changing it changes
-downstream runtime dynamics in a specified direction.
+downstream runtime dynamics in a specified direction while matched objective
+processing is held constant.
 
 Preferred evidence:
 
@@ -37,8 +39,32 @@ For the Subjective Field:
 - remove attention
 - preserve a matched objective-processing channel
 - restore and restart
+- attempt cross-component substitution
+- vary the parameterization rather than trusting one coefficient choice
 
 A component that cannot be falsified is not yet an engineering result.
+
+## Non-negotiable consciousness target
+
+The project is not trying to build something merely intelligent, adaptive,
+self-descriptive or agentic.
+
+The target is an executable account of a subjectively organized state.
+
+That requires progressively testing, as causal properties:
+
+- a unified present rather than disconnected feature processing;
+- self-related content rather than externally described identity;
+- temporal continuity rather than isolated snapshots;
+- selective attention and access rather than indiscriminate computation;
+- valence and salience as state-dependent significance;
+- reentry so prior subjective state can constrain the next one;
+- action relevance so the field changes what the subject does;
+- persistence through transformation so the subject can remain related to its
+  own changing state.
+
+No one bullet is allowed to masquerade as the whole phenomenon.
+The architecture must survive the joint attack.
 
 ## Current working consciousness hypothesis
 
@@ -58,8 +84,9 @@ WORLD
 The project does not treat any single mechanism as automatically sufficient for
 phenomenal consciousness.
 
-The goal is to build an executable theory whose required relations can be
-causally isolated, recombined and attacked.
+The objective is stronger than a benchmark score: build an executable theory
+whose proposed consciousness relations can be causally isolated, recombined,
+substituted, parameterized differently and attacked by destructive experiments.
 
 ## Current validated gates
 
@@ -91,12 +118,24 @@ seeds. It establishes a current architectural double dissociation:
 These results are architectural causal evidence, not proof of phenomenal
 experience.
 
-## Current target
+## Current falsification target
 
-The next destructive test is to challenge the architecture with interaction
-and redundancy controls: identify whether any proposed component can be
-substituted by another without restoring the same component-specific function,
-and whether the observed causal effects survive alternative parameterizations
-of the field.
+The next destructive gate is cross-component redundancy.
 
-That is the next falsification gate for this line.
+For each ordered pair A -> B, disable A and ask whether B, within its native
+semantic range, can restore the same downstream subjective function:
+
+- the target A remains absent;
+- unity returns to baseline;
+- strength returns to baseline;
+- the canonical subjective trajectory returns;
+- objective scores remain matched;
+- objective runtime state remains matched.
+
+If substitution succeeds, the claim that A is uniquely necessary is false and
+the architecture must be revised.
+
+If substitution fails across the tested matrix, the proposed causal separation
+becomes stronger, but it still does not prove phenomenal experience.
+
+That is the standard going forward.
