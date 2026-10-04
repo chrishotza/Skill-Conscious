@@ -1,5 +1,7 @@
 name: conscious-geometry-smoke
 
+# Focused geometry validation; full-suite execution stays in native-dynamic-core.
+
 on:
   push:
     paths:
