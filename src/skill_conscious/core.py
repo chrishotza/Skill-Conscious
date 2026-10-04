@@ -126,6 +126,14 @@ DEFAULT_TRAJECTORY_WEIGHTS: dict[str, float] = {
     "replay_reinforcement": 0.75,
 }
 
+# Matched objective control: immutable candidate-side weights only. Runtime-derived
+# conscious-layer state must never alter this diagnostic.
+MATCHED_OBJECTIVE_WEIGHTS: dict[str, float] = {
+    str(key): float(value)
+    for key, value in DEFAULT_TRAJECTORY_WEIGHTS.items()
+}
+
+
 
 def _assert_acyclic(value: Any, *, path: tuple[str, ...] = (), active: set[int] | None = None, visited: set[int] | None = None) -> None:
     """Detect recursive runtime state before dataclasses.asdict() can overflow."""
@@ -3921,7 +3929,8 @@ class ConsciousRuntime:
         )
         objective_score = round(
             sum(
-                float(weights.get(str(key), 0.0)) * float(value)
+                float(MATCHED_OBJECTIVE_WEIGHTS.get(str(key), 0.0))
+                * float(value)
                 for key, value in objective_signal_values.items()
             ),
             6,
@@ -3959,11 +3968,7 @@ class ConsciousRuntime:
 
         score = base_score + embodiment_score
 
-        # The objective channel ends here. All self-linked, pre-reflective,
-        # self-observation, dynamic-core and SubjectiveField terms are downstream
-        # conscious-layer contributions and must not contaminate objective_score.
-        objective_score = score
-
+        # All remaining score terms are conscious-layer contributions.
         pre_reflective = build_pre_reflective_state(
             self._state_view(),
             possibility_count=1,
