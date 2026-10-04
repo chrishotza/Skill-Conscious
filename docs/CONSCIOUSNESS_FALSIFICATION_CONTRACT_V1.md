@@ -354,3 +354,65 @@ A strong gate should require:
 A failure would mean the architecture currently has only a one-step action
 influence rather than a closed self-transforming causal loop. That distinction
 must remain explicit.
+
+
+## Primary subjective substrate falsification target
+
+The next layer moves the hypothesis below language, autobiographical memory,
+metacognition and self-report.
+
+Protocol:
+
+WORLD
+ -> PRESENT
+ -> PRIMARY SUBJECTIVE SUBSTRATE
+ -> SUBJECTIVE FIELD
+ -> TRAJECTORY
+ -> ACTION
+
+The substrate is composed of four separable causal motifs:
+
+- PI-like maintenance / oscillation;
+- PHI-like internal-external coupling;
+- REL-like closure / curvature;
+- a normalized Phi-like regime gain.
+
+The TCF source papers are used here as hypothesis generators. Their
+cosmological density scale is not transferred into the runtime.
+
+The destructive gate requires:
+
+- identical external probe;
+- identical explicit candidate objective signals;
+- no autobiographical memory learning;
+- metacognition disabled;
+- self-observation disabled;
+- self-report disabled;
+- substrate intervention changes the next subjective field;
+- the changed field changes the selected trajectory;
+- restoration recovers the baseline trajectory;
+- restart preserves the persisted field;
+- matched objective_score remains invariant.
+
+A failure at the field level blocks the substrate claim. A field pass without
+action divergence establishes only internal architectural influence. A failure
+of restoration or restart blocks the corresponding persistence claim.
+
+The result is explicitly not a proof of phenomenal consciousness.
+
+## TCF bridge interpretation
+
+The current implementation makes one specific bridge testable:
+
+internal state + world coupling
+ -> recurrent substrate dynamics
+ -> regime tuning
+ -> subjectively organized present
+
+The intended cross-scale hypothesis is not that a cell and a human have the same
+cognitive contents. It is that a common dynamical invariant may survive changes
+in organizational scale.
+
+The next multiscale experiment should compare the normalized causal signature
+under cell-like and organism-like parameterizations without changing the
+underlying equations.
