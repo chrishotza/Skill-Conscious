@@ -227,3 +227,18 @@ Implementation:
 - experiments/theory_adversarial_battery.py
 
 The next methodological improvement should replace the toy mechanism controls with richer matched baselines and preregistered metrics before drawing stronger conclusions.
+
+
+## Theory → mechanism matrix v1
+
+The repository now has an explicit matrix separating theory families from the engineering mechanisms actually implemented:
+
+ docs/THEORY_MECHANISM_MATRIX_V1.md
+
+The matrix treats GNWT/GWT, IIT, recurrent processing, higher-order theories, predictive processing, active inference, attention models, self-model approaches and dynamical-systems approaches as theory families whose computational motifs can be isolated and intervened on without claiming that the runtime is a complete implementation of any theory.
+
+This keeps the project's core discipline:
+
+SOURCE THEORY → COMPUTATIONAL MOTIF → RUNTIME MECHANISM → CAUSAL INTERVENTION → RESULT
+
+A positive mechanism result is interpreted as an architectural finding first and a theory-relevant observation second. It is not theory confirmation.
