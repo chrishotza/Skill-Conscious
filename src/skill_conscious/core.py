@@ -464,7 +464,13 @@ class ConsciousRuntime:
         if not isinstance(present, Mapping):
             raise ValueError("subjective field present must be a mapping")
 
+        # Authoritative interoception is the runtime's observed bodily self-state.
+        # Use it when present so the native SubjectiveField path and the
+        # ConsciousFieldRuntime bridge cannot disagree about the transformed subject.
         internal = self._numeric_state(self.state.self_state)
+        observed_interoceptive = self._numeric_state(self.state.interoceptive_state)
+        if "energy" in observed_interoceptive:
+            internal["energy"] = observed_interoceptive["energy"]
         relevance = self_relevance
         if not isinstance(relevance, (int, float)) or isinstance(relevance, bool):
             relevance = self.state.self_model.get("self_relevance", 0.0)
