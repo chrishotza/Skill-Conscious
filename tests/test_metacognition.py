@@ -205,13 +205,15 @@ def test_metacognitive_state_delta_bounds_recursive_mappings():
             "self_model": nested,
         }
     }
+    after_nested = dict(nested)
+    after_nested["new"] = 1
     before = {
         "self_model": nested,
         "workspace": {"last_action_receipt": nested},
         "action_history": [{"action_id": "a1"}],
     }
     after = {
-        "self_model": nested,
+        "self_model": after_nested,
         "workspace": {"last_action_receipt": nested, "new": 1},
         "action_history": [{"action_id": "a1"}, {"action_id": "a2"}],
     }
