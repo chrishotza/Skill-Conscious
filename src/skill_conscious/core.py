@@ -1136,6 +1136,24 @@ class ConsciousRuntime:
             return {"enabled": False, "observed": False, "reason": "self_observation_disabled"}
         current = build_self_observation(self.state.to_dict())
         model = dict(self.state.self_model)
+
+        # The first observation establishes a runtime-owned expected self-state
+        # when none exists yet. Later observations can therefore expose
+        # self-model prediction error without requiring a model-generated target.
+        expected_self_state = model.get("expected_self_state")
+        if (
+            not isinstance(expected_self_state, Mapping)
+            and isinstance(self.state.self_state, Mapping)
+            and self.state.self_state
+        ):
+            numeric_self_state = {
+                str(key): float(value)
+                for key, value in self.state.self_state.items()
+                if isinstance(value, (int, float)) and not isinstance(value, bool)
+            }
+            if numeric_self_state:
+                model["expected_self_state"] = numeric_self_state
+
         raw_expected = model.get("self_observation_expected")
         if isinstance(raw_expected, Mapping):
             expected = SelfObservationProfile.from_mapping(raw_expected)
