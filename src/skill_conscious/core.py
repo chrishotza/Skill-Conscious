@@ -1489,6 +1489,29 @@ class ConsciousRuntime:
         model["metacognitive_history"] = history
         self.state.self_model = model
 
+    @staticmethod
+    def _compact_metacognitive_action(action: Mapping[str, Any]) -> dict[str, Any]:
+        """Prevent completed traces from recursively embedding prior metacognitive traces."""
+        result = dict(action)
+
+        trajectory = result.get("trajectory")
+        if isinstance(trajectory, Mapping):
+            compact_trajectory = dict(trajectory)
+            compact_trajectory.pop("metacognition", None)
+            result["trajectory"] = compact_trajectory
+
+        for key in ("target_adaptation", "self_model_adaptation"):
+            value = result.get(key)
+            if not isinstance(value, Mapping):
+                continue
+            compact = dict(value)
+            compact.pop("evidence", None)
+            compact.pop("updates", None)
+            result[key] = compact
+
+        result.pop("self_observation", None)
+        return result
+
     def _close_metacognitive_trace(
         self,
         action: Mapping[str, Any],
@@ -1501,7 +1524,7 @@ class ConsciousRuntime:
 
         actual_delta = state_delta(before_snapshot, self.state.to_dict())
         updated = dict(current)
-        updated["action"] = dict(action)
+        updated["action"] = self._compact_metacognitive_action(action)
         updated["outcome"] = dict(outcome)
         updated["state_delta"] = actual_delta
 
