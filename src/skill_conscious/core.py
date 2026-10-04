@@ -71,6 +71,15 @@ DEFAULT_REGIME_WEIGHTS: dict[str, float] = {
     "learning": 0.25,
 }
 
+
+def _clamp(
+    value: float,
+    lower: float = 0.0,
+    upper: float = 1.0,
+) -> float:
+    return max(float(lower), min(float(upper), float(value)))
+
+
 def _compact_runtime_mapping(value: Mapping[str, Any] | None) -> dict[str, Any]:
     """Keep historical runtime snapshots bounded and non-recursive."""
     if not isinstance(value, Mapping):
