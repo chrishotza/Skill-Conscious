@@ -85,3 +85,11 @@ This correction preserves the experimental distinction between:
 - removing a mechanism;
 - recovering the previous state;
 - selecting a separately modeled ablated-state trajectory.
+
+
+## Runtime ownership guard
+
+The host-model frame is not allowed to forge or replace the runtime-owned
+SubjectiveField or primary-substrate snapshots. Those keys are preserved by the
+runtime whenever they already exist. The host can add auxiliary workspace data,
+but causal subjective state remains generated and persisted by the runtime.
