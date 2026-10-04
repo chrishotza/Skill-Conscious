@@ -82,10 +82,9 @@ def build_embodiment_state(
 
     pending = state.get("pending_action")
     action_history = state.get("action_history", [])
-    has_action = isinstance(pending, Mapping) or (
-        isinstance(action_history, list) and bool(action_history)
-    )
-    ownership_coupling = 1.0 if has_action else (
+    has_history = isinstance(action_history, list) and bool(action_history)
+    has_pending = isinstance(pending, Mapping)
+    ownership_coupling = 1.0 if (has_pending or has_history) else (
         0.5 if state.get("selected_trajectory") is not None else 0.0
     )
 
