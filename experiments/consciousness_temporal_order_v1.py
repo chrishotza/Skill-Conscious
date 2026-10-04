@@ -342,15 +342,23 @@ def run_benchmark(seeds: int = 12) -> dict[str, Any]:
         "seeds": seeds,
         "all_pass": all(
             result["objective_score_match"]
-            and result["history_sensitive"]
-            and result["order_effect_collapses_under_ablation"]
+            and result["full_history_sensitive"]
+            and result["continuity_carries_history"]
+            and result["reentry_carries_history"]
+            and result["history_collapses_when_both_removed"]
             for result in results
         ),
-        "history_sensitive_rate": sum(
-            result["history_sensitive"] for result in results
+        "full_history_sensitive_rate": sum(
+            result["full_history_sensitive"] for result in results
         ) / len(results),
-        "ablation_collapse_rate": sum(
-            result["order_effect_collapses_under_ablation"] for result in results
+        "continuity_history_rate": sum(
+            result["continuity_carries_history"] for result in results
+        ) / len(results),
+        "reentry_history_rate": sum(
+            result["reentry_carries_history"] for result in results
+        ) / len(results),
+        "history_collapse_rate": sum(
+            result["history_collapses_when_both_removed"] for result in results
         ) / len(results),
         "objective_score_match_rate": sum(
             result["objective_score_match"] for result in results
