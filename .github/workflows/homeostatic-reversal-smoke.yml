@@ -5,6 +5,8 @@ on:
     paths:
       - "src/skill_conscious/core.py"
       - "tests/test_self_development.py"
+      - "tests/test_self_development_ablation.py"
+      - "experiments/self_development_ablation.py"
       - "pyproject.toml"
       - ".github/workflows/homeostatic-reversal-smoke.yml"
   pull_request:
@@ -42,6 +44,25 @@ jobs:
               "-s",
               "-x",
               "tests/test_self_development.py::test_homeostatic_reversal_requires_hysteresis",
+          ]))
+          '
+      - name: Reproduce self-development ablation with bounded timeout
+        env:
+          PYTHONFAULTHANDLER: "1"
+        run: |
+          set -euo pipefail
+          echo "=== targeted self-development ablation: fresh process, 30s bound ==="
+          timeout --signal=TERM --kill-after=5s 30s             python -X faulthandler -c '
+          import faulthandler
+          import pytest
+
+          faulthandler.enable()
+          faulthandler.dump_traceback_later(5, repeat=True)
+          raise SystemExit(pytest.main([
+              "-vv",
+              "-s",
+              "-x",
+              "tests/test_self_development_ablation.py::test_self_development_ablation_has_four_conditions",
           ]))
           '
       - name: Run self-development file in one process
