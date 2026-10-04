@@ -23,8 +23,8 @@ def _distance(left: Mapping[str,float], right: Mapping[str,float]) -> float:
 class SubjectiveField:
     # The previous field is causal state, not presentation history: continuity
     # and reentry both read it when constructing the next subjective present.
-    # Temporal-order experiments therefore must compare fresh runtimes with
-    # identical probes and distinct causal predecessors.
+    # Temporal-order experiments therefore compare fresh runtimes with identical
+    # probes, distinct causal predecessors, and a temporal-channel readout.
     previous: dict[str,float] = field(default_factory=dict)
     revision: int = 0
 
