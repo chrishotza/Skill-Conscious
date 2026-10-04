@@ -329,6 +329,69 @@ class ConsciousRuntime:
     def operational_snapshot(self) -> dict[str, Any]:
         return self.snapshot_operational_state()
 
+    def snapshot_operational_replay_profile(self) -> dict[str, Any]:
+        """Return the runtime-owned replay trace used in trajectory selection."""
+        raw = self.state.self_model.get("operational_replay_profile", {})
+        return dict(raw) if isinstance(raw, Mapping) else {}
+
+    def intervene_operational_replay_profile(
+        self,
+        profile: Mapping[str, Any] | None,
+        *,
+        persist: bool = False,
+        intervention_id: str | None = None,
+    ) -> dict[str, Any]:
+        """Experimentally replace replay trace without creating learning evidence."""
+        before = self.snapshot_operational_replay_profile()
+        replacement = dict(profile) if isinstance(profile, Mapping) else {}
+        model = dict(self.state.self_model)
+        model["operational_replay_profile"] = replacement
+        self.state.self_model = model
+        changed = before != replacement
+        event = {
+            "revision": self.state.revision,
+            "type": "operational_replay_intervention",
+            "intervention_id": str(intervention_id) if intervention_id is not None else None,
+            "changed": changed,
+            "evidence_added": False,
+        }
+        self.state.transformation_log.append(event)
+        self.state.transformation_log = self.state.transformation_log[-self.transformation_limit :]
+        self.state.workspace = {
+            **self.state.workspace,
+            "operational_replay_intervention": {
+                **event,
+                "before": before,
+                "after": replacement,
+            },
+        }
+        if persist:
+            self.store.save(self.state)
+        return {
+            "intervened": True,
+            "changed": changed,
+            "evidence_added": False,
+            "intervention_id": event["intervention_id"],
+            "before": before,
+            "after": replacement,
+        }
+
+    def restore_operational_replay_profile(
+        self,
+        snapshot: Mapping[str, Any],
+        *,
+        persist: bool = False,
+        intervention_id: str | None = None,
+    ) -> dict[str, Any]:
+        """Restore a captured replay trace without creating evidence."""
+        if not isinstance(snapshot, Mapping):
+            raise ValueError("replay profile snapshot must be a mapping")
+        return self.intervene_operational_replay_profile(
+            snapshot,
+            persist=persist,
+            intervention_id=intervention_id,
+        )
+
     def set_operational_mode(
         self,
         mode: str,
