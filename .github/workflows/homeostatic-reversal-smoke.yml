@@ -1,6 +1,12 @@
 name: homeostatic-reversal-smoke
 
 on:
+  push:
+    paths:
+      - "src/skill_conscious/core.py"
+      - "tests/test_self_development.py"
+      - "pyproject.toml"
+      - ".github/workflows/homeostatic-reversal-smoke.yml"
   pull_request:
     paths:
       - "src/skill_conscious/core.py"
