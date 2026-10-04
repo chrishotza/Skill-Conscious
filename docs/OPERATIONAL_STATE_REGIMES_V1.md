@@ -55,3 +55,43 @@ re-entry count, replay signatures, trajectory divergence across modes, and
 action-boundary integrity.
 
 None of these measures establishes phenomenal consciousness.
+
+
+## Longitudinal continuity
+
+The operational-state machine is intentionally not reset at mode boundaries.
+
+### OFFLINE → DREAM-LIKE
+
+OFFLINE builds a deterministic consolidation profile from persistent history:
+
+`trajectory_counts → trajectory_scores → dominant_trajectory`
+
+DREAM-LIKE then performs internal replay and records a separate
+`operational_replay_profile`. A replayed trajectory receives bounded endogenous
+reinforcement with decay.
+
+That reinforcement is runtime-owned. It is not treated as external reward,
+ground-truth evidence, or proof that the replayed trajectory was useful.
+
+### DREAM-LIKE → WAKE
+
+After explicit WAKE re-entry, the replay profile remains persistent and can
+causally alter trajectory selection. This creates a testable chain:
+
+```text
+OFFLINE CONSOLIDATION
+        ↓
+DREAM-LIKE REPLAY
+        ↓
+ENDOGENOUS REPLAY PROFILE
+        ↓
+ATTRACTOR / TRAJECTORY BIAS
+        ↓
+WAKE RE-ENTRY
+        ↓
+NEW SELECTION
+```
+
+The benchmark property is that a state transition leaves a runtime-owned,
+persistent causal trace that changes subsequent computation.

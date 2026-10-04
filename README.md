@@ -633,3 +633,43 @@ The runtime now exposes an operational EmbodimentState connecting identity bound
 The layer is runtime-owned and receives authoritative action-cost/interoceptive information from the host action boundary. Experience Geometry records the embodiment dimensions alongside access and self-state dimensions.
 
 This is an engineering boundary model, not a claim of biological embodiment, phenomenal ownership or subjective mineness.
+
+## Runtime 0.12.0 — operational state regimes and longitudinal continuity
+
+The runtime now separates the existing cognitive `regime` from a persistent **operational state**:
+
+~~~text
+WAKE
+  ↓
+OFFLINE → CONSOLIDATION
+  ↓
+DREAM-LIKE → INTERNAL REPLAY
+  ↓
+WAKE RE-ENTRY
+~~~
+
+**WAKE** accepts external input and allows selected trajectories to cross the host action boundary.
+
+**OFFLINE** rejects external input and actions while continuing persistent computational cycles and deterministic memory/history consolidation.
+
+**DREAM-LIKE** replays persistent internal material without external input. It can evaluate and select an internal trajectory, but it cannot execute that trajectory against the host world.
+
+The longitudinal continuity benchmark adds:
+
+~~~text
+CONSOLIDATION
+    ↓
+REPLAY
+    ↓
+RUNTIME-OWNED REPLAY PROFILE
+    ↓
+ATTRACTOR / TRAJECTORY BIAS
+    ↓
+RE-ENTRY
+    ↓
+NEW SELECTION
+~~~
+
+The replay profile is bounded, persistent, auditable, runtime-owned, and explicitly endogenous. It is not treated as external reward or as evidence that the system has phenomenal dreaming or consciousness.
+
+Focused coverage lives in `tests/test_operational_state_regimes.py` and `tests/test_operational_state_continuity.py`.

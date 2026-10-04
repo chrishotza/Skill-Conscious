@@ -18,7 +18,7 @@ from .pre_reflective import PreReflectiveState, build_pre_reflective_state, pred
 from .access import ConsciousAccessState, DEFAULT_ACCESS_CAPACITY, build_access_state, build_limited_present, signal_access_factor
 from .experience_geometry import ExperienceState, FEATURE_ORDER, build_experience_state, experience_distance, changed_dimensions, transition_record
 from .embodiment import EmbodimentState, build_embodiment_state, predicted_resource_fit
-from .state_regime import OperationalState, OPERATIONAL_MODES, operational_dynamics, normalize_operational_mode
+from .state_regime import OPERATIONAL_RUNTIME_KEYS, OperationalState, OPERATIONAL_MODES, build_consolidation_profile, operational_dynamics, normalize_operational_mode, reinforce_replay_profile
 
 __all__ = [
     "ConsciousRuntime",
@@ -84,6 +84,9 @@ __all__ = [
     "OPERATIONAL_MODES",
     "operational_dynamics",
     "normalize_operational_mode",
+    "OPERATIONAL_RUNTIME_KEYS",
+    "build_consolidation_profile",
+    "reinforce_replay_profile",
 ]
 
 from .adversarial_battery import AdversarialCondition, CONDITIONS, run_adversarial_battery, run_condition, summarize_battery

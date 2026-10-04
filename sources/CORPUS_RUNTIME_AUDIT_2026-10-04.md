@@ -32,7 +32,7 @@ The community archive is the memory layer. This audit is the translation layer. 
 | No-report / covert-measure logic | IMPLEMENTED AS ARCHITECTURAL RULE | Core can operate with report and metacognition disabled. |
 | Animal-consciousness caution | DOCUMENTED | Epistemic boundary, not a machine-consciousness claim. |
 | Embodiment / substrate may matter | PARTIAL | Interoceptive, affective, temporal and homeostatic structures exist; physical substrate/resource embodiment is not modeled. |
-| Sleep / dreams / state regimes | PARTIAL | Temporal state, memory and regimes exist; dream/sleep and offline consolidation are not implemented. |
+| Sleep / dreams / state regimes | IMPLEMENTED (operational v1) | Persistent WAKE/OFFLINE/DREAM-LIKE modes, offline consolidation, internal replay, action-boundary restrictions and explicit WAKE re-entry. This is an engineering analogue, not biological sleep/dream evidence. |
 | Heideggerian finitude / existential pressure | DOCUMENTED | Prototype preserved in archive; no finitude mechanism promoted into the core. |
 | Zeland-style possibility / attention vocabulary | PARTIAL | Possibilities and trajectory choice exist; Zeland is not treated as physics evidence. |
 | Krishnamurti observation-without-commentary | PARTIAL | Runtime observation is separated from language/report; no standalone phenomenological mechanism. |
@@ -62,7 +62,7 @@ Theory-to-mechanism matrix implemented in docs/THEORY_MECHANISM_MATRIX_V1.md. St
 
 ### Neuroscience / cognition
 Implemented or partial: attention, memory, self-modeling, metacognition, interoception, affect, agency, temporal continuity and prediction error.
-Implemented operational v1: embodiment boundary, interoceptive coupling, resource fit, ownership coupling and action cost. Still incomplete: body-ownership analogues, richer temporal integration, sleep/dreaming regimes, and matched ablations for each cognitive mechanism.
+Implemented operational v1: embodiment boundary, interoceptive coupling, resource fit, ownership coupling and action cost. Still incomplete: body-ownership analogues, richer temporal integration and matched ablations for each cognitive mechanism.
 
 ### Phenomenology
 Current translation: pre-reflective core, present integrity, self-relevance and temporal continuity.
@@ -78,11 +78,11 @@ Now added: experiments/unified_causal_benchmark.py, combining access interventio
 Still incomplete: richer longitudinal runs and external-model comparisons.
 
 ## D. Highest-priority missing translations
-1. State-regime extension — formal sleep/offline/dream-like regime only after defining measurable computational differences.
-2. Rich longitudinal benchmark — repeated multi-cycle comparisons with adaptation and intervention histories; the current unified benchmark is the first deterministic step.
-3. External-model evaluation — provider-neutral runs against the same matched protocol.
-4. Body-ownership / mineness analogue — stronger controlled ownership experiments beyond the current operational boundary model.
-5. Alternative geometry metrics — richer repertoire, topology and transition measures beyond normalized RMS distance.
+1. Rich longitudinal benchmark — repeated multi-cycle comparisons with adaptation and intervention histories; operational state continuity is now implemented in a first deterministic benchmark, but broader matched runs are still needed.
+2. External-model evaluation — provider-neutral runs against the same matched protocol.
+3. Body-ownership / mineness analogue — stronger controlled ownership experiments beyond the current operational boundary model.
+4. Alternative geometry metrics — richer repertoire, topology and transition measures beyond normalized RMS distance.
+5. External-model evaluation — provider-neutral runs against the same matched protocol.
 
 ## E. Do not implement merely because a motif is interesting
 Universal metaphysical consciousness, spiritual entities, undocumented paranormal capabilities, quantum vocabulary without falsifiable physical mechanism, a scalar consciousness score, and self-report as a consciousness detector.
@@ -110,7 +110,7 @@ This does not settle phenomenology. The result is evidence about the causal orga
 
 ## Experience Geometry runtime update
 
-The dedicated geometry gap is now closed at v1 on PR #74. The runtime derives a 21-dimensional normalized operational state and persists transition records containing RMS distance and changed dimensions.
+The dedicated geometry gap is now closed at v1 on PR #74. The runtime derives a 26-dimensional normalized operational state and persists transition records containing RMS distance and changed dimensions.
 
 Bandwidth is explicitly represented in the geometry through access entropy, access compression, self-access fraction and world-access fraction. Therefore an access-budget intervention can alter the measured state-space position even when persistent state is otherwise held fixed.
 
@@ -148,3 +148,25 @@ The benchmark is deliberately described as an architecture benchmark. It does no
 Operational EmbodimentState is now implemented and covered by a focused smoke suite. It adds runtime-owned boundary integrity, interoceptive coupling, resource fit, ownership coupling and action cost, and connects those variables into the persistent experience geometry.
 
 The implementation deliberately remains weaker than biological embodiment and does not claim phenomenal ownership or mineness.
+
+
+## Operational state continuity runtime update
+
+The previously open state-regime gap is now translated into an executable operational
+mechanism on PR #75/#76.
+
+The runtime distinguishes cognitive regime from operational state:
+
+WAKE → OFFLINE CONSOLIDATION → DREAM-LIKE REPLAY → WAKE RE-ENTRY
+
+PR #76 adds a longitudinal causal trace:
+
+CONSOLIDATION → REPLAY → RUNTIME-OWNED REPLAY PROFILE → ATTRACTOR / TRAJECTORY BIAS → NEW WAKE SELECTION
+
+The replay profile is bounded and persists across restart. It is explicitly
+endogenous and is not treated as external reward or evidence of phenomenal
+dreaming/consciousness.
+
+The focused operational smoke now passes after correcting and validating the
+longitudinal continuity test. The full pytest workflow remains a broader
+validation layer and may still be in progress independently.

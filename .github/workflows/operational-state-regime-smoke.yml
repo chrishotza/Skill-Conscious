@@ -6,6 +6,7 @@ on:
       - "src/skill_conscious/state_regime.py"
       - "src/skill_conscious/core.py"
       - "tests/test_operational_state_regimes.py"
+      - "tests/test_operational_state_continuity.py"
       - "pyproject.toml"
       - ".github/workflows/operational-state-regime-smoke.yml"
 
@@ -21,4 +22,4 @@ jobs:
       - name: Install test dependencies
         run: pip install -e ".[dev]"
       - name: Run operational state regime smoke tests
-        run: pytest -q tests/test_operational_state_regimes.py
+        run: pytest -q tests/test_operational_state_regimes.py tests/test_operational_state_continuity.py

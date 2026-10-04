@@ -53,6 +53,9 @@ from .state_regime import (
     build_memory_consolidation,
     operational_dynamics,
     normalize_operational_mode,
+    OPERATIONAL_RUNTIME_KEYS,
+    build_consolidation_profile,
+    reinforce_replay_profile,
 )
 
 
@@ -81,6 +84,7 @@ DEFAULT_TRAJECTORY_WEIGHTS: dict[str, float] = {
     "homeostatic_fit": 0.75,
     "self_relevance": 0.5,
     "pre_reflective_coherence": 0.5,
+    "replay_reinforcement": 0.75,
 }
 
 
@@ -403,7 +407,14 @@ class ConsciousRuntime:
                 self.state.to_dict(),
                 replay_limit=replay_limit,
             )
+            consolidation_profile = build_consolidation_profile(
+                consolidation
+            )
+            model = dict(self.state.self_model)
+            model["operational_consolidation_profile"] = consolidation_profile
+            self.state.self_model = model
             result["consolidation"] = consolidation
+            result["consolidation_profile"] = consolidation_profile
             operational = OperationalState(
                 mode=operational.mode,
                 entered_revision=operational.entered_revision,
@@ -430,10 +441,28 @@ class ConsciousRuntime:
             )
             candidates = internal_present.get("candidate_futures", [])
             selected = self.select_trajectory(candidates) if candidates else None
+            adaptation = None
+            attractor_before = self.build_attractor()
             if selected is not None:
-                self.state.selected_trajectory = dict(selected)
+                selected_copy = dict(selected)
+                self.state.selected_trajectory = selected_copy
+
+                previous_profile = self.state.self_model.get(
+                    "operational_replay_profile",
+                    {},
+                )
+                adaptation = reinforce_replay_profile(
+                    previous_profile,
+                    str(selected_copy.get("id", "")),
+                )
+                model = dict(self.state.self_model)
+                model["operational_replay_profile"] = adaptation
+                self.state.self_model = model
+                self.state.attractor = self.build_attractor()
 
             result["replay"] = replay
+            result["adaptation"] = adaptation
+            result["attractor_changed"] = attractor_before != self.state.attractor
             result["candidate_count"] = len(candidates)
             result["selected_trajectory"] = (
                 dict(selected) if isinstance(selected, Mapping) else None
@@ -3073,10 +3102,19 @@ class ConsciousRuntime:
         }
         return {
             "regime": self.state.regime,
+            "operational_mode": self.operational_mode(),
             "attention": list(self.state.attention),
             "intention": self.state.intention,
             "coherence": self.calculate_coherence(),
             "trajectory_weights": stable_weights,
+            "replay_profile": dict(
+                self.state.self_model.get("operational_replay_profile", {})
+            )
+            if isinstance(
+                self.state.self_model.get("operational_replay_profile", {}),
+                Mapping,
+            )
+            else {},
         }
 
     def generate_candidate_futures(self) -> list[dict[str, Any]]:
@@ -3277,6 +3315,22 @@ class ConsciousRuntime:
             "revision": self.state.revision,
         }
 
+    def replay_reinforcement(self, candidate: Mapping[str, Any]) -> float:
+        """Return runtime-owned reinforcement from endogenous replay history."""
+        identifier = str(candidate.get("id", "")).strip()
+        if not identifier:
+            return 0.0
+        profile = self.state.self_model.get("operational_replay_profile", {})
+        if not isinstance(profile, Mapping):
+            return 0.0
+        scores = profile.get("trajectory_scores", {})
+        if not isinstance(scores, Mapping):
+            return 0.0
+        value = scores.get(identifier, 0.0)
+        if not isinstance(value, (int, float)) or isinstance(value, bool):
+            return 0.0
+        return max(0.0, min(1.0, float(value)))
+
     def trajectory_weights(self) -> dict[str, float]:
         weights = dict(DEFAULT_TRAJECTORY_WEIGHTS)
 
@@ -3337,6 +3391,10 @@ class ConsciousRuntime:
         signals.setdefault("salience", self.salience_score())
         signals.setdefault("self_dissonance", self.state.self_dissonance)
         signals.setdefault("latent_pattern", self.latent_pattern_score())
+        signals.setdefault(
+            "replay_reinforcement",
+            self.replay_reinforcement(candidate),
+        )
 
         weights = self.trajectory_weights()
         access_state = self.conscious_access_state()
@@ -3859,6 +3917,7 @@ class ConsciousRuntime:
                 *SELF_OBSERVATION_RUNTIME_KEYS,
                 *METACOGNITIVE_RUNTIME_KEYS,
                 *METACOGNITIVE_PREDICTION_RUNTIME_KEYS,
+                *OPERATIONAL_RUNTIME_KEYS,
                 "experience_geometry_current",
                 "experience_geometry_history",
             }

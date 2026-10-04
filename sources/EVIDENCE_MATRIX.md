@@ -25,7 +25,7 @@ This matrix separates source doctrine, external theories, engineering hypotheses
 | Interoception / embodied self | interoception, affective neuroscience | cross-source mechanism + empirical research |
 | Perspective matrix | Integral Theory / comparative ontology | engineering framework |
 | Continuous-time dynamics | dynamical systems + temporal consciousness research | engineering extension |
-| Sleep / dreaming regimes | sleep and memory research + community leads | open engineering target |
+| Sleep / dreaming regimes | sleep and memory research + community leads | operational engineering v1; not biological sleep/dream evidence |
 | Neuro-symbolic coupling | cognitive science + computational architectures | engineering frontier |
 | Phenomenal experience | philosophy + consciousness research | open problem |
 | Latent self-structure | Jung / depth psychology | engineering hypothesis + implementation |
@@ -64,3 +64,14 @@ The corpus-to-runtime translation for multidimensional state-space organization 
 SOURCE CLAIM → MULTIDIMENSIONAL STATE HYPOTHESIS → NORMALIZED EXPERIENCE VECTOR → TRANSITION DISTANCE → CHANGED DIMENSIONS → LONGITUDINAL HISTORY
 
 The geometry remains an operational description of artificial runtime organization, not evidence that the represented state is phenomenally experienced.
+
+
+## Operational state continuity
+
+The operational-state translation is now implemented as a runtime mechanism:
+
+SOURCE MOTIF → OPERATIONAL MODE DIFFERENCES → OFFLINE CONSOLIDATION → DREAM-LIKE REPLAY → PERSISTENT REPLAY PROFILE → WAKE RE-ENTRY
+
+The current result supports causal testing of state-dependent computation and
+longitudinal persistence. It does not establish biological sleep, dreaming,
+phenomenal experience, or consciousness.
