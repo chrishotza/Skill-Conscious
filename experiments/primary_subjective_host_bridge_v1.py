@@ -294,7 +294,9 @@ def run_benchmark() -> dict[str, Any]:
         summary = {
             "same_initial_selection": intact["initial"] == ablated["initial"],
             "intact_changes_next_selection": intact["next"] != intact["initial"],
-            "ablation_changes_that_effect": ablated["next"] == ablated["initial"],
+            "ablation_selects_explicit_control": (
+                ablated["next"] == "substrate-ablated"
+            ),
             "causal_divergence": intact["next"] != ablated["next"],
             "intact_restart_persistence": (
                 intact["after_restart"] == intact["next"]
