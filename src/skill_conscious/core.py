@@ -124,6 +124,57 @@ DEFAULT_TRAJECTORY_WEIGHTS: dict[str, float] = {
 }
 
 
+def _assert_acyclic(value: Any, *, path: tuple[str, ...] = (), active: set[int] | None = None, visited: set[int] | None = None) -> None:
+    """Detect recursive runtime state before dataclasses.asdict() can overflow."""
+    if active is None:
+        active = set()
+    if visited is None:
+        visited = set()
+
+    if value is None or isinstance(value, (str, int, float, bool, bytes)):
+        return
+
+    object_id = id(value)
+    if object_id in active:
+        location = " -> ".join(path) or "<root>"
+        raise RuntimeError(
+            "cyclic runtime state detected during serialization at "
+            f"{location}"
+        )
+    if object_id in visited:
+        return
+
+    active.add(object_id)
+    visited.add(object_id)
+    try:
+        if is_dataclass(value):
+            for field_info in fields(value):
+                _assert_acyclic(
+                    getattr(value, field_info.name),
+                    path=path + (field_info.name,),
+                    active=active,
+                    visited=visited,
+                )
+        elif isinstance(value, Mapping):
+            for key, item in value.items():
+                _assert_acyclic(
+                    item,
+                    path=path + (str(key),),
+                    active=active,
+                    visited=visited,
+                )
+        elif isinstance(value, (list, tuple, set, frozenset)):
+            for index, item in enumerate(value):
+                _assert_acyclic(
+                    item,
+                    path=path + (f"[{index}]",),
+                    active=active,
+                    visited=visited,
+                )
+    finally:
+        active.remove(object_id)
+
+
 @dataclass
 class ConsciousState:
     identity: str
@@ -159,6 +210,8 @@ class ConsciousState:
     operational_state: dict[str, Any] = field(default_factory=dict)
 
     def to_dict(self) -> dict[str, Any]:
+        if os.getenv("SKILL_CONSCIOUS_CHECK_STATE_CYCLES") == "1":
+            _assert_acyclic(self, path=("state",))
         return asdict(self)
 
     @classmethod
