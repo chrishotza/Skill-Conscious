@@ -47,6 +47,6 @@ def test_external_host_behavioral_suite_is_quantitatively_causal(monkeypatch):
     assert metrics["intact_switch_rate"] == 1.0
     assert metrics["ablation_preservation_rate"] == 1.0
     assert metrics["intact_restart_persistence_rate"] == 1.0
-    assert metrics["ablated_restart_persistence_rate"] == 1.0
+    assert metrics["ablation_restart_persistence_rate"] == 1.0
     assert metrics["all_authoritative_outcomes_present"] is True
     assert metrics["all_interventions_non_evidential"] is True
