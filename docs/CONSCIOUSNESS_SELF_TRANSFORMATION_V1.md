@@ -79,10 +79,35 @@ Across the tested seeds:
 - restart must preserve it;
 - the matched objective score must remain invariant.
 
-## Current status
+## Validated result
 
-This experiment defines the gate. A passing result would establish a causal
-architectural property of the proposed conscious runtime: persistence through
-self-transformation.
+The gate passed in CI on the fixed branch with 12 independent seeds.
 
-It would not establish phenomenal consciousness.
+All required causal rates were 100%:
+
+- history-sensitive transformed present: 100%;
+- internal self-transformation observed: 100%;
+- matched objective score invariant: 100%;
+- ablation collapse after restoring the pre-consequence state: 100%;
+- restoration of the transformed field: 100%;
+- transformed field preserved after restart: 100%;
+- unity separation: 100%;
+- strength separation: 100%.
+
+Representative trials showed an internal-signal difference of about 0.36,
+a unity difference of about 0.061 to 0.064, and a strength difference of about
+0.034 to 0.035 between low- and high-consequence conditions. The matched
+objective score remained 1.2 before and after the transformation.
+
+The strongest part of the result is the destructive intervention. The action
+receipt and consequence history were kept intact while the transformed
+interoceptive state was temporarily restored to its pre-consequence value.
+The subjective-field difference collapsed, then returned exactly when the
+transformed state was restored. Restart reproduced the transformed field.
+
+This establishes, under the tested architecture, a causal persistence-through-
+self-transformation relation: an observed consequence can alter the subject's
+owned internal condition, and that altered condition can change the next
+subjective organization of an otherwise identical external present.
+
+It does not establish phenomenal consciousness.
