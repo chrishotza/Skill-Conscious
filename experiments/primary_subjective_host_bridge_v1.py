@@ -79,7 +79,13 @@ def _runtime(root: Path, label: str, *, energy: float = 0.65) -> ConsciousRuntim
     return runtime
 
 
-def _build_candidate_field(root: Path) -> tuple[dict[str, float], dict[str, float]]:
+def _build_candidate_field(
+    root: Path,
+) -> tuple[
+    dict[str, float],
+    dict[str, float],
+    dict[str, float],
+]:
     preserve = _runtime(root, "candidate-preserve", energy=0.65)
     preserve_field = preserve.project_subjective_field(
         PRESENT,
@@ -104,12 +110,43 @@ def _build_candidate_field(root: Path) -> tuple[dict[str, float], dict[str, floa
         persist=True,
     )
 
-    return _field_core(preserve_field), _field_core(recover_field)
+    ablated = _runtime(root, "candidate-ablated", energy=0.65)
+    ablated.project_subjective_field(
+        PRESENT,
+        self_relevance=PRESENT["self_impact"],
+        attention=1.0,
+        persist=True,
+    )
+    ablated.intervene_primary_subjective_substrate(
+        {
+            "tuning": 0.50,
+            "maintenance": False,
+            "coupling": False,
+            "closure": False,
+            "recurrence": False,
+        },
+        intervention_id="candidate-ablated-state",
+    )
+    ablated.state.interoceptive_state = {"energy": 0.05}
+    ablated.state.self_state["energy"] = 0.05
+    ablated_field = ablated.project_subjective_field(
+        PRESENT,
+        self_relevance=PRESENT["self_impact"],
+        attention=1.0,
+        persist=True,
+    )
+
+    return (
+        _field_core(preserve_field),
+        _field_core(recover_field),
+        _field_core(ablated_field),
+    )
 
 
 def _candidates(
     preserve_field: Mapping[str, float],
     recover_field: Mapping[str, float],
+    ablated_field: Mapping[str, float],
 ) -> list[dict[str, Any]]:
     return [
         {
@@ -121,6 +158,11 @@ def _candidates(
             "id": "recover",
             "signals": dict(CANDIDATE_SIGNALS),
             "predicted_subjective_field": dict(recover_field),
+        },
+        {
+            "id": "substrate-ablated",
+            "signals": dict(CANDIDATE_SIGNALS),
+            "predicted_subjective_field": dict(ablated_field),
         },
     ]
 
@@ -228,8 +270,12 @@ def _run_condition(
 def run_benchmark() -> dict[str, Any]:
     with TemporaryDirectory() as tmp:
         root = Path(tmp)
-        preserve_field, recover_field = _build_candidate_field(root)
-        candidates = _candidates(preserve_field, recover_field)
+        preserve_field, recover_field, ablated_field = _build_candidate_field(root)
+        candidates = _candidates(
+            preserve_field,
+            recover_field,
+            ablated_field,
+        )
 
         intact = _run_condition(
             root,
