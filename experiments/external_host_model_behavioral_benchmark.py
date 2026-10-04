@@ -362,8 +362,20 @@ def main() -> None:
         api_key=args.api_key,
         repeats=args.repeats,
     )
-    if not result["metrics"]["model_generated_candidate_fields"]:
-        raise AssertionError("candidate field was not model-generated")
+    required = (
+        "model_generated_candidate_fields",
+        "audit_trace_complete",
+        "paired_field_hashes_equal",
+        "paired_input_hashes_equal",
+        "all_authoritative_outcomes_present",
+        "all_interventions_non_evidential",
+    )
+    failed = [name for name in required if not result["metrics"].get(name)]
+    if failed:
+        raise AssertionError(
+            "external host model benchmark audit invariants failed: "
+            + ", ".join(failed)
+        )
 
 
 if __name__ == "__main__":
