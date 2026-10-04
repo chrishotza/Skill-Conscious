@@ -6,7 +6,10 @@ def test_primary_subjective_substrate_causal_gate():
     summary = result["summary"]
     assert result["all_pass"] is True
     assert summary["seed_count"] == 6
-    assert summary["field_intervention_rate"] == 1.0
+    assert summary["field_intervention_any_rate"] == 1.0
+    assert summary["field_components_changed_rate"] == 1.0
+    assert summary["substrate_gain_intervention_rate"] == 1.0
+    assert summary["substrate_drive_intervention_rate"] == 1.0
     assert summary["field_restoration_rate"] == 1.0
     assert summary["field_restart_persistence_rate"] == 1.0
     assert summary["action_intervention_rate"] == 1.0
