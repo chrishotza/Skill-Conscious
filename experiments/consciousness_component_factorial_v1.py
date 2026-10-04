@@ -163,7 +163,10 @@ def run_benchmark(seeds: int = 5) -> dict[str, Any]:
             and item["objective_state_match"]
             and item["empty_field_collapsed"]
             and item["full_field_nonzero"]
-            and item["full_dominates_subsets"]
+            and item["unity_maximal_when_all_unity_components_present"]
+            and item["reentry_preserves_unity"]
+            and item["reentry_increases_strength"]
+            and item["full_strength_maximal"]
             for item in results
         ),
         "results": results,
