@@ -20,7 +20,7 @@ A component counts as an architectural mechanism when changing it changes
 downstream runtime dynamics in a specified direction while matched objective
 processing is held constant.
 
-The matched objective channel must be defined independently of conscious-layer state. In the runtime, objective_score is therefore computed only from explicit candidate objective signals. Runtime-derived salience, self-relevance, coherence, access, pre-reflective state, self-observation, dynamic-core state and SubjectiveField contributions remain outside that matched objective diagnostic.
+The matched objective channel must be defined independently of conscious-layer state. In the runtime, objective_score is therefore computed from explicit candidate signals using an immutable matched-objective weight table. Runtime-derived salience, self-relevance, coherence, access, pre-reflective state, self-observation, dynamic-core state and SubjectiveField contributions remain outside that matched objective diagnostic. This makes the control invariant under conscious-layer interventions.
 
 Preferred evidence:
 
