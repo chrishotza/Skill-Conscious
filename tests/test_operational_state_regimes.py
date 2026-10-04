@@ -5,7 +5,7 @@ from pathlib import Path
 import pytest
 
 from skill_conscious.core import ConsciousRuntime
-from src.skill_conscious.state_regime import OPERATIONAL_MODES
+from skill_conscious.state_regime import OPERATIONAL_MODES
 
 
 def make_runtime(tmp_path: Path) -> ConsciousRuntime:
