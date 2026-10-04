@@ -399,6 +399,13 @@ class ConsciousRuntime:
         self.subjective_field_weight = float(subjective_field_weight)
         self.primary_subjective_substrate_enabled = bool(primary_subjective_substrate_enabled)
         self.primary_subjective_substrate_weight = float(primary_subjective_substrate_weight)
+        self.primary_subjective_substrate_policy: dict[str, Any] = {
+            "tuning": 1.0,
+            "maintenance": True,
+            "coupling": True,
+            "closure": True,
+            "recurrence": True,
+        }
         self.subjective_field = SubjectiveField()
         self.primary_subjective_substrate = PrimarySubjectiveSubstrate()
         dynamic_path = (
@@ -458,6 +465,7 @@ class ConsciousRuntime:
         return {
             "enabled": True,
             "snapshot": self.primary_subjective_substrate.snapshot(),
+            "policy": copy.deepcopy(self.primary_subjective_substrate_policy),
             "weight": round(self.primary_subjective_substrate_weight, 6),
         }
 
@@ -470,40 +478,44 @@ class ConsciousRuntime:
     ) -> dict[str, Any]:
         if not self.primary_subjective_substrate_enabled:
             raise RuntimeError("primary subjective substrate is disabled")
-        allowed = {
-            "tuning",
-            "maintenance",
-            "coupling",
-            "closure",
-            "recurrence",
-        }
+        if not isinstance(profile, Mapping):
+            raise ValueError("substrate intervention profile must be a mapping")
+
+        allowed = {"tuning", "maintenance", "coupling", "closure", "recurrence"}
         before = self.snapshot_primary_subjective_substrate()
-        after = dict(before.get("snapshot", {}))
         for key in allowed:
-            if key in profile:
-                after[key] = profile[key]
+            if key not in profile:
+                continue
+            value = profile[key]
+            self.primary_subjective_substrate_policy[key] = (
+                float(value) if key == "tuning" else bool(value)
+            )
+        after = self.snapshot_primary_subjective_substrate()
         event = {
             "revision": self.state.revision,
             "type": "primary_subjective_substrate_intervention",
             "intervention_id": str(intervention_id) if intervention_id is not None else None,
             "changed": before != after,
             "evidence_added": False,
-            "profile": dict(profile),
         }
         self.state.transformation_log.append(event)
         self.state.transformation_log = self.state.transformation_log[-self.transformation_limit:]
         self.state.workspace = {
             **self.state.workspace,
-            "primary_subjective_substrate_intervention": dict(profile),
+            "primary_subjective_substrate": {
+                "snapshot": copy.deepcopy(self.primary_subjective_substrate.snapshot()),
+                "policy": copy.deepcopy(self.primary_subjective_substrate_policy),
+                "enabled": True,
+            },
         }
         if persist:
             self.store.save(self.state)
         return {
-            "changed": bool(event["changed"]),
+            "changed": event["changed"],
             "evidence_added": False,
             "intervention_id": event["intervention_id"],
             "before": before,
-            "profile": dict(profile),
+            "after": after,
         }
 
     def restore_primary_subjective_substrate(
@@ -515,14 +527,23 @@ class ConsciousRuntime:
     ) -> dict[str, Any]:
         if not self.primary_subjective_substrate_enabled:
             raise RuntimeError("primary subjective substrate is disabled")
-        raw = snapshot.get("snapshot", snapshot) if isinstance(snapshot, Mapping) else {}
-        if not isinstance(raw, Mapping):
-            raise ValueError("substrate snapshot must be a mapping")
-        self.primary_subjective_substrate.restore(raw)
+        raw = snapshot.get("snapshot", snapshot)
+        if isinstance(raw, Mapping):
+            self.primary_subjective_substrate.restore(raw)
+        policy = snapshot.get("policy") if isinstance(snapshot, Mapping) else None
+        if isinstance(policy, Mapping):
+            self.primary_subjective_substrate_policy = {
+                "tuning": float(policy.get("tuning", 1.0)),
+                "maintenance": bool(policy.get("maintenance", True)),
+                "coupling": bool(policy.get("coupling", True)),
+                "closure": bool(policy.get("closure", True)),
+                "recurrence": bool(policy.get("recurrence", True)),
+            }
         self.state.workspace = {
             **self.state.workspace,
             "primary_subjective_substrate": {
                 "snapshot": copy.deepcopy(self.primary_subjective_substrate.snapshot()),
+                "policy": copy.deepcopy(self.primary_subjective_substrate_policy),
                 "enabled": True,
             },
         }
@@ -541,234 +562,6 @@ class ConsciousRuntime:
             "evidence_added": False,
             "intervention_id": event["intervention_id"],
         }
-
-    def snapshot_subjective_field(self) -> dict[str, Any]:
-        """Return the runtime-owned conscious field without requiring verbal report."""
-        if not self.subjective_field_enabled:
-            return {"enabled": False, "field": {}}
-        return {
-            "enabled": True,
-            "field": self.subjective_field.snapshot(),
-            "weight": round(self.subjective_field_weight, 6),
-            "revision": self.subjective_field.revision,
-        }
-
-    def project_subjective_field(
-        self,
-        present: Mapping[str, Any],
-        *,
-        self_relevance: float | None = None,
-        valence: float | None = None,
-        attention: float | None = None,
-        integration: bool = True,
-        temporal_continuity: bool = True,
-        reentry: bool = True,
-        persist: bool = False,
-        primary_subjective_tuning: float = 1.0,
-        primary_subjective_maintenance: bool = True,
-        primary_subjective_coupling: bool = True,
-        primary_subjective_closure: bool = True,
-        primary_subjective_recurrence: bool = True,
-    ) -> dict[str, Any]:
-        """Project the unified present into the opt-in SubjectiveField mechanism."""
-        if not self.subjective_field_enabled:
-            return {"enabled": False, "field": {}}
-        if not isinstance(present, Mapping):
-            raise ValueError("subjective field present must be a mapping")
-
-        # Authoritative interoception is the runtime's observed bodily self-state.
-        # Use it when present so the native SubjectiveField path and the
-        # ConsciousFieldRuntime bridge cannot disagree about the transformed subject.
-        internal = self._numeric_state(self.state.self_state)
-        observed_interoceptive = self._numeric_state(self.state.interoceptive_state)
-        if "energy" in observed_interoceptive:
-            internal["energy"] = observed_interoceptive["energy"]
-        relevance = self_relevance
-        if not isinstance(relevance, (int, float)) or isinstance(relevance, bool):
-            relevance = self.state.self_model.get("self_relevance", 0.0)
-        if not isinstance(relevance, (int, float)) or isinstance(relevance, bool):
-            relevance = 0.0
-
-        effective_valence = valence
-        if not isinstance(effective_valence, (int, float)) or isinstance(effective_valence, bool):
-            effective_valence = self.state.valence
-
-        effective_attention = attention
-        if not isinstance(effective_attention, (int, float)) or isinstance(effective_attention, bool):
-            salience_values = [
-                float(value)
-                for value in self.state.salience.values()
-                if isinstance(value, (int, float)) and not isinstance(value, bool)
-            ]
-            effective_attention = max(salience_values, default=1.0)
-
-        substrate_snapshot = None
-        if self.primary_subjective_substrate_enabled:
-            substrate_snapshot = self.primary_subjective_substrate.step(
-                present,
-                internal,
-                tuning=float(primary_subjective_tuning),
-                maintenance=bool(primary_subjective_maintenance),
-                coupling=bool(primary_subjective_coupling),
-                closure=bool(primary_subjective_closure),
-                recurrence=bool(primary_subjective_recurrence),
-                persistence=True,
-            )
-            gain = _clamp(
-                1.0
-                + self.primary_subjective_substrate_weight
-                * (float(substrate_snapshot["resonant_gain"]) - 0.5)
-            )
-            effective_attention = _clamp(float(effective_attention) * gain)
-            relevance = _clamp(
-                float(relevance)
-                + 0.35
-                * self.primary_subjective_substrate_weight
-                * float(substrate_snapshot["subjective_drive"])
-            )
-            effective_valence = _clamp(
-                float(effective_valence)
-                + 0.20
-                * self.primary_subjective_substrate_weight
-                * (float(substrate_snapshot["oscillator"]) - 0.5),
-                -1.0,
-                1.0,
-            )
-
-        field = self.subjective_field.compute(
-            present,
-            internal,
-            attention=float(effective_attention),
-            self_relevance=float(relevance),
-            valence=float(effective_valence),
-            integration=bool(integration),
-            temporal_continuity=bool(temporal_continuity),
-            reentry=bool(reentry),
-        )
-        self.state.workspace = {
-            **self.state.workspace,
-            "subjective_field": {
-                "snapshot": copy.deepcopy(field),
-                "revision": self.subjective_field.revision,
-                "enabled": True,
-            },
-            **(
-                {
-                    "primary_subjective_substrate": {
-                        "snapshot": copy.deepcopy(substrate_snapshot),
-                        "enabled": True,
-                    }
-                }
-                if substrate_snapshot is not None
-                else {}
-            ),
-        }
-        if persist:
-            self.store.save(self.state)
-        return copy.deepcopy(field)
-
-    def _score_subjective_field_candidate(
-        self,
-        candidate: Mapping[str, Any],
-    ) -> tuple[float, dict[str, Any]]:
-        if not self.subjective_field_enabled:
-            return 0.0, {"enabled": False, "fit": 0.0, "contribution": 0.0}
-
-        predicted = candidate.get("predicted_subjective_field")
-        current = self.subjective_field.snapshot()
-        if not isinstance(predicted, Mapping) or not current:
-            return 0.0, {
-                "enabled": True,
-                "fit": 0.0,
-                "contribution": 0.0,
-                "available": bool(current),
-            }
-
-        fit = self._numeric_similarity(predicted, current)
-        contribution = float(self.subjective_field_weight) * float(fit)
-        return contribution, {
-            "enabled": True,
-            "fit": round(float(fit), 6),
-            "weight": round(float(self.subjective_field_weight), 6),
-            "contribution": round(float(contribution), 6),
-            "available": True,
-        }
-
-    def _state_view(self) -> dict[str, Any]:
-        """Return a shallow runtime view for pure state-derivation functions."""
-        return dict(self.state.__dict__)
-
-    def snapshot_self_model_causal_profile(self) -> dict[str, Any]:
-        """Capture the runtime-owned self-model variables used by trajectory selection."""
-        keys = (
-            "trajectory_weights",
-            "expected_self_state",
-            "homeostatic_targets",
-            "self_observation_expected",
-        )
-        return {
-            key: copy.deepcopy(self.state.self_model[key])
-            for key in keys
-            if key in self.state.self_model
-        }
-
-    def intervene_self_model_causal_profile(
-        self,
-        profile: Mapping[str, Any],
-        *,
-        persist: bool = False,
-        intervention_id: str | None = None,
-    ) -> dict[str, Any]:
-        """Intervene on causal self-model policy without creating evidence."""
-        if not isinstance(profile, Mapping):
-            raise ValueError("self-model causal profile must be a mapping")
-
-        before = self.snapshot_self_model_causal_profile()
-        model = copy.deepcopy(self.state.self_model)
-        allowed = {
-            "trajectory_weights",
-            "expected_self_state",
-            "homeostatic_targets",
-            "self_observation_expected",
-        }
-        for key in allowed:
-            if key in profile and isinstance(profile[key], Mapping):
-                model[key] = copy.deepcopy(profile[key])
-        self.state.self_model = model
-        after = self.snapshot_self_model_causal_profile()
-        event = {
-            "revision": self.state.revision,
-            "type": "self_model_causal_intervention",
-            "intervention_id": str(intervention_id) if intervention_id is not None else None,
-            "changed": before != after,
-            "evidence_added": False,
-        }
-        self.state.transformation_log.append(event)
-        self.state.transformation_log = self.state.transformation_log[-self.transformation_limit:]
-        if persist:
-            self.store.save(self.state)
-        return {
-            "intervened": before != after,
-            "changed": before != after,
-            "intervention_id": event["intervention_id"],
-            "evidence_added": False,
-            "before": before,
-            "after": after,
-        }
-
-    def restore_self_model_causal_profile(
-        self,
-        snapshot: Mapping[str, Any],
-        *,
-        persist: bool = False,
-        intervention_id: str | None = None,
-    ) -> dict[str, Any]:
-        """Restore an exact causal self-model profile without adding evidence."""
-        return self.intervene_self_model_causal_profile(
-            snapshot,
-            persist=persist,
-            intervention_id=intervention_id,
-        )
 
     def operational_mode(self) -> str:
         """Return the persistent computational operating mode."""
