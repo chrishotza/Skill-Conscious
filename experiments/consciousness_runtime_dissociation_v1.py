@@ -1,5 +1,7 @@
 """Full-runtime causal dissociation benchmark for the SubjectiveField hypothesis.
 
+CI runs the complete battery plus the focused pytest gate.
+
 This benchmark compares paired ConsciousRuntime instances that receive the
 same objective inputs and candidate futures. The only causal intervention is
 the presence/absence of the opt-in SubjectiveField mechanism.
