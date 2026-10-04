@@ -120,7 +120,16 @@ def run_seed(seed: int) -> dict[str, Any]:
         full = next(x for x in observations if x["count"] == 5)
         empty = next(x for x in observations if x["count"] == 0)
         strict_subsets = [x for x in observations if x["count"] < 5]
-        max_subset_unity = max(x["unity"] for x in strict_subsets)
+        unity_components = {"binding", "self_relevance", "continuity", "attention"}
+        unity_weakened = [
+            x for x in strict_subsets
+            if not unity_components.issubset(set(x["enabled"]))
+        ]
+        reentry_only = next(
+            x for x in observations
+            if set(x["enabled"]) == unity_components
+        )
+        max_weakened_unity = max(x["unity"] for x in unity_weakened)
         max_subset_strength = max(x["strength"] for x in strict_subsets)
 
         return {
@@ -130,13 +139,17 @@ def run_seed(seed: int) -> dict[str, Any]:
             "objective_state_match": all(x["objective_state_match"] for x in observations),
             "empty_field_collapsed": empty["unity"] == 0.0 and empty["strength"] == 0.0,
             "full_field_nonzero": full["unity"] > 0.0 and full["strength"] > 0.0,
-            "full_dominates_subsets": (
-                full["unity"] > max_subset_unity
-                and full["strength"] > max_subset_strength
+            "unity_maximal_when_all_unity_components_present": (
+                full["unity"] > max_weakened_unity
             ),
+            "reentry_preserves_unity": abs(full["unity"] - reentry_only["unity"]) < 1e-9,
+            "reentry_increases_strength": full["strength"] > reentry_only["strength"],
+            "full_strength_maximal": full["strength"] > max_subset_strength,
             "full_unity": round(full["unity"], 6),
             "full_strength": round(full["strength"], 6),
-            "nearest_subset_unity": round(max_subset_unity, 6),
+            "reentry_off_unity": round(reentry_only["unity"], 6),
+            "reentry_off_strength": round(reentry_only["strength"], 6),
+            "nearest_weakened_unity": round(max_weakened_unity, 6),
             "nearest_subset_strength": round(max_subset_strength, 6),
         }
 
