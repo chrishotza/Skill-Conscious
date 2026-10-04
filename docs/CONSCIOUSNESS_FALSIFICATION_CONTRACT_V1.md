@@ -141,3 +141,9 @@ If substitution fails across the tested matrix, the proposed causal separation
 becomes stronger, but it still does not prove phenomenal experience.
 
 That is the standard going forward.
+
+## Redundancy gate result
+
+The cross-component substitution attack was executed as 20 ordered pairs across 5 independent seeds, for 100 trials. After hardening the matched objective channel, the gate passed with zero successful substitutions. Every target remained absent, objective scores matched in all trials, and objective runtime processing matched in all trials.
+
+This strengthens the claim of functional non-redundancy under the tested parameter regime. It does not constitute proof of phenomenal experience.
