@@ -33,6 +33,13 @@ from .pre_reflective import (
     build_pre_reflective_state,
     predicted_self_relevance_fit,
 )
+from .access import (
+    DEFAULT_ACCESS_CAPACITY,
+    ConsciousAccessState,
+    build_access_state,
+    build_limited_present,
+    signal_access_factor,
+)
 
 
 DEFAULT_REGIME_WEIGHTS: dict[str, float] = {
@@ -93,6 +100,7 @@ class ConsciousState:
     pending_action: dict[str, Any] | None = None
     action_history: list[dict[str, Any]] = field(default_factory=list)
     pre_reflective_state: dict[str, Any] = field(default_factory=dict)
+    access_state: dict[str, Any] = field(default_factory=dict)
 
     def to_dict(self) -> dict[str, Any]:
         return asdict(self)
@@ -169,6 +177,11 @@ class ConsciousState:
             pre_reflective_state=(
                 dict(value["pre_reflective_state"])
                 if isinstance(value.get("pre_reflective_state"), Mapping)
+                else {}
+            ),
+            access_state=(
+                dict(value["access_state"])
+                if isinstance(value.get("access_state"), Mapping)
                 else {}
             ),
         )
@@ -261,6 +274,7 @@ class ConsciousRuntime:
         self.state = self.store.load(identity)
         if self.dynamic_core_enabled:
             self._restore_dynamic_core_state()
+        self.refresh_access_state(persist=False)
 
     def _restore_dynamic_core_state(self) -> None:
         """Mirror persisted dynamic-core state into runtime-owned self-model fields."""
@@ -412,6 +426,106 @@ class ConsciousRuntime:
         if persist:
             self.store.save(self.state)
         return result
+
+    def access_capacity(self) -> int:
+        raw = self.state.access_state.get("capacity")
+        if isinstance(raw, int) and not isinstance(raw, bool):
+            return max(1, int(raw))
+        return DEFAULT_ACCESS_CAPACITY
+
+    def conscious_access_state(self) -> dict[str, Any]:
+        if not isinstance(self.state.access_state, Mapping) or not self.state.access_state:
+            return self.refresh_access_state(persist=False)
+        return dict(self.state.access_state)
+
+    def refresh_access_state(
+        self,
+        *,
+        external_input: str = "",
+        persist: bool = False,
+    ) -> dict[str, Any]:
+        """Derive the bounded current present from persistent runtime state."""
+        access = build_access_state(
+            self.state.to_dict(),
+            external_input=str(external_input),
+            capacity=self.access_capacity(),
+        )
+        self.state.access_state = access.to_dict()
+        if persist:
+            self.store.save(self.state)
+        return dict(self.state.access_state)
+
+    def limited_present(
+        self,
+        external_input: str = "",
+    ) -> dict[str, Any]:
+        access = self.refresh_access_state(
+            external_input=external_input,
+            persist=False,
+        )
+        return build_limited_present(
+            self.state.to_dict(),
+            access,
+            external_input=str(external_input),
+        )
+
+    def set_access_capacity(
+        self,
+        capacity: int,
+        *,
+        persist: bool = True,
+    ) -> dict[str, Any]:
+        """Runtime-owned capacity intervention; does not create evidence."""
+        if isinstance(capacity, bool) or not isinstance(capacity, int):
+            raise ValueError("access capacity must be an integer")
+        if capacity < 1:
+            raise ValueError("access capacity must be >= 1")
+
+        before = self.access_capacity()
+        self.state.access_state = {
+            **dict(self.state.access_state),
+            "capacity": int(capacity),
+        }
+        access = self.refresh_access_state(persist=False)
+        if persist:
+            self.store.save(self.state)
+        return {
+            "changed": before != int(capacity),
+            "before": before,
+            "after": int(capacity),
+            "evidence_added": False,
+            "access_state": access,
+        }
+
+    def snapshot_access(self) -> dict[str, Any]:
+        """Return the runtime-owned access configuration and current window."""
+        return self.conscious_access_state()
+
+    def restore_access(
+        self,
+        snapshot: Mapping[str, Any],
+        *,
+        persist: bool = True,
+    ) -> dict[str, Any]:
+        """Restore an access snapshot without adding learning evidence."""
+        raw_capacity = snapshot.get("capacity")
+        if isinstance(raw_capacity, bool) or not isinstance(raw_capacity, int):
+            raise ValueError("access snapshot.capacity must be an integer")
+        if raw_capacity < 1:
+            raise ValueError("access snapshot.capacity must be >= 1")
+
+        self.state.access_state = {
+            **dict(self.state.access_state),
+            "capacity": int(raw_capacity),
+        }
+        access = self.refresh_access_state(persist=False)
+        if persist:
+            self.store.save(self.state)
+        return {
+            "restored": True,
+            "evidence_added": False,
+            "access_state": access,
+        }
 
     def refresh_pre_reflective_state(
         self,
@@ -2720,6 +2834,7 @@ class ConsciousRuntime:
                     "topology_integrity": topology_integrity,
                     "salience": salience,
                 },
+                "access_keys": ["intention", "self_state", "temporal_state"],
             },
             {
                 "id": "learn",
@@ -2734,6 +2849,7 @@ class ConsciousRuntime:
                     "topology_integrity": topology_integrity,
                     "salience": salience,
                 },
+                "access_keys": ["self_model", "latent_patterns"],
             },
             {
                 "id": "explore",
@@ -2748,6 +2864,7 @@ class ConsciousRuntime:
                     "topology_integrity": topology_integrity,
                     "salience": salience,
                 },
+                "access_keys": ["world_now", "salience", "temporal_state"],
             },
         ]
         if self.homeostatic_targets() and self.state.interoceptive_state:
@@ -2765,6 +2882,7 @@ class ConsciousRuntime:
                     "salience": salience,
                     "homeostatic_fit": min(1.0, current_homeostatic_fit + 0.35),
                 },
+                "access_keys": ["interoceptive_state", "self_model"],
             })
 
         if self_dissonance > 0.0 or self.state.latent_patterns:
@@ -2784,6 +2902,7 @@ class ConsciousRuntime:
                     "latent_pattern": latent_score,
                     "dissonance_resolution": self_dissonance,
                 },
+                "access_keys": ["latent_patterns", "self_model"],
             })
         return candidates
 
@@ -2801,6 +2920,15 @@ class ConsciousRuntime:
             [dict(item) for item in candidate_futures]
             if candidate_futures is not None
             else self.generate_candidate_futures()
+        )
+        access = self.refresh_access_state(
+            external_input=external_input,
+            persist=False,
+        )
+        limited_present = build_limited_present(
+            self.state.to_dict(),
+            access,
+            external_input=external_input,
         )
 
         return {
@@ -2841,6 +2969,8 @@ class ConsciousRuntime:
             "pending_action": self.state.pending_action,
             "action_history": self.state.action_history[-self.history_limit :],
             "pre_reflective": self.pre_reflective_state(),
+            "access_state": access,
+            "limited_present": limited_present,
             "revision": self.state.revision,
         }
 
@@ -2896,11 +3026,20 @@ class ConsciousRuntime:
         signals.setdefault("latent_pattern", self.latent_pattern_score())
 
         weights = self.trajectory_weights()
+        access_state = self.conscious_access_state()
+        access_factor, access_availability = signal_access_factor(
+            dict(candidate),
+            access_state,
+        )
         signal_contributions: dict[str, float] = {}
         base_score = 0.0
         for key, value in signals.items():
             if isinstance(value, (int, float)) and not isinstance(value, bool):
-                contribution = float(weights.get(str(key), 0.0)) * float(value)
+                contribution = (
+                    float(weights.get(str(key), 0.0))
+                    * float(value)
+                    * access_factor
+                )
                 signal_contributions[str(key)] = round(contribution, 6)
                 base_score += contribution
 
@@ -2975,6 +3114,14 @@ class ConsciousRuntime:
                 "self_relevance_fit": round(predicted_fit, 6),
                 "contribution": round(pre_reflective_contribution, 6),
                 "state": pre_reflective.to_dict(),
+            },
+            "access": {
+                "factor": round(access_factor, 6),
+                "required_keys": list(access_availability),
+                "available": {
+                    key: bool(value)
+                    for key, value in access_availability.items()
+                },
             },
         }
 
@@ -3054,6 +3201,7 @@ class ConsciousRuntime:
             ):
                 item["self_observation"] = dict(details["self_observation"])
             item["_metacognitive_breakdown"] = details
+            item["_access_diagnostics"] = details["access"]
             scored.append(item)
 
         selected = max(
@@ -3088,6 +3236,7 @@ class ConsciousRuntime:
             selected["metacognition"] = trace
 
         selected.pop("_metacognitive_breakdown", None)
+        selected.pop("_access_diagnostics", None)
         return selected
 
     def present(self, external_input: str) -> dict[str, Any]:
@@ -3121,6 +3270,7 @@ class ConsciousRuntime:
                 "pending_action": self.state.pending_action,
                 "action_history": self.state.action_history[-self.history_limit :],
                 "self_observation": self.snapshot_self_observation(),
+                "access": self.conscious_access_state(),
             },
             "causal_reentry": (
                 "internal_condition -> self_relevance -> valuation -> trajectory -> "
@@ -3541,6 +3691,7 @@ class ConsciousRuntime:
             self.state.self_dissonance = max(0.0, min(1.0, float(frame["self_dissonance"])))
 
         self.state.coherence = self.calculate_coherence()
+        self.refresh_access_state(persist=False)
 
         if not explicit_regime:
             self.transition_regime(
@@ -3599,7 +3750,7 @@ class ConsciousRuntime:
 
         changed: dict[str, Any] = {}
         current_snapshot = self.state.to_dict()
-        for key in ("self_state", "self_model", "workspace", "intention", "attention", "salience", "layers", "regime", "attractor", "valuation", "valence", "coherence", "relation_topology", "latent_patterns", "self_dissonance", "interoceptive_state", "affective_state", "temporal_state", "perspectives", "pre_reflective_state"):
+        for key in ("self_state", "self_model", "workspace", "intention", "attention", "salience", "layers", "regime", "attractor", "valuation", "valence", "coherence", "relation_topology", "latent_patterns", "self_dissonance", "interoceptive_state", "affective_state", "temporal_state", "perspectives", "pre_reflective_state", "access_state"):
             if previous_snapshot.get(key) != current_snapshot.get(key):
                 changed[key] = {"before": previous_snapshot.get(key), "after": current_snapshot.get(key)}
         if changed:
@@ -3634,6 +3785,7 @@ class ConsciousRuntime:
                 "temporal_state": self.state.temporal_state,
                 "perspectives": self.state.perspectives,
                 "pre_reflective_state": self.pre_reflective_state(),
+                "access_state": self.conscious_access_state(),
                 "consequence_trajectory": (
                     str(consequence_trajectory)
                     if consequence_trajectory is not None
@@ -3664,6 +3816,7 @@ class ConsciousRuntime:
             possibility_count=final_possibility_count,
             persist=False,
         )
+        self.refresh_access_state(persist=False)
         self.store.save(self.state)
         return response
 
