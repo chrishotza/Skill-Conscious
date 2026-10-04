@@ -14,10 +14,16 @@ def _clamp(value: float, lower: float = 0.0, upper: float = 1.0) -> float:
     return max(lower, min(upper, float(value)))
 
 def _distance(left: Mapping[str,float], right: Mapping[str,float]) -> float:
-    keys = set(left) | set(right)
+    # Continuity compares the common present-state representation only.
+    # Derived outputs such as unity, strength and revision are consequences of
+    # the field, not part of the content carried from one present to the next.
+    keys = set(left) & set(right)
     if not keys:
         return 0.0
-    return sum(abs(float(left.get(k,0.0))-float(right.get(k,0.0))) for k in keys) / len(keys)
+    return sum(
+        abs(float(left.get(k, 0.0)) - float(right.get(k, 0.0)))
+        for k in keys
+    ) / len(keys)
 
 @dataclass
 class SubjectiveField:
