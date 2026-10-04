@@ -44,6 +44,7 @@ jobs:
                   "-x",
                   "--durations=20",
                   "tests/test_host_loop_causal_benchmark.py",
+              "tests/test_openai_compatible_host_benchmark.py",
               ])
           )
           PY
