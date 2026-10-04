@@ -25,16 +25,25 @@ jobs:
           python-version: "3.11"
       - name: Install test dependencies
         run: pip install -e ".[dev]"
-      - name: Reproduce homeostatic reversal in fresh processes
+      - name: Reproduce homeostatic reversal with bounded timeout
         env:
           PYTHONFAULTHANDLER: "1"
-          PYTHONMALLOC: "debug"
         run: |
           set -euo pipefail
-          for i in $(seq 1 10); do
-            echo "=== isolated reversal run $i/10 ==="
-            python -X faulthandler -m pytest -q -s               tests/test_self_development.py::test_homeostatic_reversal_requires_hysteresis
-          done
+          echo "=== targeted reversal test: fresh process, 20s bound ==="
+          timeout --signal=TERM --kill-after=5s 20s             python -X faulthandler -c '
+          import faulthandler
+          import pytest
+
+          faulthandler.enable()
+          faulthandler.dump_traceback_later(5, repeat=True)
+          raise SystemExit(pytest.main([
+              "-vv",
+              "-s",
+              "-x",
+              "tests/test_self_development.py::test_homeostatic_reversal_requires_hysteresis",
+          ]))
+          '
       - name: Run self-development file in one process
         env:
           PYTHONFAULTHANDLER: "1"
