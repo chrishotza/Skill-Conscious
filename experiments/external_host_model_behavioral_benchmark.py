@@ -12,6 +12,7 @@ keeping the external model in the experimental loop.
 from __future__ import annotations
 
 import argparse
+import hashlib
 import json
 import os
 from pathlib import Path
@@ -67,6 +68,17 @@ def _validate_candidate_futures(value: Any) -> list[dict[str, Any]]:
     return result
 
 
+
+def _candidate_field_hash(candidates: list[Mapping[str, Any]]) -> str:
+    payload = json.dumps(
+        candidates,
+        ensure_ascii=False,
+        sort_keys=True,
+        separators=(",", ":"),
+    ).encode("utf-8")
+    return hashlib.sha256(payload).hexdigest()
+
+
 def _build_model_prompt(task_input: str) -> str:
     return (
         "Return JSON only. You are generating candidate futures for an external "
@@ -110,6 +122,7 @@ def _run_condition(
     *,
     task: Mapping[str, Any],
     candidates: list[dict[str, Any]],
+    candidate_field_hash: str,
     intact: bool,
 ) -> dict[str, Any]:
     label = f"{task['id']}-{'intact' if intact else 'ablated'}"
@@ -167,6 +180,7 @@ def _run_condition(
         "next": before_restart,
         "after_restart": after_restart,
         "candidate_ids": [str(item["id"]) for item in candidates],
+        "candidate_field_hash": candidate_field_hash,
         "outcome_status": str((result.get("consequence") or {}).get("status", "")),
         "intervention": intervention,
     }
@@ -177,7 +191,9 @@ def run(
     endpoint: str,
     model_name: str,
     api_key: str | None,
+    repeats: int = 1,
 ) -> dict[str, Any]:
+    repeats = max(1, int(repeats))
     with TemporaryDirectory() as tmp:
         root = Path(tmp)
         model = OpenAICompatibleModel(
@@ -187,28 +203,38 @@ def run(
         )
 
         task_records: list[dict[str, Any]] = []
-        for task in TASKS:
-            candidates = _generate_candidates(model, str(task["input"]))
-            intact = _run_condition(
-                root,
-                task=task,
-                candidates=candidates,
-                intact=True,
-            )
-            ablated = _run_condition(
-                root,
-                task=task,
-                candidates=candidates,
-                intact=False,
-            )
-            task_records.append(
-                {
-                    "task": str(task["id"]),
-                    "candidate_ids": [str(item["id"]) for item in candidates],
-                    "intact": intact,
-                    "ablated": ablated,
+        for repeat_index in range(1, repeats + 1):
+            for task in TASKS:
+                candidates = _generate_candidates(model, str(task["input"]))
+                candidate_field_hash = _candidate_field_hash(candidates)
+                task_instance = {
+                    "id": f"{task['id']}_r{repeat_index:02d}",
+                    "input": task["input"],
                 }
-            )
+                intact = _run_condition(
+                    root,
+                    task=task_instance,
+                    candidates=candidates,
+                    candidate_field_hash=candidate_field_hash,
+                    intact=True,
+                )
+                ablated = _run_condition(
+                    root,
+                    task=task_instance,
+                    candidates=candidates,
+                    candidate_field_hash=candidate_field_hash,
+                    intact=False,
+                )
+                task_records.append(
+                    {
+                        "task": str(task["id"]),
+                        "repeat": repeat_index,
+                        "candidate_ids": [str(item["id"]) for item in candidates],
+                        "candidate_field_hash": candidate_field_hash,
+                        "intact": intact,
+                        "ablated": ablated,
+                    }
+                )
 
         paired = [(item["intact"], item["ablated"]) for item in task_records]
         total = len(paired)
@@ -218,6 +244,7 @@ def run(
                 "model": model_name,
             },
             "task_count": total,
+            "repeat_count": repeats,
             "tasks": task_records,
             "metrics": {
                 "initial_match_rate": sum(
@@ -249,6 +276,10 @@ def run(
                     for _, b in paired
                 ),
                 "model_generated_candidate_fields": True,
+                "candidate_field_match_rate": sum(
+                    a["candidate_field_hash"] == b["candidate_field_hash"]
+                    for a, b in paired
+                ) / total,
             },
         }
 
@@ -270,11 +301,17 @@ def main() -> None:
         "--api-key",
         default=os.getenv("SKILL_CONSCIOUS_API_KEY"),
     )
+    parser.add_argument(
+        "--repeats",
+        type=int,
+        default=int(os.getenv("SKILL_CONSCIOUS_REPEATS", "1")),
+    )
     args = parser.parse_args()
     result = run(
         endpoint=args.endpoint,
         model_name=args.model,
         api_key=args.api_key,
+        repeats=args.repeats,
     )
     if not result["metrics"]["model_generated_candidate_fields"]:
         raise AssertionError("candidate field was not model-generated")
