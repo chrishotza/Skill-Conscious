@@ -404,6 +404,78 @@ class ConsciousRuntime:
         """Return a shallow runtime view for pure state-derivation functions."""
         return dict(self.state.__dict__)
 
+    def snapshot_self_model_causal_profile(self) -> dict[str, Any]:
+        """Capture the runtime-owned self-model variables used by trajectory selection."""
+        keys = (
+            "trajectory_weights",
+            "expected_self_state",
+            "homeostatic_targets",
+            "self_observation_expected",
+        )
+        return {
+            key: copy.deepcopy(self.state.self_model[key])
+            for key in keys
+            if key in self.state.self_model
+        }
+
+    def intervene_self_model_causal_profile(
+        self,
+        profile: Mapping[str, Any],
+        *,
+        persist: bool = False,
+        intervention_id: str | None = None,
+    ) -> dict[str, Any]:
+        """Intervene on causal self-model policy without creating evidence."""
+        if not isinstance(profile, Mapping):
+            raise ValueError("self-model causal profile must be a mapping")
+
+        before = self.snapshot_self_model_causal_profile()
+        model = copy.deepcopy(self.state.self_model)
+        allowed = {
+            "trajectory_weights",
+            "expected_self_state",
+            "homeostatic_targets",
+            "self_observation_expected",
+        }
+        for key in allowed:
+            if key in profile and isinstance(profile[key], Mapping):
+                model[key] = copy.deepcopy(profile[key])
+        self.state.self_model = model
+        after = self.snapshot_self_model_causal_profile()
+        event = {
+            "revision": self.state.revision,
+            "type": "self_model_causal_intervention",
+            "intervention_id": str(intervention_id) if intervention_id is not None else None,
+            "changed": before != after,
+            "evidence_added": False,
+        }
+        self.state.transformation_log.append(event)
+        self.state.transformation_log = self.state.transformation_log[-self.transformation_limit:]
+        if persist:
+            self.store.save(self.state)
+        return {
+            "intervened": before != after,
+            "changed": before != after,
+            "intervention_id": event["intervention_id"],
+            "evidence_added": False,
+            "before": before,
+            "after": after,
+        }
+
+    def restore_self_model_causal_profile(
+        self,
+        snapshot: Mapping[str, Any],
+        *,
+        persist: bool = False,
+        intervention_id: str | None = None,
+    ) -> dict[str, Any]:
+        """Restore an exact causal self-model profile without adding evidence."""
+        return self.intervene_self_model_causal_profile(
+            snapshot,
+            persist=persist,
+            intervention_id=intervention_id,
+        )
+
     def operational_mode(self) -> str:
         """Return the persistent computational operating mode."""
         return normalize_operational_mode(
