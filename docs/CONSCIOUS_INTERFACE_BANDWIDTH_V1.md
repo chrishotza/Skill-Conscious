@@ -224,7 +224,7 @@ Implemented invariants:
 - persisted capacity and restart continuity;
 - explicit capacity interventions that add no learning evidence.
 
-The default capacity is a compatibility envelope larger than the current access item set. Causal bandwidth experiments reduce the capacity explicitly (for example 2 versus 6) and test downstream trajectory divergence plus restoration.
+The default capacity is 12, below the current access item set, so the interface is genuinely bounded by default. Causal bandwidth experiments can reduce or expand the capacity explicitly (for example 2 versus 6) and test downstream trajectory divergence plus restoration.
 
 The implementation remains an architectural access mechanism, not a detector or proof of phenomenal consciousness.
 
