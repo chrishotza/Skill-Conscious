@@ -184,3 +184,98 @@ def build_dream_replay(
         ensure_ascii=False,
         sort_keys=True,
     )
+
+
+
+OPERATIONAL_RUNTIME_KEYS = (
+    "operational_consolidation_profile",
+    "operational_replay_profile",
+)
+
+
+def build_consolidation_profile(
+    consolidation: Mapping[str, Any],
+) -> dict[str, Any]:
+    """Convert deterministic consolidation into a bounded replay prior."""
+    raw_ids = consolidation.get("trajectory_ids", [])
+    counts: dict[str, int] = {}
+    if isinstance(raw_ids, list):
+        for raw_id in raw_ids:
+            identifier = str(raw_id).strip()
+            if identifier:
+                counts[identifier] = counts.get(identifier, 0) + 1
+
+    total = sum(counts.values())
+    scores = {
+        key: round(value / total, 6)
+        for key, value in counts.items()
+    } if total else {}
+
+    return {
+        "source_signature": str(consolidation.get("signature", "")),
+        "trajectory_counts": counts,
+        "trajectory_scores": scores,
+        "sample_count": total,
+        "dominant_trajectory": (
+            max(counts, key=lambda key: (counts[key], key))
+            if counts
+            else None
+        ),
+    }
+
+
+def reinforce_replay_profile(
+    profile: Mapping[str, Any] | None,
+    trajectory_id: str,
+    *,
+    decay: float = 0.9,
+    increment: float = 1.0,
+    max_entries: int = 16,
+) -> dict[str, Any]:
+    """Apply explicit endogenous replay reinforcement without external outcome evidence."""
+    decay = max(0.0, min(1.0, float(decay)))
+    increment = max(0.0, float(increment))
+    limit = max(1, int(max_entries))
+    current = dict(profile) if isinstance(profile, Mapping) else {}
+
+    raw_scores = current.get("trajectory_scores", {})
+    scores = {
+        str(key): max(0.0, float(value))
+        for key, value in dict(raw_scores).items()
+        if isinstance(value, (int, float)) and not isinstance(value, bool)
+    }
+
+    scores = {
+        key: value * decay
+        for key, value in scores.items()
+    }
+
+    identifier = str(trajectory_id).strip()
+    if identifier:
+        scores[identifier] = scores.get(identifier, 0.0) + increment
+
+    ranked = sorted(
+        scores.items(),
+        key=lambda item: (float(item[1]), str(item[0])),
+        reverse=True,
+    )[:limit]
+
+    maximum = max((value for _, value in ranked), default=0.0)
+    normalized = {
+        key: round(value / maximum, 6)
+        for key, value in ranked
+    } if maximum else {}
+
+    counts = dict(current.get("trajectory_replay_count", {}))
+    if identifier:
+        counts[identifier] = int(counts.get(identifier, 0)) + 1
+
+    return {
+        "trajectory_scores": normalized,
+        "trajectory_replay_count": counts,
+        "replay_sequence": int(current.get("replay_sequence", 0)) + 1,
+        "last_replayed_trajectory": identifier or None,
+        "decay": decay,
+        "increment": increment,
+        "max_entries": limit,
+    }
