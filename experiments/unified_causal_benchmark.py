@@ -89,11 +89,28 @@ def _cycle(
     if not isinstance(selected, dict):
         raise AssertionError("benchmark cycle produced no selected trajectory")
 
+    trajectory_id = str(selected["id"])
+    runtime.begin_action(selected, persist=False)
+    outcome = {
+        "status": "success",
+        "interoceptive_state": {
+            "energy": 0.8 if trajectory_id == "self_model_path" else 0.6,
+        },
+        "self_state": {
+            "focus": 0.8 if trajectory_id == "self_model_path" else 0.6,
+        },
+        "trajectory": trajectory_id,
+    }
+    runtime.complete_action(outcome, persist=False)
+
     return {
-        "trajectory": str(selected["id"]),
+        "trajectory": trajectory_id,
         "pre_reflective": runtime.pre_reflective_state(),
         "access": runtime.snapshot_access(),
         "geometry": runtime.snapshot_experience_geometry()["current"],
+        "geometry_history_length": len(runtime.snapshot_experience_geometry()["history"]),
+        "action_history_length": len(runtime.state.action_history),
+        "outcome": outcome,
         "metacognition": "metacognition" in selected,
     }
 
@@ -189,6 +206,11 @@ def run() -> dict[str, Any]:
         assert no_report["probe"]["narrow"]["trajectory"] == report["probe"]["narrow"]["trajectory"]
         assert no_report["probe"]["narrow"]["pre_reflective"] == report["probe"]["narrow"]["pre_reflective"]
         assert all(item["restart_equivalent"] for item in results)
+        assert all(
+            item["probe"]["restored"]["action_history_length"]
+            >= item["probe"]["narrow"]["action_history_length"]
+            for item in results
+        )
 
         output = {
             "conditions": results,
