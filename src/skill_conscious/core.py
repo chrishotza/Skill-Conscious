@@ -421,12 +421,29 @@ class ConsciousRuntime:
         persist: bool = False,
     ) -> dict[str, Any]:
         """Derive and persist the runtime-owned pre-reflective core state."""
+        previous = (
+            dict(self.state.pre_reflective_state)
+            if isinstance(self.state.pre_reflective_state, Mapping)
+            else {}
+        )
         profile = build_pre_reflective_state(
             self.state.to_dict(),
             possibility_count=possibility_count,
             possibility_scores=possibility_scores,
         )
-        self.state.pre_reflective_state = profile.to_dict()
+        profile_payload = profile.to_dict()
+
+        # The candidate set is a current-cycle property. If a later refresh
+        # occurs without scores, preserve the entropy already established by
+        # trajectory selection rather than erasing it to zero.
+        if (
+            possibility_scores is None
+            and possibility_count is not None
+            and "possibility_entropy" in previous
+        ):
+            profile_payload["possibility_entropy"] = previous["possibility_entropy"]
+
+        self.state.pre_reflective_state = profile_payload
 
         if persist:
             self.store.save(self.state)
@@ -3638,7 +3655,15 @@ class ConsciousRuntime:
         self.state.history = self.state.history[-self.history_limit :]
 
         self.refresh_affective_state()
-        self.refresh_pre_reflective_state(persist=False)
+        final_possibility_count = (
+            len(candidate_futures)
+            if isinstance(candidate_futures, list)
+            else None
+        )
+        self.refresh_pre_reflective_state(
+            possibility_count=final_possibility_count,
+            persist=False,
+        )
         self.store.save(self.state)
         return response
 
