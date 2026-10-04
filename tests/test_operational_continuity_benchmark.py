@@ -2,11 +2,12 @@ from __future__ import annotations
 
 from pathlib import Path
 
-from experiments.operational_continuity_benchmark import run
+import runpy
 
 
-def test_operational_continuity_benchmark_demonstrates_reentry_causality(tmp_path: Path, monkeypatch):
-    result = run()
+def test_operational_continuity_benchmark_demonstrates_reentry_causality(tmp_path: Path):
+    module = runpy.run_path(str(Path(__file__).parents[1] / 'experiments' / 'operational_continuity_benchmark.py'))
+    result = module['run']()
     metrics = result["metrics"]
 
     assert metrics["baseline_wake"] == "alpha_path"
