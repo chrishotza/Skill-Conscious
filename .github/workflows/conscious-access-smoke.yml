@@ -12,6 +12,8 @@ on:
       - "src/skill_conscious/experience_geometry.py"
       - "src/skill_conscious/__init__.py"
       - "tests/test_experience_geometry.py"
+      - "tests/test_reflective_independence.py"
+      - "experiments/reflective_independence_benchmark.py"
 
 jobs:
   access-smoke:
@@ -40,6 +42,7 @@ jobs:
                   "--durations=20",
                   "tests/test_conscious_access_bandwidth.py",
                   "tests/test_experience_geometry.py",
+                  "tests/test_reflective_independence.py",
               ])
           )
           PY
