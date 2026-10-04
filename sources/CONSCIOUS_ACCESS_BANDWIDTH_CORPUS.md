@@ -116,3 +116,20 @@ The most defensible engineering convergence is:
 Therefore Skill-Conscious should implement **bounded, persistent, runtime-owned access to the current present** and test whether manipulating that access changes downstream trajectories.
 
 That is an architectural hypothesis, not a claim that bandwidth itself is consciousness.
+
+
+## Runtime translation status — 2026-10-04
+
+The corpus-to-runtime translation for bounded access is now implemented on PR #74.
+
+Implemented mechanism:
+- finite runtime-owned access capacity;
+- explicit selected/omitted persistent-state keys;
+- access scoring;
+- limited-present projection;
+- causal trajectory dependence through `access_keys`;
+- capacity perturbation and restoration;
+- no-report and no-metacognition compatibility;
+- restart persistence.
+
+The implementation is intentionally not a claim that biological consciousness literally performs this formula or that artificial phenomenal experience has been demonstrated.
