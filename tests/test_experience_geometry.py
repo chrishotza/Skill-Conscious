@@ -93,6 +93,26 @@ def test_geometry_localizes_present_access_and_self_change():
     assert "self_relevance" in changed
 
 
+def test_access_intervention_changes_geometry_without_deleting_state(tmp_path: Path):
+    runtime = ConsciousRuntime(
+        "geometry-access",
+        state_path=tmp_path / "runtime.json",
+        report_enabled=False,
+        metacognition_enabled=False,
+    )
+    runtime.set_access_capacity(2)
+    low = runtime.snapshot_experience_geometry()["current"]["features"]
+
+    runtime.set_access_capacity(6)
+    high = runtime.snapshot_experience_geometry()["current"]["features"]
+
+    assert low["access_compression"] != high["access_compression"]
+    assert low["self_access_fraction"] != high["self_access_fraction"] or (
+        low["world_access_fraction"] != high["world_access_fraction"]
+    )
+    assert runtime.state.self_model == {}
+
+
 def test_runtime_persists_experience_geometry_transition(tmp_path: Path):
     runtime = ConsciousRuntime(
         "experience-geometry",
