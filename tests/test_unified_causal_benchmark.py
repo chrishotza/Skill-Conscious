@@ -20,6 +20,7 @@ def test_unified_benchmark_covers_access_geometry_restart_and_no_report(tmp_path
         metacognition_enabled=True,
         pre_reflective_enabled=True,
         root=tmp_path,
+        causal_self_model=True,
     )
     report_meta = run_condition(
         "report-meta",
@@ -27,6 +28,7 @@ def test_unified_benchmark_covers_access_geometry_restart_and_no_report(tmp_path
         metacognition_enabled=True,
         pre_reflective_enabled=True,
         root=tmp_path,
+        causal_self_model=True,
     )
 
     assert core["probe"]["divergence"] is True
