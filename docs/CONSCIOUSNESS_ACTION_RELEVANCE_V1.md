@@ -63,7 +63,33 @@ A passing gate requires all of the following across the tested seeds:
 - restart preserves the transformed trajectory;
 - the matched objective channel remains identical.
 
-A pass would strengthen the architectural claim that subjective organization is
-not merely diagnostic but causally action-relevant.
+## Validated result
 
-It would still not establish phenomenal consciousness.
+The corrected gate passed in CI across 12 independent seeds.
+
+The validated rates were all 100%:
+
+- transformed low/high conditions selected different trajectories;
+- the external probe was identical;
+- the transformed subjective fields remained measurably different;
+- resetting the transformed self-state returned the neutral control trajectory;
+- restoring the transformed state returned the transformed trajectory;
+- restart preserved the transformed trajectory;
+- the matched objective channel remained identical.
+
+The matched objective score was 1.2 for all three trajectories in the
+tested control design. The representative seed shown in CI had a low/high field
+difference of about 0.0845.
+
+The first implementation of this gate correctly exposed a causal plumbing defect:
+the authoritative action outcome updated interoceptive state, while the native
+runtime SubjectiveField path used self_state.energy. That caused the action
+selector to miss the transformed interoception. The core was corrected so an
+observed interoceptive energy value is authoritative for the native subjective
+field path. The corrected gate then passed.
+
+This establishes, under the tested architecture, that a consequence-transformed
+subjective field can become causally action-relevant while the matched objective
+channel remains fixed.
+
+It does not establish phenomenal consciousness.
