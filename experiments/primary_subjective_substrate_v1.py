@@ -139,21 +139,28 @@ def run_benchmark(seeds: int = 12) -> dict[str, Any]:
             present = _present(seed)
 
             baseline = _runtime(root, f"baseline-{seed}")
-            baseline_field = _project(baseline, present)
-            baseline_substrate = baseline.snapshot_primary_subjective_substrate()
+            initial_substrate = baseline.snapshot_primary_subjective_substrate()
 
-            # Matched reference fields are used only to give the selector a
-            # substrate-sensitive possibility space. Explicit candidate signals
-            # remain identical.
+            # Baseline branch: one step at neutral tuning.
+            baseline_field = _project(baseline, present)
+
+            # Matched reference fields use fresh runtimes with the same initial
+            # state and external probe, changing only substrate tuning.
             low_ref = _runtime(root, f"low-ref-{seed}")
-            low_ref.intervene_primary_subjective_substrate({"tuning": 0.55}, intervention_id=f"low-ref-{seed}")
+            low_ref.intervene_primary_subjective_substrate(
+                {"tuning": 0.55},
+                intervention_id=f"low-ref-{seed}",
+            )
             low_field = _project(low_ref, present)
 
             neutral_ref = _runtime(root, f"neutral-ref-{seed}")
             neutral_field = _project(neutral_ref, present)
 
             high_ref = _runtime(root, f"high-ref-{seed}")
-            high_ref.intervene_primary_subjective_substrate({"tuning": 1.45}, intervention_id=f"high-ref-{seed}")
+            high_ref.intervene_primary_subjective_substrate(
+                {"tuning": 1.45},
+                intervention_id=f"high-ref-{seed}",
+            )
             high_field = _project(high_ref, present)
 
             candidates = _candidates(low_field, neutral_field, high_field)
@@ -164,22 +171,25 @@ def run_benchmark(seeds: int = 12) -> dict[str, Any]:
             }
             selected_baseline = baseline.select_trajectory(candidates)
 
+            # Causal intervention: alter only the substrate policy, then project
+            # the same external probe through the same runtime.
             intervention = baseline.intervene_primary_subjective_substrate(
-                {"tuning": 0.55, "maintenance": True, "coupling": True, "closure": True, "recurrence": True},
+                {
+                    "tuning": 0.55,
+                    "maintenance": True,
+                    "coupling": True,
+                    "closure": True,
+                    "recurrence": True,
+                },
                 persist=False,
                 intervention_id=f"abl-{seed}",
             )
-            ablated_field = _project(baseline, present)
-            ablated_selected = baseline.select_trajectory(candidates)
+            intervention_field = _project(baseline, present)
+            intervention_selected = baseline.select_trajectory(candidates)
 
-            restore = baseline.restore_primary_subjective_substrate(
-                baseline_substrate,
-                persist=False,
-                intervention_id=f"restore-{seed}",
-            )
-            restored_field = _project(baseline, present)
-            restored_selected = baseline.select_trajectory(candidates)
-
+            # Restart while the intervened state is persisted. No new projection
+            # is performed before measurement, so restart measures actual
+            # persistence rather than a fresh temporal step.
             restarted = ConsciousRuntime(
                 f"baseline-{seed}",
                 state_path=root / f"baseline-{seed}.json",
@@ -199,37 +209,51 @@ def run_benchmark(seeds: int = 12) -> dict[str, Any]:
             restarted_field = dict(restarted_snapshot.get("field", {}))
             restarted_selected = restarted.select_trajectory(candidates)
 
-            objective_after = {
-                item["id"]: restarted._score_trajectory_details(item)["objective_score"]
+            objective_after_intervention = {
+                item["id"]: baseline._score_trajectory_details(item)["objective_score"]
                 for item in candidates
             }
+
+            # Destructive restoration returns to the exact causal state that
+            # existed immediately before the intervention branch.
+            restore = baseline.restore_primary_subjective_substrate(
+                initial_substrate,
+                persist=False,
+                intervention_id=f"restore-{seed}",
+            )
+            restored_field = _project(baseline, present)
+            restored_selected = baseline.select_trajectory(candidates)
 
             rows.append(
                 {
                     "seed": seed,
-                    "baseline_substrate": baseline_substrate,
+                    "initial_substrate": initial_substrate,
                     "intervention": intervention,
                     "restore": restore,
                     "baseline_field": baseline_field,
-                    "ablated_field": ablated_field,
+                    "intervention_field": intervention_field,
                     "restored_field": restored_field,
                     "restarted_field": restarted_field,
                     "baseline_action": str(selected_baseline["id"]),
-                    "ablated_action": str(ablated_selected["id"]),
+                    "intervention_action": str(intervention_selected["id"]),
                     "restored_action": str(restored_selected["id"]),
                     "restarted_action": str(restarted_selected["id"]),
                     "field_intervention_distance": round(
-                        _distance(baseline_field, ablated_field), 6
+                        _distance(baseline_field, intervention_field), 6
                     ),
                     "field_restore_distance": round(
                         _distance(baseline_field, restored_field), 6
                     ),
-                    "field_restart_distance": round(
-                        _distance(baseline_field, restarted_field), 6
+                    "field_intervention_restart_distance": round(
+                        _distance(intervention_field, restarted_field), 6
                     ),
                     "objective_before": objective_before,
-                    "objective_after": objective_after,
+                    "objective_after_intervention": objective_after_intervention,
+                    "objective_match": (
+                        objective_before == objective_after_intervention
+                    ),
                 }
+            )
             )
 
     summary = {
@@ -240,20 +264,20 @@ def run_benchmark(seeds: int = 12) -> dict[str, Any]:
         "field_restoration_rate": sum(
             row["field_restore_distance"] < 0.002 for row in rows
         ) / len(rows),
-        "field_restart_persistence_rate": sum(
-            row["field_restart_distance"] < 0.002 for row in rows
+        "field_intervention_restart_persistence_rate": sum(
+            row["field_intervention_restart_distance"] < 0.002 for row in rows
         ) / len(rows),
         "action_intervention_rate": sum(
-            row["baseline_action"] != row["ablated_action"] for row in rows
+            row["baseline_action"] != row["intervention_action"] for row in rows
         ) / len(rows),
         "action_restoration_rate": sum(
             row["baseline_action"] == row["restored_action"] for row in rows
         ) / len(rows),
-        "action_restart_rate": sum(
-            row["baseline_action"] == row["restarted_action"] for row in rows
+        "action_restart_persistence_rate": sum(
+            row["intervention_action"] == row["restarted_action"] for row in rows
         ) / len(rows),
         "objective_match_rate": sum(
-            row["objective_before"] == row["objective_after"] for row in rows
+            row["objective_match"] for row in rows
         ) / len(rows),
     }
 
@@ -283,10 +307,10 @@ def run_benchmark(seeds: int = 12) -> dict[str, Any]:
         "thresholds": {
             "field_intervention": "> 0.02",
             "field_restoration": "< 0.002",
-            "field_restart": "< 0.002",
+            "field_intervention_restart": "< 0.002",
             "action_intervention": "1.0",
             "action_restoration": "1.0",
-            "action_restart": "1.0",
+            "action_restart_persistence": "1.0",
             "objective_match": "1.0",
         },
         "summary": summary,
