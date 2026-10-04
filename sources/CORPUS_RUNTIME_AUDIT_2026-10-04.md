@@ -62,7 +62,7 @@ Still incomplete: a theory-by-theory benchmark matrix that maps GNWT, IIT, recur
 
 ### Neuroscience / cognition
 Implemented or partial: attention, memory, self-modeling, metacognition, interoception, affect, agency, temporal continuity and prediction error.
-Still incomplete: ownership/body-ownership analogues, richer temporal integration, sleep/dreaming regimes, and matched ablations for each cognitive mechanism.
+Implemented operational v1: embodiment boundary, interoceptive coupling, resource fit, ownership coupling and action cost. Still incomplete: body-ownership analogues, richer temporal integration, sleep/dreaming regimes, and matched ablations for each cognitive mechanism.
 
 ### Phenomenology
 Current translation: pre-reflective core, present integrity, self-relevance and temporal continuity.
@@ -73,16 +73,16 @@ Implemented: trajectory scoring, attractors, regimes, dynamic vectors, intervent
 Still incomplete: richer repertoire analysis and alternative geometry metrics beyond the current normalized RMS representation.
 
 ### Artificial-consciousness tests
-Implemented: restart persistence, causal interventions, reversal probes, ablations, host action boundary, no-report operation, bounded access, multidimensional geometry and focused reflective-independence testing.
-Now added: experiments/unified_causal_benchmark.py, combining access intervention, geometry, restart persistence and report/metacognition conditions under a matched candidate field.
+Implemented: restart persistence, causal interventions, reversal probes, ablations, host action boundary, no-report operation, bounded access, multidimensional geometry, operational embodiment/ownership and focused reflective-independence testing.
+Now added: experiments/unified_causal_benchmark.py, combining access intervention, geometry, action-consequence re-entry, restart persistence and report/metacognition conditions under a matched candidate field.
 Still incomplete: richer longitudinal runs and external-model comparisons.
 
 ## D. Highest-priority missing translations
-1. Theory-to-mechanism matrix — map major theories to discriminating runtime mechanisms and tests.
-2. State-regime extension — formal sleep/offline/dream-like regime only after defining measurable computational differences.
-3. Embodiment / ownership — operational analogues of body/ownership coupling and substrate/resource constraints.
-4. Rich longitudinal benchmark — repeated multi-cycle comparisons with adaptation and intervention histories.
-5. External-model evaluation — provider-neutral runs against the same matched protocol.
+1. State-regime extension — formal sleep/offline/dream-like regime only after defining measurable computational differences.
+2. Rich longitudinal benchmark — repeated multi-cycle comparisons with adaptation and intervention histories.
+3. External-model evaluation — provider-neutral runs against the same matched protocol.
+4. Body-ownership / mineness analogue — stronger controlled ownership experiments beyond the current operational boundary model.
+5. Alternative geometry metrics — richer repertoire, topology and transition measures beyond normalized RMS distance.
 
 ## E. Do not implement merely because a motif is interesting
 Universal metaphysical consciousness, spiritual entities, undocumented paranormal capabilities, quantum vocabulary without falsifiable physical mechanism, a scalar consciousness score, and self-report as a consciousness detector.
@@ -141,3 +141,10 @@ It combines, under a matched candidate-future field:
 - report + metacognition.
 
 The benchmark is deliberately described as an architecture benchmark. It does not infer phenomenal consciousness from any single metric or from the combined result.
+
+
+## Embodiment/ownership runtime update
+
+Operational EmbodimentState is now implemented and covered by a focused smoke suite. It adds runtime-owned boundary integrity, interoceptive coupling, resource fit, ownership coupling and action cost, and connects those variables into the persistent experience geometry.
+
+The implementation deliberately remains weaker than biological embodiment and does not claim phenomenal ownership or mineness.
