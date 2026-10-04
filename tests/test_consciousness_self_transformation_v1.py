@@ -2,7 +2,7 @@ from experiments.consciousness_self_transformation_v1 import run_benchmark
 
 
 def test_self_transformation_causal_gate():
-    summary = run_benchmark(seeds=6)
+    summary = run_benchmark(seeds=6)["summary"]
     assert summary["all_pass"] is True
     assert summary["history_sensitive_rate"] == 1.0
     assert summary["internal_transformation_rate"] == 1.0
