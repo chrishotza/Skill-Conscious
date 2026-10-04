@@ -221,8 +221,9 @@ def _run_condition(
 
     consequence_prompt_visible = (
         len(prompts) >= 2
-        and "primary_subjective_substrate" in prompts[1]
         and '"subjective_field"' in prompts[1]
+        and '"unity"' in prompts[1]
+        and '"strength"' in prompts[1]
     )
 
     restarted = ConsciousRuntime(
