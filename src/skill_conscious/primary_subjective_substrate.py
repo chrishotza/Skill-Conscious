@@ -155,12 +155,17 @@ class PrimarySubjectiveSubstrate:
         return copy.deepcopy(snapshot)
 
     def snapshot(self) -> dict[str, Any]:
-        return copy.deepcopy(self.last_snapshot)
+        payload = copy.deepcopy(self.last_snapshot)
+        payload["phase"] = round(self.phase, 12)
+        return payload
 
     def restore(self, snapshot: Mapping[str, Any]) -> None:
         """Restore causal substrate state without adding evidence."""
         if not isinstance(snapshot, Mapping):
             raise ValueError("substrate snapshot must be a mapping")
+        nested = snapshot.get("snapshot")
+        if isinstance(nested, Mapping):
+            snapshot = nested
         self.phase = float(snapshot.get("phase", self.phase))
         self.previous_coupling = float(
             snapshot.get("coupling", self.previous_coupling)
