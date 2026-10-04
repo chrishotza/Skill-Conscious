@@ -3845,6 +3845,7 @@ class ConsciousRuntime:
     ) -> dict[str, Any]:
         if self.self_observation_enabled:
             self.observe_self(persist=True)
+        self_observation_snapshot = self.snapshot_self_observation()
         frame = self.present_field(
             external_input,
             candidate_futures=candidate_futures,
@@ -3855,6 +3856,7 @@ class ConsciousRuntime:
             "identity": self.state.identity,
             "revision": self.state.revision,
             "present": frame,
+            "self_observation": self_observation_snapshot,
             "self_access": {
                 "self_state": dict(self.state.self_state),
                 "self_model": dict(self.state.self_model),
