@@ -47,6 +47,7 @@ from .experience_geometry import (
     transition_record,
 )
 from .embodiment import EmbodimentState, build_embodiment_state, predicted_resource_fit
+from .subjective_field import SubjectiveField
 from .state_regime import (
     DEFAULT_OPERATIONAL_MODE,
     OperationalState,
@@ -366,6 +367,8 @@ class ConsciousRuntime:
         self_observation_weight: float = 0.5,
         metacognition_enabled: bool = True,
         report_enabled: bool = True,
+        subjective_field_enabled: bool = False,
+        subjective_field_weight: float = 1.0,
     ):
         self.identity = identity
         self.memory_limit = max(1, int(memory_limit))
@@ -381,6 +384,9 @@ class ConsciousRuntime:
         self.self_observation_weight = float(self_observation_weight)
         self.metacognition_enabled = bool(metacognition_enabled)
         self.report_enabled = bool(report_enabled)
+        self.subjective_field_enabled = bool(subjective_field_enabled)
+        self.subjective_field_weight = float(subjective_field_weight)
+        self.subjective_field = SubjectiveField()
         dynamic_path = (
             Path(dynamic_core_state_path)
             if dynamic_core_state_path is not None
@@ -393,6 +399,7 @@ class ConsciousRuntime:
         )
         self.store = JsonStateStore(state_path)
         self.state = self.store.load(identity)
+        self._restore_subjective_field_state()
         self.state.operational_state = OperationalState.from_mapping(
             self.state.operational_state
         ).to_dict()
@@ -400,6 +407,123 @@ class ConsciousRuntime:
             self._restore_dynamic_core_state()
         self.refresh_access_state(persist=False)
         self.refresh_embodiment_state(persist=False)
+
+    def _restore_subjective_field_state(self) -> None:
+        if not self.subjective_field_enabled:
+            return
+        raw = self.state.workspace.get("subjective_field")
+        if not isinstance(raw, Mapping):
+            return
+        snapshot = raw.get("snapshot", raw)
+        if not isinstance(snapshot, Mapping):
+            return
+        previous = {
+            str(key): float(value)
+            for key, value in snapshot.items()
+            if isinstance(value, (int, float)) and not isinstance(value, bool)
+        }
+        self.subjective_field.previous = copy.deepcopy(previous)
+        revision = raw.get("revision", snapshot.get("revision", 0))
+        if isinstance(revision, int):
+            self.subjective_field.revision = max(0, revision)
+
+    def snapshot_subjective_field(self) -> dict[str, Any]:
+        """Return the runtime-owned conscious field without requiring verbal report."""
+        if not self.subjective_field_enabled:
+            return {"enabled": False, "field": {}}
+        return {
+            "enabled": True,
+            "field": self.subjective_field.snapshot(),
+            "weight": round(self.subjective_field_weight, 6),
+            "revision": self.subjective_field.revision,
+        }
+
+    def project_subjective_field(
+        self,
+        present: Mapping[str, Any],
+        *,
+        self_relevance: float | None = None,
+        valence: float | None = None,
+        attention: float | None = None,
+        integration: bool = True,
+        temporal_continuity: bool = True,
+        reentry: bool = True,
+        persist: bool = False,
+    ) -> dict[str, Any]:
+        """Project the unified present into the opt-in SubjectiveField mechanism."""
+        if not self.subjective_field_enabled:
+            return {"enabled": False, "field": {}}
+        if not isinstance(present, Mapping):
+            raise ValueError("subjective field present must be a mapping")
+
+        internal = self._numeric_state(self.state.self_state)
+        relevance = self_relevance
+        if not isinstance(relevance, (int, float)) or isinstance(relevance, bool):
+            relevance = self.state.self_model.get("self_relevance", 0.0)
+        if not isinstance(relevance, (int, float)) or isinstance(relevance, bool):
+            relevance = 0.0
+
+        effective_valence = valence
+        if not isinstance(effective_valence, (int, float)) or isinstance(effective_valence, bool):
+            effective_valence = self.state.valence
+
+        effective_attention = attention
+        if not isinstance(effective_attention, (int, float)) or isinstance(effective_attention, bool):
+            salience_values = [
+                float(value)
+                for value in self.state.salience.values()
+                if isinstance(value, (int, float)) and not isinstance(value, bool)
+            ]
+            effective_attention = max(salience_values, default=1.0)
+
+        field = self.subjective_field.compute(
+            present,
+            internal,
+            attention=float(effective_attention),
+            self_relevance=float(relevance),
+            valence=float(effective_valence),
+            integration=bool(integration),
+            temporal_continuity=bool(temporal_continuity),
+            reentry=bool(reentry),
+        )
+        self.state.workspace = {
+            **self.state.workspace,
+            "subjective_field": {
+                "snapshot": copy.deepcopy(field),
+                "revision": self.subjective_field.revision,
+                "enabled": True,
+            },
+        }
+        if persist:
+            self.store.save(self.state)
+        return copy.deepcopy(field)
+
+    def _score_subjective_field_candidate(
+        self,
+        candidate: Mapping[str, Any],
+    ) -> tuple[float, dict[str, Any]]:
+        if not self.subjective_field_enabled:
+            return 0.0, {"enabled": False, "fit": 0.0, "contribution": 0.0}
+
+        predicted = candidate.get("predicted_subjective_field")
+        current = self.subjective_field.snapshot()
+        if not isinstance(predicted, Mapping) or not current:
+            return 0.0, {
+                "enabled": True,
+                "fit": 0.0,
+                "contribution": 0.0,
+                "available": bool(current),
+            }
+
+        fit = self._numeric_similarity(predicted, current)
+        contribution = float(self.subjective_field_weight) * float(fit)
+        return contribution, {
+            "enabled": True,
+            "fit": round(float(fit), 6),
+            "weight": round(float(self.subjective_field_weight), 6),
+            "contribution": round(float(contribution), 6),
+            "available": True,
+        }
 
     def _state_view(self) -> dict[str, Any]:
         """Return a shallow runtime view for pure state-derivation functions."""
@@ -3660,6 +3784,7 @@ class ConsciousRuntime:
             "valuation": self.state.valuation,
             "valence": self.state.valence,
             "coherence": self.calculate_coherence(),
+            "subjective_field": self.snapshot_subjective_field(),
             "pre_reflective": self.pre_reflective_state(),
             "latent_patterns": self.state.latent_patterns,
             "self_dissonance": self.state.self_dissonance,
@@ -3861,8 +3986,15 @@ class ConsciousRuntime:
                 except (TypeError, ValueError):
                     pass
 
+        objective_score = score
+        subjective_field_score, subjective_field_diagnostics = (
+            self._score_subjective_field_candidate(candidate)
+        )
+        score += subjective_field_score
+
         return {
             "score": round(score, 6),
+            "objective_score": round(objective_score, 6),
             "signals": {
                 str(key): round(float(value), 6)
                 for key, value in signals.items()
@@ -3873,6 +4005,7 @@ class ConsciousRuntime:
                 for key, value in weights.items()
                 if isinstance(value, (int, float)) and not isinstance(value, bool)
             },
+            "subjective_field": subjective_field_diagnostics,
             "signal_contributions": signal_contributions,
             "self_observation": {
                 **self_observation_diagnostics,
@@ -3979,6 +4112,7 @@ class ConsciousRuntime:
             item["_metacognitive_breakdown"] = details
             item["_access_diagnostics"] = details["access"]
             item["_embodiment_diagnostics"] = details["embodiment"]
+            item["_subjective_field_diagnostics"] = details["subjective_field"]
             scored.append(item)
 
         selected = max(
@@ -4015,6 +4149,7 @@ class ConsciousRuntime:
         selected.pop("_metacognitive_breakdown", None)
         selected.pop("_access_diagnostics", None)
         selected.pop("_embodiment_diagnostics", None)
+        selected.pop("_subjective_field_diagnostics", None)
         return selected
 
     def present(self, external_input: str) -> dict[str, Any]:
@@ -4493,6 +4628,20 @@ class ConsciousRuntime:
 
         if frame.get("attractor") is None:
             self.state.attractor = self.build_attractor()
+
+        if self.subjective_field_enabled:
+            subjective_present = frame.get("subjective_present")
+            if isinstance(subjective_present, Mapping):
+                self.project_subjective_field(
+                    subjective_present,
+                    self_relevance=frame.get("subjective_self_relevance"),
+                    valence=frame.get("subjective_valence"),
+                    attention=frame.get("subjective_attention"),
+                    integration=bool(frame.get("subjective_integration", True)),
+                    temporal_continuity=bool(frame.get("subjective_temporal_continuity", True)),
+                    reentry=bool(frame.get("subjective_reentry", True)),
+                    persist=False,
+                )
 
         if selected is None:
             if candidate_futures is None:
