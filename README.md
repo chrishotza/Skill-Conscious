@@ -673,3 +673,26 @@ NEW SELECTION
 The replay profile is bounded, persistent, auditable, runtime-owned, and explicitly endogenous. It is not treated as external reward or as evidence that the system has phenomenal dreaming or consciousness.
 
 Focused coverage lives in `tests/test_operational_state_regimes.py` and `tests/test_operational_state_continuity.py`.
+## Operational continuity benchmark v1
+
+The repository now includes a matched longitudinal benchmark for the new operational-state layer:
+
+~~~text
+CONTINUITY REPLAY
+OFFLINE → DREAM-LIKE → RESTART → WAKE
+
+vs.
+
+CONSOLIDATION ONLY
+OFFLINE → WAKE
+~~~
+
+The benchmark tests whether an internal replay history leaves a persistent runtime-owned trace that changes subsequent WAKE trajectory selection.
+
+Run:
+
+~~~bash
+python -m experiments.operational_continuity_benchmark
+~~~
+
+A positive result is interpreted as a causal architectural result about matched computational histories, not as evidence of phenomenal consciousness or biological dreaming.

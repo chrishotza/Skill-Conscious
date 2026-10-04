@@ -78,7 +78,7 @@ Now added: experiments/unified_causal_benchmark.py, combining access interventio
 Still incomplete: richer longitudinal runs and external-model comparisons.
 
 ## D. Highest-priority missing translations
-1. Rich longitudinal benchmark — repeated multi-cycle comparisons with adaptation and intervention histories; operational state continuity is now implemented in a first deterministic benchmark, but broader matched runs are still needed.
+1. Rich longitudinal benchmark — first matched multi-cycle operational-continuity benchmark now implemented; broader adaptive/intervention histories and external-model replication remain.
 2. External-model evaluation — provider-neutral runs against the same matched protocol.
 3. Body-ownership / mineness analogue — stronger controlled ownership experiments beyond the current operational boundary model.
 4. Alternative geometry metrics — richer repertoire, topology and transition measures beyond normalized RMS distance.
@@ -170,3 +170,28 @@ dreaming/consciousness.
 The focused operational smoke now passes after correcting and validating the
 longitudinal continuity test. The full pytest workflow remains a broader
 validation layer and may still be in progress independently.
+
+
+## Longitudinal operational continuity benchmark update
+
+The remaining longitudinal gap now has a first matched causal benchmark in
+`experiments/operational_continuity_benchmark.py`.
+
+The benchmark compares:
+
+CONTINUITY_REPLAY
+OFFLINE CONSOLIDATION → DREAM-LIKE REPLAY → RESTART → WAKE RE-ENTRY
+
+against:
+
+CONSOLIDATION_ONLY
+OFFLINE CONSOLIDATION → WAKE RE-ENTRY
+
+Both conditions receive the same initial state and the same number of pre-reentry
+operational cycles. The controlled candidate field is constructed so that internal
+replay selects a different trajectory and leaves a runtime-owned replay profile
+that survives restart and changes later WAKE selection.
+
+This closes the first deterministic form of the longitudinal state-regime
+translation. It does not close external-model evaluation, body-ownership/mineness,
+or alternative geometry metrics.
