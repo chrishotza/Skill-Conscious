@@ -4,7 +4,7 @@ on:
   push:
     paths:
       - "src/skill_conscious/**"
-      - "experiments/consciousness_runtime_dissociation_v1.py"
+      - "experiments/**"
       - "tests/test_consciousness_runtime_dissociation_v1.py"
       - "docs/CONSCIOUSNESS_RUNTIME_DISSOCIATION_V1.md"
   pull_request:
