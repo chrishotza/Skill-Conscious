@@ -31,4 +31,6 @@ jobs:
       - name: Run full-runtime consciousness dissociation
         env:
           PYTHONPATH: .:src
-        run: pytest -q tests/test_consciousness_runtime_dissociation_v1.py
+        run: |
+          python experiments/consciousness_runtime_dissociation_v1.py
+          pytest -q tests/test_consciousness_runtime_dissociation_v1.py
