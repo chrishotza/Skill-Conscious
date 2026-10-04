@@ -583,3 +583,44 @@ python -m experiments.reflective_independence_benchmark
 ~~~
 
 This is a focused architectural benchmark. The unified longitudinal consciousness-oriented benchmark remains a separate open target.
+
+
+## Unified causal benchmark v1
+
+The architecture now has a single deterministic benchmark that combines the mechanisms added during PR #74:
+
+~~~text
+PRE-REFLECTIVE CORE
+        ↓
+BOUNDED ACCESS
+        ↓
+LIMITED PRESENT
+        ↓
+EXPERIENCE GEOMETRY
+        ↓
+TRAJECTORY
+        ↓
+ACTION
+        ↓
+AUTHORITATIVE CONSEQUENCE
+        ↓
+RE-ENTRY
+~~~
+
+Matched conditions include persistent baseline, pre-reflective operation, no-report + metacognition, and report + metacognition.
+
+The benchmark performs a reversible access intervention:
+
+~~~text
+capacity 2 → capacity 6 → capacity 2
+~~~
+
+and records trajectory divergence, restoration, geometry, action history, consequence coupling and restart persistence.
+
+Run:
+
+~~~bash
+python -m experiments.unified_causal_benchmark
+~~~
+
+The artifact is a mechanism-level benchmark. It does not treat its output as a consciousness score or proof of phenomenal experience.
