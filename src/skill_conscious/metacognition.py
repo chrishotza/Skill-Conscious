@@ -109,6 +109,9 @@ def state_delta(
         left = before.get(key)
         right = after.get(key)
         if left != right:
+            if key == "action_history":
+                left = _compact_action_history(left)
+                right = _compact_action_history(right)
             result[str(key)] = {
                 "before": left,
                 "after": right,
