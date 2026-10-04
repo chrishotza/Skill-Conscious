@@ -12,6 +12,7 @@ def test_unified_benchmark_covers_access_geometry_restart_and_no_report(tmp_path
         metacognition_enabled=False,
         pre_reflective_enabled=True,
         root=tmp_path,
+        causal_self_model=True,
     )
     no_report_meta = run_condition(
         "no-report-meta",
@@ -44,4 +45,7 @@ def test_unified_benchmark_covers_access_geometry_restart_and_no_report(tmp_path
         == report_meta["probe"]["narrow"]["pre_reflective"]
     )
     assert no_report_meta["probe"]["narrow"]["metacognition"] is True
+    assert len(core["longitudinal_trajectories"]) == 3
+    assert core["longitudinal_geometry_history"] >= 4
+    assert core["longitudinal_action_history"] >= 4
     assert report_meta["probe"]["narrow"]["metacognition"] is True
