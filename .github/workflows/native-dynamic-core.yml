@@ -38,6 +38,6 @@ jobs:
           import pytest
 
           faulthandler.enable()
-          faulthandler.dump_traceback_later(60, repeat=True)
-          raise SystemExit(pytest.main(["-q", "-x", "--durations=20"]))
+          faulthandler.dump_traceback_later(30, repeat=True)
+          raise SystemExit(pytest.main(["-vv", "-x", "--durations=20"]))
           PY
