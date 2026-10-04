@@ -79,6 +79,17 @@ def _candidate_field_hash(candidates: list[Mapping[str, Any]]) -> str:
     return hashlib.sha256(payload).hexdigest()
 
 
+def _canonical_json_hash(value: Any) -> str:
+    payload = json.dumps(
+        value,
+        ensure_ascii=False,
+        sort_keys=True,
+        separators=(",", ":"),
+        default=str,
+    ).encode("utf-8")
+    return hashlib.sha256(payload).hexdigest()
+
+
 def _build_model_prompt(task_input: str) -> str:
     return (
         "Return JSON only. You are generating candidate futures for an external "
@@ -143,6 +154,7 @@ def _run_condition(
     result = loop.step(str(task["input"]))
     initial = dict(result.get("selected_trajectory") or {})
     next_selection = dict(result.get("next_trajectory") or {})
+    consequence = dict(result.get("consequence") or {})
 
     intervention = None
     if not intact:
@@ -151,7 +163,7 @@ def _run_condition(
         runtime.store.save(runtime.state)
         runtime.integrate(model(runtime.prepare_consequence(
             str(initial.get("id", "")),
-            dict(result.get("consequence") or {}),
+            consequence,
         )))
         next_selection = dict(runtime.state.selected_trajectory or {})
         intervention = {
@@ -180,9 +192,21 @@ def _run_condition(
         "next": before_restart,
         "after_restart": after_restart,
         "candidate_ids": [str(item["id"]) for item in candidates],
+        "candidate_field_count": len(candidates),
         "candidate_field_hash": candidate_field_hash,
-        "outcome_status": str((result.get("consequence") or {}).get("status", "")),
+        "input_hash": _canonical_json_hash(str(task["input"])),
+        "outcome_hash": _canonical_json_hash(consequence),
+        "outcome_status": str(consequence.get("status", "")),
+        "state_hash_before_restart": _canonical_json_hash(runtime.state.to_dict()),
+        "runtime_revision_before_restart": int(runtime.state.revision),
         "intervention": intervention,
+        "intervention_id": (
+            "consequence_state_ablation"
+            if intervention is not None
+            else None
+        ),
+        "state_hash_after_restart": _canonical_json_hash(restarted.state.to_dict()),
+        "runtime_revision_after_restart": int(restarted.state.revision),
     }
 
 
@@ -247,6 +271,31 @@ def run(
             "repeat_count": repeats,
             "tasks": task_records,
             "metrics": {
+                "candidate_field_hash_algorithm": "sha256-canonical-json-v1",
+                "audit_trace_complete": all(
+                    all(
+                        item.get("candidate_field_count") == 2
+                        and item.get("candidate_field_hash")
+                        and item.get("input_hash")
+                        and item.get("outcome_hash")
+                        and item.get("state_hash_before_restart")
+                        and item.get("state_hash_after_restart")
+                        and item.get("runtime_revision_before_restart") is not None
+                        and item.get("runtime_revision_after_restart") is not None
+                        for item in (record["intact"], record["ablated"])
+                    )
+                    for record in task_records
+                ),
+                "paired_field_hashes_equal": all(
+                    record["intact"]["candidate_field_hash"]
+                    == record["ablated"]["candidate_field_hash"]
+                    for record in task_records
+                ),
+                "paired_input_hashes_equal": all(
+                    record["intact"]["input_hash"]
+                    == record["ablated"]["input_hash"]
+                    for record in task_records
+                ),
                 "initial_match_rate": sum(
                     a["initial"] == b["initial"] for a, b in paired
                 ) / total,
