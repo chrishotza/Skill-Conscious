@@ -160,3 +160,38 @@ def test_metacognitive_trace_survives_restart(tmp_path: Path):
     restarted = ConsciousRuntime("meta-restart", state_path=state_path)
 
     assert restarted.state.self_model["metacognitive_trace"] == trace
+
+
+def test_metacognitive_action_history_delta_stays_compact(tmp_path: Path):
+    runtime = ConsciousRuntime(
+        "meta-compact-history",
+        state_path=tmp_path / "runtime.json",
+        report_enabled=False,
+    )
+
+    for index in range(10):
+        runtime.integrate(
+            {
+                "response": f"cycle-{index}",
+                "candidate_futures": [
+                    {"id": "act", "signals": {"goal_fit": 0.8}},
+                ],
+            }
+        )
+        selected = runtime.state.selected_trajectory
+        assert selected is not None
+        runtime.begin_action(selected)
+        runtime.complete_action(
+            {
+                "status": "success",
+                "interoceptive_state": {"energy": 0.5},
+            }
+        )
+
+    trace = runtime.state.self_model["metacognitive_trace"]
+    history_delta = trace["state_delta"]["action_history"]
+
+    assert history_delta["before"]["count"] == 9
+    assert history_delta["after"]["count"] == 10
+    assert history_delta["after"]["last_action_id"]
+    assert "action" in trace
