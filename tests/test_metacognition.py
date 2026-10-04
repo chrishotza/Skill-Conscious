@@ -190,8 +190,14 @@ def test_metacognitive_action_history_delta_stays_compact(tmp_path: Path):
 
     trace = runtime.state.self_model["metacognitive_trace"]
     history_delta = trace["state_delta"]["action_history"]
+    self_model_delta = trace["state_delta"]["self_model"]
+    workspace_delta = trace["state_delta"]["workspace"]
 
     assert history_delta["before"]["count"] == 9
     assert history_delta["after"]["count"] == 10
     assert history_delta["after"]["last_action_id"]
+    assert self_model_delta["after"]["type"] == "mapping"
+    assert "metacognitive_trace" not in self_model_delta["after"]["scalar_values"]
+    assert workspace_delta["after"]["type"] == "mapping"
+    assert "last_action_receipt" in workspace_delta["after"]["containers"]
     assert "action" in trace
