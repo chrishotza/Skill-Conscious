@@ -159,6 +159,28 @@ A host adapter only needs to satisfy the existing `ConsciousHostLoop` interface:
 
 External providers can therefore be evaluated without changing the causal core.
 
+## Executable provider-neutral runner
+
+The repository now includes:
+
+```
+experiments/openai_compatible_host_benchmark.py
+```
+
+It uses the standard OpenAI-compatible chat-completions boundary and can therefore be pointed at a local compatible server or another compatible provider without adding a vendor SDK to the runtime.
+
+Example local invocation:
+
+```bash
+python -m experiments.openai_compatible_host_benchmark \
+  --endpoint http://127.0.0.1:11434/v1 \
+  --model llama3.1
+```
+
+The external model is deliberately constrained to an auxiliary host role. The benchmark supplies the controlled candidate field, while the runtime owns trajectory selection and authoritative internal state. This prevents a model's self-description from becoming the measured causal variable.
+
+The provider runner has its own fake-endpoint regression test so parsing and benchmark wiring can be checked in CI without requiring external network access.
+
 ## Current implementation status
 
 This document defines the experimental protocol.
