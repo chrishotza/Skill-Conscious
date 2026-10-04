@@ -54,11 +54,14 @@ def test_model_generated_external_benchmark_keeps_runtime_causal(monkeypatch):
         endpoint="http://fake/v1",
         model_name="fake-model",
         api_key=None,
+        repeats=2,
     )
     metrics = result["metrics"]
 
-    assert result["task_count"] == 5
+    assert result["task_count"] == 10
+    assert result["repeat_count"] == 2
     assert metrics["model_generated_candidate_fields"] is True
+    assert metrics["candidate_field_match_rate"] == 1.0
     assert metrics["initial_match_rate"] == 1.0
     assert metrics["causal_divergence_rate"] == 1.0
     assert metrics["intact_switch_rate"] == 1.0
