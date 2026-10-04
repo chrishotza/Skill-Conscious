@@ -19,10 +19,7 @@ from typing import Any, Mapping
 
 from skill_conscious import ConsciousHostLoop, ConsciousRuntime
 
-from experiments.openai_compatible_host_benchmark import (
-    CANDIDATES as BASE_CANDIDATES,
-    OpenAICompatibleModel,
-)
+from experiments.openai_compatible_host_benchmark import OpenAICompatibleModel
 
 
 TASKS: tuple[dict[str, Any], ...] = tuple(
@@ -237,17 +234,16 @@ def run(
         }
 
         print(json.dumps(result, indent=2, sort_keys=True))
-        assert total == 5
-        assert result["metrics"]["initial_match_rate"] == 1.0
-        assert result["metrics"]["causal_divergence_rate"] == 1.0
-        assert result["metrics"]["intact_switch_rate"] == 1.0
-        assert result["metrics"]["ablation_preservation_rate"] == 1.0
-        assert result["metrics"]["intact_restart_persistence_rate"] == 1.0
-        assert result["metrics"]["ablation_restart_persistence_rate"] == 1.0
-        assert result["metrics"]["all_authoritative_outcomes_present"] is True
-        assert result["metrics"]["all_interventions_non_evidential"] is True
 
-        print("EXTERNAL HOST BEHAVIORAL SUITE v1: PASS")
+        # This is an experiment runner, not a pass/fail unit test. Real
+        # provider runs must be allowed to produce null, partial, or negative
+        # results. Structural invariants are still enforced above by the
+        # benchmark construction and by the dedicated test suite.
+        if total != len(TASKS):
+            raise AssertionError(
+                f"expected {len(TASKS)} matched tasks, received {total}"
+            )
+
         return result
 
 
