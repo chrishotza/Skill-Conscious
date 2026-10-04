@@ -4,7 +4,7 @@ from pathlib import Path
 
 import pytest
 
-from src.skill_conscious.core import ConsciousRuntime
+from skill_conscious.core import ConsciousRuntime
 from src.skill_conscious.state_regime import OPERATIONAL_MODES
 
 
