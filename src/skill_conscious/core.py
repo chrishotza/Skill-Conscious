@@ -108,6 +108,7 @@ def _compact_runtime_mapping(value: Mapping[str, Any] | None) -> dict[str, Any]:
 DEFAULT_TRAJECTORY_WEIGHTS: dict[str, float] = {
     "goal_fit": 1.0,
     "self_alignment": 1.0,
+    "learned_self_fit": 1.0,
     "continuity": 1.0,
     "learning": 0.5,
     "risk": -1.0,
@@ -1943,6 +1944,104 @@ class ConsciousRuntime:
             return 0.0
         return self._numeric_similarity(self.state.self_state, learned)
 
+    def snapshot_latent_self_causal_profile(self) -> dict[str, Any]:
+        """Capture latent-self state that can causally influence later selection."""
+        model = self.state.self_model
+        latent_patterns = copy.deepcopy(self.state.latent_patterns)
+        learned_self_state = copy.deepcopy(model.get("learned_self_state", {}))
+        latent_tendencies = copy.deepcopy(model.get("latent_tendencies", {}))
+        pattern_markers = {
+            str(key): {
+                "last_self_model_evidence_count": pattern.get(
+                    "last_self_model_evidence_count"
+                ),
+                "last_self_model_revision": pattern.get(
+                    "last_self_model_revision"
+                ),
+                "evidence_count": pattern.get("evidence_count", 0),
+            }
+            for key, pattern in latent_patterns.items()
+            if isinstance(pattern, Mapping)
+        }
+        return {
+            "latent_patterns": latent_patterns,
+            "learned_self_state": learned_self_state,
+            "latent_tendencies": latent_tendencies,
+            "pattern_markers": pattern_markers,
+        }
+
+    def intervene_latent_self_causal_profile(
+        self,
+        profile: Mapping[str, Any],
+        *,
+        persist: bool = False,
+        intervention_id: str | None = None,
+    ) -> dict[str, Any]:
+        """Replace latent-self causal state without generating learning evidence."""
+        if not isinstance(profile, Mapping):
+            raise ValueError("latent-self causal profile must be a mapping")
+
+        before = self.snapshot_latent_self_causal_profile()
+        raw_patterns = profile.get("latent_patterns", {})
+        raw_learned = profile.get("learned_self_state", {})
+        raw_tendencies = profile.get("latent_tendencies", {})
+        if not isinstance(raw_patterns, Mapping):
+            raise ValueError("latent-self profile.latent_patterns must be a mapping")
+        if not isinstance(raw_learned, Mapping):
+            raise ValueError("latent-self profile.learned_self_state must be a mapping")
+        if not isinstance(raw_tendencies, Mapping):
+            raise ValueError("latent-self profile.latent_tendencies must be a mapping")
+
+        self.state.latent_patterns = copy.deepcopy(dict(raw_patterns))
+        model = dict(self.state.self_model)
+        model["learned_self_state"] = copy.deepcopy(dict(raw_learned))
+        model["latent_tendencies"] = copy.deepcopy(dict(raw_tendencies))
+        self.state.self_model = model
+
+        after = self.snapshot_latent_self_causal_profile()
+        changed = before != after
+        event = {
+            "revision": self.state.revision,
+            "type": "latent_self_causal_intervention",
+            "intervention_id": str(intervention_id) if intervention_id is not None else None,
+            "changed": changed,
+            "evidence_added": False,
+        }
+        self.state.transformation_log.append(event)
+        self.state.transformation_log = self.state.transformation_log[-self.transformation_limit :]
+        self.state.workspace = {
+            **self.state.workspace,
+            "latent_self_causal_intervention": {
+                **event,
+                "before": before,
+                "after": after,
+            },
+        }
+        if persist:
+            self.store.save(self.state)
+        return {
+            "intervened": changed,
+            "changed": changed,
+            "intervention_id": event["intervention_id"],
+            "evidence_added": False,
+            "before": before,
+            "after": after,
+        }
+
+    def restore_latent_self_causal_profile(
+        self,
+        snapshot: Mapping[str, Any],
+        *,
+        persist: bool = False,
+        intervention_id: str | None = None,
+    ) -> dict[str, Any]:
+        """Restore an exact latent-self causal profile without adding evidence."""
+        return self.intervene_latent_self_causal_profile(
+            snapshot,
+            persist=persist,
+            intervention_id=intervention_id,
+        )
+
     def revise_self_model_from_latent_patterns(self) -> dict[str, Any]:
         if not self.self_model_latent_learning_enabled():
             return {
@@ -3647,6 +3746,17 @@ class ConsciousRuntime:
         if not isinstance(signals, Mapping):
             raise ValueError("trajectory.signals must be a mapping")
         signals = dict(signals)
+        predicted_self_state = candidate.get("predicted_self_state")
+        learned_self_state = self.state.self_model.get("learned_self_state", {})
+        if (
+            isinstance(predicted_self_state, Mapping)
+            and isinstance(learned_self_state, Mapping)
+            and learned_self_state
+        ):
+            signals.setdefault(
+                "learned_self_fit",
+                self._numeric_similarity(predicted_self_state, learned_self_state),
+            )
         predicted_internal = candidate.get("predicted_interoceptive_state")
         if isinstance(predicted_internal, Mapping):
             signals.setdefault(
