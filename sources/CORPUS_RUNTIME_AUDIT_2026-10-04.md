@@ -97,3 +97,10 @@ It is the formation and limitation of the present itself:
 FULL INTERNAL STATE → ACCESS / ATTENTION → LIMITED PRESENT → SELF-RELEVANCE → TRAJECTORY
 
 That is the next runtime frontier. No metaphysical claim is required to implement or test it.
+
+
+## Access/Bandwidth runtime update
+
+The previously documented bandwidth gap has now been translated into runtime code on PR #74. The implementation is intentionally narrow: it models bounded access between persistent state and the current present, then tests whether changing that access budget can causally alter trajectory selection and whether restoring the budget restores the prior trajectory under matched state conditions.
+
+This does not settle phenomenology. The result is evidence about the causal organization of the artificial architecture.
