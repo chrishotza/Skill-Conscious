@@ -3102,10 +3102,19 @@ class ConsciousRuntime:
         }
         return {
             "regime": self.state.regime,
+            "operational_mode": self.operational_mode(),
             "attention": list(self.state.attention),
             "intention": self.state.intention,
             "coherence": self.calculate_coherence(),
             "trajectory_weights": stable_weights,
+            "replay_profile": dict(
+                self.state.self_model.get("operational_replay_profile", {})
+            )
+            if isinstance(
+                self.state.self_model.get("operational_replay_profile", {}),
+                Mapping,
+            )
+            else {},
         }
 
     def generate_candidate_futures(self) -> list[dict[str, Any]]:
