@@ -399,6 +399,10 @@ class ConsciousRuntime:
         self.refresh_access_state(persist=False)
         self.refresh_embodiment_state(persist=False)
 
+    def _state_view(self) -> dict[str, Any]:
+        """Return a shallow runtime view for pure state-derivation functions."""
+        return dict(self.state.__dict__)
+
     def operational_mode(self) -> str:
         """Return the persistent computational operating mode."""
         return normalize_operational_mode(
@@ -867,7 +871,7 @@ class ConsciousRuntime:
     ) -> dict[str, Any]:
         """Derive the bounded current present from persistent runtime state."""
         access = build_access_state(
-            self.state.to_dict(),
+            self._state_view(),
             external_input=str(external_input),
             capacity=self.access_capacity(),
         )
@@ -885,7 +889,7 @@ class ConsciousRuntime:
             persist=False,
         )
         return build_limited_present(
-            self.state.to_dict(),
+            self._state_view(),
             access,
             external_input=str(external_input),
         )
@@ -954,7 +958,7 @@ class ConsciousRuntime:
         persist: bool = False,
     ) -> dict[str, Any]:
         """Derive runtime-owned operational embodiment/ownership state."""
-        state = build_embodiment_state(self.state.to_dict())
+        state = build_embodiment_state(self._state_view())
         self.state.embodiment_state = state.to_dict()
         if persist:
             self.store.save(self.state)
@@ -1018,7 +1022,7 @@ class ConsciousRuntime:
             else {}
         )
         profile = build_pre_reflective_state(
-            self.state.to_dict(),
+            self._state_view(),
             possibility_count=possibility_count,
             possibility_scores=possibility_scores,
         )
@@ -3575,7 +3579,7 @@ class ConsciousRuntime:
 
         weights = self.trajectory_weights()
         access_state = self.conscious_access_state()
-        embodiment_state = build_embodiment_state(self.state.to_dict())
+        embodiment_state = build_embodiment_state(self._state_view())
         access_factor, access_availability = signal_access_factor(
             dict(candidate),
             access_state,
@@ -3612,7 +3616,7 @@ class ConsciousRuntime:
 
         score = base_score + embodiment_score
         pre_reflective = build_pre_reflective_state(
-            self.state.to_dict(),
+            self._state_view(),
             possibility_count=1,
             possibility_scores=[base_score],
         )
