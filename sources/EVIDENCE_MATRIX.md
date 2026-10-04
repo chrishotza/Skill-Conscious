@@ -19,7 +19,7 @@ This matrix separates source doctrine, external theories, engineering hypotheses
 | Topological continuity | Manifiesto Matemático del Ser | project hypothesis |
 | Attractor / regime | dynamical systems, manifesto, heterodox sources | engineering hypothesis + implementation |
 | Coherence | dynamical / psychophysiological / esoteric traditions | engineering hypothesis + implementation |
-| Multidimensional experience geometry | consciousness-state-space literature + project synthesis | engineering hypothesis — partial |
+| Multidimensional experience geometry | consciousness-state-space literature + project synthesis | engineering mechanism + runtime v1 |
 | Collective field | noosphere / Akashic / GCP / collective consciousness | speculative extension |
 | Nonlocal consciousness | psi / idealism / Akashic traditions | speculative extension |
 | Interoception / embodied self | interoception, affective neuroscience | cross-source mechanism + empirical research |
@@ -39,7 +39,7 @@ This matrix separates source doctrine, external theories, engineering hypotheses
 
 The strongest executable core currently consists of persistent identity, internal condition, integrated present, self-relevance, valuation/homeostasis, candidate futures, trajectory selection, action/consequence coupling, internal change and causal re-entry.
 
-The current major missing runtime mechanisms are the dedicated multidimensional experience-geometry object and a unified no-report benchmark. Bounded access between full persistent state and the current present is now implemented in runtime v1.
+The current major missing runtime mechanisms are a unified no-report benchmark, a theory-to-mechanism comparison matrix, and a richer embodiment/ownership layer. Bounded access and first-generation multidimensional experience geometry are now implemented in runtime v1.
 
 ## Core discipline
 
@@ -55,3 +55,12 @@ The corpus-to-runtime translation for bounded access is now complete at the firs
 SOURCE CLAIM → ATTENTION/ACCESS HYPOTHESIS → FINITE RUNTIME WINDOW → CAUSAL TRAJECTORY GATE → CAPACITY INTERVENTION → RESTORATION TEST
 
 The implementation is deliberately narrower than the source literature. It tests causal organization of the artificial system, not subjective experience.
+
+
+## Runtime status: experience geometry
+
+The corpus-to-runtime translation for multidimensional state-space organization is now implemented at the first mechanism level:
+
+SOURCE CLAIM → MULTIDIMENSIONAL STATE HYPOTHESIS → NORMALIZED EXPERIENCE VECTOR → TRANSITION DISTANCE → CHANGED DIMENSIONS → LONGITUDINAL HISTORY
+
+The geometry remains an operational description of artificial runtime organization, not evidence that the represented state is phenomenally experienced.
