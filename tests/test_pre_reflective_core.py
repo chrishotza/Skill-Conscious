@@ -46,6 +46,31 @@ def test_pre_reflective_state_is_runtime_owned_and_persistent(tmp_path):
     assert restarted.pre_reflective_state() == state
 
 
+def test_pre_reflective_state_cannot_be_forged_by_model_frame(tmp_path):
+    runtime = ConsciousRuntime(
+        "protected",
+        tmp_path / "state.json",
+        report_enabled=False,
+        metacognition_enabled=False,
+    )
+
+    runtime.integrate(
+        {
+            "pre_reflective_state": {
+                "self_relevance": 1.0,
+                "boundary_integrity": 0.0,
+            },
+            "candidate_futures": [
+                {"id": "a", "predicted_self_relevance": 0.0},
+            ],
+        }
+    )
+
+    derived = runtime.pre_reflective_state()
+    assert derived["boundary_integrity"] == 1.0
+    assert derived["self_relevance"] == 0.0
+
+
 def test_internal_condition_causally_changes_pre_reflective_selection(tmp_path):
     candidates = [
         {
