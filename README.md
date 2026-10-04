@@ -523,3 +523,42 @@ The mechanism supports no-report and no-metacognition operation and persists acr
 
 
 The v0.10 access interface uses a finite default capacity of 12 persistent runtime fields. This is intentionally bounded rather than a full-state pass-through; capacity interventions can tighten or expand the window for causal ablation.
+
+
+## Runtime 0.11.0 — multidimensional experience geometry
+
+The runtime now projects its operational state into a fixed multidimensional `ExperienceState`.
+
+The geometry includes:
+
+~~~text
+VALENCE
+COHERENCE
+SELF-DISSONANCE
+SALIENCE
+SELF-RELEVANCE
+PRESENT INTEGRITY
+TEMPORAL CONTINUITY
+POSSIBILITY ENTROPY
+RE-ENTRY COUPLING
+PREDICTION ERROR
+METACOGNITIVE UNCERTAINTY
+SELF-OBSERVATION ERROR
+ACCESS ENTROPY
+ACCESS COMPRESSION
+SELF ACCESS
+WORLD ACCESS
+DYNAMIC / FIELD DIMENSIONS
+~~~
+
+Each integrated revision can produce a transition record with RMS state distance and the dimensions that changed. Geometry is runtime-owned and persisted alongside the longitudinal process; model frames cannot forge geometry history.
+
+The bandwidth layer is part of the geometry itself: changing access capacity changes the measured operational state-space position and can change downstream trajectory selection.
+
+Run the deterministic causal probe:
+
+~~~bash
+python -m experiments.experience_geometry_bandwidth_probe
+~~~
+
+This is an operational state-space mechanism, not a scalar consciousness score and not proof of phenomenal experience.
