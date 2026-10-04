@@ -17,6 +17,7 @@ from .metacognitive_causal_probe import MetacognitiveCausalProbeResult, run_meta
 from .pre_reflective import PreReflectiveState, build_pre_reflective_state, predicted_self_relevance_fit
 from .access import ConsciousAccessState, DEFAULT_ACCESS_CAPACITY, build_access_state, build_limited_present, signal_access_factor
 from .experience_geometry import ExperienceState, FEATURE_ORDER, build_experience_state, experience_distance, changed_dimensions, transition_record
+from .embodiment import EmbodimentState, build_embodiment_state, predicted_resource_fit
 
 __all__ = [
     "ConsciousRuntime",
@@ -75,6 +76,9 @@ __all__ = [
     "experience_distance",
     "changed_dimensions",
     "transition_record",
+    "EmbodimentState",
+    "build_embodiment_state",
+    "predicted_resource_fit",
 ]
 
 from .adversarial_battery import AdversarialCondition, CONDITIONS, run_adversarial_battery, run_condition, summarize_battery
