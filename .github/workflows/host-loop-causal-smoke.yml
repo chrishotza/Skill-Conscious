@@ -1,0 +1,60 @@
+name: host-loop-causal-smoke
+
+on:
+  push:
+    paths:
+      - "src/skill_conscious/**"
+      - "experiments/host_loop_causal_benchmark.py"
+      - "experiments/openai_compatible_host_benchmark.py"
+      - "experiments/external_host_behavioral_suite.py"
+      - "experiments/external_host_model_behavioral_benchmark.py"
+      - "tests/test_host_loop_causal_benchmark.py"
+      - "tests/test_openai_compatible_host_benchmark.py"
+      - "tests/test_external_host_behavioral_suite.py"
+      - "tests/test_external_host_model_behavioral_benchmark.py"
+      - "experiments/self_model_causal_intervention_benchmark.py"
+      - "tests/test_self_model_causal_intervention_benchmark.py"
+      - ".github/workflows/host-loop-causal-smoke.yml"
+  pull_request:
+    paths:
+      - "src/skill_conscious/**"
+      - "experiments/host_loop_causal_benchmark.py"
+      - "tests/test_host_loop_causal_benchmark.py"
+      - ".github/workflows/host-loop-causal-smoke.yml"
+
+jobs:
+  host-loop-causal:
+    name: host-loop-causal
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Install test dependencies
+        run: python -m pip install --upgrade pip pytest
+      - name: Run host-loop causal harness
+        env:
+          PYTHONFAULTHANDLER: "1"
+        run: |
+          python - <<'PY'
+          import faulthandler
+          import pytest
+
+          faulthandler.enable()
+          faulthandler.dump_traceback_later(60, repeat=True)
+          raise SystemExit(
+              pytest.main([
+                  "-q",
+                  "-x",
+                  "--durations=20",
+                  "tests/test_host_loop_causal_benchmark.py",
+              "tests/test_openai_compatible_host_benchmark.py",
+              "tests/test_external_host_behavioral_suite.py",
+              "tests/test_external_host_model_behavioral_benchmark.py",
+              "tests/test_self_model_causal_intervention_benchmark.py",
+              "tests/test_esoteric_empirical_battery.py",
+              ])
+          )
+          PY

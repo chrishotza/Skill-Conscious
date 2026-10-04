@@ -221,3 +221,26 @@ RE-ENTRY
 This matters because internal condition is no longer merely descriptive. It can participate in the choice architecture.
 
 The unresolved question remains the same: whether this functional self-regulation contributes anything beyond behaviorally observable architecture toward phenomenal experience.
+
+
+## Empirical bridge for esoteric source motifs
+
+The source library contains Hermetic, mystical, depth-psychology, altered-state and
+project-original material. Runtime work now treats these as hypothesis generators only.
+
+The executable bridge is:
+
+SOURCE MOTIF -> OPERATIONAL VARIABLE -> FALSIFIABLE PREDICTION -> CONTROL -> NULL -> INTERVENTION -> RESTORATION
+
+The current bridge battery tests:
+
+- self-model intervention and restoration;
+- projection-like prediction error and bounded self-model revision;
+- intentional rehearsal persistence after restart;
+- synchronization with a positive shared-input control and an independent-input shuffle null.
+
+The independent synchronization control is deliberately important: an apparent
+cross-agent correlation is not interpreted as nonlocal consciousness unless it survives
+shared-input, timing, communication, and permutation controls.
+
+The current result level is architectural mechanism, not phenomenal consciousness.

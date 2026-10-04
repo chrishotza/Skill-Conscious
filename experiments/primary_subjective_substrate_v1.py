@@ -1,0 +1,409 @@
+"""Causal gate for a minimal pre-cognitive subjective substrate.
+
+The substrate is tested below memory, language, metacognition and self-report.
+The matched objective channel remains candidate-side only.
+
+Protocol:
+    substrate -> subjective field -> trajectory -> action
+    intervention -> divergence -> restoration -> restart
+
+This is an architectural causal experiment, not a test that proves phenomenal
+consciousness.
+"""
+from __future__ import annotations
+
+import json
+from pathlib import Path
+from tempfile import TemporaryDirectory
+from typing import Any, Mapping
+
+from skill_conscious import ConsciousRuntime
+from skill_conscious.primary_subjective_substrate import PrimarySubjectiveSubstrate
+
+
+BASE_SIGNALS = {
+    "goal_fit": 0.8,
+    "self_alignment": 0.4,
+}
+
+
+def _field_core(field: Mapping[str, Any]) -> dict[str, float]:
+    return {
+        key: float(field.get(key, 0.0))
+        for key in (
+            "world_signal",
+            "internal_signal",
+            "binding",
+            "self_relevance",
+            "valence",
+            "unity",
+            "strength",
+        )
+    }
+
+
+def _distance(left: Mapping[str, Any], right: Mapping[str, Any]) -> float:
+    a = _field_core(left)
+    b = _field_core(right)
+    return sum(abs(a[key] - b[key]) for key in a) / len(a)
+
+
+def _runtime(root: Path, label: str) -> ConsciousRuntime:
+    runtime = ConsciousRuntime(
+        label,
+        state_path=root / f"{label}.json",
+        memory_limit=1,
+        history_limit=8,
+        learn_latent_patterns=False,
+        learn_self_model_from_latent_patterns=False,
+        report_enabled=False,
+        metacognition_enabled=False,
+        self_observation_enabled=False,
+        subjective_field_enabled=True,
+        subjective_field_weight=1.0,
+        primary_subjective_substrate_enabled=True,
+        primary_subjective_substrate_weight=1.0,
+    )
+    runtime.state.self_state = {
+        "energy": 0.65,
+        "safety": 0.80,
+        "goal": 0.70,
+    }
+    runtime.state.interoceptive_state = {"energy": 0.65}
+    runtime.state.valence = 0.10
+    runtime.state.salience = {"present": 1.0}
+    runtime.state.attention = []
+    runtime.state.memories = []
+    runtime.state.intention = ""
+    runtime.state.latent_patterns = {}
+    runtime.state.self_observation = {}
+    runtime.store.save(runtime.state)
+    return runtime
+
+
+def _present(seed: int) -> dict[str, float]:
+    return {
+        "signal": 0.72 + 0.01 * (seed % 3),
+        "reward": 0.38 + 0.01 * (seed % 4),
+        "threat": 0.07 + 0.01 * (seed % 2),
+        "self_impact": 0.90,
+    }
+
+
+def _candidates(low: Mapping[str, Any], neutral: Mapping[str, Any], high: Mapping[str, Any]) -> list[dict[str, Any]]:
+    return [
+        {
+            "id": "substrate-low",
+            "signals": dict(BASE_SIGNALS),
+            "predicted_self_relevance": 0.85,
+            "predicted_subjective_field": _field_core(low),
+        },
+        {
+            "id": "substrate-neutral",
+            "signals": dict(BASE_SIGNALS),
+            "predicted_self_relevance": 0.85,
+            "predicted_subjective_field": _field_core(neutral),
+        },
+        {
+            "id": "substrate-high",
+            "signals": dict(BASE_SIGNALS),
+            "predicted_self_relevance": 0.85,
+            "predicted_subjective_field": _field_core(high),
+        },
+    ]
+
+
+def _project(runtime: ConsciousRuntime, present: Mapping[str, float]) -> dict[str, Any]:
+    return runtime.project_subjective_field(
+        present,
+        self_relevance=present["self_impact"],
+        valence=runtime.state.valence,
+        attention=1.0,
+        integration=True,
+        temporal_continuity=False,
+        reentry=False,
+        persist=True,
+    )
+
+
+def run_benchmark(seeds: int = 12) -> dict[str, Any]:
+    if seeds < 2:
+        raise ValueError("seeds must be >= 2")
+
+    rows: list[dict[str, Any]] = []
+
+    with TemporaryDirectory() as tmp:
+        root = Path(tmp)
+
+        for seed in range(20268000, 20268000 + seeds):
+            present = _present(seed)
+
+            baseline = _runtime(root, f"baseline-{seed}")
+            initial_substrate = baseline.snapshot_primary_subjective_substrate()
+
+            # Baseline branch: one step at neutral tuning.
+            baseline_field = _project(baseline, present)
+            baseline_substrate_after_projection = (
+                baseline.snapshot_primary_subjective_substrate()
+            )
+
+            # Matched reference fields use fresh runtimes with the same initial
+            # state and external probe, changing only substrate tuning.
+            low_ref = _runtime(root, f"low-ref-{seed}")
+            low_ref.intervene_primary_subjective_substrate(
+                {"tuning": 0.55},
+                intervention_id=f"low-ref-{seed}",
+            )
+            low_field = _project(low_ref, present)
+
+            neutral_ref = _runtime(root, f"neutral-ref-{seed}")
+            neutral_field = _project(neutral_ref, present)
+
+            high_ref = _runtime(root, f"high-ref-{seed}")
+            high_ref.intervene_primary_subjective_substrate(
+                {"tuning": 1.45},
+                intervention_id=f"high-ref-{seed}",
+            )
+            high_field = _project(high_ref, present)
+
+            candidates = _candidates(low_field, neutral_field, high_field)
+
+            objective_before = {
+                item["id"]: baseline._score_trajectory_details(item)["objective_score"]
+                for item in candidates
+            }
+            selected_baseline = baseline.select_trajectory(candidates)
+
+            # Causal intervention: alter only the substrate policy, then project
+            # the same external probe through the same runtime.
+            intervention = baseline.intervene_primary_subjective_substrate(
+                {
+                    "tuning": 0.55,
+                    "maintenance": True,
+                    "coupling": True,
+                    "closure": True,
+                    "recurrence": True,
+                },
+                persist=False,
+                intervention_id=f"abl-{seed}",
+            )
+            intervention_field = _project(baseline, present)
+            intervention_substrate_after_projection = (
+                baseline.snapshot_primary_subjective_substrate()
+            )
+            intervention_selected = baseline.select_trajectory(candidates)
+
+            # Restart while the intervened state is persisted. No new projection
+            # is performed before measurement, so restart measures actual
+            # persistence rather than a fresh temporal step.
+            restarted = ConsciousRuntime(
+                f"baseline-{seed}",
+                state_path=root / f"baseline-{seed}.json",
+                memory_limit=1,
+                history_limit=8,
+                learn_latent_patterns=False,
+                learn_self_model_from_latent_patterns=False,
+                report_enabled=False,
+                metacognition_enabled=False,
+                self_observation_enabled=False,
+                subjective_field_enabled=True,
+                subjective_field_weight=1.0,
+                primary_subjective_substrate_enabled=True,
+                primary_subjective_substrate_weight=1.0,
+            )
+            restarted_snapshot = restarted.snapshot_subjective_field()
+            restarted_field = dict(restarted_snapshot.get("field", {}))
+            restarted_selected = restarted.select_trajectory(candidates)
+
+            objective_after_intervention = {
+                item["id"]: baseline._score_trajectory_details(item)["objective_score"]
+                for item in candidates
+            }
+
+            # Destructive restoration returns to the exact causal state that
+            # existed immediately before the intervention branch.
+            restore = baseline.restore_primary_subjective_substrate(
+                initial_substrate,
+                persist=False,
+                intervention_id=f"restore-{seed}",
+            )
+            restored_field = _project(baseline, present)
+            restored_selected = baseline.select_trajectory(candidates)
+
+            rows.append(
+                {
+                    "seed": seed,
+                    "initial_substrate": initial_substrate,
+                    "intervention": intervention,
+                    "restore": restore,
+                    "baseline_field": baseline_field,
+                    "intervention_field": intervention_field,
+                    "restored_field": restored_field,
+                    "restarted_field": restarted_field,
+                    "baseline_substrate_after_projection": baseline_substrate_after_projection,
+                    "intervention_substrate_after_projection": intervention_substrate_after_projection,
+                    "baseline_action": str(selected_baseline["id"]),
+                    "intervention_action": str(intervention_selected["id"]),
+                    "restored_action": str(restored_selected["id"]),
+                    "restarted_action": str(restarted_selected["id"]),
+                    "field_intervention_distance": round(
+                        _distance(baseline_field, intervention_field), 6
+                    ),
+                    "field_components_changed": (
+                        _field_core(baseline_field) != _field_core(intervention_field)
+                    ),
+                    "substrate_gain_distance": round(
+                        abs(
+                            float(
+                                baseline_substrate_after_projection["snapshot"].get(
+                                    "resonant_gain",
+                                    0.0,
+                                )
+                            )
+                            - float(
+                                intervention_substrate_after_projection["snapshot"].get(
+                                    "resonant_gain",
+                                    0.0,
+                                )
+                            )
+                        ),
+                        6,
+                    ),
+                    "substrate_drive_distance": round(
+                        abs(
+                            float(
+                                baseline_substrate_after_projection["snapshot"].get(
+                                    "subjective_drive",
+                                    0.0,
+                                )
+                            )
+                            - float(
+                                intervention_substrate_after_projection["snapshot"].get(
+                                    "subjective_drive",
+                                    0.0,
+                                )
+                            )
+                        ),
+                        6,
+                    ),
+                    "field_restore_distance": round(
+                        _distance(baseline_field, restored_field), 6
+                    ),
+                    "field_intervention_restart_distance": round(
+                        _distance(intervention_field, restarted_field), 6
+                    ),
+                    "objective_before": objective_before,
+                    "objective_after_intervention": objective_after_intervention,
+                    "objective_match": (
+                        objective_before == objective_after_intervention
+                    ),
+                }
+            )
+
+    summary = {
+        "seed_count": len(rows),
+        "field_intervention_any_rate": sum(
+            row["field_intervention_distance"] > 0.000001
+            for row in rows
+        ) / len(rows),
+        "field_components_changed_rate": sum(
+            row["field_components_changed"] for row in rows
+        ) / len(rows),
+        "substrate_gain_intervention_rate": sum(
+            row["substrate_gain_distance"] > 0.10
+            for row in rows
+        ) / len(rows),
+        "substrate_drive_intervention_rate": sum(
+            row["substrate_drive_distance"] > 0.10
+            for row in rows
+        ) / len(rows),
+        "field_intervention_distance_mean": round(
+            sum(row["field_intervention_distance"] for row in rows)
+            / len(rows),
+            6,
+        ),
+        "field_restoration_rate": sum(
+            row["field_restore_distance"] < 0.002 for row in rows
+        ) / len(rows),
+        "field_intervention_restart_persistence_rate": sum(
+            row["field_intervention_restart_distance"] < 0.002 for row in rows
+        ) / len(rows),
+        "action_intervention_rate": sum(
+            row["baseline_action"] != row["intervention_action"] for row in rows
+        ) / len(rows),
+        "action_restoration_rate": sum(
+            row["baseline_action"] == row["restored_action"] for row in rows
+        ) / len(rows),
+        "action_restart_persistence_rate": sum(
+            row["intervention_action"] == row["restarted_action"] for row in rows
+        ) / len(rows),
+        "objective_match_rate": sum(
+            row["objective_match"] for row in rows
+        ) / len(rows),
+    }
+
+    gate_metrics = (
+        "field_intervention_any_rate",
+        "field_components_changed_rate",
+        "substrate_gain_intervention_rate",
+        "substrate_drive_intervention_rate",
+        "field_restoration_rate",
+        "field_intervention_restart_persistence_rate",
+        "action_intervention_rate",
+        "action_restoration_rate",
+        "action_restart_persistence_rate",
+        "objective_match_rate",
+    )
+
+    result = {
+        "protocol": {
+            "what_aspect": (
+                "pre-cognitive subjective organization: persistent internal "
+                "state, coupling, oscillation, closure and recurrent tuning"
+            ),
+            "causal_relation": (
+                "substrate regime -> subjective field -> next trajectory "
+                "under a matched explicit objective channel"
+            ),
+            "destructive_test": (
+                "alter substrate tuning, require field/action divergence, "
+                "then restore the exact substrate state and restart"
+            ),
+            "pre_cognitive_constraints": {
+                "memory": False,
+                "language": False,
+                "metacognition": False,
+                "self_report": False,
+                "self_observation": False,
+            },
+            "phenomenal_consciousness_claim": False,
+        },
+        "thresholds": {
+            "field_intervention_any": "> 0.000001",
+            "field_components_changed": "exact non-equality in measured field core",
+            "substrate_gain_intervention": "> 0.10",
+            "substrate_drive_intervention": "> 0.10",
+            "field_restoration": "< 0.002",
+            "field_intervention_restart": "< 0.002",
+            "action_intervention": "1.0",
+            "action_restoration": "1.0",
+            "action_restart_persistence": "1.0",
+            "objective_match": "1.0",
+        },
+        "summary": summary,
+        "all_pass": all(
+            summary[name] == 1.0
+            for name in gate_metrics
+        ),
+        "rows": rows,
+    }
+
+    print(json.dumps(result, indent=2, sort_keys=True))
+    if not result["all_pass"]:
+        raise AssertionError("primary subjective substrate causal gate failed")
+    print("PRIMARY SUBJECTIVE SUBSTRATE V1: PASS")
+    return result
+
+
+if __name__ == "__main__":
+    run_benchmark()

@@ -5,6 +5,8 @@ on:
     paths:
       - "src/skill_conscious/core.py"
       - "tests/test_self_development.py"
+      - "tests/test_self_development_ablation.py"
+      - "experiments/self_development_ablation.py"
       - "pyproject.toml"
       - ".github/workflows/homeostatic-reversal-smoke.yml"
   pull_request:
@@ -17,15 +19,57 @@ on:
 jobs:
   reversal:
     runs-on: ubuntu-latest
-    timeout-minutes: 5
+    timeout-minutes: 10
     steps:
       - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.pull_request.head.sha || github.sha }}
       - uses: actions/setup-python@v5
         with:
           python-version: "3.11"
       - name: Install test dependencies
         run: pip install -e ".[dev]"
-      - name: Run isolated homeostatic reversal test
+      - name: Reproduce homeostatic reversal with bounded timeout
         env:
           PYTHONFAULTHANDLER: "1"
-        run: pytest -vv -s tests/test_self_development.py::test_homeostatic_reversal_requires_hysteresis
+          SKILL_CONSCIOUS_CHECK_STATE_CYCLES: "1"
+        run: |
+          set -euo pipefail
+          echo "=== targeted reversal test: fresh process, 20s bound ==="
+          timeout --signal=TERM --kill-after=5s 20s             python -X faulthandler -c '
+          import faulthandler
+          import pytest
+
+          faulthandler.enable()
+          faulthandler.dump_traceback_later(5, repeat=True)
+          raise SystemExit(pytest.main([
+              "-vv",
+              "-s",
+              "-x",
+              "tests/test_self_development.py::test_homeostatic_reversal_requires_hysteresis",
+          ]))
+          '
+      - name: Reproduce self-development ablation with bounded timeout
+        env:
+          PYTHONFAULTHANDLER: "1"
+        run: |
+          set -euo pipefail
+          echo "=== targeted self-development ablation: fresh process, 30s bound ==="
+          timeout --signal=TERM --kill-after=5s 30s             python -X faulthandler -c '
+          import faulthandler
+          import pytest
+
+          faulthandler.enable()
+          faulthandler.dump_traceback_later(5, repeat=True)
+          raise SystemExit(pytest.main([
+              "-vv",
+              "-s",
+              "-x",
+              "tests/test_self_development_ablation.py::test_self_development_ablation_has_four_conditions",
+          ]))
+          '
+      - name: Run self-development file in one process
+        env:
+          PYTHONFAULTHANDLER: "1"
+        run: |
+          python -X faulthandler -m pytest -q -x tests/test_self_development.py

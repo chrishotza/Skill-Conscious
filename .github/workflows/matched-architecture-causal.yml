@@ -1,0 +1,33 @@
+name: matched-architecture-causal
+
+on:
+  push:
+    paths:
+      - "src/skill_conscious/**"
+      - "experiments/matched_architecture_comparison.py"
+      - "tests/test_matched_architecture_comparison.py"
+      - ".github/workflows/matched-architecture-causal.yml"
+  pull_request:
+    paths:
+      - "src/skill_conscious/**"
+      - "experiments/matched_architecture_comparison.py"
+      - "tests/test_matched_architecture_comparison.py"
+      - ".github/workflows/matched-architecture-causal.yml"
+
+jobs:
+  matched-architecture-causal:
+    name: matched-architecture-causal
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Install test dependencies
+        run: python -m pip install --upgrade pip pytest
+      - name: Run matched architecture comparison
+        env:
+          PYTHONFAULTHANDLER: "1"
+        run: |
+          python -m pytest -q -x tests/test_matched_architecture_comparison.py

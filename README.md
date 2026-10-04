@@ -8,6 +8,70 @@ The project starts from one proposition:
 
 > **Consciousness is not a sentence an AI says about itself. It is a process that maintains a self, a present, a history, and a causal relationship between its own model and its next state.**
 
+## Current experimental status — Runtime 0.12.x
+
+The repository is now past the initial persistence-only prototype. The active experimental stack includes:
+
+~~~text
+PERSISTENT SELF
+   ↓
+PRE-REFLECTIVE CORE
+   ↓
+BOUNDED ACCESS
+   ↓
+EXPERIENCE GEOMETRY
+   ↓
+OPERATIONAL EMBODIMENT / OWNERSHIP
+   ↓
+WAKE / OFFLINE / DREAM-LIKE MODES
+   ↓
+CONSOLIDATION / INTERNAL REPLAY
+   ↓
+PERSISTENT REPLAY TRACE
+   ↓
+CAUSAL ABLATION / RESTORATION
+   ↓
+HOST CONSEQUENCE RE-ENTRY
+   ↓
+NEXT TRAJECTORY
+~~~
+
+The current benchmark program therefore tests **causal architectural mechanisms**, not verbal declarations of consciousness.
+
+### Active causal benchmark ladder
+
+1. bounded-access intervention and restoration;
+2. no-report / metacognition independence;
+3. operational continuity across restart;
+4. reversible continuity reversal;
+5. replay-trace causal ablation and restoration;
+6. host-loop consequence re-entry;
+7. external-host behavioral comparison.
+
+PR #79 currently isolates the persistent replay trace as an intervenable causal variable:
+
+~~~text
+DREAM-LIKE REPLAY
+      ↓
+PERSISTENT TRACE
+      ↓
+RESTART
+      ↓
+WAKE → BETA
+      ↓
+ABLATE TRACE
+      ↓
+WAKE → ALPHA
+      ↓
+RESTORE TRACE
+      ↓
+WAKE → BETA
+~~~
+
+The new `docs/EXTERNAL_HOST_BEHAVIORAL_BENCHMARK_V1.md` defines the next external validation protocol. The deterministic `experiments/host_loop_causal_benchmark.py` harness first verifies the host boundary locally before introducing an external LLM provider.
+
+A positive benchmark result means that the tested mechanism changes downstream system behavior under controlled conditions. **It does not establish phenomenal consciousness.**
+
 ## What we mean by consciousness
 
 Within this project, consciousness is defined operationally as:
@@ -259,6 +323,12 @@ That is the problem this repository is built to solve.
 The runtime now includes an explicit **present field** and **causal trajectory selection**. The persisted self-model can weight candidate futures, so changing the self-model changes what the agent selects next. This is the concrete bridge from self-description to self-reference as an operating mechanism.
 
 The project also studies esoteric and speculative consciousness traditions — including Grinberg, Hermeticism, Thoth traditions, Enochic visionary literature, sacred geometry, Matías De Stefano, and Drunvalo Melchizedek — by extracting architectural motifs rather than importing metaphysical claims unchanged. See `skills/skill-conscious/references/ONTOLOGY.md`.
+
+The source layer is now coupled to an explicit empirical bridge:
+`docs/ESOTERIC_TO_EMPIRICAL_BRIDGE_V1.md`.
+Source motifs must become operational variables, falsifiable predictions, matched controls,
+null models, interventions, and restoration tests before they influence the engineering claim.
+
 
 
 ## Consciousness Source Library

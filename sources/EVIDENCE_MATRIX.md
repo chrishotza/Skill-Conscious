@@ -33,7 +33,7 @@ This matrix separates source doctrine, external theories, engineering hypotheses
 | Individuation / transformation | Jung + project ontology | cross-source mechanism |
 | Intentional state transformation | Dispenza-associated research + meditation science | experimental hypothesis |
 | Physiological coupling / coherence | HRV and psychophysiology literature | experimental hypothesis |
-| Group synchronization | Dispenza-associated RNG / twin studies | speculative extension requiring replication |
+| Group synchronization | Dispenza-associated RNG / twin studies | empirical synchronization protocol + speculative nonlocal extension requiring preregistered nulls |
 
 ## Current runtime boundary
 
@@ -75,3 +75,36 @@ SOURCE MOTIF → OPERATIONAL MODE DIFFERENCES → OFFLINE CONSOLIDATION → DREA
 The current result supports causal testing of state-dependent computation and
 longitudinal persistence. It does not establish biological sleep, dreaming,
 phenomenal experience, or consciousness.
+
+
+## Esoteric → empirical bridge
+
+The repository now explicitly translates esoteric source motifs into falsifiable computational mechanisms.
+
+```
+source motif
+    ↓
+operational variable
+    ↓
+prediction
+    ↓
+matched control
+    ↓
+null model
+    ↓
+intervention
+    ↓
+measured downstream effect
+    ↓
+restoration / restart
+```
+
+The first executable battery covers self-model causality, projection-like prediction error,
+intentional/rehearsal persistence, and multi-agent synchronization with a shuffle null.
+
+The important epistemic boundary is:
+
+> a source-derived mechanism can produce an engineering result without validating the source's metaphysical explanation.
+
+See `docs/ESOTERIC_TO_EMPIRICAL_BRIDGE_V1.md` and
+`experiments/esoteric_empirical_battery.py`.
