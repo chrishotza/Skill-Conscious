@@ -40,6 +40,11 @@ from .access import (
     build_limited_present,
     signal_access_factor,
 )
+from .experience_geometry import (
+    ExperienceState,
+    build_experience_state,
+    transition_record,
+)
 
 
 DEFAULT_REGIME_WEIGHTS: dict[str, float] = {
@@ -526,6 +531,45 @@ class ConsciousRuntime:
             "evidence_added": False,
             "access_state": access,
         }
+
+    def snapshot_experience_geometry(self) -> dict[str, Any]:
+        """Return the runtime-owned operational experience geometry."""
+        current = build_experience_state(self.state.to_dict())
+        model = self.state.self_model
+        raw_history = model.get("experience_geometry_history", [])
+        history = (
+            [dict(item) for item in raw_history if isinstance(item, Mapping)]
+            if isinstance(raw_history, list)
+            else []
+        )
+        return {
+            "current": current.to_dict(),
+            "history": history,
+        }
+
+    def _record_experience_geometry_transition(
+        self,
+        before_snapshot: Mapping[str, Any],
+    ) -> dict[str, Any]:
+        previous = build_experience_state(before_snapshot)
+        current = build_experience_state(self.state.to_dict())
+        record = transition_record(
+            previous,
+            current,
+            revision=self.state.revision,
+        )
+        model = dict(self.state.self_model)
+        history = model.get("experience_geometry_history", [])
+        history = (
+            [dict(item) for item in history if isinstance(item, Mapping)]
+            if isinstance(history, list)
+            else []
+        )
+        history.append(record)
+        model["experience_geometry_current"] = current.to_dict()
+        model["experience_geometry_history"] = history[-self.history_limit :]
+        self.state.self_model = model
+        return record
 
     def refresh_pre_reflective_state(
         self,
@@ -2971,6 +3015,7 @@ class ConsciousRuntime:
             "pre_reflective": self.pre_reflective_state(),
             "access_state": access,
             "limited_present": limited_present,
+            "experience_geometry": self.snapshot_experience_geometry(),
             "revision": self.state.revision,
         }
 
@@ -3271,6 +3316,7 @@ class ConsciousRuntime:
                 "action_history": self.state.action_history[-self.history_limit :],
                 "self_observation": self.snapshot_self_observation(),
                 "access": self.conscious_access_state(),
+                "experience_geometry": self.snapshot_experience_geometry(),
             },
             "causal_reentry": (
                 "internal_condition -> self_relevance -> valuation -> trajectory -> "
@@ -3513,6 +3559,8 @@ class ConsciousRuntime:
                 *SELF_OBSERVATION_RUNTIME_KEYS,
                 *METACOGNITIVE_RUNTIME_KEYS,
                 *METACOGNITIVE_PREDICTION_RUNTIME_KEYS,
+                "experience_geometry_current",
+                "experience_geometry_history",
             }
             # Once adaptive targets are enabled and initialized, the runtime owns
             # the target unless an experiment explicitly permits external changes.
@@ -3817,6 +3865,13 @@ class ConsciousRuntime:
             persist=False,
         )
         self.refresh_access_state(persist=False)
+        geometry_transition = self._record_experience_geometry_transition(
+            previous_snapshot,
+        )
+        self.state.workspace = {
+            **self.state.workspace,
+            "last_experience_geometry_transition": geometry_transition,
+        }
         self.store.save(self.state)
         return response
 
