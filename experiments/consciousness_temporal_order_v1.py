@@ -39,6 +39,7 @@ def _frame(
     memory: str,
     *,
     continuity: bool,
+    reentry: bool,
 ) -> dict[str, Any]:
     return {
         "response": "temporal order probe",
@@ -74,7 +75,7 @@ def _frame(
         "subjective_attention": 1.0,
         "subjective_integration": True,
         "subjective_temporal_continuity": continuity,
-        "subjective_reentry": True,
+        "subjective_reentry": reentry,
     }
 
 
@@ -176,56 +177,162 @@ def run_trial(seed: int) -> dict[str, Any]:
     with tempfile.TemporaryDirectory(prefix=f"conscious-temporal-order-{seed}-") as tmp:
         root = Path(tmp)
 
-        forward = _runtime(root / "forward.json", "forward", continuity=True)
-        reverse = _runtime(root / "reverse.json", "reverse", continuity=True)
-        forward_off = _runtime(root / "forward-off.json", "forward-off", continuity=False)
-        reverse_off = _runtime(root / "reverse-off.json", "reverse-off", continuity=False)
+        conditions = {
+            "full": _runtime(root / "full.json", "full", continuity=True),
+            "continuity_only": _runtime(
+                root / "continuity-only.json", "continuity-only", continuity=True
+            ),
+            "reentry_only": _runtime(
+                root / "reentry-only.json", "reentry-only", continuity=False
+            ),
+            "neither": _runtime(
+                root / "neither.json", "neither", continuity=False
+            ),
+        }
 
-        sequences = (
-            (forward, ((base_world, base_internal, "A"), (alt_world, alt_internal, "B"))),
-            (reverse, ((alt_world, alt_internal, "B"), (base_world, base_internal, "A"))),
-            (forward_off, ((base_world, base_internal, "A"), (alt_world, alt_internal, "B"))),
-            (reverse_off, ((alt_world, alt_internal, "B"), (base_world, base_internal, "A"))),
-        )
+        histories = {
+            "forward": ((base_world, base_internal, "A"), (alt_world, alt_internal, "B")),
+            "reverse": ((alt_world, alt_internal, "B"), (base_world, base_internal, "A")),
+        }
+        flags = {
+            "full": (True, True),
+            "continuity_only": (True, False),
+            "reentry_only": (False, True),
+            "neither": (False, False),
+        }
 
-        for runtime, sequence in sequences:
-            for world, internal, memory in sequence:
-                runtime.integrate(
-                    _frame(world, internal, memory, continuity=runtime is forward or runtime is reverse)
+        for name, runtime in conditions.items():
+            continuity, reentry = flags[name]
+            for sequence in histories.values():
+                for world, internal, memory in sequence:
+                    runtime.integrate(
+                        _frame(
+                            world,
+                            internal,
+                            memory,
+                            continuity=continuity,
+                            reentry=reentry,
+                        )
+                    )
+
+        forward = conditions["full"]
+        reverse = _runtime(root / "full-reverse.json", "full-reverse", continuity=True)
+        for world, internal, memory in histories["reverse"]:
+            reverse.integrate(
+                _frame(
+                    world,
+                    internal,
+                    memory,
+                    continuity=True,
+                    reentry=True,
                 )
-
-        # Identical final probe for every runtime.
-        for runtime in (forward, reverse, forward_off, reverse_off):
-            continuity = runtime is forward or runtime is reverse
-            runtime.integrate(
-                _frame(probe_world, probe_internal, "PROBE", continuity=continuity)
             )
 
-        forward_field = _field_vector(forward.snapshot_subjective_field()["field"])
-        reverse_field = _field_vector(reverse.snapshot_subjective_field()["field"])
-        forward_off_field = _field_vector(
-            forward_off.snapshot_subjective_field()["field"]
-        )
-        reverse_off_field = _field_vector(
-            reverse_off.snapshot_subjective_field()["field"]
-        )
+        forward_probe = _runtime(root / "probe-forward.json", "probe-forward", continuity=True)
+        reverse_probe = _runtime(root / "probe-reverse.json", "probe-reverse", continuity=True)
 
-        ordered_effect = _distance(forward_field, reverse_field)
-        ablated_effect = _distance(forward_off_field, reverse_off_field)
+        # Reuse the already constructed histories via fresh probe runtimes so all
+        # conditions receive the identical final probe.
+        for runtime, sequence in (
+            (forward_probe, histories["forward"]),
+            (reverse_probe, histories["reverse"]),
+        ):
+            for world, internal, memory in sequence:
+                runtime.integrate(
+                    _frame(world, internal, memory, continuity=True, reentry=True)
+                )
 
-        objective_scores = [
-            _objective(runtime)
-            for runtime in (forward, reverse, forward_off, reverse_off)
+        for name, runtime in conditions.items():
+            continuity, reentry = flags[name]
+            runtime.integrate(
+                _frame(
+                    probe_world,
+                    probe_internal,
+                    "PROBE",
+                    continuity=continuity,
+                    reentry=reentry,
+                )
+            )
+
+        fields = {
+            "full_forward": _field_vector(
+                forward.snapshot_subjective_field()["field"]
+            ),
+            "full_reverse": _field_vector(
+                reverse.snapshot_subjective_field()["field"]
+            ),
+        }
+        for name, runtime in conditions.items():
+            if name == "full":
+                continue
+            fields[name + "_forward"] = _field_vector(
+                runtime.snapshot_subjective_field()["field"]
+            )
+
+        # Re-run explicit reverse histories for each ablation condition.
+        reverse_conditions: dict[str, ConsciousRuntime] = {}
+        for name, (continuity, reentry) in flags.items():
+            runtime = _runtime(
+                root / ("reverse-" + name + ".json"),
+                "reverse-" + name,
+                continuity=continuity,
+            )
+            for world, internal, memory in histories["reverse"]:
+                runtime.integrate(
+                    _frame(
+                        world,
+                        internal,
+                        memory,
+                        continuity=continuity,
+                        reentry=reentry,
+                    )
+                )
+            runtime.integrate(
+                _frame(
+                    probe_world,
+                    probe_internal,
+                    "PROBE",
+                    continuity=continuity,
+                    reentry=reentry,
+                )
+            )
+            reverse_conditions[name] = runtime
+            fields[name + "_reverse"] = _field_vector(
+                runtime.snapshot_subjective_field()["field"]
+            )
+
+        effects = {
+            name: _distance(
+                fields[name + "_forward"],
+                fields[name + "_reverse"],
+            )
+            for name in flags
+        }
+
+        objective_runtimes = [
+            conditions["full"],
+            reverse_conditions["full"],
+            conditions["continuity_only"],
+            reverse_conditions["continuity_only"],
+            conditions["reentry_only"],
+            reverse_conditions["reentry_only"],
+            conditions["neither"],
+            reverse_conditions["neither"],
         ]
+        objective_scores = [_objective(runtime) for runtime in objective_runtimes]
 
         return {
             "seed": seed,
-            "ordered_effect": round(ordered_effect, 6),
-            "continuity_ablated_effect": round(ablated_effect, 6),
+            "full_order_effect": round(effects["full"], 6),
+            "continuity_only_order_effect": round(effects["continuity_only"], 6),
+            "reentry_only_order_effect": round(effects["reentry_only"], 6),
+            "neither_order_effect": round(effects["neither"], 6),
             "objective_scores": [round(value, 6) for value in objective_scores],
             "objective_score_match": len(set(objective_scores)) == 1,
-            "history_sensitive": ordered_effect > 0.02,
-            "order_effect_collapses_under_ablation": ablated_effect < 0.002,
+            "full_history_sensitive": effects["full"] > 0.02,
+            "continuity_carries_history": effects["continuity_only"] > 0.02,
+            "reentry_carries_history": effects["reentry_only"] > 0.02,
+            "history_collapses_when_both_removed": effects["neither"] < 0.002,
         }
 
 
@@ -255,4 +362,3 @@ def run_benchmark(seeds: int = 12) -> dict[str, Any]:
 if __name__ == "__main__":
     print(json.dumps(run_benchmark(), indent=2, sort_keys=True))
 
-# CI trigger: keep temporal-order gate explicitly wired to the real runtime.
