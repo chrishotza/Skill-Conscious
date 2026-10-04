@@ -35,4 +35,4 @@ jobs:
           PYTHONPATH: .:src
         run: |
           python experiments/consciousness_component_redundancy_v1.py
-          pytest -q tests/test_consciousness_component_redundancy_v1.py
+          pytest -q tests/test_consciousness_component_redundancy_v1.py tests/test_objective_channel_isolation_v1.py
