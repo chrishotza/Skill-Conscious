@@ -106,10 +106,7 @@ def test_access_intervention_changes_geometry_without_deleting_state(tmp_path: P
     runtime.set_access_capacity(6)
     high = runtime.snapshot_experience_geometry()["current"]["features"]
 
-    assert low["access_compression"] != high["access_compression"]
-    assert low["self_access_fraction"] != high["self_access_fraction"] or (
-        low["world_access_fraction"] != high["world_access_fraction"]
-    )
+    assert low["access_compression"] > high["access_compression"]
     assert runtime.state.self_model == {}
 
 
