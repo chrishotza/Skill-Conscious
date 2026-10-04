@@ -198,6 +198,39 @@ def test_metacognitive_action_history_delta_stays_compact(tmp_path: Path):
     assert "action" in trace
 
 
+def test_completed_metacognitive_trace_does_not_nest_prior_trace(tmp_path: Path):
+    runtime = ConsciousRuntime(
+        "meta-recursion-guard",
+        state_path=tmp_path / "runtime.json",
+        report_enabled=False,
+    )
+
+    for index in range(12):
+        runtime.integrate(
+            {
+                "response": f"cycle-{index}",
+                "candidate_futures": [
+                    {"id": "act", "signals": {"goal_fit": 0.8}},
+                ],
+            }
+        )
+        selected = runtime.state.selected_trajectory
+        assert selected is not None
+        runtime.begin_action(selected)
+        runtime.complete_action(
+            {
+                "status": "success",
+                "interoceptive_state": {"energy": 0.5},
+            }
+        )
+
+    trace = runtime.state.self_model["metacognitive_trace"]
+    trajectory = trace["action"]["trajectory"]
+
+    assert "metacognition" not in trajectory
+    assert trace["action"]["action_id"]
+
+
 def test_metacognitive_state_delta_bounds_recursive_mappings():
     nested: dict[str, object] = {}
     nested["metacognitive_trace"] = {
