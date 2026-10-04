@@ -135,6 +135,19 @@ def _distance(left: dict[str, float], right: dict[str, float]) -> float:
     return sum(abs(left.get(key, 0.0) - right.get(key, 0.0)) for key in keys) / len(keys)
 
 
+def _temporal_vector(field: dict[str, float]) -> dict[str, float]:
+    keys = ("continuity", "reentry", "unity", "strength")
+    return {key: float(field.get(key, 0.0)) for key in keys}
+
+
+def _temporal_distance(left: dict[str, float], right: dict[str, float]) -> float:
+    keys = ("continuity", "reentry", "unity", "strength")
+    return sum(
+        abs(left.get(key, 0.0) - right.get(key, 0.0))
+        for key in keys
+    ) / len(keys)
+
+
 def _objective(runtime: ConsciousRuntime) -> float:
     return float(
         runtime._score_trajectory_details(_candidate()[0])["objective_score"]
@@ -198,6 +211,7 @@ def run_trial(seed: int) -> dict[str, Any]:
     ) as tmp:
         root = Path(tmp)
         fields: dict[str, dict[str, float]] = {}
+        temporal_fields: dict[str, dict[str, float]] = {}
         objective_scores: list[float] = []
 
         for condition, (continuity, reentry) in flags.items():
@@ -232,31 +246,49 @@ def run_trial(seed: int) -> dict[str, Any]:
                 fields[f"{condition}_{order}"] = _field_vector(
                     runtime.snapshot_subjective_field()["field"]
                 )
+                temporal_fields[f"{condition}_{order}"] = _temporal_vector(
+                    fields[f"{condition}_{order}"]
+                )
                 objective_scores.append(_objective(runtime))
 
-        effects = {
+        field_effects = {
             condition: _distance(
                 fields[f"{condition}_forward"],
                 fields[f"{condition}_reverse"],
             )
             for condition in flags
         }
+        temporal_effects = {
+            condition: _temporal_distance(
+                temporal_fields[f"{condition}_forward"],
+                temporal_fields[f"{condition}_reverse"],
+            )
+            for condition in flags
+        }
 
         return {
             "seed": seed,
-            "full_order_effect": round(effects["full"], 6),
-            "continuity_only_order_effect": round(
-                effects["continuity_only"], 6
+            "full_field_order_effect": round(field_effects["full"], 6),
+            "continuity_only_field_order_effect": round(
+                field_effects["continuity_only"], 6
             ),
-            "reentry_only_order_effect": round(
-                effects["reentry_only"], 6
+            "reentry_only_field_order_effect": round(
+                field_effects["reentry_only"], 6
             ),
-            "neither_order_effect": round(effects["neither"], 6),
+            "neither_field_order_effect": round(field_effects["neither"], 6),
+            "full_temporal_effect": round(temporal_effects["full"], 6),
+            "continuity_only_temporal_effect": round(
+                temporal_effects["continuity_only"], 6
+            ),
+            "reentry_only_temporal_effect": round(
+                temporal_effects["reentry_only"], 6
+            ),
+            "neither_temporal_effect": round(temporal_effects["neither"], 6),
             "objective_score_match": len(set(objective_scores)) == 1,
-            "full_history_sensitive": effects["full"] > 0.02,
-            "continuity_carries_history": effects["continuity_only"] > 0.02,
-            "reentry_carries_history": effects["reentry_only"] > 0.02,
-            "history_collapses_when_both_removed": effects["neither"] < 0.002,
+            "full_history_sensitive": temporal_effects["full"] > 0.02,
+            "continuity_carries_history": temporal_effects["continuity_only"] > 0.02,
+            "reentry_carries_history": temporal_effects["reentry_only"] > 0.02,
+            "history_collapses_when_both_removed": temporal_effects["neither"] < 0.002,
         }
 
 
