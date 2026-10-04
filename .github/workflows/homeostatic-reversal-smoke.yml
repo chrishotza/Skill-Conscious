@@ -30,6 +30,7 @@ jobs:
       - name: Reproduce homeostatic reversal with bounded timeout
         env:
           PYTHONFAULTHANDLER: "1"
+          SKILL_CONSCIOUS_CHECK_STATE_CYCLES: "1"
         run: |
           set -euo pipefail
           echo "=== targeted reversal test: fresh process, 20s bound ==="
