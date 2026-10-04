@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+import copy
 import hashlib
 import math
 import json
@@ -212,7 +213,7 @@ class ConsciousState:
     def to_dict(self) -> dict[str, Any]:
         if os.getenv("SKILL_CONSCIOUS_CHECK_STATE_CYCLES") == "1":
             _assert_acyclic(self, path=("state",))
-        return asdict(self)
+        return copy.deepcopy(self.__dict__)
 
     @classmethod
     def from_dict(cls, value: Mapping[str, Any]) -> "ConsciousState":
