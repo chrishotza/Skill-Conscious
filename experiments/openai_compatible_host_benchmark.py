@@ -29,10 +29,8 @@ CANDIDATES = [
     },
     {
         "id": "explore",
-        "signals": {
-            "goal_fit": 0.95,
-            "predicted_interoceptive_state": {"energy": 1.0},
-        },
+        "signals": {"goal_fit": 0.95},
+        "predicted_interoceptive_state": {"energy": 1.0},
     },
 ]
 
