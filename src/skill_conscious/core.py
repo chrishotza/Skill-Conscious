@@ -3871,6 +3871,15 @@ class ConsciousRuntime:
         if not isinstance(signals, Mapping):
             raise ValueError("trajectory.signals must be a mapping")
         signals = dict(signals)
+
+        # The matched objective channel is defined only by explicit candidate
+        # signals. Runtime-derived salience, self-relevance, coherence, access
+        # and other conscious-layer state must not leak into objective_score.
+        objective_signal_values = {
+            str(key): float(value)
+            for key, value in signals.items()
+            if isinstance(value, (int, float)) and not isinstance(value, bool)
+        }
         predicted_self_state = candidate.get("predicted_self_state")
         learned_self_state = self.state.self_model.get("learned_self_state", {})
         if (
@@ -3910,6 +3919,14 @@ class ConsciousRuntime:
             dict(candidate),
             access_state,
         )
+        objective_score = round(
+            sum(
+                float(weights.get(str(key), 0.0)) * float(value)
+                for key, value in objective_signal_values.items()
+            ),
+            6,
+        )
+
         signal_contributions: dict[str, float] = {}
         base_score = 0.0
         for key, value in signals.items():
