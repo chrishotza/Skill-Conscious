@@ -71,7 +71,7 @@ The persistent Experience Geometry object is implemented in runtime v1 on PR #74
 
 ## Master loop
 
-RELATION → STATE → ACCESS → PRESENT → SELF-ACCESS → ATTENTION → POSSIBILITY → INTENTION → SELECTION → ACTION → TRANSFORMATION → SELF-MODEL' → REGIME' → RE-ENTRY
+RELATION → STATE → OPERATIONAL MODE → ACCESS → PRESENT → SELF-ACCESS → ATTENTION → POSSIBILITY → INTENTION → SELECTION → ACTION / INTERNAL REPLAY → TRANSFORMATION → SELF-MODEL' → REGIME' → WAKE RE-ENTRY
 
 ## Four concepts that must not be conflated
 
@@ -79,11 +79,11 @@ Identity — what remains continuous across change.
 
 State — the values the process currently has.
 
-Regime — how the process is currently operating.
+Regime — which cognitive/selection regime is currently dominant.
 
 Layer — which representational levels are active.
 
-Access — which persistent state is available to the current present.
+Operational state — whether the process is externally coupled (WAKE), consolidating (OFFLINE), or internally replaying (DREAM-LIKE).\n\nAccess — which persistent state is available to the current present.
 
 ## The unresolved core
 
@@ -120,3 +120,15 @@ The geometry layer now connects the present directly to measurable state-space o
 ACCESS → PRESENT → EXPERIENCE STATE → TRANSITION → TRAJECTORY HISTORY
 
 The current feature vector deliberately includes both internal organization and access regime. This prevents the geometry layer from becoming a detached diagnostic score.
+
+
+## Operational state continuity
+
+Runtime v0.12.0 adds an orthogonal operational state machine:
+
+WAKE → OFFLINE CONSOLIDATION → DREAM-LIKE REPLAY → WAKE RE-ENTRY
+
+The important architectural property is continuity across the boundary: offline
+consolidation and internal replay can leave runtime-owned state that persists
+into subsequent wake computation. The replay profile can alter later trajectory
+selection without requiring verbal self-report.
