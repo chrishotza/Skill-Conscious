@@ -416,3 +416,29 @@ in organizational scale.
 The next multiscale experiment should compare the normalized causal signature
 under cell-like and organism-like parameterizations without changing the
 underlying equations.
+
+
+### Substrate gate metric lesson
+
+The first executable run of the primary-substrate gate exposed a measurement
+problem: the intervention changed downstream trajectory selection in every tested
+seed, while the mean SubjectiveField distance remained below the preregistered
+0.02 readout threshold.
+
+The contract therefore distinguishes:
+
+- direct intervention effect at the causal substrate layer;
+- change in SubjectiveField components;
+- downstream trajectory/action effect;
+- restoration;
+- restart persistence;
+- matched objective invariance.
+
+A failed scalar readout must revise the measurement model rather than being
+rescued by silently lowering its threshold. The substrate gate now requires a
+large change in the directly intervened resonant gain and subjective drive,
+non-equality in the measured field components, and the downstream causal
+signature.
+
+This preserves the falsification principle while avoiding conflation of a
+compressed downstream readout with the magnitude of the upstream intervention.
