@@ -22,7 +22,7 @@ def test_access_state_is_runtime_owned_persistent_and_no_report_compatible(tmp_p
     )
 
     access = runtime.snapshot_access()
-    assert access["capacity"] == 32
+    assert access["capacity"] == 12
     assert access["candidate_count"] > 1
     assert access["selected_keys"]
     assert access["revision"] == runtime.state.revision
