@@ -384,6 +384,7 @@ class ConsciousRuntime:
         *,
         mode: str | None = None,
         replay_limit: int = 6,
+        candidate_futures: list[Mapping[str, Any]] | None = None,
         persist: bool = True,
     ) -> dict[str, Any]:
         """Advance one internal computational cycle without requiring a report."""
@@ -437,6 +438,7 @@ class ConsciousRuntime:
             )
             internal_present = self.present_field(
                 replay,
+                candidate_futures=candidate_futures,
                 internal=True,
             )
             candidates = internal_present.get("candidate_futures", [])
