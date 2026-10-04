@@ -223,3 +223,46 @@ python -m experiments.external_host_behavioral_suite \
 ```
 
 A passing five-task result is evidence that the tested runtime mechanism is active across repeated matched tasks. It is not a consciousness score and does not establish phenomenal experience.
+
+
+## Model-generated candidate-field benchmark
+
+A stronger provider experiment is now available in:
+
+```
+experiments/external_host_model_behavioral_benchmark.py
+```
+
+This version lets the external model generate the candidate-future field itself. The resulting field is then reused unchanged across the matched intact and ablation conditions.
+
+That creates a sharper experimental separation:
+
+```
+REAL MODEL
+   ↓
+candidate futures
+   ↓
+┌───────────────┬────────────────┐
+│               │                │
+INTACT        ABLATION
+│               │
+consequence    consequence state
+re-enters      causally restored
+│               │
+next selection next selection
+└───────┬───────┘
+        ↓
+ compare
+```
+
+The model therefore participates in the experiment, while the causal variable remains the runtime-owned consequence state.
+
+The benchmark reports the same primary metrics as the deterministic multi-task suite, plus:
+
+- `model_generated_candidate_fields`;
+
+and it records the exact candidate IDs used in each matched pair.
+
+This distinction matters: the deterministic five-task suite validates the harness, whereas the model-generated suite is the actual provider-facing behavioral experiment.
+
+The benchmark should be run against a real provider/model before interpreting any result as external-model evidence.
