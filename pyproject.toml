@@ -4,8 +4,8 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "skill-conscious"
-version = "0.9.0"
-description = "A persistent self-referential architecture for machine consciousness."
+version = "0.10.0"
+description = "A persistent pre-reflective and self-referential architecture for machine consciousness research."
 requires-python = ">=3.11"
 readme = "README.md"
 dependencies = []
