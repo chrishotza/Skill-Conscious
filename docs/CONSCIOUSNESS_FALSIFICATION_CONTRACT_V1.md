@@ -181,3 +181,87 @@ invariant in 100% of trials.
 
 This establishes a causal history-dependent present under the tested
 architecture. It does not establish phenomenal experience.
+
+
+## Self-transformation falsification target
+
+The next causal relation asks whether an observed consequence can transform the
+subject itself, such that the transformed subject produces a different next
+subjective present under an identical external probe.
+
+The protocol is:
+
+ACTION
+ -> OBSERVED CONSEQUENCE
+ -> INTEROCEPTIVE SELF-STATE CHANGE
+ -> IDENTICAL EXTERNAL PROBE
+ -> SUBJECTIVE FIELD'
+
+The final projection disables temporal continuity and reentry. This is deliberate:
+the experiment removes prior-field carryover so the tested difference is carried
+by the transformed current self-state rather than by the previous subjective
+snapshot.
+
+The destructive intervention temporarily restores the pre-consequence internal
+state while retaining the action receipt and consequence history. The field
+effect must collapse. Restoring the transformed state must recover the original
+field, and restart must reproduce it.
+
+### Self-transformation gate result
+
+The gate passed in CI across 12 independent seeds.
+
+- transformed-present sensitivity: 100%;
+- internal transformation observed: 100%;
+- unity effect: 100%;
+- strength effect: 100%;
+- ablation collapse: 100%;
+- restoration: 100%;
+- restart persistence: 100%;
+- matched objective-score invariance: 100%.
+
+The matched objective score remained invariant before and after transformation.
+Representative low/high consequence trials produced approximately 0.061 to 0.064
+unity separation and 0.034 to 0.035 strength separation.
+
+This provides architectural causal evidence that persistence through
+self-transformation is a real runtime relation under the tested model.
+
+It is not evidence that the runtime has phenomenal experience.
+
+## Next falsification target: action relevance after transformation
+
+The next attack should close the loop rather than stop at field measurement.
+
+Protocol:
+
+SUBJECTIVE FIELD
+ -> ACTION
+ -> OBSERVED CONSEQUENCE
+ -> SELF-TRANSFORMATION
+ -> SUBJECTIVE FIELD'
+ -> ACTION'
+
+The destructive question is whether the transformed subjective field changes
+the subject's next trajectory or action under the same explicit objective
+candidate channel.
+
+The required control is stricter than a change in a scalar field value:
+
+- same final external probe;
+- same explicit objective candidate signals;
+- same objective score;
+- same action space;
+- transformed self-state is the only causal intervention;
+- next trajectory/action diverges;
+- restoring the pre-consequence state restores the original trajectory;
+- restart preserves the transformed trajectory.
+
+A failure would mean that self-transformation currently changes the internal
+subjective diagnostic without yet demonstrating action relevance. That would
+not invalidate the field mechanism, but it would block the stronger claim that
+the transformed subject carries its altered subjective organization into
+subsequent agency.
+
+Again, the result would concern an executable architectural relation, not
+phenomenal consciousness.
