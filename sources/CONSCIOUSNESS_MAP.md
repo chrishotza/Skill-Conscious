@@ -22,7 +22,7 @@ Instead, the project maps consciousness across multiple explanatory languages.
 - affect
 - interoception
 - integration
-- bounded access / bandwidth
+- bounded access / bandwidth — runtime v1 implemented
 
 ### Layer 3 — self
 - identity
@@ -92,3 +92,22 @@ The open question is not whether software can store a self-model.
 It can.
 
 The open question is whether the correct combination of persistence, integration, bounded access, self-reference, value, temporality, agency and recurrent transformation is sufficient for subjective experience.
+
+
+## Access/bandwidth runtime translation
+
+The Layer 2 access concept is now executable on PR #74.
+
+~~~text
+FULL PERSISTENT STATE
+        ↓
+RUNTIME-OWNED ACCESS WINDOW
+        ↓
+LIMITED PRESENT
+        ↓
+ACCESS-CONSTRAINED TRAJECTORY
+~~~
+
+The runtime keeps omitted state persistent, exposes a finite `ConsciousAccessState`, and allows explicit capacity perturbations. Candidate trajectories can declare the persistent keys on which their current decision depends; a key omitted from the current access window cannot causally support that trajectory.
+
+This is a mechanism-level implementation. It is not a scalar consciousness measure and does not prove phenomenal consciousness.
