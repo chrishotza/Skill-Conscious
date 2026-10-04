@@ -4750,7 +4750,20 @@ class ConsciousRuntime:
             self.state.self_model = merged_self_model
 
         if frame.get("workspace") is not None:
-            self.state.workspace = dict(frame["workspace"])
+            incoming_workspace = dict(frame["workspace"])
+            # Runtime-owned subjective state must survive host/model workspace
+            # updates. The model may extend workspace, but it cannot erase the
+            # persistent causal substrate or subjective-field snapshot merely
+            # by omitting those runtime-owned keys.
+            for runtime_key in (
+                "subjective_field",
+                "primary_subjective_substrate",
+            ):
+                if runtime_key not in incoming_workspace and runtime_key in self.state.workspace:
+                    incoming_workspace[runtime_key] = copy.deepcopy(
+                        self.state.workspace[runtime_key]
+                    )
+            self.state.workspace = incoming_workspace
 
         if frame.get("internal_state") is not None:
             self.state.self_state = dict(frame["internal_state"])
