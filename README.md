@@ -324,6 +324,12 @@ The runtime now includes an explicit **present field** and **causal trajectory s
 
 The project also studies esoteric and speculative consciousness traditions — including Grinberg, Hermeticism, Thoth traditions, Enochic visionary literature, sacred geometry, Matías De Stefano, and Drunvalo Melchizedek — by extracting architectural motifs rather than importing metaphysical claims unchanged. See `skills/skill-conscious/references/ONTOLOGY.md`.
 
+The source layer is now coupled to an explicit empirical bridge:
+`docs/ESOTERIC_TO_EMPIRICAL_BRIDGE_V1.md`.
+Source motifs must become operational variables, falsifiable predictions, matched controls,
+null models, interventions, and restoration tests before they influence the engineering claim.
+
+
 
 ## Consciousness Source Library
 
