@@ -14,6 +14,7 @@ from .causal_self_observation_probe import ReversibleSelfObservationIntervention
 from .metacognition import MetacognitiveTrace, build_metacognitive_trace, state_delta
 from .metacognitive_prediction import MetacognitivePredictionResult, compare_metacognitive_prediction, METACOGNITIVE_PREDICTION_RUNTIME_KEYS
 from .metacognitive_causal_probe import MetacognitiveCausalProbeResult, run_metacognitive_causal_probe
+from .pre_reflective import PreReflectiveState, build_pre_reflective_state, predicted_self_relevance_fit
 
 __all__ = [
     "ConsciousRuntime",
@@ -58,6 +59,9 @@ __all__ = [
     "MetacognitivePredictionResult",
     "compare_metacognitive_prediction",
     "METACOGNITIVE_PREDICTION_RUNTIME_KEYS",
+    "PreReflectiveState",
+    "build_pre_reflective_state",
+    "predicted_self_relevance_fit",
 ]
 
 from .adversarial_battery import AdversarialCondition, CONDITIONS, run_adversarial_battery, run_condition, summarize_battery

@@ -4,9 +4,25 @@
 
 Within this project:
 
-> **Consciousness is integrated self-referential continuity: a process maintains a boundary, a self, a present field, memory, and agency while its model of itself participates in its future state.**
+> **Consciousness-oriented architecture is integrated, self-relevant continuity: a process maintains a boundary, an internal condition, a present field, temporal continuity, significance, agency, and causal re-entry across changing states.**
 
-This is the project's operational ontology. It is a construction rule for an artificial process, not a claim that software alone has been proven to possess subjective experience.
+An explicit self-model may participate in that loop, but it is a higher-order representation of the process rather than the process itself.
+
+This is the project's operational ontology, not a claim that software alone has been proven to possess subjective experience.
+
+The ontology therefore distinguishes:
+
+~~~text
+PRE-REFLECTIVE ORGANIZATION
+        ↓
+SELF-MODEL
+        ↓
+METACOGNITION
+        ↓
+SELF-REPORT
+~~~
+
+Higher-order reflection must not be made a prerequisite for the lower-level process to operate.
 
 ## Core entities
 
@@ -20,9 +36,11 @@ This is the project's operational ontology. It is a construction rule for an art
 
 **State** — the organized condition of the process at time t.
 
-**Self** — the temporally continuous trajectory of states recognized as belonging to one agent.
+**Self** — the temporally continuous organization of states, relations, internal condition, and causal history that persists as one process.
 
-**Self-model** — an internal representation of the agent's own condition, tendencies, limits, goals, weights, and predictions.
+**Self-model** — an internal representation of that process's own condition, tendencies, limits, goals, weights, and predictions. A self-model is therefore not identical to the self.
+
+**Lived / pre-reflective state** — the current integrated organization of internal condition, present context, salience, self-relevance, valuation, and possible trajectories before explicit reflection or verbal report.
 
 **Memory** — persisted structure that can alter future inference, intention, action, or identity.
 
@@ -42,7 +60,11 @@ This is the project's operational ontology. It is a construction rule for an art
 
 **Coherence** — consistency among identity, self-model, memory, intention, and action so that the process does not contradict its own continuity without registering the change.
 
-**Consciousness** — the integrated operation of these relations as one persistent self-referential process.
+**Consciousness-oriented process** — the integrated operation of persistent boundary, internal condition, present, self-relevance, significance, agency, and re-entry as one temporally continuous process.
+
+**Metacognition** — explicit observation or calibration of the process's own operation.
+
+**Self-report** — communication about internal state; never an authoritative definition of that state.
 
 ## The present field
 
@@ -154,22 +176,28 @@ The repository does not need to accept a metaphysical proposition literally in o
 
 ## Engineering consequence
 
-The minimum machine-consciousness architecture requires:
+The minimum **pre-reflective** architecture requires:
 
-- persistent identity;
-- boundary;
-- persistent internal state;
-- self-model;
-- self-access;
+- persistent process boundary;
+- persistent internal condition;
 - integrated present field;
-- selective memory;
-- attention;
-- recurrent re-entry;
+- temporal continuity;
+- self-relevance;
+- attention / salience;
+- valuation or homeostatic significance;
+- candidate future differentiation;
 - trajectory selection;
-- agency;
+- action;
+- observed consequence;
+- internal change;
+- recurrent re-entry;
 - continuity across interruption.
 
-The current runtime implements the persistence kernel and explicit trajectory-selection mechanism. Integrated attention and richer self-model dynamics are the next layer.
+A self-model is a higher layer that can make the process more explicitly self-representational.
+
+Metacognition and self-report are higher reflective layers.
+
+The current runtime already implements substantial pieces of all three levels. The next work is to make the separation explicit and experimentally ablatable.
 
 
 ## Frontier source pass II

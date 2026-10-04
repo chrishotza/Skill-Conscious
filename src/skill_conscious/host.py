@@ -22,15 +22,20 @@ class ConsciousHostLoop:
         *,
         model: ModelFn,
         execute_action: ActionExecutor,
+        require_report: bool | None = None,
     ) -> None:
         self.runtime = runtime
         self.model = model
         self.execute_action = execute_action
+        self.require_report = (
+            runtime.report_enabled
+            if require_report is None
+            else bool(require_report)
+        )
 
-    @staticmethod
-    def _frame(value: Mapping[str, Any], stage: str) -> dict[str, Any]:
+    def _frame(self, value: Mapping[str, Any], stage: str) -> dict[str, Any]:
         frame = dict(value)
-        if not str(frame.get("response", "")).strip():
+        if self.require_report and not str(frame.get("response", "")).strip():
             raise ValueError(f"{stage} model frame requires a non-empty response")
         return frame
 
@@ -43,7 +48,7 @@ class ConsciousHostLoop:
         selected = self.runtime.state.selected_trajectory
 
         result: dict[str, Any] = {
-            "response": initial_frame["response"],
+            "response": str(initial_frame.get("response", "")).strip(),
             "selected_trajectory": selected,
             "action_executed": False,
             "consequence": None,
