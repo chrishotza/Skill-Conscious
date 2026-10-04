@@ -624,3 +624,12 @@ python -m experiments.unified_causal_benchmark
 ~~~
 
 The artifact is a mechanism-level benchmark. It does not treat its output as a consciousness score or proof of phenomenal experience.
+
+
+## Runtime 0.11.1 — operational embodiment / ownership
+
+The runtime now exposes an operational EmbodimentState connecting identity boundary, interoceptive coupling, resource fit, action ownership and action cost.
+
+The layer is runtime-owned and receives authoritative action-cost/interoceptive information from the host action boundary. Experience Geometry records the embodiment dimensions alongside access and self-state dimensions.
+
+This is an engineering boundary model, not a claim of biological embodiment, phenomenal ownership or subjective mineness.
