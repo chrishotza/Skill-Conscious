@@ -81,6 +81,43 @@ def _compact_action_history(value: Any) -> dict[str, Any]:
     }
 
 
+def _compact_mapping_state(value: Any) -> dict[str, Any]:
+    """Summarize nested runtime mappings without copying recursive log structures."""
+    if not isinstance(value, Mapping):
+        return {"type": type(value).__name__}
+
+    scalar_values: dict[str, Any] = {}
+    containers: dict[str, dict[str, Any]] = {}
+
+    for raw_key, raw_value in value.items():
+        key = str(raw_key)
+        if isinstance(raw_value, (str, int, float, bool)) or raw_value is None:
+            if isinstance(raw_value, str) and len(raw_value) > 128:
+                scalar_values[key] = raw_value[:128]
+            else:
+                scalar_values[key] = raw_value
+        elif isinstance(raw_value, Mapping):
+            containers[key] = {
+                "type": "mapping",
+                "size": len(raw_value),
+                "keys": sorted(str(item) for item in raw_value.keys())[:64],
+            }
+        elif isinstance(raw_value, list):
+            containers[key] = {
+                "type": "list",
+                "length": len(raw_value),
+            }
+        else:
+            containers[key] = {"type": type(raw_value).__name__}
+
+    return {
+        "type": "mapping",
+        "size": len(value),
+        "scalar_values": scalar_values,
+        "containers": containers,
+    }
+
+
 def state_delta(
     before: Mapping[str, Any],
     after: Mapping[str, Any],
@@ -105,17 +142,25 @@ def state_delta(
         "action_history",
     )
     result: dict[str, Any] = {}
+    compact_keys = {"self_model", "workspace", "action_history"}
+
     for key in selected_keys:
         left = before.get(key)
         right = after.get(key)
+
+        if key == "action_history":
+            left = _compact_action_history(left)
+            right = _compact_action_history(right)
+        elif key in compact_keys:
+            left = _compact_mapping_state(left)
+            right = _compact_mapping_state(right)
+
         if left != right:
-            if key == "action_history":
-                left = _compact_action_history(left)
-                right = _compact_action_history(right)
             result[str(key)] = {
                 "before": left,
                 "after": right,
             }
+
     return result
 
 
