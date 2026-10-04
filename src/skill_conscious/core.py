@@ -46,6 +46,14 @@ from .experience_geometry import (
     transition_record,
 )
 from .embodiment import EmbodimentState, build_embodiment_state, predicted_resource_fit
+from .state_regime import (
+    DEFAULT_OPERATIONAL_MODE,
+    OperationalState,
+    build_dream_replay,
+    build_memory_consolidation,
+    operational_dynamics,
+    normalize_operational_mode,
+)
 
 
 DEFAULT_REGIME_WEIGHTS: dict[str, float] = {
@@ -108,6 +116,7 @@ class ConsciousState:
     pre_reflective_state: dict[str, Any] = field(default_factory=dict)
     access_state: dict[str, Any] = field(default_factory=dict)
     embodiment_state: dict[str, Any] = field(default_factory=dict)
+    operational_state: dict[str, Any] = field(default_factory=dict)
 
     def to_dict(self) -> dict[str, Any]:
         return asdict(self)
@@ -194,6 +203,11 @@ class ConsciousState:
             embodiment_state=(
                 dict(value["embodiment_state"])
                 if isinstance(value.get("embodiment_state"), Mapping)
+                else {}
+            ),
+            operational_state=(
+                dict(value["operational_state"])
+                if isinstance(value.get("operational_state"), Mapping)
                 else {}
             ),
         )
@@ -284,10 +298,221 @@ class ConsciousRuntime:
         )
         self.store = JsonStateStore(state_path)
         self.state = self.store.load(identity)
+        self.state.operational_state = OperationalState.from_mapping(
+            self.state.operational_state
+        ).to_dict()
         if self.dynamic_core_enabled:
             self._restore_dynamic_core_state()
         self.refresh_access_state(persist=False)
         self.refresh_embodiment_state(persist=False)
+
+    def operational_mode(self) -> str:
+        """Return the persistent computational operating mode."""
+        return normalize_operational_mode(
+            self.state.operational_state.get(
+                "mode",
+                DEFAULT_OPERATIONAL_MODE,
+            )
+        )
+
+    def snapshot_operational_state(self) -> dict[str, Any]:
+        """Return runtime-owned operational state plus its causal dynamics."""
+        state = OperationalState.from_mapping(self.state.operational_state)
+        payload = state.to_dict()
+        payload["dynamics"] = operational_dynamics(state.mode)
+        return payload
+
+    def operational_snapshot(self) -> dict[str, Any]:
+        return self.snapshot_operational_state()
+
+    def set_operational_mode(
+        self,
+        mode: str,
+        *,
+        persist: bool = True,
+    ) -> dict[str, Any]:
+        """Change computational mode without fabricating learning evidence."""
+        target = normalize_operational_mode(mode)
+        current = OperationalState.from_mapping(self.state.operational_state)
+        if target == current.mode:
+            return self.snapshot_operational_state()
+
+        if target != "wake" and self.state.pending_action is not None:
+            raise RuntimeError(
+                "cannot leave wake mode while an action is pending"
+            )
+
+        next_state = OperationalState(
+            mode=target,
+            entered_revision=self.state.revision,
+            cycles=current.cycles,
+            consolidation_count=current.consolidation_count,
+            replay_count=current.replay_count,
+            reentry_count=(
+                current.reentry_count + 1
+                if target == "wake"
+                else current.reentry_count
+            ),
+            last_cycle_revision=current.last_cycle_revision,
+            last_reentry_revision=(
+                self.state.revision
+                if target == "wake"
+                else current.last_reentry_revision
+            ),
+            last_replay_signature=current.last_replay_signature,
+        )
+        self.state.operational_state = next_state.to_dict()
+        self.state.transformation_log.append({
+            "revision": self.state.revision,
+            "type": "operational_mode_transition",
+            "from": current.mode,
+            "to": target,
+        })
+        self.state.transformation_log = (
+            self.state.transformation_log[-self.transformation_limit :]
+        )
+        if persist:
+            self.store.save(self.state)
+        return self.snapshot_operational_state()
+
+    def advance_operational_cycle(
+        self,
+        *,
+        mode: str | None = None,
+        replay_limit: int = 6,
+        persist: bool = True,
+    ) -> dict[str, Any]:
+        """Advance one internal computational cycle without requiring a report."""
+        if mode is not None:
+            self.set_operational_mode(mode, persist=False)
+
+        active_mode = self.operational_mode()
+        previous_snapshot = self.state.to_dict()
+        self.state.revision += 1
+        operational = OperationalState.from_mapping(
+            self.state.operational_state
+        )
+
+        result: dict[str, Any] = {
+            "mode": active_mode,
+            "revision": self.state.revision,
+        }
+
+        if active_mode == "offline":
+            consolidation = build_memory_consolidation(
+                self.state.to_dict(),
+                replay_limit=replay_limit,
+            )
+            result["consolidation"] = consolidation
+            operational = OperationalState(
+                mode=operational.mode,
+                entered_revision=operational.entered_revision,
+                cycles=operational.cycles + 1,
+                consolidation_count=operational.consolidation_count + 1,
+                replay_count=operational.replay_count,
+                reentry_count=operational.reentry_count,
+                last_cycle_revision=self.state.revision,
+                last_reentry_revision=operational.last_reentry_revision,
+                last_replay_signature=consolidation["signature"],
+            )
+            self.state.workspace = {
+                **self.state.workspace,
+                "last_operational_cycle": consolidation,
+            }
+        elif active_mode == "dream_like":
+            replay = build_dream_replay(
+                self.state.to_dict(),
+                replay_limit=replay_limit,
+            )
+            internal_present = self.present_field(
+                replay,
+                internal=True,
+            )
+            candidates = internal_present.get("candidate_futures", [])
+            selected = self.select_trajectory(candidates) if candidates else None
+            if selected is not None:
+                self.state.selected_trajectory = dict(selected)
+
+            result["replay"] = replay
+            result["candidate_count"] = len(candidates)
+            result["selected_trajectory"] = (
+                dict(selected) if isinstance(selected, Mapping) else None
+            )
+            operational = OperationalState(
+                mode=operational.mode,
+                entered_revision=operational.entered_revision,
+                cycles=operational.cycles + 1,
+                consolidation_count=operational.consolidation_count + 1,
+                replay_count=operational.replay_count + 1,
+                reentry_count=operational.reentry_count,
+                last_cycle_revision=self.state.revision,
+                last_reentry_revision=operational.last_reentry_revision,
+                last_replay_signature=operational.last_replay_signature,
+            )
+            self.state.workspace = {
+                **self.state.workspace,
+                "last_operational_cycle": {
+                    "type": "dream_like_replay",
+                    "revision": self.state.revision,
+                    "replay": replay,
+                    "candidate_count": len(candidates),
+                    "selected_trajectory": (
+                        dict(selected)
+                        if isinstance(selected, Mapping)
+                        else None
+                    ),
+                },
+            }
+        else:
+            operational = OperationalState(
+                mode=operational.mode,
+                entered_revision=operational.entered_revision,
+                cycles=operational.cycles + 1,
+                consolidation_count=operational.consolidation_count,
+                replay_count=operational.replay_count,
+                reentry_count=operational.reentry_count,
+                last_cycle_revision=self.state.revision,
+                last_reentry_revision=operational.last_reentry_revision,
+                last_replay_signature=operational.last_replay_signature,
+            )
+
+        self.state.operational_state = operational.to_dict()
+        self.state.temporal_state = {
+            **self.state.temporal_state,
+            "operational_mode": active_mode,
+            "operational_cycle": operational.cycles,
+            "operational_cycle_revision": self.state.revision,
+        }
+        self.refresh_affective_state()
+        self.refresh_pre_reflective_state(persist=False)
+        self.refresh_access_state(persist=False)
+        self.refresh_embodiment_state(persist=False)
+        geometry_transition = self._record_experience_geometry_transition(
+            previous_snapshot,
+        )
+        self.state.workspace = {
+            **self.state.workspace,
+            "last_experience_geometry_transition": geometry_transition,
+        }
+        self.state.transformation_log.append({
+            "revision": self.state.revision,
+            "type": "operational_cycle",
+            "mode": active_mode,
+            "cycle": operational.cycles,
+        })
+        self.state.transformation_log = (
+            self.state.transformation_log[-self.transformation_limit :]
+        )
+
+        if persist:
+            self.store.save(self.state)
+
+        result["operational_state"] = self.snapshot_operational_state()
+        return result
+
+    def reenter_wake(self, *, persist: bool = True) -> dict[str, Any]:
+        """Explicitly reopen external coupling after an offline/dream-like cycle."""
+        return self.set_operational_mode("wake", persist=persist)
 
     def _restore_dynamic_core_state(self) -> None:
         """Mirror persisted dynamic-core state into runtime-owned self-model fields."""
@@ -2980,10 +3205,16 @@ class ConsciousRuntime:
         external_input: str,
         *,
         candidate_futures: list[Mapping[str, Any]] | None = None,
+        internal: bool = False,
     ) -> dict[str, Any]:
         external_input = str(external_input).strip()
         if not external_input:
             raise ValueError("external_input cannot be empty")
+        if self.operational_mode() != "wake" and not internal:
+            raise RuntimeError(
+                f"external world input is unavailable in operational mode "
+                f"{self.operational_mode()!r}"
+            )
 
         candidates = (
             [dict(item) for item in candidate_futures]
@@ -3013,6 +3244,7 @@ class ConsciousRuntime:
             "salience": self.state.salience,
             "layers": self.state.layers,
             "regime": self.state.regime,
+            "operational_state": self.snapshot_operational_state(),
             "relation_topology": self.state.relation_topology,
             "topology_diagnostics": self.topology_diagnostics(),
             "attractor": self.state.attractor,
@@ -3071,6 +3303,16 @@ class ConsciousRuntime:
             for key, value in configured.items():
                 if isinstance(value, (int, float)) and not isinstance(value, bool):
                     weights[str(key)] = float(value)
+
+        mode = self.operational_mode()
+        if mode == "dream_like":
+            weights["learning"] *= 1.25
+            weights["latent_pattern"] *= 1.35
+            weights["continuity"] *= 1.10
+            weights["risk"] *= 0.5
+        elif mode == "offline":
+            for key in ("goal_fit", "self_alignment", "continuity", "learning"):
+                weights[key] *= 0.5
 
         return weights
 
@@ -3369,6 +3611,7 @@ class ConsciousRuntime:
                 "access": self.conscious_access_state(),
                 "experience_geometry": self.snapshot_experience_geometry(),
                 "embodiment": self.snapshot_embodiment(),
+                "operational_state": self.snapshot_operational_state(),
             },
             "causal_reentry": (
                 "internal_condition -> self_relevance -> valuation -> trajectory -> "
@@ -3416,6 +3659,10 @@ class ConsciousRuntime:
         """Commit the selected trajectory as the action crossing the host boundary."""
         if not isinstance(trajectory, Mapping):
             raise ValueError("trajectory must be a mapping")
+        if self.operational_mode() != "wake":
+            raise RuntimeError(
+                "actions can cross the host boundary only in wake mode"
+            )
 
         action_id = hashlib.sha256(
             json.dumps(
@@ -3852,7 +4099,7 @@ class ConsciousRuntime:
 
         changed: dict[str, Any] = {}
         current_snapshot = self.state.to_dict()
-        for key in ("self_state", "self_model", "workspace", "intention", "attention", "salience", "layers", "regime", "attractor", "valuation", "valence", "coherence", "relation_topology", "latent_patterns", "self_dissonance", "interoceptive_state", "affective_state", "temporal_state", "perspectives", "pre_reflective_state", "access_state", "embodiment_state"):
+        for key in ("self_state", "self_model", "workspace", "intention", "attention", "salience", "layers", "regime", "operational_state", "attractor", "valuation", "valence", "coherence", "relation_topology", "latent_patterns", "self_dissonance", "interoceptive_state", "affective_state", "temporal_state", "perspectives", "pre_reflective_state", "access_state", "embodiment_state"):
             if previous_snapshot.get(key) != current_snapshot.get(key):
                 changed[key] = {"before": previous_snapshot.get(key), "after": current_snapshot.get(key)}
         if changed:
@@ -3875,6 +4122,7 @@ class ConsciousRuntime:
                 "salience": self.state.salience,
                 "layers": self.state.layers,
                 "regime": self.state.regime,
+                "operational_state": self.snapshot_operational_state(),
                 "relation_topology": self.state.relation_topology,
                 "attractor": self.state.attractor,
                 "valuation": self.state.valuation,
