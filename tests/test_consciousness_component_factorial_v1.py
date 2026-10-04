@@ -9,4 +9,7 @@ def test_component_factorial_sufficiency_gate():
         assert result["objective_state_match"] is True
         assert result["empty_field_collapsed"] is True
         assert result["full_field_nonzero"] is True
-        assert result["full_dominates_subsets"] is True
+        assert result["unity_maximal_when_all_unity_components_present"] is True
+        assert result["reentry_preserves_unity"] is True
+        assert result["reentry_increases_strength"] is True
+        assert result["full_strength_maximal"] is True
