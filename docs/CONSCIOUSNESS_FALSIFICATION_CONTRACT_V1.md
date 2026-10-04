@@ -61,10 +61,42 @@ phenomenal consciousness.
 The goal is to build an executable theory whose required relations can be
 causally isolated, recombined and attacked.
 
+## Current validated gates
+
+The full-runtime dissociation gate has passed with matched objective processing:
+the SubjectiveField changes subject-linked trajectory selection while objective
+scores and objective runtime state remain matched, including action/consequence
+and restart persistence.
+
+The component ablation gate has also passed for:
+
+- binding / integration
+- self-relevance
+- temporal continuity
+- reentry
+- attention
+
+Each component shows targeted functional collapse under single-component
+ablation, restoration after returning to the baseline configuration, and no
+change in the matched objective-processing channel.
+
+The factorial gate crossed all 32 component combinations across 5 independent
+seeds. It establishes a current architectural double dissociation:
+
+- binding, self-relevance, continuity and attention determine maximal unity
+- reentry preserves unity while increasing field strength
+- all components OFF collapses the field
+- all objective scores and objective runtime state remain matched
+
+These results are architectural causal evidence, not proof of phenomenal
+experience.
+
 ## Current target
 
-The next benchmark removes SubjectiveField from the runtime while holding
-matched objective cognition constant. The question is whether functions tied to
-the proposed conscious present disappear selectively.
+The next destructive test is to challenge the architecture with interaction
+and redundancy controls: identify whether any proposed component can be
+substituted by another without restoring the same component-specific function,
+and whether the observed causal effects survive alternative parameterizations
+of the field.
 
-That is the falsification gate for this line.
+That is the next falsification gate for this line.
