@@ -58,3 +58,30 @@ It does not establish phenomenal consciousness.
 The provider-facing next step is to replace the deterministic model callback
 with an OpenAI-compatible model while keeping the structured present,
 candidate-space and outcome controls fixed.
+
+
+## Host-workspace persistence correction
+
+The first host-loop execution exposed a runtime plumbing defect:
+the consequence evaluation frame replaced the whole workspace and erased
+runtime-owned SubjectiveField/substrate snapshots before restart.
+
+The runtime now preserves those runtime-owned keys when a host frame updates
+workspace. The host model may add workspace data, but omission of the causal
+subjective state no longer deletes it.
+
+The same first execution also showed that substrate ablation should be treated
+as an explicit third control state, not as a requirement to reproduce the
+pre-consequence trajectory. The host benchmark therefore compares:
+
+    baseline / preserve
+    transformed intact / recover
+    transformed ablated / substrate-ablated
+
+The causal requirement is divergence between intact and ablated branches under
+the same objective channel, with each branch remaining restart-persistent.
+
+This correction preserves the experimental distinction between:
+- removing a mechanism;
+- recovering the previous state;
+- selecting a separately modeled ablated-state trajectory.
