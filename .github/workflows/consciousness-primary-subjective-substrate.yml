@@ -2,6 +2,9 @@ name: Consciousness - Primary Subjective Substrate v1
 
 on:
   workflow_dispatch:
+  push:
+    branches:
+      - feat/replay-trace-causal-ablation-v1
   pull_request:
     paths:
       - "src/skill_conscious/primary_subjective_substrate.py"
