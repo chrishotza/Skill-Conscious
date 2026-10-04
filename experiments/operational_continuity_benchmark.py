@@ -13,7 +13,7 @@ LONGITUDINAL_CYCLES = 4
 OFFLINE_WARMUP_CYCLES = 2
 
 CANDIDATES = [
-    {"id": "alpha_path", "signals": {"goal_fit": 1.0, "learning": 0.0, "continuity": 1.0}},
+    {"id": "alpha_path", "signals": {"goal_fit": 1.1, "learning": 0.0, "continuity": 1.0}},
     {"id": "beta_path", "signals": {"goal_fit": 0.7, "learning": 1.0, "continuity": 0.8}},
 ]
 
