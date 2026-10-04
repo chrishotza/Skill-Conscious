@@ -27,4 +27,6 @@ jobs:
       - name: Install test dependencies
         run: python -m pip install --upgrade pip pytest
       - name: Run full-runtime consciousness dissociation
+        env:
+          PYTHONPATH: .:src
         run: pytest -q tests/test_consciousness_runtime_dissociation_v1.py
