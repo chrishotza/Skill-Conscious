@@ -649,6 +649,7 @@ class ConsciousRuntime:
         return dict(configured) if isinstance(configured, Mapping) else {}
 
     def snapshot_metacognitive_prediction(self) -> dict[str, Any]:
+        """Return the runtime-owned metacognitive prediction state."""
         model = self.state.self_model
         evidence = model.get("metacognitive_prediction_evidence", {})
         history = model.get("metacognitive_prediction_history", [])
