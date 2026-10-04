@@ -61,6 +61,10 @@ def test_model_generated_external_benchmark_keeps_runtime_causal(monkeypatch):
     assert result["task_count"] == 10
     assert result["repeat_count"] == 2
     assert metrics["model_generated_candidate_fields"] is True
+    assert metrics["candidate_field_hash_algorithm"] == "sha256-canonical-json-v1"
+    assert metrics["audit_trace_complete"] is True
+    assert metrics["paired_field_hashes_equal"] is True
+    assert metrics["paired_input_hashes_equal"] is True
     assert metrics["candidate_field_match_rate"] == 1.0
     assert metrics["initial_match_rate"] == 1.0
     assert metrics["causal_divergence_rate"] == 1.0
@@ -70,3 +74,18 @@ def test_model_generated_external_benchmark_keeps_runtime_causal(monkeypatch):
     assert metrics["ablation_restart_persistence_rate"] == 1.0
     assert metrics["all_authoritative_outcomes_present"] is True
     assert metrics["all_interventions_non_evidential"] is True
+    assert all(
+        record["intact"]["candidate_field_hash"]
+        == record["ablated"]["candidate_field_hash"]
+        for record in result["tasks"]
+    )
+    assert all(
+        record["intact"]["input_hash"]
+        == record["ablated"]["input_hash"]
+        for record in result["tasks"]
+    )
+    assert all(
+        record["intact"]["candidate_field_count"] == 2
+        and record["ablated"]["candidate_field_count"] == 2
+        for record in result["tasks"]
+    )
