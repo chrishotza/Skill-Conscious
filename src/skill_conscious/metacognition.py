@@ -47,6 +47,40 @@ def _numeric_mapping(value: Mapping[str, Any] | None) -> dict[str, float]:
     }
 
 
+def _compact_action_history(value: Any) -> dict[str, Any]:
+    """Summarize action history so metacognitive traces cannot recursively embed it."""
+    if not isinstance(value, list):
+        return {"count": 0, "last_action_id": None, "last_trajectory": None, "last_status": None}
+
+    entries = [item for item in value if isinstance(item, Mapping)]
+    last = entries[-1] if entries else {}
+    trajectory = last.get("trajectory", {})
+    trajectory_id = (
+        str(trajectory.get("id", ""))
+        if isinstance(trajectory, Mapping) and trajectory.get("id") is not None
+        else None
+    )
+    return {
+        "count": len(value),
+        "last_action_id": (
+            str(last.get("action_id", ""))
+            if last.get("action_id") is not None
+            else None
+        ),
+        "last_trajectory": trajectory_id or None,
+        "last_status": (
+            str(last.get("status", ""))
+            if last.get("status") is not None
+            else None
+        ),
+        "last_revision": (
+            int(last.get("revision"))
+            if isinstance(last.get("revision"), int)
+            else None
+        ),
+    }
+
+
 def state_delta(
     before: Mapping[str, Any],
     after: Mapping[str, Any],
