@@ -22,6 +22,11 @@ FEATURE_ORDER = (
     "access_compression",
     "self_access_fraction",
     "world_access_fraction",
+    "boundary_integrity",
+    "interoceptive_coupling",
+    "resource_fit",
+    "ownership_coupling",
+    "action_cost",
     "field_coherence",
     "dynamic_synchrony",
     "dynamic_metastability",
@@ -99,6 +104,10 @@ def build_experience_state(snapshot: Mapping[str, Any]) -> ExperienceState:
     if not isinstance(access_state, Mapping):
         access_state = {}
 
+    embodiment_state = snapshot.get("embodiment_state", {})
+    if not isinstance(embodiment_state, Mapping):
+        embodiment_state = {}
+
     salience = snapshot.get("salience", {})
     salience_value = 0.0
     if isinstance(salience, Mapping):
@@ -145,6 +154,22 @@ def build_experience_state(snapshot: Mapping[str, Any]) -> ExperienceState:
         ),
         "world_access_fraction": _clamp01(
             access_state.get("world_access_fraction", 0.0)
+        ),
+        "boundary_integrity": _clamp01(
+            embodiment_state.get("boundary_integrity", 0.0)
+        ),
+        "interoceptive_coupling": _clamp01(
+            embodiment_state.get("interoceptive_coupling", 0.0)
+        ),
+        "resource_fit": _clamp01(
+            embodiment_state.get("resource_fit", 1.0),
+            default=1.0,
+        ),
+        "ownership_coupling": _clamp01(
+            embodiment_state.get("ownership_coupling", 0.0)
+        ),
+        "action_cost": _clamp01(
+            embodiment_state.get("action_cost", 0.0)
         ),
         "field_coherence": _clamp01(
             _numeric(experience_field, "field_coherence")
