@@ -114,3 +114,14 @@ The dedicated geometry gap is now closed at v1 on PR #74. The runtime derives a 
 Bandwidth is explicitly represented in the geometry through access entropy, access compression, self-access fraction and world-access fraction. Therefore an access-budget intervention can alter the measured state-space position even when persistent state is otherwise held fixed.
 
 The remaining question is not whether a geometry object exists, but whether it should become part of a unified causal benchmark across report, metacognition, access and no-report conditions.
+
+
+## Reflective-independence runtime update
+
+A focused benchmark now exercises the core architectural separation:
+
+C_no_report_no_meta → E_no_report_meta → F_report_meta
+
+The benchmark holds the candidate field and internal observations constant and checks that the pre-reflective state, access state, geometry and selected trajectory remain stable when reflective layers are enabled or disabled.
+
+This is a stronger test of architectural independence than a documentation-only no-report rule, while still falling short of a unified consciousness benchmark.
