@@ -254,7 +254,6 @@ def run_benchmark(seeds: int = 12) -> dict[str, Any]:
                     ),
                 }
             )
-            )
 
     summary = {
         "seed_count": len(rows),
