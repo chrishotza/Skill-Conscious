@@ -188,3 +188,38 @@ This document defines the experimental protocol.
 A deterministic local host-loop control is included first to verify that consequence re-entry is behaviorally active at the architecture boundary. That control is a **harness validation**, not evidence from an external LLM provider.
 
 The next research step after the harness passes is to run the same trace protocol against one or more real host models with matched controls.
+
+## Matched multi-task suite
+
+The single-task harness has been expanded into:
+
+```
+experiments/external_host_behavioral_suite.py
+```
+
+The suite runs five matched controlled tasks under two conditions:
+
+- **intact**: authoritative host consequence is re-entered;
+- **causal ablation**: the same action receipt is retained, but the consequence state used for the next selection is explicitly restored to its pre-action value.
+
+The primary quantitative metrics are:
+
+- initial-selection match rate;
+- causal-divergence rate;
+- intact switch rate;
+- ablation preservation rate;
+- restart persistence rate in both conditions;
+- authoritative-outcome completeness;
+- confirmation that interventions add no learning evidence.
+
+The suite is intentionally deterministic at the architectural layer. The external model is still contacted, but its prose and self-description are not the dependent variable. This makes the suite suitable for repeated provider/model comparisons without changing the causal mechanism under test.
+
+Command:
+
+```bash
+python -m experiments.external_host_behavioral_suite \
+  --endpoint http://127.0.0.1:11434/v1 \
+  --model llama3.1
+```
+
+A passing five-task result is evidence that the tested runtime mechanism is active across repeated matched tasks. It is not a consciousness score and does not establish phenomenal experience.
