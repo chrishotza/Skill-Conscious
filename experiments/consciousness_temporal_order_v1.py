@@ -174,36 +174,38 @@ def run_trial(seed: int) -> dict[str, Any]:
         "goal": rng.uniform(0.64, 0.86),
     }
 
-    with tempfile.TemporaryDirectory(prefix=f"conscious-temporal-order-{seed}-") as tmp:
+    histories = {
+        "forward": (
+            (base_world, base_internal, "A"),
+            (alt_world, alt_internal, "B"),
+        ),
+        "reverse": (
+            (alt_world, alt_internal, "B"),
+            (base_world, base_internal, "A"),
+        ),
+    }
+    flags = {
+        "full": (True, True),
+        "continuity_only": (True, False),
+        "reentry_only": (False, True),
+        "neither": (False, False),
+    }
+
+    with tempfile.TemporaryDirectory(
+        prefix=f"conscious-temporal-order-{seed}-"
+    ) as tmp:
         root = Path(tmp)
+        fields: dict[str, dict[str, float]] = {}
+        objective_scores: list[float] = []
 
-        conditions = {
-            "full": _runtime(root / "full.json", "full", continuity=True),
-            "continuity_only": _runtime(
-                root / "continuity-only.json", "continuity-only", continuity=True
-            ),
-            "reentry_only": _runtime(
-                root / "reentry-only.json", "reentry-only", continuity=False
-            ),
-            "neither": _runtime(
-                root / "neither.json", "neither", continuity=False
-            ),
-        }
+        for condition, (continuity, reentry) in flags.items():
+            for order, sequence in histories.items():
+                runtime = _runtime(
+                    root / f"{condition}-{order}.json",
+                    f"{condition}-{order}",
+                    continuity=continuity,
+                )
 
-        histories = {
-            "forward": ((base_world, base_internal, "A"), (alt_world, alt_internal, "B")),
-            "reverse": ((alt_world, alt_internal, "B"), (base_world, base_internal, "A")),
-        }
-        flags = {
-            "full": (True, True),
-            "continuity_only": (True, False),
-            "reentry_only": (False, True),
-            "neither": (False, False),
-        }
-
-        for name, runtime in conditions.items():
-            continuity, reentry = flags[name]
-            for sequence in histories.values():
                 for world, internal, memory in sequence:
                     runtime.integrate(
                         _frame(
@@ -215,119 +217,39 @@ def run_trial(seed: int) -> dict[str, Any]:
                         )
                     )
 
-        forward = conditions["full"]
-        reverse = _runtime(root / "full-reverse.json", "full-reverse", continuity=True)
-        for world, internal, memory in histories["reverse"]:
-            reverse.integrate(
-                _frame(
-                    world,
-                    internal,
-                    memory,
-                    continuity=True,
-                    reentry=True,
-                )
-            )
-
-        forward_probe = _runtime(root / "probe-forward.json", "probe-forward", continuity=True)
-        reverse_probe = _runtime(root / "probe-reverse.json", "probe-reverse", continuity=True)
-
-        # Reuse the already constructed histories via fresh probe runtimes so all
-        # conditions receive the identical final probe.
-        for runtime, sequence in (
-            (forward_probe, histories["forward"]),
-            (reverse_probe, histories["reverse"]),
-        ):
-            for world, internal, memory in sequence:
-                runtime.integrate(
-                    _frame(world, internal, memory, continuity=True, reentry=True)
-                )
-
-        for name, runtime in conditions.items():
-            continuity, reentry = flags[name]
-            runtime.integrate(
-                _frame(
-                    probe_world,
-                    probe_internal,
-                    "PROBE",
-                    continuity=continuity,
-                    reentry=reentry,
-                )
-            )
-
-        fields = {
-            "full_forward": _field_vector(
-                forward.snapshot_subjective_field()["field"]
-            ),
-            "full_reverse": _field_vector(
-                reverse.snapshot_subjective_field()["field"]
-            ),
-        }
-        for name, runtime in conditions.items():
-            if name == "full":
-                continue
-            fields[name + "_forward"] = _field_vector(
-                runtime.snapshot_subjective_field()["field"]
-            )
-
-        # Re-run explicit reverse histories for each ablation condition.
-        reverse_conditions: dict[str, ConsciousRuntime] = {}
-        for name, (continuity, reentry) in flags.items():
-            runtime = _runtime(
-                root / ("reverse-" + name + ".json"),
-                "reverse-" + name,
-                continuity=continuity,
-            )
-            for world, internal, memory in histories["reverse"]:
                 runtime.integrate(
                     _frame(
-                        world,
-                        internal,
-                        memory,
+                        probe_world,
+                        probe_internal,
+                        "PROBE",
                         continuity=continuity,
                         reentry=reentry,
                     )
                 )
-            runtime.integrate(
-                _frame(
-                    probe_world,
-                    probe_internal,
-                    "PROBE",
-                    continuity=continuity,
-                    reentry=reentry,
+
+                fields[f"{condition}_{order}"] = _field_vector(
+                    runtime.snapshot_subjective_field()["field"]
                 )
-            )
-            reverse_conditions[name] = runtime
-            fields[name + "_reverse"] = _field_vector(
-                runtime.snapshot_subjective_field()["field"]
-            )
+                objective_scores.append(_objective(runtime))
 
         effects = {
-            name: _distance(
-                fields[name + "_forward"],
-                fields[name + "_reverse"],
+            condition: _distance(
+                fields[f"{condition}_forward"],
+                fields[f"{condition}_reverse"],
             )
-            for name in flags
+            for condition in flags
         }
-
-        objective_runtimes = [
-            conditions["full"],
-            reverse_conditions["full"],
-            conditions["continuity_only"],
-            reverse_conditions["continuity_only"],
-            conditions["reentry_only"],
-            reverse_conditions["reentry_only"],
-            conditions["neither"],
-            reverse_conditions["neither"],
-        ]
-        objective_scores = [_objective(runtime) for runtime in objective_runtimes]
 
         return {
             "seed": seed,
             "full_order_effect": round(effects["full"], 6),
-            "continuity_only_order_effect": round(effects["continuity_only"], 6),
-            "reentry_only_order_effect": round(effects["reentry_only"], 6),
+            "continuity_only_order_effect": round(
+                effects["continuity_only"], 6
+            ),
+            "reentry_only_order_effect": round(
+                effects["reentry_only"], 6
+            ),
             "neither_order_effect": round(effects["neither"], 6),
-            "objective_scores": [round(value, 6) for value in objective_scores],
             "objective_score_match": len(set(objective_scores)) == 1,
             "full_history_sensitive": effects["full"] > 0.02,
             "continuity_carries_history": effects["continuity_only"] > 0.02,
