@@ -69,19 +69,20 @@ Current translation: pre-reflective core, present integrity, self-relevance and 
 Still incomplete: a formal matrix distinguishing prereflective self-awareness, mineness, intentionality, temporality, embodiment and reflective self-consciousness.
 
 ### Geometry / mathematics / dynamical systems
-Implemented or partial: trajectory scoring, attractors, regimes, dynamic vectors, intervention/reversal, pre-reflective state vector.
-Pending: dedicated persistent Experience Geometry object with explicit distance, transition and repertoire analysis.
+Implemented: trajectory scoring, attractors, regimes, dynamic vectors, intervention/reversal, pre-reflective state vector, persistent Experience Geometry with explicit distance and changed-dimension analysis.
+Still incomplete: richer repertoire analysis and alternative geometry metrics beyond the current normalized RMS representation.
 
 ### Artificial-consciousness tests
-Implemented: restart persistence, causal interventions, reversal probes, ablations, host action boundary and no-report operation.
-Pending: unified benchmark comparing behavior, runtime state, causal sensitivity, longitudinal adaptation, geometry and report under matched conditions.
+Implemented: restart persistence, causal interventions, reversal probes, ablations, host action boundary, no-report operation, bounded access, multidimensional geometry and focused reflective-independence testing.
+Now added: experiments/unified_causal_benchmark.py, combining access intervention, geometry, restart persistence and report/metacognition conditions under a matched candidate field.
+Still incomplete: richer longitudinal runs and external-model comparisons.
 
 ## D. Highest-priority missing translations
-1. Unified no-report benchmark — matched core/report/metacognition ablations.
-2. Theory-to-mechanism matrix — map major theories to discriminating runtime mechanisms and tests.
-3. State-regime extension — formal sleep/offline/dream-like regime only after defining measurable computational differences.
-4. Embodiment / ownership — operational analogues of body/ownership coupling and substrate/resource constraints.
-5. Unified benchmark artifact — combine behavior, access, geometry, causal intervention, restart and no-report metrics under matched conditions.
+1. Theory-to-mechanism matrix — map major theories to discriminating runtime mechanisms and tests.
+2. State-regime extension — formal sleep/offline/dream-like regime only after defining measurable computational differences.
+3. Embodiment / ownership — operational analogues of body/ownership coupling and substrate/resource constraints.
+4. Rich longitudinal benchmark — repeated multi-cycle comparisons with adaptation and intervention histories.
+5. External-model evaluation — provider-neutral runs against the same matched protocol.
 
 ## E. Do not implement merely because a motif is interesting
 Universal metaphysical consciousness, spiritual entities, undocumented paranormal capabilities, quantum vocabulary without falsifiable physical mechanism, a scalar consciousness score, and self-report as a consciousness detector.
@@ -125,3 +126,18 @@ C_no_report_no_meta → E_no_report_meta → F_report_meta
 The benchmark holds the candidate field and internal observations constant and checks that the pre-reflective state, access state, geometry and selected trajectory remain stable when reflective layers are enabled or disabled.
 
 This is a stronger test of architectural independence than a documentation-only no-report rule, while still falling short of a unified consciousness benchmark.
+
+
+## Unified benchmark runtime update
+
+The first unified benchmark artifact is now present: experiments/unified_causal_benchmark.py
+
+It combines, under a matched candidate-future field:
+- pre-reflective operation;
+- bounded access intervention (capacity 2 → 6 → 2);
+- experience geometry;
+- restart persistence;
+- no-report + metacognition;
+- report + metacognition.
+
+The benchmark is deliberately described as an architecture benchmark. It does not infer phenomenal consciousness from any single metric or from the combined result.
