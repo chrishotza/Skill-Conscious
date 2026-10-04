@@ -520,3 +520,6 @@ ACCESS-DEPENDENT TRAJECTORY
 Trajectory candidates may declare `access_keys`. When the runtime access budget excludes a required key, that candidate loses the corresponding causal contribution. Capacity can be intervened on and restored without creating learning evidence.
 
 The mechanism supports no-report and no-metacognition operation and persists across restart. It remains an engineering access mechanism, not a claim of demonstrated phenomenal consciousness.
+
+
+The v0.10 access interface uses a finite default capacity of 12 persistent runtime fields. This is intentionally bounded rather than a full-state pass-through; capacity interventions can tighten or expand the window for causal ablation.
