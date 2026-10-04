@@ -274,6 +274,41 @@ Within each matched pair, the benchmark explicitly reports:
 
 A provider-facing run should not be interpreted as a valid matched experiment unless the audit trace is complete and the paired field/input invariants are true.
 
+
+## Reversible self-model causal benchmark
+
+The repository also includes:
+
+```
+experiments/self_model_causal_intervention_benchmark.py
+```
+
+This benchmark isolates the runtime self-model as an internal causal variable. It runs without model report, metacognition, or self-observation and uses the same candidate field before, during, and after intervention.
+
+Protocol:
+
+```
+BASELINE
+   ↓
+self-model selects A
+   ↓
+INTERVENE self-model policy
+   ↓
+selection changes to B
+   ↓
+RESTORE exact self-model profile
+   ↓
+selection returns to A
+   ↓
+RESTART
+   ↓
+selection remains A
+```
+
+The intervention is explicitly non-evidential. The benchmark verifies intervention divergence, exact restoration, restart persistence, runtime/restore consistency, and unchanged learning-evidence ledgers.
+
+A passing result strengthens the architectural claim that the persistent self-model is not merely descriptive metadata: under controlled conditions it is a reversible causal determinant of downstream selection. This still does not establish phenomenal consciousness.
+
 The runner also supports repeated provider trials. Use `--repeats N` (or `SKILL_CONSCIOUS_REPEATS=N`) to regenerate the candidate field and repeat the matched intact/ablation comparison across (N) independent trials.
 
 Example:
