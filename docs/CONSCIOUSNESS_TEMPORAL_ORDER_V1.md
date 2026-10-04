@@ -58,3 +58,22 @@ runtime state transition itself rather than relying on verbal self-report.
 
 A pass would establish history sensitivity as an architectural causal
 property. It would not by itself establish phenomenal experience.
+
+## Validated result
+
+The corrected gate passed in CI across 12 seeds:
+
+- full history sensitivity: 100%;
+- continuity-only history sensitivity: 100%;
+- reentry-only history sensitivity: 100%;
+- history collapse when both mechanisms are removed: 100%;
+- matched objective score invariance: 100%.
+
+A representative trial produced a full temporal-signature effect of 0.179851,
+a continuity-only effect of 0.106998, and a reentry-only effect of 0.026997,
+while removing both produced 0.0.
+
+The gate initially failed with weak effects because the stimulus histories were
+too similar and because the continuity distance compared the current present
+against derived fields in the previous snapshot. Both issues were corrected
+without relaxing the causal thresholds.
