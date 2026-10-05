@@ -136,17 +136,17 @@
 | C115 | Pythagorean Golden Verses — Grecia/platonismo; foco: psyche, nous, contemplación. | Represented — verification status varies | 8 | S016 |
 | C116 | Plato — Grecia/platonismo; foco: psyche, nous, contemplación. | Represented — verification status varies | 12 | S033 |
 | C117 | Plato — Grecia/platonismo; foco: psyche, nous, contemplación. | Represented — verification status varies | 12 | S034 |
-| C118 | Plato — Grecia/platonismo; foco: psyche, nous, contemplación. | MISSING — extraction required | 0 | — |
-| C119 | Plato — Grecia/platonismo; foco: psyche, nous, contemplación. | MISSING — extraction required | 0 | — |
-| C120 | Plato — Grecia/platonismo; foco: psyche, nous, contemplación. | MISSING — extraction required | 0 | — |
-| C121 | Plato — Grecia/platonismo; foco: psyche, nous, contemplación. | MISSING — extraction required | 0 | — |
-| C122 | Aristotle — Grecia/platonismo; foco: psyche, nous, contemplación. | MISSING — extraction required | 0 | — |
-| C123 | Stoic fragments — Grecia/platonismo; foco: psyche, nous, contemplación. | MISSING — extraction required | 0 | — |
+| C118 | Plato — source-register entry — source register entry. | Represented — passage verification pending | 13 | S159 |
+| C119 | Plato — source-register entry — source register entry. | Represented — passage verification pending | 13 | S160 |
+| C120 | Plato — source-register entry — source register entry. | Represented — passage verification pending | 13 | S161 |
+| C121 | Plato — source-register entry — source register entry. | Represented — passage verification pending | 13 | S162 |
+| C122 | Aristotle — source register entry. | Represented — passage verification pending | 13 | S163 |
+| C123 | Stoic fragments — source register entry. | Represented — passage verification pending | 13 | S164 |
 | C124 | Enneads — Grecia/platonismo; foco: conciencia, persona, realidad, transformación. | Represented — verification status varies | 10 | S006 |
-| C125 | Life of Plotinus — Grecia/platonismo; foco: psyche, nous, contemplación. | MISSING — extraction required | 0 | — |
+| C125 | Life of Plotinus — source register entry. | Represented — passage verification pending | 13 | S165 |
 | C126 | De Mysteriis — Grecia/platonismo; foco: conciencia, persona, realidad, transformación. | Represented — verification status varies | 8 | S024 |
-| C127 | Elements of Theology — Grecia/platonismo; foco: conciencia, persona, realidad, transformación. | MISSING — extraction required | 0 | — |
-| C128 | Platonic Theology — Grecia/platonismo; foco: psyche, nous, contemplación. | MISSING — extraction required | 0 | — |
+| C127 | Elements of Theology — source register entry. | Represented — passage verification pending | 13 | S166 |
+| C128 | Platonic Theology — source register entry. | Represented — passage verification pending | 13 | S167 |
 | C129 | Corpus Hermeticum — Hermetismo/gnosis; foco: gnosis, Nous, ascenso. | Represented — verification status varies | 10 | S007 |
 | C130 | Asclepius — Hermetismo/gnosis; foco: gnosis, Nous, ascenso. | MISSING — extraction required | 0 | — |
 | C131 | Stobaean Hermetica — Hermetismo/gnosis; foco: gnosis, Nous, ascenso. | MISSING — extraction required | 0 | — |
@@ -369,3 +369,8 @@ C091, C092, C093, C094, C096, C097, C098, C100, C101 and C102 are now represente
 ## Batch v20 checkpoint
 
 C103, C104, C105, C107, C108, C109, C110, C112, C113 and C114 are now represented with 13 P2* candidates each in REMAINING_SOURCES_BATCH_V20.md.
+
+
+## Batch v21 checkpoint
+
+C118, C119, C120, C121, C122, C123, C125, C127 and C128 are now represented with 13 P2* candidates each in REMAINING_SOURCES_BATCH_V21.md. The four generic Plato entries retain a title-resolution warning because the current register does not preserve distinct dialogue names.
