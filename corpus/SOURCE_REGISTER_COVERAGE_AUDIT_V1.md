@@ -3,17 +3,17 @@
 **Branch:** `corpus-v1`  
 **Register:** `corpus/SOURCE_REGISTER_V1.md`  
 **Ledger:** `corpus/CLAIMS/claim_ledger_v1.json`  
-**Audit rule:** an entry counts as *represented* only if its exact `corpus_id` occurs in at least one ledger record. This does **not** mean all claims are source-verified. Entries with generic locators or P2* claims remain verification-pending.
+**Audit rule:** an entry counts as represented only if its exact `corpus_id` occurs in at least one ledger record. This does **not** mean all claims are source-verified.
 
-## Reconciled totals after batch v14
+## Reconciled totals after batch v15
 
 - Register entries parsed: **325** (C001–C325; 325 unique IDs).
-- Entries represented in ledger: **95**.
-- Entries not yet represented: **230**.
-- Ledger records: **1325**.
-- Unique global claim IDs: **1325**.
-- Unique source IDs in ledger: **98**.
-- Important: source-ID count and register-entry coverage are different metrics. Several register IDs were previously absent; some corpus IDs also had more than one source ID, so source IDs cannot be used as a coverage proxy.
+- Entries represented in ledger: **105**.
+- Entries not yet represented: **220**.
+- Ledger records: **1455**.
+- Unique global claim IDs: **1455**.
+- Unique source IDs in ledger: **108**.
+- **Quality caveat:** “represented” is a coverage flag only. P2* claims and generic locators remain verification-pending.
 
 ## Status table
 
@@ -41,28 +41,28 @@
 | C020 | Vivekachudamani — Védico/upanishádico; foco: conciencia, persona, realidad, transformación. | Represented — verification status varies | 13 | S086 |
 | C021 | Panchadashi — Védico/upanishádico; foco: conciencia, persona, realidad, transformación. | Represented — verification status varies | 13 | S087 |
 | C022 | Aparokshanubhuti — Védico/upanishádico; foco: conciencia, persona, realidad, transformación. | Represented — verification status varies | 13 | S088 |
-| C023 | Hatha Yoga Pradipika — Védico/upanishádico; foco: conciencia, persona, realidad, transformación. | Added in v14 — passage verification pending | 13 | S089 |
-| C024 | Shiva Samhita — Védico/upanishádico; foco: conciencia, persona, realidad, transformación. | Added in v14 — passage verification pending | 13 | S090 |
-| C025 | Gheranda Samhita — Védico/upanishádico; foco: conciencia, persona, realidad, transformación. | Added in v14 — passage verification pending | 13 | S091 |
-| C026 | Yoga Vasistha — Védico/upanishádico; foco: conciencia, persona, realidad, transformación. | Added in v14 — passage verification pending | 13 | S092 |
-| C027 | Tripura Rahasya — Védico/upanishádico; foco: conciencia, persona, realidad, transformación. | Added in v14 — passage verification pending | 13 | S093 |
-| C028 | Ribhu Gita — Védico/upanishádico; foco: acción, identidad, disciplina. | Added in v14 — passage verification pending | 13 | S094 |
-| C029 | Shiva Sutras — Tántrico/śaiva; foco: presencia, reconocimiento, manifestación. | Added in v14 — passage verification pending | 13 | S095 |
-| C030 | Spanda Karikas — Tántrico/śaiva; foco: presencia, reconocimiento, manifestación. | Represented — verification status varies | 20 | S066 |
-| C031 | Vijnana Bhairava Tantra — Tántrico/śaiva; foco: presencia, reconocimiento, manifestación. | Represented — verification status varies | 20 | S067 |
-| C032 | Pratyabhijnahrdayam — Tántrico/śaiva; foco: presencia, reconocimiento, manifestación. | Added in v14 — passage verification pending | 13 | S096 |
-| C033 | Shiva Drishti — Tántrico/śaiva; foco: conciencia, persona, realidad, transformación. | Added in v14 — passage verification pending | 13 | S097 |
-| C034 | Pratyabhijñavimarshini — Tántrico/śaiva; foco: presencia, reconocimiento, manifestación. | Added in v14 — passage verification pending | 13 | S098 |
-| C035 | Tantraloka — Tántrico/śaiva; foco: presencia, reconocimiento, manifestación. | MISSING — extraction required | 0 | — |
-| C036 | Tantrasara — Tántrico/śaiva; foco: presencia, reconocimiento, manifestación. | MISSING — extraction required | 0 | — |
-| C037 | Paratrishika Vivarana — Tántrico/śaiva; foco: conciencia, persona, realidad, transformación. | MISSING — extraction required | 0 | — |
-| C038 | Malinivijayottara Tantra — Tántrico/śaiva; foco: presencia, reconocimiento, manifestación. | MISSING — extraction required | 0 | — |
-| C039 | Netra Tantra — Tántrico/śaiva; foco: presencia, reconocimiento, manifestación. | MISSING — extraction required | 0 | — |
-| C040 | Kubjika Tantra corpus — Tántrico/śaiva; foco: conciencia, persona, realidad, transformación. | MISSING — extraction required | 0 | — |
-| C041 | Devimahatmya — Tántrico/śaiva; foco: conciencia, persona, realidad, transformación. | MISSING — extraction required | 0 | — |
-| C042 | Saundaryalahari — Tántrico/śaiva; foco: conciencia, persona, realidad, transformación. | MISSING — extraction required | 0 | — |
-| C043 | Lalitopakhyana / Lalita tradition texts — Tántrico/śaiva; foco: conciencia, persona, realidad, transformación. | MISSING — extraction required | 0 | — |
-| C044 | Acaranga Sutra — Jaina/sikh; foco: jīva, conocimiento, karma. | MISSING — extraction required | 0 | — |
+| C023 | Hatha Yoga Pradipika — Védico/upanishádico; foco: conciencia, persona, realidad, transformación. | Represented — passage verification pending | 13 | S089 |
+| C024 | Shiva Samhita — Védico/upanishádico; foco: conciencia, persona, realidad, transformación. | Represented — passage verification pending | 13 | S090 |
+| C025 | Gheranda Samhita — Védico/upanishádico; foco: conciencia, persona, realidad, transformación. | Represented — passage verification pending | 13 | S091 |
+| C026 | Yoga Vasistha — Védico/upanishádico; foco: conciencia, persona, realidad, transformación. | Represented — passage verification pending | 13 | S092 |
+| C027 | Tripura Rahasya — Védico/upanishádico; foco: conciencia, persona, realidad, transformación. | Represented — passage verification pending | 13 | S093 |
+| C028 | Ribhu Gita — Védico/upanishádico; foco: acción, identidad, disciplina. | Represented — passage verification pending | 13 | S094 |
+| C029 | Shiva Sutras — Tántrico/śaiva; foco: presencia, reconocimiento, manifestación. | Represented — passage verification pending | 13 | S095 |
+| C030 | Spanda Karikas — Tántrico/śaiva; foco: presencia, reconocimiento, manifestación. | Represented — passage verification pending | 20 | S066 |
+| C031 | Vijnana Bhairava Tantra — Tántrico/śaiva; foco: presencia, reconocimiento, manifestación. | Represented — passage verification pending | 20 | S067 |
+| C032 | Pratyabhijnahrdayam — Tántrico/śaiva; foco: presencia, reconocimiento, manifestación. | Represented — passage verification pending | 13 | S096 |
+| C033 | Shiva Drishti — Tántrico/śaiva; foco: conciencia, persona, realidad, transformación. | Represented — passage verification pending | 13 | S097 |
+| C034 | Pratyabhijñavimarshini — Tántrico/śaiva; foco: presencia, reconocimiento, manifestación. | Represented — passage verification pending | 13 | S098 |
+| C035 | Tantraloka — Tántrico/śaiva; foco: presencia, reconocimiento, manifestación. | Added in v15 — passage verification pending | 13 | S099 |
+| C036 | Tantrasara — Tántrico/śaiva; foco: presencia, reconocimiento, manifestación. | Added in v15 — passage verification pending | 13 | S100 |
+| C037 | Paratrishika Vivarana — Tántrico/śaiva; foco: conciencia, persona, realidad, transformación. | Added in v15 — passage verification pending | 13 | S101 |
+| C038 | Malinivijayottara Tantra — Tántrico/śaiva; foco: presencia, reconocimiento, manifestación. | Added in v15 — passage verification pending | 13 | S102 |
+| C039 | Netra Tantra — Tántrico/śaiva; foco: presencia, reconocimiento, manifestación. | Added in v15 — passage verification pending | 13 | S103 |
+| C040 | Kubjika Tantra corpus — Tántrico/śaiva; foco: conciencia, persona, realidad, transformación. | Added in v15 — passage verification pending | 13 | S104 |
+| C041 | Devimahatmya — Tántrico/śaiva; foco: conciencia, persona, realidad, transformación. | Added in v15 — passage verification pending | 13 | S105 |
+| C042 | Saundaryalahari — Tántrico/śaiva; foco: conciencia, persona, realidad, transformación. | Added in v15 — passage verification pending | 13 | S106 |
+| C043 | Lalitopakhyana / Lalita tradition texts — Tántrico/śaiva; foco: conciencia, persona, realidad, transformación. | Added in v15 — passage verification pending | 13 | S107 |
+| C044 | Acaranga Sutra — Jaina/sikh; foco: jīva, conocimiento, karma. | Added in v15 — passage verification pending | 13 | S108 |
 | C045 | Tattvartha Sutra — Jaina/sikh; foco: jīva, conocimiento, karma. | Represented — verification status varies | 16 | S048 |
 | C046 | Samayasara — Jaina/sikh; foco: jīva, conocimiento, karma. | MISSING — extraction required | 0 | — |
 | C047 | Niyamasara — Jaina/sikh; foco: jīva, conocimiento, karma. | MISSING — extraction required | 0 | — |
@@ -347,8 +347,10 @@
 
 ## Next queue
 
-The next pending register entries begin at C035 (Tantrāloka), C036 (Tantrasāra), C037 (Parātriśikāvivaraṇa), C038 (Mālinīvijayottara Tantra), C039 (Netra Tantra), C040 (Kubjikā Tantra corpus), C041 (Devīmāhātmya), C042 (Saundaryalaharī), C043 (Lalitopākhyāna / Lalitā tradition texts), C044 (Ācārāṅga Sūtra), and onward. Continue by exact register ID, not by assuming source IDs and corpus IDs are interchangeable.
+C046 (Samayasara); C047 (Niyamasara); C048 (Dravyasamgraha); C050 (Japji Sahib); C051 (Sarbloh Granth selections); C053 (Mahasatipatthana Sutta); C056 (Kevatta Sutta); C058 (Dhammapada); C059 (Udana); C060 (Vimuttimagga); C061 (Visuddhimagga); C062 (Milindapanha); C063 (Abhidhammattha-sangaha); C064 (Abhidharmakosha); C065 (Madhyantavibhaga); C066 (Lankavatara Sutra); C068 (Diamond Sutra); C070 (Tathagatagarbha Sutra); C071 (Awakening of Faith in Mahayana); C074 (Bodhicaryavatara).
+
+Continue by exact register ID, not by assuming source IDs and corpus IDs are interchangeable.
 
 ## Integrity caveat
 
-“Represented” is only a coverage flag. It is not a claim that the source has been read in full, that every paraphrase is accurate, or that all claims have scholarly-grade locators. Those are separate quality gates and must remain visible.
+Coverage does not establish that a source was read in full, that a paraphrase is accurate, or that every claim has a stable scholarly locator. These require separate quality gates.
