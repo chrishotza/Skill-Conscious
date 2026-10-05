@@ -51,3 +51,11 @@ A frequently repeated motif is not automatically true. Promotion requires:
 **1585 globally unique claims across 118 source IDs; 115/325 register entries represented (210 still missing). The original 1,000-claim minimum has been exceeded; expansion continues until the register is covered.**
 
 The next extraction stage should systematically traverse the remaining register while deepening the highest-value motifs: M01, M02, M03, M04, M05, M06, M07, M11, M12, M13, M14, M15, M16, M19, M20, M22, M23, M24 and M25.
+
+## Batch v17 checkpoint
+
+- Newly represented register entries: C061, C062, C063, C064, C065, C066, C068, C070, C071, C074.
+- Added claims: 130.
+- Current ledger: 1715 records / 128 source IDs.
+- Current register coverage: 125/325 represented; 200/325 still missing.
+- Strict 13-per-source normalization remains a later reconciliation step because earlier batches contain both under- and over-represented sources.
