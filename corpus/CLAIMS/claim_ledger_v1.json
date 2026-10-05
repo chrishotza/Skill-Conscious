@@ -1,8 +1,8 @@
 {
   "schema_version": "1.0",
-  "claim_count": 2352,
-  "global_claim_count": 2352,
-  "source_count": 177,
+  "claim_count": 2482,
+  "global_claim_count": 2482,
+  "source_count": 187,
   "records": [
     {
       "global_claim_id": "G1-S001-K01",
@@ -36335,6 +36335,1987 @@
       ],
       "provenance": "P2*",
       "batch": "22"
+    },
+    {
+      "global_claim_id": "G23-S178-K01",
+      "claim_id": "K01",
+      "source_id": "S178",
+      "corpus_id": "C144",
+      "location": "§§1–200; sefirot, creación, luz, alma y dinámica divina",
+      "claim_type": "ONTO",
+      "claim": "El Bahir articula un modelo de realidad donde las sefirot funcionan como potencias o emanaciones divinas relacionadas con la manifestación.",
+      "motifs": [
+        "M03",
+        "M18",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "23"
+    },
+    {
+      "global_claim_id": "G23-S178-K02",
+      "claim_id": "K02",
+      "source_id": "S178",
+      "corpus_id": "C144",
+      "location": "§§1–200; sefirot, creación, luz, alma y dinámica divina",
+      "claim_type": "DYNAMICS",
+      "claim": "Las sefirot se presentan como una estructura dinámica, no sólo como una lista estática de atributos.",
+      "motifs": [
+        "M09",
+        "M18",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "23"
+    },
+    {
+      "global_claim_id": "G23-S178-K03",
+      "claim_id": "K03",
+      "source_id": "S178",
+      "corpus_id": "C144",
+      "location": "§§1–200; sefirot, creación, luz, alma y dinámica divina",
+      "claim_type": "UNITY",
+      "claim": "La multiplicidad de sefirot se mantiene vinculada a una fuente divina unitaria.",
+      "motifs": [
+        "M03",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "23"
+    },
+    {
+      "global_claim_id": "G23-S178-K04",
+      "claim_id": "K04",
+      "source_id": "S178",
+      "corpus_id": "C144",
+      "location": "§§1–200; sefirot, creación, luz, alma y dinámica divina",
+      "claim_type": "INEFFABILITY",
+      "claim": "El sistema simbólico intenta representar aspectos de una realidad divina que se considera difícil o imposible de representar directamente.",
+      "motifs": [
+        "M14",
+        "M18"
+      ],
+      "provenance": "P2*",
+      "batch": "23"
+    },
+    {
+      "global_claim_id": "G23-S178-K05",
+      "claim_id": "K05",
+      "source_id": "S178",
+      "corpus_id": "C144",
+      "location": "§§1–200; sefirot, creación, luz, alma y dinámica divina",
+      "claim_type": "COSMO",
+      "claim": "Creación, orden cósmico y estructura divina se explican mediante correspondencias entre niveles.",
+      "motifs": [
+        "M15",
+        "M18",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "23"
+    },
+    {
+      "global_claim_id": "G23-S178-K06",
+      "claim_id": "K06",
+      "source_id": "S178",
+      "corpus_id": "C144",
+      "location": "§§1–200; sefirot, creación, luz, alma y dinámica divina",
+      "claim_type": "RELATION",
+      "claim": "El vínculo entre lo divino, el mundo y el sujeto se formula mediante redes simbólicas más que mediante separación absoluta.",
+      "motifs": [
+        "M05",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "23"
+    },
+    {
+      "global_claim_id": "G23-S178-K07",
+      "claim_id": "K07",
+      "source_id": "S178",
+      "corpus_id": "C144",
+      "location": "§§1–200; sefirot, creación, luz, alma y dinámica divina",
+      "claim_type": "INTERIORITY",
+      "claim": "La simbología de las sefirot puede funcionar como un lenguaje para pensar una vida divina interior y sus manifestaciones.",
+      "motifs": [
+        "M02",
+        "M18"
+      ],
+      "provenance": "P2*",
+      "batch": "23"
+    },
+    {
+      "global_claim_id": "G23-S178-K08",
+      "claim_id": "K08",
+      "source_id": "S178",
+      "corpus_id": "C144",
+      "location": "§§1–200; sefirot, creación, luz, alma y dinámica divina",
+      "claim_type": "STATE",
+      "claim": "La comprensión del simbolismo requiere diferentes grados de interpretación y conocimiento esotérico.",
+      "motifs": [
+        "M06",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "23"
+    },
+    {
+      "global_claim_id": "G23-S178-K09",
+      "claim_id": "K09",
+      "source_id": "S178",
+      "corpus_id": "C144",
+      "location": "§§1–200; sefirot, creación, luz, alma y dinámica divina",
+      "claim_type": "TRANSFORMATION",
+      "claim": "El conocimiento de las estructuras sefiroticas se integra en una visión de transformación del sujeto religioso.",
+      "motifs": [
+        "M12",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "23"
+    },
+    {
+      "global_claim_id": "G23-S178-K10",
+      "claim_id": "K10",
+      "source_id": "S178",
+      "corpus_id": "C144",
+      "location": "§§1–200; sefirot, creación, luz, alma y dinámica divina",
+      "claim_type": "VALENCE",
+      "claim": "El orden de las emanaciones estructura también problemas sobre bien, mal y desajuste cósmico.",
+      "motifs": [
+        "M10",
+        "M18"
+      ],
+      "provenance": "P2*",
+      "batch": "23"
+    },
+    {
+      "global_claim_id": "G23-S178-K11",
+      "claim_id": "K11",
+      "source_id": "S178",
+      "corpus_id": "C144",
+      "location": "§§1–200; sefirot, creación, luz, alma y dinámica divina",
+      "claim_type": "PRACTICE",
+      "claim": "La lectura y contemplación de las imágenes simbólicas forman parte de la transmisión esotérica del texto.",
+      "motifs": [
+        "M24",
+        "M25"
+      ],
+      "provenance": "P2*",
+      "batch": "23"
+    },
+    {
+      "global_claim_id": "G23-S178-K12",
+      "claim_id": "K12",
+      "source_id": "S178",
+      "corpus_id": "C144",
+      "location": "§§1–200; sefirot, creación, luz, alma y dinámica divina",
+      "claim_type": "REFLEXIVITY",
+      "claim": "El lenguaje simbólico permite al intérprete relacionar su propia condición con estructuras cosmológicas y divinas.",
+      "motifs": [
+        "M02",
+        "M06",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "23"
+    },
+    {
+      "global_claim_id": "G23-S178-K13",
+      "claim_id": "K13",
+      "source_id": "S178",
+      "corpus_id": "C144",
+      "location": "§§1–200; sefirot, creación, luz, alma y dinámica divina",
+      "claim_type": "META",
+      "claim": "El Bahir es un texto medieval temprano con historia composicional debatida; no debe proyectarse retrospectivamente como si fuera una doctrina judía uniforme.",
+      "motifs": [
+        "M14",
+        "M17",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "23"
+    },
+    {
+      "global_claim_id": "G23-S179-K01",
+      "claim_id": "K01",
+      "source_id": "S179",
+      "corpus_id": "C147",
+      "location": "Hekhalot Rabbati y literatura de palacios; ascenso, trono, himnos y sellos",
+      "claim_type": "PRACTICE",
+      "claim": "El ascenso merkabah se describe como una práctica estructurada que combina preparación, recitación y tránsito por palacios.",
+      "motifs": [
+        "M24",
+        "M25"
+      ],
+      "provenance": "P2*",
+      "batch": "23"
+    },
+    {
+      "global_claim_id": "G23-S179-K02",
+      "claim_id": "K02",
+      "source_id": "S179",
+      "corpus_id": "C147",
+      "location": "Hekhalot Rabbati y literatura de palacios; ascenso, trono, himnos y sellos",
+      "claim_type": "STATE",
+      "claim": "El practicante busca pasar a un estado visionario capaz de soportar la presencia y el esplendor celestes.",
+      "motifs": [
+        "M07",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "23"
+    },
+    {
+      "global_claim_id": "G23-S179-K03",
+      "claim_id": "K03",
+      "source_id": "S179",
+      "corpus_id": "C147",
+      "location": "Hekhalot Rabbati y literatura de palacios; ascenso, trono, himnos y sellos",
+      "claim_type": "TRANSFORMATION",
+      "claim": "La trayectoria por los palacios funciona como transformación progresiva de la posición del sujeto.",
+      "motifs": [
+        "M12",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "23"
+    },
+    {
+      "global_claim_id": "G23-S179-K04",
+      "claim_id": "K04",
+      "source_id": "S179",
+      "corpus_id": "C147",
+      "location": "Hekhalot Rabbati y literatura de palacios; ascenso, trono, himnos y sellos",
+      "claim_type": "ONTO",
+      "claim": "El cosmos se presenta como una jerarquía de palacios, guardianes, ángeles y trono.",
+      "motifs": [
+        "M07",
+        "M15",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "23"
+    },
+    {
+      "global_claim_id": "G23-S179-K05",
+      "claim_id": "K05",
+      "source_id": "S179",
+      "corpus_id": "C147",
+      "location": "Hekhalot Rabbati y literatura de palacios; ascenso, trono, himnos y sellos",
+      "claim_type": "RELATION",
+      "claim": "La relación con guardianes, nombres sagrados y figuras celestes determina el acceso a niveles superiores.",
+      "motifs": [
+        "M05",
+        "M15"
+      ],
+      "provenance": "P2*",
+      "batch": "23"
+    },
+    {
+      "global_claim_id": "G23-S179-K06",
+      "claim_id": "K06",
+      "source_id": "S179",
+      "corpus_id": "C147",
+      "location": "Hekhalot Rabbati y literatura de palacios; ascenso, trono, himnos y sellos",
+      "claim_type": "ATTENTION",
+      "claim": "Exactitud de palabras, sellos y secuencias rituales forma parte de la operación contemplativa/teúrgica.",
+      "motifs": [
+        "M06",
+        "M24"
+      ],
+      "provenance": "P2*",
+      "batch": "23"
+    },
+    {
+      "global_claim_id": "G23-S179-K07",
+      "claim_id": "K07",
+      "source_id": "S179",
+      "corpus_id": "C147",
+      "location": "Hekhalot Rabbati y literatura de palacios; ascenso, trono, himnos y sellos",
+      "claim_type": "INEFFABILITY",
+      "claim": "La visión del trono se representa mediante imágenes extremas que señalan una experiencia que excede descripción ordinaria.",
+      "motifs": [
+        "M14",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "23"
+    },
+    {
+      "global_claim_id": "G23-S179-K08",
+      "claim_id": "K08",
+      "source_id": "S179",
+      "corpus_id": "C147",
+      "location": "Hekhalot Rabbati y literatura de palacios; ascenso, trono, himnos y sellos",
+      "claim_type": "VALENCE",
+      "claim": "Pureza y preparación se presentan como condiciones de acceso, mientras que error o impureza implican peligro.",
+      "motifs": [
+        "M10",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "23"
+    },
+    {
+      "global_claim_id": "G23-S179-K09",
+      "claim_id": "K09",
+      "source_id": "S179",
+      "corpus_id": "C147",
+      "location": "Hekhalot Rabbati y literatura de palacios; ascenso, trono, himnos y sellos",
+      "claim_type": "COSMO",
+      "claim": "La imaginería de siete palacios convierte el ascenso en un mapa operativo del universo celestial.",
+      "motifs": [
+        "M15",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "23"
+    },
+    {
+      "global_claim_id": "G23-S179-K10",
+      "claim_id": "K10",
+      "source_id": "S179",
+      "corpus_id": "C147",
+      "location": "Hekhalot Rabbati y literatura de palacios; ascenso, trono, himnos y sellos",
+      "claim_type": "REFLEXIVITY",
+      "claim": "La literatura incluye afirmaciones sobre lo que el practicante llega a ver o conocer mediante la experiencia de ascenso.",
+      "motifs": [
+        "M02",
+        "M06",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "23"
+    },
+    {
+      "global_claim_id": "G23-S179-K11",
+      "claim_id": "K11",
+      "source_id": "S179",
+      "corpus_id": "C147",
+      "location": "Hekhalot Rabbati y literatura de palacios; ascenso, trono, himnos y sellos",
+      "claim_type": "UNITY",
+      "claim": "La culminación del recorrido busca contacto con el trono y una forma de participación en el orden divino.",
+      "motifs": [
+        "M03",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "23"
+    },
+    {
+      "global_claim_id": "G23-S179-K12",
+      "claim_id": "K12",
+      "source_id": "S179",
+      "corpus_id": "C147",
+      "location": "Hekhalot Rabbati y literatura de palacios; ascenso, trono, himnos y sellos",
+      "claim_type": "TEMPORAL",
+      "claim": "El acceso ocurre por etapas, puertas y secuencias, no como una sola transición instantánea.",
+      "motifs": [
+        "M11",
+        "M12"
+      ],
+      "provenance": "P2*",
+      "batch": "23"
+    },
+    {
+      "global_claim_id": "G23-S179-K13",
+      "claim_id": "K13",
+      "source_id": "S179",
+      "corpus_id": "C147",
+      "location": "Hekhalot Rabbati y literatura de palacios; ascenso, trono, himnos y sellos",
+      "claim_type": "META",
+      "claim": "El corpus Hekhalot es heterogéneo y su redacción final es tardía respecto de sus tradiciones; no debe reducirse a un único manual histórico.",
+      "motifs": [
+        "M14",
+        "M17",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "23"
+    },
+    {
+      "global_claim_id": "G23-S180-K01",
+      "claim_id": "K01",
+      "source_id": "S180",
+      "corpus_id": "C148",
+      "location": "Secciones de ascenso de R. Ishmael, transformación de Enoch en Metatron y angelología",
+      "claim_type": "TRANSFORMATION",
+      "claim": "3 Enoch representa una transformación radical de Enoch desde humano a Metatron tras su ascenso celeste.",
+      "motifs": [
+        "M12",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "23"
+    },
+    {
+      "global_claim_id": "G23-S180-K02",
+      "claim_id": "K02",
+      "source_id": "S180",
+      "corpus_id": "C148",
+      "location": "Secciones de ascenso de R. Ishmael, transformación de Enoch en Metatron y angelología",
+      "claim_type": "PERSON",
+      "claim": "La identidad personal puede adquirir una nueva función cosmológica sin quedar simplemente anulada.",
+      "motifs": [
+        "M05",
+        "M16"
+      ],
+      "provenance": "P2*",
+      "batch": "23"
+    },
+    {
+      "global_claim_id": "G23-S180-K03",
+      "claim_id": "K03",
+      "source_id": "S180",
+      "corpus_id": "C148",
+      "location": "Secciones de ascenso de R. Ishmael, transformación de Enoch en Metatron y angelología",
+      "claim_type": "STATE",
+      "claim": "Ascenso, transformación y entronización marcan cambios de estado del sujeto.",
+      "motifs": [
+        "M07",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "23"
+    },
+    {
+      "global_claim_id": "G23-S180-K04",
+      "claim_id": "K04",
+      "source_id": "S180",
+      "corpus_id": "C148",
+      "location": "Secciones de ascenso de R. Ishmael, transformación de Enoch en Metatron y angelología",
+      "claim_type": "COSMO",
+      "claim": "La obra integra ascenso, palacios celestes, angelología y secretos de creación en una cosmología única.",
+      "motifs": [
+        "M15",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "23"
+    },
+    {
+      "global_claim_id": "G23-S180-K05",
+      "claim_id": "K05",
+      "source_id": "S180",
+      "corpus_id": "C148",
+      "location": "Secciones de ascenso de R. Ishmael, transformación de Enoch en Metatron y angelología",
+      "claim_type": "RELATION",
+      "claim": "Metatron funciona como mediador entre la corte celestial y el orden humano.",
+      "motifs": [
+        "M05",
+        "M16",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "23"
+    },
+    {
+      "global_claim_id": "G23-S180-K06",
+      "claim_id": "K06",
+      "source_id": "S180",
+      "corpus_id": "C148",
+      "location": "Secciones de ascenso de R. Ishmael, transformación de Enoch en Metatron y angelología",
+      "claim_type": "KNOWLEDGE",
+      "claim": "La revelación incluye conocimiento sobre estructura cósmica, historia y orden celestial.",
+      "motifs": [
+        "M06",
+        "M15"
+      ],
+      "provenance": "P2*",
+      "batch": "23"
+    },
+    {
+      "global_claim_id": "G23-S180-K07",
+      "claim_id": "K07",
+      "source_id": "S180",
+      "corpus_id": "C148",
+      "location": "Secciones de ascenso de R. Ishmael, transformación de Enoch en Metatron y angelología",
+      "claim_type": "REFLEXIVITY",
+      "claim": "La narrativa convierte el cambio de identidad de Enoch en parte del contenido revelado.",
+      "motifs": [
+        "M02",
+        "M06",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "23"
+    },
+    {
+      "global_claim_id": "G23-S180-K08",
+      "claim_id": "K08",
+      "source_id": "S180",
+      "corpus_id": "C148",
+      "location": "Secciones de ascenso de R. Ishmael, transformación de Enoch en Metatron y angelología",
+      "claim_type": "EMBODIMENT",
+      "claim": "La transformación del cuerpo de Enoch participa simbólicamente de su nueva condición celestial.",
+      "motifs": [
+        "M08",
+        "M12"
+      ],
+      "provenance": "P2*",
+      "batch": "23"
+    },
+    {
+      "global_claim_id": "G23-S180-K09",
+      "claim_id": "K09",
+      "source_id": "S180",
+      "corpus_id": "C148",
+      "location": "Secciones de ascenso de R. Ishmael, transformación de Enoch en Metatron y angelología",
+      "claim_type": "UNITY",
+      "claim": "El texto negocia continuidad entre el humano Enoch y la figura celestial Metatron.",
+      "motifs": [
+        "M03",
+        "M16"
+      ],
+      "provenance": "P2*",
+      "batch": "23"
+    },
+    {
+      "global_claim_id": "G23-S180-K10",
+      "claim_id": "K10",
+      "source_id": "S180",
+      "corpus_id": "C148",
+      "location": "Secciones de ascenso de R. Ishmael, transformación de Enoch en Metatron y angelología",
+      "claim_type": "VALENCE",
+      "claim": "La elevación de Metatron está acompañada por una fuerte jerarquización de funciones y dignidades celestes.",
+      "motifs": [
+        "M10",
+        "M15"
+      ],
+      "provenance": "P2*",
+      "batch": "23"
+    },
+    {
+      "global_claim_id": "G23-S180-K11",
+      "claim_id": "K11",
+      "source_id": "S180",
+      "corpus_id": "C148",
+      "location": "Secciones de ascenso de R. Ishmael, transformación de Enoch en Metatron y angelología",
+      "claim_type": "PRACTICE",
+      "claim": "El ascenso de R. Ishmael y la recepción de la revelación funcionan como estructura iniciática.",
+      "motifs": [
+        "M24",
+        "M25"
+      ],
+      "provenance": "P2*",
+      "batch": "23"
+    },
+    {
+      "global_claim_id": "G23-S180-K12",
+      "claim_id": "K12",
+      "source_id": "S180",
+      "corpus_id": "C148",
+      "location": "Secciones de ascenso de R. Ishmael, transformación de Enoch en Metatron y angelología",
+      "claim_type": "TEMPORAL",
+      "claim": "El relato conserva una secuencia biográfica que conecta existencia humana, ascenso y función celestial.",
+      "motifs": [
+        "M11",
+        "M12"
+      ],
+      "provenance": "P2*",
+      "batch": "23"
+    },
+    {
+      "global_claim_id": "G23-S180-K13",
+      "claim_id": "K13",
+      "source_id": "S180",
+      "corpus_id": "C148",
+      "location": "Secciones de ascenso de R. Ishmael, transformación de Enoch en Metatron y angelología",
+      "claim_type": "META",
+      "claim": "3 Enoch es una composición judía tardía y pseudepigráfica; su angelología no debe confundirse con una doctrina bíblica canónica.",
+      "motifs": [
+        "M14",
+        "M17",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "23"
+    },
+    {
+      "global_claim_id": "G23-S181-K01",
+      "claim_id": "K01",
+      "source_id": "S181",
+      "corpus_id": "C149",
+      "location": "Tradición de angelología, nombres divinos, amuletos, gematria y cosmología práctica",
+      "claim_type": "ONTO",
+      "claim": "Sefer Raziel organiza la realidad esotérica mediante ángeles, nombres, fuerzas celestes y correspondencias.",
+      "motifs": [
+        "M15",
+        "M18",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "23"
+    },
+    {
+      "global_claim_id": "G23-S181-K02",
+      "claim_id": "K02",
+      "source_id": "S181",
+      "corpus_id": "C149",
+      "location": "Tradición de angelología, nombres divinos, amuletos, gematria y cosmología práctica",
+      "claim_type": "RELATION",
+      "claim": "Los nombres angélicos se relacionan con funciones y actividades específicas dentro de una cosmología operativa.",
+      "motifs": [
+        "M05",
+        "M15"
+      ],
+      "provenance": "P2*",
+      "batch": "23"
+    },
+    {
+      "global_claim_id": "G23-S181-K03",
+      "claim_id": "K03",
+      "source_id": "S181",
+      "corpus_id": "C149",
+      "location": "Tradición de angelología, nombres divinos, amuletos, gematria y cosmología práctica",
+      "claim_type": "PRACTICE",
+      "claim": "El conocimiento de nombres, letras y fórmulas se orienta a usos prácticos dentro de la magia y la protección.",
+      "motifs": [
+        "M24",
+        "M25"
+      ],
+      "provenance": "P2*",
+      "batch": "23"
+    },
+    {
+      "global_claim_id": "G23-S181-K04",
+      "claim_id": "K04",
+      "source_id": "S181",
+      "corpus_id": "C149",
+      "location": "Tradición de angelología, nombres divinos, amuletos, gematria y cosmología práctica",
+      "claim_type": "CORRESPONDENCE",
+      "claim": "Gematria y nombres establecen relaciones simbólicas entre lenguaje, cosmos y poder ritual.",
+      "motifs": [
+        "M18",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "23"
+    },
+    {
+      "global_claim_id": "G23-S181-K05",
+      "claim_id": "K05",
+      "source_id": "S181",
+      "corpus_id": "C149",
+      "location": "Tradición de angelología, nombres divinos, amuletos, gematria y cosmología práctica",
+      "claim_type": "STATE",
+      "claim": "La posesión de conocimiento esotérico distingue capacidades y grados de acceso al orden invisible.",
+      "motifs": [
+        "M06",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "23"
+    },
+    {
+      "global_claim_id": "G23-S181-K06",
+      "claim_id": "K06",
+      "source_id": "S181",
+      "corpus_id": "C149",
+      "location": "Tradición de angelología, nombres divinos, amuletos, gematria y cosmología práctica",
+      "claim_type": "PERSON",
+      "claim": "La persona aparece como agente capaz de interactuar ritualmente con un entorno angelológico.",
+      "motifs": [
+        "M05",
+        "M16"
+      ],
+      "provenance": "P2*",
+      "batch": "23"
+    },
+    {
+      "global_claim_id": "G23-S181-K07",
+      "claim_id": "K07",
+      "source_id": "S181",
+      "corpus_id": "C149",
+      "location": "Tradición de angelología, nombres divinos, amuletos, gematria y cosmología práctica",
+      "claim_type": "COSMO",
+      "claim": "Zodíaco, ángeles, letras y nombres se integran en una representación estratificada del universo.",
+      "motifs": [
+        "M15",
+        "M18"
+      ],
+      "provenance": "P2*",
+      "batch": "23"
+    },
+    {
+      "global_claim_id": "G23-S181-K08",
+      "claim_id": "K08",
+      "source_id": "S181",
+      "corpus_id": "C149",
+      "location": "Tradición de angelología, nombres divinos, amuletos, gematria y cosmología práctica",
+      "claim_type": "TRANSFORMATION",
+      "claim": "Los procedimientos prácticos buscan modificar situaciones humanas mediante intervención simbólica.",
+      "motifs": [
+        "M12",
+        "M24"
+      ],
+      "provenance": "P2*",
+      "batch": "23"
+    },
+    {
+      "global_claim_id": "G23-S181-K09",
+      "claim_id": "K09",
+      "source_id": "S181",
+      "corpus_id": "C149",
+      "location": "Tradición de angelología, nombres divinos, amuletos, gematria y cosmología práctica",
+      "claim_type": "VALENCE",
+      "claim": "Protección, salud, éxito o daño se organizan como efectos diferenciados de operaciones rituales.",
+      "motifs": [
+        "M10",
+        "M18"
+      ],
+      "provenance": "P2*",
+      "batch": "23"
+    },
+    {
+      "global_claim_id": "G23-S181-K10",
+      "claim_id": "K10",
+      "source_id": "S181",
+      "corpus_id": "C149",
+      "location": "Tradición de angelología, nombres divinos, amuletos, gematria y cosmología práctica",
+      "claim_type": "REFLEXIVITY",
+      "claim": "El practicante aprende a leer su situación a través de signos y correspondencias, construyendo un modelo simbólico de contexto.",
+      "motifs": [
+        "M02",
+        "M18",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "23"
+    },
+    {
+      "global_claim_id": "G23-S181-K11",
+      "claim_id": "K11",
+      "source_id": "S181",
+      "corpus_id": "C149",
+      "location": "Tradición de angelología, nombres divinos, amuletos, gematria y cosmología práctica",
+      "claim_type": "DYNAMICS",
+      "claim": "Los nombres pueden asociarse a funciones variables según misión o contexto dentro de la literatura angelológica.",
+      "motifs": [
+        "M09",
+        "M18"
+      ],
+      "provenance": "P2*",
+      "batch": "23"
+    },
+    {
+      "global_claim_id": "G23-S181-K12",
+      "claim_id": "K12",
+      "source_id": "S181",
+      "corpus_id": "C149",
+      "location": "Tradición de angelología, nombres divinos, amuletos, gematria y cosmología práctica",
+      "claim_type": "META",
+      "claim": "La obra tiene composición y transmisión complejas y contiene estratos de magia práctica; no representa de manera simple toda la Kabbalah.",
+      "motifs": [
+        "M14",
+        "M17",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "23"
+    },
+    {
+      "global_claim_id": "G23-S181-K13",
+      "claim_id": "K13",
+      "source_id": "S181",
+      "corpus_id": "C149",
+      "location": "Tradición de angelología, nombres divinos, amuletos, gematria y cosmología práctica",
+      "claim_type": "DEATH",
+      "claim": "Parte del repertorio relaciona ciclos vitales, protección y destino con fuerzas cosmológicas, aunque no constituye una teoría única de supervivencia.",
+      "motifs": [
+        "M11",
+        "M19"
+      ],
+      "provenance": "P2*",
+      "batch": "23"
+    },
+    {
+      "global_claim_id": "G23-S182-K01",
+      "claim_id": "K01",
+      "source_id": "S182",
+      "corpus_id": "C152",
+      "location": "Likutei Amarim; dos almas, mente, lucha interior, voluntad y práctica",
+      "claim_type": "PERSON",
+      "claim": "Tanya distingue una alma divina y un alma animal como centros funcionales de orientación dentro de la persona.",
+      "motifs": [
+        "M05",
+        "M16"
+      ],
+      "provenance": "P2*",
+      "batch": "23"
+    },
+    {
+      "global_claim_id": "G23-S182-K02",
+      "claim_id": "K02",
+      "source_id": "S182",
+      "corpus_id": "C152",
+      "location": "Likutei Amarim; dos almas, mente, lucha interior, voluntad y práctica",
+      "claim_type": "STATE",
+      "claim": "La mente se presenta como campo de conflicto entre pensamientos y orientaciones procedentes de ambas almas.",
+      "motifs": [
+        "M07",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "23"
+    },
+    {
+      "global_claim_id": "G23-S182-K03",
+      "claim_id": "K03",
+      "source_id": "S182",
+      "corpus_id": "C152",
+      "location": "Likutei Amarim; dos almas, mente, lucha interior, voluntad y práctica",
+      "claim_type": "REFLEXIVITY",
+      "claim": "El sujeto debe observar qué orientación domina sus pensamientos, deseos y acciones.",
+      "motifs": [
+        "M02",
+        "M06",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "23"
+    },
+    {
+      "global_claim_id": "G23-S182-K04",
+      "claim_id": "K04",
+      "source_id": "S182",
+      "corpus_id": "C152",
+      "location": "Likutei Amarim; dos almas, mente, lucha interior, voluntad y práctica",
+      "claim_type": "VALENCE",
+      "claim": "Las dos almas representan orientaciones valorativas distintas respecto de lo divino y lo mundano.",
+      "motifs": [
+        "M10",
+        "M12"
+      ],
+      "provenance": "P2*",
+      "batch": "23"
+    },
+    {
+      "global_claim_id": "G23-S182-K05",
+      "claim_id": "K05",
+      "source_id": "S182",
+      "corpus_id": "C152",
+      "location": "Likutei Amarim; dos almas, mente, lucha interior, voluntad y práctica",
+      "claim_type": "EMBODIMENT",
+      "claim": "Las almas se relacionan con el cuerpo y sus órganos mediante una metáfora de gobierno y expresión.",
+      "motifs": [
+        "M08",
+        "M16"
+      ],
+      "provenance": "P2*",
+      "batch": "23"
+    },
+    {
+      "global_claim_id": "G23-S182-K06",
+      "claim_id": "K06",
+      "source_id": "S182",
+      "corpus_id": "C152",
+      "location": "Likutei Amarim; dos almas, mente, lucha interior, voluntad y práctica",
+      "claim_type": "ATTENTION",
+      "claim": "La disciplina de la mente y de la oración se usa para orientar la conciencia hacia una meta espiritual.",
+      "motifs": [
+        "M06",
+        "M24"
+      ],
+      "provenance": "P2*",
+      "batch": "23"
+    },
+    {
+      "global_claim_id": "G23-S182-K07",
+      "claim_id": "K07",
+      "source_id": "S182",
+      "corpus_id": "C152",
+      "location": "Likutei Amarim; dos almas, mente, lucha interior, voluntad y práctica",
+      "claim_type": "PRACTICE",
+      "claim": "La práctica religiosa se presenta como entrenamiento repetido de pensamiento, palabra y acción.",
+      "motifs": [
+        "M24",
+        "M25"
+      ],
+      "provenance": "P2*",
+      "batch": "23"
+    },
+    {
+      "global_claim_id": "G23-S182-K08",
+      "claim_id": "K08",
+      "source_id": "S182",
+      "corpus_id": "C152",
+      "location": "Likutei Amarim; dos almas, mente, lucha interior, voluntad y práctica",
+      "claim_type": "TRANSFORMATION",
+      "claim": "La formación espiritual busca que la orientación divina se vuelva dominante en la vida cotidiana.",
+      "motifs": [
+        "M12",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "23"
+    },
+    {
+      "global_claim_id": "G23-S182-K09",
+      "claim_id": "K09",
+      "source_id": "S182",
+      "corpus_id": "C152",
+      "location": "Likutei Amarim; dos almas, mente, lucha interior, voluntad y práctica",
+      "claim_type": "RELATION",
+      "claim": "Pensamiento, emoción, cuerpo y acción se describen como niveles coordinados de una persona integrada.",
+      "motifs": [
+        "M05",
+        "M08",
+        "M16"
+      ],
+      "provenance": "P2*",
+      "batch": "23"
+    },
+    {
+      "global_claim_id": "G23-S182-K10",
+      "claim_id": "K10",
+      "source_id": "S182",
+      "corpus_id": "C152",
+      "location": "Likutei Amarim; dos almas, mente, lucha interior, voluntad y práctica",
+      "claim_type": "UNITY",
+      "claim": "La meta práctica es reducir la fragmentación de la voluntad mediante subordinación a una orientación divina.",
+      "motifs": [
+        "M03",
+        "M12"
+      ],
+      "provenance": "P2*",
+      "batch": "23"
+    },
+    {
+      "global_claim_id": "G23-S182-K11",
+      "claim_id": "K11",
+      "source_id": "S182",
+      "corpus_id": "C152",
+      "location": "Likutei Amarim; dos almas, mente, lucha interior, voluntad y práctica",
+      "claim_type": "TEMPORAL",
+      "claim": "La lucha interna es continua y se entiende como proceso de trabajo sobre la persona, no como estado instantáneo.",
+      "motifs": [
+        "M11",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "23"
+    },
+    {
+      "global_claim_id": "G23-S182-K12",
+      "claim_id": "K12",
+      "source_id": "S182",
+      "corpus_id": "C152",
+      "location": "Likutei Amarim; dos almas, mente, lucha interior, voluntad y práctica",
+      "claim_type": "DYNAMICS",
+      "claim": "Los pensamientos son tratados como eventos competidores que pueden ganar o perder influencia sobre la mente.",
+      "motifs": [
+        "M09",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "23"
+    },
+    {
+      "global_claim_id": "G23-S182-K13",
+      "claim_id": "K13",
+      "source_id": "S182",
+      "corpus_id": "C152",
+      "location": "Likutei Amarim; dos almas, mente, lucha interior, voluntad y práctica",
+      "claim_type": "META",
+      "claim": "Tanya es una obra del jasidismo de Jabad; su psicología religiosa no debe presentarse sin más como psicología científica contemporánea.",
+      "motifs": [
+        "M14",
+        "M17",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "23"
+    },
+    {
+      "global_claim_id": "G23-S183-K01",
+      "claim_id": "K01",
+      "source_id": "S183",
+      "corpus_id": "C153",
+      "location": "Mystical Theology, Divine Names, Celestial/Ecclesiastical Hierarchies y cartas",
+      "claim_type": "INEFFABILITY",
+      "claim": "La teología apofática insiste en que la realidad divina no puede quedar capturada adecuadamente por predicados humanos.",
+      "motifs": [
+        "M14",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "23"
+    },
+    {
+      "global_claim_id": "G23-S183-K02",
+      "claim_id": "K02",
+      "source_id": "S183",
+      "corpus_id": "C153",
+      "location": "Mystical Theology, Divine Names, Celestial/Ecclesiastical Hierarchies y cartas",
+      "claim_type": "UNITY",
+      "claim": "La vía apofática busca una relación con lo divino que supere la fragmentación de conceptos ordinarios.",
+      "motifs": [
+        "M03",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "23"
+    },
+    {
+      "global_claim_id": "G23-S183-K03",
+      "claim_id": "K03",
+      "source_id": "S183",
+      "corpus_id": "C153",
+      "location": "Mystical Theology, Divine Names, Celestial/Ecclesiastical Hierarchies y cartas",
+      "claim_type": "TRANSFORMATION",
+      "claim": "La contemplación es entendida como un movimiento hacia una unión más profunda con Dios.",
+      "motifs": [
+        "M12",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "23"
+    },
+    {
+      "global_claim_id": "G23-S183-K04",
+      "claim_id": "K04",
+      "source_id": "S183",
+      "corpus_id": "C153",
+      "location": "Mystical Theology, Divine Names, Celestial/Ecclesiastical Hierarchies y cartas",
+      "claim_type": "PRACTICE",
+      "claim": "El camino dionisiano combina escritura, ritual y práctica contemplativa, no sólo argumentación.",
+      "motifs": [
+        "M24",
+        "M25"
+      ],
+      "provenance": "P2*",
+      "batch": "23"
+    },
+    {
+      "global_claim_id": "G23-S183-K05",
+      "claim_id": "K05",
+      "source_id": "S183",
+      "corpus_id": "C153",
+      "location": "Mystical Theology, Divine Names, Celestial/Ecclesiastical Hierarchies y cartas",
+      "claim_type": "RELATION",
+      "claim": "La jerarquía se entiende como una red de participación y mediación que mantiene la dependencia directa de las criaturas respecto de Dios.",
+      "motifs": [
+        "M05",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "23"
+    },
+    {
+      "global_claim_id": "G23-S183-K06",
+      "claim_id": "K06",
+      "source_id": "S183",
+      "corpus_id": "C153",
+      "location": "Mystical Theology, Divine Names, Celestial/Ecclesiastical Hierarchies y cartas",
+      "claim_type": "ONTO",
+      "claim": "La realidad se presenta como jerárquicamente ordenada sin que las mediaciones eliminen la dependencia inmediata de lo creado respecto del principio divino.",
+      "motifs": [
+        "M07",
+        "M15",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "23"
+    },
+    {
+      "global_claim_id": "G23-S183-K07",
+      "claim_id": "K07",
+      "source_id": "S183",
+      "corpus_id": "C153",
+      "location": "Mystical Theology, Divine Names, Celestial/Ecclesiastical Hierarchies y cartas",
+      "claim_type": "STATE",
+      "claim": "El conocimiento afirmativo y la negación apofática funcionan como modos distintos del acercamiento contemplativo.",
+      "motifs": [
+        "M06",
+        "M14"
+      ],
+      "provenance": "P2*",
+      "batch": "23"
+    },
+    {
+      "global_claim_id": "G23-S183-K08",
+      "claim_id": "K08",
+      "source_id": "S183",
+      "corpus_id": "C153",
+      "location": "Mystical Theology, Divine Names, Celestial/Ecclesiastical Hierarchies y cartas",
+      "claim_type": "VALENCE",
+      "claim": "Bien, belleza y vida aparecen entre los nombres positivos mediante los cuales se habla simbólicamente de Dios.",
+      "motifs": [
+        "M10",
+        "M18"
+      ],
+      "provenance": "P2*",
+      "batch": "23"
+    },
+    {
+      "global_claim_id": "G23-S183-K09",
+      "claim_id": "K09",
+      "source_id": "S183",
+      "corpus_id": "C153",
+      "location": "Mystical Theology, Divine Names, Celestial/Ecclesiastical Hierarchies y cartas",
+      "claim_type": "DYNAMICS",
+      "claim": "La procesión y el retorno estructuran el movimiento de las criaturas hacia su principio dentro del orden jerárquico.",
+      "motifs": [
+        "M09",
+        "M12"
+      ],
+      "provenance": "P2*",
+      "batch": "23"
+    },
+    {
+      "global_claim_id": "G23-S183-K10",
+      "claim_id": "K10",
+      "source_id": "S183",
+      "corpus_id": "C153",
+      "location": "Mystical Theology, Divine Names, Celestial/Ecclesiastical Hierarchies y cartas",
+      "claim_type": "INTERIORITY",
+      "claim": "La unión contemplativa no se reduce a una subida espacial, sino a una transformación de la identidad y la práctica.",
+      "motifs": [
+        "M02",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "23"
+    },
+    {
+      "global_claim_id": "G23-S183-K11",
+      "claim_id": "K11",
+      "source_id": "S183",
+      "corpus_id": "C153",
+      "location": "Mystical Theology, Divine Names, Celestial/Ecclesiastical Hierarchies y cartas",
+      "claim_type": "REFLEXIVITY",
+      "claim": "El límite del lenguaje obliga al pensador a examinar cómo sus propios conceptos representan y ocultan aquello que busca conocer.",
+      "motifs": [
+        "M02",
+        "M06",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "23"
+    },
+    {
+      "global_claim_id": "G23-S183-K12",
+      "claim_id": "K12",
+      "source_id": "S183",
+      "corpus_id": "C153",
+      "location": "Mystical Theology, Divine Names, Celestial/Ecclesiastical Hierarchies y cartas",
+      "claim_type": "PERSON",
+      "claim": "La persona mantiene identidad y función dentro de una comunidad jerárquica mientras se orienta hacia una unión más profunda.",
+      "motifs": [
+        "M05",
+        "M16"
+      ],
+      "provenance": "P2*",
+      "batch": "23"
+    },
+    {
+      "global_claim_id": "G23-S183-K13",
+      "claim_id": "K13",
+      "source_id": "S183",
+      "corpus_id": "C153",
+      "location": "Mystical Theology, Divine Names, Celestial/Ecclesiastical Hierarchies y cartas",
+      "claim_type": "META",
+      "claim": "La atribución histórica como 'Dionisio' es pseudónima y su corpus está influido por neoplatonismo y cristianismo; la fuente debe distinguir doctrina de reconstrucción histórica.",
+      "motifs": [
+        "M14",
+        "M17",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "23"
+    },
+    {
+      "global_claim_id": "G23-S184-K01",
+      "claim_id": "K01",
+      "source_id": "S184",
+      "corpus_id": "C155",
+      "location": "DN, nombres divinos, unidad/diferencia, bien, vida, sabiduría, paz",
+      "claim_type": "ONTO",
+      "claim": "The Divine Names desarrolla una ontología teológica a partir de nombres como bien, luz, belleza, ser, vida y sabiduría.",
+      "motifs": [
+        "M03",
+        "M10",
+        "M18"
+      ],
+      "provenance": "P2*",
+      "batch": "23"
+    },
+    {
+      "global_claim_id": "G23-S184-K02",
+      "claim_id": "K02",
+      "source_id": "S184",
+      "corpus_id": "C155",
+      "location": "DN, nombres divinos, unidad/diferencia, bien, vida, sabiduría, paz",
+      "claim_type": "INEFFABILITY",
+      "claim": "Los nombres permiten hablar de Dios simbólicamente sin pretender agotar aquello que trasciende toda descripción.",
+      "motifs": [
+        "M14",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "23"
+    },
+    {
+      "global_claim_id": "G23-S184-K03",
+      "claim_id": "K03",
+      "source_id": "S184",
+      "corpus_id": "C155",
+      "location": "DN, nombres divinos, unidad/diferencia, bien, vida, sabiduría, paz",
+      "claim_type": "UNITY",
+      "claim": "La unidad divina se trata junto con distinciones internas, evitando reducir diferencia a separación absoluta.",
+      "motifs": [
+        "M03",
+        "M04"
+      ],
+      "provenance": "P2*",
+      "batch": "23"
+    },
+    {
+      "global_claim_id": "G23-S184-K04",
+      "claim_id": "K04",
+      "source_id": "S184",
+      "corpus_id": "C155",
+      "location": "DN, nombres divinos, unidad/diferencia, bien, vida, sabiduría, paz",
+      "claim_type": "REFLEXIVITY",
+      "claim": "El método obliga a examinar cómo las palabras usadas para nombrar a Dios funcionan y cuáles son sus límites.",
+      "motifs": [
+        "M02",
+        "M06",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "23"
+    },
+    {
+      "global_claim_id": "G23-S184-K05",
+      "claim_id": "K05",
+      "source_id": "S184",
+      "corpus_id": "C155",
+      "location": "DN, nombres divinos, unidad/diferencia, bien, vida, sabiduría, paz",
+      "claim_type": "VALENCE",
+      "claim": "La bondad ocupa un papel estructural en la explicación de la causalidad y del orden del ser.",
+      "motifs": [
+        "M10",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "23"
+    },
+    {
+      "global_claim_id": "G23-S184-K06",
+      "claim_id": "K06",
+      "source_id": "S184",
+      "corpus_id": "C155",
+      "location": "DN, nombres divinos, unidad/diferencia, bien, vida, sabiduría, paz",
+      "claim_type": "RELATION",
+      "claim": "La creación participa del bien y de los nombres divinos mediante relaciones de causalidad y participación.",
+      "motifs": [
+        "M05",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "23"
+    },
+    {
+      "global_claim_id": "G23-S184-K07",
+      "claim_id": "K07",
+      "source_id": "S184",
+      "corpus_id": "C155",
+      "location": "DN, nombres divinos, unidad/diferencia, bien, vida, sabiduría, paz",
+      "claim_type": "DYNAMICS",
+      "claim": "El texto emplea procesos de salida y retorno para describir la relación entre principio y multiplicidad.",
+      "motifs": [
+        "M09",
+        "M12"
+      ],
+      "provenance": "P2*",
+      "batch": "23"
+    },
+    {
+      "global_claim_id": "G23-S184-K08",
+      "claim_id": "K08",
+      "source_id": "S184",
+      "corpus_id": "C155",
+      "location": "DN, nombres divinos, unidad/diferencia, bien, vida, sabiduría, paz",
+      "claim_type": "STATE",
+      "claim": "El acceso a lo divino se gradúa mediante diferentes modos de conocimiento simbólico y contemplativo.",
+      "motifs": [
+        "M06",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "23"
+    },
+    {
+      "global_claim_id": "G23-S184-K09",
+      "claim_id": "K09",
+      "source_id": "S184",
+      "corpus_id": "C155",
+      "location": "DN, nombres divinos, unidad/diferencia, bien, vida, sabiduría, paz",
+      "claim_type": "PRACTICE",
+      "claim": "La interpretación de nombres bíblicos se convierte en un ejercicio contemplativo y no sólo filológico.",
+      "motifs": [
+        "M24",
+        "M25"
+      ],
+      "provenance": "P2*",
+      "batch": "23"
+    },
+    {
+      "global_claim_id": "G23-S184-K10",
+      "claim_id": "K10",
+      "source_id": "S184",
+      "corpus_id": "C155",
+      "location": "DN, nombres divinos, unidad/diferencia, bien, vida, sabiduría, paz",
+      "claim_type": "TRANSFORMATION",
+      "claim": "La contemplación de los nombres tiene como finalidad acercar al sujeto a una vida transformada en Dios.",
+      "motifs": [
+        "M12",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "23"
+    },
+    {
+      "global_claim_id": "G23-S184-K11",
+      "claim_id": "K11",
+      "source_id": "S184",
+      "corpus_id": "C155",
+      "location": "DN, nombres divinos, unidad/diferencia, bien, vida, sabiduría, paz",
+      "claim_type": "COSMO",
+      "claim": "La jerarquía de los seres se interpreta como expresión de un orden participado del principio divino.",
+      "motifs": [
+        "M15",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "23"
+    },
+    {
+      "global_claim_id": "G23-S184-K12",
+      "claim_id": "K12",
+      "source_id": "S184",
+      "corpus_id": "C155",
+      "location": "DN, nombres divinos, unidad/diferencia, bien, vida, sabiduría, paz",
+      "claim_type": "UNITY",
+      "claim": "Los muchos nombres no implican muchos dioses, sino diferentes modos de hablar del mismo principio.",
+      "motifs": [
+        "M03",
+        "M18"
+      ],
+      "provenance": "P2*",
+      "batch": "23"
+    },
+    {
+      "global_claim_id": "G23-S184-K13",
+      "claim_id": "K13",
+      "source_id": "S184",
+      "corpus_id": "C155",
+      "location": "DN, nombres divinos, unidad/diferencia, bien, vida, sabiduría, paz",
+      "claim_type": "META",
+      "claim": "La obra combina categorías cristianas con recursos neoplatónicos y pertenece a una tradición teológica histórica específica.",
+      "motifs": [
+        "M14",
+        "M17",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "23"
+    },
+    {
+      "global_claim_id": "G23-S185-K01",
+      "claim_id": "K01",
+      "source_id": "S185",
+      "corpus_id": "C158",
+      "location": "capítulos sobre voluntad propia, desapropiación y conformidad con la voluntad divina",
+      "claim_type": "REFLEXIVITY",
+      "claim": "La obra pide reconocer la voluntad propia como una fuente de separación del bien que se busca.",
+      "motifs": [
+        "M02",
+        "M06",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "23"
+    },
+    {
+      "global_claim_id": "G23-S185-K02",
+      "claim_id": "K02",
+      "source_id": "S185",
+      "corpus_id": "C158",
+      "location": "capítulos sobre voluntad propia, desapropiación y conformidad con la voluntad divina",
+      "claim_type": "TRANSFORMATION",
+      "claim": "La transformación interior se formula como abandono de la voluntad propia y conformidad con la voluntad eterna.",
+      "motifs": [
+        "M12",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "23"
+    },
+    {
+      "global_claim_id": "G23-S185-K03",
+      "claim_id": "K03",
+      "source_id": "S185",
+      "corpus_id": "C158",
+      "location": "capítulos sobre voluntad propia, desapropiación y conformidad con la voluntad divina",
+      "claim_type": "VALENCE",
+      "claim": "La humildad y la orientación al bien se valoran por encima de la autoafirmación voluntaria.",
+      "motifs": [
+        "M10",
+        "M12"
+      ],
+      "provenance": "P2*",
+      "batch": "23"
+    },
+    {
+      "global_claim_id": "G23-S185-K04",
+      "claim_id": "K04",
+      "source_id": "S185",
+      "corpus_id": "C158",
+      "location": "capítulos sobre voluntad propia, desapropiación y conformidad con la voluntad divina",
+      "claim_type": "UNITY",
+      "claim": "La meta espiritual es que la voluntad humana se una a la voluntad eterna sin desaparecer toda sensibilidad personal.",
+      "motifs": [
+        "M03",
+        "M16"
+      ],
+      "provenance": "P2*",
+      "batch": "23"
+    },
+    {
+      "global_claim_id": "G23-S185-K05",
+      "claim_id": "K05",
+      "source_id": "S185",
+      "corpus_id": "C158",
+      "location": "capítulos sobre voluntad propia, desapropiación y conformidad con la voluntad divina",
+      "claim_type": "INTERIORITY",
+      "claim": "La experiencia interna de querer, agradar, sufrir y disfrutar es interpretada como parte del proceso espiritual.",
+      "motifs": [
+        "M02",
+        "M10"
+      ],
+      "provenance": "P2*",
+      "batch": "23"
+    },
+    {
+      "global_claim_id": "G23-S185-K06",
+      "claim_id": "K06",
+      "source_id": "S185",
+      "corpus_id": "C158",
+      "location": "capítulos sobre voluntad propia, desapropiación y conformidad con la voluntad divina",
+      "claim_type": "PERSON",
+      "claim": "La persona conserva sensación de agrado y desagrado mientras su voluntad se reorienta hacia el bien.",
+      "motifs": [
+        "M05",
+        "M16"
+      ],
+      "provenance": "P2*",
+      "batch": "23"
+    },
+    {
+      "global_claim_id": "G23-S185-K07",
+      "claim_id": "K07",
+      "source_id": "S185",
+      "corpus_id": "C158",
+      "location": "capítulos sobre voluntad propia, desapropiación y conformidad con la voluntad divina",
+      "claim_type": "PRACTICE",
+      "claim": "El ejercicio espiritual consiste en vigilar la voluntad y renunciar a su apropiación egocéntrica.",
+      "motifs": [
+        "M24",
+        "M25"
+      ],
+      "provenance": "P2*",
+      "batch": "23"
+    },
+    {
+      "global_claim_id": "G23-S185-K08",
+      "claim_id": "K08",
+      "source_id": "S185",
+      "corpus_id": "C158",
+      "location": "capítulos sobre voluntad propia, desapropiación y conformidad con la voluntad divina",
+      "claim_type": "STATE",
+      "claim": "El texto diferencia entre estado de autoafirmación y estado de disponibilidad a la voluntad divina.",
+      "motifs": [
+        "M07",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "23"
+    },
+    {
+      "global_claim_id": "G23-S185-K09",
+      "claim_id": "K09",
+      "source_id": "S185",
+      "corpus_id": "C158",
+      "location": "capítulos sobre voluntad propia, desapropiación y conformidad con la voluntad divina",
+      "claim_type": "RELATION",
+      "claim": "La criatura es definida por su relación de dependencia respecto de Dios y de la voluntad eterna.",
+      "motifs": [
+        "M05",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "23"
+    },
+    {
+      "global_claim_id": "G23-S185-K10",
+      "claim_id": "K10",
+      "source_id": "S185",
+      "corpus_id": "C158",
+      "location": "capítulos sobre voluntad propia, desapropiación y conformidad con la voluntad divina",
+      "claim_type": "CAUSAL",
+      "claim": "Pensamiento, percepción, amor y voluntad se entienden como poderes que deben ordenarse a su fuente trascendente.",
+      "motifs": [
+        "M09",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "23"
+    },
+    {
+      "global_claim_id": "G23-S185-K11",
+      "claim_id": "K11",
+      "source_id": "S185",
+      "corpus_id": "C158",
+      "location": "capítulos sobre voluntad propia, desapropiación y conformidad con la voluntad divina",
+      "claim_type": "DEATH",
+      "claim": "El abandono de la voluntad propia funciona simbólicamente como muerte del yo posesivo más que como destrucción de la persona.",
+      "motifs": [
+        "M12",
+        "M19"
+      ],
+      "provenance": "P2*",
+      "batch": "23"
+    },
+    {
+      "global_claim_id": "G23-S185-K12",
+      "claim_id": "K12",
+      "source_id": "S185",
+      "corpus_id": "C158",
+      "location": "capítulos sobre voluntad propia, desapropiación y conformidad con la voluntad divina",
+      "claim_type": "TEMPORAL",
+      "claim": "La transformación se concibe como disciplina sostenida, no como un único acto aislado.",
+      "motifs": [
+        "M11",
+        "M25"
+      ],
+      "provenance": "P2*",
+      "batch": "23"
+    },
+    {
+      "global_claim_id": "G23-S185-K13",
+      "claim_id": "K13",
+      "source_id": "S185",
+      "corpus_id": "C158",
+      "location": "capítulos sobre voluntad propia, desapropiación y conformidad con la voluntad divina",
+      "claim_type": "META",
+      "claim": "La Theologia Germanica es una obra mística medieval tardía/anónima y su lenguaje debe conservarse como teología espiritual, no como psicología empírica.",
+      "motifs": [
+        "M14",
+        "M17",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "23"
+    },
+    {
+      "global_claim_id": "G23-S186-K01",
+      "claim_id": "K01",
+      "source_id": "S186",
+      "corpus_id": "C159",
+      "location": "Praktikos, oración, logismoi, apatheia y contemplación",
+      "claim_type": "STATE",
+      "claim": "Evagrio distingue condiciones de la mente caracterizadas por perturbación de pensamientos y por estabilidad contemplativa.",
+      "motifs": [
+        "M07",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "23"
+    },
+    {
+      "global_claim_id": "G23-S186-K02",
+      "claim_id": "K02",
+      "source_id": "S186",
+      "corpus_id": "C159",
+      "location": "Praktikos, oración, logismoi, apatheia y contemplación",
+      "claim_type": "ATTENTION",
+      "claim": "La práctica consiste en observar y enfrentar pensamientos que distraen o agitan la mente.",
+      "motifs": [
+        "M06",
+        "M24"
+      ],
+      "provenance": "P2*",
+      "batch": "23"
+    },
+    {
+      "global_claim_id": "G23-S186-K03",
+      "claim_id": "K03",
+      "source_id": "S186",
+      "corpus_id": "C159",
+      "location": "Praktikos, oración, logismoi, apatheia y contemplación",
+      "claim_type": "PRACTICE",
+      "claim": "La vida ascética incluye disciplinas corporales y mentales orientadas a quietar la mente para la oración.",
+      "motifs": [
+        "M24",
+        "M25"
+      ],
+      "provenance": "P2*",
+      "batch": "23"
+    },
+    {
+      "global_claim_id": "G23-S186-K04",
+      "claim_id": "K04",
+      "source_id": "S186",
+      "corpus_id": "C159",
+      "location": "Praktikos, oración, logismoi, apatheia y contemplación",
+      "claim_type": "TRANSFORMATION",
+      "claim": "Apatheia funciona como una condición cultivada mediante lucha contra pensamientos y pasiones.",
+      "motifs": [
+        "M12",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "23"
+    },
+    {
+      "global_claim_id": "G23-S186-K05",
+      "claim_id": "K05",
+      "source_id": "S186",
+      "corpus_id": "C159",
+      "location": "Praktikos, oración, logismoi, apatheia y contemplación",
+      "claim_type": "INTERIORITY",
+      "claim": "Los logismoi permiten describir la vida espiritual como dinámica de eventos y tendencias dentro de la mente.",
+      "motifs": [
+        "M02",
+        "M07",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "23"
+    },
+    {
+      "global_claim_id": "G23-S186-K06",
+      "claim_id": "K06",
+      "source_id": "S186",
+      "corpus_id": "C159",
+      "location": "Praktikos, oración, logismoi, apatheia y contemplación",
+      "claim_type": "REFLEXIVITY",
+      "claim": "El practicante aprende a distinguir pensamientos y afectos para no identificarse automáticamente con ellos.",
+      "motifs": [
+        "M02",
+        "M06"
+      ],
+      "provenance": "P2*",
+      "batch": "23"
+    },
+    {
+      "global_claim_id": "G23-S186-K07",
+      "claim_id": "K07",
+      "source_id": "S186",
+      "corpus_id": "C159",
+      "location": "Praktikos, oración, logismoi, apatheia y contemplación",
+      "claim_type": "UNITY",
+      "claim": "La oración contemplativa busca una relación unificada de la mente con Dios más allá de imágenes.",
+      "motifs": [
+        "M03",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "23"
+    },
+    {
+      "global_claim_id": "G23-S186-K08",
+      "claim_id": "K08",
+      "source_id": "S186",
+      "corpus_id": "C159",
+      "location": "Praktikos, oración, logismoi, apatheia y contemplación",
+      "claim_type": "INEFFABILITY",
+      "claim": "La oración imageless intenta acercar la mente a lo inmaterial sin imponerle una representación concreta.",
+      "motifs": [
+        "M14",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "23"
+    },
+    {
+      "global_claim_id": "G23-S186-K09",
+      "claim_id": "K09",
+      "source_id": "S186",
+      "corpus_id": "C159",
+      "location": "Praktikos, oración, logismoi, apatheia y contemplación",
+      "claim_type": "VALENCE",
+      "claim": "El estado de quietud se relaciona con amor a Dios y al prójimo, no sólo con ausencia de perturbación.",
+      "motifs": [
+        "M10",
+        "M16"
+      ],
+      "provenance": "P2*",
+      "batch": "23"
+    },
+    {
+      "global_claim_id": "G23-S186-K10",
+      "claim_id": "K10",
+      "source_id": "S186",
+      "corpus_id": "C159",
+      "location": "Praktikos, oración, logismoi, apatheia y contemplación",
+      "claim_type": "RELATION",
+      "claim": "La dirección espiritual y el diálogo con otros forman parte de la tradición práctica de Evagrio.",
+      "motifs": [
+        "M05",
+        "M24"
+      ],
+      "provenance": "P2*",
+      "batch": "23"
+    },
+    {
+      "global_claim_id": "G23-S186-K11",
+      "claim_id": "K11",
+      "source_id": "S186",
+      "corpus_id": "C159",
+      "location": "Praktikos, oración, logismoi, apatheia y contemplación",
+      "claim_type": "DYNAMICS",
+      "claim": "Los pensamientos aflictivos se tratan como fuerzas dinámicas que pueden ganar o perder poder mediante disciplina.",
+      "motifs": [
+        "M09",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "23"
+    },
+    {
+      "global_claim_id": "G23-S186-K12",
+      "claim_id": "K12",
+      "source_id": "S186",
+      "corpus_id": "C159",
+      "location": "Praktikos, oración, logismoi, apatheia y contemplación",
+      "claim_type": "TEMPORAL",
+      "claim": "Apatheia puede describirse como resultado de una trayectoria ascética, con fases imperfectas y más estables.",
+      "motifs": [
+        "M11",
+        "M12"
+      ],
+      "provenance": "P2*",
+      "batch": "23"
+    },
+    {
+      "global_claim_id": "G23-S186-K13",
+      "claim_id": "K13",
+      "source_id": "S186",
+      "corpus_id": "C159",
+      "location": "Praktikos, oración, logismoi, apatheia y contemplación",
+      "claim_type": "META",
+      "claim": "Las categorías de Evagrio pertenecen a la antropología monástica tardoantigua y requieren interpretación histórica antes de correlacionarlas con modelos cognitivos.",
+      "motifs": [
+        "M14",
+        "M17",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "23"
+    },
+    {
+      "global_claim_id": "G23-S187-K01",
+      "claim_id": "K01",
+      "source_id": "S187",
+      "corpus_id": "C160",
+      "location": "Ambigua y teología de logoi, unidad de creación, naturaleza, persona y theosis",
+      "claim_type": "ONTO",
+      "claim": "Máximo relaciona cada criatura con un logos entendido como principio o razón divina de su existencia y orientación.",
+      "motifs": [
+        "M03",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "23"
+    },
+    {
+      "global_claim_id": "G23-S187-K02",
+      "claim_id": "K02",
+      "source_id": "S187",
+      "corpus_id": "C160",
+      "location": "Ambigua y teología de logoi, unidad de creación, naturaleza, persona y theosis",
+      "claim_type": "UNITY",
+      "claim": "Los muchos logoi se mantienen reunidos en el Logos único, articulando unidad y multiplicidad.",
+      "motifs": [
+        "M03",
+        "M04",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "23"
+    },
+    {
+      "global_claim_id": "G23-S187-K03",
+      "claim_id": "K03",
+      "source_id": "S187",
+      "corpus_id": "C160",
+      "location": "Ambigua y teología de logoi, unidad de creación, naturaleza, persona y theosis",
+      "claim_type": "RELATION",
+      "claim": "El ser humano ocupa una función mediadora entre órdenes de la realidad y busca reconciliar divisiones.",
+      "motifs": [
+        "M05",
+        "M16",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "23"
+    },
+    {
+      "global_claim_id": "G23-S187-K04",
+      "claim_id": "K04",
+      "source_id": "S187",
+      "corpus_id": "C160",
+      "location": "Ambigua y teología de logoi, unidad de creación, naturaleza, persona y theosis",
+      "claim_type": "TRANSFORMATION",
+      "claim": "La theosis describe la deificación como transformación de la naturaleza y de la persona por gracia.",
+      "motifs": [
+        "M12",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "23"
+    },
+    {
+      "global_claim_id": "G23-S187-K05",
+      "claim_id": "K05",
+      "source_id": "S187",
+      "corpus_id": "C160",
+      "location": "Ambigua y teología de logoi, unidad de creación, naturaleza, persona y theosis",
+      "claim_type": "PERSON",
+      "claim": "La persona no se reduce a naturaleza abstracta; la doctrina mantiene una distinción entre persona, naturaleza y modo de existencia.",
+      "motifs": [
+        "M05",
+        "M16"
+      ],
+      "provenance": "P2*",
+      "batch": "23"
+    },
+    {
+      "global_claim_id": "G23-S187-K06",
+      "claim_id": "K06",
+      "source_id": "S187",
+      "corpus_id": "C160",
+      "location": "Ambigua y teología de logoi, unidad de creación, naturaleza, persona y theosis",
+      "claim_type": "REFLEXIVITY",
+      "claim": "Conocer el logos de las cosas implica interpretar la propia relación del sujeto con el orden creado.",
+      "motifs": [
+        "M02",
+        "M06",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "23"
+    },
+    {
+      "global_claim_id": "G23-S187-K07",
+      "claim_id": "K07",
+      "source_id": "S187",
+      "corpus_id": "C160",
+      "location": "Ambigua y teología de logoi, unidad de creación, naturaleza, persona y theosis",
+      "claim_type": "COSMO",
+      "claim": "Cosmología, antropología y teología están integradas en una única arquitectura de origen, diferencia y retorno.",
+      "motifs": [
+        "M15",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "23"
+    },
+    {
+      "global_claim_id": "G23-S187-K08",
+      "claim_id": "K08",
+      "source_id": "S187",
+      "corpus_id": "C160",
+      "location": "Ambigua y teología de logoi, unidad de creación, naturaleza, persona y theosis",
+      "claim_type": "DYNAMICS",
+      "claim": "La creación posee una orientación dinámica hacia su principio y su realización final.",
+      "motifs": [
+        "M09",
+        "M12"
+      ],
+      "provenance": "P2*",
+      "batch": "23"
+    },
+    {
+      "global_claim_id": "G23-S187-K09",
+      "claim_id": "K09",
+      "source_id": "S187",
+      "corpus_id": "C160",
+      "location": "Ambigua y teología de logoi, unidad de creación, naturaleza, persona y theosis",
+      "claim_type": "VALENCE",
+      "claim": "La virtud y el amor ordenan al sujeto según el logos de su ser y hacia la unión con Dios.",
+      "motifs": [
+        "M10",
+        "M12"
+      ],
+      "provenance": "P2*",
+      "batch": "23"
+    },
+    {
+      "global_claim_id": "G23-S187-K10",
+      "claim_id": "K10",
+      "source_id": "S187",
+      "corpus_id": "C160",
+      "location": "Ambigua y teología de logoi, unidad de creación, naturaleza, persona y theosis",
+      "claim_type": "STATE",
+      "claim": "La existencia humana puede describirse por diferentes modos de participación y transformación hacia la theosis.",
+      "motifs": [
+        "M07",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "23"
+    },
+    {
+      "global_claim_id": "G23-S187-K11",
+      "claim_id": "K11",
+      "source_id": "S187",
+      "corpus_id": "C160",
+      "location": "Ambigua y teología de logoi, unidad de creación, naturaleza, persona y theosis",
+      "claim_type": "UNITY",
+      "claim": "La encarnación funciona como mediación donde lo divino y lo humano se encuentran sin confundirse simplemente.",
+      "motifs": [
+        "M03",
+        "M05"
+      ],
+      "provenance": "P2*",
+      "batch": "23"
+    },
+    {
+      "global_claim_id": "G23-S187-K12",
+      "claim_id": "K12",
+      "source_id": "S187",
+      "corpus_id": "C160",
+      "location": "Ambigua y teología de logoi, unidad de creación, naturaleza, persona y theosis",
+      "claim_type": "EMBODIMENT",
+      "claim": "El cuerpo y la naturaleza humana forman parte real de la vocación de deificación, no son meros obstáculos accidentales.",
+      "motifs": [
+        "M08",
+        "M16"
+      ],
+      "provenance": "P2*",
+      "batch": "23"
+    },
+    {
+      "global_claim_id": "G23-S187-K13",
+      "claim_id": "K13",
+      "source_id": "S187",
+      "corpus_id": "C160",
+      "location": "Ambigua y teología de logoi, unidad de creación, naturaleza, persona y theosis",
+      "claim_type": "META",
+      "claim": "La lectura de Máximo requiere distinguir sus categorías teológicas históricas de cualquier reinterpretación contemporánea como teoría científica de conciencia.",
+      "motifs": [
+        "M14",
+        "M17",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "23"
     }
   ],
   "rules": {
