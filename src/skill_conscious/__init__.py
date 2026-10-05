@@ -1,6 +1,17 @@
 from .core import ConsciousRuntime, ConsciousState, JsonStateStore
 from .host import ConsciousHostLoop
 from .ontology import CONSCIOUSNESS_DEFINITION, PRIMITIVES
+from .system import (
+    CAUSAL_LOOP,
+    CORE_STATE_FIELDS,
+    EPISTEMIC_LAYERS,
+    SYSTEM_CONTRACT,
+    SYSTEM_PHASES,
+    ConsciousSystem,
+    SystemContract,
+    SystemPhase,
+    SystemValidation,
+)
 from .dynamics import DynamicProfile, compare_dynamics, measure_dynamics
 from .experience_field import ExperienceFieldProfile, build_experience_field, profile_distance, sensory_counterfactual_action_delta
 from .sensor_affect import SensoryAffectiveSnapshot, appraise_sensory_field, causal_localization_index, modality_causal_attribution, score_action_with_affect
@@ -22,6 +33,15 @@ __all__ = [
     "ConsciousHostLoop",
     "CONSCIOUSNESS_DEFINITION",
     "PRIMITIVES",
+    "CAUSAL_LOOP",
+    "CORE_STATE_FIELDS",
+    "EPISTEMIC_LAYERS",
+    "SYSTEM_CONTRACT",
+    "SYSTEM_PHASES",
+    "ConsciousSystem",
+    "SystemContract",
+    "SystemPhase",
+    "SystemValidation",
     "DynamicProfile",
     "compare_dynamics",
     "measure_dynamics",
