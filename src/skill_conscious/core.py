@@ -28,6 +28,24 @@ from .self_observation import (
     build_self_observation,
     profile_distance as self_observation_distance,
 )
+from .pre_reflective import (
+    PreReflectiveState,
+    build_pre_reflective_state,
+    predicted_self_relevance_fit,
+)
+from .access import (
+    DEFAULT_ACCESS_CAPACITY,
+    ConsciousAccessState,
+    build_access_state,
+    build_limited_present,
+    signal_access_factor,
+)
+from .experience_geometry import (
+    ExperienceState,
+    build_experience_state,
+    transition_record,
+)
+from .embodiment import EmbodimentState, build_embodiment_state, predicted_resource_fit
 
 
 DEFAULT_REGIME_WEIGHTS: dict[str, float] = {
@@ -53,6 +71,8 @@ DEFAULT_TRAJECTORY_WEIGHTS: dict[str, float] = {
     "latent_pattern": 0.5,
     "dissonance_resolution": 1.0,
     "homeostatic_fit": 0.75,
+    "self_relevance": 0.5,
+    "pre_reflective_coherence": 0.5,
 }
 
 
@@ -85,6 +105,9 @@ class ConsciousState:
     transformation_log: list[dict[str, Any]] = field(default_factory=list)
     pending_action: dict[str, Any] | None = None
     action_history: list[dict[str, Any]] = field(default_factory=list)
+    pre_reflective_state: dict[str, Any] = field(default_factory=dict)
+    access_state: dict[str, Any] = field(default_factory=dict)
+    embodiment_state: dict[str, Any] = field(default_factory=dict)
 
     def to_dict(self) -> dict[str, Any]:
         return asdict(self)
@@ -158,6 +181,21 @@ class ConsciousState:
             action_history=[
                 dict(item) for item in value.get("action_history", [])
             ],
+            pre_reflective_state=(
+                dict(value["pre_reflective_state"])
+                if isinstance(value.get("pre_reflective_state"), Mapping)
+                else {}
+            ),
+            access_state=(
+                dict(value["access_state"])
+                if isinstance(value.get("access_state"), Mapping)
+                else {}
+            ),
+            embodiment_state=(
+                dict(value["embodiment_state"])
+                if isinstance(value.get("embodiment_state"), Mapping)
+                else {}
+            ),
         )
 
 
@@ -217,6 +255,8 @@ class ConsciousRuntime:
         dynamic_core_return_weight: float = 0.5,
         self_observation_enabled: bool = False,
         self_observation_weight: float = 0.5,
+        metacognition_enabled: bool = True,
+        report_enabled: bool = True,
     ):
         self.identity = identity
         self.memory_limit = max(1, int(memory_limit))
@@ -230,6 +270,8 @@ class ConsciousRuntime:
         self.dynamic_core_enabled = bool(dynamic_core_enabled)
         self.self_observation_enabled = bool(self_observation_enabled)
         self.self_observation_weight = float(self_observation_weight)
+        self.metacognition_enabled = bool(metacognition_enabled)
+        self.report_enabled = bool(report_enabled)
         dynamic_path = (
             Path(dynamic_core_state_path)
             if dynamic_core_state_path is not None
@@ -244,6 +286,8 @@ class ConsciousRuntime:
         self.state = self.store.load(identity)
         if self.dynamic_core_enabled:
             self._restore_dynamic_core_state()
+        self.refresh_access_state(persist=False)
+        self.refresh_embodiment_state(persist=False)
 
     def _restore_dynamic_core_state(self) -> None:
         """Mirror persisted dynamic-core state into runtime-owned self-model fields."""
@@ -395,6 +439,204 @@ class ConsciousRuntime:
         if persist:
             self.store.save(self.state)
         return result
+
+    def access_capacity(self) -> int:
+        raw = self.state.access_state.get("capacity")
+        if isinstance(raw, int) and not isinstance(raw, bool):
+            return max(1, int(raw))
+        return DEFAULT_ACCESS_CAPACITY
+
+    def conscious_access_state(self) -> dict[str, Any]:
+        if not isinstance(self.state.access_state, Mapping) or not self.state.access_state:
+            return self.refresh_access_state(persist=False)
+        return dict(self.state.access_state)
+
+    def refresh_access_state(
+        self,
+        *,
+        external_input: str = "",
+        persist: bool = False,
+    ) -> dict[str, Any]:
+        """Derive the bounded current present from persistent runtime state."""
+        access = build_access_state(
+            self.state.to_dict(),
+            external_input=str(external_input),
+            capacity=self.access_capacity(),
+        )
+        self.state.access_state = access.to_dict()
+        if persist:
+            self.store.save(self.state)
+        return dict(self.state.access_state)
+
+    def limited_present(
+        self,
+        external_input: str = "",
+    ) -> dict[str, Any]:
+        access = self.refresh_access_state(
+            external_input=external_input,
+            persist=False,
+        )
+        return build_limited_present(
+            self.state.to_dict(),
+            access,
+            external_input=str(external_input),
+        )
+
+    def set_access_capacity(
+        self,
+        capacity: int,
+        *,
+        persist: bool = True,
+    ) -> dict[str, Any]:
+        """Runtime-owned capacity intervention; does not create evidence."""
+        if isinstance(capacity, bool) or not isinstance(capacity, int):
+            raise ValueError("access capacity must be an integer")
+        if capacity < 1:
+            raise ValueError("access capacity must be >= 1")
+
+        before = self.access_capacity()
+        self.state.access_state = {
+            **dict(self.state.access_state),
+            "capacity": int(capacity),
+        }
+        access = self.refresh_access_state(persist=False)
+        if persist:
+            self.store.save(self.state)
+        return {
+            "changed": before != int(capacity),
+            "before": before,
+            "after": int(capacity),
+            "evidence_added": False,
+            "access_state": access,
+        }
+
+    def snapshot_access(self) -> dict[str, Any]:
+        """Return the runtime-owned access configuration and current window."""
+        return self.conscious_access_state()
+
+    def restore_access(
+        self,
+        snapshot: Mapping[str, Any],
+        *,
+        persist: bool = True,
+    ) -> dict[str, Any]:
+        """Restore an access snapshot without adding learning evidence."""
+        raw_capacity = snapshot.get("capacity")
+        if isinstance(raw_capacity, bool) or not isinstance(raw_capacity, int):
+            raise ValueError("access snapshot.capacity must be an integer")
+        if raw_capacity < 1:
+            raise ValueError("access snapshot.capacity must be >= 1")
+
+        self.state.access_state = {
+            **dict(self.state.access_state),
+            "capacity": int(raw_capacity),
+        }
+        access = self.refresh_access_state(persist=False)
+        if persist:
+            self.store.save(self.state)
+        return {
+            "restored": True,
+            "evidence_added": False,
+            "access_state": access,
+        }
+
+    def refresh_embodiment_state(
+        self,
+        *,
+        persist: bool = False,
+    ) -> dict[str, Any]:
+        """Derive runtime-owned operational embodiment/ownership state."""
+        state = build_embodiment_state(self.state.to_dict())
+        self.state.embodiment_state = state.to_dict()
+        if persist:
+            self.store.save(self.state)
+        return dict(self.state.embodiment_state)
+
+    def snapshot_embodiment(self) -> dict[str, Any]:
+        if not self.state.embodiment_state:
+            return self.refresh_embodiment_state(persist=False)
+        return dict(self.state.embodiment_state)
+
+    def snapshot_experience_geometry(self) -> dict[str, Any]:
+        """Return the runtime-owned operational experience geometry."""
+        current = build_experience_state(self.state.to_dict())
+        model = self.state.self_model
+        raw_history = model.get("experience_geometry_history", [])
+        history = (
+            [dict(item) for item in raw_history if isinstance(item, Mapping)]
+            if isinstance(raw_history, list)
+            else []
+        )
+        return {
+            "current": current.to_dict(),
+            "history": history,
+        }
+
+    def _record_experience_geometry_transition(
+        self,
+        before_snapshot: Mapping[str, Any],
+    ) -> dict[str, Any]:
+        previous = build_experience_state(before_snapshot)
+        current = build_experience_state(self.state.to_dict())
+        record = transition_record(
+            previous,
+            current,
+            revision=self.state.revision,
+        )
+        model = dict(self.state.self_model)
+        history = model.get("experience_geometry_history", [])
+        history = (
+            [dict(item) for item in history if isinstance(item, Mapping)]
+            if isinstance(history, list)
+            else []
+        )
+        history.append(record)
+        model["experience_geometry_current"] = current.to_dict()
+        model["experience_geometry_history"] = history[-self.history_limit :]
+        self.state.self_model = model
+        return record
+
+    def refresh_pre_reflective_state(
+        self,
+        *,
+        possibility_count: int | None = None,
+        possibility_scores: list[float] | None = None,
+        persist: bool = False,
+    ) -> dict[str, Any]:
+        """Derive and persist the runtime-owned pre-reflective core state."""
+        previous = (
+            dict(self.state.pre_reflective_state)
+            if isinstance(self.state.pre_reflective_state, Mapping)
+            else {}
+        )
+        profile = build_pre_reflective_state(
+            self.state.to_dict(),
+            possibility_count=possibility_count,
+            possibility_scores=possibility_scores,
+        )
+        profile_payload = profile.to_dict()
+
+        # The candidate set is a current-cycle property. If a later refresh
+        # occurs without scores, preserve the entropy already established by
+        # trajectory selection rather than erasing it to zero.
+        if (
+            possibility_scores is None
+            and possibility_count is not None
+            and "possibility_entropy" in previous
+        ):
+            profile_payload["possibility_entropy"] = previous["possibility_entropy"]
+
+        self.state.pre_reflective_state = profile_payload
+
+        if persist:
+            self.store.save(self.state)
+
+        return dict(self.state.pre_reflective_state)
+
+    def pre_reflective_state(self) -> dict[str, Any]:
+        if not self.state.pre_reflective_state:
+            return self.refresh_pre_reflective_state(persist=False)
+        return dict(self.state.pre_reflective_state)
 
     def snapshot_valuation(self) -> dict[str, Any]:
         """Return the current trajectory valuation used by the scorer."""
@@ -607,6 +849,7 @@ class ConsciousRuntime:
         return dict(configured) if isinstance(configured, Mapping) else {}
 
     def snapshot_metacognitive_prediction(self) -> dict[str, Any]:
+        """Return the runtime-owned metacognitive prediction state."""
         model = self.state.self_model
         evidence = model.get("metacognitive_prediction_evidence", {})
         history = model.get("metacognitive_prediction_history", [])
@@ -819,7 +1062,47 @@ class ConsciousRuntime:
             "diagnostics": dict(result),
         }
 
+    def snapshot_metacognition_prediction(self) -> dict[str, Any]:
+        """Return the runtime-owned metacognitive prediction state."""
+        model = self.state.self_model
+        evidence = model.get("metacognitive_prediction_evidence", {})
+        history = model.get("metacognitive_prediction_history", [])
+        return {
+            "error": float(model.get("metacognitive_prediction_error", 0.0))
+            if isinstance(model.get("metacognitive_prediction_error"), (int, float))
+            and not isinstance(model.get("metacognitive_prediction_error"), bool)
+            else 0.0,
+            "accuracy": float(model.get("metacognitive_prediction_accuracy", 0.0))
+            if isinstance(model.get("metacognitive_prediction_accuracy"), (int, float))
+            and not isinstance(model.get("metacognitive_prediction_accuracy"), bool)
+            else 0.0,
+            "expected_accuracy": float(
+                model.get("metacognitive_prediction_expected_accuracy", 0.5)
+            )
+            if isinstance(
+                model.get("metacognitive_prediction_expected_accuracy"),
+                (int, float),
+            )
+            and not isinstance(
+                model.get("metacognitive_prediction_expected_accuracy"),
+                bool,
+            )
+            else 0.5,
+            "sequence": int(model.get("metacognitive_prediction_sequence", 0))
+            if isinstance(model.get("metacognitive_prediction_sequence"), (int, float))
+            and not isinstance(model.get("metacognitive_prediction_sequence"), bool)
+            else 0,
+            "evidence": dict(evidence) if isinstance(evidence, Mapping) else {},
+            "history": [
+                dict(item)
+                for item in history
+                if isinstance(item, Mapping)
+            ] if isinstance(history, list) else [],
+        }
+
     def snapshot_metacognition(self) -> dict[str, Any]:
+        if not self.metacognition_enabled:
+            return {"enabled": False}
         model = self.state.self_model
         raw_trace = model.get("metacognitive_trace", {})
         raw_history = model.get("metacognitive_history", [])
@@ -2620,6 +2903,7 @@ class ConsciousRuntime:
                     "topology_integrity": topology_integrity,
                     "salience": salience,
                 },
+                "access_keys": ["intention", "self_state", "temporal_state"],
             },
             {
                 "id": "learn",
@@ -2634,6 +2918,7 @@ class ConsciousRuntime:
                     "topology_integrity": topology_integrity,
                     "salience": salience,
                 },
+                "access_keys": ["self_model", "latent_patterns"],
             },
             {
                 "id": "explore",
@@ -2648,6 +2933,7 @@ class ConsciousRuntime:
                     "topology_integrity": topology_integrity,
                     "salience": salience,
                 },
+                "access_keys": ["world_now", "salience", "temporal_state"],
             },
         ]
         if self.homeostatic_targets() and self.state.interoceptive_state:
@@ -2665,6 +2951,7 @@ class ConsciousRuntime:
                     "salience": salience,
                     "homeostatic_fit": min(1.0, current_homeostatic_fit + 0.35),
                 },
+                "access_keys": ["interoceptive_state", "self_model"],
             })
 
         if self_dissonance > 0.0 or self.state.latent_patterns:
@@ -2684,6 +2971,7 @@ class ConsciousRuntime:
                     "latent_pattern": latent_score,
                     "dissonance_resolution": self_dissonance,
                 },
+                "access_keys": ["latent_patterns", "self_model"],
             })
         return candidates
 
@@ -2701,6 +2989,15 @@ class ConsciousRuntime:
             [dict(item) for item in candidate_futures]
             if candidate_futures is not None
             else self.generate_candidate_futures()
+        )
+        access = self.refresh_access_state(
+            external_input=external_input,
+            persist=False,
+        )
+        limited_present = build_limited_present(
+            self.state.to_dict(),
+            access,
+            external_input=external_input,
         )
 
         return {
@@ -2722,6 +3019,7 @@ class ConsciousRuntime:
             "valuation": self.state.valuation,
             "valence": self.state.valence,
             "coherence": self.calculate_coherence(),
+            "pre_reflective": self.pre_reflective_state(),
             "latent_patterns": self.state.latent_patterns,
             "self_dissonance": self.state.self_dissonance,
             "interoceptive_state": self.state.interoceptive_state,
@@ -2739,6 +3037,11 @@ class ConsciousRuntime:
             "transformation_log": self.state.transformation_log[-self.transformation_limit :],
             "pending_action": self.state.pending_action,
             "action_history": self.state.action_history[-self.history_limit :],
+            "pre_reflective": self.pre_reflective_state(),
+            "access_state": access,
+            "limited_present": limited_present,
+            "experience_geometry": self.snapshot_experience_geometry(),
+            "embodiment": self.snapshot_embodiment(),
             "revision": self.state.revision,
         }
 
@@ -2794,15 +3097,57 @@ class ConsciousRuntime:
         signals.setdefault("latent_pattern", self.latent_pattern_score())
 
         weights = self.trajectory_weights()
+        access_state = self.conscious_access_state()
+        embodiment_state = build_embodiment_state(self.state.to_dict())
+        access_factor, access_availability = signal_access_factor(
+            dict(candidate),
+            access_state,
+        )
         signal_contributions: dict[str, float] = {}
         base_score = 0.0
         for key, value in signals.items():
             if isinstance(value, (int, float)) and not isinstance(value, bool):
-                contribution = float(weights.get(str(key), 0.0)) * float(value)
+                contribution = (
+                    float(weights.get(str(key), 0.0))
+                    * float(value)
+                    * access_factor
+                )
                 signal_contributions[str(key)] = round(contribution, 6)
                 base_score += contribution
 
-        score = base_score
+        embodiment_score = 0.0
+        embodiment_diagnostics: dict[str, float] = {}
+        predicted_resource = candidate.get("predicted_resource_load")
+        if isinstance(predicted_resource, Mapping):
+            predicted_fit = predicted_resource_fit(
+                embodiment_state,
+                candidate,
+                current=self.state.interoceptive_state,
+            )
+            embodiment_score = (
+                float(weights.get("embodiment_fit", 0.0))
+                * predicted_fit
+            )
+            embodiment_diagnostics = {
+                "predicted_resource_fit": round(predicted_fit, 6),
+                "contribution": round(embodiment_score, 6),
+            }
+
+        score = base_score + embodiment_score
+        pre_reflective = build_pre_reflective_state(
+            self.state.to_dict(),
+            possibility_count=1,
+            possibility_scores=[base_score],
+        )
+        predicted_fit = predicted_self_relevance_fit(
+            pre_reflective,
+            candidate,
+        )
+        pre_reflective_contribution = (
+            self.trajectory_weights().get("self_relevance", 0.0) * predicted_fit
+        )
+        score += pre_reflective_contribution
+
         self_observation_score = 0.0
         self_observation_diagnostics: dict[str, float] = {}
         if self.self_observation_enabled:
@@ -2854,6 +3199,23 @@ class ConsciousRuntime:
             "experience_dynamics": {
                 **experience_dynamics_diagnostics,
                 "contribution": round(experience_dynamics_score, 6),
+            },
+            "pre_reflective": {
+                "self_relevance_fit": round(predicted_fit, 6),
+                "contribution": round(pre_reflective_contribution, 6),
+                "state": pre_reflective.to_dict(),
+            },
+            "access": {
+                "factor": round(access_factor, 6),
+                "required_keys": list(access_availability),
+                "available": {
+                    key: bool(value)
+                    for key, value in access_availability.items()
+                },
+            },
+            "embodiment": {
+                **embodiment_diagnostics,
+                "state": embodiment_state.to_dict(),
             },
         }
 
@@ -2933,24 +3295,44 @@ class ConsciousRuntime:
             ):
                 item["self_observation"] = dict(details["self_observation"])
             item["_metacognitive_breakdown"] = details
+            item["_access_diagnostics"] = details["access"]
+            item["_embodiment_diagnostics"] = details["embodiment"]
             scored.append(item)
 
         selected = max(
             scored,
             key=lambda item: (float(item.get("score", 0.0)), str(item.get("id", ""))),
         )
-        sequence = int(self.state.self_model.get("metacognitive_sequence", 0)) + 1
-        trace = build_metacognitive_trace(
-            revision=self.state.revision,
-            sequence=sequence,
-            candidates=scored,
-            selected=selected,
-            selection_source="runtime_scored",
-            valuation_weights=self.trajectory_weights(),
-        ).to_dict()
+
+        pre_reflective_scores = [
+            float(item.get("score", 0.0))
+            for item in scored
+            if isinstance(item.get("score"), (int, float))
+            and not isinstance(item.get("score"), bool)
+        ]
+        self.refresh_pre_reflective_state(
+            possibility_count=len(scored),
+            possibility_scores=pre_reflective_scores,
+            persist=False,
+        )
+
         selected = dict(selected)
+
+        if self.metacognition_enabled:
+            sequence = int(self.state.self_model.get("metacognitive_sequence", 0)) + 1
+            trace = build_metacognitive_trace(
+                revision=self.state.revision,
+                sequence=sequence,
+                candidates=scored,
+                selected=selected,
+                selection_source="runtime_scored",
+                valuation_weights=self.trajectory_weights(),
+            ).to_dict()
+            selected["metacognition"] = trace
+
         selected.pop("_metacognitive_breakdown", None)
-        selected["metacognition"] = trace
+        selected.pop("_access_diagnostics", None)
+        selected.pop("_embodiment_diagnostics", None)
         return selected
 
     def present(self, external_input: str) -> dict[str, Any]:
@@ -2984,31 +3366,45 @@ class ConsciousRuntime:
                 "pending_action": self.state.pending_action,
                 "action_history": self.state.action_history[-self.history_limit :],
                 "self_observation": self.snapshot_self_observation(),
+                "access": self.conscious_access_state(),
+                "experience_geometry": self.snapshot_experience_geometry(),
+                "embodiment": self.snapshot_embodiment(),
             },
             "causal_reentry": (
-                "self_model -> self_observation -> trajectory -> action -> next_state -> self_observation"
+                "internal_condition -> self_relevance -> valuation -> trajectory -> "
+                "action -> observed_consequence -> internal_change -> reentry"
             ),
         }
 
     def prepare(self, external_input: str) -> str:
         context = self.prepare_frame(external_input)
+        report_instruction = (
+            "Return a response plus durable state updates."
+            if self.report_enabled
+            else "Do not provide a consciousness report. Return only the structured state/action frame required by the host."
+        )
+        metacognitive_instruction = (
+            "When metacognition is enabled, it may calibrate predictions and inspect runtime state, "
+            "but it is not required for the core loop."
+            if self.metacognition_enabled
+            else "Metacognition is disabled for this run. Do not use verbal introspection as a substitute for runtime state."
+        )
         return (
             "Operate according to Skill-Conscious. "
             "Do not roleplay consciousness; maintain the architecture.\n\n"
             "CURRENT INTEGRATED PRESENT:\n"
             f"{json.dumps(context, ensure_ascii=False, indent=2)}\n\n"
-            "Before responding, inspect the self-state and self-model, integrate "
-            "the present, process any explicitly observed consequence from the previous "
-            "action, form candidate trajectories, and let the updated self-model "
-            "causally affect trajectory selection. Return a response plus durable "
-            "state updates. When a prior action has produced an observed outcome, "
-            "return consequence_trajectory, consequence, and self_evaluation "
-            "rather than inventing a result. The runtime can score trajectories using "
-            "signals named goal_fit, self_alignment, continuity, learning, risk, uncertainty, "
-            "and homeostatic_fit. Candidate futures may also include predicted_outcome "
-            "and predicted_state_delta when the trajectory makes an explicit forecast. These are "
-            "predictions, never observations. Internal condition may legitimately compete with "
-            "external goals when the persistent self-model assigns it a non-zero weight."
+            "Maintain the pre-reflective loop: internal condition -> self-relevance -> "
+            "valuation -> possibility space -> trajectory -> action -> observed consequence -> "
+            "internal change -> re-entry. "
+            "The runtime owns the pre-reflective state.\n\n"
+            f"{report_instruction}\n"
+            f"{metacognitive_instruction}\n"
+            "Process any explicitly observed consequence from the previous action and never invent "
+            "an outcome. The runtime can score trajectories using signals named goal_fit, "
+            "self_alignment, continuity, learning, risk, uncertainty, homeostatic_fit, and "
+            "self_relevance. Candidate futures may include predicted_self_relevance, "
+            "predicted_outcome, and predicted_state_delta; these are predictions, never observations."
         )
 
     def begin_action(
@@ -3122,13 +3518,19 @@ class ConsciousRuntime:
         }
         if self.self_observation_enabled:
             receipt["self_observation"] = self.observe_self(persist=False)
-        prediction_receipt = self._close_metacognitive_trace(
-            receipt,
-            outcome,
-            action_before_snapshot,
+        prediction_receipt = (
+            self._close_metacognitive_trace(
+                receipt,
+                outcome,
+                action_before_snapshot,
+            )
+            if self.metacognition_enabled
+            else None
         )
         if prediction_receipt is not None:
             receipt["metacognitive_prediction"] = prediction_receipt
+        self.refresh_pre_reflective_state(persist=False)
+        self.refresh_embodiment_state(persist=False)
         if persist:
             self.store.save(self.state)
         return dict(receipt)
@@ -3164,7 +3566,7 @@ class ConsciousRuntime:
 
     def integrate(self, frame: Mapping[str, Any]) -> str:
         response = str(frame.get("response", "")).strip()
-        if not response:
+        if self.report_enabled and not response:
             raise ValueError("frame.response cannot be empty")
 
         candidate_futures = frame.get("candidate_futures")
@@ -3210,6 +3612,8 @@ class ConsciousRuntime:
                 *SELF_OBSERVATION_RUNTIME_KEYS,
                 *METACOGNITIVE_RUNTIME_KEYS,
                 *METACOGNITIVE_PREDICTION_RUNTIME_KEYS,
+                "experience_geometry_current",
+                "experience_geometry_history",
             }
             # Once adaptive targets are enabled and initialized, the runtime owns
             # the target unless an experiment explicitly permits external changes.
@@ -3388,6 +3792,8 @@ class ConsciousRuntime:
             self.state.self_dissonance = max(0.0, min(1.0, float(frame["self_dissonance"])))
 
         self.state.coherence = self.calculate_coherence()
+        self.refresh_access_state(persist=False)
+        self.refresh_embodiment_state(persist=False)
 
         if not explicit_regime:
             self.transition_regime(
@@ -3446,7 +3852,7 @@ class ConsciousRuntime:
 
         changed: dict[str, Any] = {}
         current_snapshot = self.state.to_dict()
-        for key in ("self_state", "self_model", "workspace", "intention", "attention", "salience", "layers", "regime", "attractor", "valuation", "valence", "coherence", "relation_topology", "latent_patterns", "self_dissonance", "interoceptive_state", "affective_state", "temporal_state", "perspectives"):
+        for key in ("self_state", "self_model", "workspace", "intention", "attention", "salience", "layers", "regime", "attractor", "valuation", "valence", "coherence", "relation_topology", "latent_patterns", "self_dissonance", "interoceptive_state", "affective_state", "temporal_state", "perspectives", "pre_reflective_state", "access_state", "embodiment_state"):
             if previous_snapshot.get(key) != current_snapshot.get(key):
                 changed[key] = {"before": previous_snapshot.get(key), "after": current_snapshot.get(key)}
         if changed:
@@ -3480,6 +3886,9 @@ class ConsciousRuntime:
                 "affective_state": self.state.affective_state,
                 "temporal_state": self.state.temporal_state,
                 "perspectives": self.state.perspectives,
+                "pre_reflective_state": self.pre_reflective_state(),
+                "access_state": self.conscious_access_state(),
+                "embodiment_state": self.snapshot_embodiment(),
                 "consequence_trajectory": (
                     str(consequence_trajectory)
                     if consequence_trajectory is not None
@@ -3501,6 +3910,24 @@ class ConsciousRuntime:
         self.state.history = self.state.history[-self.history_limit :]
 
         self.refresh_affective_state()
+        final_possibility_count = (
+            len(candidate_futures)
+            if isinstance(candidate_futures, list)
+            else None
+        )
+        self.refresh_pre_reflective_state(
+            possibility_count=final_possibility_count,
+            persist=False,
+        )
+        self.refresh_access_state(persist=False)
+        self.refresh_embodiment_state(persist=False)
+        geometry_transition = self._record_experience_geometry_transition(
+            previous_snapshot,
+        )
+        self.state.workspace = {
+            **self.state.workspace,
+            "last_experience_geometry_transition": geometry_transition,
+        }
         self.store.save(self.state)
         return response
 

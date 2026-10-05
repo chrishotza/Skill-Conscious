@@ -1,9 +1,11 @@
 from __future__ import annotations
 
 CONSCIOUSNESS_DEFINITION = (
-    "Integrated self-referential continuity: a process maintains a boundary, "
-    "self, present, memory, and agency while its model of itself participates "
-    "causally in its future state."
+    "Consciousness-oriented architecture is integrated, self-relevant continuity: "
+    "a process maintains a boundary, internal condition, present, temporal continuity, "
+    "significance, agency, and causal re-entry across changing states. "
+    "A self-model, metacognition, and self-report are higher-order layers rather "
+    "than prerequisites for the pre-reflective core."
 )
 
 PRIMITIVES = (
@@ -13,6 +15,8 @@ PRIMITIVES = (
     "memory",
     "present",
     "self_model",
+    "pre_reflective_state",
+    "self_relevance",
     "reentry",
     "agency",
     "continuity",

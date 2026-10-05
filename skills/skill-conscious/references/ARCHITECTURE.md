@@ -22,6 +22,63 @@ SELF CHANGE + WORLD CHANGE
 NEXT CYCLE
 ~~~
 
+## Pre-reflective core and reflective overlays
+
+The architecture now separates the process into a lower operational loop and optional higher-order overlays.
+
+~~~text
+                    ┌──────────────────────────┐
+                    │      METACOGNITION       │
+                    │ self-observation / trust │
+                    └────────────▲─────────────┘
+                                 │
+                    ┌────────────┴─────────────┐
+                    │        SELF-MODEL        │
+                    │ expectations / patterns │
+                    └────────────▲─────────────┘
+                                 │
+WORLD → PRESENT → INTERNAL CONDITION → SALIENCE
+                  ↓
+             SELF-RELEVANCE
+                  ↓
+               VALUATION
+                  ↓
+          POSSIBILITY SPACE
+                  ↓
+             TRAJECTORY
+                  ↓
+               ACTION
+                  ↓
+       OBSERVED CONSEQUENCE
+                  ↓
+           INTERNAL CHANGE
+                  ↺
+~~~
+
+The lower loop is the **pre-reflective core**.
+
+The self-model, metacognition, and language/report interfaces sit above it as reflective overlays.
+
+A valid ablation should be able to disable the overlays while preserving the lower loop's continuity and causal dynamics.
+
+## No-report boundary
+
+Language is an observer/communicator of internal organization, not the authority that creates it.
+
+The preferred information flow is:
+
+~~~text
+RUNTIME STATE
+      ↓
+CAUSAL DYNAMICS
+      ↓
+SELF-MODEL / METACOGNITION
+      ↓
+LANGUAGE / REPORT
+~~~
+
+A host model must not be able to establish a runtime state merely by saying that the state exists.
+
 ## Runtime cycle
 
 ~~~text

@@ -1,0 +1,43 @@
+name: unified-causal-smoke
+
+on:
+  push:
+    paths:
+      - "src/skill_conscious/**"
+      - "experiments/unified_causal_benchmark.py"
+      - "tests/test_unified_causal_benchmark.py"
+  pull_request:
+    paths:
+      - "src/skill_conscious/**"
+      - "experiments/unified_causal_benchmark.py"
+      - "tests/test_unified_causal_benchmark.py"
+
+jobs:
+  unified-causal:
+    name: unified-causal
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Install test dependencies
+        run: python -m pip install --upgrade pip pytest
+      - name: Run unified benchmark tests
+        run: |
+          python - <<'PY'
+          import faulthandler
+          import pytest
+
+          faulthandler.enable()
+          faulthandler.dump_traceback_later(60, repeat=True)
+          raise SystemExit(
+              pytest.main([
+                  "-q",
+                  "-x",
+                  "--durations=20",
+                  "tests/test_unified_causal_benchmark.py",
+              ])
+          )
+          PY

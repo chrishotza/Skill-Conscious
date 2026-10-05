@@ -497,3 +497,139 @@ A candidate update must satisfy accumulated evidence, direction consistency, con
 The ledger records positive/negative evidence counts, dominant direction, reversal detection, effective thresholds, and the hysteresis configuration. This rejects noisy alternating evidence and makes rapid self-model oscillation harder without eliminating adaptation.
 
 Adversarial coverage now includes mixed-sign utility, alternating internal observations, and deliberate reversal attempts.
+
+
+## Runtime 0.10.0 — bounded conscious access
+
+The pre-reflective core is now paired with a runtime-owned access interface between persistent state and the current present.
+
+~~~text
+FULL INTERNAL STATE
+        ↓
+SALience × SELF-RELEVANCE × PERSISTENCE × PRIORITY
+        ↓
+BOUNDED ACCESS WINDOW
+        ↓
+LIMITED PRESENT
+        ↓
+ACCESS-DEPENDENT TRAJECTORY
+~~~
+
+`ConsciousAccessState` persists capacity, selected and omitted keys, access scores, compression load, self/world access fractions, entropy, and revision. Omitted state is never deleted.
+
+Trajectory candidates may declare `access_keys`. When the runtime access budget excludes a required key, that candidate loses the corresponding causal contribution. Capacity can be intervened on and restored without creating learning evidence.
+
+The mechanism supports no-report and no-metacognition operation and persists across restart. It remains an engineering access mechanism, not a claim of demonstrated phenomenal consciousness.
+
+
+The v0.10 access interface uses a finite default capacity of 12 persistent runtime fields. This is intentionally bounded rather than a full-state pass-through; capacity interventions can tighten or expand the window for causal ablation.
+
+
+## Runtime 0.11.0 — multidimensional experience geometry
+
+The runtime now projects its operational state into a fixed multidimensional `ExperienceState`.
+
+The geometry includes:
+
+~~~text
+VALENCE
+COHERENCE
+SELF-DISSONANCE
+SALIENCE
+SELF-RELEVANCE
+PRESENT INTEGRITY
+TEMPORAL CONTINUITY
+POSSIBILITY ENTROPY
+RE-ENTRY COUPLING
+PREDICTION ERROR
+METACOGNITIVE UNCERTAINTY
+SELF-OBSERVATION ERROR
+ACCESS ENTROPY
+ACCESS COMPRESSION
+SELF ACCESS
+WORLD ACCESS
+DYNAMIC / FIELD DIMENSIONS
+~~~
+
+Each integrated revision can produce a transition record with RMS state distance and the dimensions that changed. Geometry is runtime-owned and persisted alongside the longitudinal process; model frames cannot forge geometry history.
+
+The bandwidth layer is part of the geometry itself: changing access capacity changes the measured operational state-space position and can change downstream trajectory selection.
+
+Run the deterministic causal probe:
+
+~~~bash
+python -m experiments.experience_geometry_bandwidth_probe
+~~~
+
+This is an operational state-space mechanism, not a scalar consciousness score and not proof of phenomenal experience.
+
+
+## Reflective independence benchmark v1
+
+The repository now contains a focused benchmark for the no-report architecture:
+
+~~~text
+C  no report + no metacognition
+E  no report + metacognition
+F  report + metacognition
+~~~
+
+The same controlled internal state and candidate-future field are used across conditions. The benchmark checks whether pre-reflective state, bounded access, experience geometry and trajectory selection remain causally independent of the reflective/reporting layers.
+
+Run:
+
+~~~bash
+python -m experiments.reflective_independence_benchmark
+~~~
+
+This is a focused architectural benchmark. The unified longitudinal consciousness-oriented benchmark remains a separate open target.
+
+
+## Unified causal benchmark v1
+
+The architecture now has a single deterministic benchmark that combines the mechanisms added during PR #74:
+
+~~~text
+PRE-REFLECTIVE CORE
+        ↓
+BOUNDED ACCESS
+        ↓
+LIMITED PRESENT
+        ↓
+EXPERIENCE GEOMETRY
+        ↓
+TRAJECTORY
+        ↓
+ACTION
+        ↓
+AUTHORITATIVE CONSEQUENCE
+        ↓
+RE-ENTRY
+~~~
+
+Matched conditions include persistent baseline, pre-reflective operation, no-report + metacognition, and report + metacognition.
+
+The benchmark performs a reversible access intervention:
+
+~~~text
+capacity 2 → capacity 6 → capacity 2
+~~~
+
+and records trajectory divergence, restoration, geometry, action history, consequence coupling and restart persistence.
+
+Run:
+
+~~~bash
+python -m experiments.unified_causal_benchmark
+~~~
+
+The artifact is a mechanism-level benchmark. It does not treat its output as a consciousness score or proof of phenomenal experience.
+
+
+## Runtime 0.11.1 — operational embodiment / ownership
+
+The runtime now exposes an operational EmbodimentState connecting identity boundary, interoceptive coupling, resource fit, action ownership and action cost.
+
+The layer is runtime-owned and receives authoritative action-cost/interoceptive information from the host action boundary. Experience Geometry records the embodiment dimensions alongside access and self-state dimensions.
+
+This is an engineering boundary model, not a claim of biological embodiment, phenomenal ownership or subjective mineness.
