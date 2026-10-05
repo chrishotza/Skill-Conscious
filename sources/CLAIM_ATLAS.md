@@ -619,7 +619,7 @@ This file closes the gap between the broad source register and executable tracea
 
 **Author / family:** Attention and cognitive-control literature  
 **Source class:** SCIENTIFIC/COGNITIVE  
-**Canonical source:** https://pubmed.ncbi.nlm.nih.gov/20048140/
+**Canonical source:** https://pubmed.ncbi.nlm.nih.gov/19444327/
 
 ### SC-ATTN-001
 **Source claim:** Attention changes the effective processing of selected information.  
@@ -711,7 +711,7 @@ This file closes the gap between the broad source register and executable tracea
 
 **Author / family:** Autobiographical-memory / episodic-memory literature  
 **Source class:** SCIENTIFIC/COGNITIVE  
-**Canonical source:** https://doi.org/10.1037/0003-066X.54.9.695
+**Canonical source:** https://pubmed.ncbi.nlm.nih.gov/23025923/
 
 ### SC-AUTO-MEM-001
 **Source claim:** Episodic memory supports recollection of personally situated events.  
@@ -849,7 +849,7 @@ This file closes the gap between the broad source register and executable tracea
 
 **Author / family:** Affective neuroscience literature  
 **Source class:** SCIENTIFIC/NEUROSCIENCE  
-**Canonical source:** https://pubmed.ncbi.nlm.nih.gov/29439867/
+**Canonical source:** https://pubmed.ncbi.nlm.nih.gov/16262989/
 
 ### SC-AFFECT-001
 **Source claim:** Valence distinguishes broadly positive and negative motivational significance.  
@@ -1125,7 +1125,7 @@ This file closes the gap between the broad source register and executable tracea
 
 **Author / family:** Daniel C. Dennett  
 **Source class:** PHILOSOPHY/COGNITIVE SCIENCE  
-**Canonical source:** https://doi.org/10.1093/0195170811.001.0001
+**Canonical source:** https://www.hachettebookgroup.com/titles/danile-c-dennett/consciousness-explained/9780316180665/
 
 ### SC-DENNETT-001
 **Source claim:** Dennett rejects a single Cartesian theater in which one central observer receives all conscious contents.  
@@ -1497,3 +1497,7 @@ A claim being present in this atlas means only that it has been normalized for t
 ## Current gap after this pass
 
 The atlas now covers the major missing high-priority scientific, cognitive, phenomenological, philosophical, and contemplative families identified in `sources/PRIMARY_SOURCES.md` and `sources/HARVEST_ROADMAP.md`. The remaining work is to add dedicated source cards, exact edition metadata, and source-specific experiments where the claim family warrants them.
+
+## Bibliographic verification note
+
+During normalization, several inherited URLs were checked against current bibliographic indexes. The attention entry now points to Yantis (PMID 19444327), the affect entry to Russell's circumplex model (PMID 16262989), the autobiographical-memory entry to Prebble, Addis & Tippett (PMID 23025923), and the Dennett entry to the publisher record. These corrections affect source traceability only; they do not change the claim count.
