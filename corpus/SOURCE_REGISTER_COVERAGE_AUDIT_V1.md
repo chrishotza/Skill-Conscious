@@ -5,18 +5,18 @@
 **Ledger:** `corpus/CLAIMS/claim_ledger_v1.json` + registered append deltas  
 **Audit rule:** an entry counts as represented only if its exact `corpus_id` occurs in at least one ledger record. This does **not** mean all claims are source-verified.
 
-## Reconciled totals after batch v30
+## Reconciled totals after batch v31
 
 - Register entries parsed: **325** (325 unique IDs).
-- Entries represented in effective corpus ledger: **254**.
-- Entries not yet represented: **71**.
-- Effective ledger records: **3392** (**2482** core ledger + **130** each in v24–v30 append deltas).
+- Entries represented in effective corpus ledger: **264**.
+- Entries not yet represented: **61**.
+- Effective ledger records: **3522** (**2482** core ledger + **130** each in v24–v31 append deltas).
 - Core ledger records in `claim_ledger_v1.json`: **2482**.
-- Unique source IDs in effective ledger: **257**.
-- Sources with exactly 13 effective ledger records: **184**.
+- Unique source IDs in effective ledger: **267**.
+- Sources with exactly 13 effective ledger records: **194**.
 - Represented but under 13: **40**.
 - Represented above 13: **30**.
-- **Storage note:** v24–v30 are stored as append-only deltas because the current GitHub contents connector cannot safely rewrite the now-large core JSON blob.
+- **Storage note:** v24–v31 are stored as append-only deltas because the current GitHub contents connector cannot safely rewrite the now-large core JSON blob.
 - **Quality caveat:** “represented” is a coverage flag only. P2* claims and generic locators remain verification-pending.
 
 ## Status table
@@ -273,16 +273,16 @@
 | C248 | Cartesian Meditations — Filosofía/fenomenología; foco: conciencia, persona, realidad, transformación. | Represented — exactly 13 | 13 | S255 |
 | C249 | Being and Time — Filosofía/fenomenología; foco: conciencia, persona, realidad, transformación. | Represented — exactly 13 | 13 | S256 |
 | C250 | Phenomenology of Perception — Filosofía/fenomenología; foco: conciencia, persona, realidad, transformación. | Represented — exactly 13 | 13 | S257 |
-| C251 | Phenomenology of Mind — Filosofía/fenomenología; foco: conciencia, persona, realidad, transformación. | Missing | 0 | — |
-| C252 | Being and Nothingness — Filosofía/fenomenología; foco: conciencia, persona, realidad, transformación. | Missing | 0 | — |
-| C253 | Concept of Anxiety — Filosofía/fenomenología; foco: conciencia, persona, realidad, transformación. | Missing | 0 | — |
-| C254 | Sickness Unto Death — Filosofía/fenomenología; foco: conciencia, persona, realidad, transformación. | Missing | 0 | — |
-| C255 | Process and Reality — Filosofía/fenomenología; foco: conciencia, persona, realidad, transformación. | Missing | 0 | — |
-| C256 | The Embodied Mind — Filosofía/fenomenología; foco: conciencia, persona, realidad, transformación. | Missing | 0 | — |
-| C257 | Mind in Life — Filosofía/fenomenología; foco: conciencia, persona, realidad, transformación. | Missing | 0 | — |
-| C258 | Subjectivity and Selfhood — Filosofía/fenomenología; foco: conciencia, persona, realidad, transformación. | Missing | 0 | — |
-| C259 | The Ego Tunnel — Filosofía/fenomenología; foco: conciencia, persona, realidad, transformación. | Missing | 0 | — |
-| C260 | Being No One — Filosofía/fenomenología; foco: conciencia, persona, realidad, transformación. | Missing | 0 | — |
+| C251 | Phenomenology of Mind — Filosofía/fenomenología; foco: conciencia, persona, realidad, transformación. | Represented — exactly 13 | 13 | S258 |
+| C252 | Being and Nothingness — Filosofía/fenomenología; foco: conciencia, persona, realidad, transformación. | Represented — exactly 13 | 13 | S259 |
+| C253 | Concept of Anxiety — Filosofía/fenomenología; foco: conciencia, persona, realidad, transformación. | Represented — exactly 13 | 13 | S260 |
+| C254 | Sickness Unto Death — Filosofía/fenomenología; foco: conciencia, persona, realidad, transformación. | Represented — exactly 13 | 13 | S261 |
+| C255 | Process and Reality — Filosofía/fenomenología; foco: conciencia, persona, realidad, transformación. | Represented — exactly 13 | 13 | S262 |
+| C256 | The Embodied Mind — Filosofía/fenomenología; foco: conciencia, persona, realidad, transformación. | Represented — exactly 13 | 13 | S263 |
+| C257 | Mind in Life — Filosofía/fenomenología; foco: conciencia, persona, realidad, transformación. | Represented — exactly 13 | 13 | S264 |
+| C258 | Subjectivity and Selfhood — Filosofía/fenomenología; foco: conciencia, persona, realidad, transformación. | Represented — exactly 13 | 13 | S265 |
+| C259 | The Ego Tunnel — Filosofía/fenomenología; foco: conciencia, persona, realidad, transformación. | Represented — exactly 13 | 13 | S266 |
+| C260 | Being No One — Filosofía/fenomenología; foco: conciencia, persona, realidad, transformación. | Represented — exactly 13 | 13 | S267 |
 | C261 | The Conscious Mind — Filosofía/fenomenología; foco: conciencia, persona, realidad, transformación. | Missing | 0 | — |
 | C262 | Feeling of What Happens — Filosofía/fenomenología; foco: conciencia, persona, realidad, transformación. | Missing | 0 | — |
 | C263 | Descartes' Error — Filosofía/fenomenología; foco: subjetividad, cuerpo, tiempo, yo. | Missing | 0 | — |
@@ -427,3 +427,12 @@
 - Core ledger: 2482 records / 187 source IDs.
 - Current register coverage: 254/325 represented; 71/325 still missing.
 - Exact-13 represented sources: 184.
+
+## Batch v31 checkpoint
+
+- Newly represented register entries: C251, C252, C253, C254, C255, C256, C257, C258, C259, C260.
+- Added claims: 130 (10 × 13), stored as append-only delta.
+- Effective ledger: 3522 records / 267 source IDs.
+- Core ledger: 2482 records / 187 source IDs.
+- Current register coverage: 264/325 represented; 61/325 still missing.
+- Exact-13 represented sources: 194.
