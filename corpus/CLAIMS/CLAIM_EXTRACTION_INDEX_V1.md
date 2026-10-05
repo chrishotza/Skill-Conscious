@@ -225,3 +225,12 @@ The next extraction stage should systematically traverse the remaining register 
 - Current register coverage: 314/325 represented; 11/325 still missing.
 - Exact-13 represented sources: 244.
 - v36 consists of register-tagged heterodox/extended sources; source identity and broad roles were externally checked, while stronger metaphysical claims remain provisional.
+
+## Batch v36 checkpoint
+
+- Newly represented register entries: C302, C303, C304, C305, C306, C307, C308, C309, C310, C312.
+- Added claims: 130.
+- Effective ledger: 4172 records / 317 source IDs (2482 core + 13 append batches of 130 each: v24–v36).
+- Current register coverage: 314/325 represented; 11/325 still missing.
+- Exact-13 represented sources: 244.
+- v36 consists of heterodox/extended sources: psi/parapsychology, global coherence, altered states, transpersonal psychology, Monroe Focus levels and yogic spirituality. Claims remain source-attributed and provisional.
