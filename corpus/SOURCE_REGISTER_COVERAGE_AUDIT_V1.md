@@ -5,18 +5,18 @@
 **Ledger:** `corpus/CLAIMS/claim_ledger_v1.json` + registered append deltas  
 **Audit rule:** an entry counts as represented only if its exact `corpus_id` occurs in at least one ledger record. This does **not** mean all claims are source-verified.
 
-## Reconciled totals after batch v36
+## Reconciled totals after batch v37
 
 - Register entries parsed: **325** (325 unique IDs).
-- Entries represented in effective corpus ledger: **314**.
-- Entries not yet represented: **11**.
-- Effective ledger records: **4172** (**2482** core ledger + **130** each in v24–v36 append deltas).
+- Entries represented in effective corpus ledger: **325**.
+- Entries not yet represented: **0**.
+- Effective ledger records: **4315** (**2482** core ledger + **130** each in v24–v36 append deltas + **143** in v37).
 - Core ledger records in `claim_ledger_v1.json`: **2482**.
-- Unique source IDs in effective ledger: **317**.
-- Sources with exactly 13 effective ledger records: **244**.
+- Unique source IDs in effective ledger: **328**.
+- Sources with exactly 13 effective ledger records: **255**.
 - Represented but under 13: **40**.
 - Represented above 13: **30**.
-- **Storage note:** v24–v36 are stored as append-only deltas because the current GitHub contents connector cannot safely rewrite the now-large core JSON blob.
+- **Storage note:** v24–v37 are stored as append-only deltas because the current GitHub contents connector cannot safely rewrite the now-large core JSON blob.
 - **Quality caveat:** “represented” is a coverage flag only. P2* claims and generic locators remain verification-pending.
 
 ## Status table
@@ -336,18 +336,18 @@
 | C311 | Man's Eternal Quest — Heterodoxo/extendido; foco: conciencia, persona, realidad, transformación. | Represented — over 13 | 20 | S073 |
 | C312 | Autobiography of a Yogi — Heterodoxo/extendido; foco: conciencia, persona, realidad, transformación. | Represented — exactly 13 | 13 | S317 |
 | C313 | Psychology and Religion — Heterodoxo/extendido; foco: conciencia, persona, realidad, transformación. | Represented — under 13 | 8 | S028 |
-| C314 | Archetypes and the Collective Unconscious — Heterodoxo/extendido; foco: conciencia, persona, realidad, transformación. | Missing | 0 | — |
-| C315 | Aion — Heterodoxo/extendido; foco: conciencia, persona, realidad, transformación. | Missing | 0 | — |
-| C316 | Mysterium Coniunctionis — Heterodoxo/extendido; foco: conciencia, persona, realidad, transformación. | Missing | 0 | — |
-| C317 | Synchronicity — Heterodoxo/extendido; foco: conciencia, persona, realidad, transformación. | Missing | 0 | — |
-| C318 | Dhammasangani — Suplementario; foco: mente, no-yo, atención, liberación. | Missing | 0 | — |
-| C319 | Avatamsaka Sutra — Suplementario; foco: mente, no-yo, atención, liberación. | Missing | 0 | — |
-| C320 | Qingjing Jing — Suplementario; foco: Dao, qi, quietud, cultivo. | Missing | 0 | — |
-| C321 | Menog i Khrad — Suplementario; foco: alma, luz, intelecto, ética. | Missing | 0 | — |
-| C322 | Sefer Ha-Razim — Suplementario; foco: alma, emanación, sefirot, visión. | Missing | 0 | — |
-| C323 | Mawaqif — Suplementario; foco: nafs, qalb, rūḥ, maʿrifa. | Missing | 0 | — |
+| C314 | Archetypes and the Collective Unconscious — Heterodoxo/extendido; foco: conciencia, persona, realidad, transformación. | Represented — exactly 13 | 13 | S318 |
+| C315 | Aion — Heterodoxo/extendido; foco: conciencia, persona, realidad, transformación. | Represented — exactly 13 | 13 | S319 |
+| C316 | Mysterium Coniunctionis — Heterodoxo/extendido; foco: conciencia, persona, realidad, transformación. | Represented — exactly 13 | 13 | S320 |
+| C317 | Synchronicity — Heterodoxo/extendido; foco: conciencia, persona, realidad, transformación. | Represented — exactly 13 | 13 | S321 |
+| C318 | Dhammasangani — Suplementario; foco: mente, no-yo, atención, liberación. | Represented — exactly 13 | 13 | S322 |
+| C319 | Avatamsaka Sutra — Suplementario; foco: mente, no-yo, atención, liberación. | Represented — exactly 13 | 13 | S323 |
+| C320 | Qingjing Jing — Suplementario; foco: Dao, qi, quietud, cultivo. | Represented — exactly 13 | 13 | S324 |
+| C321 | Menog i Khrad — Suplementario; foco: alma, luz, intelecto, ética. | Represented — exactly 13 | 13 | S325 |
+| C322 | Sefer Ha-Razim — Suplementario; foco: alma, emanación, sefirot, visión. | Represented — exactly 13 | 13 | S326 |
+| C323 | Mawaqif — Suplementario; foco: nafs, qalb, rūḥ, maʿrifa. | Represented — exactly 13 | 13 | S327 |
 | C324 | Bantu Philosophy — Suplementario; foco: conciencia, persona, realidad, transformación. | Represented — over 13 | 20 | S058 |
-| C325 | The Elementary Forms of the Religious Life — Suplementario; foco: conciencia, persona, realidad, transformación. | Missing | 0 | — |
+| C325 | The Elementary Forms of the Religious Life — Suplementario; foco: conciencia, persona, realidad, transformación. | Represented — exactly 13 | 13 | S328 |
 
 ## Batch v22 checkpoint
 
@@ -491,3 +491,12 @@
 - Exact-13 represented sources: 244.
 - Provenance caution: C302–C310 and C312 remain heterodox/extended and explicitly attributed; psychophysiology and methodological components are separated from parapsychological and metaphysical interpretations.
 - Current-status note: the GCP source material now states that active data collection ended on 3 April 2026 after a hosting-service hardware failure; the extraction retains this date-specific status rather than implying ongoing collection.
+
+## Batch v37 checkpoint
+
+- Newly represented register entries: C314, C315, C316, C317, C318, C319, C320, C321, C322, C323, C325.
+- Added claims: 143 (11 × 13), stored as append-only delta.
+- Effective ledger: 4315 records / 328 source IDs.
+- Current register coverage: **325/325 represented; 0/325 still missing**.
+- Exact-13 represented sources: 255.
+- Provenance caution: v37 mixes Jungian depth psychology, Buddhist/Daoist/Zoroastrian/Jewish/Sufi sources and Durkheimian sociology; these remain source-attributed and conceptually separated.
