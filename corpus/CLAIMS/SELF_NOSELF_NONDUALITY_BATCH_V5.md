@@ -188,5 +188,5 @@
 ## Batch accounting
 
 - Sources: **10**
-- Claims: **148**
-- Dataset total: **500 atomic claims across 47 source records**.
+- Claims: **150**
+- Dataset total: **502 atomic claims across 47 source records**.
