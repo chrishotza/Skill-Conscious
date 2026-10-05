@@ -1,8 +1,8 @@
 {
   "schema_version": "1.0",
-  "claim_count": 848,
-  "global_claim_count": 848,
-  "source_count": 68,
+  "claim_count": 1000,
+  "global_claim_count": 1000,
+  "source_count": 73,
   "records": [
     {
       "global_claim_id": "G1-S001-K01",
@@ -13252,6 +13252,2392 @@
       ],
       "provenance": "P2",
       "batch": "9"
+    },
+    {
+      "global_claim_id": "G10-S069-IF01",
+      "claim_id": "IF01",
+      "source_id": "S069",
+      "corpus_id": "C230",
+      "location": "overview",
+      "claim_type": "COSMO",
+      "claim": "Ifá links human decisions with a wider spiritual and social order.",
+      "motifs": [
+        "M05",
+        "M15",
+        "M20"
+      ],
+      "provenance": "S1",
+      "batch": "10"
+    },
+    {
+      "global_claim_id": "G10-S069-IF02",
+      "claim_id": "IF02",
+      "source_id": "S069",
+      "corpus_id": "C230",
+      "location": "practice",
+      "claim_type": "PRACTICE",
+      "claim": "Divination is transmitted as a structured method requiring training.",
+      "motifs": [
+        "M24",
+        "M25"
+      ],
+      "provenance": "S1",
+      "batch": "10"
+    },
+    {
+      "global_claim_id": "G10-S069-IF03",
+      "claim_id": "IF03",
+      "source_id": "S069",
+      "corpus_id": "C230",
+      "location": "Odu",
+      "claim_type": "STATE",
+      "claim": "Different Odu encode patterns of situation, guidance, and consequence.",
+      "motifs": [
+        "M07",
+        "M17",
+        "M20"
+      ],
+      "provenance": "S1",
+      "batch": "10"
+    },
+    {
+      "global_claim_id": "G10-S069-IF04",
+      "claim_id": "IF04",
+      "source_id": "S069",
+      "corpus_id": "C230",
+      "location": "Orí",
+      "claim_type": "PERSON",
+      "claim": "Orí is treated as an important dimension of identity and destiny.",
+      "motifs": [
+        "M02",
+        "M06",
+        "M16"
+      ],
+      "provenance": "S1",
+      "batch": "10"
+    },
+    {
+      "global_claim_id": "G10-S069-IF05",
+      "claim_id": "IF05",
+      "source_id": "S069",
+      "corpus_id": "C230",
+      "location": "Orí",
+      "claim_type": "RELATION",
+      "claim": "Identity is discussed through relations among inner essence, community, conduct, and spiritual order.",
+      "motifs": [
+        "M05",
+        "M16",
+        "M20"
+      ],
+      "provenance": "S1",
+      "batch": "10"
+    },
+    {
+      "global_claim_id": "G10-S069-IF06",
+      "claim_id": "IF06",
+      "source_id": "S069",
+      "corpus_id": "C230",
+      "location": "character",
+      "claim_type": "VALENCE",
+      "claim": "Character affects the quality and direction of life.",
+      "motifs": [
+        "M10",
+        "M12"
+      ],
+      "provenance": "S1",
+      "batch": "10"
+    },
+    {
+      "global_claim_id": "G10-S069-IF07",
+      "claim_id": "IF07",
+      "source_id": "S069",
+      "corpus_id": "C230",
+      "location": "ritual",
+      "claim_type": "CAUSAL",
+      "claim": "Ritual and ethical action are represented as capable of changing relations to circumstances.",
+      "motifs": [
+        "M12",
+        "M24",
+        "M25"
+      ],
+      "provenance": "S1",
+      "batch": "10"
+    },
+    {
+      "global_claim_id": "G10-S069-IF08",
+      "claim_id": "IF08",
+      "source_id": "S069",
+      "corpus_id": "C230",
+      "location": "relations",
+      "claim_type": "RELATION",
+      "claim": "Human life is situated among relations with oriṣa and ancestors.",
+      "motifs": [
+        "M05",
+        "M15",
+        "M20"
+      ],
+      "provenance": "S1",
+      "batch": "10"
+    },
+    {
+      "global_claim_id": "G10-S069-IF09",
+      "claim_id": "IF09",
+      "source_id": "S069",
+      "corpus_id": "C230",
+      "location": "time",
+      "claim_type": "TEMPORAL",
+      "claim": "Present circumstances are interpreted through patterns linking earlier action and later consequence.",
+      "motifs": [
+        "M11",
+        "M12"
+      ],
+      "provenance": "S1",
+      "batch": "10"
+    },
+    {
+      "global_claim_id": "G10-S069-IF10",
+      "claim_id": "IF10",
+      "source_id": "S069",
+      "corpus_id": "C230",
+      "location": "personhood",
+      "claim_type": "PERSON",
+      "claim": "The person is not reduced to visible bodily appearance in the interpretive framework.",
+      "motifs": [
+        "M07",
+        "M08",
+        "M16"
+      ],
+      "provenance": "S1",
+      "batch": "10"
+    },
+    {
+      "global_claim_id": "G10-S069-IF11",
+      "claim_id": "IF11",
+      "source_id": "S069",
+      "corpus_id": "C230",
+      "location": "knowledge",
+      "claim_type": "PRACTICE",
+      "claim": "Knowledge is acquired through apprenticeship, memorization, interpretation, and ritual competence.",
+      "motifs": [
+        "M24",
+        "M25"
+      ],
+      "provenance": "S1",
+      "batch": "10"
+    },
+    {
+      "global_claim_id": "G10-S069-IF12",
+      "claim_id": "IF12",
+      "source_id": "S069",
+      "corpus_id": "C230",
+      "location": "language",
+      "claim_type": "RELATION",
+      "claim": "Signs require interpretation within a communal tradition rather than isolated private decoding.",
+      "motifs": [
+        "M16",
+        "M17"
+      ],
+      "provenance": "S1",
+      "batch": "10"
+    },
+    {
+      "global_claim_id": "G10-S069-IF13",
+      "claim_id": "IF13",
+      "source_id": "S069",
+      "corpus_id": "C230",
+      "location": "choice",
+      "claim_type": "CAUSAL",
+      "claim": "Human choice remains significant inside a wider spiritual order.",
+      "motifs": [
+        "M04",
+        "M10",
+        "M12"
+      ],
+      "provenance": "S1",
+      "batch": "10"
+    },
+    {
+      "global_claim_id": "G10-S069-IF14",
+      "claim_id": "IF14",
+      "source_id": "S069",
+      "corpus_id": "C230",
+      "location": "destiny",
+      "claim_type": "DIVERGENCE",
+      "claim": "Destiny is not represented as eliminating human agency.",
+      "motifs": [
+        "M04",
+        "M12",
+        "M20"
+      ],
+      "provenance": "S1",
+      "batch": "10"
+    },
+    {
+      "global_claim_id": "G10-S069-IF15",
+      "claim_id": "IF15",
+      "source_id": "S069",
+      "corpus_id": "C230",
+      "location": "cosmology",
+      "claim_type": "ONTO",
+      "claim": "Visible and unseen dimensions are treated as interconnected.",
+      "motifs": [
+        "M05",
+        "M15",
+        "M20"
+      ],
+      "provenance": "S1",
+      "batch": "10"
+    },
+    {
+      "global_claim_id": "G10-S069-IF16",
+      "claim_id": "IF16",
+      "source_id": "S069",
+      "corpus_id": "C230",
+      "location": "continuity",
+      "claim_type": "CONTINUITY",
+      "claim": "Repeated ritual preserves knowledge across generations.",
+      "motifs": [
+        "M11",
+        "M16",
+        "M25"
+      ],
+      "provenance": "S1",
+      "batch": "10"
+    },
+    {
+      "global_claim_id": "G10-S069-IF17",
+      "claim_id": "IF17",
+      "source_id": "S069",
+      "corpus_id": "C230",
+      "location": "ethics",
+      "claim_type": "PRACTICE",
+      "claim": "Moral conduct is incorporated into knowing and navigating the world.",
+      "motifs": [
+        "M10",
+        "M12",
+        "M25"
+      ],
+      "provenance": "S1",
+      "batch": "10"
+    },
+    {
+      "global_claim_id": "G10-S069-IF18",
+      "claim_id": "IF18",
+      "source_id": "S069",
+      "corpus_id": "C230",
+      "location": "synthesis",
+      "claim_type": "RELATION",
+      "claim": "Ifá strengthens a relational model in which knowing, personhood, practice, and cosmology interact.",
+      "motifs": [
+        "M05",
+        "M16",
+        "M20"
+      ],
+      "provenance": "S1",
+      "batch": "10"
+    },
+    {
+      "global_claim_id": "G10-S069-IF19",
+      "claim_id": "IF19",
+      "source_id": "S069",
+      "corpus_id": "C230",
+      "location": "source",
+      "claim_type": "META",
+      "claim": "Modern summaries of Ifá must not be mistaken for a single ancient textual doctrine.",
+      "motifs": [
+        "M17"
+      ],
+      "provenance": "S1",
+      "batch": "10"
+    },
+    {
+      "global_claim_id": "G10-S069-IF20",
+      "claim_id": "IF20",
+      "source_id": "S069",
+      "corpus_id": "C230",
+      "location": "scope",
+      "claim_type": "DIVERGENCE",
+      "claim": "Personhood and knowing remain embedded in a living tradition rather than a generic theory of mind.",
+      "motifs": [
+        "M05",
+        "M16",
+        "M20"
+      ],
+      "provenance": "S1",
+      "batch": "10"
+    },
+    {
+      "global_claim_id": "G10-S070-HU01",
+      "claim_id": "HU01",
+      "source_id": "S070",
+      "corpus_id": "C228",
+      "location": "ch.1",
+      "claim_type": "COSMO",
+      "claim": "The manuscript narrates sacred powers within an integrated landscape.",
+      "motifs": [
+        "M15",
+        "M20",
+        "M21"
+      ],
+      "provenance": "P2",
+      "batch": "10"
+    },
+    {
+      "global_claim_id": "G10-S070-HU02",
+      "claim_id": "HU02",
+      "source_id": "S070",
+      "corpus_id": "C228",
+      "location": "ch.1",
+      "claim_type": "RELATION",
+      "claim": "Mountains, lakes, villages, and humans are tied through sacred relations.",
+      "motifs": [
+        "M05",
+        "M16",
+        "M20"
+      ],
+      "provenance": "P2",
+      "batch": "10"
+    },
+    {
+      "global_claim_id": "G10-S070-HU03",
+      "claim_id": "HU03",
+      "source_id": "S070",
+      "corpus_id": "C228",
+      "location": "ch.2",
+      "claim_type": "PERSON",
+      "claim": "Huaca-like beings function as agents within the narrated world.",
+      "motifs": [
+        "M07",
+        "M15",
+        "M20"
+      ],
+      "provenance": "P2",
+      "batch": "10"
+    },
+    {
+      "global_claim_id": "G10-S070-HU04",
+      "claim_id": "HU04",
+      "source_id": "S070",
+      "corpus_id": "C228",
+      "location": "ch.2",
+      "claim_type": "STATE",
+      "claim": "Dreams and visions provide access to relations hidden in ordinary perception.",
+      "motifs": [
+        "M07",
+        "M14",
+        "M17"
+      ],
+      "provenance": "P2",
+      "batch": "10"
+    },
+    {
+      "global_claim_id": "G10-S070-HU05",
+      "claim_id": "HU05",
+      "source_id": "S070",
+      "corpus_id": "C228",
+      "location": "ch.3",
+      "claim_type": "PRACTICE",
+      "claim": "Offerings maintain relationships with sacred beings.",
+      "motifs": [
+        "M12",
+        "M24",
+        "M25"
+      ],
+      "provenance": "P2",
+      "batch": "10"
+    },
+    {
+      "global_claim_id": "G10-S070-HU06",
+      "claim_id": "HU06",
+      "source_id": "S070",
+      "corpus_id": "C228",
+      "location": "ch.4",
+      "claim_type": "CAUSAL",
+      "claim": "Ritual action is associated with fertility, protection, or social order.",
+      "motifs": [
+        "M10",
+        "M12",
+        "M20"
+      ],
+      "provenance": "P2",
+      "batch": "10"
+    },
+    {
+      "global_claim_id": "G10-S070-HU07",
+      "claim_id": "HU07",
+      "source_id": "S070",
+      "corpus_id": "C228",
+      "location": "ch.5",
+      "claim_type": "RELATION",
+      "claim": "Identity is tied to ancestors and sacred places.",
+      "motifs": [
+        "M05",
+        "M16",
+        "M19"
+      ],
+      "provenance": "P2",
+      "batch": "10"
+    },
+    {
+      "global_claim_id": "G10-S070-HU08",
+      "claim_id": "HU08",
+      "source_id": "S070",
+      "corpus_id": "C228",
+      "location": "ch.6",
+      "claim_type": "TEMPORAL",
+      "claim": "Ancestral narratives connect communities to deep historical time.",
+      "motifs": [
+        "M11",
+        "M16",
+        "M19"
+      ],
+      "provenance": "P2",
+      "batch": "10"
+    },
+    {
+      "global_claim_id": "G10-S070-HU09",
+      "claim_id": "HU09",
+      "source_id": "S070",
+      "corpus_id": "C228",
+      "location": "ch.7",
+      "claim_type": "COSMO",
+      "claim": "Human life participates in a wider geography of sacred powers.",
+      "motifs": [
+        "M15",
+        "M20"
+      ],
+      "provenance": "P2",
+      "batch": "10"
+    },
+    {
+      "global_claim_id": "G10-S070-HU10",
+      "claim_id": "HU10",
+      "source_id": "S070",
+      "corpus_id": "C228",
+      "location": "ch.8",
+      "claim_type": "STATE",
+      "claim": "Exceptional experiences can disclose relations not obvious in ordinary perception.",
+      "motifs": [
+        "M07",
+        "M14"
+      ],
+      "provenance": "P2",
+      "batch": "10"
+    },
+    {
+      "global_claim_id": "G10-S070-HU11",
+      "claim_id": "HU11",
+      "source_id": "S070",
+      "corpus_id": "C228",
+      "location": "ch.10",
+      "claim_type": "PERSON",
+      "claim": "Community members and sacred powers are represented through reciprocal obligations.",
+      "motifs": [
+        "M05",
+        "M16"
+      ],
+      "provenance": "P2",
+      "batch": "10"
+    },
+    {
+      "global_claim_id": "G10-S070-HU12",
+      "claim_id": "HU12",
+      "source_id": "S070",
+      "corpus_id": "C228",
+      "location": "ch.11",
+      "claim_type": "PRACTICE",
+      "claim": "Ritual specialists mediate knowledge between community and sacred powers.",
+      "motifs": [
+        "M17",
+        "M25"
+      ],
+      "provenance": "P2",
+      "batch": "10"
+    },
+    {
+      "global_claim_id": "G10-S070-HU13",
+      "claim_id": "HU13",
+      "source_id": "S070",
+      "corpus_id": "C228",
+      "location": "ch.12",
+      "claim_type": "VALENCE",
+      "claim": "Illness, fertility, danger, and wellbeing are interpreted through relational sacred ecology.",
+      "motifs": [
+        "M10",
+        "M12",
+        "M20"
+      ],
+      "provenance": "P2",
+      "batch": "10"
+    },
+    {
+      "global_claim_id": "G10-S070-HU14",
+      "claim_id": "HU14",
+      "source_id": "S070",
+      "corpus_id": "C228",
+      "location": "ch.13",
+      "claim_type": "CONTINUITY",
+      "claim": "Sacred traditions persist through ritual and story.",
+      "motifs": [
+        "M11",
+        "M16",
+        "M25"
+      ],
+      "provenance": "P2",
+      "batch": "10"
+    },
+    {
+      "global_claim_id": "G10-S070-HU15",
+      "claim_id": "HU15",
+      "source_id": "S070",
+      "corpus_id": "C228",
+      "location": "ch.14",
+      "claim_type": "ONTO",
+      "claim": "The environment is not treated as inert background to human action.",
+      "motifs": [
+        "M05",
+        "M20"
+      ],
+      "provenance": "P2",
+      "batch": "10"
+    },
+    {
+      "global_claim_id": "G10-S070-HU16",
+      "claim_id": "HU16",
+      "source_id": "S070",
+      "corpus_id": "C228",
+      "location": "ch.15",
+      "claim_type": "RELATION",
+      "claim": "Human prosperity depends on reciprocal relations with sacred places and beings.",
+      "motifs": [
+        "M05",
+        "M16",
+        "M20"
+      ],
+      "provenance": "P2",
+      "batch": "10"
+    },
+    {
+      "global_claim_id": "G10-S070-HU17",
+      "claim_id": "HU17",
+      "source_id": "S070",
+      "corpus_id": "C228",
+      "location": "ch.17",
+      "claim_type": "DEATH",
+      "claim": "Death and ancestry remain integrated into the living cosmology.",
+      "motifs": [
+        "M11",
+        "M19",
+        "M20"
+      ],
+      "provenance": "P2",
+      "batch": "10"
+    },
+    {
+      "global_claim_id": "G10-S070-HU18",
+      "claim_id": "HU18",
+      "source_id": "S070",
+      "corpus_id": "C228",
+      "location": "ch.18",
+      "claim_type": "DIVERGENCE",
+      "claim": "Agency is not restricted to individual human minds.",
+      "motifs": [
+        "M04",
+        "M15",
+        "M16",
+        "M20"
+      ],
+      "provenance": "P2",
+      "batch": "10"
+    },
+    {
+      "global_claim_id": "G10-S070-HU19",
+      "claim_id": "HU19",
+      "source_id": "S070",
+      "corpus_id": "C228",
+      "location": "translation",
+      "claim_type": "META",
+      "claim": "The manuscript is a colonial-era recorded indigenous source and requires contextual criticism.",
+      "motifs": [
+        "M17"
+      ],
+      "provenance": "P2",
+      "batch": "10"
+    },
+    {
+      "global_claim_id": "G10-S070-HU20",
+      "claim_id": "HU20",
+      "source_id": "S070",
+      "corpus_id": "C228",
+      "location": "scope",
+      "claim_type": "RELATION",
+      "claim": "Huarochirí strengthens relational personhood without requiring generic collective consciousness.",
+      "motifs": [
+        "M05",
+        "M16",
+        "M20"
+      ],
+      "provenance": "P2",
+      "batch": "10"
+    },
+    {
+      "global_claim_id": "G10-S071-DI01",
+      "claim_id": "DI01",
+      "source_id": "S071",
+      "corpus_id": "C234",
+      "location": "creation",
+      "claim_type": "COSMO",
+      "claim": "Creation and emergence are narrated through ordered stages of existence.",
+      "motifs": [
+        "M07",
+        "M20",
+        "M21"
+      ],
+      "provenance": "S1",
+      "batch": "10"
+    },
+    {
+      "global_claim_id": "G10-S071-DI02",
+      "claim_id": "DI02",
+      "source_id": "S071",
+      "corpus_id": "C234",
+      "location": "creation",
+      "claim_type": "RELATION",
+      "claim": "Beings arise through relationships among worlds and inhabitants.",
+      "motifs": [
+        "M05",
+        "M15",
+        "M20"
+      ],
+      "provenance": "S1",
+      "batch": "10"
+    },
+    {
+      "global_claim_id": "G10-S071-DI03",
+      "claim_id": "DI03",
+      "source_id": "S071",
+      "corpus_id": "C234",
+      "location": "Holy People",
+      "claim_type": "PERSON",
+      "claim": "Spiritual beings participate actively in the world's order.",
+      "motifs": [
+        "M15",
+        "M20"
+      ],
+      "provenance": "S1",
+      "batch": "10"
+    },
+    {
+      "global_claim_id": "G10-S071-DI04",
+      "claim_id": "DI04",
+      "source_id": "S071",
+      "corpus_id": "C234",
+      "location": "place",
+      "claim_type": "RELATION",
+      "claim": "Landscape and place are integrated into identity and memory.",
+      "motifs": [
+        "M05",
+        "M16",
+        "M20"
+      ],
+      "provenance": "S1",
+      "batch": "10"
+    },
+    {
+      "global_claim_id": "G10-S071-DI05",
+      "claim_id": "DI05",
+      "source_id": "S071",
+      "corpus_id": "C234",
+      "location": "ceremony",
+      "claim_type": "PRACTICE",
+      "claim": "Ceremonial practice restores or maintains an ordered state of balance and beauty.",
+      "motifs": [
+        "M10",
+        "M12",
+        "M24",
+        "M25"
+      ],
+      "provenance": "S1",
+      "batch": "10"
+    },
+    {
+      "global_claim_id": "G10-S071-DI06",
+      "claim_id": "DI06",
+      "source_id": "S071",
+      "corpus_id": "C234",
+      "location": "hózhó",
+      "claim_type": "VALENCE",
+      "claim": "Wellbeing is framed through harmony, balance, beauty, and right relation.",
+      "motifs": [
+        "M10",
+        "M12"
+      ],
+      "provenance": "S1",
+      "batch": "10"
+    },
+    {
+      "global_claim_id": "G10-S071-DI07",
+      "claim_id": "DI07",
+      "source_id": "S071",
+      "corpus_id": "C234",
+      "location": "worlds",
+      "claim_type": "STATE",
+      "claim": "The cosmology includes transitions between worlds and modes of existence.",
+      "motifs": [
+        "M07",
+        "M19",
+        "M20"
+      ],
+      "provenance": "S1",
+      "batch": "10"
+    },
+    {
+      "global_claim_id": "G10-S071-DI08",
+      "claim_id": "DI08",
+      "source_id": "S071",
+      "corpus_id": "C234",
+      "location": "story",
+      "claim_type": "CONTINUITY",
+      "claim": "Narrative transmission preserves identity and order across generations.",
+      "motifs": [
+        "M11",
+        "M16",
+        "M25"
+      ],
+      "provenance": "S1",
+      "batch": "10"
+    },
+    {
+      "global_claim_id": "G10-S071-DI09",
+      "claim_id": "DI09",
+      "source_id": "S071",
+      "corpus_id": "C234",
+      "location": "language",
+      "claim_type": "RELATION",
+      "claim": "Place names and stories encode relationships with land and beings.",
+      "motifs": [
+        "M05",
+        "M16",
+        "M17"
+      ],
+      "provenance": "S1",
+      "batch": "10"
+    },
+    {
+      "global_claim_id": "G10-S071-DI10",
+      "claim_id": "DI10",
+      "source_id": "S071",
+      "corpus_id": "C234",
+      "location": "ceremony",
+      "claim_type": "CAUSAL",
+      "claim": "Ceremony is treated as actively restoring balance rather than mere symbolism.",
+      "motifs": [
+        "M12",
+        "M20",
+        "M25"
+      ],
+      "provenance": "S1",
+      "batch": "10"
+    },
+    {
+      "global_claim_id": "G10-S071-DI11",
+      "claim_id": "DI11",
+      "source_id": "S071",
+      "corpus_id": "C234",
+      "location": "personhood",
+      "claim_type": "PERSON",
+      "claim": "Human identity is defined partly through kinship and obligations.",
+      "motifs": [
+        "M05",
+        "M16"
+      ],
+      "provenance": "S1",
+      "batch": "10"
+    },
+    {
+      "global_claim_id": "G10-S071-DI12",
+      "claim_id": "DI12",
+      "source_id": "S071",
+      "corpus_id": "C234",
+      "location": "animals",
+      "claim_type": "RELATION",
+      "claim": "Animals participate in reciprocal networks of teaching and life.",
+      "motifs": [
+        "M05",
+        "M16",
+        "M20"
+      ],
+      "provenance": "S1",
+      "batch": "10"
+    },
+    {
+      "global_claim_id": "G10-S071-DI13",
+      "claim_id": "DI13",
+      "source_id": "S071",
+      "corpus_id": "C234",
+      "location": "plants",
+      "claim_type": "RELATION",
+      "claim": "Plants participate in food, medicine, and relational world-making.",
+      "motifs": [
+        "M05",
+        "M16",
+        "M20"
+      ],
+      "provenance": "S1",
+      "batch": "10"
+    },
+    {
+      "global_claim_id": "G10-S071-DI14",
+      "claim_id": "DI14",
+      "source_id": "S071",
+      "corpus_id": "C234",
+      "location": "sacred order",
+      "claim_type": "COSMO",
+      "claim": "Human conduct is evaluated against a wider sacred order.",
+      "motifs": [
+        "M10",
+        "M15",
+        "M20"
+      ],
+      "provenance": "S1",
+      "batch": "10"
+    },
+    {
+      "global_claim_id": "G10-S071-DI15",
+      "claim_id": "DI15",
+      "source_id": "S071",
+      "corpus_id": "C234",
+      "location": "transformation",
+      "claim_type": "STATE",
+      "claim": "Ceremony can change a person's state of relation and orientation.",
+      "motifs": [
+        "M07",
+        "M12",
+        "M23"
+      ],
+      "provenance": "S1",
+      "batch": "10"
+    },
+    {
+      "global_claim_id": "G10-S071-DI16",
+      "claim_id": "DI16",
+      "source_id": "S071",
+      "corpus_id": "C234",
+      "location": "knowledge",
+      "claim_type": "PRACTICE",
+      "claim": "Knowledge is transmitted through participation, story, and ceremony.",
+      "motifs": [
+        "M24",
+        "M25"
+      ],
+      "provenance": "S1",
+      "batch": "10"
+    },
+    {
+      "global_claim_id": "G10-S071-DI17",
+      "claim_id": "DI17",
+      "source_id": "S071",
+      "corpus_id": "C234",
+      "location": "scope",
+      "claim_type": "RELATION",
+      "claim": "Diné material reinforces relational continuity, place, and transformation in personhood.",
+      "motifs": [
+        "M05",
+        "M16",
+        "M20"
+      ],
+      "provenance": "S1",
+      "batch": "10"
+    },
+    {
+      "global_claim_id": "G10-S071-DI18",
+      "claim_id": "DI18",
+      "source_id": "S071",
+      "corpus_id": "C234",
+      "location": "source",
+      "claim_type": "META",
+      "claim": "A living tradition cannot be reduced to a single web summary.",
+      "motifs": [
+        "M17"
+      ],
+      "provenance": "S1",
+      "batch": "10"
+    },
+    {
+      "global_claim_id": "G10-S071-DI19",
+      "claim_id": "DI19",
+      "source_id": "S071",
+      "corpus_id": "C234",
+      "location": "divergence",
+      "claim_type": "DIVERGENCE",
+      "claim": "Relational categories should not be translated directly into an abstract collective-mind theory.",
+      "motifs": [
+        "M05",
+        "M16"
+      ],
+      "provenance": "S1",
+      "batch": "10"
+    },
+    {
+      "global_claim_id": "G10-S071-DI20",
+      "claim_id": "DI20",
+      "source_id": "S071",
+      "corpus_id": "C234",
+      "location": "continuity",
+      "claim_type": "CONTINUITY",
+      "claim": "Identity and sacred order are maintained through intergenerational enactment.",
+      "motifs": [
+        "M11",
+        "M16",
+        "M25"
+      ],
+      "provenance": "S1",
+      "batch": "10"
+    },
+    {
+      "global_claim_id": "G10-S072-AB01",
+      "claim_id": "AB01",
+      "source_id": "S072",
+      "corpus_id": "C235",
+      "location": "Dreaming overview",
+      "claim_type": "COSMO",
+      "claim": "Dreaming connects ancestral events, land, law, and present social life.",
+      "motifs": [
+        "M05",
+        "M15",
+        "M20"
+      ],
+      "provenance": "S1",
+      "batch": "10"
+    },
+    {
+      "global_claim_id": "G10-S072-AB02",
+      "claim_id": "AB02",
+      "source_id": "S072",
+      "corpus_id": "C235",
+      "location": "ancestral beings",
+      "claim_type": "PERSON",
+      "claim": "Ancestral beings are represented as active agents within land and story.",
+      "motifs": [
+        "M15",
+        "M20"
+      ],
+      "provenance": "S1",
+      "batch": "10"
+    },
+    {
+      "global_claim_id": "G10-S072-AB03",
+      "claim_id": "AB03",
+      "source_id": "S072",
+      "corpus_id": "C235",
+      "location": "land",
+      "claim_type": "RELATION",
+      "claim": "Country is treated through relationships of law, kinship, and story.",
+      "motifs": [
+        "M05",
+        "M16",
+        "M20"
+      ],
+      "provenance": "S1",
+      "batch": "10"
+    },
+    {
+      "global_claim_id": "G10-S072-AB04",
+      "claim_id": "AB04",
+      "source_id": "S072",
+      "corpus_id": "C235",
+      "location": "story",
+      "claim_type": "CONTINUITY",
+      "claim": "Story transmission links generations to ancestral and present worlds.",
+      "motifs": [
+        "M11",
+        "M16",
+        "M25"
+      ],
+      "provenance": "S1",
+      "batch": "10"
+    },
+    {
+      "global_claim_id": "G10-S072-AB05",
+      "claim_id": "AB05",
+      "source_id": "S072",
+      "corpus_id": "C235",
+      "location": "songlines",
+      "claim_type": "PRACTICE",
+      "claim": "Song and ceremonial performance preserve navigational and ecological knowledge.",
+      "motifs": [
+        "M24",
+        "M25"
+      ],
+      "provenance": "S1",
+      "batch": "10"
+    },
+    {
+      "global_claim_id": "G10-S072-AB06",
+      "claim_id": "AB06",
+      "source_id": "S072",
+      "corpus_id": "C235",
+      "location": "ceremony",
+      "claim_type": "STATE",
+      "claim": "Ritual can shift participants toward ancestral law and place.",
+      "motifs": [
+        "M07",
+        "M12",
+        "M23"
+      ],
+      "provenance": "S1",
+      "batch": "10"
+    },
+    {
+      "global_claim_id": "G10-S072-AB07",
+      "claim_id": "AB07",
+      "source_id": "S072",
+      "corpus_id": "C235",
+      "location": "kinship",
+      "claim_type": "PERSON",
+      "claim": "Kinship structures can extend beyond human family into animals, places, and ancestry.",
+      "motifs": [
+        "M05",
+        "M16"
+      ],
+      "provenance": "S1",
+      "batch": "10"
+    },
+    {
+      "global_claim_id": "G10-S072-AB08",
+      "claim_id": "AB08",
+      "source_id": "S072",
+      "corpus_id": "C235",
+      "location": "law",
+      "claim_type": "VALENCE",
+      "claim": "Right relation with country and kin has normative consequences for wellbeing.",
+      "motifs": [
+        "M10",
+        "M12"
+      ],
+      "provenance": "S1",
+      "batch": "10"
+    },
+    {
+      "global_claim_id": "G10-S072-AB09",
+      "claim_id": "AB09",
+      "source_id": "S072",
+      "corpus_id": "C235",
+      "location": "land knowledge",
+      "claim_type": "CAUSAL",
+      "claim": "Ecological knowledge is tied to reciprocal obligations rather than detached observation alone.",
+      "motifs": [
+        "M05",
+        "M20",
+        "M25"
+      ],
+      "provenance": "S1",
+      "batch": "10"
+    },
+    {
+      "global_claim_id": "G10-S072-AB10",
+      "claim_id": "AB10",
+      "source_id": "S072",
+      "corpus_id": "C235",
+      "location": "ancestral time",
+      "claim_type": "TEMPORAL",
+      "claim": "Ancestral time retains relevance in present identity and practice.",
+      "motifs": [
+        "M11",
+        "M19",
+        "M20"
+      ],
+      "provenance": "S1",
+      "batch": "10"
+    },
+    {
+      "global_claim_id": "G10-S072-AB11",
+      "claim_id": "AB11",
+      "source_id": "S072",
+      "corpus_id": "C235",
+      "location": "dreaming",
+      "claim_type": "STATE",
+      "claim": "Some traditions distinguish waking from other modes of access to ancestral knowledge.",
+      "motifs": [
+        "M07",
+        "M14"
+      ],
+      "provenance": "S1",
+      "batch": "10"
+    },
+    {
+      "global_claim_id": "G10-S072-AB12",
+      "claim_id": "AB12",
+      "source_id": "S072",
+      "corpus_id": "C235",
+      "location": "ritual",
+      "claim_type": "PRACTICE",
+      "claim": "Ceremonial repetition maintains social and cosmological continuity.",
+      "motifs": [
+        "M11",
+        "M16",
+        "M25"
+      ],
+      "provenance": "S1",
+      "batch": "10"
+    },
+    {
+      "global_claim_id": "G10-S072-AB13",
+      "claim_id": "AB13",
+      "source_id": "S072",
+      "corpus_id": "C235",
+      "location": "place",
+      "claim_type": "RELATION",
+      "claim": "Specific places can embody stories, obligations, and ancestral significance.",
+      "motifs": [
+        "M05",
+        "M17",
+        "M20"
+      ],
+      "provenance": "S1",
+      "batch": "10"
+    },
+    {
+      "global_claim_id": "G10-S072-AB14",
+      "claim_id": "AB14",
+      "source_id": "S072",
+      "corpus_id": "C235",
+      "location": "identity",
+      "claim_type": "PERSON",
+      "claim": "Individual identity is embedded in country, kin, story, and ancestral relation.",
+      "motifs": [
+        "M05",
+        "M16"
+      ],
+      "provenance": "S1",
+      "batch": "10"
+    },
+    {
+      "global_claim_id": "G10-S072-AB15",
+      "claim_id": "AB15",
+      "source_id": "S072",
+      "corpus_id": "C235",
+      "location": "worldview",
+      "claim_type": "META",
+      "claim": "The human is not necessarily the exclusive center of agency or meaning.",
+      "motifs": [
+        "M04",
+        "M15",
+        "M20"
+      ],
+      "provenance": "S1",
+      "batch": "10"
+    },
+    {
+      "global_claim_id": "G10-S072-AB16",
+      "claim_id": "AB16",
+      "source_id": "S072",
+      "corpus_id": "C235",
+      "location": "knowledge",
+      "claim_type": "PRACTICE",
+      "claim": "Knowledge is inseparable from responsibility to use it correctly.",
+      "motifs": [
+        "M10",
+        "M24",
+        "M25"
+      ],
+      "provenance": "S1",
+      "batch": "10"
+    },
+    {
+      "global_claim_id": "G10-S072-AB17",
+      "claim_id": "AB17",
+      "source_id": "S072",
+      "corpus_id": "C235",
+      "location": "intergenerational",
+      "claim_type": "CONTINUITY",
+      "claim": "Knowledge persists by being enacted across generations.",
+      "motifs": [
+        "M11",
+        "M16",
+        "M25"
+      ],
+      "provenance": "S1",
+      "batch": "10"
+    },
+    {
+      "global_claim_id": "G10-S072-AB18",
+      "claim_id": "AB18",
+      "source_id": "S072",
+      "corpus_id": "C235",
+      "location": "source",
+      "claim_type": "META",
+      "claim": "Australian Aboriginal traditions are diverse and must not be collapsed into one Dreaming ontology.",
+      "motifs": [
+        "M17"
+      ],
+      "provenance": "S1",
+      "batch": "10"
+    },
+    {
+      "global_claim_id": "G10-S072-AB19",
+      "claim_id": "AB19",
+      "source_id": "S072",
+      "corpus_id": "C235",
+      "location": "comparison",
+      "claim_type": "DIVERGENCE",
+      "claim": "'Collective consciousness' would erase specific categories of country, kin, and ancestral law.",
+      "motifs": [
+        "M05",
+        "M16"
+      ],
+      "provenance": "S1",
+      "batch": "10"
+    },
+    {
+      "global_claim_id": "G10-S072-AB20",
+      "claim_id": "AB20",
+      "source_id": "S072",
+      "corpus_id": "C235",
+      "location": "scope",
+      "claim_type": "RELATION",
+      "claim": "These traditions strengthen a relational model in which personhood depends on participation in a world.",
+      "motifs": [
+        "M05",
+        "M16",
+        "M20"
+      ],
+      "provenance": "S1",
+      "batch": "10"
+    },
+    {
+      "global_claim_id": "G10-S073-YE01",
+      "claim_id": "YE01",
+      "source_id": "S073",
+      "corpus_id": "C311",
+      "location": "Autobiography",
+      "claim_type": "STATE",
+      "claim": "Yogananda distinguishes ordinary awareness from meditative absorption and higher states.",
+      "motifs": [
+        "M07",
+        "M23"
+      ],
+      "provenance": "P2",
+      "batch": "10"
+    },
+    {
+      "global_claim_id": "G10-S073-YE02",
+      "claim_id": "YE02",
+      "source_id": "S073",
+      "corpus_id": "C311",
+      "location": "Meditation",
+      "claim_type": "PRACTICE",
+      "claim": "Meditation is presented as a repeatable discipline for changing consciousness.",
+      "motifs": [
+        "M12",
+        "M24",
+        "M25"
+      ],
+      "provenance": "P2",
+      "batch": "10"
+    },
+    {
+      "global_claim_id": "G10-S073-YE03",
+      "claim_id": "YE03",
+      "source_id": "S073",
+      "corpus_id": "C311",
+      "location": "Meditation",
+      "claim_type": "INTERIORITY",
+      "claim": "Attention is directed inward toward breath, sensation, and subtle experience.",
+      "motifs": [
+        "M06",
+        "M24"
+      ],
+      "provenance": "P2",
+      "batch": "10"
+    },
+    {
+      "global_claim_id": "G10-S073-YE04",
+      "claim_id": "YE04",
+      "source_id": "S073",
+      "corpus_id": "C311",
+      "location": "Meditation",
+      "claim_type": "STATE",
+      "claim": "Breath regulation is used to alter the relation between bodily activity and attention.",
+      "motifs": [
+        "M08",
+        "M09",
+        "M23"
+      ],
+      "provenance": "P2",
+      "batch": "10"
+    },
+    {
+      "global_claim_id": "G10-S073-YE05",
+      "claim_id": "YE05",
+      "source_id": "S073",
+      "corpus_id": "C311",
+      "location": "Concentration",
+      "claim_type": "PRACTICE",
+      "claim": "Concentration is treated as trainable rather than fixed.",
+      "motifs": [
+        "M12",
+        "M24",
+        "M25"
+      ],
+      "provenance": "P2",
+      "batch": "10"
+    },
+    {
+      "global_claim_id": "G10-S073-YE06",
+      "claim_id": "YE06",
+      "source_id": "S073",
+      "corpus_id": "C311",
+      "location": "Self-realization",
+      "claim_type": "ONTO",
+      "claim": "The Self is described as deeper than ordinary personality and bodily identity.",
+      "motifs": [
+        "M02",
+        "M06",
+        "M15"
+      ],
+      "provenance": "P2",
+      "batch": "10"
+    },
+    {
+      "global_claim_id": "G10-S073-YE07",
+      "claim_id": "YE07",
+      "source_id": "S073",
+      "corpus_id": "C311",
+      "location": "Samadhi",
+      "claim_type": "STATE",
+      "claim": "Samadhi is described as a distinct mode of consciousness beyond ordinary sensory cognition.",
+      "motifs": [
+        "M07",
+        "M14",
+        "M23"
+      ],
+      "provenance": "P2",
+      "batch": "10"
+    },
+    {
+      "global_claim_id": "G10-S073-YE08",
+      "claim_id": "YE08",
+      "source_id": "S073",
+      "corpus_id": "C311",
+      "location": "Samadhi",
+      "claim_type": "PHEN",
+      "claim": "Expanded awareness is described as replacing ordinary object fixation with a wider field.",
+      "motifs": [
+        "M01",
+        "M03",
+        "M15"
+      ],
+      "provenance": "P2",
+      "batch": "10"
+    },
+    {
+      "global_claim_id": "G10-S073-YE09",
+      "claim_id": "YE09",
+      "source_id": "S073",
+      "corpus_id": "C311",
+      "location": "cosmic consciousness",
+      "claim_type": "META",
+      "claim": "Individual awareness is described as capable of recognizing a universal dimension.",
+      "motifs": [
+        "M03",
+        "M15",
+        "M20"
+      ],
+      "provenance": "P2",
+      "batch": "10"
+    },
+    {
+      "global_claim_id": "G10-S073-YE10",
+      "claim_id": "YE10",
+      "source_id": "S073",
+      "corpus_id": "C311",
+      "location": "devotion",
+      "claim_type": "VALENCE",
+      "claim": "Love and devotion are treated as forces transforming consciousness.",
+      "motifs": [
+        "M10",
+        "M12"
+      ],
+      "provenance": "P2",
+      "batch": "10"
+    },
+    {
+      "global_claim_id": "G10-S073-YE11",
+      "claim_id": "YE11",
+      "source_id": "S073",
+      "corpus_id": "C311",
+      "location": "guru-disciple",
+      "claim_type": "RELATION",
+      "claim": "Practice transmission is tied to a teacher-student relation.",
+      "motifs": [
+        "M05",
+        "M12",
+        "M25"
+      ],
+      "provenance": "P2",
+      "batch": "10"
+    },
+    {
+      "global_claim_id": "G10-S073-YE12",
+      "claim_id": "YE12",
+      "source_id": "S073",
+      "corpus_id": "C311",
+      "location": "karma",
+      "claim_type": "CAUSAL",
+      "claim": "Actions and tendencies condition future mental or spiritual states.",
+      "motifs": [
+        "M11",
+        "M12",
+        "M23"
+      ],
+      "provenance": "P2",
+      "batch": "10"
+    },
+    {
+      "global_claim_id": "G10-S073-YE13",
+      "claim_id": "YE13",
+      "source_id": "S073",
+      "corpus_id": "C311",
+      "location": "rebirth",
+      "claim_type": "DEATH",
+      "claim": "Continuity across lives is accepted within the worldview.",
+      "motifs": [
+        "M11",
+        "M19",
+        "M20"
+      ],
+      "provenance": "P2",
+      "batch": "10"
+    },
+    {
+      "global_claim_id": "G10-S073-YE14",
+      "claim_id": "YE14",
+      "source_id": "S073",
+      "corpus_id": "C311",
+      "location": "dream/sleep",
+      "claim_type": "STATE",
+      "claim": "Dream and sleep are used as contrasts to waking identity.",
+      "motifs": [
+        "M07",
+        "M14"
+      ],
+      "provenance": "P2",
+      "batch": "10"
+    },
+    {
+      "global_claim_id": "G10-S073-YE15",
+      "claim_id": "YE15",
+      "source_id": "S073",
+      "corpus_id": "C311",
+      "location": "intuition",
+      "claim_type": "META",
+      "claim": "Intuitive knowledge is distinguished from discursive reasoning.",
+      "motifs": [
+        "M01",
+        "M06",
+        "M14"
+      ],
+      "provenance": "P2",
+      "batch": "10"
+    },
+    {
+      "global_claim_id": "G10-S073-YE16",
+      "claim_id": "YE16",
+      "source_id": "S073",
+      "corpus_id": "C311",
+      "location": "service",
+      "claim_type": "PRACTICE",
+      "claim": "Spiritual development includes transformation of conduct and relationship to others.",
+      "motifs": [
+        "M10",
+        "M12",
+        "M25"
+      ],
+      "provenance": "P2",
+      "batch": "10"
+    },
+    {
+      "global_claim_id": "G10-S073-YE17",
+      "claim_id": "YE17",
+      "source_id": "S073",
+      "corpus_id": "C311",
+      "location": "body",
+      "claim_type": "EMBODIMENT",
+      "claim": "The body is treated as a vehicle for spiritual development.",
+      "motifs": [
+        "M08",
+        "M12"
+      ],
+      "provenance": "P2",
+      "batch": "10"
+    },
+    {
+      "global_claim_id": "G10-S073-YE18",
+      "claim_id": "YE18",
+      "source_id": "S073",
+      "corpus_id": "C311",
+      "location": "ego",
+      "claim_type": "REFLEXIVITY",
+      "claim": "Ego-identification is treated as an obstacle to deeper identity.",
+      "motifs": [
+        "M02",
+        "M13",
+        "M22"
+      ],
+      "provenance": "P2",
+      "batch": "10"
+    },
+    {
+      "global_claim_id": "G10-S073-YE19",
+      "claim_id": "YE19",
+      "source_id": "S073",
+      "corpus_id": "C311",
+      "location": "inner/outer",
+      "claim_type": "RELATION",
+      "claim": "External actions and inner states are treated as mutually conditioning.",
+      "motifs": [
+        "M05",
+        "M10",
+        "M12"
+      ],
+      "provenance": "P2",
+      "batch": "10"
+    },
+    {
+      "global_claim_id": "G10-S073-YE20",
+      "claim_id": "YE20",
+      "source_id": "S073",
+      "corpus_id": "C311",
+      "location": "scope",
+      "claim_type": "DIVERGENCE",
+      "claim": "Universal-consciousness claims remain distinct from Buddhist non-self and modern psychological interpretations.",
+      "motifs": [
+        "M02",
+        "M03",
+        "M14",
+        "M15"
+      ],
+      "provenance": "P2",
+      "batch": "10"
+    },
+    {
+      "global_claim_id": "G10-S069-IFC01",
+      "claim_id": "IFC01",
+      "source_id": "S069",
+      "corpus_id": "C230",
+      "location": "ritual",
+      "claim_type": "PRACTICE",
+      "claim": "Divination knowledge is preserved through specialist transmission rather than private invention.",
+      "motifs": [
+        "M24",
+        "M25"
+      ],
+      "provenance": "Yoruba Ifá / Odu corpus",
+      "batch": "10"
+    },
+    {
+      "global_claim_id": "G10-S069-IFC02",
+      "claim_id": "IFC02",
+      "source_id": "S069",
+      "corpus_id": "C230",
+      "location": "ritual",
+      "claim_type": "RELATION",
+      "claim": "The diviner's interpretation depends on a living relationship among sign, client, tradition, and spiritual order.",
+      "motifs": [
+        "M05",
+        "M16",
+        "M17"
+      ],
+      "provenance": "Yoruba Ifá / Odu corpus",
+      "batch": "10"
+    },
+    {
+      "global_claim_id": "G10-S069-IFC03",
+      "claim_id": "IFC03",
+      "source_id": "S069",
+      "corpus_id": "C230",
+      "location": "Odu",
+      "claim_type": "ONTO",
+      "claim": "Different patterns are treated as meaningful configurations rather than random events.",
+      "motifs": [
+        "M07",
+        "M17",
+        "M20"
+      ],
+      "provenance": "Yoruba Ifá / Odu corpus",
+      "batch": "10"
+    },
+    {
+      "global_claim_id": "G10-S069-IFC04",
+      "claim_id": "IFC04",
+      "source_id": "S069",
+      "corpus_id": "C230",
+      "location": "Orí",
+      "claim_type": "REFLEXIVITY",
+      "claim": "The inner principle associated with Orí is connected with the person's own orientation and choices.",
+      "motifs": [
+        "M02",
+        "M13",
+        "M22"
+      ],
+      "provenance": "Yoruba Ifá / Odu corpus",
+      "batch": "10"
+    },
+    {
+      "global_claim_id": "G10-S069-IFC05",
+      "claim_id": "IFC05",
+      "source_id": "S069",
+      "corpus_id": "C230",
+      "location": "character",
+      "claim_type": "CAUSAL",
+      "claim": "A person's character can mediate how inherited or divined possibilities become lived outcomes.",
+      "motifs": [
+        "M10",
+        "M12"
+      ],
+      "provenance": "Yoruba Ifá / Odu corpus",
+      "batch": "10"
+    },
+    {
+      "global_claim_id": "G10-S069-IFC06",
+      "claim_id": "IFC06",
+      "source_id": "S069",
+      "corpus_id": "C230",
+      "location": "agency",
+      "claim_type": "RELATION",
+      "claim": "Agency operates within a wider field of destiny rather than outside it.",
+      "motifs": [
+        "M04",
+        "M05",
+        "M20"
+      ],
+      "provenance": "Yoruba Ifá / Odu corpus",
+      "batch": "10"
+    },
+    {
+      "global_claim_id": "G10-S069-IFC07",
+      "claim_id": "IFC07",
+      "source_id": "S069",
+      "corpus_id": "C230",
+      "location": "ancestry",
+      "claim_type": "CONTINUITY",
+      "claim": "Knowledge and identity persist through lineage and ritual succession.",
+      "motifs": [
+        "M11",
+        "M16",
+        "M25"
+      ],
+      "provenance": "Yoruba Ifá / Odu corpus",
+      "batch": "10"
+    },
+    {
+      "global_claim_id": "G10-S069-IFC08",
+      "claim_id": "IFC08",
+      "source_id": "S069",
+      "corpus_id": "C230",
+      "location": "community",
+      "claim_type": "PERSON",
+      "claim": "Personhood is interpreted through communal obligations as well as individual qualities.",
+      "motifs": [
+        "M05",
+        "M16"
+      ],
+      "provenance": "Yoruba Ifá / Odu corpus",
+      "batch": "10"
+    },
+    {
+      "global_claim_id": "G10-S069-IFC09",
+      "claim_id": "IFC09",
+      "source_id": "S069",
+      "corpus_id": "C230",
+      "location": "ethics",
+      "claim_type": "VALENCE",
+      "claim": "Moral orientation is treated as causally relevant to the person's path.",
+      "motifs": [
+        "M10",
+        "M12",
+        "M20"
+      ],
+      "provenance": "Yoruba Ifá / Odu corpus",
+      "batch": "10"
+    },
+    {
+      "global_claim_id": "G10-S069-IFC10",
+      "claim_id": "IFC10",
+      "source_id": "S069",
+      "corpus_id": "C230",
+      "location": "ritual",
+      "claim_type": "STATE",
+      "claim": "Ritual practice can alter the participant's orientation toward a difficult situation.",
+      "motifs": [
+        "M07",
+        "M12",
+        "M23"
+      ],
+      "provenance": "Yoruba Ifá / Odu corpus",
+      "batch": "10"
+    },
+    {
+      "global_claim_id": "G10-S069-IFC11",
+      "claim_id": "IFC11",
+      "source_id": "S069",
+      "corpus_id": "C230",
+      "location": "symbols",
+      "claim_type": "META",
+      "claim": "Meaning depends on a tradition's symbolic vocabulary rather than on raw sensory form alone.",
+      "motifs": [
+        "M14",
+        "M17",
+        "M18"
+      ],
+      "provenance": "Yoruba Ifá / Odu corpus",
+      "batch": "10"
+    },
+    {
+      "global_claim_id": "G10-S069-IFC12",
+      "claim_id": "IFC12",
+      "source_id": "S069",
+      "corpus_id": "C230",
+      "location": "interpretation",
+      "claim_type": "PRACTICE",
+      "claim": "Competence involves remembering patterns, comparing cases, and applying inherited criteria.",
+      "motifs": [
+        "M24",
+        "M25"
+      ],
+      "provenance": "Yoruba Ifá / Odu corpus",
+      "batch": "10"
+    },
+    {
+      "global_claim_id": "G10-S069-IFC13",
+      "claim_id": "IFC13",
+      "source_id": "S069",
+      "corpus_id": "C230",
+      "location": "worldview",
+      "claim_type": "COSMO",
+      "claim": "Human problems are interpreted within a larger cosmological order.",
+      "motifs": [
+        "M15",
+        "M20"
+      ],
+      "provenance": "Yoruba Ifá / Odu corpus",
+      "batch": "10"
+    },
+    {
+      "global_claim_id": "G10-S069-IFC14",
+      "claim_id": "IFC14",
+      "source_id": "S069",
+      "corpus_id": "C230",
+      "location": "sacred order",
+      "claim_type": "RELATION",
+      "claim": "The boundary between personal decision and cosmic order is treated as porous.",
+      "motifs": [
+        "M04",
+        "M05",
+        "M20"
+      ],
+      "provenance": "Yoruba Ifá / Odu corpus",
+      "batch": "10"
+    },
+    {
+      "global_claim_id": "G10-S069-IFC15",
+      "claim_id": "IFC15",
+      "source_id": "S069",
+      "corpus_id": "C230",
+      "location": "source criticism",
+      "claim_type": "META",
+      "claim": "A modern description of Ifá cannot stand in for every lineage's own vocabulary.",
+      "motifs": [
+        "M17"
+      ],
+      "provenance": "Yoruba Ifá / Odu corpus",
+      "batch": "10"
+    },
+    {
+      "global_claim_id": "G10-S069-IFC16",
+      "claim_id": "IFC16",
+      "source_id": "S069",
+      "corpus_id": "C230",
+      "location": "personhood",
+      "claim_type": "DIVERGENCE",
+      "claim": "Orí should not be flattened into a generic autonomous ego or software self-model.",
+      "motifs": [
+        "M02",
+        "M04",
+        "M16"
+      ],
+      "provenance": "Yoruba Ifá / Odu corpus",
+      "batch": "10"
+    },
+    {
+      "global_claim_id": "G10-S069-IFC17",
+      "claim_id": "IFC17",
+      "source_id": "S069",
+      "corpus_id": "C230",
+      "location": "knowledge",
+      "claim_type": "INTERIORITY",
+      "claim": "The tradition links knowledge with cultivated discernment rather than detached data collection.",
+      "motifs": [
+        "M06",
+        "M24",
+        "M25"
+      ],
+      "provenance": "Yoruba Ifá / Odu corpus",
+      "batch": "10"
+    },
+    {
+      "global_claim_id": "G10-S069-IFC18",
+      "claim_id": "IFC18",
+      "source_id": "S069",
+      "corpus_id": "C230",
+      "location": "synthetic",
+      "claim_type": "RELATION",
+      "claim": "Ifá adds relational agency to the cross-cultural model of personhood.",
+      "motifs": [
+        "M05",
+        "M12",
+        "M16",
+        "M20"
+      ],
+      "provenance": "Yoruba Ifá / Odu corpus",
+      "batch": "10"
+    },
+    {
+      "global_claim_id": "G10-S070-HUC01",
+      "claim_id": "HUC01",
+      "source_id": "S070",
+      "corpus_id": "C228",
+      "location": "sacred geography",
+      "claim_type": "RELATION",
+      "claim": "Sacred geography links place, ancestry, community, and supernatural agency.",
+      "motifs": [
+        "M05",
+        "M16",
+        "M20"
+      ],
+      "provenance": "Huarochirí Manuscript",
+      "batch": "10"
+    },
+    {
+      "global_claim_id": "G10-S070-HUC02",
+      "claim_id": "HUC02",
+      "source_id": "S070",
+      "corpus_id": "C228",
+      "location": "huaca",
+      "claim_type": "PERSON",
+      "claim": "Sacred places or beings can be addressed as participants in human affairs.",
+      "motifs": [
+        "M05",
+        "M15",
+        "M20"
+      ],
+      "provenance": "Huarochirí Manuscript",
+      "batch": "10"
+    },
+    {
+      "global_claim_id": "G10-S070-HUC03",
+      "claim_id": "HUC03",
+      "source_id": "S070",
+      "corpus_id": "C228",
+      "location": "origin stories",
+      "claim_type": "CONTINUITY",
+      "claim": "Community identity is preserved through repeated accounts of origins and ancestors.",
+      "motifs": [
+        "M11",
+        "M16",
+        "M25"
+      ],
+      "provenance": "Huarochirí Manuscript",
+      "batch": "10"
+    },
+    {
+      "global_claim_id": "G10-S070-HUC04",
+      "claim_id": "HUC04",
+      "source_id": "S070",
+      "corpus_id": "C228",
+      "location": "ritual",
+      "claim_type": "PRACTICE",
+      "claim": "Offerings and ceremonies enact a relationship rather than merely represent one symbolically.",
+      "motifs": [
+        "M12",
+        "M20",
+        "M25"
+      ],
+      "provenance": "Huarochirí Manuscript",
+      "batch": "10"
+    },
+    {
+      "global_claim_id": "G10-S070-HUC05",
+      "claim_id": "HUC05",
+      "source_id": "S070",
+      "corpus_id": "C228",
+      "location": "dream",
+      "claim_type": "STATE",
+      "claim": "Dream experience can function as a mode of contact with otherwise inaccessible relations.",
+      "motifs": [
+        "M07",
+        "M14",
+        "M17"
+      ],
+      "provenance": "Huarochirí Manuscript",
+      "batch": "10"
+    },
+    {
+      "global_claim_id": "G10-S070-HUC06",
+      "claim_id": "HUC06",
+      "source_id": "S070",
+      "corpus_id": "C228",
+      "location": "vision",
+      "claim_type": "PHEN",
+      "claim": "Nonordinary perception is given interpretive significance inside the sacred landscape.",
+      "motifs": [
+        "M01",
+        "M07",
+        "M14"
+      ],
+      "provenance": "Huarochirí Manuscript",
+      "batch": "10"
+    },
+    {
+      "global_claim_id": "G10-S070-HUC07",
+      "claim_id": "HUC07",
+      "source_id": "S070",
+      "corpus_id": "C228",
+      "location": "community",
+      "claim_type": "PERSON",
+      "claim": "Individual wellbeing is inseparable from collective and place-based relationships.",
+      "motifs": [
+        "M05",
+        "M16"
+      ],
+      "provenance": "Huarochirí Manuscript",
+      "batch": "10"
+    },
+    {
+      "global_claim_id": "G10-S070-HUC08",
+      "claim_id": "HUC08",
+      "source_id": "S070",
+      "corpus_id": "C228",
+      "location": "ecology",
+      "claim_type": "RELATION",
+      "claim": "Human survival is interpreted together with the wellbeing of animals, crops, water, and sacred places.",
+      "motifs": [
+        "M05",
+        "M16",
+        "M20"
+      ],
+      "provenance": "Huarochirí Manuscript",
+      "batch": "10"
+    },
+    {
+      "global_claim_id": "G10-S070-HUC09",
+      "claim_id": "HUC09",
+      "source_id": "S070",
+      "corpus_id": "C228",
+      "location": "ritual specialist",
+      "claim_type": "PRACTICE",
+      "claim": "Specialists mediate between ordinary social life and sacred relations.",
+      "motifs": [
+        "M17",
+        "M25"
+      ],
+      "provenance": "Huarochirí Manuscript",
+      "batch": "10"
+    },
+    {
+      "global_claim_id": "G10-S070-HUC10",
+      "claim_id": "HUC10",
+      "source_id": "S070",
+      "corpus_id": "C228",
+      "location": "time",
+      "claim_type": "TEMPORAL",
+      "claim": "Ancestral time remains active in interpreting present events.",
+      "motifs": [
+        "M11",
+        "M19",
+        "M20"
+      ],
+      "provenance": "Huarochirí Manuscript",
+      "batch": "10"
+    },
+    {
+      "global_claim_id": "G10-S070-HUC11",
+      "claim_id": "HUC11",
+      "source_id": "S070",
+      "corpus_id": "C228",
+      "location": "illness",
+      "claim_type": "VALENCE",
+      "claim": "Illness and misfortune can be read through damaged or restored relations.",
+      "motifs": [
+        "M10",
+        "M12",
+        "M20"
+      ],
+      "provenance": "Huarochirí Manuscript",
+      "batch": "10"
+    },
+    {
+      "global_claim_id": "G10-S070-HUC12",
+      "claim_id": "HUC12",
+      "source_id": "S070",
+      "corpus_id": "C228",
+      "location": "fertility",
+      "claim_type": "CAUSAL",
+      "claim": "Ritual practice is linked to hopes for fertility and continuity.",
+      "motifs": [
+        "M10",
+        "M12",
+        "M20"
+      ],
+      "provenance": "Huarochirí Manuscript",
+      "batch": "10"
+    },
+    {
+      "global_claim_id": "G10-S070-HUC13",
+      "claim_id": "HUC13",
+      "source_id": "S070",
+      "corpus_id": "C228",
+      "location": "death",
+      "claim_type": "DEATH",
+      "claim": "Death does not simply erase membership in the relational world.",
+      "motifs": [
+        "M11",
+        "M19",
+        "M20"
+      ],
+      "provenance": "Huarochirí Manuscript",
+      "batch": "10"
+    },
+    {
+      "global_claim_id": "G10-S070-HUC14",
+      "claim_id": "HUC14",
+      "source_id": "S070",
+      "corpus_id": "C228",
+      "location": "land",
+      "claim_type": "ONTO",
+      "claim": "Land is treated as carrying ontological and genealogical significance.",
+      "motifs": [
+        "M05",
+        "M16",
+        "M20"
+      ],
+      "provenance": "Huarochirí Manuscript",
+      "batch": "10"
+    },
+    {
+      "global_claim_id": "G10-S070-HUC15",
+      "claim_id": "HUC15",
+      "source_id": "S070",
+      "corpus_id": "C228",
+      "location": "translation",
+      "claim_type": "META",
+      "claim": "The manuscript's colonial recording history must remain explicit in interpretation.",
+      "motifs": [
+        "M17"
+      ],
+      "provenance": "Huarochirí Manuscript",
+      "batch": "10"
+    },
+    {
+      "global_claim_id": "G10-S070-HUC16",
+      "claim_id": "HUC16",
+      "source_id": "S070",
+      "corpus_id": "C228",
+      "location": "comparison",
+      "claim_type": "DIVERGENCE",
+      "claim": "Relational agency cannot be translated directly into a modern theory of collective mind.",
+      "motifs": [
+        "M04",
+        "M15",
+        "M16"
+      ],
+      "provenance": "Huarochirí Manuscript",
+      "batch": "10"
+    },
+    {
+      "global_claim_id": "G10-S070-HUC17",
+      "claim_id": "HUC17",
+      "source_id": "S070",
+      "corpus_id": "C228",
+      "location": "synthetic",
+      "claim_type": "RELATION",
+      "claim": "Huarochirí strengthens the motif of personhood as situated participation in a sacred world.",
+      "motifs": [
+        "M05",
+        "M16",
+        "M20"
+      ],
+      "provenance": "Huarochirí Manuscript",
+      "batch": "10"
+    },
+    {
+      "global_claim_id": "G10-S071-DIC01",
+      "claim_id": "DIC01",
+      "source_id": "S071",
+      "corpus_id": "C234",
+      "location": "creation",
+      "claim_type": "COSMO",
+      "claim": "Diné creation narratives place human emergence inside an ordered sequence of worlds.",
+      "motifs": [
+        "M07",
+        "M20",
+        "M21"
+      ],
+      "provenance": "Diné Bahane'",
+      "batch": "10"
+    },
+    {
+      "global_claim_id": "G10-S071-DIC02",
+      "claim_id": "DIC02",
+      "source_id": "S071",
+      "corpus_id": "C234",
+      "location": "Holy People",
+      "claim_type": "RELATION",
+      "claim": "Holy People participate in maintaining the world's order.",
+      "motifs": [
+        "M15",
+        "M20"
+      ],
+      "provenance": "Diné Bahane'",
+      "batch": "10"
+    },
+    {
+      "global_claim_id": "G10-S071-DIC03",
+      "claim_id": "DIC03",
+      "source_id": "S071",
+      "corpus_id": "C234",
+      "location": "hózhó",
+      "claim_type": "VALENCE",
+      "claim": "Balance and beauty function as positive measures of right relationship.",
+      "motifs": [
+        "M10",
+        "M12"
+      ],
+      "provenance": "Diné Bahane'",
+      "batch": "10"
+    },
+    {
+      "global_claim_id": "G10-S071-DIC04",
+      "claim_id": "DIC04",
+      "source_id": "S071",
+      "corpus_id": "C234",
+      "location": "ceremony",
+      "claim_type": "PRACTICE",
+      "claim": "Ceremony is a practical means of restoring right relation.",
+      "motifs": [
+        "M12",
+        "M24",
+        "M25"
+      ],
+      "provenance": "Diné Bahane'",
+      "batch": "10"
+    },
+    {
+      "global_claim_id": "G10-S071-DIC05",
+      "claim_id": "DIC05",
+      "source_id": "S071",
+      "corpus_id": "C234",
+      "location": "place",
+      "claim_type": "PERSON",
+      "claim": "Identity is partly constituted through relationship with particular places.",
+      "motifs": [
+        "M05",
+        "M16",
+        "M20"
+      ],
+      "provenance": "Diné Bahane'",
+      "batch": "10"
+    },
+    {
+      "global_claim_id": "G10-S071-DIC06",
+      "claim_id": "DIC06",
+      "source_id": "S071",
+      "corpus_id": "C234",
+      "location": "kinship",
+      "claim_type": "PERSON",
+      "claim": "Kinship extends the field of obligation beyond isolated individuals.",
+      "motifs": [
+        "M05",
+        "M16"
+      ],
+      "provenance": "Diné Bahane'",
+      "batch": "10"
+    },
+    {
+      "global_claim_id": "G10-S071-DIC07",
+      "claim_id": "DIC07",
+      "source_id": "S071",
+      "corpus_id": "C234",
+      "location": "animals",
+      "claim_type": "RELATION",
+      "claim": "Animals can participate in relations of teaching, reciprocity, and meaning.",
+      "motifs": [
+        "M05",
+        "M16",
+        "M20"
+      ],
+      "provenance": "Diné Bahane'",
+      "batch": "10"
+    },
+    {
+      "global_claim_id": "G10-S071-DIC08",
+      "claim_id": "DIC08",
+      "source_id": "S071",
+      "corpus_id": "C234",
+      "location": "story",
+      "claim_type": "CONTINUITY",
+      "claim": "Stories preserve patterns of right relationship across generations.",
+      "motifs": [
+        "M11",
+        "M16",
+        "M25"
+      ],
+      "provenance": "Diné Bahane'",
+      "batch": "10"
+    },
+    {
+      "global_claim_id": "G10-S071-DIC09",
+      "claim_id": "DIC09",
+      "source_id": "S071",
+      "corpus_id": "C234",
+      "location": "ceremonial state",
+      "claim_type": "STATE",
+      "claim": "Ceremony can transform the participant's mode of relation and attention.",
+      "motifs": [
+        "M07",
+        "M12",
+        "M23"
+      ],
+      "provenance": "Diné Bahane'",
+      "batch": "10"
+    },
+    {
+      "global_claim_id": "G10-S071-DIC10",
+      "claim_id": "DIC10",
+      "source_id": "S071",
+      "corpus_id": "C234",
+      "location": "knowledge",
+      "claim_type": "PRACTICE",
+      "claim": "Knowledge is linked to correct participation and responsibility.",
+      "motifs": [
+        "M10",
+        "M24",
+        "M25"
+      ],
+      "provenance": "Diné Bahane'",
+      "batch": "10"
+    },
+    {
+      "global_claim_id": "G10-S071-DIC11",
+      "claim_id": "DIC11",
+      "source_id": "S071",
+      "corpus_id": "C234",
+      "location": "language",
+      "claim_type": "RELATION",
+      "claim": "Language can encode obligations toward land and other beings.",
+      "motifs": [
+        "M05",
+        "M16",
+        "M17"
+      ],
+      "provenance": "Diné Bahane'",
+      "batch": "10"
+    },
+    {
+      "global_claim_id": "G10-S071-DIC12",
+      "claim_id": "DIC12",
+      "source_id": "S071",
+      "corpus_id": "C234",
+      "location": "land",
+      "claim_type": "COSMO",
+      "claim": "Land is integrated into the moral and sacred order rather than treated as neutral property.",
+      "motifs": [
+        "M05",
+        "M15",
+        "M20"
+      ],
+      "provenance": "Diné Bahane'",
+      "batch": "10"
+    },
+    {
+      "global_claim_id": "G10-S071-DIC13",
+      "claim_id": "DIC13",
+      "source_id": "S071",
+      "corpus_id": "C234",
+      "location": "ancestry",
+      "claim_type": "TEMPORAL",
+      "claim": "Ancestral continuity shapes present identity and conduct.",
+      "motifs": [
+        "M11",
+        "M16",
+        "M19"
+      ],
+      "provenance": "Diné Bahane'",
+      "batch": "10"
+    },
+    {
+      "global_claim_id": "G10-S071-DIC14",
+      "claim_id": "DIC14",
+      "source_id": "S071",
+      "corpus_id": "C234",
+      "location": "worlds",
+      "claim_type": "STATE",
+      "claim": "Multiple worlds or stages of existence create a layered cosmology.",
+      "motifs": [
+        "M07",
+        "M17",
+        "M20"
+      ],
+      "provenance": "Diné Bahane'",
+      "batch": "10"
+    },
+    {
+      "global_claim_id": "G10-S071-DIC15",
+      "claim_id": "DIC15",
+      "source_id": "S071",
+      "corpus_id": "C234",
+      "location": "wellbeing",
+      "claim_type": "VALENCE",
+      "claim": "Human wellbeing depends on maintaining harmony with a larger order.",
+      "motifs": [
+        "M10",
+        "M12",
+        "M20"
+      ],
+      "provenance": "Diné Bahane'",
+      "batch": "10"
+    },
+    {
+      "global_claim_id": "G10-S071-DIC16",
+      "claim_id": "DIC16",
+      "source_id": "S071",
+      "corpus_id": "C234",
+      "location": "source",
+      "claim_type": "META",
+      "claim": "Living tradition and community authority matter when interpreting the ontology.",
+      "motifs": [
+        "M17",
+        "M25"
+      ],
+      "provenance": "Diné Bahane'",
+      "batch": "10"
+    },
+    {
+      "global_claim_id": "G10-S071-DIC17",
+      "claim_id": "DIC17",
+      "source_id": "S071",
+      "corpus_id": "C234",
+      "location": "synthetic",
+      "claim_type": "RELATION",
+      "claim": "Diné material reinforces relational continuity without requiring a homogeneous doctrine of consciousness.",
+      "motifs": [
+        "M05",
+        "M16",
+        "M20"
+      ],
+      "provenance": "Diné Bahane'",
+      "batch": "10"
     }
   ],
   "rules": {
