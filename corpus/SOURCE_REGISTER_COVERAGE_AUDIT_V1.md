@@ -109,18 +109,18 @@
 | C088 | Huangdi Neijing — source register entry. | Represented — passage verification pending | 13 | S136 |
 | C089 | Taiping Jing — source register entry. | Represented — passage verification pending | 13 | S137 |
 | C090 | Baopuzi — source register entry. | Represented — passage verification pending | 13 | S138 |
-| C091 | Cantong qi — Daoísmo; foco: Dao, qi, quietud, cultivo. | MISSING — extraction required | 0 | — |
-| C092 | Wuzhen pian — Daoísmo; foco: Dao, qi, quietud, cultivo. | MISSING — extraction required | 0 | — |
-| C093 | Xingming guizhi — Daoísmo; foco: Dao, qi, quietud, cultivo. | MISSING — extraction required | 0 | — |
-| C094 | Secret of the Golden Flower — Daoísmo; foco: Dao, qi, quietud, cultivo. | MISSING — extraction required | 0 | — |
+| C091 | Cantong qi — source register entry. | Represented — passage verification pending | 13 | S139 |
+| C092 | Wuzhen pian — source register entry. | Represented — passage verification pending | 13 | S140 |
+| C093 | Xingming guizhi — source register entry. | Represented — passage verification pending | 13 | S141 |
+| C094 | Secret of the Golden Flower — source register entry. | Represented — passage verification pending | 13 | S142 |
 | C095 | Gathas / Yasna selections — Persa/iraní; foco: alma, luz, intelecto, ética. | Represented — verification status varies | 16 | S050 |
-| C096 | Avesta — Persa/iraní; foco: alma, luz, intelecto, ética. | MISSING — extraction required | 0 | — |
-| C097 | Bundahishn — Persa/iraní; foco: alma, luz, intelecto, ética. | MISSING — extraction required | 0 | — |
-| C098 | Denkard — Persa/iraní; foco: alma, luz, intelecto, ética. | MISSING — extraction required | 0 | — |
+| C096 | Avesta — source register entry. | Represented — passage verification pending | 13 | S143 |
+| C097 | Bundahishn — source register entry. | Represented — passage verification pending | 13 | S144 |
+| C098 | Denkard — source register entry. | Represented — passage verification pending | 13 | S145 |
 | C099 | The Philosophy of Illumination — Persa/iraní; foco: conciencia, persona, realidad, transformación. | Represented — verification status varies | 20 | S054 |
-| C100 | The Intimations — Persa/iraní; foco: conciencia, persona, realidad, transformación. | MISSING — extraction required | 0 | — |
-| C101 | Asfar al-Arba'a — Persa/iraní; foco: conciencia, persona, realidad, transformación. | MISSING — extraction required | 0 | — |
-| C102 | al-Hikma al-'Arshiyya — Persa/iraní; foco: conciencia, persona, realidad, transformación. | MISSING — extraction required | 0 | — |
+| C100 | The Intimations — source register entry. | Represented — passage verification pending | 13 | S146 |
+| C101 | Asfar al-Arba'a — source register entry. | Represented — passage verification pending | 13 | S147 |
+| C102 | al-Hikma al-'Arshiyya — source register entry. | Represented — passage verification pending | 13 | S148 |
 | C103 | Haqq al-Yaqin — Persa/iraní; foco: conciencia, persona, realidad, transformación. | MISSING — extraction required | 0 | — |
 | C104 | Pyramid Texts — Egipto antiguo; foco: alma multipartita, corazón, muerte. | MISSING — extraction required | 0 | — |
 | C105 | Coffin Texts — Egipto antiguo; foco: alma multipartita, corazón, muerte. | MISSING — extraction required | 0 | — |
@@ -359,3 +359,8 @@ C061, C062, C063, C064, C065, C066, C068, C070, C071 and C074 are now represente
 ## Batch v18 checkpoint
 
 C076, C077, C079, C081, C082, C086, C087, C088, C089 and C090 are now represented with 13 P2* candidates each in `REMAINING_SOURCES_BATCH_V18.md`.
+
+
+## Batch v19 checkpoint
+
+C091, C092, C093, C094, C096, C097, C098, C100, C101 and C102 are now represented with 13 P2* candidates each in `REMAINING_SOURCES_BATCH_V19.md`.
