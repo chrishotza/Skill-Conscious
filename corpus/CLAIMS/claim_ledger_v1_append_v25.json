@@ -5,7 +5,7 @@
   "claim_count": 130,
   "records": [
     {
-      "global_claim_id": "G25-S198-01",
+      "global_claim_id": "G25-S198-K01",
       "claim_id": "K01",
       "source_id": "S198",
       "corpus_id": "C174",
@@ -21,7 +21,7 @@
       "batch": "25"
     },
     {
-      "global_claim_id": "G25-S198-02",
+      "global_claim_id": "G25-S198-K02",
       "claim_id": "K02",
       "source_id": "S198",
       "corpus_id": "C174",
@@ -36,7 +36,7 @@
       "batch": "25"
     },
     {
-      "global_claim_id": "G25-S198-03",
+      "global_claim_id": "G25-S198-K03",
       "claim_id": "K03",
       "source_id": "S198",
       "corpus_id": "C174",
@@ -51,7 +51,7 @@
       "batch": "25"
     },
     {
-      "global_claim_id": "G25-S198-04",
+      "global_claim_id": "G25-S198-K04",
       "claim_id": "K04",
       "source_id": "S198",
       "corpus_id": "C174",
@@ -67,7 +67,7 @@
       "batch": "25"
     },
     {
-      "global_claim_id": "G25-S198-05",
+      "global_claim_id": "G25-S198-K05",
       "claim_id": "K05",
       "source_id": "S198",
       "corpus_id": "C174",
@@ -82,7 +82,7 @@
       "batch": "25"
     },
     {
-      "global_claim_id": "G25-S198-06",
+      "global_claim_id": "G25-S198-K06",
       "claim_id": "K06",
       "source_id": "S198",
       "corpus_id": "C174",
@@ -97,7 +97,7 @@
       "batch": "25"
     },
     {
-      "global_claim_id": "G25-S198-07",
+      "global_claim_id": "G25-S198-K07",
       "claim_id": "K07",
       "source_id": "S198",
       "corpus_id": "C174",
@@ -112,7 +112,7 @@
       "batch": "25"
     },
     {
-      "global_claim_id": "G25-S198-08",
+      "global_claim_id": "G25-S198-K08",
       "claim_id": "K08",
       "source_id": "S198",
       "corpus_id": "C174",
@@ -127,7 +127,7 @@
       "batch": "25"
     },
     {
-      "global_claim_id": "G25-S198-09",
+      "global_claim_id": "G25-S198-K09",
       "claim_id": "K09",
       "source_id": "S198",
       "corpus_id": "C174",
@@ -142,7 +142,7 @@
       "batch": "25"
     },
     {
-      "global_claim_id": "G25-S198-10",
+      "global_claim_id": "G25-S198-K10",
       "claim_id": "K10",
       "source_id": "S198",
       "corpus_id": "C174",
@@ -157,7 +157,7 @@
       "batch": "25"
     },
     {
-      "global_claim_id": "G25-S198-11",
+      "global_claim_id": "G25-S198-K11",
       "claim_id": "K11",
       "source_id": "S198",
       "corpus_id": "C174",
@@ -172,7 +172,7 @@
       "batch": "25"
     },
     {
-      "global_claim_id": "G25-S198-12",
+      "global_claim_id": "G25-S198-K12",
       "claim_id": "K12",
       "source_id": "S198",
       "corpus_id": "C174",
@@ -187,7 +187,7 @@
       "batch": "25"
     },
     {
-      "global_claim_id": "G25-S198-13",
+      "global_claim_id": "G25-S198-K13",
       "claim_id": "K13",
       "source_id": "S198",
       "corpus_id": "C174",
@@ -203,7 +203,7 @@
       "batch": "25"
     },
     {
-      "global_claim_id": "G25-S199-01",
+      "global_claim_id": "G25-S199-K01",
       "claim_id": "K01",
       "source_id": "S199",
       "corpus_id": "C175",
@@ -218,7 +218,7 @@
       "batch": "25"
     },
     {
-      "global_claim_id": "G25-S199-02",
+      "global_claim_id": "G25-S199-K02",
       "claim_id": "K02",
       "source_id": "S199",
       "corpus_id": "C175",
@@ -233,7 +233,7 @@
       "batch": "25"
     },
     {
-      "global_claim_id": "G25-S199-03",
+      "global_claim_id": "G25-S199-K03",
       "claim_id": "K03",
       "source_id": "S199",
       "corpus_id": "C175",
@@ -248,7 +248,7 @@
       "batch": "25"
     },
     {
-      "global_claim_id": "G25-S199-04",
+      "global_claim_id": "G25-S199-K04",
       "claim_id": "K04",
       "source_id": "S199",
       "corpus_id": "C175",
@@ -264,7 +264,7 @@
       "batch": "25"
     },
     {
-      "global_claim_id": "G25-S199-05",
+      "global_claim_id": "G25-S199-K05",
       "claim_id": "K05",
       "source_id": "S199",
       "corpus_id": "C175",
@@ -279,7 +279,7 @@
       "batch": "25"
     },
     {
-      "global_claim_id": "G25-S199-06",
+      "global_claim_id": "G25-S199-K06",
       "claim_id": "K06",
       "source_id": "S199",
       "corpus_id": "C175",
@@ -294,7 +294,7 @@
       "batch": "25"
     },
     {
-      "global_claim_id": "G25-S199-07",
+      "global_claim_id": "G25-S199-K07",
       "claim_id": "K07",
       "source_id": "S199",
       "corpus_id": "C175",
@@ -309,7 +309,7 @@
       "batch": "25"
     },
     {
-      "global_claim_id": "G25-S199-08",
+      "global_claim_id": "G25-S199-K08",
       "claim_id": "K08",
       "source_id": "S199",
       "corpus_id": "C175",
@@ -324,7 +324,7 @@
       "batch": "25"
     },
     {
-      "global_claim_id": "G25-S199-09",
+      "global_claim_id": "G25-S199-K09",
       "claim_id": "K09",
       "source_id": "S199",
       "corpus_id": "C175",
@@ -339,7 +339,7 @@
       "batch": "25"
     },
     {
-      "global_claim_id": "G25-S199-10",
+      "global_claim_id": "G25-S199-K10",
       "claim_id": "K10",
       "source_id": "S199",
       "corpus_id": "C175",
@@ -354,7 +354,7 @@
       "batch": "25"
     },
     {
-      "global_claim_id": "G25-S199-11",
+      "global_claim_id": "G25-S199-K11",
       "claim_id": "K11",
       "source_id": "S199",
       "corpus_id": "C175",
@@ -369,7 +369,7 @@
       "batch": "25"
     },
     {
-      "global_claim_id": "G25-S199-12",
+      "global_claim_id": "G25-S199-K12",
       "claim_id": "K12",
       "source_id": "S199",
       "corpus_id": "C175",
@@ -384,7 +384,7 @@
       "batch": "25"
     },
     {
-      "global_claim_id": "G25-S199-13",
+      "global_claim_id": "G25-S199-K13",
       "claim_id": "K13",
       "source_id": "S199",
       "corpus_id": "C175",
@@ -400,7 +400,7 @@
       "batch": "25"
     },
     {
-      "global_claim_id": "G25-S200-01",
+      "global_claim_id": "G25-S200-K01",
       "claim_id": "K01",
       "source_id": "S200",
       "corpus_id": "C177",
@@ -416,7 +416,7 @@
       "batch": "25"
     },
     {
-      "global_claim_id": "G25-S200-02",
+      "global_claim_id": "G25-S200-K02",
       "claim_id": "K02",
       "source_id": "S200",
       "corpus_id": "C177",
@@ -431,7 +431,7 @@
       "batch": "25"
     },
     {
-      "global_claim_id": "G25-S200-03",
+      "global_claim_id": "G25-S200-K03",
       "claim_id": "K03",
       "source_id": "S200",
       "corpus_id": "C177",
@@ -447,7 +447,7 @@
       "batch": "25"
     },
     {
-      "global_claim_id": "G25-S200-04",
+      "global_claim_id": "G25-S200-K04",
       "claim_id": "K04",
       "source_id": "S200",
       "corpus_id": "C177",
@@ -462,7 +462,7 @@
       "batch": "25"
     },
     {
-      "global_claim_id": "G25-S200-05",
+      "global_claim_id": "G25-S200-K05",
       "claim_id": "K05",
       "source_id": "S200",
       "corpus_id": "C177",
@@ -477,7 +477,7 @@
       "batch": "25"
     },
     {
-      "global_claim_id": "G25-S200-06",
+      "global_claim_id": "G25-S200-K06",
       "claim_id": "K06",
       "source_id": "S200",
       "corpus_id": "C177",
@@ -492,7 +492,7 @@
       "batch": "25"
     },
     {
-      "global_claim_id": "G25-S200-07",
+      "global_claim_id": "G25-S200-K07",
       "claim_id": "K07",
       "source_id": "S200",
       "corpus_id": "C177",
@@ -508,7 +508,7 @@
       "batch": "25"
     },
     {
-      "global_claim_id": "G25-S200-08",
+      "global_claim_id": "G25-S200-K08",
       "claim_id": "K08",
       "source_id": "S200",
       "corpus_id": "C177",
@@ -523,7 +523,7 @@
       "batch": "25"
     },
     {
-      "global_claim_id": "G25-S200-09",
+      "global_claim_id": "G25-S200-K09",
       "claim_id": "K09",
       "source_id": "S200",
       "corpus_id": "C177",
@@ -538,7 +538,7 @@
       "batch": "25"
     },
     {
-      "global_claim_id": "G25-S200-10",
+      "global_claim_id": "G25-S200-K10",
       "claim_id": "K10",
       "source_id": "S200",
       "corpus_id": "C177",
@@ -553,7 +553,7 @@
       "batch": "25"
     },
     {
-      "global_claim_id": "G25-S200-11",
+      "global_claim_id": "G25-S200-K11",
       "claim_id": "K11",
       "source_id": "S200",
       "corpus_id": "C177",
@@ -568,7 +568,7 @@
       "batch": "25"
     },
     {
-      "global_claim_id": "G25-S200-12",
+      "global_claim_id": "G25-S200-K12",
       "claim_id": "K12",
       "source_id": "S200",
       "corpus_id": "C177",
@@ -583,7 +583,7 @@
       "batch": "25"
     },
     {
-      "global_claim_id": "G25-S200-13",
+      "global_claim_id": "G25-S200-K13",
       "claim_id": "K13",
       "source_id": "S200",
       "corpus_id": "C177",
@@ -599,7 +599,7 @@
       "batch": "25"
     },
     {
-      "global_claim_id": "G25-S201-01",
+      "global_claim_id": "G25-S201-K01",
       "claim_id": "K01",
       "source_id": "S201",
       "corpus_id": "C178",
@@ -614,7 +614,7 @@
       "batch": "25"
     },
     {
-      "global_claim_id": "G25-S201-02",
+      "global_claim_id": "G25-S201-K02",
       "claim_id": "K02",
       "source_id": "S201",
       "corpus_id": "C178",
@@ -629,7 +629,7 @@
       "batch": "25"
     },
     {
-      "global_claim_id": "G25-S201-03",
+      "global_claim_id": "G25-S201-K03",
       "claim_id": "K03",
       "source_id": "S201",
       "corpus_id": "C178",
@@ -644,7 +644,7 @@
       "batch": "25"
     },
     {
-      "global_claim_id": "G25-S201-04",
+      "global_claim_id": "G25-S201-K04",
       "claim_id": "K04",
       "source_id": "S201",
       "corpus_id": "C178",
@@ -659,7 +659,7 @@
       "batch": "25"
     },
     {
-      "global_claim_id": "G25-S201-05",
+      "global_claim_id": "G25-S201-K05",
       "claim_id": "K05",
       "source_id": "S201",
       "corpus_id": "C178",
@@ -675,7 +675,7 @@
       "batch": "25"
     },
     {
-      "global_claim_id": "G25-S201-06",
+      "global_claim_id": "G25-S201-K06",
       "claim_id": "K06",
       "source_id": "S201",
       "corpus_id": "C178",
@@ -690,7 +690,7 @@
       "batch": "25"
     },
     {
-      "global_claim_id": "G25-S201-07",
+      "global_claim_id": "G25-S201-K07",
       "claim_id": "K07",
       "source_id": "S201",
       "corpus_id": "C178",
@@ -705,7 +705,7 @@
       "batch": "25"
     },
     {
-      "global_claim_id": "G25-S201-08",
+      "global_claim_id": "G25-S201-K08",
       "claim_id": "K08",
       "source_id": "S201",
       "corpus_id": "C178",
@@ -720,7 +720,7 @@
       "batch": "25"
     },
     {
-      "global_claim_id": "G25-S201-09",
+      "global_claim_id": "G25-S201-K09",
       "claim_id": "K09",
       "source_id": "S201",
       "corpus_id": "C178",
@@ -735,7 +735,7 @@
       "batch": "25"
     },
     {
-      "global_claim_id": "G25-S201-10",
+      "global_claim_id": "G25-S201-K10",
       "claim_id": "K10",
       "source_id": "S201",
       "corpus_id": "C178",
@@ -750,7 +750,7 @@
       "batch": "25"
     },
     {
-      "global_claim_id": "G25-S201-11",
+      "global_claim_id": "G25-S201-K11",
       "claim_id": "K11",
       "source_id": "S201",
       "corpus_id": "C178",
@@ -765,7 +765,7 @@
       "batch": "25"
     },
     {
-      "global_claim_id": "G25-S201-12",
+      "global_claim_id": "G25-S201-K12",
       "claim_id": "K12",
       "source_id": "S201",
       "corpus_id": "C178",
@@ -780,7 +780,7 @@
       "batch": "25"
     },
     {
-      "global_claim_id": "G25-S201-13",
+      "global_claim_id": "G25-S201-K13",
       "claim_id": "K13",
       "source_id": "S201",
       "corpus_id": "C178",
@@ -796,7 +796,7 @@
       "batch": "25"
     },
     {
-      "global_claim_id": "G25-S202-01",
+      "global_claim_id": "G25-S202-K01",
       "claim_id": "K01",
       "source_id": "S202",
       "corpus_id": "C183",
@@ -811,7 +811,7 @@
       "batch": "25"
     },
     {
-      "global_claim_id": "G25-S202-02",
+      "global_claim_id": "G25-S202-K02",
       "claim_id": "K02",
       "source_id": "S202",
       "corpus_id": "C183",
@@ -827,7 +827,7 @@
       "batch": "25"
     },
     {
-      "global_claim_id": "G25-S202-03",
+      "global_claim_id": "G25-S202-K03",
       "claim_id": "K03",
       "source_id": "S202",
       "corpus_id": "C183",
@@ -842,7 +842,7 @@
       "batch": "25"
     },
     {
-      "global_claim_id": "G25-S202-04",
+      "global_claim_id": "G25-S202-K04",
       "claim_id": "K04",
       "source_id": "S202",
       "corpus_id": "C183",
@@ -858,7 +858,7 @@
       "batch": "25"
     },
     {
-      "global_claim_id": "G25-S202-05",
+      "global_claim_id": "G25-S202-K05",
       "claim_id": "K05",
       "source_id": "S202",
       "corpus_id": "C183",
@@ -874,7 +874,7 @@
       "batch": "25"
     },
     {
-      "global_claim_id": "G25-S202-06",
+      "global_claim_id": "G25-S202-K06",
       "claim_id": "K06",
       "source_id": "S202",
       "corpus_id": "C183",
@@ -889,7 +889,7 @@
       "batch": "25"
     },
     {
-      "global_claim_id": "G25-S202-07",
+      "global_claim_id": "G25-S202-K07",
       "claim_id": "K07",
       "source_id": "S202",
       "corpus_id": "C183",
@@ -904,7 +904,7 @@
       "batch": "25"
     },
     {
-      "global_claim_id": "G25-S202-08",
+      "global_claim_id": "G25-S202-K08",
       "claim_id": "K08",
       "source_id": "S202",
       "corpus_id": "C183",
@@ -919,7 +919,7 @@
       "batch": "25"
     },
     {
-      "global_claim_id": "G25-S202-09",
+      "global_claim_id": "G25-S202-K09",
       "claim_id": "K09",
       "source_id": "S202",
       "corpus_id": "C183",
@@ -934,7 +934,7 @@
       "batch": "25"
     },
     {
-      "global_claim_id": "G25-S202-10",
+      "global_claim_id": "G25-S202-K10",
       "claim_id": "K10",
       "source_id": "S202",
       "corpus_id": "C183",
@@ -949,7 +949,7 @@
       "batch": "25"
     },
     {
-      "global_claim_id": "G25-S202-11",
+      "global_claim_id": "G25-S202-K11",
       "claim_id": "K11",
       "source_id": "S202",
       "corpus_id": "C183",
@@ -964,7 +964,7 @@
       "batch": "25"
     },
     {
-      "global_claim_id": "G25-S202-12",
+      "global_claim_id": "G25-S202-K12",
       "claim_id": "K12",
       "source_id": "S202",
       "corpus_id": "C183",
@@ -979,7 +979,7 @@
       "batch": "25"
     },
     {
-      "global_claim_id": "G25-S202-13",
+      "global_claim_id": "G25-S202-K13",
       "claim_id": "K13",
       "source_id": "S202",
       "corpus_id": "C183",
@@ -995,7 +995,7 @@
       "batch": "25"
     },
     {
-      "global_claim_id": "G25-S203-01",
+      "global_claim_id": "G25-S203-K01",
       "claim_id": "K01",
       "source_id": "S203",
       "corpus_id": "C184",
@@ -1010,7 +1010,7 @@
       "batch": "25"
     },
     {
-      "global_claim_id": "G25-S203-02",
+      "global_claim_id": "G25-S203-K02",
       "claim_id": "K02",
       "source_id": "S203",
       "corpus_id": "C184",
@@ -1025,7 +1025,7 @@
       "batch": "25"
     },
     {
-      "global_claim_id": "G25-S203-03",
+      "global_claim_id": "G25-S203-K03",
       "claim_id": "K03",
       "source_id": "S203",
       "corpus_id": "C184",
@@ -1041,7 +1041,7 @@
       "batch": "25"
     },
     {
-      "global_claim_id": "G25-S203-04",
+      "global_claim_id": "G25-S203-K04",
       "claim_id": "K04",
       "source_id": "S203",
       "corpus_id": "C184",
@@ -1056,7 +1056,7 @@
       "batch": "25"
     },
     {
-      "global_claim_id": "G25-S203-05",
+      "global_claim_id": "G25-S203-K05",
       "claim_id": "K05",
       "source_id": "S203",
       "corpus_id": "C184",
@@ -1071,7 +1071,7 @@
       "batch": "25"
     },
     {
-      "global_claim_id": "G25-S203-06",
+      "global_claim_id": "G25-S203-K06",
       "claim_id": "K06",
       "source_id": "S203",
       "corpus_id": "C184",
@@ -1086,7 +1086,7 @@
       "batch": "25"
     },
     {
-      "global_claim_id": "G25-S203-07",
+      "global_claim_id": "G25-S203-K07",
       "claim_id": "K07",
       "source_id": "S203",
       "corpus_id": "C184",
@@ -1101,7 +1101,7 @@
       "batch": "25"
     },
     {
-      "global_claim_id": "G25-S203-08",
+      "global_claim_id": "G25-S203-K08",
       "claim_id": "K08",
       "source_id": "S203",
       "corpus_id": "C184",
@@ -1116,7 +1116,7 @@
       "batch": "25"
     },
     {
-      "global_claim_id": "G25-S203-09",
+      "global_claim_id": "G25-S203-K09",
       "claim_id": "K09",
       "source_id": "S203",
       "corpus_id": "C184",
@@ -1132,7 +1132,7 @@
       "batch": "25"
     },
     {
-      "global_claim_id": "G25-S203-10",
+      "global_claim_id": "G25-S203-K10",
       "claim_id": "K10",
       "source_id": "S203",
       "corpus_id": "C184",
@@ -1147,7 +1147,7 @@
       "batch": "25"
     },
     {
-      "global_claim_id": "G25-S203-11",
+      "global_claim_id": "G25-S203-K11",
       "claim_id": "K11",
       "source_id": "S203",
       "corpus_id": "C184",
@@ -1162,7 +1162,7 @@
       "batch": "25"
     },
     {
-      "global_claim_id": "G25-S203-12",
+      "global_claim_id": "G25-S203-K12",
       "claim_id": "K12",
       "source_id": "S203",
       "corpus_id": "C184",
@@ -1177,7 +1177,7 @@
       "batch": "25"
     },
     {
-      "global_claim_id": "G25-S203-13",
+      "global_claim_id": "G25-S203-K13",
       "claim_id": "K13",
       "source_id": "S203",
       "corpus_id": "C184",
@@ -1193,7 +1193,7 @@
       "batch": "25"
     },
     {
-      "global_claim_id": "G25-S204-01",
+      "global_claim_id": "G25-S204-K01",
       "claim_id": "K01",
       "source_id": "S204",
       "corpus_id": "C185",
@@ -1209,7 +1209,7 @@
       "batch": "25"
     },
     {
-      "global_claim_id": "G25-S204-02",
+      "global_claim_id": "G25-S204-K02",
       "claim_id": "K02",
       "source_id": "S204",
       "corpus_id": "C185",
@@ -1224,7 +1224,7 @@
       "batch": "25"
     },
     {
-      "global_claim_id": "G25-S204-03",
+      "global_claim_id": "G25-S204-K03",
       "claim_id": "K03",
       "source_id": "S204",
       "corpus_id": "C185",
@@ -1239,7 +1239,7 @@
       "batch": "25"
     },
     {
-      "global_claim_id": "G25-S204-04",
+      "global_claim_id": "G25-S204-K04",
       "claim_id": "K04",
       "source_id": "S204",
       "corpus_id": "C185",
@@ -1254,7 +1254,7 @@
       "batch": "25"
     },
     {
-      "global_claim_id": "G25-S204-05",
+      "global_claim_id": "G25-S204-K05",
       "claim_id": "K05",
       "source_id": "S204",
       "corpus_id": "C185",
@@ -1269,7 +1269,7 @@
       "batch": "25"
     },
     {
-      "global_claim_id": "G25-S204-06",
+      "global_claim_id": "G25-S204-K06",
       "claim_id": "K06",
       "source_id": "S204",
       "corpus_id": "C185",
@@ -1284,7 +1284,7 @@
       "batch": "25"
     },
     {
-      "global_claim_id": "G25-S204-07",
+      "global_claim_id": "G25-S204-K07",
       "claim_id": "K07",
       "source_id": "S204",
       "corpus_id": "C185",
@@ -1299,7 +1299,7 @@
       "batch": "25"
     },
     {
-      "global_claim_id": "G25-S204-08",
+      "global_claim_id": "G25-S204-K08",
       "claim_id": "K08",
       "source_id": "S204",
       "corpus_id": "C185",
@@ -1314,7 +1314,7 @@
       "batch": "25"
     },
     {
-      "global_claim_id": "G25-S204-09",
+      "global_claim_id": "G25-S204-K09",
       "claim_id": "K09",
       "source_id": "S204",
       "corpus_id": "C185",
@@ -1329,7 +1329,7 @@
       "batch": "25"
     },
     {
-      "global_claim_id": "G25-S204-10",
+      "global_claim_id": "G25-S204-K10",
       "claim_id": "K10",
       "source_id": "S204",
       "corpus_id": "C185",
@@ -1344,7 +1344,7 @@
       "batch": "25"
     },
     {
-      "global_claim_id": "G25-S204-11",
+      "global_claim_id": "G25-S204-K11",
       "claim_id": "K11",
       "source_id": "S204",
       "corpus_id": "C185",
@@ -1359,7 +1359,7 @@
       "batch": "25"
     },
     {
-      "global_claim_id": "G25-S204-12",
+      "global_claim_id": "G25-S204-K12",
       "claim_id": "K12",
       "source_id": "S204",
       "corpus_id": "C185",
@@ -1374,7 +1374,7 @@
       "batch": "25"
     },
     {
-      "global_claim_id": "G25-S204-13",
+      "global_claim_id": "G25-S204-K13",
       "claim_id": "K13",
       "source_id": "S204",
       "corpus_id": "C185",
@@ -1390,7 +1390,7 @@
       "batch": "25"
     },
     {
-      "global_claim_id": "G25-S205-01",
+      "global_claim_id": "G25-S205-K01",
       "claim_id": "K01",
       "source_id": "S205",
       "corpus_id": "C186",
@@ -1406,7 +1406,7 @@
       "batch": "25"
     },
     {
-      "global_claim_id": "G25-S205-02",
+      "global_claim_id": "G25-S205-K02",
       "claim_id": "K02",
       "source_id": "S205",
       "corpus_id": "C186",
@@ -1421,7 +1421,7 @@
       "batch": "25"
     },
     {
-      "global_claim_id": "G25-S205-03",
+      "global_claim_id": "G25-S205-K03",
       "claim_id": "K03",
       "source_id": "S205",
       "corpus_id": "C186",
@@ -1436,7 +1436,7 @@
       "batch": "25"
     },
     {
-      "global_claim_id": "G25-S205-04",
+      "global_claim_id": "G25-S205-K04",
       "claim_id": "K04",
       "source_id": "S205",
       "corpus_id": "C186",
@@ -1451,7 +1451,7 @@
       "batch": "25"
     },
     {
-      "global_claim_id": "G25-S205-05",
+      "global_claim_id": "G25-S205-K05",
       "claim_id": "K05",
       "source_id": "S205",
       "corpus_id": "C186",
@@ -1466,7 +1466,7 @@
       "batch": "25"
     },
     {
-      "global_claim_id": "G25-S205-06",
+      "global_claim_id": "G25-S205-K06",
       "claim_id": "K06",
       "source_id": "S205",
       "corpus_id": "C186",
@@ -1481,7 +1481,7 @@
       "batch": "25"
     },
     {
-      "global_claim_id": "G25-S205-07",
+      "global_claim_id": "G25-S205-K07",
       "claim_id": "K07",
       "source_id": "S205",
       "corpus_id": "C186",
@@ -1496,7 +1496,7 @@
       "batch": "25"
     },
     {
-      "global_claim_id": "G25-S205-08",
+      "global_claim_id": "G25-S205-K08",
       "claim_id": "K08",
       "source_id": "S205",
       "corpus_id": "C186",
@@ -1511,7 +1511,7 @@
       "batch": "25"
     },
     {
-      "global_claim_id": "G25-S205-09",
+      "global_claim_id": "G25-S205-K09",
       "claim_id": "K09",
       "source_id": "S205",
       "corpus_id": "C186",
@@ -1526,7 +1526,7 @@
       "batch": "25"
     },
     {
-      "global_claim_id": "G25-S205-10",
+      "global_claim_id": "G25-S205-K10",
       "claim_id": "K10",
       "source_id": "S205",
       "corpus_id": "C186",
@@ -1541,7 +1541,7 @@
       "batch": "25"
     },
     {
-      "global_claim_id": "G25-S205-11",
+      "global_claim_id": "G25-S205-K11",
       "claim_id": "K11",
       "source_id": "S205",
       "corpus_id": "C186",
@@ -1556,7 +1556,7 @@
       "batch": "25"
     },
     {
-      "global_claim_id": "G25-S205-12",
+      "global_claim_id": "G25-S205-K12",
       "claim_id": "K12",
       "source_id": "S205",
       "corpus_id": "C186",
@@ -1571,7 +1571,7 @@
       "batch": "25"
     },
     {
-      "global_claim_id": "G25-S205-13",
+      "global_claim_id": "G25-S205-K13",
       "claim_id": "K13",
       "source_id": "S205",
       "corpus_id": "C186",
@@ -1587,7 +1587,7 @@
       "batch": "25"
     },
     {
-      "global_claim_id": "G25-S206-01",
+      "global_claim_id": "G25-S206-K01",
       "claim_id": "K01",
       "source_id": "S206",
       "corpus_id": "C187",
@@ -1603,7 +1603,7 @@
       "batch": "25"
     },
     {
-      "global_claim_id": "G25-S206-02",
+      "global_claim_id": "G25-S206-K02",
       "claim_id": "K02",
       "source_id": "S206",
       "corpus_id": "C187",
@@ -1618,7 +1618,7 @@
       "batch": "25"
     },
     {
-      "global_claim_id": "G25-S206-03",
+      "global_claim_id": "G25-S206-K03",
       "claim_id": "K03",
       "source_id": "S206",
       "corpus_id": "C187",
@@ -1633,7 +1633,7 @@
       "batch": "25"
     },
     {
-      "global_claim_id": "G25-S206-04",
+      "global_claim_id": "G25-S206-K04",
       "claim_id": "K04",
       "source_id": "S206",
       "corpus_id": "C187",
@@ -1648,7 +1648,7 @@
       "batch": "25"
     },
     {
-      "global_claim_id": "G25-S206-05",
+      "global_claim_id": "G25-S206-K05",
       "claim_id": "K05",
       "source_id": "S206",
       "corpus_id": "C187",
@@ -1663,7 +1663,7 @@
       "batch": "25"
     },
     {
-      "global_claim_id": "G25-S206-06",
+      "global_claim_id": "G25-S206-K06",
       "claim_id": "K06",
       "source_id": "S206",
       "corpus_id": "C187",
@@ -1678,7 +1678,7 @@
       "batch": "25"
     },
     {
-      "global_claim_id": "G25-S206-07",
+      "global_claim_id": "G25-S206-K07",
       "claim_id": "K07",
       "source_id": "S206",
       "corpus_id": "C187",
@@ -1693,7 +1693,7 @@
       "batch": "25"
     },
     {
-      "global_claim_id": "G25-S206-08",
+      "global_claim_id": "G25-S206-K08",
       "claim_id": "K08",
       "source_id": "S206",
       "corpus_id": "C187",
@@ -1708,7 +1708,7 @@
       "batch": "25"
     },
     {
-      "global_claim_id": "G25-S206-09",
+      "global_claim_id": "G25-S206-K09",
       "claim_id": "K09",
       "source_id": "S206",
       "corpus_id": "C187",
@@ -1723,7 +1723,7 @@
       "batch": "25"
     },
     {
-      "global_claim_id": "G25-S206-10",
+      "global_claim_id": "G25-S206-K10",
       "claim_id": "K10",
       "source_id": "S206",
       "corpus_id": "C187",
@@ -1738,7 +1738,7 @@
       "batch": "25"
     },
     {
-      "global_claim_id": "G25-S206-11",
+      "global_claim_id": "G25-S206-K11",
       "claim_id": "K11",
       "source_id": "S206",
       "corpus_id": "C187",
@@ -1753,7 +1753,7 @@
       "batch": "25"
     },
     {
-      "global_claim_id": "G25-S206-12",
+      "global_claim_id": "G25-S206-K12",
       "claim_id": "K12",
       "source_id": "S206",
       "corpus_id": "C187",
@@ -1769,7 +1769,7 @@
       "batch": "25"
     },
     {
-      "global_claim_id": "G25-S206-13",
+      "global_claim_id": "G25-S206-K13",
       "claim_id": "K13",
       "source_id": "S206",
       "corpus_id": "C187",
@@ -1785,7 +1785,7 @@
       "batch": "25"
     },
     {
-      "global_claim_id": "G25-S207-01",
+      "global_claim_id": "G25-S207-K01",
       "claim_id": "K01",
       "source_id": "S207",
       "corpus_id": "C188",
@@ -1801,7 +1801,7 @@
       "batch": "25"
     },
     {
-      "global_claim_id": "G25-S207-02",
+      "global_claim_id": "G25-S207-K02",
       "claim_id": "K02",
       "source_id": "S207",
       "corpus_id": "C188",
@@ -1816,7 +1816,7 @@
       "batch": "25"
     },
     {
-      "global_claim_id": "G25-S207-03",
+      "global_claim_id": "G25-S207-K03",
       "claim_id": "K03",
       "source_id": "S207",
       "corpus_id": "C188",
@@ -1831,7 +1831,7 @@
       "batch": "25"
     },
     {
-      "global_claim_id": "G25-S207-04",
+      "global_claim_id": "G25-S207-K04",
       "claim_id": "K04",
       "source_id": "S207",
       "corpus_id": "C188",
@@ -1847,7 +1847,7 @@
       "batch": "25"
     },
     {
-      "global_claim_id": "G25-S207-05",
+      "global_claim_id": "G25-S207-K05",
       "claim_id": "K05",
       "source_id": "S207",
       "corpus_id": "C188",
@@ -1862,7 +1862,7 @@
       "batch": "25"
     },
     {
-      "global_claim_id": "G25-S207-06",
+      "global_claim_id": "G25-S207-K06",
       "claim_id": "K06",
       "source_id": "S207",
       "corpus_id": "C188",
@@ -1877,7 +1877,7 @@
       "batch": "25"
     },
     {
-      "global_claim_id": "G25-S207-07",
+      "global_claim_id": "G25-S207-K07",
       "claim_id": "K07",
       "source_id": "S207",
       "corpus_id": "C188",
@@ -1892,7 +1892,7 @@
       "batch": "25"
     },
     {
-      "global_claim_id": "G25-S207-08",
+      "global_claim_id": "G25-S207-K08",
       "claim_id": "K08",
       "source_id": "S207",
       "corpus_id": "C188",
@@ -1907,7 +1907,7 @@
       "batch": "25"
     },
     {
-      "global_claim_id": "G25-S207-09",
+      "global_claim_id": "G25-S207-K09",
       "claim_id": "K09",
       "source_id": "S207",
       "corpus_id": "C188",
@@ -1922,7 +1922,7 @@
       "batch": "25"
     },
     {
-      "global_claim_id": "G25-S207-10",
+      "global_claim_id": "G25-S207-K10",
       "claim_id": "K10",
       "source_id": "S207",
       "corpus_id": "C188",
@@ -1937,7 +1937,7 @@
       "batch": "25"
     },
     {
-      "global_claim_id": "G25-S207-11",
+      "global_claim_id": "G25-S207-K11",
       "claim_id": "K11",
       "source_id": "S207",
       "corpus_id": "C188",
@@ -1952,7 +1952,7 @@
       "batch": "25"
     },
     {
-      "global_claim_id": "G25-S207-12",
+      "global_claim_id": "G25-S207-K12",
       "claim_id": "K12",
       "source_id": "S207",
       "corpus_id": "C188",
@@ -1967,7 +1967,7 @@
       "batch": "25"
     },
     {
-      "global_claim_id": "G25-S207-13",
+      "global_claim_id": "G25-S207-K13",
       "claim_id": "K13",
       "source_id": "S207",
       "corpus_id": "C188",
