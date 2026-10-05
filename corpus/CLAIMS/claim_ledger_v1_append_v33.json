@@ -1,0 +1,1980 @@
+{
+  "schema_version": "1.0-append",
+  "base_ledger": "claim_ledger_v1.json",
+  "batch": "33",
+  "claim_count": 130,
+  "records": [
+    {
+      "global_claim_id": "G33-S278-K01",
+      "claim_id": "K01",
+      "source_id": "S278",
+      "corpus_id": "C272",
+      "location": "Recurrent Processing corpus",
+      "claim_type": "RECURRENT",
+      "claim": "La propuesta de procesamiento recurrente sostiene que interacciones de realimentación dentro de sistemas sensoriales pueden ser relevantes para la conciencia.",
+      "motifs": [
+        "M03",
+        "M09"
+      ],
+      "provenance": "P2*",
+      "batch": "33"
+    },
+    {
+      "global_claim_id": "G33-S278-K02",
+      "claim_id": "K02",
+      "source_id": "S278",
+      "corpus_id": "C272",
+      "location": "Recurrent Processing corpus",
+      "claim_type": "STATE",
+      "claim": "El procesamiento feedforward y el procesamiento recurrente pueden asociarse con perfiles diferentes de acceso y experiencia.",
+      "motifs": [
+        "M07",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "33"
+    },
+    {
+      "global_claim_id": "G33-S278-K03",
+      "claim_id": "K03",
+      "source_id": "S278",
+      "corpus_id": "C272",
+      "location": "Recurrent Processing corpus",
+      "claim_type": "ACCESS",
+      "claim": "La disponibilidad consciente no se identifica simplemente con la primera propagación de información por una jerarquía sensorial.",
+      "motifs": [
+        "M06",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "33"
+    },
+    {
+      "global_claim_id": "G33-S278-K04",
+      "claim_id": "K04",
+      "source_id": "S278",
+      "corpus_id": "C272",
+      "location": "Recurrent Processing corpus",
+      "claim_type": "ATTENTION",
+      "claim": "Atención y procesamiento recurrente pueden correlacionarse sin ser idénticos conceptualmente.",
+      "motifs": [
+        "M06",
+        "M24"
+      ],
+      "provenance": "P2*",
+      "batch": "33"
+    },
+    {
+      "global_claim_id": "G33-S278-K05",
+      "claim_id": "K05",
+      "source_id": "S278",
+      "corpus_id": "C272",
+      "location": "Recurrent Processing corpus",
+      "claim_type": "PHEN",
+      "claim": "La teoría intenta localizar condiciones funcionales más cercanas a la experiencia perceptiva que una simple clasificación de funciones cognitivas posteriores.",
+      "motifs": [
+        "M01",
+        "M07"
+      ],
+      "provenance": "P2*",
+      "batch": "33"
+    },
+    {
+      "global_claim_id": "G33-S278-K06",
+      "claim_id": "K06",
+      "source_id": "S278",
+      "corpus_id": "C272",
+      "location": "Recurrent Processing corpus",
+      "claim_type": "TEMPORAL",
+      "claim": "El tiempo de interacción recurrente y la estabilización dinámica importan para el procesamiento propuesto.",
+      "motifs": [
+        "M11",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "33"
+    },
+    {
+      "global_claim_id": "G33-S278-K07",
+      "claim_id": "K07",
+      "source_id": "S278",
+      "corpus_id": "C272",
+      "location": "Recurrent Processing corpus",
+      "claim_type": "WORLD_MODEL",
+      "claim": "La experiencia perceptiva se vincula con la estabilización de representaciones sobre estímulos y entorno.",
+      "motifs": [
+        "M15",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "33"
+    },
+    {
+      "global_claim_id": "G33-S278-K08",
+      "claim_id": "K08",
+      "source_id": "S278",
+      "corpus_id": "C272",
+      "location": "Recurrent Processing corpus",
+      "claim_type": "SELF_MODEL",
+      "claim": "El procesamiento recurrente puede participar en representaciones del organismo y de su relación con estímulos relevantes.",
+      "motifs": [
+        "M02",
+        "M16"
+      ],
+      "provenance": "P2*",
+      "batch": "33"
+    },
+    {
+      "global_claim_id": "G33-S278-K09",
+      "claim_id": "K09",
+      "source_id": "S278",
+      "corpus_id": "C272",
+      "location": "Recurrent Processing corpus",
+      "claim_type": "META",
+      "claim": "El corpus recurrente reúne hipótesis neurocientíficas y resultados experimentales relacionados, no una teoría única cerrada de toda conciencia.",
+      "motifs": [
+        "M14",
+        "M17",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "33"
+    },
+    {
+      "global_claim_id": "G33-S278-K10",
+      "claim_id": "K10",
+      "source_id": "S278",
+      "corpus_id": "C272",
+      "location": "Recurrent Processing corpus",
+      "claim_type": "CONTRAST",
+      "claim": "Una señal sensorial puede producir discriminación o preparación de respuesta sin que eso implique automáticamente experiencia consciente.",
+      "motifs": [
+        "M04",
+        "M07",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "33"
+    },
+    {
+      "global_claim_id": "G33-S278-K11",
+      "claim_id": "K11",
+      "source_id": "S278",
+      "corpus_id": "C272",
+      "location": "Recurrent Processing corpus",
+      "claim_type": "CAUSAL",
+      "claim": "La realimentación se propone como candidato causal relevante para estados conscientes, aunque el peso causal exacto sigue siendo debatido.",
+      "motifs": [
+        "M09",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "33"
+    },
+    {
+      "global_claim_id": "G33-S278-K12",
+      "claim_id": "K12",
+      "source_id": "S278",
+      "corpus_id": "C272",
+      "location": "Recurrent Processing corpus",
+      "claim_type": "ATTENTION",
+      "claim": "Paradigmas perceptivos permiten comparar efectos de atención, enmascaramiento y recurrencia sobre acceso consciente.",
+      "motifs": [
+        "M06",
+        "M24"
+      ],
+      "provenance": "P2*",
+      "batch": "33"
+    },
+    {
+      "global_claim_id": "G33-S278-K13",
+      "claim_id": "K13",
+      "source_id": "S278",
+      "corpus_id": "C272",
+      "location": "Recurrent Processing corpus",
+      "claim_type": "PRACTICE",
+      "claim": "El programa experimental busca variar independientemente procesamiento, atención, reporte y recurrencia para aislar predictores de conciencia.",
+      "motifs": [
+        "M24",
+        "M25"
+      ],
+      "provenance": "P2*",
+      "batch": "33"
+    },
+    {
+      "global_claim_id": "G33-S279-K01",
+      "claim_id": "K01",
+      "source_id": "S279",
+      "corpus_id": "C273",
+      "location": "No-Report Paradigm corpus",
+      "claim_type": "REPORT",
+      "claim": "Los paradigmas no-report buscan separar conciencia de la exigencia de producir una respuesta explícita.",
+      "motifs": [
+        "M06",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "33"
+    },
+    {
+      "global_claim_id": "G33-S279-K02",
+      "claim_id": "K02",
+      "source_id": "S279",
+      "corpus_id": "C273",
+      "location": "No-Report Paradigm corpus",
+      "claim_type": "CONTRAST",
+      "claim": "Reporte verbal y experiencia fenomenal pueden divergir, por lo que usar reporte como definición de conciencia introduce supuestos adicionales.",
+      "motifs": [
+        "M04",
+        "M14"
+      ],
+      "provenance": "P2*",
+      "batch": "33"
+    },
+    {
+      "global_claim_id": "G33-S279-K03",
+      "claim_id": "K03",
+      "source_id": "S279",
+      "corpus_id": "C273",
+      "location": "No-Report Paradigm corpus",
+      "claim_type": "STATE",
+      "claim": "Los paradigmas no-report comparan condiciones conscientes e inconscientes mediante medidas indirectas o comportamiento espontáneo.",
+      "motifs": [
+        "M07",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "33"
+    },
+    {
+      "global_claim_id": "G33-S279-K04",
+      "claim_id": "K04",
+      "source_id": "S279",
+      "corpus_id": "C273",
+      "location": "No-Report Paradigm corpus",
+      "claim_type": "ATTENTION",
+      "claim": "La ausencia de reporte permite estudiar atención y conciencia sin confundir preparación de respuesta con contenido experiencial.",
+      "motifs": [
+        "M06",
+        "M24"
+      ],
+      "provenance": "P2*",
+      "batch": "33"
+    },
+    {
+      "global_claim_id": "G33-S279-K05",
+      "claim_id": "K05",
+      "source_id": "S279",
+      "corpus_id": "C273",
+      "location": "No-Report Paradigm corpus",
+      "claim_type": "CAUSAL",
+      "claim": "El diseño experimental intenta reducir la posibilidad de que diferencias atribuidas a conciencia sean producidas por decisiones o reportes posteriores.",
+      "motifs": [
+        "M09",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "33"
+    },
+    {
+      "global_claim_id": "G33-S279-K06",
+      "claim_id": "K06",
+      "source_id": "S279",
+      "corpus_id": "C273",
+      "location": "No-Report Paradigm corpus",
+      "claim_type": "PHEN",
+      "claim": "La metodología parte de la idea de que experiencia puede ocurrir sin que el participante realice un informe inmediato.",
+      "motifs": [
+        "M01",
+        "M07"
+      ],
+      "provenance": "P2*",
+      "batch": "33"
+    },
+    {
+      "global_claim_id": "G33-S279-K07",
+      "claim_id": "K07",
+      "source_id": "S279",
+      "corpus_id": "C273",
+      "location": "No-Report Paradigm corpus",
+      "claim_type": "META",
+      "claim": "No-report es una metodología experimental, no una teoría única de qué es conciencia.",
+      "motifs": [
+        "M14",
+        "M17",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "33"
+    },
+    {
+      "global_claim_id": "G33-S279-K08",
+      "claim_id": "K08",
+      "source_id": "S279",
+      "corpus_id": "C273",
+      "location": "No-Report Paradigm corpus",
+      "claim_type": "TRANSFORMATION",
+      "claim": "Cambiar de tareas con reporte a condiciones no-report modifica qué procesos pueden atribuirse específicamente a la conciencia.",
+      "motifs": [
+        "M12",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "33"
+    },
+    {
+      "global_claim_id": "G33-S279-K09",
+      "claim_id": "K09",
+      "source_id": "S279",
+      "corpus_id": "C273",
+      "location": "No-Report Paradigm corpus",
+      "claim_type": "TEMPORAL",
+      "claim": "El método presta atención a cuándo aparece una diferencia neural o conductual respecto de la ventana temporal del estímulo y del reporte.",
+      "motifs": [
+        "M11",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "33"
+    },
+    {
+      "global_claim_id": "G33-S279-K10",
+      "claim_id": "K10",
+      "source_id": "S279",
+      "corpus_id": "C273",
+      "location": "No-Report Paradigm corpus",
+      "claim_type": "WORLD_MODEL",
+      "claim": "Diferencias entre respuestas espontáneas y señales sensoriales pueden usarse para inferir cambios de procesamiento consciente sin reporte directo.",
+      "motifs": [
+        "M15",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "33"
+    },
+    {
+      "global_claim_id": "G33-S279-K11",
+      "claim_id": "K11",
+      "source_id": "S279",
+      "corpus_id": "C273",
+      "location": "No-Report Paradigm corpus",
+      "claim_type": "SELF_MODEL",
+      "claim": "La metodología reduce la contaminación potencial de procesos metacognitivos posteriores ligados al propio acto de informar.",
+      "motifs": [
+        "M02",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "33"
+    },
+    {
+      "global_claim_id": "G33-S279-K12",
+      "claim_id": "K12",
+      "source_id": "S279",
+      "corpus_id": "C273",
+      "location": "No-Report Paradigm corpus",
+      "claim_type": "CONTRAST",
+      "claim": "Resultados no-report no eliminan todas las confusiones entre atención y conciencia, pero permiten plantearlas de forma más controlada.",
+      "motifs": [
+        "M04",
+        "M06"
+      ],
+      "provenance": "P2*",
+      "batch": "33"
+    },
+    {
+      "global_claim_id": "G33-S279-K13",
+      "claim_id": "K13",
+      "source_id": "S279",
+      "corpus_id": "C273",
+      "location": "No-Report Paradigm corpus",
+      "claim_type": "PRACTICE",
+      "claim": "El uso riguroso de no-report requiere seleccionar medidas indirectas previamente justificadas y compararlas con condiciones de control.",
+      "motifs": [
+        "M24",
+        "M25"
+      ],
+      "provenance": "P2*",
+      "batch": "33"
+    },
+    {
+      "global_claim_id": "G33-S280-K01",
+      "claim_id": "K01",
+      "source_id": "S280",
+      "corpus_id": "C274",
+      "location": "Attention Schema Theory corpus",
+      "claim_type": "ATTENTION",
+      "claim": "La Attention Schema Theory propone que el cerebro construye un modelo interno simplificado de su propio proceso de atención.",
+      "motifs": [
+        "M06",
+        "M24"
+      ],
+      "provenance": "P2*",
+      "batch": "33"
+    },
+    {
+      "global_claim_id": "G33-S280-K02",
+      "claim_id": "K02",
+      "source_id": "S280",
+      "corpus_id": "C274",
+      "location": "Attention Schema Theory corpus",
+      "claim_type": "SELF_MODEL",
+      "claim": "El attention schema funciona como una representación que ayuda al sistema a modelar qué está atendiendo y con qué consecuencias.",
+      "motifs": [
+        "M02",
+        "M16"
+      ],
+      "provenance": "P2*",
+      "batch": "33"
+    },
+    {
+      "global_claim_id": "G33-S280-K03",
+      "claim_id": "K03",
+      "source_id": "S280",
+      "corpus_id": "C274",
+      "location": "Attention Schema Theory corpus",
+      "claim_type": "AWARENESS",
+      "claim": "La teoría identifica la conciencia subjetiva con propiedades de un modelo esquemático de la atención.",
+      "motifs": [
+        "M01",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "33"
+    },
+    {
+      "global_claim_id": "G33-S280-K04",
+      "claim_id": "K04",
+      "source_id": "S280",
+      "corpus_id": "C274",
+      "location": "Attention Schema Theory corpus",
+      "claim_type": "CONTROL",
+      "claim": "El modelo interno no sólo describe atención sino que puede ayudar a regular y controlar procesos atencionales.",
+      "motifs": [
+        "M09",
+        "M24"
+      ],
+      "provenance": "P2*",
+      "batch": "33"
+    },
+    {
+      "global_claim_id": "G33-S280-K05",
+      "claim_id": "K05",
+      "source_id": "S280",
+      "corpus_id": "C274",
+      "location": "Attention Schema Theory corpus",
+      "claim_type": "STATE",
+      "claim": "Atención y awareness son distinguibles pero están fuertemente relacionadas dentro del modelo.",
+      "motifs": [
+        "M07",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "33"
+    },
+    {
+      "global_claim_id": "G33-S280-K06",
+      "claim_id": "K06",
+      "source_id": "S280",
+      "corpus_id": "C274",
+      "location": "Attention Schema Theory corpus",
+      "claim_type": "CONTRAST",
+      "claim": "La teoría distingue lo que el cerebro físicamente hace de lo que el sistema representa que está haciendo.",
+      "motifs": [
+        "M04",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "33"
+    },
+    {
+      "global_claim_id": "G33-S280-K07",
+      "claim_id": "K07",
+      "source_id": "S280",
+      "corpus_id": "C274",
+      "location": "Attention Schema Theory corpus",
+      "claim_type": "META",
+      "claim": "AST es una teoría mecanicista y testable de awareness, no una demostración de que exista una esencia no física.",
+      "motifs": [
+        "M14",
+        "M17",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "33"
+    },
+    {
+      "global_claim_id": "G33-S280-K08",
+      "claim_id": "K08",
+      "source_id": "S280",
+      "corpus_id": "C274",
+      "location": "Attention Schema Theory corpus",
+      "claim_type": "AI",
+      "claim": "El marco fue explícitamente propuesto como una vía para modelar o incluso diseñar formas de conciencia artificial.",
+      "motifs": [
+        "M03",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "33"
+    },
+    {
+      "global_claim_id": "G33-S280-K09",
+      "claim_id": "K09",
+      "source_id": "S280",
+      "corpus_id": "C274",
+      "location": "Attention Schema Theory corpus",
+      "claim_type": "REFLEXIVITY",
+      "claim": "Un sistema puede representar esquemáticamente un proceso propio y usar ese modelo para controlar su conducta.",
+      "motifs": [
+        "M02",
+        "M06"
+      ],
+      "provenance": "P2*",
+      "batch": "33"
+    },
+    {
+      "global_claim_id": "G33-S280-K10",
+      "claim_id": "K10",
+      "source_id": "S280",
+      "corpus_id": "C274",
+      "location": "Attention Schema Theory corpus",
+      "claim_type": "RELATION",
+      "claim": "La awareness representa la relación entre recursos atencionales, contenidos y consecuencias conductuales.",
+      "motifs": [
+        "M05",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "33"
+    },
+    {
+      "global_claim_id": "G33-S280-K11",
+      "claim_id": "K11",
+      "source_id": "S280",
+      "corpus_id": "C274",
+      "location": "Attention Schema Theory corpus",
+      "claim_type": "WORLD_MODEL",
+      "claim": "El attention schema se integra dentro de modelos más amplios que representan objetos, cuerpo y entorno.",
+      "motifs": [
+        "M15",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "33"
+    },
+    {
+      "global_claim_id": "G33-S280-K12",
+      "claim_id": "K12",
+      "source_id": "S280",
+      "corpus_id": "C274",
+      "location": "Attention Schema Theory corpus",
+      "claim_type": "TRANSFORMATION",
+      "claim": "Cambiar la arquitectura del modelo de atención podría alterar qué atribuciones de awareness produce el sistema.",
+      "motifs": [
+        "M12",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "33"
+    },
+    {
+      "global_claim_id": "G33-S280-K13",
+      "claim_id": "K13",
+      "source_id": "S280",
+      "corpus_id": "C274",
+      "location": "Attention Schema Theory corpus",
+      "claim_type": "CONTRAST",
+      "claim": "AST explica por qué un sistema puede generar informes firmes de subjetividad sin requerir que el informe demuestre metafísicamente una entidad no física.",
+      "motifs": [
+        "M04",
+        "M14",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "33"
+    },
+    {
+      "global_claim_id": "G33-S281-K01",
+      "claim_id": "K01",
+      "source_id": "S281",
+      "corpus_id": "C275",
+      "location": "Active Inference / Free Energy corpus",
+      "claim_type": "SELF_MODEL",
+      "claim": "En active inference, un agente mantiene modelos generativos que incluyen variables relevantes para su propio estado y su entorno.",
+      "motifs": [
+        "M02",
+        "M16"
+      ],
+      "provenance": "P2*",
+      "batch": "33"
+    },
+    {
+      "global_claim_id": "G33-S281-K02",
+      "claim_id": "K02",
+      "source_id": "S281",
+      "corpus_id": "C275",
+      "location": "Active Inference / Free Energy corpus",
+      "claim_type": "WORLD_MODEL",
+      "claim": "La percepción se modela como inferencia probabilística sobre causas latentes del flujo sensorial.",
+      "motifs": [
+        "M15",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "33"
+    },
+    {
+      "global_claim_id": "G33-S281-K03",
+      "claim_id": "K03",
+      "source_id": "S281",
+      "corpus_id": "C275",
+      "location": "Active Inference / Free Energy corpus",
+      "claim_type": "ACTION",
+      "claim": "Las acciones pueden seleccionarse para cambiar el muestreo sensorial y reducir errores de predicción relevantes para el agente.",
+      "motifs": [
+        "M09",
+        "M24"
+      ],
+      "provenance": "P2*",
+      "batch": "33"
+    },
+    {
+      "global_claim_id": "G33-S281-K04",
+      "claim_id": "K04",
+      "source_id": "S281",
+      "corpus_id": "C275",
+      "location": "Active Inference / Free Energy corpus",
+      "claim_type": "HOMEOSTASIS",
+      "claim": "La regulación de estados internos y el mantenimiento de viabilidad ocupan un papel central en sistemas agentes persistentes.",
+      "motifs": [
+        "M08",
+        "M10"
+      ],
+      "provenance": "P2*",
+      "batch": "33"
+    },
+    {
+      "global_claim_id": "G33-S281-K05",
+      "claim_id": "K05",
+      "source_id": "S281",
+      "corpus_id": "C275",
+      "location": "Active Inference / Free Energy corpus",
+      "claim_type": "PREDICTION",
+      "claim": "El procesamiento predictivo compara señales sensoriales con expectativas generadas por el modelo.",
+      "motifs": [
+        "M06",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "33"
+    },
+    {
+      "global_claim_id": "G33-S281-K06",
+      "claim_id": "K06",
+      "source_id": "S281",
+      "corpus_id": "C275",
+      "location": "Active Inference / Free Energy corpus",
+      "claim_type": "STATE",
+      "claim": "Los estados internos se actualizan dinámicamente según evidencia, modelos y objetivos del sistema.",
+      "motifs": [
+        "M07",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "33"
+    },
+    {
+      "global_claim_id": "G33-S281-K07",
+      "claim_id": "K07",
+      "source_id": "S281",
+      "corpus_id": "C275",
+      "location": "Active Inference / Free Energy corpus",
+      "claim_type": "VALENCE",
+      "claim": "Necesidades y preferencias del organismo entran en el modelo como restricciones normativas sobre estados viables o preferibles.",
+      "motifs": [
+        "M10",
+        "M12"
+      ],
+      "provenance": "P2*",
+      "batch": "33"
+    },
+    {
+      "global_claim_id": "G33-S281-K08",
+      "claim_id": "K08",
+      "source_id": "S281",
+      "corpus_id": "C275",
+      "location": "Active Inference / Free Energy corpus",
+      "claim_type": "EMBODIMENT",
+      "claim": "La inferencia activa entiende al agente como sistema encarnado que actúa sobre el mismo entorno que infiere.",
+      "motifs": [
+        "M08",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "33"
+    },
+    {
+      "global_claim_id": "G33-S281-K09",
+      "claim_id": "K09",
+      "source_id": "S281",
+      "corpus_id": "C275",
+      "location": "Active Inference / Free Energy corpus",
+      "claim_type": "TEMPORAL",
+      "claim": "La inferencia opera sobre trayectorias temporales de estados y observaciones, no sólo instantáneas aisladas.",
+      "motifs": [
+        "M11",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "33"
+    },
+    {
+      "global_claim_id": "G33-S281-K10",
+      "claim_id": "K10",
+      "source_id": "S281",
+      "corpus_id": "C275",
+      "location": "Active Inference / Free Energy corpus",
+      "claim_type": "RELATION",
+      "claim": "Agente y ambiente forman un sistema acoplado mediante ciclos percepción-acción.",
+      "motifs": [
+        "M05",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "33"
+    },
+    {
+      "global_claim_id": "G33-S281-K11",
+      "claim_id": "K11",
+      "source_id": "S281",
+      "corpus_id": "C275",
+      "location": "Active Inference / Free Energy corpus",
+      "claim_type": "TRANSFORMATION",
+      "claim": "Aprendizaje modifica parámetros o estructura del modelo generativo para mejorar ajuste y control.",
+      "motifs": [
+        "M12",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "33"
+    },
+    {
+      "global_claim_id": "G33-S281-K12",
+      "claim_id": "K12",
+      "source_id": "S281",
+      "corpus_id": "C275",
+      "location": "Active Inference / Free Energy corpus",
+      "claim_type": "META",
+      "claim": "Free Energy Principle/Active Inference es un marco matemático amplio utilizado para modelar sistemas vivos y cognitivos; no implica automáticamente conciencia fenomenal.",
+      "motifs": [
+        "M14",
+        "M17",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "33"
+    },
+    {
+      "global_claim_id": "G33-S281-K13",
+      "claim_id": "K13",
+      "source_id": "S281",
+      "corpus_id": "C275",
+      "location": "Active Inference / Free Energy corpus",
+      "claim_type": "CONTRAST",
+      "claim": "La explicación de regulación predictiva o minimización de error no resuelve por sí sola la cuestión de por qué existe experiencia subjetiva.",
+      "motifs": [
+        "M04",
+        "M01",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "33"
+    },
+    {
+      "global_claim_id": "G33-S282-K01",
+      "claim_id": "K01",
+      "source_id": "S282",
+      "corpus_id": "C276",
+      "location": "Integrated World Modeling Theory",
+      "claim_type": "WORLD_MODEL",
+      "claim": "IWMT propone que la conciencia depende de modelos generativos integrados de organismo y mundo.",
+      "motifs": [
+        "M15",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "33"
+    },
+    {
+      "global_claim_id": "G33-S282-K02",
+      "claim_id": "K02",
+      "source_id": "S282",
+      "corpus_id": "C276",
+      "location": "Integrated World Modeling Theory",
+      "claim_type": "INTEGRATION",
+      "claim": "La teoría combina intuiciones de IIT, GNWT y Free Energy/Active Inference dentro de una arquitectura unificada.",
+      "motifs": [
+        "M03",
+        "M09"
+      ],
+      "provenance": "P2*",
+      "batch": "33"
+    },
+    {
+      "global_claim_id": "G33-S282-K03",
+      "claim_id": "K03",
+      "source_id": "S282",
+      "corpus_id": "C276",
+      "location": "Integrated World Modeling Theory",
+      "claim_type": "EMBODIMENT",
+      "claim": "El modelo consciente debe estar ligado a un agente encarnado y a ciclos de percepción-acción.",
+      "motifs": [
+        "M08",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "33"
+    },
+    {
+      "global_claim_id": "G33-S282-K04",
+      "claim_id": "K04",
+      "source_id": "S282",
+      "corpus_id": "C276",
+      "location": "Integrated World Modeling Theory",
+      "claim_type": "COHERENCE",
+      "claim": "La coherencia espacial, temporal y causal del modelo integrado se trata como condición importante de la fenomenología propuesta.",
+      "motifs": [
+        "M03",
+        "M11"
+      ],
+      "provenance": "P2*",
+      "batch": "33"
+    },
+    {
+      "global_claim_id": "G33-S282-K05",
+      "claim_id": "K05",
+      "source_id": "S282",
+      "corpus_id": "C276",
+      "location": "Integrated World Modeling Theory",
+      "claim_type": "SELF_MODEL",
+      "claim": "El modelo de organismo forma parte del mismo campo integrado que el modelo del mundo.",
+      "motifs": [
+        "M02",
+        "M16"
+      ],
+      "provenance": "P2*",
+      "batch": "33"
+    },
+    {
+      "global_claim_id": "G33-S282-K06",
+      "claim_id": "K06",
+      "source_id": "S282",
+      "corpus_id": "C276",
+      "location": "Integrated World Modeling Theory",
+      "claim_type": "ATTENTION",
+      "claim": "La atención y el acceso global participan en la selección e integración de contenidos dentro del modelo.",
+      "motifs": [
+        "M06",
+        "M24"
+      ],
+      "provenance": "P2*",
+      "batch": "33"
+    },
+    {
+      "global_claim_id": "G33-S282-K07",
+      "claim_id": "K07",
+      "source_id": "S282",
+      "corpus_id": "C276",
+      "location": "Integrated World Modeling Theory",
+      "claim_type": "STATE",
+      "claim": "Cambios en dinámica, integración y modelado del mundo pueden producir diferentes condiciones conscientes.",
+      "motifs": [
+        "M07",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "33"
+    },
+    {
+      "global_claim_id": "G33-S282-K08",
+      "claim_id": "K08",
+      "source_id": "S282",
+      "corpus_id": "C276",
+      "location": "Integrated World Modeling Theory",
+      "claim_type": "ACTION",
+      "claim": "El agente no sólo representa el mundo: sus modelos guían y son modificados por ciclos de acción-percepción.",
+      "motifs": [
+        "M09",
+        "M24"
+      ],
+      "provenance": "P2*",
+      "batch": "33"
+    },
+    {
+      "global_claim_id": "G33-S282-K09",
+      "claim_id": "K09",
+      "source_id": "S282",
+      "corpus_id": "C276",
+      "location": "Integrated World Modeling Theory",
+      "claim_type": "META",
+      "claim": "IWMT es una teoría sintética propuesta en la literatura reciente y debe considerarse hipótesis/modelo en desarrollo, no consenso establecido.",
+      "motifs": [
+        "M14",
+        "M17",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "33"
+    },
+    {
+      "global_claim_id": "G33-S282-K10",
+      "claim_id": "K10",
+      "source_id": "S282",
+      "corpus_id": "C276",
+      "location": "Integrated World Modeling Theory",
+      "claim_type": "AI",
+      "claim": "Los autores exploran explícitamente la posibilidad de realización artificial si se preservan ciertas dinámicas recurrentes, integración y grounding corporal.",
+      "motifs": [
+        "M03",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "33"
+    },
+    {
+      "global_claim_id": "G33-S282-K11",
+      "claim_id": "K11",
+      "source_id": "S282",
+      "corpus_id": "C276",
+      "location": "Integrated World Modeling Theory",
+      "claim_type": "TRANSFORMATION",
+      "claim": "Aprendizaje y actualización del modelo pueden cambiar la experiencia y las capacidades adaptativas del agente.",
+      "motifs": [
+        "M12",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "33"
+    },
+    {
+      "global_claim_id": "G33-S282-K12",
+      "claim_id": "K12",
+      "source_id": "S282",
+      "corpus_id": "C276",
+      "location": "Integrated World Modeling Theory",
+      "claim_type": "TEMPORAL",
+      "claim": "La teoría requiere coherencia dinámica a escalas temporales relevantes para procesamiento y comportamiento.",
+      "motifs": [
+        "M11",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "33"
+    },
+    {
+      "global_claim_id": "G33-S282-K13",
+      "claim_id": "K13",
+      "source_id": "S282",
+      "corpus_id": "C276",
+      "location": "Integrated World Modeling Theory",
+      "claim_type": "CONTRAST",
+      "claim": "Integrar múltiples teorías no elimina automáticamente sus problemas conceptuales; el valor de IWMT depende de que sus componentes puedan probarse y distinguirse empíricamente.",
+      "motifs": [
+        "M04",
+        "M14",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "33"
+    },
+    {
+      "global_claim_id": "G33-S283-K01",
+      "claim_id": "K01",
+      "source_id": "S283",
+      "corpus_id": "C277",
+      "location": "Being You",
+      "claim_type": "SELF_MODEL",
+      "claim": "Seth relaciona la experiencia de ser un yo con predicciones interoceptivas y con la regulación del organismo.",
+      "motifs": [
+        "M02",
+        "M08",
+        "M16"
+      ],
+      "provenance": "P2*",
+      "batch": "33"
+    },
+    {
+      "global_claim_id": "G33-S283-K02",
+      "claim_id": "K02",
+      "source_id": "S283",
+      "corpus_id": "C277",
+      "location": "Being You",
+      "claim_type": "INTEROCEPTION",
+      "claim": "Las señales internas del cuerpo tienen un papel central en la construcción de la experiencia consciente del organismo.",
+      "motifs": [
+        "M01",
+        "M08"
+      ],
+      "provenance": "P2*",
+      "batch": "33"
+    },
+    {
+      "global_claim_id": "G33-S283-K03",
+      "claim_id": "K03",
+      "source_id": "S283",
+      "corpus_id": "C277",
+      "location": "Being You",
+      "claim_type": "PREDICTION",
+      "claim": "La percepción puede entenderse como inferencia guiada por predicciones que se ajustan a señales sensoriales.",
+      "motifs": [
+        "M06",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "33"
+    },
+    {
+      "global_claim_id": "G33-S283-K04",
+      "claim_id": "K04",
+      "source_id": "S283",
+      "corpus_id": "C277",
+      "location": "Being You",
+      "claim_type": "WORLD_MODEL",
+      "claim": "La experiencia del mundo emerge de modelos predictivos que integran señales externas e internas.",
+      "motifs": [
+        "M15",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "33"
+    },
+    {
+      "global_claim_id": "G33-S283-K05",
+      "claim_id": "K05",
+      "source_id": "S283",
+      "corpus_id": "C277",
+      "location": "Being You",
+      "claim_type": "EMBODIMENT",
+      "claim": "La conciencia humana está profundamente ligada a la regulación y al estado corporal.",
+      "motifs": [
+        "M08",
+        "M16"
+      ],
+      "provenance": "P2*",
+      "batch": "33"
+    },
+    {
+      "global_claim_id": "G33-S283-K06",
+      "claim_id": "K06",
+      "source_id": "S283",
+      "corpus_id": "C277",
+      "location": "Being You",
+      "claim_type": "STATE",
+      "claim": "Diferentes estados de conciencia pueden resultar de cambios en inferencia, atención, cuerpo y dinámica neural.",
+      "motifs": [
+        "M07",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "33"
+    },
+    {
+      "global_claim_id": "G33-S283-K07",
+      "claim_id": "K07",
+      "source_id": "S283",
+      "corpus_id": "C277",
+      "location": "Being You",
+      "claim_type": "VALENCE",
+      "claim": "Sentimientos y afectos corporales participan en la construcción de cómo se vive el estado del organismo.",
+      "motifs": [
+        "M10",
+        "M12"
+      ],
+      "provenance": "P2*",
+      "batch": "33"
+    },
+    {
+      "global_claim_id": "G33-S283-K08",
+      "claim_id": "K08",
+      "source_id": "S283",
+      "corpus_id": "C277",
+      "location": "Being You",
+      "claim_type": "TRANSFORMATION",
+      "claim": "Modificar expectativas, estados corporales o dinámica predictiva puede cambiar la experiencia consciente.",
+      "motifs": [
+        "M12",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "33"
+    },
+    {
+      "global_claim_id": "G33-S283-K09",
+      "claim_id": "K09",
+      "source_id": "S283",
+      "corpus_id": "C277",
+      "location": "Being You",
+      "claim_type": "ATTENTION",
+      "claim": "La atención puede cambiar el peso relativo de señales y predicciones dentro de la percepción.",
+      "motifs": [
+        "M06",
+        "M24"
+      ],
+      "provenance": "P2*",
+      "batch": "33"
+    },
+    {
+      "global_claim_id": "G33-S283-K10",
+      "claim_id": "K10",
+      "source_id": "S283",
+      "corpus_id": "C277",
+      "location": "Being You",
+      "claim_type": "RELATION",
+      "claim": "El self emerge relacionalmente a partir del organismo que regula su acoplamiento con un entorno.",
+      "motifs": [
+        "M05",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "33"
+    },
+    {
+      "global_claim_id": "G33-S283-K11",
+      "claim_id": "K11",
+      "source_id": "S283",
+      "corpus_id": "C277",
+      "location": "Being You",
+      "claim_type": "TEMPORAL",
+      "claim": "La experiencia se desarrolla como inferencia continua sobre señales corporales y externas a lo largo del tiempo.",
+      "motifs": [
+        "M11",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "33"
+    },
+    {
+      "global_claim_id": "G33-S283-K12",
+      "claim_id": "K12",
+      "source_id": "S283",
+      "corpus_id": "C277",
+      "location": "Being You",
+      "claim_type": "META",
+      "claim": "Being You presenta una explicación científica/predictiva de conciencia, no una demostración de que el cerebro literalmente 'invente' todo el mundo sin restricciones externas.",
+      "motifs": [
+        "M14",
+        "M17",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "33"
+    },
+    {
+      "global_claim_id": "G33-S283-K13",
+      "claim_id": "K13",
+      "source_id": "S283",
+      "corpus_id": "C277",
+      "location": "Being You",
+      "claim_type": "CONTRAST",
+      "claim": "La conciencia no se reduce a la representación de objetos externos; la experiencia del cuerpo y del yo forman parte del modelo perceptivo.",
+      "motifs": [
+        "M04",
+        "M08",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "33"
+    },
+    {
+      "global_claim_id": "G33-S284-K01",
+      "claim_id": "K01",
+      "source_id": "S284",
+      "corpus_id": "C278",
+      "location": "The Astonishing Hypothesis",
+      "claim_type": "NEURAL",
+      "claim": "Crick sostiene que los fenómenos mentales dependen de procesos neuronales y pueden investigarse científicamente.",
+      "motifs": [
+        "M03",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "33"
+    },
+    {
+      "global_claim_id": "G33-S284-K02",
+      "claim_id": "K02",
+      "source_id": "S284",
+      "corpus_id": "C278",
+      "location": "The Astonishing Hypothesis",
+      "claim_type": "SELF_MODEL",
+      "claim": "La experiencia de persona y voluntad se analiza como producto de operaciones del sistema nervioso, no como agente homuncular separado.",
+      "motifs": [
+        "M02",
+        "M16"
+      ],
+      "provenance": "P2*",
+      "batch": "33"
+    },
+    {
+      "global_claim_id": "G33-S284-K03",
+      "claim_id": "K03",
+      "source_id": "S284",
+      "corpus_id": "C278",
+      "location": "The Astonishing Hypothesis",
+      "claim_type": "STATE",
+      "claim": "Atención, percepción, memoria y estados de conciencia se estudian como funciones de sistemas neurales organizados.",
+      "motifs": [
+        "M07",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "33"
+    },
+    {
+      "global_claim_id": "G33-S284-K04",
+      "claim_id": "K04",
+      "source_id": "S284",
+      "corpus_id": "C278",
+      "location": "The Astonishing Hypothesis",
+      "claim_type": "ATTENTION",
+      "claim": "Crick concede a la atención y a la selección neuronal un papel central en la organización de procesos conscientes.",
+      "motifs": [
+        "M06",
+        "M24"
+      ],
+      "provenance": "P2*",
+      "batch": "33"
+    },
+    {
+      "global_claim_id": "G33-S284-K05",
+      "claim_id": "K05",
+      "source_id": "S284",
+      "corpus_id": "C278",
+      "location": "The Astonishing Hypothesis",
+      "claim_type": "TEMPORAL",
+      "claim": "La sincronización y coordinación temporal entre poblaciones neuronales pueden ser relevantes para integración perceptiva.",
+      "motifs": [
+        "M11",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "33"
+    },
+    {
+      "global_claim_id": "G33-S284-K06",
+      "claim_id": "K06",
+      "source_id": "S284",
+      "corpus_id": "C278",
+      "location": "The Astonishing Hypothesis",
+      "claim_type": "RELATION",
+      "claim": "La experiencia se estudia en relación entre actividad neural, cuerpo y ambiente, aunque el foco principal sea el cerebro.",
+      "motifs": [
+        "M05",
+        "M08"
+      ],
+      "provenance": "P2*",
+      "batch": "33"
+    },
+    {
+      "global_claim_id": "G33-S284-K07",
+      "claim_id": "K07",
+      "source_id": "S284",
+      "corpus_id": "C278",
+      "location": "The Astonishing Hypothesis",
+      "claim_type": "TRANSFORMATION",
+      "claim": "Cambios en actividad y conectividad neural pueden alterar percepción, memoria y experiencia consciente.",
+      "motifs": [
+        "M12",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "33"
+    },
+    {
+      "global_claim_id": "G33-S284-K08",
+      "claim_id": "K08",
+      "source_id": "S284",
+      "corpus_id": "C278",
+      "location": "The Astonishing Hypothesis",
+      "claim_type": "WORLD_MODEL",
+      "claim": "La experiencia consciente se vincula con representaciones y procesamiento del mundo por sistemas neuronales.",
+      "motifs": [
+        "M15",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "33"
+    },
+    {
+      "global_claim_id": "G33-S284-K09",
+      "claim_id": "K09",
+      "source_id": "S284",
+      "corpus_id": "C278",
+      "location": "The Astonishing Hypothesis",
+      "claim_type": "META",
+      "claim": "The Astonishing Hypothesis es una defensa del programa neurocientífico sobre conciencia; no resuelve por sí sola todos los problemas filosóficos de la fenomenología.",
+      "motifs": [
+        "M14",
+        "M17",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "33"
+    },
+    {
+      "global_claim_id": "G33-S284-K10",
+      "claim_id": "K10",
+      "source_id": "S284",
+      "corpus_id": "C278",
+      "location": "The Astonishing Hypothesis",
+      "claim_type": "CONTRAST",
+      "claim": "Crick rechaza explicaciones que tratan mente como una entidad separada del cerebro, pero eso no equivale a especificar un único mecanismo de conciencia.",
+      "motifs": [
+        "M04",
+        "M03",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "33"
+    },
+    {
+      "global_claim_id": "G33-S284-K11",
+      "claim_id": "K11",
+      "source_id": "S284",
+      "corpus_id": "C278",
+      "location": "The Astonishing Hypothesis",
+      "claim_type": "AI",
+      "claim": "Una explicación neuronal naturalista abre preguntas sobre qué aspectos podrían o no ser realizados fuera de tejido biológico.",
+      "motifs": [
+        "M03",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "33"
+    },
+    {
+      "global_claim_id": "G33-S284-K12",
+      "claim_id": "K12",
+      "source_id": "S284",
+      "corpus_id": "C278",
+      "location": "The Astonishing Hypothesis",
+      "claim_type": "REFLEXIVITY",
+      "claim": "La investigación científica de conciencia puede incluir representaciones neurales relacionadas con percepción de uno mismo sin postular un observador interno separado.",
+      "motifs": [
+        "M02",
+        "M06"
+      ],
+      "provenance": "P2*",
+      "batch": "33"
+    },
+    {
+      "global_claim_id": "G33-S284-K13",
+      "claim_id": "K13",
+      "source_id": "S284",
+      "corpus_id": "C278",
+      "location": "The Astonishing Hypothesis",
+      "claim_type": "PRACTICE",
+      "claim": "El programa de investigación enfatiza experimentos sobre mecanismos neurales concretos en vez de únicamente argumentos introspectivos.",
+      "motifs": [
+        "M24",
+        "M25"
+      ],
+      "provenance": "P2*",
+      "batch": "33"
+    },
+    {
+      "global_claim_id": "G33-S285-K01",
+      "claim_id": "K01",
+      "source_id": "S285",
+      "corpus_id": "C279",
+      "location": "The Rediscovery of the Mind",
+      "claim_type": "ONTO",
+      "claim": "Searle sostiene que los estados mentales son fenómenos biológicos reales causados por procesos neurobiológicos y con rasgos de primera persona.",
+      "motifs": [
+        "M03",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "33"
+    },
+    {
+      "global_claim_id": "G33-S285-K02",
+      "claim_id": "K02",
+      "source_id": "S285",
+      "corpus_id": "C279",
+      "location": "The Rediscovery of the Mind",
+      "claim_type": "PHEN",
+      "claim": "La conciencia posee subjetividad ontológica: existe para un sujeto y no sólo como descripción externa.",
+      "motifs": [
+        "M01",
+        "M07"
+      ],
+      "provenance": "P2*",
+      "batch": "33"
+    },
+    {
+      "global_claim_id": "G33-S285-K03",
+      "claim_id": "K03",
+      "source_id": "S285",
+      "corpus_id": "C279",
+      "location": "The Rediscovery of the Mind",
+      "claim_type": "CAUSAL",
+      "claim": "Los estados conscientes pueden tener poderes causales dentro del comportamiento y no son meras etiquetas descriptivas.",
+      "motifs": [
+        "M09",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "33"
+    },
+    {
+      "global_claim_id": "G33-S285-K04",
+      "claim_id": "K04",
+      "source_id": "S285",
+      "corpus_id": "C279",
+      "location": "The Rediscovery of the Mind",
+      "claim_type": "INTENTIONALITY",
+      "claim": "Intencionalidad y conciencia están vinculadas pero no se reducen una a la otra.",
+      "motifs": [
+        "M01",
+        "M05"
+      ],
+      "provenance": "P2*",
+      "batch": "33"
+    },
+    {
+      "global_claim_id": "G33-S285-K05",
+      "claim_id": "K05",
+      "source_id": "S285",
+      "corpus_id": "C279",
+      "location": "The Rediscovery of the Mind",
+      "claim_type": "SELF_MODEL",
+      "claim": "El self no es necesariamente una sustancia separada; la ontología de la mente se fundamenta en estados conscientes biológicos.",
+      "motifs": [
+        "M02",
+        "M16"
+      ],
+      "provenance": "P2*",
+      "batch": "33"
+    },
+    {
+      "global_claim_id": "G33-S285-K06",
+      "claim_id": "K06",
+      "source_id": "S285",
+      "corpus_id": "C279",
+      "location": "The Rediscovery of the Mind",
+      "claim_type": "EMBODIMENT",
+      "claim": "La conciencia humana depende de sistemas biológicos concretos y no de un sustrato puramente abstracto.",
+      "motifs": [
+        "M08",
+        "M16"
+      ],
+      "provenance": "P2*",
+      "batch": "33"
+    },
+    {
+      "global_claim_id": "G33-S285-K07",
+      "claim_id": "K07",
+      "source_id": "S285",
+      "corpus_id": "C279",
+      "location": "The Rediscovery of the Mind",
+      "claim_type": "STATE",
+      "claim": "Diferentes estados mentales conservan subjetividad aunque difieran en contenido y causalidad.",
+      "motifs": [
+        "M07",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "33"
+    },
+    {
+      "global_claim_id": "G33-S285-K08",
+      "claim_id": "K08",
+      "source_id": "S285",
+      "corpus_id": "C279",
+      "location": "The Rediscovery of the Mind",
+      "claim_type": "RELATION",
+      "claim": "Los estados mentales se relacionan con mundo, acción e intencionalidad sin perder su carácter subjetivo.",
+      "motifs": [
+        "M05",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "33"
+    },
+    {
+      "global_claim_id": "G33-S285-K09",
+      "claim_id": "K09",
+      "source_id": "S285",
+      "corpus_id": "C279",
+      "location": "The Rediscovery of the Mind",
+      "claim_type": "META",
+      "claim": "Searle rechaza tanto dualismo de sustancias como eliminativismo y versiones fuertes de IA simbólica como explicación suficiente de la mente.",
+      "motifs": [
+        "M14",
+        "M17",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "33"
+    },
+    {
+      "global_claim_id": "G33-S285-K10",
+      "claim_id": "K10",
+      "source_id": "S285",
+      "corpus_id": "C279",
+      "location": "The Rediscovery of the Mind",
+      "claim_type": "AI",
+      "claim": "La simulación computacional de un proceso mental no es, para Searle, equivalente a poseer las capacidades causales biológicas que producen la experiencia.",
+      "motifs": [
+        "M03",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "33"
+    },
+    {
+      "global_claim_id": "G33-S285-K11",
+      "claim_id": "K11",
+      "source_id": "S285",
+      "corpus_id": "C279",
+      "location": "The Rediscovery of the Mind",
+      "claim_type": "TRANSFORMATION",
+      "claim": "Cambiar la estructura causal biológica puede cambiar el tipo y contenido de estados conscientes.",
+      "motifs": [
+        "M12",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "33"
+    },
+    {
+      "global_claim_id": "G33-S285-K12",
+      "claim_id": "K12",
+      "source_id": "S285",
+      "corpus_id": "C279",
+      "location": "The Rediscovery of the Mind",
+      "claim_type": "CONTRAST",
+      "claim": "Una descripción objetiva de patrones neurales no agota, según Searle, la realidad subjetiva del estado consciente.",
+      "motifs": [
+        "M04",
+        "M01",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "33"
+    },
+    {
+      "global_claim_id": "G33-S285-K13",
+      "claim_id": "K13",
+      "source_id": "S285",
+      "corpus_id": "C279",
+      "location": "The Rediscovery of the Mind",
+      "claim_type": "REFLEXIVITY",
+      "claim": "La conciencia puede ser conocida de primera persona sin convertir ese conocimiento en una prueba suficiente de su explicación causal.",
+      "motifs": [
+        "M02",
+        "M06",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "33"
+    },
+    {
+      "global_claim_id": "G33-S286-K01",
+      "claim_id": "K01",
+      "source_id": "S286",
+      "corpus_id": "C280",
+      "location": "Phenomenal concepts corpus",
+      "claim_type": "CONCEPT",
+      "claim": "El phenomenal concept strategy intenta explicar por qué conceptos fenoménicos pueden generar una apariencia de brecha explicativa aunque el mundo siga siendo físicamente monista.",
+      "motifs": [
+        "M14",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "33"
+    },
+    {
+      "global_claim_id": "G33-S286-K02",
+      "claim_id": "K02",
+      "source_id": "S286",
+      "corpus_id": "C280",
+      "location": "Phenomenal concepts corpus",
+      "claim_type": "CONTRAST",
+      "claim": "Conceptos sobre experiencia y conceptos físico-funcionales pueden diferir epistemológicamente sin referirse necesariamente a propiedades ontológicamente distintas.",
+      "motifs": [
+        "M04",
+        "M14"
+      ],
+      "provenance": "P2*",
+      "batch": "33"
+    },
+    {
+      "global_claim_id": "G33-S286-K03",
+      "claim_id": "K03",
+      "source_id": "S286",
+      "corpus_id": "C280",
+      "location": "Phenomenal concepts corpus",
+      "claim_type": "REFLEXIVITY",
+      "claim": "El análisis se centra en cómo pensamos y representamos nuestras propias experiencias, no sólo en qué estados físicos existen.",
+      "motifs": [
+        "M02",
+        "M06",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "33"
+    },
+    {
+      "global_claim_id": "G33-S286-K04",
+      "claim_id": "K04",
+      "source_id": "S286",
+      "corpus_id": "C280",
+      "location": "Phenomenal concepts corpus",
+      "claim_type": "PHEN",
+      "claim": "La experiencia subjetiva sigue siendo el fenómeno que los conceptos fenoménicos intentan captar y aplicar en primera persona.",
+      "motifs": [
+        "M01",
+        "M07"
+      ],
+      "provenance": "P2*",
+      "batch": "33"
+    },
+    {
+      "global_claim_id": "G33-S286-K05",
+      "claim_id": "K05",
+      "source_id": "S286",
+      "corpus_id": "C280",
+      "location": "Phenomenal concepts corpus",
+      "claim_type": "SELF_MODEL",
+      "claim": "Los conceptos fenoménicos pueden formar parte de la capacidad del sujeto para identificar y reidentificar experiencias propias.",
+      "motifs": [
+        "M02",
+        "M16"
+      ],
+      "provenance": "P2*",
+      "batch": "33"
+    },
+    {
+      "global_claim_id": "G33-S286-K06",
+      "claim_id": "K06",
+      "source_id": "S286",
+      "corpus_id": "C280",
+      "location": "Phenomenal concepts corpus",
+      "claim_type": "META",
+      "claim": "Phenomenal Concept Strategy es una familia de respuestas filosóficas al explanatory gap, no una teoría neurobiológica única.",
+      "motifs": [
+        "M14",
+        "M17",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "33"
+    },
+    {
+      "global_claim_id": "G33-S286-K07",
+      "claim_id": "K07",
+      "source_id": "S286",
+      "corpus_id": "C280",
+      "location": "Phenomenal concepts corpus",
+      "claim_type": "STATE",
+      "claim": "Un mismo tipo de estado físico puede ser conceptualizado bajo descripciones fenoménicas y físicas diferentes.",
+      "motifs": [
+        "M07",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "33"
+    },
+    {
+      "global_claim_id": "G33-S286-K08",
+      "claim_id": "K08",
+      "source_id": "S286",
+      "corpus_id": "C280",
+      "location": "Phenomenal concepts corpus",
+      "claim_type": "ACCESS",
+      "claim": "El acceso conceptual a una experiencia puede explicar algunas intuiciones sin resolver por sí solo todos los problemas sobre mecanismos de conciencia.",
+      "motifs": [
+        "M06",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "33"
+    },
+    {
+      "global_claim_id": "G33-S286-K09",
+      "claim_id": "K09",
+      "source_id": "S286",
+      "corpus_id": "C280",
+      "location": "Phenomenal concepts corpus",
+      "claim_type": "TRANSFORMATION",
+      "claim": "Cambiar el marco conceptual puede cambiar la fuerza de los argumentos contra el fisicalismo sin alterar el fenómeno experimentado.",
+      "motifs": [
+        "M12",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "33"
+    },
+    {
+      "global_claim_id": "G33-S286-K10",
+      "claim_id": "K10",
+      "source_id": "S286",
+      "corpus_id": "C280",
+      "location": "Phenomenal concepts corpus",
+      "claim_type": "RELATION",
+      "claim": "La relación entre conceptos de primera persona y conceptos de tercera persona es central para la estrategia.",
+      "motifs": [
+        "M05",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "33"
+    },
+    {
+      "global_claim_id": "G33-S286-K11",
+      "claim_id": "K11",
+      "source_id": "S286",
+      "corpus_id": "C280",
+      "location": "Phenomenal concepts corpus",
+      "claim_type": "INEFFABILITY",
+      "claim": "La dificultad de traducir plenamente una perspectiva fenomenal a vocabulario objetivo motiva parte de la discusión conceptual.",
+      "motifs": [
+        "M14",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "33"
+    },
+    {
+      "global_claim_id": "G33-S286-K12",
+      "claim_id": "K12",
+      "source_id": "S286",
+      "corpus_id": "C280",
+      "location": "Phenomenal concepts corpus",
+      "claim_type": "CONTRAST",
+      "claim": "Resolver la aparente brecha conceptual no implica automáticamente resolver cada cuestión empírica acerca de correlatos o mecanismos.",
+      "motifs": [
+        "M04",
+        "M17"
+      ],
+      "provenance": "P2*",
+      "batch": "33"
+    },
+    {
+      "global_claim_id": "G33-S286-K13",
+      "claim_id": "K13",
+      "source_id": "S286",
+      "corpus_id": "C280",
+      "location": "Phenomenal concepts corpus",
+      "claim_type": "PRACTICE",
+      "claim": "La estrategia se evalúa mediante argumentos filosóficos, análisis conceptual y comparación entre diferentes versiones materialistas.",
+      "motifs": [
+        "M24",
+        "M25"
+      ],
+      "provenance": "P2*",
+      "batch": "33"
+    },
+    {
+      "global_claim_id": "G33-S287-K01",
+      "claim_id": "K01",
+      "source_id": "S287",
+      "corpus_id": "C281",
+      "location": "Russellian monism / panpsychism corpus",
+      "claim_type": "ONTO",
+      "claim": "Russellian monism sostiene que la física describe principalmente estructura y disposiciones, dejando abierta la naturaleza intrínseca de aquello que realiza esas disposiciones.",
+      "motifs": [
+        "M03",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "33"
+    },
+    {
+      "global_claim_id": "G33-S287-K02",
+      "claim_id": "K02",
+      "source_id": "S287",
+      "corpus_id": "C281",
+      "location": "Russellian monism / panpsychism corpus",
+      "claim_type": "PHEN",
+      "claim": "Algunas versiones identifican propiedades intrínsecas fundamentales con rasgos fenomenales o protofenomenales.",
+      "motifs": [
+        "M01",
+        "M07"
+      ],
+      "provenance": "P2*",
+      "batch": "33"
+    },
+    {
+      "global_claim_id": "G33-S287-K03",
+      "claim_id": "K03",
+      "source_id": "S287",
+      "corpus_id": "C281",
+      "location": "Russellian monism / panpsychism corpus",
+      "claim_type": "PANPSYCHISM",
+      "claim": "Las versiones panpsiquistas sostienen que propiedades de tipo experiencial son fundamentales y ampliamente distribuidas.",
+      "motifs": [
+        "M03",
+        "M15"
+      ],
+      "provenance": "P2*",
+      "batch": "33"
+    },
+    {
+      "global_claim_id": "G33-S287-K04",
+      "claim_id": "K04",
+      "source_id": "S287",
+      "corpus_id": "C281",
+      "location": "Russellian monism / panpsychism corpus",
+      "claim_type": "PANPROTOPSYCHISM",
+      "claim": "Las versiones panprotopsíquicas postulan propiedades proto-experienciales que contribuirían a explicar la conciencia sin ser experiencias completas.",
+      "motifs": [
+        "M03",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "33"
+    },
+    {
+      "global_claim_id": "G33-S287-K05",
+      "claim_id": "K05",
+      "source_id": "S287",
+      "corpus_id": "C281",
+      "location": "Russellian monism / panpsychism corpus",
+      "claim_type": "COMBINATION",
+      "claim": "El combination problem pregunta cómo experiencias complejas podrían surgir de unidades fundamentales si éstas ya poseen aspectos experienciales.",
+      "motifs": [
+        "M04",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "33"
+    },
+    {
+      "global_claim_id": "G33-S287-K06",
+      "claim_id": "K06",
+      "source_id": "S287",
+      "corpus_id": "C281",
+      "location": "Russellian monism / panpsychism corpus",
+      "claim_type": "SELF_MODEL",
+      "claim": "La conciencia humana puede requerir explicar cómo propiedades fundamentales se organizan en una perspectiva unificada.",
+      "motifs": [
+        "M02",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "33"
+    },
+    {
+      "global_claim_id": "G33-S287-K07",
+      "claim_id": "K07",
+      "source_id": "S287",
+      "corpus_id": "C281",
+      "location": "Russellian monism / panpsychism corpus",
+      "claim_type": "WORLD_MODEL",
+      "claim": "La teoría intenta conectar estructura física descrita por ciencia con propiedades intrínsecas no capturadas plenamente por esa estructura.",
+      "motifs": [
+        "M15",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "33"
+    },
+    {
+      "global_claim_id": "G33-S287-K08",
+      "claim_id": "K08",
+      "source_id": "S287",
+      "corpus_id": "C281",
+      "location": "Russellian monism / panpsychism corpus",
+      "claim_type": "META",
+      "claim": "Russellian monism es un marco filosófico plural con versiones panpsiquistas y panprotopsíquicas, no una teoría científica establecida.",
+      "motifs": [
+        "M14",
+        "M17",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "33"
+    },
+    {
+      "global_claim_id": "G33-S287-K09",
+      "claim_id": "K09",
+      "source_id": "S287",
+      "corpus_id": "C281",
+      "location": "Russellian monism / panpsychism corpus",
+      "claim_type": "CONTRAST",
+      "claim": "No todas las formas de Russellian monism implican panpsiquismo; algunas sostienen sólo propiedades proto-experienciales.",
+      "motifs": [
+        "M04",
+        "M14"
+      ],
+      "provenance": "P2*",
+      "batch": "33"
+    },
+    {
+      "global_claim_id": "G33-S287-K10",
+      "claim_id": "K10",
+      "source_id": "S287",
+      "corpus_id": "C281",
+      "location": "Russellian monism / panpsychism corpus",
+      "claim_type": "CAUSAL",
+      "claim": "Una preocupación central es cómo las propiedades intrínsecas relacionadas con conciencia encajan en una explicación causal compatible con la física.",
+      "motifs": [
+        "M09",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "33"
+    },
+    {
+      "global_claim_id": "G33-S287-K11",
+      "claim_id": "K11",
+      "source_id": "S287",
+      "corpus_id": "C281",
+      "location": "Russellian monism / panpsychism corpus",
+      "claim_type": "UNITY",
+      "claim": "El objetivo común es explicar unidad de experiencia sin reducir toda realidad a una sustancia mental ni eliminar su aspecto físico.",
+      "motifs": [
+        "M03",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "33"
+    },
+    {
+      "global_claim_id": "G33-S287-K12",
+      "claim_id": "K12",
+      "source_id": "S287",
+      "corpus_id": "C281",
+      "location": "Russellian monism / panpsychism corpus",
+      "claim_type": "REFLEXIVITY",
+      "claim": "La propuesta reabre la pregunta sobre qué es la naturaleza intrínseca de los estados que la ciencia describe desde una perspectiva estructural.",
+      "motifs": [
+        "M02",
+        "M06",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "33"
+    },
+    {
+      "global_claim_id": "G33-S287-K13",
+      "claim_id": "K13",
+      "source_id": "S287",
+      "corpus_id": "C281",
+      "location": "Russellian monism / panpsychism corpus",
+      "claim_type": "CONTRAST",
+      "claim": "Russellian monism no resuelve automáticamente el problema de combinación ni demuestra que toda materia sea consciente.",
+      "motifs": [
+        "M04",
+        "M14",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "33"
+    }
+  ]
+}
