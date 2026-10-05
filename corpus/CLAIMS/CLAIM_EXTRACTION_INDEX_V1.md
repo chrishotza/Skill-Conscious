@@ -162,3 +162,12 @@ The next extraction stage should systematically traverse the remaining register 
 - Current register coverage: 244/325 represented; 81/325 still missing.
 - Exact-13 represented sources: 174.
 - Storage note: v24–v29 are preserved as append-only ledger deltas because the core ledger blob is now too large for safe full-file rewriting through the current connector.
+
+## Batch v30 checkpoint
+
+- Newly represented register entries: C241, C242, C243, C244, C245, C246, C247, C248, C249, C250.
+- Added claims: 130.
+- Effective ledger: 3392 records / 257 source IDs (2482 core + 7 append batches of 130 each: v24–v30).
+- Current register coverage: 254/325 represented; 71/325 still missing.
+- Exact-13 represented sources: 184.
+- Storage note: v24–v30 are preserved as append-only ledger deltas because the core ledger blob is now too large for safe full-file rewriting through the current connector.
