@@ -1,8 +1,8 @@
 {
   "schema_version": "1.0",
-  "claim_count": 1975,
-  "global_claim_count": 1975,
-  "source_count": 148,
+  "claim_count": 2105,
+  "global_claim_count": 2105,
+  "source_count": 158,
   "records": [
     {
       "global_claim_id": "G1-S001-K01",
@@ -30564,6 +30564,1994 @@
       ],
       "provenance": "P2*",
       "batch": "19"
+    },
+    {
+      "global_claim_id": "G20-S149-01",
+      "claim_id": "B20-S149-01",
+      "source_id": "S149",
+      "corpus_id": "C103",
+      "location": "Relevant thematic sections",
+      "claim_type": "META",
+      "claim": "The work connects philosophical knowledge with religious certainty within a Shiite metaphysical framework.",
+      "motifs": [
+        "M06",
+        "M15",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "20"
+    },
+    {
+      "global_claim_id": "G20-S149-02",
+      "claim_id": "B20-S149-02",
+      "source_id": "S149",
+      "corpus_id": "C103",
+      "location": "Relevant thematic sections",
+      "claim_type": "REFLEXIVITY",
+      "claim": "Knowledge of the self is treated as part of a larger inquiry into knowledge of ultimate reality.",
+      "motifs": [
+        "M02",
+        "M06",
+        "M13"
+      ],
+      "provenance": "P2*",
+      "batch": "20"
+    },
+    {
+      "global_claim_id": "G20-S149-03",
+      "claim_id": "B20-S149-03",
+      "source_id": "S149",
+      "corpus_id": "C103",
+      "location": "Relevant thematic sections",
+      "claim_type": "ONTO",
+      "claim": "Human identity is understood through existence rather than through a merely conceptual definition of essence.",
+      "motifs": [
+        "M02",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "20"
+    },
+    {
+      "global_claim_id": "G20-S149-04",
+      "claim_id": "B20-S149-04",
+      "source_id": "S149",
+      "corpus_id": "C103",
+      "location": "Relevant thematic sections",
+      "claim_type": "TRANSFORMATION",
+      "claim": "Certainty is associated with a transformation in the knower's mode of being, not only accumulation of propositions.",
+      "motifs": [
+        "M12",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "20"
+    },
+    {
+      "global_claim_id": "G20-S149-05",
+      "claim_id": "B20-S149-05",
+      "source_id": "S149",
+      "corpus_id": "C103",
+      "location": "Relevant thematic sections",
+      "claim_type": "PHEN",
+      "claim": "Direct realization and certainty are distinguished from purely discursive description.",
+      "motifs": [
+        "M01",
+        "M06"
+      ],
+      "provenance": "P2*",
+      "batch": "20"
+    },
+    {
+      "global_claim_id": "G20-S149-06",
+      "claim_id": "B20-S149-06",
+      "source_id": "S149",
+      "corpus_id": "C103",
+      "location": "Relevant thematic sections",
+      "claim_type": "RELATION",
+      "claim": "Human knowledge is situated within a relation to God, world and the soul.",
+      "motifs": [
+        "M05",
+        "M15",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "20"
+    },
+    {
+      "global_claim_id": "G20-S149-07",
+      "claim_id": "B20-S149-07",
+      "source_id": "S149",
+      "corpus_id": "C103",
+      "location": "Relevant thematic sections",
+      "claim_type": "PERSISTENCE",
+      "claim": "The philosophical-theological system includes continuity of the soul beyond bodily death.",
+      "motifs": [
+        "M11",
+        "M19"
+      ],
+      "provenance": "P2*",
+      "batch": "20"
+    },
+    {
+      "global_claim_id": "G20-S149-08",
+      "claim_id": "B20-S149-08",
+      "source_id": "S149",
+      "corpus_id": "C103",
+      "location": "Relevant thematic sections",
+      "claim_type": "CAUSAL",
+      "claim": "Resurrection and ultimate destiny are embedded in a broader causal and divine order.",
+      "motifs": [
+        "M19",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "20"
+    },
+    {
+      "global_claim_id": "G20-S149-09",
+      "claim_id": "B20-S149-09",
+      "source_id": "S149",
+      "corpus_id": "C103",
+      "location": "Relevant thematic sections",
+      "claim_type": "UNITY",
+      "claim": "The work seeks coherence among metaphysics, psychology, theology and eschatology.",
+      "motifs": [
+        "M03",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "20"
+    },
+    {
+      "global_claim_id": "G20-S149-10",
+      "claim_id": "B20-S149-10",
+      "source_id": "S149",
+      "corpus_id": "C103",
+      "location": "Relevant thematic sections",
+      "claim_type": "PRACTICE",
+      "claim": "Philosophical and spiritual cultivation are connected to realizing what is intellectually affirmed.",
+      "motifs": [
+        "M12",
+        "M24",
+        "M25"
+      ],
+      "provenance": "P2*",
+      "batch": "20"
+    },
+    {
+      "global_claim_id": "G20-S149-11",
+      "claim_id": "B20-S149-11",
+      "source_id": "S149",
+      "corpus_id": "C103",
+      "location": "Relevant thematic sections",
+      "claim_type": "META",
+      "claim": "Sadrean certainty is an epistemological and spiritual concept, not a modern statistical confidence measure.",
+      "motifs": [
+        "M06",
+        "M14",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "20"
+    },
+    {
+      "global_claim_id": "G20-S149-12",
+      "claim_id": "B20-S149-12",
+      "source_id": "S149",
+      "corpus_id": "C103",
+      "location": "Relevant thematic sections",
+      "claim_type": "CONTRAST",
+      "claim": "Its theological claims should be distinguished from empirical claims about cognition or postmortem survival.",
+      "motifs": [
+        "M14",
+        "M19",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "20"
+    },
+    {
+      "global_claim_id": "G20-S149-13",
+      "claim_id": "B20-S149-13",
+      "source_id": "S149",
+      "corpus_id": "C103",
+      "location": "Relevant thematic sections",
+      "claim_type": "META",
+      "claim": "The text belongs to a historical philosophical tradition and remains source doctrine rather than validated neuroscience.",
+      "motifs": [
+        "M14",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "20"
+    },
+    {
+      "global_claim_id": "G20-S150-01",
+      "claim_id": "B20-S150-01",
+      "source_id": "S150",
+      "corpus_id": "C104",
+      "location": "Relevant thematic sections",
+      "claim_type": "TEXT",
+      "claim": "The Pyramid Texts are mortuary spells intended to support the deceased king's afterlife status and transformation.",
+      "motifs": [
+        "M12",
+        "M19",
+        "M25"
+      ],
+      "provenance": "P2*",
+      "batch": "20"
+    },
+    {
+      "global_claim_id": "G20-S150-02",
+      "claim_id": "B20-S150-02",
+      "source_id": "S150",
+      "corpus_id": "C104",
+      "location": "Relevant thematic sections",
+      "claim_type": "DEATH",
+      "claim": "The deceased is represented as continuing in an altered mode after bodily death.",
+      "motifs": [
+        "M11",
+        "M19"
+      ],
+      "provenance": "P2*",
+      "batch": "20"
+    },
+    {
+      "global_claim_id": "G20-S150-03",
+      "claim_id": "B20-S150-03",
+      "source_id": "S150",
+      "corpus_id": "C104",
+      "location": "Relevant thematic sections",
+      "claim_type": "TRANSFORMATION",
+      "claim": "Spells describe transformation into or identification with divine and celestial forms.",
+      "motifs": [
+        "M07",
+        "M12",
+        "M19"
+      ],
+      "provenance": "P2*",
+      "batch": "20"
+    },
+    {
+      "global_claim_id": "G20-S150-04",
+      "claim_id": "B20-S150-04",
+      "source_id": "S150",
+      "corpus_id": "C104",
+      "location": "Relevant thematic sections",
+      "claim_type": "COSMO",
+      "claim": "The afterlife is organized through relationships with celestial bodies, deities and cosmic cycles.",
+      "motifs": [
+        "M15",
+        "M19",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "20"
+    },
+    {
+      "global_claim_id": "G20-S150-05",
+      "claim_id": "B20-S150-05",
+      "source_id": "S150",
+      "corpus_id": "C104",
+      "location": "Relevant thematic sections",
+      "claim_type": "PRACTICE",
+      "claim": "Correct speech, recitation and ritual formulae are treated as consequential for the deceased's transition.",
+      "motifs": [
+        "M24",
+        "M25"
+      ],
+      "provenance": "P2*",
+      "batch": "20"
+    },
+    {
+      "global_claim_id": "G20-S150-06",
+      "claim_id": "B20-S150-06",
+      "source_id": "S150",
+      "corpus_id": "C104",
+      "location": "Relevant thematic sections",
+      "claim_type": "PERSON",
+      "claim": "The deceased's identity is extended through royal and divine relations rather than reduced to the corpse.",
+      "motifs": [
+        "M05",
+        "M16",
+        "M19"
+      ],
+      "provenance": "P2*",
+      "batch": "20"
+    },
+    {
+      "global_claim_id": "G20-S150-07",
+      "claim_id": "B20-S150-07",
+      "source_id": "S150",
+      "corpus_id": "C104",
+      "location": "Relevant thematic sections",
+      "claim_type": "STATE",
+      "claim": "Multiple possible forms or destinations are represented for the transformed deceased.",
+      "motifs": [
+        "M07",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "20"
+    },
+    {
+      "global_claim_id": "G20-S150-08",
+      "claim_id": "B20-S150-08",
+      "source_id": "S150",
+      "corpus_id": "C104",
+      "location": "Relevant thematic sections",
+      "claim_type": "RELATION",
+      "claim": "The king's continued identity depends upon relationships with gods, ancestors, stars and the cosmic order.",
+      "motifs": [
+        "M05",
+        "M15",
+        "M19"
+      ],
+      "provenance": "P2*",
+      "batch": "20"
+    },
+    {
+      "global_claim_id": "G20-S150-09",
+      "claim_id": "B20-S150-09",
+      "source_id": "S150",
+      "corpus_id": "C104",
+      "location": "Relevant thematic sections",
+      "claim_type": "TEMPORAL",
+      "claim": "Death is framed as transition within a sequence of transformations rather than as abrupt cessation.",
+      "motifs": [
+        "M11",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "20"
+    },
+    {
+      "global_claim_id": "G20-S150-10",
+      "claim_id": "B20-S150-10",
+      "source_id": "S150",
+      "corpus_id": "C104",
+      "location": "Relevant thematic sections",
+      "claim_type": "META",
+      "claim": "The texts operate within ancient Egyptian religious cosmology and cannot be read as direct reports of phenomenological measurement.",
+      "motifs": [
+        "M14",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "20"
+    },
+    {
+      "global_claim_id": "G20-S150-11",
+      "claim_id": "B20-S150-11",
+      "source_id": "S150",
+      "corpus_id": "C104",
+      "location": "Relevant thematic sections",
+      "claim_type": "HIDDEN",
+      "claim": "Knowledge of names, formulae and ritual structures is treated as relevant to navigating the afterlife.",
+      "motifs": [
+        "M17",
+        "M25"
+      ],
+      "provenance": "P2*",
+      "batch": "20"
+    },
+    {
+      "global_claim_id": "G20-S150-12",
+      "claim_id": "B20-S150-12",
+      "source_id": "S150",
+      "corpus_id": "C104",
+      "location": "Relevant thematic sections",
+      "claim_type": "CONTRAST",
+      "claim": "Different spells and periods vary in their imagery and theological emphases; the corpus should not be flattened into one doctrine.",
+      "motifs": [
+        "M14",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "20"
+    },
+    {
+      "global_claim_id": "G20-S150-13",
+      "claim_id": "B20-S150-13",
+      "source_id": "S150",
+      "corpus_id": "C104",
+      "location": "Relevant thematic sections",
+      "claim_type": "META",
+      "claim": "The afterlife claims are historical religious source claims, not empirical evidence for literal postmortem consciousness.",
+      "motifs": [
+        "M14",
+        "M19",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "20"
+    },
+    {
+      "global_claim_id": "G20-S151-01",
+      "claim_id": "B20-S151-01",
+      "source_id": "S151",
+      "corpus_id": "C105",
+      "location": "Relevant thematic sections",
+      "claim_type": "TEXT",
+      "claim": "Coffin Texts expand mortuary knowledge to non-royal contexts and include spells for afterlife navigation.",
+      "motifs": [
+        "M19",
+        "M25"
+      ],
+      "provenance": "P2*",
+      "batch": "20"
+    },
+    {
+      "global_claim_id": "G20-S151-02",
+      "claim_id": "B20-S151-02",
+      "source_id": "S151",
+      "corpus_id": "C105",
+      "location": "Relevant thematic sections",
+      "claim_type": "PERSON",
+      "claim": "Ka and ba are distinct components in the ancient Egyptian account of continued personhood.",
+      "motifs": [
+        "M07",
+        "M19"
+      ],
+      "provenance": "P2*",
+      "batch": "20"
+    },
+    {
+      "global_claim_id": "G20-S151-03",
+      "claim_id": "B20-S151-03",
+      "source_id": "S151",
+      "corpus_id": "C105",
+      "location": "Relevant thematic sections",
+      "claim_type": "DEATH",
+      "claim": "The deceased is treated as capable of continuing activity and identity after death.",
+      "motifs": [
+        "M11",
+        "M19"
+      ],
+      "provenance": "P2*",
+      "batch": "20"
+    },
+    {
+      "global_claim_id": "G20-S151-04",
+      "claim_id": "B20-S151-04",
+      "source_id": "S151",
+      "corpus_id": "C105",
+      "location": "Relevant thematic sections",
+      "claim_type": "PRACTICE",
+      "claim": "Spells function as guidance for overcoming obstacles and reaching desired destinations.",
+      "motifs": [
+        "M24",
+        "M25"
+      ],
+      "provenance": "P2*",
+      "batch": "20"
+    },
+    {
+      "global_claim_id": "G20-S151-05",
+      "claim_id": "B20-S151-05",
+      "source_id": "S151",
+      "corpus_id": "C105",
+      "location": "Relevant thematic sections",
+      "claim_type": "STATE",
+      "claim": "The netherworld is represented through multiple regions, routes and encounters rather than one undifferentiated state.",
+      "motifs": [
+        "M07",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "20"
+    },
+    {
+      "global_claim_id": "G20-S151-06",
+      "claim_id": "B20-S151-06",
+      "source_id": "S151",
+      "corpus_id": "C105",
+      "location": "Relevant thematic sections",
+      "claim_type": "TRANSFORMATION",
+      "claim": "The deceased may assume different forms or identifications during the afterlife journey.",
+      "motifs": [
+        "M07",
+        "M12",
+        "M19"
+      ],
+      "provenance": "P2*",
+      "batch": "20"
+    },
+    {
+      "global_claim_id": "G20-S151-07",
+      "claim_id": "B20-S151-07",
+      "source_id": "S151",
+      "corpus_id": "C105",
+      "location": "Relevant thematic sections",
+      "claim_type": "RELATION",
+      "claim": "Family, gods, guardians and ritual specialists form part of the social-religious ecology of the dead.",
+      "motifs": [
+        "M05",
+        "M16",
+        "M19"
+      ],
+      "provenance": "P2*",
+      "batch": "20"
+    },
+    {
+      "global_claim_id": "G20-S151-08",
+      "claim_id": "B20-S151-08",
+      "source_id": "S151",
+      "corpus_id": "C105",
+      "location": "Relevant thematic sections",
+      "claim_type": "TEMPORAL",
+      "claim": "The afterlife journey is structured sequentially, with transitions through dangerous and beneficial stages.",
+      "motifs": [
+        "M11",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "20"
+    },
+    {
+      "global_claim_id": "G20-S151-09",
+      "claim_id": "B20-S151-09",
+      "source_id": "S151",
+      "corpus_id": "C105",
+      "location": "Relevant thematic sections",
+      "claim_type": "HIDDEN",
+      "claim": "Knowledge of names and ritual formulae is treated as practical knowledge for passage through the next world.",
+      "motifs": [
+        "M17",
+        "M25"
+      ],
+      "provenance": "P2*",
+      "batch": "20"
+    },
+    {
+      "global_claim_id": "G20-S151-10",
+      "claim_id": "B20-S151-10",
+      "source_id": "S151",
+      "corpus_id": "C105",
+      "location": "Relevant thematic sections",
+      "claim_type": "VALENCE",
+      "claim": "Threat, protection, reward and danger are incorporated into the representation of postmortem states.",
+      "motifs": [
+        "M10",
+        "M19"
+      ],
+      "provenance": "P2*",
+      "batch": "20"
+    },
+    {
+      "global_claim_id": "G20-S151-11",
+      "claim_id": "B20-S151-11",
+      "source_id": "S151",
+      "corpus_id": "C105",
+      "location": "Relevant thematic sections",
+      "claim_type": "COSMO",
+      "claim": "The deceased's journey is integrated with solar, Osirian and cosmic imagery.",
+      "motifs": [
+        "M15",
+        "M19",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "20"
+    },
+    {
+      "global_claim_id": "G20-S151-12",
+      "claim_id": "B20-S151-12",
+      "source_id": "S151",
+      "corpus_id": "C105",
+      "location": "Relevant thematic sections",
+      "claim_type": "CONTRAST",
+      "claim": "Coffin Text traditions vary across periods and contexts, so individual spells require local attribution.",
+      "motifs": [
+        "M14",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "20"
+    },
+    {
+      "global_claim_id": "G20-S151-13",
+      "claim_id": "B20-S151-13",
+      "source_id": "S151",
+      "corpus_id": "C105",
+      "location": "Relevant thematic sections",
+      "claim_type": "META",
+      "claim": "Their claims about soul continuity remain ancient Egyptian religious doctrine rather than experimentally established postmortem facts.",
+      "motifs": [
+        "M14",
+        "M19",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "20"
+    },
+    {
+      "global_claim_id": "G20-S152-01",
+      "claim_id": "B20-S152-01",
+      "source_id": "S152",
+      "corpus_id": "C107",
+      "location": "Relevant thematic sections",
+      "claim_type": "TEXT",
+      "claim": "The Amduat depicts a structured nocturnal journey of the sun god through the underworld.",
+      "motifs": [
+        "M07",
+        "M19",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "20"
+    },
+    {
+      "global_claim_id": "G20-S152-02",
+      "claim_id": "B20-S152-02",
+      "source_id": "S152",
+      "corpus_id": "C107",
+      "location": "Relevant thematic sections",
+      "claim_type": "TEMPORAL",
+      "claim": "The journey is divided into sequential hours or regions that organize the transformation through night.",
+      "motifs": [
+        "M11",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "20"
+    },
+    {
+      "global_claim_id": "G20-S152-03",
+      "claim_id": "B20-S152-03",
+      "source_id": "S152",
+      "corpus_id": "C107",
+      "location": "Relevant thematic sections",
+      "claim_type": "COSMO",
+      "claim": "Solar rebirth links the underworld journey to a larger cosmic cycle of death and renewal.",
+      "motifs": [
+        "M15",
+        "M19",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "20"
+    },
+    {
+      "global_claim_id": "G20-S152-04",
+      "claim_id": "B20-S152-04",
+      "source_id": "S152",
+      "corpus_id": "C107",
+      "location": "Relevant thematic sections",
+      "claim_type": "TRANSFORMATION",
+      "claim": "The nightly passage culminates in renewed emergence, making transformation central to the composition.",
+      "motifs": [
+        "M12",
+        "M19"
+      ],
+      "provenance": "P2*",
+      "batch": "20"
+    },
+    {
+      "global_claim_id": "G20-S152-05",
+      "claim_id": "B20-S152-05",
+      "source_id": "S152",
+      "corpus_id": "C107",
+      "location": "Relevant thematic sections",
+      "claim_type": "STATE",
+      "claim": "Different regions contain distinct beings, conditions and challenges encountered by the solar process.",
+      "motifs": [
+        "M07",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "20"
+    },
+    {
+      "global_claim_id": "G20-S152-06",
+      "claim_id": "B20-S152-06",
+      "source_id": "S152",
+      "corpus_id": "C107",
+      "location": "Relevant thematic sections",
+      "claim_type": "HIDDEN",
+      "claim": "Knowledge of underworld geography, names and forms is incorporated into the representation of successful passage.",
+      "motifs": [
+        "M17",
+        "M25"
+      ],
+      "provenance": "P2*",
+      "batch": "20"
+    },
+    {
+      "global_claim_id": "G20-S152-07",
+      "claim_id": "B20-S152-07",
+      "source_id": "S152",
+      "corpus_id": "C107",
+      "location": "Relevant thematic sections",
+      "claim_type": "RELATION",
+      "claim": "The sun's movement is accompanied by divine beings and organized relationships among forces in the underworld.",
+      "motifs": [
+        "M05",
+        "M15"
+      ],
+      "provenance": "P2*",
+      "batch": "20"
+    },
+    {
+      "global_claim_id": "G20-S152-08",
+      "claim_id": "B20-S152-08",
+      "source_id": "S152",
+      "corpus_id": "C107",
+      "location": "Relevant thematic sections",
+      "claim_type": "VALENCE",
+      "claim": "Order, threat, protection and destructive forces are differentiated throughout the journey.",
+      "motifs": [
+        "M10",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "20"
+    },
+    {
+      "global_claim_id": "G20-S152-09",
+      "claim_id": "B20-S152-09",
+      "source_id": "S152",
+      "corpus_id": "C107",
+      "location": "Relevant thematic sections",
+      "claim_type": "PRACTICE",
+      "claim": "The text functions as a funerary/ritual knowledge system rather than merely a narrative story.",
+      "motifs": [
+        "M24",
+        "M25"
+      ],
+      "provenance": "P2*",
+      "batch": "20"
+    },
+    {
+      "global_claim_id": "G20-S152-10",
+      "claim_id": "B20-S152-10",
+      "source_id": "S152",
+      "corpus_id": "C107",
+      "location": "Relevant thematic sections",
+      "claim_type": "DEATH",
+      "claim": "Death and renewal are represented as phases within an ordered cycle rather than absolute cessation.",
+      "motifs": [
+        "M11",
+        "M19"
+      ],
+      "provenance": "P2*",
+      "batch": "20"
+    },
+    {
+      "global_claim_id": "G20-S152-11",
+      "claim_id": "B20-S152-11",
+      "source_id": "S152",
+      "corpus_id": "C107",
+      "location": "Relevant thematic sections",
+      "claim_type": "UNITY",
+      "claim": "The underworld journey is integrated into the wider daily cycle of the sun and cosmos.",
+      "motifs": [
+        "M03",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "20"
+    },
+    {
+      "global_claim_id": "G20-S152-12",
+      "claim_id": "B20-S152-12",
+      "source_id": "S152",
+      "corpus_id": "C107",
+      "location": "Relevant thematic sections",
+      "claim_type": "CONTRAST",
+      "claim": "The solar journey is a mythic-cosmological model and should not be mapped directly onto human subjective states.",
+      "motifs": [
+        "M14",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "20"
+    },
+    {
+      "global_claim_id": "G20-S152-13",
+      "claim_id": "B20-S152-13",
+      "source_id": "S152",
+      "corpus_id": "C107",
+      "location": "Relevant thematic sections",
+      "claim_type": "META",
+      "claim": "Its resurrection imagery is historical Egyptian religious doctrine, not evidence of a literal mechanism of consciousness after death.",
+      "motifs": [
+        "M14",
+        "M19",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "20"
+    },
+    {
+      "global_claim_id": "G20-S153-01",
+      "claim_id": "B20-S153-01",
+      "source_id": "S153",
+      "corpus_id": "C108",
+      "location": "Relevant thematic sections",
+      "claim_type": "TEXT",
+      "claim": "The Book of Gates organizes the underworld journey through successive guarded gates.",
+      "motifs": [
+        "M07",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "20"
+    },
+    {
+      "global_claim_id": "G20-S153-02",
+      "claim_id": "B20-S153-02",
+      "source_id": "S153",
+      "corpus_id": "C108",
+      "location": "Relevant thematic sections",
+      "claim_type": "TEMPORAL",
+      "claim": "The gates are associated with sequential stages of the nocturnal journey.",
+      "motifs": [
+        "M11",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "20"
+    },
+    {
+      "global_claim_id": "G20-S153-03",
+      "claim_id": "B20-S153-03",
+      "source_id": "S153",
+      "corpus_id": "C108",
+      "location": "Relevant thematic sections",
+      "claim_type": "HIDDEN",
+      "claim": "Knowing names and identities of guardians is presented as relevant to successful passage.",
+      "motifs": [
+        "M17",
+        "M25"
+      ],
+      "provenance": "P2*",
+      "batch": "20"
+    },
+    {
+      "global_claim_id": "G20-S153-04",
+      "claim_id": "B20-S153-04",
+      "source_id": "S153",
+      "corpus_id": "C108",
+      "location": "Relevant thematic sections",
+      "claim_type": "DEATH",
+      "claim": "The deceased participates symbolically in the same ordered underworld journey represented for the sun god.",
+      "motifs": [
+        "M15",
+        "M19"
+      ],
+      "provenance": "P2*",
+      "batch": "20"
+    },
+    {
+      "global_claim_id": "G20-S153-05",
+      "claim_id": "B20-S153-05",
+      "source_id": "S153",
+      "corpus_id": "C108",
+      "location": "Relevant thematic sections",
+      "claim_type": "VALENCE",
+      "claim": "The text distinguishes safe passage, danger, punishment and protection.",
+      "motifs": [
+        "M10",
+        "M19"
+      ],
+      "provenance": "P2*",
+      "batch": "20"
+    },
+    {
+      "global_claim_id": "G20-S153-06",
+      "claim_id": "B20-S153-06",
+      "source_id": "S153",
+      "corpus_id": "C108",
+      "location": "Relevant thematic sections",
+      "claim_type": "JUDGMENT",
+      "claim": "Moral judgment is incorporated into the later stages of the journey and destiny of the dead.",
+      "motifs": [
+        "M10",
+        "M19"
+      ],
+      "provenance": "P2*",
+      "batch": "20"
+    },
+    {
+      "global_claim_id": "G20-S153-07",
+      "claim_id": "B20-S153-07",
+      "source_id": "S153",
+      "corpus_id": "C108",
+      "location": "Relevant thematic sections",
+      "claim_type": "TRANSFORMATION",
+      "claim": "Passing through gates is represented as movement into changed conditions of existence.",
+      "motifs": [
+        "M12",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "20"
+    },
+    {
+      "global_claim_id": "G20-S153-08",
+      "claim_id": "B20-S153-08",
+      "source_id": "S153",
+      "corpus_id": "C108",
+      "location": "Relevant thematic sections",
+      "claim_type": "RELATION",
+      "claim": "Guardians, deities and the deceased are linked through ritualized interactions and knowledge.",
+      "motifs": [
+        "M05",
+        "M16"
+      ],
+      "provenance": "P2*",
+      "batch": "20"
+    },
+    {
+      "global_claim_id": "G20-S153-09",
+      "claim_id": "B20-S153-09",
+      "source_id": "S153",
+      "corpus_id": "C108",
+      "location": "Relevant thematic sections",
+      "claim_type": "COSMO",
+      "claim": "The underworld is a component of a larger solar-cosmic cycle culminating in renewed emergence.",
+      "motifs": [
+        "M15",
+        "M19",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "20"
+    },
+    {
+      "global_claim_id": "G20-S153-10",
+      "claim_id": "B20-S153-10",
+      "source_id": "S153",
+      "corpus_id": "C108",
+      "location": "Relevant thematic sections",
+      "claim_type": "PRACTICE",
+      "claim": "Funerary knowledge and correct ritual/formulaic understanding are treated as important resources for the dead.",
+      "motifs": [
+        "M24",
+        "M25"
+      ],
+      "provenance": "P2*",
+      "batch": "20"
+    },
+    {
+      "global_claim_id": "G20-S153-11",
+      "claim_id": "B20-S153-11",
+      "source_id": "S153",
+      "corpus_id": "C108",
+      "location": "Relevant thematic sections",
+      "claim_type": "STATE",
+      "claim": "Different regions of the underworld are portrayed as distinct experiential and cosmological configurations.",
+      "motifs": [
+        "M07",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "20"
+    },
+    {
+      "global_claim_id": "G20-S153-12",
+      "claim_id": "B20-S153-12",
+      "source_id": "S153",
+      "corpus_id": "C108",
+      "location": "Relevant thematic sections",
+      "claim_type": "CONTRAST",
+      "claim": "The text should be treated as an ancient Egyptian mortuary composition, not as a literal cartography of consciousness.",
+      "motifs": [
+        "M14",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "20"
+    },
+    {
+      "global_claim_id": "G20-S153-13",
+      "claim_id": "B20-S153-13",
+      "source_id": "S153",
+      "corpus_id": "C108",
+      "location": "Relevant thematic sections",
+      "claim_type": "META",
+      "claim": "Its postmortem claims remain religious source doctrine rather than empirical evidence about survival of awareness.",
+      "motifs": [
+        "M14",
+        "M19",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "20"
+    },
+    {
+      "global_claim_id": "G20-S154-01",
+      "claim_id": "B20-S154-01",
+      "source_id": "S154",
+      "corpus_id": "C109",
+      "location": "Relevant thematic sections",
+      "claim_type": "PRACTICE",
+      "claim": "The instructions frame wisdom as a set of trainable patterns of conduct rather than merely theoretical knowledge.",
+      "motifs": [
+        "M12",
+        "M24",
+        "M25"
+      ],
+      "provenance": "P2*",
+      "batch": "20"
+    },
+    {
+      "global_claim_id": "G20-S154-02",
+      "claim_id": "B20-S154-02",
+      "source_id": "S154",
+      "corpus_id": "C109",
+      "location": "Relevant thematic sections",
+      "claim_type": "REFLEXIVITY",
+      "claim": "Self-control requires awareness of one's own impulses, speech and social position.",
+      "motifs": [
+        "M02",
+        "M06"
+      ],
+      "provenance": "P2*",
+      "batch": "20"
+    },
+    {
+      "global_claim_id": "G20-S154-03",
+      "claim_id": "B20-S154-03",
+      "source_id": "S154",
+      "corpus_id": "C109",
+      "location": "Relevant thematic sections",
+      "claim_type": "VALENCE",
+      "claim": "Anger, greed, pride and excess are treated as conditions that can damage judgment and relationships.",
+      "motifs": [
+        "M10",
+        "M12"
+      ],
+      "provenance": "P2*",
+      "batch": "20"
+    },
+    {
+      "global_claim_id": "G20-S154-04",
+      "claim_id": "B20-S154-04",
+      "source_id": "S154",
+      "corpus_id": "C109",
+      "location": "Relevant thematic sections",
+      "claim_type": "RELATION",
+      "claim": "Good conduct is defined through appropriate relations with superiors, peers, family and dependents.",
+      "motifs": [
+        "M05",
+        "M16"
+      ],
+      "provenance": "P2*",
+      "batch": "20"
+    },
+    {
+      "global_claim_id": "G20-S154-05",
+      "claim_id": "B20-S154-05",
+      "source_id": "S154",
+      "corpus_id": "C109",
+      "location": "Relevant thematic sections",
+      "claim_type": "TEMPORAL",
+      "claim": "Wisdom is presented as something cultivated over a lifetime through repeated practice and observation.",
+      "motifs": [
+        "M11",
+        "M12"
+      ],
+      "provenance": "P2*",
+      "batch": "20"
+    },
+    {
+      "global_claim_id": "G20-S154-06",
+      "claim_id": "B20-S154-06",
+      "source_id": "S154",
+      "corpus_id": "C109",
+      "location": "Relevant thematic sections",
+      "claim_type": "PRACTICE",
+      "claim": "Listening is treated as a learned capacity that improves understanding and judgment.",
+      "motifs": [
+        "M06",
+        "M24"
+      ],
+      "provenance": "P2*",
+      "batch": "20"
+    },
+    {
+      "global_claim_id": "G20-S154-07",
+      "claim_id": "B20-S154-07",
+      "source_id": "S154",
+      "corpus_id": "C109",
+      "location": "Relevant thematic sections",
+      "claim_type": "CAUSAL",
+      "claim": "Speech and behavior are portrayed as having downstream consequences for reputation, conflict and social order.",
+      "motifs": [
+        "M10",
+        "M16"
+      ],
+      "provenance": "P2*",
+      "batch": "20"
+    },
+    {
+      "global_claim_id": "G20-S154-08",
+      "claim_id": "B20-S154-08",
+      "source_id": "S154",
+      "corpus_id": "C109",
+      "location": "Relevant thematic sections",
+      "claim_type": "META",
+      "claim": "The text treats practical wisdom as alignment between inner disposition and outward conduct.",
+      "motifs": [
+        "M03",
+        "M05"
+      ],
+      "provenance": "P2*",
+      "batch": "20"
+    },
+    {
+      "global_claim_id": "G20-S154-09",
+      "claim_id": "B20-S154-09",
+      "source_id": "S154",
+      "corpus_id": "C109",
+      "location": "Relevant thematic sections",
+      "claim_type": "STATE",
+      "claim": "Calmness and restraint are contrasted with impulsive or agitated behavior.",
+      "motifs": [
+        "M07",
+        "M10"
+      ],
+      "provenance": "P2*",
+      "batch": "20"
+    },
+    {
+      "global_claim_id": "G20-S154-10",
+      "claim_id": "B20-S154-10",
+      "source_id": "S154",
+      "corpus_id": "C109",
+      "location": "Relevant thematic sections",
+      "claim_type": "TRANSFORMATION",
+      "claim": "A novice is expected to change through instruction, imitation and accumulated experience.",
+      "motifs": [
+        "M12",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "20"
+    },
+    {
+      "global_claim_id": "G20-S154-11",
+      "claim_id": "B20-S154-11",
+      "source_id": "S154",
+      "corpus_id": "C109",
+      "location": "Relevant thematic sections",
+      "claim_type": "RELATION",
+      "claim": "The social world is not external background but part of the conditions under which a person becomes wise.",
+      "motifs": [
+        "M05",
+        "M16"
+      ],
+      "provenance": "P2*",
+      "batch": "20"
+    },
+    {
+      "global_claim_id": "G20-S154-12",
+      "claim_id": "B20-S154-12",
+      "source_id": "S154",
+      "corpus_id": "C109",
+      "location": "Relevant thematic sections",
+      "claim_type": "CONTRAST",
+      "claim": "Ptahhotep's wisdom genre should not be equated with a modern theory of consciousness or introspection.",
+      "motifs": [
+        "M14",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "20"
+    },
+    {
+      "global_claim_id": "G20-S154-13",
+      "claim_id": "B20-S154-13",
+      "source_id": "S154",
+      "corpus_id": "C109",
+      "location": "Relevant thematic sections",
+      "claim_type": "META",
+      "claim": "The maxims provide historical evidence about Egyptian ideals of conduct, not laboratory evidence about subjective experience.",
+      "motifs": [
+        "M14",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "20"
+    },
+    {
+      "global_claim_id": "G20-S155-01",
+      "claim_id": "B20-S155-01",
+      "source_id": "S155",
+      "corpus_id": "C110",
+      "location": "Relevant thematic sections",
+      "claim_type": "ONTO",
+      "claim": "The Memphite Theology presents Ptah as a creator whose activity is associated with heart and tongue.",
+      "motifs": [
+        "M02",
+        "M20",
+        "M21"
+      ],
+      "provenance": "P2*",
+      "batch": "20"
+    },
+    {
+      "global_claim_id": "G20-S155-02",
+      "claim_id": "B20-S155-02",
+      "source_id": "S155",
+      "corpus_id": "C110",
+      "location": "Relevant thematic sections",
+      "claim_type": "META",
+      "claim": "Creation is described as beginning through what is devised in the heart and expressed by the tongue.",
+      "motifs": [
+        "M02",
+        "M21"
+      ],
+      "provenance": "P2*",
+      "batch": "20"
+    },
+    {
+      "global_claim_id": "G20-S155-03",
+      "claim_id": "B20-S155-03",
+      "source_id": "S155",
+      "corpus_id": "C110",
+      "location": "Relevant thematic sections",
+      "claim_type": "RELATION",
+      "claim": "Thought, speech and physical action are connected within one creative process.",
+      "motifs": [
+        "M03",
+        "M05",
+        "M21"
+      ],
+      "provenance": "P2*",
+      "batch": "20"
+    },
+    {
+      "global_claim_id": "G20-S155-04",
+      "claim_id": "B20-S155-04",
+      "source_id": "S155",
+      "corpus_id": "C110",
+      "location": "Relevant thematic sections",
+      "claim_type": "CAUSAL",
+      "claim": "The text explicitly links conception in the heart, utterance by the tongue and subsequent manifestation in action.",
+      "motifs": [
+        "M21",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "20"
+    },
+    {
+      "global_claim_id": "G20-S155-05",
+      "claim_id": "B20-S155-05",
+      "source_id": "S155",
+      "corpus_id": "C110",
+      "location": "Relevant thematic sections",
+      "claim_type": "REFLEXIVITY",
+      "claim": "The heart functions as a center of understanding or devising before external expression.",
+      "motifs": [
+        "M02",
+        "M06"
+      ],
+      "provenance": "P2*",
+      "batch": "20"
+    },
+    {
+      "global_claim_id": "G20-S155-06",
+      "claim_id": "B20-S155-06",
+      "source_id": "S155",
+      "corpus_id": "C110",
+      "location": "Relevant thematic sections",
+      "claim_type": "UNITY",
+      "claim": "The creative act integrates cognition, language and bodily execution instead of treating them as separate domains.",
+      "motifs": [
+        "M03",
+        "M08"
+      ],
+      "provenance": "P2*",
+      "batch": "20"
+    },
+    {
+      "global_claim_id": "G20-S155-07",
+      "claim_id": "B20-S155-07",
+      "source_id": "S155",
+      "corpus_id": "C110",
+      "location": "Relevant thematic sections",
+      "claim_type": "COSMO",
+      "claim": "Divine cognition and speech are presented as mechanisms of cosmic creation.",
+      "motifs": [
+        "M15",
+        "M20",
+        "M21"
+      ],
+      "provenance": "P2*",
+      "batch": "20"
+    },
+    {
+      "global_claim_id": "G20-S155-08",
+      "claim_id": "B20-S155-08",
+      "source_id": "S155",
+      "corpus_id": "C110",
+      "location": "Relevant thematic sections",
+      "claim_type": "VALENCE",
+      "claim": "The same ordering principle is connected with life, death and the qualities of action.",
+      "motifs": [
+        "M10",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "20"
+    },
+    {
+      "global_claim_id": "G20-S155-09",
+      "claim_id": "B20-S155-09",
+      "source_id": "S155",
+      "corpus_id": "C110",
+      "location": "Relevant thematic sections",
+      "claim_type": "RELATION",
+      "claim": "Gods, humans and other living forms are incorporated into a shared creative order.",
+      "motifs": [
+        "M05",
+        "M15",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "20"
+    },
+    {
+      "global_claim_id": "G20-S155-10",
+      "claim_id": "B20-S155-10",
+      "source_id": "S155",
+      "corpus_id": "C110",
+      "location": "Relevant thematic sections",
+      "claim_type": "TEXT",
+      "claim": "The surviving stone is a later copy that claims to preserve an older ancestral work, so textual provenance matters.",
+      "motifs": [
+        "M14",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "20"
+    },
+    {
+      "global_claim_id": "G20-S155-11",
+      "claim_id": "B20-S155-11",
+      "source_id": "S155",
+      "corpus_id": "C110",
+      "location": "Relevant thematic sections",
+      "claim_type": "CONTRAST",
+      "claim": "Heart and tongue in this theological context should not be silently translated into modern neuroscience or language-processing variables.",
+      "motifs": [
+        "M14",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "20"
+    },
+    {
+      "global_claim_id": "G20-S155-12",
+      "claim_id": "B20-S155-12",
+      "source_id": "S155",
+      "corpus_id": "C110",
+      "location": "Relevant thematic sections",
+      "claim_type": "META",
+      "claim": "The theology offers a religious ontology of creation rather than a scientific mechanism of consciousness.",
+      "motifs": [
+        "M14",
+        "M21",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "20"
+    },
+    {
+      "global_claim_id": "G20-S155-13",
+      "claim_id": "B20-S155-13",
+      "source_id": "S155",
+      "corpus_id": "C110",
+      "location": "Relevant thematic sections",
+      "claim_type": "PRACTICE",
+      "claim": "The inscription's preservation and recopying itself shows the role of textual continuity in maintaining theological knowledge.",
+      "motifs": [
+        "M11",
+        "M17",
+        "M25"
+      ],
+      "provenance": "P2*",
+      "batch": "20"
+    },
+    {
+      "global_claim_id": "G20-S156-01",
+      "claim_id": "B20-S156-01",
+      "source_id": "S156",
+      "corpus_id": "C112",
+      "location": "Relevant thematic sections",
+      "claim_type": "TEXT",
+      "claim": "The hymn centers on the abduction, loss, recovery and return of Persephone.",
+      "motifs": [
+        "M11",
+        "M19",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "20"
+    },
+    {
+      "global_claim_id": "G20-S156-02",
+      "claim_id": "B20-S156-02",
+      "source_id": "S156",
+      "corpus_id": "C112",
+      "location": "Relevant thematic sections",
+      "claim_type": "DEATH",
+      "claim": "The myth links descent into the underworld with altered relations between life and death.",
+      "motifs": [
+        "M19",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "20"
+    },
+    {
+      "global_claim_id": "G20-S156-03",
+      "claim_id": "B20-S156-03",
+      "source_id": "S156",
+      "corpus_id": "C112",
+      "location": "Relevant thematic sections",
+      "claim_type": "TRANSFORMATION",
+      "claim": "Persephone's return produces a cyclical condition in which absence and return become part of the world's order.",
+      "motifs": [
+        "M12",
+        "M19",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "20"
+    },
+    {
+      "global_claim_id": "G20-S156-04",
+      "claim_id": "B20-S156-04",
+      "source_id": "S156",
+      "corpus_id": "C112",
+      "location": "Relevant thematic sections",
+      "claim_type": "COSMO",
+      "claim": "Agricultural fertility is linked to divine and underworld cycles.",
+      "motifs": [
+        "M15",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "20"
+    },
+    {
+      "global_claim_id": "G20-S156-05",
+      "claim_id": "B20-S156-05",
+      "source_id": "S156",
+      "corpus_id": "C112",
+      "location": "Relevant thematic sections",
+      "claim_type": "VALENCE",
+      "claim": "Grief, longing, anger, reunion and restoration structure the narrative's emotional world.",
+      "motifs": [
+        "M10",
+        "M12"
+      ],
+      "provenance": "P2*",
+      "batch": "20"
+    },
+    {
+      "global_claim_id": "G20-S156-06",
+      "claim_id": "B20-S156-06",
+      "source_id": "S156",
+      "corpus_id": "C112",
+      "location": "Relevant thematic sections",
+      "claim_type": "RELATION",
+      "claim": "Mother-child, deity-human and underworld relations shape the transformation of the characters.",
+      "motifs": [
+        "M05",
+        "M16"
+      ],
+      "provenance": "P2*",
+      "batch": "20"
+    },
+    {
+      "global_claim_id": "G20-S156-07",
+      "claim_id": "B20-S156-07",
+      "source_id": "S156",
+      "corpus_id": "C112",
+      "location": "Relevant thematic sections",
+      "claim_type": "PRACTICE",
+      "claim": "The Eleusinian mysteries are connected by later tradition with ritual knowledge associated with the hymn's mythic setting.",
+      "motifs": [
+        "M17",
+        "M25"
+      ],
+      "provenance": "P2*",
+      "batch": "20"
+    },
+    {
+      "global_claim_id": "G20-S156-08",
+      "claim_id": "B20-S156-08",
+      "source_id": "S156",
+      "corpus_id": "C112",
+      "location": "Relevant thematic sections",
+      "claim_type": "STATE",
+      "claim": "The myth distinguishes ordinary mortal life from exceptional encounters with divine and underworld realms.",
+      "motifs": [
+        "M07",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "20"
+    },
+    {
+      "global_claim_id": "G20-S156-09",
+      "claim_id": "B20-S156-09",
+      "source_id": "S156",
+      "corpus_id": "C112",
+      "location": "Relevant thematic sections",
+      "claim_type": "HIDDEN",
+      "claim": "Mystery initiation implies restricted knowledge and a distinction between public narrative and initiatory experience.",
+      "motifs": [
+        "M17",
+        "M25"
+      ],
+      "provenance": "P2*",
+      "batch": "20"
+    },
+    {
+      "global_claim_id": "G20-S156-10",
+      "claim_id": "B20-S156-10",
+      "source_id": "S156",
+      "corpus_id": "C112",
+      "location": "Relevant thematic sections",
+      "claim_type": "TEMPORAL",
+      "claim": "Seasonal recurrence provides a model of loss and renewal embedded in cosmic time.",
+      "motifs": [
+        "M11",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "20"
+    },
+    {
+      "global_claim_id": "G20-S156-11",
+      "claim_id": "B20-S156-11",
+      "source_id": "S156",
+      "corpus_id": "C112",
+      "location": "Relevant thematic sections",
+      "claim_type": "CONTRAST",
+      "claim": "The hymn is mythic-poetic literature; later claims about initiation and afterlife should not be projected backward without historical qualification.",
+      "motifs": [
+        "M14",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "20"
+    },
+    {
+      "global_claim_id": "G20-S156-12",
+      "claim_id": "B20-S156-12",
+      "source_id": "S156",
+      "corpus_id": "C112",
+      "location": "Relevant thematic sections",
+      "claim_type": "META",
+      "claim": "The text preserves religious cosmological motifs rather than empirical reports of subjective consciousness.",
+      "motifs": [
+        "M14",
+        "M19",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "20"
+    },
+    {
+      "global_claim_id": "G20-S156-13",
+      "claim_id": "B20-S156-13",
+      "source_id": "S156",
+      "corpus_id": "C112",
+      "location": "Relevant thematic sections",
+      "claim_type": "RELATION",
+      "claim": "The return of Persephone reorganizes relationships among gods, humans, earth and underworld rather than changing only one individual.",
+      "motifs": [
+        "M03",
+        "M05",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "20"
+    },
+    {
+      "global_claim_id": "G20-S157-01",
+      "claim_id": "B20-S157-01",
+      "source_id": "S157",
+      "corpus_id": "C113",
+      "location": "Relevant thematic sections",
+      "claim_type": "ONTO",
+      "claim": "Heraclitean fragments present a Logos in accordance with which events occur and which humans often fail to understand.",
+      "motifs": [
+        "M01",
+        "M20",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "20"
+    },
+    {
+      "global_claim_id": "G20-S157-02",
+      "claim_id": "B20-S157-02",
+      "source_id": "S157",
+      "corpus_id": "C113",
+      "location": "Relevant thematic sections",
+      "claim_type": "REFLEXIVITY",
+      "claim": "The fragments contrast being awake with failing to notice what one is doing, linking understanding to presence.",
+      "motifs": [
+        "M01",
+        "M02",
+        "M06"
+      ],
+      "provenance": "P2*",
+      "batch": "20"
+    },
+    {
+      "global_claim_id": "G20-S157-03",
+      "claim_id": "B20-S157-03",
+      "source_id": "S157",
+      "corpus_id": "C113",
+      "location": "Relevant thematic sections",
+      "claim_type": "RELATION",
+      "claim": "Human understanding is situated within a common Logos rather than being wholly private.",
+      "motifs": [
+        "M05",
+        "M15",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "20"
+    },
+    {
+      "global_claim_id": "G20-S157-04",
+      "claim_id": "B20-S157-04",
+      "source_id": "S157",
+      "corpus_id": "C113",
+      "location": "Relevant thematic sections",
+      "claim_type": "DYNAMICS",
+      "claim": "Change, opposition and transformation are fundamental features of the Heraclitean world picture.",
+      "motifs": [
+        "M09",
+        "M20",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "20"
+    },
+    {
+      "global_claim_id": "G20-S157-05",
+      "claim_id": "B20-S157-05",
+      "source_id": "S157",
+      "corpus_id": "C113",
+      "location": "Relevant thematic sections",
+      "claim_type": "UNITY",
+      "claim": "The Logos is associated with an order in which seemingly opposed things belong to a larger unity.",
+      "motifs": [
+        "M03",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "20"
+    },
+    {
+      "global_claim_id": "G20-S157-06",
+      "claim_id": "B20-S157-06",
+      "source_id": "S157",
+      "corpus_id": "C113",
+      "location": "Relevant thematic sections",
+      "claim_type": "PHEN",
+      "claim": "Seeing and hearing are treated as insufficient when the soul lacks the capacity to understand what is encountered.",
+      "motifs": [
+        "M01",
+        "M06"
+      ],
+      "provenance": "P2*",
+      "batch": "20"
+    },
+    {
+      "global_claim_id": "G20-S157-07",
+      "claim_id": "B20-S157-07",
+      "source_id": "S157",
+      "corpus_id": "C113",
+      "location": "Relevant thematic sections",
+      "claim_type": "REFLEXIVITY",
+      "claim": "The soul is described through depth and limits that invite ongoing inquiry rather than simple measurement.",
+      "motifs": [
+        "M02",
+        "M06"
+      ],
+      "provenance": "P2*",
+      "batch": "20"
+    },
+    {
+      "global_claim_id": "G20-S157-08",
+      "claim_id": "B20-S157-08",
+      "source_id": "S157",
+      "corpus_id": "C113",
+      "location": "Relevant thematic sections",
+      "claim_type": "STATE",
+      "claim": "Sleep and waking provide contrasting modes of engagement with reality.",
+      "motifs": [
+        "M07",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "20"
+    },
+    {
+      "global_claim_id": "G20-S157-09",
+      "claim_id": "B20-S157-09",
+      "source_id": "S157",
+      "corpus_id": "C113",
+      "location": "Relevant thematic sections",
+      "claim_type": "VALENCE",
+      "claim": "Wisdom is distinguished from mere accumulation of information or conventional opinion.",
+      "motifs": [
+        "M10",
+        "M12"
+      ],
+      "provenance": "P2*",
+      "batch": "20"
+    },
+    {
+      "global_claim_id": "G20-S157-10",
+      "claim_id": "B20-S157-10",
+      "source_id": "S157",
+      "corpus_id": "C113",
+      "location": "Relevant thematic sections",
+      "claim_type": "TEMPORAL",
+      "claim": "Cosmic change is not an exception but part of the structure within which beings exist.",
+      "motifs": [
+        "M11",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "20"
+    },
+    {
+      "global_claim_id": "G20-S157-11",
+      "claim_id": "B20-S157-11",
+      "source_id": "S157",
+      "corpus_id": "C113",
+      "location": "Relevant thematic sections",
+      "claim_type": "CONTRAST",
+      "claim": "The Logos should not be reduced to a modern information-processing metaphor without preserving its ancient philosophical meaning.",
+      "motifs": [
+        "M14",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "20"
+    },
+    {
+      "global_claim_id": "G20-S157-12",
+      "claim_id": "B20-S157-12",
+      "source_id": "S157",
+      "corpus_id": "C113",
+      "location": "Relevant thematic sections",
+      "claim_type": "META",
+      "claim": "Heraclitean fragments survive through complex transmission and attribution, so exact wording and fragment numbering require edition control.",
+      "motifs": [
+        "M14",
+        "M17"
+      ],
+      "provenance": "P2*",
+      "batch": "20"
+    },
+    {
+      "global_claim_id": "G20-S157-13",
+      "claim_id": "B20-S157-13",
+      "source_id": "S157",
+      "corpus_id": "C113",
+      "location": "Relevant thematic sections",
+      "claim_type": "PRACTICE",
+      "claim": "Listening and understanding the common order are represented as capacities requiring transformation of the observer.",
+      "motifs": [
+        "M12",
+        "M24"
+      ],
+      "provenance": "P2*",
+      "batch": "20"
+    },
+    {
+      "global_claim_id": "G20-S158-01",
+      "claim_id": "B20-S158-01",
+      "source_id": "S158",
+      "corpus_id": "C114",
+      "location": "Relevant thematic sections",
+      "claim_type": "ONTO",
+      "claim": "Parmenides distinguishes a path concerned with what-is from accounts based on mutable appearances.",
+      "motifs": [
+        "M03",
+        "M04",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "20"
+    },
+    {
+      "global_claim_id": "G20-S158-02",
+      "claim_id": "B20-S158-02",
+      "source_id": "S158",
+      "corpus_id": "C114",
+      "location": "Relevant thematic sections",
+      "claim_type": "REFLEXIVITY",
+      "claim": "The poem makes the relation between thinking and what can be meaningfully said about being a central issue.",
+      "motifs": [
+        "M02",
+        "M06",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "20"
+    },
+    {
+      "global_claim_id": "G20-S158-03",
+      "claim_id": "B20-S158-03",
+      "source_id": "S158",
+      "corpus_id": "C114",
+      "location": "Relevant thematic sections",
+      "claim_type": "META",
+      "claim": "The way of truth treats being through logical constraints that exclude generation from nothing and annihilation into nothing.",
+      "motifs": [
+        "M14",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "20"
+    },
+    {
+      "global_claim_id": "G20-S158-04",
+      "claim_id": "B20-S158-04",
+      "source_id": "S158",
+      "corpus_id": "C114",
+      "location": "Relevant thematic sections",
+      "claim_type": "CONTRAST",
+      "claim": "The poem distinguishes a truth-oriented path from mortal opinions about the world of appearances.",
+      "motifs": [
+        "M04",
+        "M14"
+      ],
+      "provenance": "P2*",
+      "batch": "20"
+    },
+    {
+      "global_claim_id": "G20-S158-05",
+      "claim_id": "B20-S158-05",
+      "source_id": "S158",
+      "corpus_id": "C114",
+      "location": "Relevant thematic sections",
+      "claim_type": "UNITY",
+      "claim": "Being is characterized through unity and continuity rather than as a collection of independently generated entities.",
+      "motifs": [
+        "M03",
+        "M11"
+      ],
+      "provenance": "P2*",
+      "batch": "20"
+    },
+    {
+      "global_claim_id": "G20-S158-06",
+      "claim_id": "B20-S158-06",
+      "source_id": "S158",
+      "corpus_id": "C114",
+      "location": "Relevant thematic sections",
+      "claim_type": "TEMPORAL",
+      "claim": "The poem challenges ordinary assumptions about coming-to-be and passing-away.",
+      "motifs": [
+        "M11",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "20"
+    },
+    {
+      "global_claim_id": "G20-S158-07",
+      "claim_id": "B20-S158-07",
+      "source_id": "S158",
+      "corpus_id": "C114",
+      "location": "Relevant thematic sections",
+      "claim_type": "PHEN",
+      "claim": "The senses are treated as sources of opinion that can differ from what reason discloses about being.",
+      "motifs": [
+        "M01",
+        "M06"
+      ],
+      "provenance": "P2*",
+      "batch": "20"
+    },
+    {
+      "global_claim_id": "G20-S158-08",
+      "claim_id": "B20-S158-08",
+      "source_id": "S158",
+      "corpus_id": "C114",
+      "location": "Relevant thematic sections",
+      "claim_type": "REFLEXIVITY",
+      "claim": "The thinker is instructed to understand the consequences of choosing one path of inquiry over another.",
+      "motifs": [
+        "M02",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "20"
+    },
+    {
+      "global_claim_id": "G20-S158-09",
+      "claim_id": "B20-S158-09",
+      "source_id": "S158",
+      "corpus_id": "C114",
+      "location": "Relevant thematic sections",
+      "claim_type": "RELATION",
+      "claim": "Knowledge involves a relation between the path of inquiry, reasoning and the object considered thinkable.",
+      "motifs": [
+        "M05",
+        "M06"
+      ],
+      "provenance": "P2*",
+      "batch": "20"
+    },
+    {
+      "global_claim_id": "G20-S158-10",
+      "claim_id": "B20-S158-10",
+      "source_id": "S158",
+      "corpus_id": "C114",
+      "location": "Relevant thematic sections",
+      "claim_type": "META",
+      "claim": "The poem presents an ontological argument rather than a psychological measurement of human consciousness.",
+      "motifs": [
+        "M14",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "20"
+    },
+    {
+      "global_claim_id": "G20-S158-11",
+      "claim_id": "B20-S158-11",
+      "source_id": "S158",
+      "corpus_id": "C114",
+      "location": "Relevant thematic sections",
+      "claim_type": "TRANSFORMATION",
+      "claim": "The journey from opinion to truth is represented as an intellectual transformation in the knower's orientation.",
+      "motifs": [
+        "M12",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "20"
+    },
+    {
+      "global_claim_id": "G20-S158-12",
+      "claim_id": "B20-S158-12",
+      "source_id": "S158",
+      "corpus_id": "C114",
+      "location": "Relevant thematic sections",
+      "claim_type": "CONTRAST",
+      "claim": "Parmenidean claims should not be equated with later Platonic or Neoplatonic interpretations that reinterpret them through their own systems.",
+      "motifs": [
+        "M14",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "20"
+    },
+    {
+      "global_claim_id": "G20-S158-13",
+      "claim_id": "B20-S158-13",
+      "source_id": "S158",
+      "corpus_id": "C114",
+      "location": "Relevant thematic sections",
+      "claim_type": "TEXT",
+      "claim": "The surviving poem is fragmentary and preserved through later authors, making textual reconstruction part of responsible claim extraction.",
+      "motifs": [
+        "M14",
+        "M17"
+      ],
+      "provenance": "P2*",
+      "batch": "20"
     }
   ],
   "rules": {
