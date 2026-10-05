@@ -13,7 +13,7 @@ Status: started.
 
 ## Phase 2 — Verification
 
-**Status: active. Three extraction batches complete: 29 sources / 256 atomic claims.**
+**Status: active. Four extraction batches complete: 37 sources / 352 atomic claims.**
 
 The first batch is stored at `corpus/CLAIMS/ANCHOR_CLAIMS_BATCH_V1.md`, with motif assignment summarized in `corpus/CLAIMS/MOTIF_EVIDENCE_SUMMARY_V1.md`.
 
@@ -117,7 +117,8 @@ Each major version should ship with:
 - Batch 1: **120 atomic claims / 12 anchor sources**.
 - Batch 2: **96 atomic claims / 12 additional cross-cultural sources**.
 - Batch 3: **40 atomic claims / 5 embodied-transpersonal sources**.
-- Current total: **256 atomic claims / 29 sources**.
+- Batch 4: **96 atomic claims / 8 core-metaphysics sources**.
+- Current total: **352 atomic claims / 37 sources**.
 - Global target: **1,000+ atomic claims**.
 - Convergence evidence ledger: `ontology/CONVERGENCE_EVIDENCE_LEDGER_V1.md` now tracks recurrence by motif, source count, and tradition-family count.
 - Priority for Batches 2–10: increase independent source-family diversity, especially African, Indigenous, Daoist, Buddhist, Jewish, Christian, Sufi, Greek, Egyptian, Persian, Tantric, and Western esoteric primary corpora.
