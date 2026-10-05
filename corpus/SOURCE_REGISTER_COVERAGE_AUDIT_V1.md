@@ -94,21 +94,21 @@
 | C073 | Mulamadhyamakakarika — Budismo; foco: mente, no-yo, atención, liberación. | Represented — verification status varies | 20 | S064 |
 | C074 | Bodhicaryavatara — Budismo; foco: conciencia, mente, no-yo, atención, liberación. | Represented — passage verification pending | 13 | S128 |
 | C075 | Mahamudra manuals — Budismo; foco: mente, no-yo, atención, liberación. | Represented — verification status varies | 10 | S060 |
-| C076 | Bardo Thodol — Budismo; foco: mente, no-yo, atención, liberación. | MISSING — extraction required | 0 | — |
-| C077 | Lamrim Chenmo — Budismo; foco: mente, no-yo, atención, liberación. | MISSING — extraction required | 0 | — |
+| C076 | Bardo Thodol — source register entry. | Represented — passage verification pending | 13 | S129 |
+| C077 | Lamrim Chenmo — source register entry. | Represented — passage verification pending | 13 | S130 |
 | C078 | Dzogchen Nyingma textual corpus — Budismo; foco: mente, no-yo, atención, liberación. | Represented — verification status varies | 8 | S026 |
-| C079 | Six Yogas of Naropa corpus — Budismo; foco: mente, no-yo, atención, liberación. | MISSING — extraction required | 0 | — |
+| C079 | Six Yogas of Naropa corpus — source register entry. | Represented — passage verification pending | 13 | S131 |
 | C080 | Platform Sutra of Huineng — Budismo; foco: mente, no-yo, atención, liberación. | Represented — verification status varies | 8 | S022 |
-| C081 | Blue Cliff Record — Budismo; foco: mente, no-yo, atención, liberación. | MISSING — extraction required | 0 | — |
-| C082 | Shobogenzo — Budismo; foco: mente, no-yo, atención, liberación. | MISSING — extraction required | 0 | — |
+| C081 | Blue Cliff Record — source register entry. | Represented — passage verification pending | 13 | S132 |
+| C082 | Shobogenzo — source register entry. | Represented — passage verification pending | 13 | S133 |
 | C083 | Daodejing — Daoísmo; foco: Dao, qi, quietud, cultivo. | Represented — verification status varies | 27 | S031, S045 |
 | C084 | Zhuangzi — Daoísmo; foco: Dao, qi, quietud, cultivo. | Represented — verification status varies | 27 | S032, S046 |
 | C085 | Neiye — Daoísmo; foco: Dao, qi, quietud, cultivo. | Represented — verification status varies | 10 | S005 |
-| C086 | Liezi — Daoísmo; foco: Dao, qi, quietud, cultivo. | MISSING — extraction required | 0 | — |
-| C087 | Huainanzi — Daoísmo; foco: Dao, qi, quietud, cultivo. | MISSING — extraction required | 0 | — |
-| C088 | Huangdi Neijing — Daoísmo; foco: Dao, qi, quietud, cultivo. | MISSING — extraction required | 0 | — |
-| C089 | Taiping Jing — Daoísmo; foco: Dao, qi, quietud, cultivo. | MISSING — extraction required | 0 | — |
-| C090 | Baopuzi — Daoísmo; foco: Dao, qi, quietud, cultivo. | MISSING — extraction required | 0 | — |
+| C086 | Liezi — source register entry. | Represented — passage verification pending | 13 | S134 |
+| C087 | Huainanzi — source register entry. | Represented — passage verification pending | 13 | S135 |
+| C088 | Huangdi Neijing — source register entry. | Represented — passage verification pending | 13 | S136 |
+| C089 | Taiping Jing — source register entry. | Represented — passage verification pending | 13 | S137 |
+| C090 | Baopuzi — source register entry. | Represented — passage verification pending | 13 | S138 |
 | C091 | Cantong qi — Daoísmo; foco: Dao, qi, quietud, cultivo. | MISSING — extraction required | 0 | — |
 | C092 | Wuzhen pian — Daoísmo; foco: Dao, qi, quietud, cultivo. | MISSING — extraction required | 0 | — |
 | C093 | Xingming guizhi — Daoísmo; foco: Dao, qi, quietud, cultivo. | MISSING — extraction required | 0 | — |
@@ -355,3 +355,7 @@ Continue by exact register ID. “Represented” does not imply source-verified.
 ## Batch v17 checkpoint
 
 C061, C062, C063, C064, C065, C066, C068, C070, C071 and C074 are now represented with 13 P2* candidates each in `REMAINING_SOURCES_BATCH_V17.md`.\n
+
+## Batch v18 checkpoint
+
+C076, C077, C079, C081, C082, C086, C087, C088, C089 and C090 are now represented with 13 P2* candidates each in `REMAINING_SOURCES_BATCH_V18.md`.
