@@ -1,4 +1,4 @@
-# What We Currently Mean by Consciousness
+# What We Currently Mean by Consciousness\n\n> **Canonical system notice:** `docs/CANONICAL_SYSTEM.md` and `src/skill_conscious/system.py` define the current architectural contract. This document summarizes the system; it does not define a competing architecture.\n\n
 
 For the consolidated comparison of competing consciousness theories, project hypotheses, and the current operational definition, see docs/THEORY_DEBATE_SYNTHESIS.md.
 
