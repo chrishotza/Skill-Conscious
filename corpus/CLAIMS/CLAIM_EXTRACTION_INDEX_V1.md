@@ -14,7 +14,8 @@ The corpus has **325 source records** and **216 atomic claims extracted** across
 | Jain/Sikh/Zoroastrian/Christian Batch v6 | 6 | 96 | Tattvartha Sutra, Guru Granth Sahib, Yasna 30, Meister Eckhart, Philokalia/Prayer of the Heart, Ladder of Divine Ascent |
 | Presence/Relational Personhood Batch v7 | 5 | 100 | Suhrawardi, Yoruba Orí, Māori whakapapa, Haudenosaunee Address, Tempels/Bantu Philosophy |
 | Nature/Emanation/Mahāmudrā Batch v8 | 5 | 50 | Mahāparinirvāṇa, Tilopa Mahāmudrā, Pardes Rimmonim, Etz Chaim, Fihi Ma Fihi |
-| **Total** | **63** | **748** | cross-cultural source families with multiple internal traditions |
+| Emptiness/Spanda/Recognition Batch v9 | 5 | 100 | Nāgārjuna, Vasubandhu, Spanda Kārikās, Vijñāna Bhairava, Ibn ʿArabi |
+| **Total** | **68** | **848** | cross-cultural source families with multiple internal traditions |
 
 ## Claim-growth rule
 
@@ -39,6 +40,6 @@ A frequently repeated motif is not automatically true. Promotion requires:
 
 ## Current milestone
 
-**748 / 1,000+ claims = 74.8% of the minimum claim target.**
+**848 / 1,000+ claims = 84.8% of the minimum claim target.**
 
 The next extraction stage should systematically traverse the remaining register while deepening the highest-value motifs: M01, M02, M03, M04, M05, M06, M07, M11, M12, M13, M14, M15, M16, M19, M20, M22, M23, M24 and M25.
