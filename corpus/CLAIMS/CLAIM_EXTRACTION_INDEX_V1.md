@@ -2,7 +2,7 @@
 
 ## Current state
 
-The corpus has **325 source-register entries** and **1585 globally unique atomic claim records**. The coverage audit now counts exact register IDs rather than source IDs: **115 of 325 entries represented; 210 not yet represented**. “Represented” does not mean passage-level verified.
+The corpus has **325 source-register entries** and **2352 globally unique atomic claim records**. The coverage audit counts exact register IDs: **174 of 325 entries represented; 151 not yet represented**. “Represented” does not mean passage-level verified.
 
 | Batch | Sources | Claims | Scope |
 |---|---:|---:|---|
@@ -23,7 +23,7 @@ The corpus has **325 source-register entries** and **1585 globally unique atomic
 | Remaining Sources Block v14 | 10 | 130 | Haṭha Yoga Pradīpikā, Śiva Saṃhitā, Gheraṇḍa Saṃhitā, Yoga Vāsiṣṭha, Tripurā Rahasya, Ribhu Gītā, Śiva Sūtras, Pratyabhijñāhṛdayam, Śivadṛṣṭi, Pratyabhijñāvimarśinī |
 | Remaining Sources Block v15 | 10 | 130 | Tantrāloka, Tantrasāra, Parātriśikāvivaraṇa, Mālinīvijayottara Tantra, Netra Tantra, Kubjikā Tantra corpus, Devīmāhātmya, Saundaryalaharī, Lalitopākhyāna/Lalitā tradition, Ācārāṅga Sūtra |
 | Remaining Sources Block v16 | 10 | 130 | Samayasāra, Niyamasāra, Dravyasaṃgraha, Japji Sahib, Sarbloh Granth selections, Mahāsatipaṭṭhāna Sutta, Kevaddha/Kevatta Sutta, Dhammapada, Udāna, Vimuttimagga |
-| **Total** | **118** | **1585** | cross-cultural source families with multiple internal traditions |
+| **Total through v21** | **167** | **2222** | cross-cultural source families with multiple internal traditions |
 
 ## Claim-growth rule
 
@@ -48,7 +48,7 @@ A frequently repeated motif is not automatically true. Promotion requires:
 
 ## Current milestone
 
-**1585 globally unique claims across 118 source IDs; 115/325 register entries represented (210 still missing). The original 1,000-claim minimum has been exceeded; expansion continues until the register is covered.**
+**2352 globally unique claims across 177 source IDs; 174/325 register entries represented (151 still missing).** The original 1,000-claim minimum has been exceeded; expansion continues until the register is covered.**
 
 The next extraction stage should systematically traverse the remaining register while deepening the highest-value motifs: M01, M02, M03, M04, M05, M06, M07, M11, M12, M13, M14, M15, M16, M19, M20, M22, M23, M24 and M25.
 
@@ -91,3 +91,11 @@ The next extraction stage should systematically traverse the remaining register 
 - Current ledger: 2222 records / 167 source IDs.
 - Current register coverage: 164/325 represented; 161/325 missing.
 - Exact-13 represented sources: 94.
+
+## Batch v22 checkpoint
+
+- Newly represented register entries: C130, C131, C132, C133, C137, C138, C139, C140, C141, C142.
+- Added claims: 130.
+- Current ledger: 2352 records / 177 source IDs.
+- Current register coverage: 174/325 represented; 151/325 still missing.
+- Exact-13 represented sources: 104.
