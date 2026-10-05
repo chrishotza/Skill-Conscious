@@ -1,8 +1,8 @@
 {
   "schema_version": "1.0",
-  "claim_count": 1130,
-  "global_claim_count": 1130,
-  "source_count": 83,
+  "claim_count": 1195,
+  "global_claim_count": 1195,
+  "source_count": 88,
   "records": [
     {
       "global_claim_id": "G1-S001-K01",
@@ -17637,6 +17637,1034 @@
       ],
       "provenance": "P2*",
       "batch": "12"
+    },
+    {
+      "global_claim_id": "G13-S084-01",
+      "claim_id": "B13-S084-01",
+      "source_id": "S084",
+      "corpus_id": "C018",
+      "location": "1.1–1.2",
+      "claim_type": "META",
+      "claim": "The opening exchange frames liberation as a question about knowledge, detachment, and freedom from bondage.",
+      "motifs": [
+        "M02",
+        "M12",
+        "M24"
+      ],
+      "provenance": "P2*",
+      "batch": "13"
+    },
+    {
+      "global_claim_id": "G13-S084-02",
+      "claim_id": "B13-S084-02",
+      "source_id": "S084",
+      "corpus_id": "C018",
+      "location": "1.3–1.4",
+      "claim_type": "PRACTICE",
+      "claim": "The teacher directs attention toward disidentification from bodily and mental attributes.",
+      "motifs": [
+        "M06",
+        "M08",
+        "M24"
+      ],
+      "provenance": "P2*",
+      "batch": "13"
+    },
+    {
+      "global_claim_id": "G13-S084-03",
+      "claim_id": "B13-S084-03",
+      "source_id": "S084",
+      "corpus_id": "C018",
+      "location": "1.4–1.5",
+      "claim_type": "ONTO",
+      "claim": "The text distinguishes the witnessing Self from the changing field of experience.",
+      "motifs": [
+        "M02",
+        "M04",
+        "M07"
+      ],
+      "provenance": "P2*",
+      "batch": "13"
+    },
+    {
+      "global_claim_id": "G13-S084-04",
+      "claim_id": "B13-S084-04",
+      "source_id": "S084",
+      "corpus_id": "C018",
+      "location": "1.5–1.6",
+      "claim_type": "META",
+      "claim": "Freedom is presented as recognition rather than the manufacture of a new ultimate identity.",
+      "motifs": [
+        "M02",
+        "M13",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "13"
+    },
+    {
+      "global_claim_id": "G13-S084-05",
+      "claim_id": "B13-S084-05",
+      "source_id": "S084",
+      "corpus_id": "C018",
+      "location": "2.1–2.3",
+      "claim_type": "PHEN",
+      "claim": "The realized speaker describes awareness as unchanged amid changing appearances.",
+      "motifs": [
+        "M01",
+        "M02",
+        "M11"
+      ],
+      "provenance": "P2*",
+      "batch": "13"
+    },
+    {
+      "global_claim_id": "G13-S084-06",
+      "claim_id": "B13-S084-06",
+      "source_id": "S084",
+      "corpus_id": "C018",
+      "location": "2.4–2.6",
+      "claim_type": "ONTO",
+      "claim": "The world of appearances is interpreted through a nondual framework rather than as an independent second ultimate.",
+      "motifs": [
+        "M03",
+        "M05",
+        "M15"
+      ],
+      "provenance": "P2*",
+      "batch": "13"
+    },
+    {
+      "global_claim_id": "G13-S084-07",
+      "claim_id": "B13-S084-07",
+      "source_id": "S084",
+      "corpus_id": "C018",
+      "location": "3.1–3.3",
+      "claim_type": "PRACTICE",
+      "claim": "Attachment to sensory objects is treated as an obstacle to stable freedom.",
+      "motifs": [
+        "M10",
+        "M24",
+        "M25"
+      ],
+      "provenance": "P2*",
+      "batch": "13"
+    },
+    {
+      "global_claim_id": "G13-S084-08",
+      "claim_id": "B13-S084-08",
+      "source_id": "S084",
+      "corpus_id": "C018",
+      "location": "4.1–4.3",
+      "claim_type": "META",
+      "claim": "The text contrasts inner freedom with outwardly observable conduct or status.",
+      "motifs": [
+        "M02",
+        "M13",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "13"
+    },
+    {
+      "global_claim_id": "G13-S084-09",
+      "claim_id": "B13-S084-09",
+      "source_id": "S084",
+      "corpus_id": "C018",
+      "location": "5.1–5.3",
+      "claim_type": "TRANSFORMATION",
+      "claim": "Release is described as a change in identification, not merely a change in external circumstances.",
+      "motifs": [
+        "M12",
+        "M13",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "13"
+    },
+    {
+      "global_claim_id": "G13-S084-10",
+      "claim_id": "B13-S084-10",
+      "source_id": "S084",
+      "corpus_id": "C018",
+      "location": "6.1–6.3",
+      "claim_type": "ONTO",
+      "claim": "The nondual teaching questions rigid divisions between the individual and the whole.",
+      "motifs": [
+        "M03",
+        "M04",
+        "M15"
+      ],
+      "provenance": "P2*",
+      "batch": "13"
+    },
+    {
+      "global_claim_id": "G13-S084-11",
+      "claim_id": "B13-S084-11",
+      "source_id": "S084",
+      "corpus_id": "C018",
+      "location": "8.1–8.3",
+      "claim_type": "VALENCE",
+      "claim": "Clinging and aversion are portrayed as conditions that sustain distress and limitation.",
+      "motifs": [
+        "M10",
+        "M12",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "13"
+    },
+    {
+      "global_claim_id": "G13-S084-12",
+      "claim_id": "B13-S084-12",
+      "source_id": "S084",
+      "corpus_id": "C018",
+      "location": "15.1–15.4",
+      "claim_type": "REFLEXIVITY",
+      "claim": "The seeker is repeatedly directed to recognize awareness as prior to the contents it knows.",
+      "motifs": [
+        "M01",
+        "M02",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "13"
+    },
+    {
+      "global_claim_id": "G13-S084-13",
+      "claim_id": "B13-S084-13",
+      "source_id": "S084",
+      "corpus_id": "C018",
+      "location": "18.1–18.4",
+      "claim_type": "META",
+      "claim": "The text uses deliberately radical formulations to unsettle dependence on prescribed concepts and practices.",
+      "motifs": [
+        "M14",
+        "M23",
+        "M25"
+      ],
+      "provenance": "P2*",
+      "batch": "13"
+    },
+    {
+      "global_claim_id": "G13-S085-01",
+      "claim_id": "B13-S085-01",
+      "source_id": "S085",
+      "corpus_id": "C019",
+      "location": "1.1–1.3",
+      "claim_type": "ONTO",
+      "claim": "The text opens by presenting the ultimate reality as nondual and not divided into separate selves.",
+      "motifs": [
+        "M03",
+        "M04",
+        "M15"
+      ],
+      "provenance": "P2*",
+      "batch": "13"
+    },
+    {
+      "global_claim_id": "G13-S085-02",
+      "claim_id": "B13-S085-02",
+      "source_id": "S085",
+      "corpus_id": "C019",
+      "location": "1.4–1.6",
+      "claim_type": "META",
+      "claim": "Ordinary categories of knower, knowing, and known are challenged as final descriptions of reality.",
+      "motifs": [
+        "M02",
+        "M14",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "13"
+    },
+    {
+      "global_claim_id": "G13-S085-03",
+      "claim_id": "B13-S085-03",
+      "source_id": "S085",
+      "corpus_id": "C019",
+      "location": "1.7–1.9",
+      "claim_type": "PHEN",
+      "claim": "Awareness is portrayed as not reducible to particular bodily or mental contents.",
+      "motifs": [
+        "M01",
+        "M02",
+        "M06"
+      ],
+      "provenance": "P2*",
+      "batch": "13"
+    },
+    {
+      "global_claim_id": "G13-S085-04",
+      "claim_id": "B13-S085-04",
+      "source_id": "S085",
+      "corpus_id": "C019",
+      "location": "1.10–1.12",
+      "claim_type": "ONTO",
+      "claim": "The text denies that ultimate identity can be adequately captured by ordinary attributes.",
+      "motifs": [
+        "M06",
+        "M14"
+      ],
+      "provenance": "P2*",
+      "batch": "13"
+    },
+    {
+      "global_claim_id": "G13-S085-05",
+      "claim_id": "B13-S085-05",
+      "source_id": "S085",
+      "corpus_id": "C019",
+      "location": "1.13–1.15",
+      "claim_type": "TRANSFORMATION",
+      "claim": "Liberation is expressed as recognition of what is already the case rather than acquisition of a separate object.",
+      "motifs": [
+        "M12",
+        "M13",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "13"
+    },
+    {
+      "global_claim_id": "G13-S085-06",
+      "claim_id": "B13-S085-06",
+      "source_id": "S085",
+      "corpus_id": "C019",
+      "location": "1.16–1.18",
+      "claim_type": "META",
+      "claim": "Ritual, doctrine, and conceptual distinctions are treated as limited when mistaken for the ultimate itself.",
+      "motifs": [
+        "M14",
+        "M25"
+      ],
+      "provenance": "P2*",
+      "batch": "13"
+    },
+    {
+      "global_claim_id": "G13-S085-07",
+      "claim_id": "B13-S085-07",
+      "source_id": "S085",
+      "corpus_id": "C019",
+      "location": "2.1–2.3",
+      "claim_type": "ONTO",
+      "claim": "The apparent division between the individual and the absolute is rejected within the text's nondual position.",
+      "motifs": [
+        "M03",
+        "M04",
+        "M15"
+      ],
+      "provenance": "P2*",
+      "batch": "13"
+    },
+    {
+      "global_claim_id": "G13-S085-08",
+      "claim_id": "B13-S085-08",
+      "source_id": "S085",
+      "corpus_id": "C019",
+      "location": "2.4–2.6",
+      "claim_type": "REFLEXIVITY",
+      "claim": "The discourse directs inquiry away from objectifying awareness as one more known thing.",
+      "motifs": [
+        "M02",
+        "M14",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "13"
+    },
+    {
+      "global_claim_id": "G13-S085-09",
+      "claim_id": "B13-S085-09",
+      "source_id": "S085",
+      "corpus_id": "C019",
+      "location": "2.7–2.9",
+      "claim_type": "VALENCE",
+      "claim": "Freedom is associated with release from attachment, aversion, and constraining identifications.",
+      "motifs": [
+        "M10",
+        "M12",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "13"
+    },
+    {
+      "global_claim_id": "G13-S085-10",
+      "claim_id": "B13-S085-10",
+      "source_id": "S085",
+      "corpus_id": "C019",
+      "location": "3.1–3.3",
+      "claim_type": "META",
+      "claim": "The text uses negation to mark the limits of positive conceptual descriptions.",
+      "motifs": [
+        "M06",
+        "M14"
+      ],
+      "provenance": "P2*",
+      "batch": "13"
+    },
+    {
+      "global_claim_id": "G13-S085-11",
+      "claim_id": "B13-S085-11",
+      "source_id": "S085",
+      "corpus_id": "C019",
+      "location": "3.4–3.6",
+      "claim_type": "ONTO",
+      "claim": "Multiplicity is interpreted as appearance within a nondual ground, not a second independent ultimate.",
+      "motifs": [
+        "M03",
+        "M05",
+        "M15"
+      ],
+      "provenance": "P2*",
+      "batch": "13"
+    },
+    {
+      "global_claim_id": "G13-S085-12",
+      "claim_id": "B13-S085-12",
+      "source_id": "S085",
+      "corpus_id": "C019",
+      "location": "4.1–4.3",
+      "claim_type": "PRACTICE",
+      "claim": "The discourse emphasizes direct recognition over merely repeating doctrinal formulas.",
+      "motifs": [
+        "M13",
+        "M24",
+        "M25"
+      ],
+      "provenance": "P2*",
+      "batch": "13"
+    },
+    {
+      "global_claim_id": "G13-S085-13",
+      "claim_id": "B13-S085-13",
+      "source_id": "S085",
+      "corpus_id": "C019",
+      "location": "8.1–8.3",
+      "claim_type": "META",
+      "claim": "The text's radical language functions to loosen attachment to conventional distinctions, not to supply a neutral empirical report.",
+      "motifs": [
+        "M14",
+        "M22",
+        "M25"
+      ],
+      "provenance": "P2*",
+      "batch": "13"
+    },
+    {
+      "global_claim_id": "G13-S086-01",
+      "claim_id": "B13-S086-01",
+      "source_id": "S086",
+      "corpus_id": "C020",
+      "location": "1–20",
+      "claim_type": "PRACTICE",
+      "claim": "The opening frames liberation as a rare opportunity requiring discernment and sustained effort.",
+      "motifs": [
+        "M12",
+        "M24",
+        "M25"
+      ],
+      "provenance": "P2*",
+      "batch": "13"
+    },
+    {
+      "global_claim_id": "G13-S086-02",
+      "claim_id": "B13-S086-02",
+      "source_id": "S086",
+      "corpus_id": "C020",
+      "location": "21–40",
+      "claim_type": "META",
+      "claim": "The text distinguishes liberation-oriented inquiry from pursuits concerned only with external achievement.",
+      "motifs": [
+        "M12",
+        "M24"
+      ],
+      "provenance": "P2*",
+      "batch": "13"
+    },
+    {
+      "global_claim_id": "G13-S086-03",
+      "claim_id": "B13-S086-03",
+      "source_id": "S086",
+      "corpus_id": "C020",
+      "location": "41–60",
+      "claim_type": "ONTO",
+      "claim": "The person is analyzed through body, senses, vital functions, mind, and discernment rather than treated as a single undifferentiated layer.",
+      "motifs": [
+        "M07",
+        "M08"
+      ],
+      "provenance": "P2*",
+      "batch": "13"
+    },
+    {
+      "global_claim_id": "G13-S086-04",
+      "claim_id": "B13-S086-04",
+      "source_id": "S086",
+      "corpus_id": "C020",
+      "location": "61–80",
+      "claim_type": "REFLEXIVITY",
+      "claim": "The witness is distinguished from changing bodily and mental states that can be observed.",
+      "motifs": [
+        "M02",
+        "M07",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "13"
+    },
+    {
+      "global_claim_id": "G13-S086-05",
+      "claim_id": "B13-S086-05",
+      "source_id": "S086",
+      "corpus_id": "C020",
+      "location": "81–100",
+      "claim_type": "ONTO",
+      "claim": "The text argues that what changes or is objectified cannot straightforwardly be the unchanging witness.",
+      "motifs": [
+        "M02",
+        "M11",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "13"
+    },
+    {
+      "global_claim_id": "G13-S086-06",
+      "claim_id": "B13-S086-06",
+      "source_id": "S086",
+      "corpus_id": "C020",
+      "location": "101–120",
+      "claim_type": "META",
+      "claim": "Discrimination between the enduring and transient is presented as a central method of inquiry.",
+      "motifs": [
+        "M11",
+        "M14",
+        "M24"
+      ],
+      "provenance": "P2*",
+      "batch": "13"
+    },
+    {
+      "global_claim_id": "G13-S086-07",
+      "claim_id": "B13-S086-07",
+      "source_id": "S086",
+      "corpus_id": "C020",
+      "location": "121–140",
+      "claim_type": "PHEN",
+      "claim": "The account distinguishes awareness from particular thoughts, emotions, and sensory episodes.",
+      "motifs": [
+        "M01",
+        "M02",
+        "M07"
+      ],
+      "provenance": "P2*",
+      "batch": "13"
+    },
+    {
+      "global_claim_id": "G13-S086-08",
+      "claim_id": "B13-S086-08",
+      "source_id": "S086",
+      "corpus_id": "C020",
+      "location": "141–160",
+      "claim_type": "EMBODIMENT",
+      "claim": "The body is treated as a vehicle or layer of personhood, not as an exhaustive definition of the Self.",
+      "motifs": [
+        "M02",
+        "M06",
+        "M08"
+      ],
+      "provenance": "P2*",
+      "batch": "13"
+    },
+    {
+      "global_claim_id": "G13-S086-09",
+      "claim_id": "B13-S086-09",
+      "source_id": "S086",
+      "corpus_id": "C020",
+      "location": "161–180",
+      "claim_type": "VALENCE",
+      "claim": "Desire and identification are described as binding the person to cycles of dissatisfaction.",
+      "motifs": [
+        "M10",
+        "M12",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "13"
+    },
+    {
+      "global_claim_id": "G13-S086-10",
+      "claim_id": "B13-S086-10",
+      "source_id": "S086",
+      "corpus_id": "C020",
+      "location": "181–200",
+      "claim_type": "PRACTICE",
+      "claim": "Ethical discipline, concentration, and guidance are presented as supports for liberating knowledge.",
+      "motifs": [
+        "M24",
+        "M25"
+      ],
+      "provenance": "P2*",
+      "batch": "13"
+    },
+    {
+      "global_claim_id": "G13-S086-11",
+      "claim_id": "B13-S086-11",
+      "source_id": "S086",
+      "corpus_id": "C020",
+      "location": "201–220",
+      "claim_type": "ONTO",
+      "claim": "The text presents the Self as self-revealing in contrast with objects that require another act of knowing.",
+      "motifs": [
+        "M01",
+        "M02",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "13"
+    },
+    {
+      "global_claim_id": "G13-S086-12",
+      "claim_id": "B13-S086-12",
+      "source_id": "S086",
+      "corpus_id": "C020",
+      "location": "221–240",
+      "claim_type": "TRANSFORMATION",
+      "claim": "Knowledge is described as dissolving mistaken identification rather than producing the Self as a new entity.",
+      "motifs": [
+        "M12",
+        "M13",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "13"
+    },
+    {
+      "global_claim_id": "G13-S086-13",
+      "claim_id": "B13-S086-13",
+      "source_id": "S086",
+      "corpus_id": "C020",
+      "location": "241–260",
+      "claim_type": "META",
+      "claim": "The teaching's account of realization belongs to an Advaita framework and should not be generalized to traditions that posit a real plurality of principles.",
+      "motifs": [
+        "M03",
+        "M04",
+        "M14"
+      ],
+      "provenance": "P2*",
+      "batch": "13"
+    },
+    {
+      "global_claim_id": "G13-S087-01",
+      "claim_id": "B13-S087-01",
+      "source_id": "S087",
+      "corpus_id": "C021",
+      "location": "Ch. 1, opening verses",
+      "claim_type": "ONTO",
+      "claim": "The text uses a lamp-like analogy to explain how awareness illuminates objects and mental events.",
+      "motifs": [
+        "M01",
+        "M02",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "13"
+    },
+    {
+      "global_claim_id": "G13-S087-02",
+      "claim_id": "B13-S087-02",
+      "source_id": "S087",
+      "corpus_id": "C021",
+      "location": "Ch. 1, early verses",
+      "claim_type": "REFLEXIVITY",
+      "claim": "Awareness is distinguished from the changing modifications of the mind that it makes manifest.",
+      "motifs": [
+        "M02",
+        "M07",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "13"
+    },
+    {
+      "global_claim_id": "G13-S087-03",
+      "claim_id": "B13-S087-03",
+      "source_id": "S087",
+      "corpus_id": "C021",
+      "location": "Ch. 1, early verses",
+      "claim_type": "META",
+      "claim": "The analogy of illumination is used to clarify awareness without treating it as an ordinary physical object.",
+      "motifs": [
+        "M06",
+        "M14"
+      ],
+      "provenance": "P2*",
+      "batch": "13"
+    },
+    {
+      "global_claim_id": "G13-S087-04",
+      "claim_id": "B13-S087-04",
+      "source_id": "S087",
+      "corpus_id": "C021",
+      "location": "Ch. 1, middle verses",
+      "claim_type": "ONTO",
+      "claim": "The text distinguishes the witness from the mental functions through which particular knowledge occurs.",
+      "motifs": [
+        "M02",
+        "M07",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "13"
+    },
+    {
+      "global_claim_id": "G13-S087-05",
+      "claim_id": "B13-S087-05",
+      "source_id": "S087",
+      "corpus_id": "C021",
+      "location": "Ch. 1, later verses",
+      "claim_type": "PHEN",
+      "claim": "Experiential contents vary while the witnessing principle is presented as comparatively invariant.",
+      "motifs": [
+        "M01",
+        "M02",
+        "M11"
+      ],
+      "provenance": "P2*",
+      "batch": "13"
+    },
+    {
+      "global_claim_id": "G13-S087-06",
+      "claim_id": "B13-S087-06",
+      "source_id": "S087",
+      "corpus_id": "C021",
+      "location": "Ch. 2, selected verses",
+      "claim_type": "ONTO",
+      "claim": "The account distinguishes original awareness from its reflection in the intellect.",
+      "motifs": [
+        "M02",
+        "M07",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "13"
+    },
+    {
+      "global_claim_id": "G13-S087-07",
+      "claim_id": "B13-S087-07",
+      "source_id": "S087",
+      "corpus_id": "C021",
+      "location": "Ch. 3, selected verses",
+      "claim_type": "META",
+      "claim": "The text analyzes appearance and reality within an Advaita interpretive framework.",
+      "motifs": [
+        "M03",
+        "M05",
+        "M14"
+      ],
+      "provenance": "P2*",
+      "batch": "13"
+    },
+    {
+      "global_claim_id": "G13-S087-08",
+      "claim_id": "B13-S087-08",
+      "source_id": "S087",
+      "corpus_id": "C021",
+      "location": "Ch. 4, selected verses",
+      "claim_type": "COSMO",
+      "claim": "Cosmological manifestation is explained through a graded relation between ultimate reality and differentiated appearance.",
+      "motifs": [
+        "M07",
+        "M20",
+        "M21"
+      ],
+      "provenance": "P2*",
+      "batch": "13"
+    },
+    {
+      "global_claim_id": "G13-S087-09",
+      "claim_id": "B13-S087-09",
+      "source_id": "S087",
+      "corpus_id": "C021",
+      "location": "Ch. 5, selected verses",
+      "claim_type": "PHEN",
+      "claim": "Waking, dreaming, and deep sleep are used to examine continuity and the conditions under which objects appear.",
+      "motifs": [
+        "M07",
+        "M11",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "13"
+    },
+    {
+      "global_claim_id": "G13-S087-10",
+      "claim_id": "B13-S087-10",
+      "source_id": "S087",
+      "corpus_id": "C021",
+      "location": "Ch. 6, selected verses",
+      "claim_type": "TRANSFORMATION",
+      "claim": "Contemplative understanding is presented as a shift in discernment rather than a mere accumulation of information.",
+      "motifs": [
+        "M12",
+        "M13",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "13"
+    },
+    {
+      "global_claim_id": "G13-S087-11",
+      "claim_id": "B13-S087-11",
+      "source_id": "S087",
+      "corpus_id": "C021",
+      "location": "Ch. 7, selected verses",
+      "claim_type": "ONTO",
+      "claim": "The relation between individual awareness and universal consciousness is interpreted nondually.",
+      "motifs": [
+        "M03",
+        "M04",
+        "M15"
+      ],
+      "provenance": "P2*",
+      "batch": "13"
+    },
+    {
+      "global_claim_id": "G13-S087-12",
+      "claim_id": "B13-S087-12",
+      "source_id": "S087",
+      "corpus_id": "C021",
+      "location": "Ch. 8, selected verses",
+      "claim_type": "VALENCE",
+      "claim": "Freedom is associated with loosening mistaken identification and the suffering it sustains.",
+      "motifs": [
+        "M10",
+        "M12",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "13"
+    },
+    {
+      "global_claim_id": "G13-S087-13",
+      "claim_id": "B13-S087-13",
+      "source_id": "S087",
+      "corpus_id": "C021",
+      "location": "Ch. 9–15, selected discussions",
+      "claim_type": "META",
+      "claim": "The work develops its position through systematic exposition; chapter-specific locators must be checked against the chosen edition before precise claims are assigned.",
+      "motifs": [
+        "M14",
+        "M22",
+        "M25"
+      ],
+      "provenance": "P2*",
+      "batch": "13"
+    },
+    {
+      "global_claim_id": "G13-S088-01",
+      "claim_id": "B13-S088-01",
+      "source_id": "S088",
+      "corpus_id": "C022",
+      "location": "1–10",
+      "claim_type": "META",
+      "claim": "The text frames direct realization as a distinct aim of inquiry into the Self.",
+      "motifs": [
+        "M02",
+        "M13",
+        "M24"
+      ],
+      "provenance": "P2*",
+      "batch": "13"
+    },
+    {
+      "global_claim_id": "G13-S088-02",
+      "claim_id": "B13-S088-02",
+      "source_id": "S088",
+      "corpus_id": "C022",
+      "location": "11–20",
+      "claim_type": "ONTO",
+      "claim": "The teaching identifies the Self with awareness rather than with the changing body alone.",
+      "motifs": [
+        "M01",
+        "M02",
+        "M08"
+      ],
+      "provenance": "P2*",
+      "batch": "13"
+    },
+    {
+      "global_claim_id": "G13-S088-03",
+      "claim_id": "B13-S088-03",
+      "source_id": "S088",
+      "corpus_id": "C022",
+      "location": "21–30",
+      "claim_type": "PRACTICE",
+      "claim": "Discrimination between the enduring and transient is presented as a support for realization.",
+      "motifs": [
+        "M11",
+        "M24",
+        "M25"
+      ],
+      "provenance": "P2*",
+      "batch": "13"
+    },
+    {
+      "global_claim_id": "G13-S088-04",
+      "claim_id": "B13-S088-04",
+      "source_id": "S088",
+      "corpus_id": "C022",
+      "location": "31–40",
+      "claim_type": "ONTO",
+      "claim": "The text distinguishes the witness from objects and mental states that can be noticed.",
+      "motifs": [
+        "M02",
+        "M07",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "13"
+    },
+    {
+      "global_claim_id": "G13-S088-05",
+      "claim_id": "B13-S088-05",
+      "source_id": "S088",
+      "corpus_id": "C022",
+      "location": "41–50",
+      "claim_type": "META",
+      "claim": "Negation is used to resist identifying the Self with any single finite attribute.",
+      "motifs": [
+        "M06",
+        "M14"
+      ],
+      "provenance": "P2*",
+      "batch": "13"
+    },
+    {
+      "global_claim_id": "G13-S088-06",
+      "claim_id": "B13-S088-06",
+      "source_id": "S088",
+      "corpus_id": "C022",
+      "location": "51–60",
+      "claim_type": "PRACTICE",
+      "claim": "The work prescribes contemplative disciplines intended to stabilize insight.",
+      "motifs": [
+        "M24",
+        "M25"
+      ],
+      "provenance": "P2*",
+      "batch": "13"
+    },
+    {
+      "global_claim_id": "G13-S088-07",
+      "claim_id": "B13-S088-07",
+      "source_id": "S088",
+      "corpus_id": "C022",
+      "location": "61–70",
+      "claim_type": "PHEN",
+      "claim": "The contrast between changing experience and its knowing principle is used to investigate identity.",
+      "motifs": [
+        "M01",
+        "M02",
+        "M11"
+      ],
+      "provenance": "P2*",
+      "batch": "13"
+    },
+    {
+      "global_claim_id": "G13-S088-08",
+      "claim_id": "B13-S088-08",
+      "source_id": "S088",
+      "corpus_id": "C022",
+      "location": "71–80",
+      "claim_type": "TRANSFORMATION",
+      "claim": "Realization is described as correcting ignorance or misidentification, not as creating awareness from nothing.",
+      "motifs": [
+        "M12",
+        "M13",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "13"
+    },
+    {
+      "global_claim_id": "G13-S088-09",
+      "claim_id": "B13-S088-09",
+      "source_id": "S088",
+      "corpus_id": "C022",
+      "location": "81–90",
+      "claim_type": "ONTO",
+      "claim": "The text interprets the individual Self and ultimate reality through an Advaita nondual framework.",
+      "motifs": [
+        "M03",
+        "M04",
+        "M15"
+      ],
+      "provenance": "P2*",
+      "batch": "13"
+    },
+    {
+      "global_claim_id": "G13-S088-10",
+      "claim_id": "B13-S088-10",
+      "source_id": "S088",
+      "corpus_id": "C022",
+      "location": "91–100",
+      "claim_type": "META",
+      "claim": "The text's claims about ultimate identity are doctrinal-metaphysical assertions, not independently established experimental findings.",
+      "motifs": [
+        "M14",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "13"
+    },
+    {
+      "global_claim_id": "G13-S088-11",
+      "claim_id": "B13-S088-11",
+      "source_id": "S088",
+      "corpus_id": "C022",
+      "location": "101–110",
+      "claim_type": "PRACTICE",
+      "claim": "Attention and disciplined inquiry are presented as necessary supports rather than substitutes for realization.",
+      "motifs": [
+        "M24",
+        "M25"
+      ],
+      "provenance": "P2*",
+      "batch": "13"
+    },
+    {
+      "global_claim_id": "G13-S088-12",
+      "claim_id": "B13-S088-12",
+      "source_id": "S088",
+      "corpus_id": "C022",
+      "location": "111–120",
+      "claim_type": "ONTO",
+      "claim": "The world and its appearances are interpreted in relation to the ultimate rather than as an independently ultimate domain.",
+      "motifs": [
+        "M03",
+        "M05",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "13"
+    },
+    {
+      "global_claim_id": "G13-S088-13",
+      "claim_id": "B13-S088-13",
+      "source_id": "S088",
+      "corpus_id": "C022",
+      "location": "121–end",
+      "claim_type": "META",
+      "claim": "The exact verse mapping and translation must be checked against a declared edition before these paraphrases receive stronger provenance.",
+      "motifs": [
+        "M14",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "13"
     }
   ],
   "rules": {
