@@ -1,8 +1,8 @@
 {
   "schema_version": "1.0",
-  "claim_count": 1065,
-  "global_claim_count": 1065,
-  "source_count": 78,
+  "claim_count": 1130,
+  "global_claim_count": 1130,
+  "source_count": 83,
   "records": [
     {
       "global_claim_id": "G1-S001-K01",
@@ -16634,6 +16634,1009 @@
       ],
       "provenance": "P2",
       "batch": "11"
+    },
+    {
+      "global_claim_id": "G12-S079-01",
+      "claim_id": "B12-S079-01",
+      "source_id": "S079",
+      "corpus_id": "C011",
+      "location": "1.1",
+      "claim_type": "META",
+      "claim": "The text begins by asking about the ultimate cause, grounding, and governing principle of existence.",
+      "motifs": [
+        "M20",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "12"
+    },
+    {
+      "global_claim_id": "G12-S079-02",
+      "claim_id": "B12-S079-02",
+      "source_id": "S079",
+      "corpus_id": "C011",
+      "location": "1.2",
+      "claim_type": "COSMO",
+      "claim": "Time, inherent nature, necessity, chance, elements, and person are considered as candidate explanations.",
+      "motifs": [
+        "M14",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "12"
+    },
+    {
+      "global_claim_id": "G12-S079-03",
+      "claim_id": "B12-S079-03",
+      "source_id": "S079",
+      "corpus_id": "C011",
+      "location": "1.3",
+      "claim_type": "META",
+      "claim": "The inquiry does not simply accept any single proposed cause without further discernment.",
+      "motifs": [
+        "M22",
+        "M24"
+      ],
+      "provenance": "P2*",
+      "batch": "12"
+    },
+    {
+      "global_claim_id": "G12-S079-04",
+      "claim_id": "B12-S079-04",
+      "source_id": "S079",
+      "corpus_id": "C011",
+      "location": "1.4",
+      "claim_type": "COSMO",
+      "claim": "The image of a wheel presents existence as structured through multiple factors and relations.",
+      "motifs": [
+        "M05",
+        "M07",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "12"
+    },
+    {
+      "global_claim_id": "G12-S079-05",
+      "claim_id": "B12-S079-05",
+      "source_id": "S079",
+      "corpus_id": "C011",
+      "location": "1.5",
+      "claim_type": "ONTO",
+      "claim": "The text describes a plurality of powers and principles within its cosmological account.",
+      "motifs": [
+        "M07",
+        "M09",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "12"
+    },
+    {
+      "global_claim_id": "G12-S079-06",
+      "claim_id": "B12-S079-06",
+      "source_id": "S079",
+      "corpus_id": "C011",
+      "location": "2.1",
+      "claim_type": "PRACTICE",
+      "claim": "Disciplined bodily posture and attentional orientation are treated as conditions for contemplative practice.",
+      "motifs": [
+        "M08",
+        "M24",
+        "M25"
+      ],
+      "provenance": "P2*",
+      "batch": "12"
+    },
+    {
+      "global_claim_id": "G12-S079-07",
+      "claim_id": "B12-S079-07",
+      "source_id": "S079",
+      "corpus_id": "C011",
+      "location": "2.8",
+      "claim_type": "PRACTICE",
+      "claim": "Regulation of bodily and attentional activity is linked to the contemplative path.",
+      "motifs": [
+        "M08",
+        "M24",
+        "M25"
+      ],
+      "provenance": "P2*",
+      "batch": "12"
+    },
+    {
+      "global_claim_id": "G12-S079-08",
+      "claim_id": "B12-S079-08",
+      "source_id": "S079",
+      "corpus_id": "C011",
+      "location": "3.2",
+      "claim_type": "COSMO",
+      "claim": "The divine principle is portrayed as a source associated with the ordering of the world.",
+      "motifs": [
+        "M20",
+        "M21"
+      ],
+      "provenance": "P2*",
+      "batch": "12"
+    },
+    {
+      "global_claim_id": "G12-S079-09",
+      "claim_id": "B12-S079-09",
+      "source_id": "S079",
+      "corpus_id": "C011",
+      "location": "3.8",
+      "claim_type": "META",
+      "claim": "Knowing the highest principle is framed as a transformative form of understanding.",
+      "motifs": [
+        "M02",
+        "M13",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "12"
+    },
+    {
+      "global_claim_id": "G12-S079-10",
+      "claim_id": "B12-S079-10",
+      "source_id": "S079",
+      "corpus_id": "C011",
+      "location": "4.5",
+      "claim_type": "ONTO",
+      "claim": "The text uses the image of one fire appearing in diverse forms to articulate unity with multiplicity.",
+      "motifs": [
+        "M03",
+        "M04",
+        "M05"
+      ],
+      "provenance": "P2*",
+      "batch": "12"
+    },
+    {
+      "global_claim_id": "G12-S079-11",
+      "claim_id": "B12-S079-11",
+      "source_id": "S079",
+      "corpus_id": "C011",
+      "location": "4.10",
+      "claim_type": "COSMO",
+      "claim": "The world is represented through a relation between a single underlying principle and differentiated appearances.",
+      "motifs": [
+        "M03",
+        "M05",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "12"
+    },
+    {
+      "global_claim_id": "G12-S079-12",
+      "claim_id": "B12-S079-12",
+      "source_id": "S079",
+      "corpus_id": "C011",
+      "location": "6.11",
+      "claim_type": "ONTO",
+      "claim": "The text describes a singular divine principle as the ground within which the world is sustained.",
+      "motifs": [
+        "M03",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "12"
+    },
+    {
+      "global_claim_id": "G12-S079-13",
+      "claim_id": "B12-S079-13",
+      "source_id": "S079",
+      "corpus_id": "C011",
+      "location": "6.23",
+      "claim_type": "RELATION",
+      "claim": "The relation between teacher and seeker is presented as important to the transmission of the teaching.",
+      "motifs": [
+        "M05",
+        "M24",
+        "M25"
+      ],
+      "provenance": "P2*",
+      "batch": "12"
+    },
+    {
+      "global_claim_id": "G12-S080-01",
+      "claim_id": "B12-S080-01",
+      "source_id": "S080",
+      "corpus_id": "C012",
+      "location": "1",
+      "claim_type": "RELATION",
+      "claim": "The opening verse situates all that changes within an all-pervading divine presence.",
+      "motifs": [
+        "M05",
+        "M15",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "12"
+    },
+    {
+      "global_claim_id": "G12-S080-02",
+      "claim_id": "B12-S080-02",
+      "source_id": "S080",
+      "corpus_id": "C012",
+      "location": "1",
+      "claim_type": "PRACTICE",
+      "claim": "Renunciation and non-possessiveness are presented as a way of inhabiting the world.",
+      "motifs": [
+        "M10",
+        "M12",
+        "M25"
+      ],
+      "provenance": "P2*",
+      "batch": "12"
+    },
+    {
+      "global_claim_id": "G12-S080-03",
+      "claim_id": "B12-S080-03",
+      "source_id": "S080",
+      "corpus_id": "C012",
+      "location": "2",
+      "claim_type": "PRACTICE",
+      "claim": "Action is framed as compatible with a disciplined life rather than simply rejected.",
+      "motifs": [
+        "M24",
+        "M25"
+      ],
+      "provenance": "P2*",
+      "batch": "12"
+    },
+    {
+      "global_claim_id": "G12-S080-04",
+      "claim_id": "B12-S080-04",
+      "source_id": "S080",
+      "corpus_id": "C012",
+      "location": "3",
+      "claim_type": "ONTO",
+      "claim": "The text warns of a condition described as darkness for those who neglect the deeper order of reality.",
+      "motifs": [
+        "M14",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "12"
+    },
+    {
+      "global_claim_id": "G12-S080-05",
+      "claim_id": "B12-S080-05",
+      "source_id": "S080",
+      "corpus_id": "C012",
+      "location": "4",
+      "claim_type": "ONTO",
+      "claim": "The ultimate is described as unmoving while also exceeding ordinary movement.",
+      "motifs": [
+        "M14",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "12"
+    },
+    {
+      "global_claim_id": "G12-S080-06",
+      "claim_id": "B12-S080-06",
+      "source_id": "S080",
+      "corpus_id": "C012",
+      "location": "5",
+      "claim_type": "META",
+      "claim": "The divine is portrayed as both near and far, within and outside all things.",
+      "motifs": [
+        "M05",
+        "M14",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "12"
+    },
+    {
+      "global_claim_id": "G12-S080-07",
+      "claim_id": "B12-S080-07",
+      "source_id": "S080",
+      "corpus_id": "C012",
+      "location": "6",
+      "claim_type": "RELATION",
+      "claim": "Seeing beings in relation to the Self changes the ethical standpoint toward them.",
+      "motifs": [
+        "M05",
+        "M10",
+        "M15"
+      ],
+      "provenance": "P2*",
+      "batch": "12"
+    },
+    {
+      "global_claim_id": "G12-S080-08",
+      "claim_id": "B12-S080-08",
+      "source_id": "S080",
+      "corpus_id": "C012",
+      "location": "7",
+      "claim_type": "ONTO",
+      "claim": "A vision of unity is associated with the absence of ordinary delusion and grief.",
+      "motifs": [
+        "M03",
+        "M10",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "12"
+    },
+    {
+      "global_claim_id": "G12-S080-09",
+      "claim_id": "B12-S080-09",
+      "source_id": "S080",
+      "corpus_id": "C012",
+      "location": "8",
+      "claim_type": "META",
+      "claim": "The ultimate is described through predicates that resist reduction to ordinary bodily form.",
+      "motifs": [
+        "M06",
+        "M14"
+      ],
+      "provenance": "P2*",
+      "batch": "12"
+    },
+    {
+      "global_claim_id": "G12-S080-10",
+      "claim_id": "B12-S080-10",
+      "source_id": "S080",
+      "corpus_id": "C012",
+      "location": "9",
+      "claim_type": "META",
+      "claim": "The text distinguishes forms of knowledge and ignorance by their consequences.",
+      "motifs": [
+        "M14",
+        "M24"
+      ],
+      "provenance": "P2*",
+      "batch": "12"
+    },
+    {
+      "global_claim_id": "G12-S080-11",
+      "claim_id": "B12-S080-11",
+      "source_id": "S080",
+      "corpus_id": "C012",
+      "location": "11",
+      "claim_type": "TRANSFORMATION",
+      "claim": "The text presents a difficult balance between distinct forms of knowledge and practice.",
+      "motifs": [
+        "M12",
+        "M23",
+        "M25"
+      ],
+      "provenance": "P2*",
+      "batch": "12"
+    },
+    {
+      "global_claim_id": "G12-S080-12",
+      "claim_id": "B12-S080-12",
+      "source_id": "S080",
+      "corpus_id": "C012",
+      "location": "15",
+      "claim_type": "PRACTICE",
+      "claim": "The seeker addresses a luminous barrier that obscures direct seeing of truth.",
+      "motifs": [
+        "M01",
+        "M14",
+        "M24"
+      ],
+      "provenance": "P2*",
+      "batch": "12"
+    },
+    {
+      "global_claim_id": "G12-S080-13",
+      "claim_id": "B12-S080-13",
+      "source_id": "S080",
+      "corpus_id": "C012",
+      "location": "18",
+      "claim_type": "PRACTICE",
+      "claim": "The closing appeal asks for guidance toward the good path and away from error.",
+      "motifs": [
+        "M10",
+        "M24",
+        "M25"
+      ],
+      "provenance": "P2*",
+      "batch": "12"
+    },
+    {
+      "global_claim_id": "G12-S081-01",
+      "claim_id": "B12-S081-01",
+      "source_id": "S081",
+      "corpus_id": "C013",
+      "location": "2.1",
+      "claim_type": "PHEN",
+      "claim": "The text presents the mind as a central locus in the organization of human experience.",
+      "motifs": [
+        "M01",
+        "M07"
+      ],
+      "provenance": "P2*",
+      "batch": "12"
+    },
+    {
+      "global_claim_id": "G12-S081-02",
+      "claim_id": "B12-S081-02",
+      "source_id": "S081",
+      "corpus_id": "C013",
+      "location": "2.2",
+      "claim_type": "PRACTICE",
+      "claim": "Quieting and disciplining the mind is presented as part of contemplative training.",
+      "motifs": [
+        "M24",
+        "M25"
+      ],
+      "provenance": "P2*",
+      "batch": "12"
+    },
+    {
+      "global_claim_id": "G12-S081-03",
+      "claim_id": "B12-S081-03",
+      "source_id": "S081",
+      "corpus_id": "C013",
+      "location": "3.1",
+      "claim_type": "ONTO",
+      "claim": "The person is analyzed through multiple bodily and mental constituents rather than one undifferentiated faculty.",
+      "motifs": [
+        "M07",
+        "M08"
+      ],
+      "provenance": "P2*",
+      "batch": "12"
+    },
+    {
+      "global_claim_id": "G12-S081-04",
+      "claim_id": "B12-S081-04",
+      "source_id": "S081",
+      "corpus_id": "C013",
+      "location": "3.2",
+      "claim_type": "PHEN",
+      "claim": "The text distinguishes ordinary mental activity from a more fundamental principle of awareness.",
+      "motifs": [
+        "M01",
+        "M02"
+      ],
+      "provenance": "P2*",
+      "batch": "12"
+    },
+    {
+      "global_claim_id": "G12-S081-05",
+      "claim_id": "B12-S081-05",
+      "source_id": "S081",
+      "corpus_id": "C013",
+      "location": "4.1",
+      "claim_type": "COSMO",
+      "claim": "The account relates the human person to a wider cosmological order.",
+      "motifs": [
+        "M05",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "12"
+    },
+    {
+      "global_claim_id": "G12-S081-06",
+      "claim_id": "B12-S081-06",
+      "source_id": "S081",
+      "corpus_id": "C013",
+      "location": "4.2",
+      "claim_type": "META",
+      "claim": "The text uses analogies to make subtle or difficult-to-grasp principles intelligible.",
+      "motifs": [
+        "M14",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "12"
+    },
+    {
+      "global_claim_id": "G12-S081-07",
+      "claim_id": "B12-S081-07",
+      "source_id": "S081",
+      "corpus_id": "C013",
+      "location": "5.1",
+      "claim_type": "TEMPORAL",
+      "claim": "Waking, dreaming, and deep sleep provide contrasts for investigating experience.",
+      "motifs": [
+        "M07",
+        "M11"
+      ],
+      "provenance": "P2*",
+      "batch": "12"
+    },
+    {
+      "global_claim_id": "G12-S081-08",
+      "claim_id": "B12-S081-08",
+      "source_id": "S081",
+      "corpus_id": "C013",
+      "location": "5.2",
+      "claim_type": "REFLEXIVITY",
+      "claim": "The inquiry asks what can be said of the knower across changing states.",
+      "motifs": [
+        "M02",
+        "M22",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "12"
+    },
+    {
+      "global_claim_id": "G12-S081-09",
+      "claim_id": "B12-S081-09",
+      "source_id": "S081",
+      "corpus_id": "C013",
+      "location": "6.1",
+      "claim_type": "PRACTICE",
+      "claim": "Meditative concentration is described as a means of stabilizing attention.",
+      "motifs": [
+        "M24",
+        "M25"
+      ],
+      "provenance": "P2*",
+      "batch": "12"
+    },
+    {
+      "global_claim_id": "G12-S081-10",
+      "claim_id": "B12-S081-10",
+      "source_id": "S081",
+      "corpus_id": "C013",
+      "location": "6.2",
+      "claim_type": "TRANSFORMATION",
+      "claim": "The text connects disciplined contemplation with release from ordinary limitation.",
+      "motifs": [
+        "M12",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "12"
+    },
+    {
+      "global_claim_id": "G12-S081-11",
+      "claim_id": "B12-S081-11",
+      "source_id": "S081",
+      "corpus_id": "C013",
+      "location": "6.17",
+      "claim_type": "ONTO",
+      "claim": "The account distinguishes transient conditions from a more enduring ground of realization.",
+      "motifs": [
+        "M11",
+        "M12"
+      ],
+      "provenance": "P2*",
+      "batch": "12"
+    },
+    {
+      "global_claim_id": "G12-S081-12",
+      "claim_id": "B12-S081-12",
+      "source_id": "S081",
+      "corpus_id": "C013",
+      "location": "6.30",
+      "claim_type": "META",
+      "claim": "The text combines multiple philosophical and contemplative strands rather than presenting a single simple formula.",
+      "motifs": [
+        "M07",
+        "M14"
+      ],
+      "provenance": "P2*",
+      "batch": "12"
+    },
+    {
+      "global_claim_id": "G12-S081-13",
+      "claim_id": "B12-S081-13",
+      "source_id": "S081",
+      "corpus_id": "C013",
+      "location": "6.34",
+      "claim_type": "TRANSFORMATION",
+      "claim": "The culmination emphasizes inward realization and a changed relation to suffering and desire.",
+      "motifs": [
+        "M10",
+        "M12",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "12"
+    },
+    {
+      "global_claim_id": "G12-S082-01",
+      "claim_id": "B12-S082-01",
+      "source_id": "S082",
+      "corpus_id": "C014",
+      "location": "1.1",
+      "claim_type": "ONTO",
+      "claim": "The analysis begins by examining the relation between experienced appearance and underlying reality.",
+      "motifs": [
+        "M02",
+        "M05"
+      ],
+      "provenance": "P2*",
+      "batch": "12"
+    },
+    {
+      "global_claim_id": "G12-S082-02",
+      "claim_id": "B12-S082-02",
+      "source_id": "S082",
+      "corpus_id": "C014",
+      "location": "1.7",
+      "claim_type": "PHEN",
+      "claim": "Waking and dream are compared as structured modes of experience.",
+      "motifs": [
+        "M07",
+        "M11"
+      ],
+      "provenance": "P2*",
+      "batch": "12"
+    },
+    {
+      "global_claim_id": "G12-S082-03",
+      "claim_id": "B12-S082-03",
+      "source_id": "S082",
+      "corpus_id": "C014",
+      "location": "1.11",
+      "claim_type": "META",
+      "claim": "The text questions whether experienced objects have the same status in all modes of awareness.",
+      "motifs": [
+        "M14",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "12"
+    },
+    {
+      "global_claim_id": "G12-S082-04",
+      "claim_id": "B12-S082-04",
+      "source_id": "S082",
+      "corpus_id": "C014",
+      "location": "2.1",
+      "claim_type": "META",
+      "claim": "Ordinary waking experience is examined rather than treated as an unquestionable baseline.",
+      "motifs": [
+        "M14",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "12"
+    },
+    {
+      "global_claim_id": "G12-S082-05",
+      "claim_id": "B12-S082-05",
+      "source_id": "S082",
+      "corpus_id": "C014",
+      "location": "2.12",
+      "claim_type": "ONTO",
+      "claim": "The argument challenges simple assumptions that consciousness is produced by external objects alone.",
+      "motifs": [
+        "M01",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "12"
+    },
+    {
+      "global_claim_id": "G12-S082-06",
+      "claim_id": "B12-S082-06",
+      "source_id": "S082",
+      "corpus_id": "C014",
+      "location": "2.18",
+      "claim_type": "ONTO",
+      "claim": "The text distinguishes appearance from the account of an unchanging ground.",
+      "motifs": [
+        "M03",
+        "M07"
+      ],
+      "provenance": "P2*",
+      "batch": "12"
+    },
+    {
+      "global_claim_id": "G12-S082-07",
+      "claim_id": "B12-S082-07",
+      "source_id": "S082",
+      "corpus_id": "C014",
+      "location": "3.15",
+      "claim_type": "META",
+      "claim": "The text cautions against taking conceptual distinctions as ultimate descriptions of reality.",
+      "motifs": [
+        "M14",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "12"
+    },
+    {
+      "global_claim_id": "G12-S082-08",
+      "claim_id": "B12-S082-08",
+      "source_id": "S082",
+      "corpus_id": "C014",
+      "location": "3.31",
+      "claim_type": "ONTO",
+      "claim": "Non-origination is advanced as a philosophical account of ultimate reality.",
+      "motifs": [
+        "M03",
+        "M14"
+      ],
+      "provenance": "P2*",
+      "batch": "12"
+    },
+    {
+      "global_claim_id": "G12-S082-09",
+      "claim_id": "B12-S082-09",
+      "source_id": "S082",
+      "corpus_id": "C014",
+      "location": "3.48",
+      "claim_type": "META",
+      "claim": "The text portrays nondual realization as beyond ordinary dualistic conceptualization.",
+      "motifs": [
+        "M03",
+        "M14"
+      ],
+      "provenance": "P2*",
+      "batch": "12"
+    },
+    {
+      "global_claim_id": "G12-S082-10",
+      "claim_id": "B12-S082-10",
+      "source_id": "S082",
+      "corpus_id": "C014",
+      "location": "4.2",
+      "claim_type": "META",
+      "claim": "The argument tests competing causal positions rather than merely asserting a preferred account.",
+      "motifs": [
+        "M22",
+        "M24"
+      ],
+      "provenance": "P2*",
+      "batch": "12"
+    },
+    {
+      "global_claim_id": "G12-S082-11",
+      "claim_id": "B12-S082-11",
+      "source_id": "S082",
+      "corpus_id": "C014",
+      "location": "4.19",
+      "claim_type": "ONTO",
+      "claim": "The text disputes the idea that a real entity can simply arise from another real entity in the ordinary way.",
+      "motifs": [
+        "M14",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "12"
+    },
+    {
+      "global_claim_id": "G12-S082-12",
+      "claim_id": "B12-S082-12",
+      "source_id": "S082",
+      "corpus_id": "C014",
+      "location": "4.72",
+      "claim_type": "PRACTICE",
+      "claim": "Freedom from attachment to conceptual extremes is presented as part of the path.",
+      "motifs": [
+        "M12",
+        "M24",
+        "M25"
+      ],
+      "provenance": "P2*",
+      "batch": "12"
+    },
+    {
+      "global_claim_id": "G12-S082-13",
+      "claim_id": "B12-S082-13",
+      "source_id": "S082",
+      "corpus_id": "C014",
+      "location": "4.99",
+      "claim_type": "META",
+      "claim": "The text ends by defending a nondual analysis while requiring careful interpretation of its argument.",
+      "motifs": [
+        "M03",
+        "M14",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "12"
+    },
+    {
+      "global_claim_id": "G12-S083-01",
+      "claim_id": "B12-S083-01",
+      "source_id": "S083",
+      "corpus_id": "C017",
+      "location": "3",
+      "claim_type": "ONTO",
+      "claim": "The text distinguishes foundational principles from their derivative manifestations.",
+      "motifs": [
+        "M04",
+        "M07"
+      ],
+      "provenance": "P2*",
+      "batch": "12"
+    },
+    {
+      "global_claim_id": "G12-S083-02",
+      "claim_id": "B12-S083-02",
+      "source_id": "S083",
+      "corpus_id": "C017",
+      "location": "11",
+      "claim_type": "ONTO",
+      "claim": "The manifest, unmanifest, and conscious principle are treated as analytically distinct categories.",
+      "motifs": [
+        "M04",
+        "M07",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "12"
+    },
+    {
+      "global_claim_id": "G12-S083-03",
+      "claim_id": "B12-S083-03",
+      "source_id": "S083",
+      "corpus_id": "C017",
+      "location": "12",
+      "claim_type": "ONTO",
+      "claim": "The qualities of nature are described through contrasting tendencies and functions.",
+      "motifs": [
+        "M07",
+        "M09"
+      ],
+      "provenance": "P2*",
+      "batch": "12"
+    },
+    {
+      "global_claim_id": "G12-S083-04",
+      "claim_id": "B12-S083-04",
+      "source_id": "S083",
+      "corpus_id": "C017",
+      "location": "17",
+      "claim_type": "ONTO",
+      "claim": "The existence of a conscious principle is argued from features of experience and organization.",
+      "motifs": [
+        "M01",
+        "M02",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "12"
+    },
+    {
+      "global_claim_id": "G12-S083-05",
+      "claim_id": "B12-S083-05",
+      "source_id": "S083",
+      "corpus_id": "C017",
+      "location": "18",
+      "claim_type": "PERSON",
+      "claim": "Plurality of conscious subjects is argued from differing trajectories of experience and liberation.",
+      "motifs": [
+        "M02",
+        "M11"
+      ],
+      "provenance": "P2*",
+      "batch": "12"
+    },
+    {
+      "global_claim_id": "G12-S083-06",
+      "claim_id": "B12-S083-06",
+      "source_id": "S083",
+      "corpus_id": "C017",
+      "location": "19",
+      "claim_type": "ONTO",
+      "claim": "The conscious principle is characterized as witness-like, isolated, and non-agentive in contrast to nature.",
+      "motifs": [
+        "M01",
+        "M02",
+        "M04"
+      ],
+      "provenance": "P2*",
+      "batch": "12"
+    },
+    {
+      "global_claim_id": "G12-S083-07",
+      "claim_id": "B12-S083-07",
+      "source_id": "S083",
+      "corpus_id": "C017",
+      "location": "20",
+      "claim_type": "RELATION",
+      "claim": "Experience is explained through the conjunction of consciousness and nature without collapsing them into one.",
+      "motifs": [
+        "M04",
+        "M05"
+      ],
+      "provenance": "P2*",
+      "batch": "12"
+    },
+    {
+      "global_claim_id": "G12-S083-08",
+      "claim_id": "B12-S083-08",
+      "source_id": "S083",
+      "corpus_id": "C017",
+      "location": "21",
+      "claim_type": "COSMO",
+      "claim": "The text uses the analogy of a coordinated conjunction to explain manifestation and experience.",
+      "motifs": [
+        "M05",
+        "M20",
+        "M21"
+      ],
+      "provenance": "P2*",
+      "batch": "12"
+    },
+    {
+      "global_claim_id": "G12-S083-09",
+      "claim_id": "B12-S083-09",
+      "source_id": "S083",
+      "corpus_id": "C017",
+      "location": "23",
+      "claim_type": "ONTO",
+      "claim": "The intellect is treated as a determinate function of nature rather than identical to the conscious principle.",
+      "motifs": [
+        "M04",
+        "M07",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "12"
+    },
+    {
+      "global_claim_id": "G12-S083-10",
+      "claim_id": "B12-S083-10",
+      "source_id": "S083",
+      "corpus_id": "C017",
+      "location": "24",
+      "claim_type": "PHEN",
+      "claim": "Ego-making is described as a distinct function in the organization of experience.",
+      "motifs": [
+        "M02",
+        "M07",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "12"
+    },
+    {
+      "global_claim_id": "G12-S083-11",
+      "claim_id": "B12-S083-11",
+      "source_id": "S083",
+      "corpus_id": "C017",
+      "location": "27",
+      "claim_type": "PHEN",
+      "claim": "The sensory and action capacities are differentiated into specialized functions.",
+      "motifs": [
+        "M07",
+        "M08"
+      ],
+      "provenance": "P2*",
+      "batch": "12"
+    },
+    {
+      "global_claim_id": "G12-S083-12",
+      "claim_id": "B12-S083-12",
+      "source_id": "S083",
+      "corpus_id": "C017",
+      "location": "44",
+      "claim_type": "TRANSFORMATION",
+      "claim": "Discriminative knowledge is presented as central to release from misidentification.",
+      "motifs": [
+        "M12",
+        "M23",
+        "M25"
+      ],
+      "provenance": "P2*",
+      "batch": "12"
+    },
+    {
+      "global_claim_id": "G12-S083-13",
+      "claim_id": "B12-S083-13",
+      "source_id": "S083",
+      "corpus_id": "C017",
+      "location": "68",
+      "claim_type": "TRANSFORMATION",
+      "claim": "Liberation is described as the cessation of mistaken identification between consciousness and nature.",
+      "motifs": [
+        "M04",
+        "M12",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "12"
     }
   ],
   "rules": {
