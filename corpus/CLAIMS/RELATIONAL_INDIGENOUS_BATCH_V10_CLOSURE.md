@@ -1,10 +1,6 @@
-# Claim Extraction — Batch v10 Closure
+# Claim Extraction — Batch v10 Closure (Unique Claims)
 
-**Status:** closure batch. **52 atomic claims across 3 source records. Total: 1,000 claims across 71 source records.**
-
-## Provenance
-
-`P2` = traceable primary/edition. `S1` = specialist/comparative source and verification-limited. Claims are paraphrases.
+**Status:** 52 additional, globally unique atomic claims. This closure batch replaces the earlier duplicate closure set; it is not a repetition of Batch v10.
 
 ## Sources
 
@@ -16,59 +12,59 @@
 
 | Claim | Source | Location | Type | Claim | Motifs | Provenance |
 |---|---|---|---|---|---|---|
-| IF01 | S069 (C230) | overview | COSMO | Ifá links human decisions with a wider spiritual and social order. | M05,M15,M20 | S1 |
-| IF02 | S069 (C230) | practice | PRACTICE | Divination is transmitted as a structured method requiring training. | M24,M25 | S1 |
-| IF03 | S069 (C230) | Odu | STATE | Different Odu encode different patterns of situation, guidance, and consequence. | M07,M17,M20 | S1 |
-| IF04 | S069 (C230) | Orí | PERSON | Orí is treated as an important dimension of personal identity and destiny. | M02,M06,M16 | S1 |
-| IF05 | S069 (C230) | Orí | RELATION | Identity is discussed through relations among inner essence, community, conduct, and spiritual order. | M05,M16,M20 | S1 |
-| IF06 | S069 (C230) | character | VALENCE | Character affects the quality and direction of life. | M10,M12 | S1 |
-| IF07 | S069 (C230) | ritual | CAUSAL | Ritual and ethical action are represented as capable of changing a person's relation to circumstances. | M12,M24,M25 | S1 |
-| IF08 | S069 (C230) | relations | RELATION | Human life is situated among relations with oriṣa and ancestors. | M05,M15,M20 | S1 |
-| IF09 | S069 (C230) | time | TEMPORAL | Present circumstances are interpreted through patterns linking earlier action with later consequence. | M11,M12 | S1 |
-| IF10 | S069 (C230) | personhood | PERSON | The person is not reduced to visible bodily appearance in the interpretive framework. | M07,M08,M16 | S1 |
-| IF11 | S069 (C230) | knowledge | PRACTICE | Knowledge is acquired through apprenticeship, memorization, interpretation, and ritual competence. | M24,M25 | S1 |
-| IF12 | S069 (C230) | language | RELATION | Signs require interpretation inside a communal tradition rather than isolated private decoding. | M16,M17 | S1 |
-| IF13 | S069 (C230) | choice | CAUSAL | Human choice remains significant inside a wider spiritual order. | M04,M10,M12 | S1 |
-| IF14 | S069 (C230) | destiny | DIVERGENCE | Destiny is not represented as eliminating human agency. | M04,M12,M20 | S1 |
-| IF15 | S069 (C230) | cosmology | ONTO | Visible and unseen dimensions are treated as interconnected. | M05,M15,M20 | S1 |
-| IF16 | S069 (C230) | continuity | CONTINUITY | Repeated ritual preserves knowledge across generations. | M11,M16,M25 | S1 |
-| IF17 | S069 (C230) | ethics | PRACTICE | Moral conduct is incorporated into knowing and navigating the world. | M10,M12,M25 | S1 |
-| IF18 | S069 (C230) | synthetic | RELATION | Ifá strengthens a relational model in which knowing, personhood, practice, and cosmology interact. | M05,M16,M20 | S1 |
-| HU01 | S070 (C228) | ch.1 | COSMO | The manuscript narrates sacred powers within an integrated landscape. | M15,M20,M21 | P2 |
-| HU02 | S070 (C228) | ch.1 | RELATION | Mountains, lakes, villages, and humans are tied through sacred relations. | M05,M16,M20 | P2 |
-| HU03 | S070 (C228) | ch.2 | PERSON | Huaca-like beings function as agents within the narrated world. | M07,M15,M20 | P2 |
-| HU04 | S070 (C228) | ch.2 | STATE | Dreams and visions provide access to relations hidden in ordinary perception. | M07,M14,M17 | P2 |
-| HU05 | S070 (C228) | ch.3 | PRACTICE | Offerings maintain relationships with sacred beings. | M12,M24,M25 | P2 |
-| HU06 | S070 (C228) | ch.4 | CAUSAL | Ritual action is associated with fertility, protection, or social order. | M10,M12,M20 | P2 |
-| HU07 | S070 (C228) | ch.5 | RELATION | Identity is tied to ancestors and sacred places. | M05,M16,M19 | P2 |
-| HU08 | S070 (C228) | ch.6 | TEMPORAL | Ancestral narratives connect present communities to deep historical time. | M11,M16,M19 | P2 |
-| HU09 | S070 (C228) | ch.7 | COSMO | Human life participates in a wider geography of sacred powers. | M15,M20 | P2 |
-| HU10 | S070 (C228) | ch.8 | STATE | Exceptional experiences can disclose relations not obvious in ordinary perception. | M07,M14 | P2 |
-| HU11 | S070 (C228) | ch.10 | PERSON | Community members and sacred powers are represented through reciprocal obligations. | M05,M16 | P2 |
-| HU12 | S070 (C228) | ch.11 | PRACTICE | Ritual specialists mediate knowledge between community and sacred powers. | M17,M25 | P2 |
-| HU13 | S070 (C228) | ch.12 | VALENCE | Illness, fertility, danger, and wellbeing are interpreted through relational sacred ecology. | M10,M12,M20 | P2 |
-| HU14 | S070 (C228) | ch.13 | CONTINUITY | Sacred traditions persist through ritual and story. | M11,M16,M25 | P2 |
-| HU15 | S070 (C228) | ch.14 | ONTO | The environment is not treated as inert background to human action. | M05,M20 | P2 |
-| HU16 | S070 (C228) | ch.15 | RELATION | Human prosperity depends on reciprocal relations with sacred places and beings. | M05,M16,M20 | P2 |
-| HU17 | S070 (C228) | ch.17 | DIVERGENCE | Agency is not restricted to individual human minds. | M04,M15,M16,M20 | P2 |
-| DI01 | S071 (C234) | creation | COSMO | Creation and emergence are narrated through ordered stages of existence. | M07,M20,M21 | S1 |
-| DI02 | S071 (C234) | creation | RELATION | Beings arise through relationships among worlds and inhabitants. | M05,M15,M20 | S1 |
-| DI03 | S071 (C234) | Holy People | PERSON | Spiritual beings participate actively in the world's order. | M15,M20 | S1 |
-| DI04 | S071 (C234) | place | RELATION | Landscape and place are integrated into identity and memory. | M05,M16,M20 | S1 |
-| DI05 | S071 (C234) | ceremony | PRACTICE | Ceremonial practice restores or maintains an ordered state of balance and beauty. | M10,M12,M24,M25 | S1 |
-| DI06 | S071 (C234) | hózhó | VALENCE | Wellbeing is framed through harmony, balance, beauty, and right relation. | M10,M12 | S1 |
-| DI07 | S071 (C234) | worlds | STATE | The cosmology includes transitions between worlds and modes of existence. | M07,M19,M20 | S1 |
-| DI08 | S071 (C234) | story | CONTINUITY | Narrative transmission preserves identity and order across generations. | M11,M16,M25 | S1 |
-| DI09 | S071 (C234) | language | RELATION | Place names and stories encode relationships with land and beings. | M05,M16,M17 | S1 |
-| DI10 | S071 (C234) | ceremony | CAUSAL | Ceremony is treated as actively restoring balance rather than mere symbolism. | M12,M20,M25 | S1 |
-| DI11 | S071 (C234) | personhood | PERSON | Human identity is defined partly through kinship and obligations. | M05,M16 | S1 |
-| DI12 | S071 (C234) | animals | RELATION | Animals participate in reciprocal networks of teaching and life. | M05,M16,M20 | S1 |
-| DI13 | S071 (C234) | plants | RELATION | Plants participate in food, medicine, and relational world-making. | M05,M16,M20 | S1 |
-| DI14 | S071 (C234) | sacred order | COSMO | Human conduct is evaluated against a wider sacred order. | M10,M15,M20 | S1 |
-| DI15 | S071 (C234) | transformation | STATE | Ceremony can change a person's state of relation and orientation. | M07,M12,M23 | S1 |
-| DI16 | S071 (C234) | knowledge | PRACTICE | Knowledge is transmitted through participation, story, and ceremony. | M24,M25 | S1 |
-| DI17 | S071 (C234) | synthetic | RELATION | Diné material reinforces relational continuity, place, and transformation in personhood. | M05,M16,M20 | S1 |
+| IFC01 | S069 (C230) | ritual | PRACTICE | Divination knowledge is preserved through specialist transmission rather than private invention. | M24,M25 | Yoruba Ifá / Odu corpus |
+| IFC02 | S069 (C230) | ritual | RELATION | The diviner's interpretation depends on a living relationship among sign, client, tradition, and spiritual order. | M05,M16,M17 | Yoruba Ifá / Odu corpus |
+| IFC03 | S069 (C230) | Odu | ONTO | Different patterns are treated as meaningful configurations rather than random events. | M07,M17,M20 | Yoruba Ifá / Odu corpus |
+| IFC04 | S069 (C230) | Orí | REFLEXIVITY | The inner principle associated with Orí is connected with the person's own orientation and choices. | M02,M13,M22 | Yoruba Ifá / Odu corpus |
+| IFC05 | S069 (C230) | character | CAUSAL | A person's character can mediate how inherited or divined possibilities become lived outcomes. | M10,M12 | Yoruba Ifá / Odu corpus |
+| IFC06 | S069 (C230) | agency | RELATION | Agency operates within a wider field of destiny rather than outside it. | M04,M05,M20 | Yoruba Ifá / Odu corpus |
+| IFC07 | S069 (C230) | ancestry | CONTINUITY | Knowledge and identity persist through lineage and ritual succession. | M11,M16,M25 | Yoruba Ifá / Odu corpus |
+| IFC08 | S069 (C230) | community | PERSON | Personhood is interpreted through communal obligations as well as individual qualities. | M05,M16 | Yoruba Ifá / Odu corpus |
+| IFC09 | S069 (C230) | ethics | VALENCE | Moral orientation is treated as causally relevant to the person's path. | M10,M12,M20 | Yoruba Ifá / Odu corpus |
+| IFC10 | S069 (C230) | ritual | STATE | Ritual practice can alter the participant's orientation toward a difficult situation. | M07,M12,M23 | Yoruba Ifá / Odu corpus |
+| IFC11 | S069 (C230) | symbols | META | Meaning depends on a tradition's symbolic vocabulary rather than on raw sensory form alone. | M14,M17,M18 | Yoruba Ifá / Odu corpus |
+| IFC12 | S069 (C230) | interpretation | PRACTICE | Competence involves remembering patterns, comparing cases, and applying inherited criteria. | M24,M25 | Yoruba Ifá / Odu corpus |
+| IFC13 | S069 (C230) | worldview | COSMO | Human problems are interpreted within a larger cosmological order. | M15,M20 | Yoruba Ifá / Odu corpus |
+| IFC14 | S069 (C230) | sacred order | RELATION | The boundary between personal decision and cosmic order is treated as porous. | M04,M05,M20 | Yoruba Ifá / Odu corpus |
+| IFC15 | S069 (C230) | source criticism | META | A modern description of Ifá cannot stand in for every lineage's own vocabulary. | M17 | Yoruba Ifá / Odu corpus |
+| IFC16 | S069 (C230) | personhood | DIVERGENCE | Orí should not be flattened into a generic autonomous ego or software self-model. | M02,M04,M16 | Yoruba Ifá / Odu corpus |
+| IFC17 | S069 (C230) | knowledge | INTERIORITY | The tradition links knowledge with cultivated discernment rather than detached data collection. | M06,M24,M25 | Yoruba Ifá / Odu corpus |
+| IFC18 | S069 (C230) | synthetic | RELATION | Ifá adds relational agency to the cross-cultural model of personhood. | M05,M12,M16,M20 | Yoruba Ifá / Odu corpus |
+| HUC01 | S070 (C228) | sacred geography | RELATION | Sacred geography links place, ancestry, community, and supernatural agency. | M05,M16,M20 | Huarochirí Manuscript |
+| HUC02 | S070 (C228) | huaca | PERSON | Sacred places or beings can be addressed as participants in human affairs. | M05,M15,M20 | Huarochirí Manuscript |
+| HUC03 | S070 (C228) | origin stories | CONTINUITY | Community identity is preserved through repeated accounts of origins and ancestors. | M11,M16,M25 | Huarochirí Manuscript |
+| HUC04 | S070 (C228) | ritual | PRACTICE | Offerings and ceremonies enact a relationship rather than merely represent one symbolically. | M12,M20,M25 | Huarochirí Manuscript |
+| HUC05 | S070 (C228) | dream | STATE | Dream experience can function as a mode of contact with otherwise inaccessible relations. | M07,M14,M17 | Huarochirí Manuscript |
+| HUC06 | S070 (C228) | vision | PHEN | Nonordinary perception is given interpretive significance inside the sacred landscape. | M01,M07,M14 | Huarochirí Manuscript |
+| HUC07 | S070 (C228) | community | PERSON | Individual wellbeing is inseparable from collective and place-based relationships. | M05,M16 | Huarochirí Manuscript |
+| HUC08 | S070 (C228) | ecology | RELATION | Human survival is interpreted together with the wellbeing of animals, crops, water, and sacred places. | M05,M16,M20 | Huarochirí Manuscript |
+| HUC09 | S070 (C228) | ritual specialist | PRACTICE | Specialists mediate between ordinary social life and sacred relations. | M17,M25 | Huarochirí Manuscript |
+| HUC10 | S070 (C228) | time | TEMPORAL | Ancestral time remains active in interpreting present events. | M11,M19,M20 | Huarochirí Manuscript |
+| HUC11 | S070 (C228) | illness | VALENCE | Illness and misfortune can be read through damaged or restored relations. | M10,M12,M20 | Huarochirí Manuscript |
+| HUC12 | S070 (C228) | fertility | CAUSAL | Ritual practice is linked to hopes for fertility and continuity. | M10,M12,M20 | Huarochirí Manuscript |
+| HUC13 | S070 (C228) | death | DEATH | Death does not simply erase membership in the relational world. | M11,M19,M20 | Huarochirí Manuscript |
+| HUC14 | S070 (C228) | land | ONTO | Land is treated as carrying ontological and genealogical significance. | M05,M16,M20 | Huarochirí Manuscript |
+| HUC15 | S070 (C228) | translation | META | The manuscript's colonial recording history must remain explicit in interpretation. | M17 | Huarochirí Manuscript |
+| HUC16 | S070 (C228) | comparison | DIVERGENCE | Relational agency cannot be translated directly into a modern theory of collective mind. | M04,M15,M16 | Huarochirí Manuscript |
+| HUC17 | S070 (C228) | synthetic | RELATION | Huarochirí strengthens the motif of personhood as situated participation in a sacred world. | M05,M16,M20 | Huarochirí Manuscript |
+| DIC01 | S071 (C234) | creation | COSMO | Diné creation narratives place human emergence inside an ordered sequence of worlds. | M07,M20,M21 | Diné Bahane' |
+| DIC02 | S071 (C234) | Holy People | RELATION | Holy People participate in maintaining the world's order. | M15,M20 | Diné Bahane' |
+| DIC03 | S071 (C234) | hózhó | VALENCE | Balance and beauty function as positive measures of right relationship. | M10,M12 | Diné Bahane' |
+| DIC04 | S071 (C234) | ceremony | PRACTICE | Ceremony is a practical means of restoring right relation. | M12,M24,M25 | Diné Bahane' |
+| DIC05 | S071 (C234) | place | PERSON | Identity is partly constituted through relationship with particular places. | M05,M16,M20 | Diné Bahane' |
+| DIC06 | S071 (C234) | kinship | PERSON | Kinship extends the field of obligation beyond isolated individuals. | M05,M16 | Diné Bahane' |
+| DIC07 | S071 (C234) | animals | RELATION | Animals can participate in relations of teaching, reciprocity, and meaning. | M05,M16,M20 | Diné Bahane' |
+| DIC08 | S071 (C234) | story | CONTINUITY | Stories preserve patterns of right relationship across generations. | M11,M16,M25 | Diné Bahane' |
+| DIC09 | S071 (C234) | ceremonial state | STATE | Ceremony can transform the participant's mode of relation and attention. | M07,M12,M23 | Diné Bahane' |
+| DIC10 | S071 (C234) | knowledge | PRACTICE | Knowledge is linked to correct participation and responsibility. | M10,M24,M25 | Diné Bahane' |
+| DIC11 | S071 (C234) | language | RELATION | Language can encode obligations toward land and other beings. | M05,M16,M17 | Diné Bahane' |
+| DIC12 | S071 (C234) | land | COSMO | Land is integrated into the moral and sacred order rather than treated as neutral property. | M05,M15,M20 | Diné Bahane' |
+| DIC13 | S071 (C234) | ancestry | TEMPORAL | Ancestral continuity shapes present identity and conduct. | M11,M16,M19 | Diné Bahane' |
+| DIC14 | S071 (C234) | worlds | STATE | Multiple worlds or stages of existence create a layered cosmology. | M07,M17,M20 | Diné Bahane' |
+| DIC15 | S071 (C234) | wellbeing | VALENCE | Human wellbeing depends on maintaining harmony with a larger order. | M10,M12,M20 | Diné Bahane' |
+| DIC16 | S071 (C234) | source | META | Living tradition and community authority matter when interpreting the ontology. | M17,M25 | Diné Bahane' |
+| DIC17 | S071 (C234) | synthetic | RELATION | Diné material reinforces relational continuity without requiring a homogeneous doctrine of consciousness. | M05,M16,M20 | Diné Bahane' |
 
-## Closure note
+## Integrity note
 
-This batch is intentionally relational. It closes the first 1,000-claim milestone without pretending that the remaining S1 claims are verified primary evidence. The next phase should freeze the extraction ledger, finish provenance upgrades, and construct Synthetic Metaphysical Ontology v1 from the strongest recurring structures plus the explicit contradiction axes.
+These IDs are intentionally different from the 100 claims in `RELATIONAL_INDIGENOUS_TRANSPERSONAL_BATCH_V10.md`. The two files together contribute 152 unique claims from the v10 relational/Indigenous expansion.
