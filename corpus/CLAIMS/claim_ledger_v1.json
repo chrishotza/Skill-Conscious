@@ -1,8 +1,8 @@
 {
   "schema_version": "1.0",
-  "claim_count": 1000,
-  "global_claim_count": 1000,
-  "source_count": 73,
+  "claim_count": 1065,
+  "global_claim_count": 1065,
+  "source_count": 78,
   "records": [
     {
       "global_claim_id": "G1-S001-K01",
@@ -15638,6 +15638,1002 @@
       ],
       "provenance": "Diné Bahane'",
       "batch": "10"
+    },
+    {
+      "global_claim_id": "G11-S072-01",
+      "claim_id": "B11-S072-01",
+      "source_id": "S072",
+      "corpus_id": "C001",
+      "location": "10.129.1",
+      "claim_type": "ONTO",
+      "claim": "The hymn opens by suspending the ordinary opposition between being and non-being.",
+      "motifs": [
+        "M03",
+        "M14"
+      ],
+      "provenance": "P2",
+      "batch": "11"
+    },
+    {
+      "global_claim_id": "G11-S072-02",
+      "claim_id": "B11-S072-02",
+      "source_id": "S072",
+      "corpus_id": "C001",
+      "location": "10.129.1",
+      "claim_type": "COSMO",
+      "claim": "The familiar spatial frame of air and sky is not assumed to apply to the primordial condition.",
+      "motifs": [
+        "M20",
+        "M14"
+      ],
+      "provenance": "P2",
+      "batch": "11"
+    },
+    {
+      "global_claim_id": "G11-S072-03",
+      "claim_id": "B11-S072-03",
+      "source_id": "S072",
+      "corpus_id": "C001",
+      "location": "10.129.1",
+      "claim_type": "META",
+      "claim": "Questions about covering, location, and shelter expose the limits of ordinary cosmological categories.",
+      "motifs": [
+        "M14",
+        "M22"
+      ],
+      "provenance": "P2",
+      "batch": "11"
+    },
+    {
+      "global_claim_id": "G11-S072-04",
+      "claim_id": "B11-S072-04",
+      "source_id": "S072",
+      "corpus_id": "C001",
+      "location": "10.129.2",
+      "claim_type": "COSMO",
+      "claim": "Death and immortality are both withheld from the primordial scene.",
+      "motifs": [
+        "M19",
+        "M14"
+      ],
+      "provenance": "P2",
+      "batch": "11"
+    },
+    {
+      "global_claim_id": "G11-S072-05",
+      "claim_id": "B11-S072-05",
+      "source_id": "S072",
+      "corpus_id": "C001",
+      "location": "10.129.2",
+      "claim_type": "TEMPORAL",
+      "claim": "The distinction between night and day is absent from the described beginning.",
+      "motifs": [
+        "M11",
+        "M20"
+      ],
+      "provenance": "P2",
+      "batch": "11"
+    },
+    {
+      "global_claim_id": "G11-S072-06",
+      "claim_id": "B11-S072-06",
+      "source_id": "S072",
+      "corpus_id": "C001",
+      "location": "10.129.2",
+      "claim_type": "ONTO",
+      "claim": "The One is portrayed as self-sustaining, without ordinary external breath.",
+      "motifs": [
+        "M03",
+        "M09"
+      ],
+      "provenance": "P2",
+      "batch": "11"
+    },
+    {
+      "global_claim_id": "G11-S072-07",
+      "claim_id": "B11-S072-07",
+      "source_id": "S072",
+      "corpus_id": "C001",
+      "location": "10.129.3",
+      "claim_type": "COSMO",
+      "claim": "Darkness and an undifferentiated watery expanse characterize the pre-formed scene.",
+      "motifs": [
+        "M07",
+        "M20"
+      ],
+      "provenance": "P2",
+      "batch": "11"
+    },
+    {
+      "global_claim_id": "G11-S072-08",
+      "claim_id": "B11-S072-08",
+      "source_id": "S072",
+      "corpus_id": "C001",
+      "location": "10.129.3",
+      "claim_type": "DYNAMICS",
+      "claim": "The hymn associates the emergence of the One with heat or generative intensity.",
+      "motifs": [
+        "M09",
+        "M21",
+        "M23"
+      ],
+      "provenance": "P2",
+      "batch": "11"
+    },
+    {
+      "global_claim_id": "G11-S072-09",
+      "claim_id": "B11-S072-09",
+      "source_id": "S072",
+      "corpus_id": "C001",
+      "location": "10.129.4",
+      "claim_type": "DYNAMICS",
+      "claim": "Desire or wanting appears as an early generative factor in the account.",
+      "motifs": [
+        "M10",
+        "M21"
+      ],
+      "provenance": "P2",
+      "batch": "11"
+    },
+    {
+      "global_claim_id": "G11-S072-10",
+      "claim_id": "B11-S072-10",
+      "source_id": "S072",
+      "corpus_id": "C001",
+      "location": "10.129.4",
+      "claim_type": "REFLEXIVITY",
+      "claim": "The sages seek a connection between being and non-being through insight in the heart.",
+      "motifs": [
+        "M02",
+        "M22",
+        "M24"
+      ],
+      "provenance": "P2",
+      "batch": "11"
+    },
+    {
+      "global_claim_id": "G11-S072-11",
+      "claim_id": "B11-S072-11",
+      "source_id": "S072",
+      "corpus_id": "C001",
+      "location": "10.129.5",
+      "claim_type": "COSMO",
+      "claim": "The hymn asks how the generative line is distributed above and below rather than asserting a simple mechanism.",
+      "motifs": [
+        "M20",
+        "M14"
+      ],
+      "provenance": "P2",
+      "batch": "11"
+    },
+    {
+      "global_claim_id": "G11-S072-12",
+      "claim_id": "B11-S072-12",
+      "source_id": "S072",
+      "corpus_id": "C001",
+      "location": "10.129.6",
+      "claim_type": "META",
+      "claim": "The origin of creation is presented as a question that may exceed available knowledge.",
+      "motifs": [
+        "M14",
+        "M22"
+      ],
+      "provenance": "P2",
+      "batch": "11"
+    },
+    {
+      "global_claim_id": "G11-S072-13",
+      "claim_id": "B11-S072-13",
+      "source_id": "S072",
+      "corpus_id": "C001",
+      "location": "10.129.7",
+      "claim_type": "META",
+      "claim": "Even the highest overseer is not unequivocally guaranteed knowledge of creation's origin.",
+      "motifs": [
+        "M14",
+        "M22"
+      ],
+      "provenance": "P2",
+      "batch": "11"
+    },
+    {
+      "global_claim_id": "G11-S073-01",
+      "claim_id": "B11-S073-01",
+      "source_id": "S073",
+      "corpus_id": "C006",
+      "location": "1.1",
+      "claim_type": "COSMO",
+      "claim": "The text begins with the Self as the initiating principle of the cosmogonic account.",
+      "motifs": [
+        "M02",
+        "M20",
+        "M21"
+      ],
+      "provenance": "P2",
+      "batch": "11"
+    },
+    {
+      "global_claim_id": "G11-S073-02",
+      "claim_id": "B11-S073-02",
+      "source_id": "S073",
+      "corpus_id": "C006",
+      "location": "1.1",
+      "claim_type": "ONTO",
+      "claim": "Cosmic manifestation is narrated as an ordered emergence rather than an unexplained inventory of objects.",
+      "motifs": [
+        "M07",
+        "M20"
+      ],
+      "provenance": "P2",
+      "batch": "11"
+    },
+    {
+      "global_claim_id": "G11-S073-03",
+      "claim_id": "B11-S073-03",
+      "source_id": "S073",
+      "corpus_id": "C006",
+      "location": "1.1",
+      "claim_type": "COSMO",
+      "claim": "World regions are differentiated within the creation narrative.",
+      "motifs": [
+        "M04",
+        "M07",
+        "M20"
+      ],
+      "provenance": "P2",
+      "batch": "11"
+    },
+    {
+      "global_claim_id": "G11-S073-04",
+      "claim_id": "B11-S073-04",
+      "source_id": "S073",
+      "corpus_id": "C006",
+      "location": "1.2",
+      "claim_type": "COSMO",
+      "claim": "Cosmic powers are assigned domains and functions in the emerging order.",
+      "motifs": [
+        "M05",
+        "M20"
+      ],
+      "provenance": "P2",
+      "batch": "11"
+    },
+    {
+      "global_claim_id": "G11-S073-05",
+      "claim_id": "B11-S073-05",
+      "source_id": "S073",
+      "corpus_id": "C006",
+      "location": "1.2",
+      "claim_type": "EMBODIMENT",
+      "claim": "The narrative links cosmic functions with embodied openings and capacities.",
+      "motifs": [
+        "M08",
+        "M20"
+      ],
+      "provenance": "P2",
+      "batch": "11"
+    },
+    {
+      "global_claim_id": "G11-S073-06",
+      "claim_id": "B11-S073-06",
+      "source_id": "S073",
+      "corpus_id": "C006",
+      "location": "1.3",
+      "claim_type": "PHEN",
+      "claim": "The entry of the Self into embodied life is a central transition in the narrative.",
+      "motifs": [
+        "M02",
+        "M08",
+        "M23"
+      ],
+      "provenance": "P2",
+      "batch": "11"
+    },
+    {
+      "global_claim_id": "G11-S073-07",
+      "claim_id": "B11-S073-07",
+      "source_id": "S073",
+      "corpus_id": "C006",
+      "location": "1.3",
+      "claim_type": "PERSON",
+      "claim": "Embodied personhood is presented as more than a mere list of external elements.",
+      "motifs": [
+        "M02",
+        "M08"
+      ],
+      "provenance": "P2",
+      "batch": "11"
+    },
+    {
+      "global_claim_id": "G11-S073-08",
+      "claim_id": "B11-S073-08",
+      "source_id": "S073",
+      "corpus_id": "C006",
+      "location": "1.3",
+      "claim_type": "REFLEXIVITY",
+      "claim": "The question of who or what experiences the world directs attention toward the experiencing principle.",
+      "motifs": [
+        "M01",
+        "M02",
+        "M22"
+      ],
+      "provenance": "P2",
+      "batch": "11"
+    },
+    {
+      "global_claim_id": "G11-S073-09",
+      "claim_id": "B11-S073-09",
+      "source_id": "S073",
+      "corpus_id": "C006",
+      "location": "1.3",
+      "claim_type": "PHEN",
+      "claim": "Seeing, hearing, and other faculties are treated as distinct modes of experience.",
+      "motifs": [
+        "M01",
+        "M07",
+        "M08"
+      ],
+      "provenance": "P2",
+      "batch": "11"
+    },
+    {
+      "global_claim_id": "G11-S073-10",
+      "claim_id": "B11-S073-10",
+      "source_id": "S073",
+      "corpus_id": "C006",
+      "location": "1.3",
+      "claim_type": "ONTO",
+      "claim": "The text distinguishes sensory functions from the principle that animates or coordinates them.",
+      "motifs": [
+        "M02",
+        "M08",
+        "M22"
+      ],
+      "provenance": "P2",
+      "batch": "11"
+    },
+    {
+      "global_claim_id": "G11-S073-11",
+      "claim_id": "B11-S073-11",
+      "source_id": "S073",
+      "corpus_id": "C006",
+      "location": "3.1",
+      "claim_type": "META",
+      "claim": "The inquiry into the Self proceeds through questions about the source and organization of experience.",
+      "motifs": [
+        "M02",
+        "M22"
+      ],
+      "provenance": "P2",
+      "batch": "11"
+    },
+    {
+      "global_claim_id": "G11-S073-12",
+      "claim_id": "B11-S073-12",
+      "source_id": "S073",
+      "corpus_id": "C006",
+      "location": "3.1",
+      "claim_type": "ONTO",
+      "claim": "Consciousness and personhood are linked to the capacity to recognize and participate in a world.",
+      "motifs": [
+        "M01",
+        "M05",
+        "M22"
+      ],
+      "provenance": "P2",
+      "batch": "11"
+    },
+    {
+      "global_claim_id": "G11-S073-13",
+      "claim_id": "B11-S073-13",
+      "source_id": "S073",
+      "corpus_id": "C006",
+      "location": "3.1",
+      "claim_type": "TRANSFORMATION",
+      "claim": "The teaching frames self-knowledge as a recognition of the principle present in embodied experience.",
+      "motifs": [
+        "M02",
+        "M13",
+        "M23"
+      ],
+      "provenance": "P2",
+      "batch": "11"
+    },
+    {
+      "global_claim_id": "G11-S074-01",
+      "claim_id": "B11-S074-01",
+      "source_id": "S074",
+      "corpus_id": "C007",
+      "location": "2.1",
+      "claim_type": "ONTO",
+      "claim": "The account of the Self proceeds through an inquiry into the ground of embodied life.",
+      "motifs": [
+        "M02",
+        "M06"
+      ],
+      "provenance": "P2",
+      "batch": "11"
+    },
+    {
+      "global_claim_id": "G11-S074-02",
+      "claim_id": "B11-S074-02",
+      "source_id": "S074",
+      "corpus_id": "C007",
+      "location": "2.1",
+      "claim_type": "EMBODIMENT",
+      "claim": "Food is treated as a foundational condition of embodied existence.",
+      "motifs": [
+        "M08",
+        "M20"
+      ],
+      "provenance": "P2",
+      "batch": "11"
+    },
+    {
+      "global_claim_id": "G11-S074-03",
+      "claim_id": "B11-S074-03",
+      "source_id": "S074",
+      "corpus_id": "C007",
+      "location": "2.2",
+      "claim_type": "EMBODIMENT",
+      "claim": "The vital dimension is distinguished from the material body while remaining dependent on embodied life.",
+      "motifs": [
+        "M07",
+        "M08",
+        "M09"
+      ],
+      "provenance": "P2",
+      "batch": "11"
+    },
+    {
+      "global_claim_id": "G11-S074-04",
+      "claim_id": "B11-S074-04",
+      "source_id": "S074",
+      "corpus_id": "C007",
+      "location": "2.3",
+      "claim_type": "PHEN",
+      "claim": "Mind is treated as a distinguishable layer of human constitution.",
+      "motifs": [
+        "M07",
+        "M08"
+      ],
+      "provenance": "P2",
+      "batch": "11"
+    },
+    {
+      "global_claim_id": "G11-S074-05",
+      "claim_id": "B11-S074-05",
+      "source_id": "S074",
+      "corpus_id": "C007",
+      "location": "2.4",
+      "claim_type": "ONTO",
+      "claim": "Knowing or discernment is described as another layer in the analysis of the person.",
+      "motifs": [
+        "M07",
+        "M22"
+      ],
+      "provenance": "P2",
+      "batch": "11"
+    },
+    {
+      "global_claim_id": "G11-S074-06",
+      "claim_id": "B11-S074-06",
+      "source_id": "S074",
+      "corpus_id": "C007",
+      "location": "2.5",
+      "claim_type": "PHEN",
+      "claim": "Bliss is presented as a further dimension in the layered account of the Self.",
+      "motifs": [
+        "M07",
+        "M10"
+      ],
+      "provenance": "P2",
+      "batch": "11"
+    },
+    {
+      "global_claim_id": "G11-S074-07",
+      "claim_id": "B11-S074-07",
+      "source_id": "S074",
+      "corpus_id": "C007",
+      "location": "2.1–2.5",
+      "claim_type": "META",
+      "claim": "The layered teaching discourages reducing the person to a single immediately visible component.",
+      "motifs": [
+        "M06",
+        "M07",
+        "M08"
+      ],
+      "provenance": "P2",
+      "batch": "11"
+    },
+    {
+      "global_claim_id": "G11-S074-08",
+      "claim_id": "B11-S074-08",
+      "source_id": "S074",
+      "corpus_id": "C007",
+      "location": "2.1–2.5",
+      "claim_type": "ONTO",
+      "claim": "The layers are presented as an ordered inquiry, not necessarily as independent substances.",
+      "motifs": [
+        "M07",
+        "M22"
+      ],
+      "provenance": "P2",
+      "batch": "11"
+    },
+    {
+      "global_claim_id": "G11-S074-09",
+      "claim_id": "B11-S074-09",
+      "source_id": "S074",
+      "corpus_id": "C007",
+      "location": "3.1",
+      "claim_type": "PRACTICE",
+      "claim": "The teaching frames understanding as an inquiry into the source from which beings arise and by which they live.",
+      "motifs": [
+        "M24",
+        "M25"
+      ],
+      "provenance": "P2",
+      "batch": "11"
+    },
+    {
+      "global_claim_id": "G11-S074-10",
+      "claim_id": "B11-S074-10",
+      "source_id": "S074",
+      "corpus_id": "C007",
+      "location": "3.1",
+      "claim_type": "COSMO",
+      "claim": "The ground of life is considered in relation to the origin, maintenance, and return of beings.",
+      "motifs": [
+        "M11",
+        "M20",
+        "M21"
+      ],
+      "provenance": "P2",
+      "batch": "11"
+    },
+    {
+      "global_claim_id": "G11-S074-11",
+      "claim_id": "B11-S074-11",
+      "source_id": "S074",
+      "corpus_id": "C007",
+      "location": "3.6",
+      "claim_type": "ONTO",
+      "claim": "The text connects the deepest account of reality with the source of delight or bliss.",
+      "motifs": [
+        "M01",
+        "M10",
+        "M20"
+      ],
+      "provenance": "P2",
+      "batch": "11"
+    },
+    {
+      "global_claim_id": "G11-S074-12",
+      "claim_id": "B11-S074-12",
+      "source_id": "S074",
+      "corpus_id": "C007",
+      "location": "3.10",
+      "claim_type": "TRANSFORMATION",
+      "claim": "The teaching associates realization with a changed orientation toward fear, desire, and limitation.",
+      "motifs": [
+        "M10",
+        "M12",
+        "M23"
+      ],
+      "provenance": "P2",
+      "batch": "11"
+    },
+    {
+      "global_claim_id": "G11-S074-13",
+      "claim_id": "B11-S074-13",
+      "source_id": "S074",
+      "corpus_id": "C007",
+      "location": "3.10",
+      "claim_type": "RELATION",
+      "claim": "The realized person is portrayed in relation to the whole of life rather than as an isolated cognitive observer.",
+      "motifs": [
+        "M05",
+        "M15",
+        "M20"
+      ],
+      "provenance": "P2",
+      "batch": "11"
+    },
+    {
+      "global_claim_id": "G11-S075-01",
+      "claim_id": "B11-S075-01",
+      "source_id": "S075",
+      "corpus_id": "C009",
+      "location": "Question I",
+      "claim_type": "COSMO",
+      "claim": "The text uses questions about the origin of creatures to organize its inquiry into life.",
+      "motifs": [
+        "M20",
+        "M21",
+        "M24"
+      ],
+      "provenance": "P2",
+      "batch": "11"
+    },
+    {
+      "global_claim_id": "G11-S075-02",
+      "claim_id": "B11-S075-02",
+      "source_id": "S075",
+      "corpus_id": "C009",
+      "location": "Question I",
+      "claim_type": "DYNAMICS",
+      "claim": "Vitality is explained through an originating principle and differentiated functions.",
+      "motifs": [
+        "M07",
+        "M09"
+      ],
+      "provenance": "P2",
+      "batch": "11"
+    },
+    {
+      "global_claim_id": "G11-S075-03",
+      "claim_id": "B11-S075-03",
+      "source_id": "S075",
+      "corpus_id": "C009",
+      "location": "Question II",
+      "claim_type": "EMBODIMENT",
+      "claim": "Prāṇa is presented as central to the coordination of bodily life.",
+      "motifs": [
+        "M08",
+        "M09"
+      ],
+      "provenance": "P2",
+      "batch": "11"
+    },
+    {
+      "global_claim_id": "G11-S075-04",
+      "claim_id": "B11-S075-04",
+      "source_id": "S075",
+      "corpus_id": "C009",
+      "location": "Question II",
+      "claim_type": "RELATION",
+      "claim": "Vital functions are described in relation to one another rather than as wholly isolated capacities.",
+      "motifs": [
+        "M05",
+        "M07"
+      ],
+      "provenance": "P2",
+      "batch": "11"
+    },
+    {
+      "global_claim_id": "G11-S075-05",
+      "claim_id": "B11-S075-05",
+      "source_id": "S075",
+      "corpus_id": "C009",
+      "location": "Question III",
+      "claim_type": "DYNAMICS",
+      "claim": "The account differentiates the movements or functions of the vital principle.",
+      "motifs": [
+        "M07",
+        "M09"
+      ],
+      "provenance": "P2",
+      "batch": "11"
+    },
+    {
+      "global_claim_id": "G11-S075-06",
+      "claim_id": "B11-S075-06",
+      "source_id": "S075",
+      "corpus_id": "C009",
+      "location": "Question III",
+      "claim_type": "TEMPORAL",
+      "claim": "Breath and life are considered through ongoing activity rather than static structure alone.",
+      "motifs": [
+        "M09",
+        "M11"
+      ],
+      "provenance": "P2",
+      "batch": "11"
+    },
+    {
+      "global_claim_id": "G11-S075-07",
+      "claim_id": "B11-S075-07",
+      "source_id": "S075",
+      "corpus_id": "C009",
+      "location": "Question IV",
+      "claim_type": "PHEN",
+      "claim": "Dreaming and waking provide contrasting conditions for examining experience.",
+      "motifs": [
+        "M07",
+        "M11"
+      ],
+      "provenance": "P2",
+      "batch": "11"
+    },
+    {
+      "global_claim_id": "G11-S075-08",
+      "claim_id": "B11-S075-08",
+      "source_id": "S075",
+      "corpus_id": "C009",
+      "location": "Question IV",
+      "claim_type": "REFLEXIVITY",
+      "claim": "The inquiry asks how experience is organized across changing states.",
+      "motifs": [
+        "M02",
+        "M22",
+        "M23"
+      ],
+      "provenance": "P2",
+      "batch": "11"
+    },
+    {
+      "global_claim_id": "G11-S075-09",
+      "claim_id": "B11-S075-09",
+      "source_id": "S075",
+      "corpus_id": "C009",
+      "location": "Question IV",
+      "claim_type": "ONTO",
+      "claim": "The text considers what remains relevant when ordinary sensory engagement changes.",
+      "motifs": [
+        "M01",
+        "M07"
+      ],
+      "provenance": "P2",
+      "batch": "11"
+    },
+    {
+      "global_claim_id": "G11-S075-10",
+      "claim_id": "B11-S075-10",
+      "source_id": "S075",
+      "corpus_id": "C009",
+      "location": "Question V",
+      "claim_type": "PRACTICE",
+      "claim": "The sacred syllable is presented as a focus for disciplined contemplation.",
+      "motifs": [
+        "M24",
+        "M25"
+      ],
+      "provenance": "P2",
+      "batch": "11"
+    },
+    {
+      "global_claim_id": "G11-S075-11",
+      "claim_id": "B11-S075-11",
+      "source_id": "S075",
+      "corpus_id": "C009",
+      "location": "Question V",
+      "claim_type": "TRANSFORMATION",
+      "claim": "Contemplative practice is linked to differing outcomes according to its mode of performance.",
+      "motifs": [
+        "M12",
+        "M23",
+        "M25"
+      ],
+      "provenance": "P2",
+      "batch": "11"
+    },
+    {
+      "global_claim_id": "G11-S075-12",
+      "claim_id": "B11-S075-12",
+      "source_id": "S075",
+      "corpus_id": "C009",
+      "location": "Question VI",
+      "claim_type": "COSMO",
+      "claim": "The person is interpreted through a correspondence between embodied life and a wider cosmic order.",
+      "motifs": [
+        "M05",
+        "M20"
+      ],
+      "provenance": "P2",
+      "batch": "11"
+    },
+    {
+      "global_claim_id": "G11-S075-13",
+      "claim_id": "B11-S075-13",
+      "source_id": "S075",
+      "corpus_id": "C009",
+      "location": "Question VI",
+      "claim_type": "META",
+      "claim": "The dialogue format makes knowledge dependent on articulated questions and qualified instruction.",
+      "motifs": [
+        "M24",
+        "M25"
+      ],
+      "provenance": "P2",
+      "batch": "11"
+    },
+    {
+      "global_claim_id": "G11-S076-01",
+      "claim_id": "B11-S076-01",
+      "source_id": "S076",
+      "corpus_id": "C010",
+      "location": "1.1",
+      "claim_type": "META",
+      "claim": "The text distinguishes kinds of knowledge rather than treating all learning as epistemically equivalent.",
+      "motifs": [
+        "M07",
+        "M24"
+      ],
+      "provenance": "P2",
+      "batch": "11"
+    },
+    {
+      "global_claim_id": "G11-S076-02",
+      "claim_id": "B11-S076-02",
+      "source_id": "S076",
+      "corpus_id": "C010",
+      "location": "1.1",
+      "claim_type": "PRACTICE",
+      "claim": "The seeker approaches a qualified teacher to ask about the ground of reality.",
+      "motifs": [
+        "M24",
+        "M25"
+      ],
+      "provenance": "P2",
+      "batch": "11"
+    },
+    {
+      "global_claim_id": "G11-S076-03",
+      "claim_id": "B11-S076-03",
+      "source_id": "S076",
+      "corpus_id": "C010",
+      "location": "1.1",
+      "claim_type": "ONTO",
+      "claim": "Knowledge of the ultimate is framed as inquiry into that by which everything becomes known.",
+      "motifs": [
+        "M02",
+        "M22"
+      ],
+      "provenance": "P2",
+      "batch": "11"
+    },
+    {
+      "global_claim_id": "G11-S076-04",
+      "claim_id": "B11-S076-04",
+      "source_id": "S076",
+      "corpus_id": "C010",
+      "location": "1.1",
+      "claim_type": "COSMO",
+      "claim": "The source of the world is compared to a generative source from which forms emerge.",
+      "motifs": [
+        "M20",
+        "M21"
+      ],
+      "provenance": "P2",
+      "batch": "11"
+    },
+    {
+      "global_claim_id": "G11-S076-05",
+      "claim_id": "B11-S076-05",
+      "source_id": "S076",
+      "corpus_id": "C010",
+      "location": "1.1",
+      "claim_type": "DYNAMICS",
+      "claim": "Manifested diversity is described as arising from a common originating principle.",
+      "motifs": [
+        "M03",
+        "M20",
+        "M21"
+      ],
+      "provenance": "P2",
+      "batch": "11"
+    },
+    {
+      "global_claim_id": "G11-S076-06",
+      "claim_id": "B11-S076-06",
+      "source_id": "S076",
+      "corpus_id": "C010",
+      "location": "2.1",
+      "claim_type": "COSMO",
+      "claim": "The world is portrayed as emerging from and sustained by a deeper source.",
+      "motifs": [
+        "M20",
+        "M21"
+      ],
+      "provenance": "P2",
+      "batch": "11"
+    },
+    {
+      "global_claim_id": "G11-S076-07",
+      "claim_id": "B11-S076-07",
+      "source_id": "S076",
+      "corpus_id": "C010",
+      "location": "2.1",
+      "claim_type": "RELATION",
+      "claim": "The relation between source and manifested beings is explained through analogies of emanation and growth.",
+      "motifs": [
+        "M05",
+        "M21"
+      ],
+      "provenance": "P2",
+      "batch": "11"
+    },
+    {
+      "global_claim_id": "G11-S076-08",
+      "claim_id": "B11-S076-08",
+      "source_id": "S076",
+      "corpus_id": "C010",
+      "location": "2.2",
+      "claim_type": "PRACTICE",
+      "claim": "Meditative attention is directed toward an inward or subtle target rather than external acquisition alone.",
+      "motifs": [
+        "M24",
+        "M25"
+      ],
+      "provenance": "P2",
+      "batch": "11"
+    },
+    {
+      "global_claim_id": "G11-S076-09",
+      "claim_id": "B11-S076-09",
+      "source_id": "S076",
+      "corpus_id": "C010",
+      "location": "2.2",
+      "claim_type": "REFLEXIVITY",
+      "claim": "The heart or interior domain is treated as significant for realization.",
+      "motifs": [
+        "M02",
+        "M06",
+        "M24"
+      ],
+      "provenance": "P2",
+      "batch": "11"
+    },
+    {
+      "global_claim_id": "G11-S076-10",
+      "claim_id": "B11-S076-10",
+      "source_id": "S076",
+      "corpus_id": "C010",
+      "location": "2.2",
+      "claim_type": "META",
+      "claim": "The ultimate is described as subtle and not exhausted by ordinary sensory perception.",
+      "motifs": [
+        "M06",
+        "M14"
+      ],
+      "provenance": "P2",
+      "batch": "11"
+    },
+    {
+      "global_claim_id": "G11-S076-11",
+      "claim_id": "B11-S076-11",
+      "source_id": "S076",
+      "corpus_id": "C010",
+      "location": "3.1",
+      "claim_type": "ONTO",
+      "claim": "The distinction between the higher and lower Self organizes the text's account of knowing.",
+      "motifs": [
+        "M02",
+        "M07"
+      ],
+      "provenance": "P2",
+      "batch": "11"
+    },
+    {
+      "global_claim_id": "G11-S076-12",
+      "claim_id": "B11-S076-12",
+      "source_id": "S076",
+      "corpus_id": "C010",
+      "location": "3.2",
+      "claim_type": "TRANSFORMATION",
+      "claim": "Liberating knowledge is presented as changing the seeker's condition, not merely adding propositions.",
+      "motifs": [
+        "M12",
+        "M23"
+      ],
+      "provenance": "P2",
+      "batch": "11"
+    },
+    {
+      "global_claim_id": "G11-S076-13",
+      "claim_id": "B11-S076-13",
+      "source_id": "S076",
+      "corpus_id": "C010",
+      "location": "3.2",
+      "claim_type": "META",
+      "claim": "The teaching warns that verbal or conceptual mastery alone is insufficient for realization.",
+      "motifs": [
+        "M14",
+        "M24"
+      ],
+      "provenance": "P2",
+      "batch": "11"
     }
   ],
   "rules": {
