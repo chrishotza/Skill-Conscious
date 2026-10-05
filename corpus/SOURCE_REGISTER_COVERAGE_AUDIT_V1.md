@@ -481,3 +481,13 @@
 - Current register coverage: 314/325 represented; 11/325 still missing.
 - Exact-13 represented sources: 244.
 - Provenance caution: C302–C312 remain heterodox/extended; anomalous, transpersonal and survival interpretations are explicitly separated from empirical-method claims.
+
+## Batch v36 checkpoint
+
+- Newly represented register entries: C302, C303, C304, C305, C306, C307, C308, C309, C310, C312.
+- Added claims: 130 (10 × 13), stored as append-only delta.
+- Effective ledger: 4172 records / 317 source IDs.
+- Current register coverage: 314/325 represented; 11/325 still missing.
+- Exact-13 represented sources: 244.
+- Provenance caution: C302–C310 and C312 remain heterodox/extended and explicitly attributed; psychophysiology and methodological components are separated from parapsychological and metaphysical interpretations.
+- Current-status note: the GCP source material now states that active data collection ended on 3 April 2026 after a hosting-service hardware failure; the extraction retains this date-specific status rather than implying ongoing collection.
