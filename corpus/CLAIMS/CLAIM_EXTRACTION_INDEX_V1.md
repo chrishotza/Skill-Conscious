@@ -2,7 +2,7 @@
 
 ## Current state
 
-The corpus has **325 source records** and **216 atomic claims extracted** across the first two claim batches.
+The corpus has **325 source-register entries** and **1,065 globally unique atomic claims** across eleven batches plus closure. The current block adds 65 claims across five previously uncovered sources; 250 source-register entries remain to be processed after accounting for this block.
 
 | Batch | Sources | Claims | Scope |
 |---|---:|---:|---|
@@ -17,7 +17,8 @@ The corpus has **325 source records** and **216 atomic claims extracted** across
 | Emptiness/Spanda/Recognition Batch v9 | 5 | 100 | Nāgārjuna, Vasubandhu, Spanda Kārikās, Vijñāna Bhairava, Ibn ʿArabi |
 | Relational/Indigenous/Transpersonal Batch v10 | 5 | 100 | Ifá, Huarochirí, Diné Bahane', Aboriginal Dreaming corpus, Yogananda |
 | Relational/Indigenous Closure Batch v10 | 3 | 52 | 52 unique closure claims from Ifá, Huarochirí, Diné Bahane' |
-| **Total** | **73** | **1,000** | cross-cultural source families with multiple internal traditions |
+| Remaining Sources Block v11 | 5 | 65 | Ṛgveda 10.129, Aitareya, Taittirīya, Praśna, Muṇḍaka Upaniṣads |
+| **Total** | **78** | **1,065** | cross-cultural source families with multiple internal traditions |
 
 ## Claim-growth rule
 
