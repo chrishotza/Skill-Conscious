@@ -5,14 +5,14 @@
 **Ledger:** `corpus/CLAIMS/claim_ledger_v1.json`  
 **Audit rule:** an entry counts as represented only if its exact `corpus_id` occurs in at least one ledger record. This does **not** mean all claims are source-verified.
 
-## Reconciled totals after batch v15
+## Reconciled totals after batch v16
 
-- Register entries parsed: **325** (C001–C325; 325 unique IDs).
-- Entries represented in ledger: **105**.
-- Entries not yet represented: **220**.
-- Ledger records: **1455**.
-- Unique global claim IDs: **1455**.
-- Unique source IDs in ledger: **108**.
+- Register entries parsed: **325** (325 unique IDs).
+- Entries represented in ledger: **115**.
+- Entries not yet represented: **210**.
+- Ledger records: **1585**.
+- Unique global claim IDs: **1585**.
+- Unique source IDs in ledger: **118**.
 - **Quality caveat:** “represented” is a coverage flag only. P2* claims and generic locators remain verification-pending.
 
 ## Status table
@@ -48,37 +48,37 @@
 | C027 | Tripura Rahasya — Védico/upanishádico; foco: conciencia, persona, realidad, transformación. | Represented — passage verification pending | 13 | S093 |
 | C028 | Ribhu Gita — Védico/upanishádico; foco: acción, identidad, disciplina. | Represented — passage verification pending | 13 | S094 |
 | C029 | Shiva Sutras — Tántrico/śaiva; foco: presencia, reconocimiento, manifestación. | Represented — passage verification pending | 13 | S095 |
-| C030 | Spanda Karikas — Tántrico/śaiva; foco: presencia, reconocimiento, manifestación. | Represented — passage verification pending | 20 | S066 |
-| C031 | Vijnana Bhairava Tantra — Tántrico/śaiva; foco: presencia, reconocimiento, manifestación. | Represented — passage verification pending | 20 | S067 |
+| C030 | Spanda Karikas — Tántrico/śaiva; foco: presencia, reconocimiento, manifestación. | Represented — verification status varies | 20 | S066 |
+| C031 | Vijnana Bhairava Tantra — Tántrico/śaiva; foco: presencia, reconocimiento, manifestación. | Represented — verification status varies | 20 | S067 |
 | C032 | Pratyabhijnahrdayam — Tántrico/śaiva; foco: presencia, reconocimiento, manifestación. | Represented — passage verification pending | 13 | S096 |
 | C033 | Shiva Drishti — Tántrico/śaiva; foco: conciencia, persona, realidad, transformación. | Represented — passage verification pending | 13 | S097 |
 | C034 | Pratyabhijñavimarshini — Tántrico/śaiva; foco: presencia, reconocimiento, manifestación. | Represented — passage verification pending | 13 | S098 |
-| C035 | Tantraloka — Tántrico/śaiva; foco: presencia, reconocimiento, manifestación. | Added in v15 — passage verification pending | 13 | S099 |
-| C036 | Tantrasara — Tántrico/śaiva; foco: presencia, reconocimiento, manifestación. | Added in v15 — passage verification pending | 13 | S100 |
-| C037 | Paratrishika Vivarana — Tántrico/śaiva; foco: conciencia, persona, realidad, transformación. | Added in v15 — passage verification pending | 13 | S101 |
-| C038 | Malinivijayottara Tantra — Tántrico/śaiva; foco: presencia, reconocimiento, manifestación. | Added in v15 — passage verification pending | 13 | S102 |
-| C039 | Netra Tantra — Tántrico/śaiva; foco: presencia, reconocimiento, manifestación. | Added in v15 — passage verification pending | 13 | S103 |
-| C040 | Kubjika Tantra corpus — Tántrico/śaiva; foco: conciencia, persona, realidad, transformación. | Added in v15 — passage verification pending | 13 | S104 |
-| C041 | Devimahatmya — Tántrico/śaiva; foco: conciencia, persona, realidad, transformación. | Added in v15 — passage verification pending | 13 | S105 |
-| C042 | Saundaryalahari — Tántrico/śaiva; foco: conciencia, persona, realidad, transformación. | Added in v15 — passage verification pending | 13 | S106 |
-| C043 | Lalitopakhyana / Lalita tradition texts — Tántrico/śaiva; foco: conciencia, persona, realidad, transformación. | Added in v15 — passage verification pending | 13 | S107 |
-| C044 | Acaranga Sutra — Jaina/sikh; foco: jīva, conocimiento, karma. | Added in v15 — passage verification pending | 13 | S108 |
+| C035 | Tantraloka — Tántrico/śaiva; foco: presencia, reconocimiento, manifestación. | Represented — passage verification pending | 13 | S099 |
+| C036 | Tantrasara — Tántrico/śaiva; foco: presencia, reconocimiento, manifestación. | Represented — passage verification pending | 13 | S100 |
+| C037 | Paratrishika Vivarana — Tántrico/śaiva; foco: conciencia, persona, realidad, transformación. | Represented — passage verification pending | 13 | S101 |
+| C038 | Malinivijayottara Tantra — Tántrico/śaiva; foco: presencia, reconocimiento, manifestación. | Represented — passage verification pending | 13 | S102 |
+| C039 | Netra Tantra — Tántrico/śaiva; foco: presencia, reconocimiento, manifestación. | Represented — passage verification pending | 13 | S103 |
+| C040 | Kubjika Tantra corpus — Tántrico/śaiva; foco: conciencia, persona, realidad, transformación. | Represented — passage verification pending | 13 | S104 |
+| C041 | Devimahatmya — Tántrico/śaiva; foco: conciencia, persona, realidad, transformación. | Represented — passage verification pending | 13 | S105 |
+| C042 | Saundaryalahari — Tántrico/śaiva; foco: conciencia, persona, realidad, transformación. | Represented — passage verification pending | 13 | S106 |
+| C043 | Lalitopakhyana / Lalita tradition texts — Tántrico/śaiva; foco: conciencia, persona, realidad, transformación. | Represented — passage verification pending | 13 | S107 |
+| C044 | Acaranga Sutra — Jaina/sikh; foco: jīva, conocimiento, karma. | Represented — passage verification pending | 13 | S108 |
 | C045 | Tattvartha Sutra — Jaina/sikh; foco: jīva, conocimiento, karma. | Represented — verification status varies | 16 | S048 |
-| C046 | Samayasara — Jaina/sikh; foco: jīva, conocimiento, karma. | MISSING — extraction required | 0 | — |
-| C047 | Niyamasara — Jaina/sikh; foco: jīva, conocimiento, karma. | MISSING — extraction required | 0 | — |
-| C048 | Dravyasamgraha — Jaina/sikh; foco: jīva, conocimiento, karma. | MISSING — extraction required | 0 | — |
+| C046 | Samayasara — Jaina/sikh; foco: jīva, conocimiento, karma. | Added in v16 — passage verification pending | 13 | S109 |
+| C047 | Niyamasara — Jaina/sikh; foco: jīva, conocimiento, karma. | Added in v16 — passage verification pending | 13 | S110 |
+| C048 | Dravyasamgraha — Jaina/sikh; foco: jīva, conocimiento, karma. | Added in v16 — passage verification pending | 13 | S111 |
 | C049 | Guru Granth Sahib — Jaina/sikh; foco: nām, ego, recuerdo, ética. | Represented — verification status varies | 16 | S049 |
-| C050 | Japji Sahib — Jaina/sikh; foco: nām, ego, recuerdo, ética. | MISSING — extraction required | 0 | — |
-| C051 | Sarbloh Granth selections — Jaina/sikh; foco: nām, ego, recuerdo, ética. | MISSING — extraction required | 0 | — |
+| C050 | Japji Sahib — Jaina/sikh; foco: nām, ego, recuerdo, ética. | Added in v16 — passage verification pending | 13 | S112 |
+| C051 | Sarbloh Granth selections — Jaina/sikh; foco: nām, ego, recuerdo, ética. | Added in v16 — passage verification pending | 13 | S113 |
 | C052 | Satipatthana Sutta — Budismo; foco: mente, no-yo, atención, liberación. | Represented — verification status varies | 10 | S004 |
-| C053 | Mahasatipatthana Sutta — Budismo; foco: mente, no-yo, atención, liberación. | MISSING — extraction required | 0 | — |
+| C053 | Mahasatipatthana Sutta — Budismo; foco: mente, no-yo, atención, liberación. | Added in v16 — passage verification pending | 13 | S114 |
 | C054 | Anattalakkhana Sutta — Budismo; foco: mente, no-yo, atención, liberación. | Represented — verification status varies | 8 | S014 |
 | C055 | Bahiya Sutta — Budismo; foco: mente, no-yo, atención, liberación. | Represented — verification status varies | 15 | S040 |
-| C056 | Kevatta Sutta — Budismo; foco: mente, no-yo, atención, liberación. | MISSING — extraction required | 0 | — |
+| C056 | Kevatta Sutta — Budismo; foco: mente, no-yo, atención, liberación. | Added in v16 — passage verification pending | 13 | S115 |
 | C057 | Potthapada Sutta — Budismo; foco: mente, no-yo, atención, liberación. | Represented — verification status varies | 15 | S041 |
-| C058 | Dhammapada — Budismo; foco: mente, no-yo, atención, liberación. | MISSING — extraction required | 0 | — |
-| C059 | Udana — Budismo; foco: conciencia, persona, realidad, transformación. | MISSING — extraction required | 0 | — |
-| C060 | Vimuttimagga — Budismo; foco: conciencia, persona, realidad, transformación. | MISSING — extraction required | 0 | — |
+| C058 | Dhammapada — Budismo; foco: mente, no-yo, atención, liberación. | Added in v16 — passage verification pending | 13 | S116 |
+| C059 | Udana — Budismo; foco: conciencia, persona, realidad, transformación. | Added in v16 — passage verification pending | 13 | S117 |
+| C060 | Vimuttimagga — Budismo; foco: conciencia, persona, realidad, transformación. | Added in v16 — passage verification pending | 13 | S118 |
 | C061 | Visuddhimagga — Budismo; foco: conciencia, persona, realidad, transformación. | MISSING — extraction required | 0 | — |
 | C062 | Milindapanha — Budismo; foco: conciencia, persona, realidad, transformación. | MISSING — extraction required | 0 | — |
 | C063 | Abhidhammattha-sangaha — Budismo; foco: mente, no-yo, atención, liberación. | MISSING — extraction required | 0 | — |
@@ -347,10 +347,6 @@
 
 ## Next queue
 
-C046 (Samayasara); C047 (Niyamasara); C048 (Dravyasamgraha); C050 (Japji Sahib); C051 (Sarbloh Granth selections); C053 (Mahasatipatthana Sutta); C056 (Kevatta Sutta); C058 (Dhammapada); C059 (Udana); C060 (Vimuttimagga); C061 (Visuddhimagga); C062 (Milindapanha); C063 (Abhidhammattha-sangaha); C064 (Abhidharmakosha); C065 (Madhyantavibhaga); C066 (Lankavatara Sutra); C068 (Diamond Sutra); C070 (Tathagatagarbha Sutra); C071 (Awakening of Faith in Mahayana); C074 (Bodhicaryavatara).
+C061 (Visuddhimagga); C062 (Milindapanha); C063 (Abhidhammattha-sangaha); C064 (Abhidharmakosha); C065 (Madhyantavibhaga); C066 (Lankavatara Sutra); C068 (Diamond Sutra); C070 (Tathagatagarbha Sutra); C071 (Awakening of Faith in Mahayana); C074 (Bodhicaryavatara); C076 (Bardo Thodol); C077 (Lamrim Chenmo); C079 (Six Yogas of Naropa corpus); C081 (Blue Cliff Record); C082 (Shobogenzo); C086 (Liezi); C087 (Huainanzi); C088 (Huangdi Neijing); C089 (Taiping Jing); C090 (Baopuzi).
 
-Continue by exact register ID, not by assuming source IDs and corpus IDs are interchangeable.
-
-## Integrity caveat
-
-Coverage does not establish that a source was read in full, that a paraphrase is accurate, or that every claim has a stable scholarly locator. These require separate quality gates.
+Continue by exact register ID. “Represented” does not imply source-verified.
