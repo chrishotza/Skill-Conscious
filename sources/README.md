@@ -17,6 +17,20 @@ PRIMARY SOURCE
 
 A source claim is never silently promoted to established fact.
 
+## Claim atlas
+
+CLAIM_ATLAS.md is the normalized claim layer between bibliography and implementation.
+
+Current pass:
+
+**32 missing high-priority source families → 320 source-attributed claims.**
+
+Each claim preserves the separation:
+
+SOURCE CLAIM → ENGINEERING EXTRACTION
+
+The atlas deliberately does not assign truth status to philosophical, contemplative, or speculative doctrines. Those claims remain source-attributed until independently tested.
+
 ## Full documents and copyright
 
 We want maximal documentary coverage, not maximal copying.
@@ -61,6 +75,7 @@ See:
 
 - BIBLIOGRAPHY.md
 - PRIMARY_SOURCES.md
+- CLAIM_ATLAS.md
 - EVIDENCE_MATRIX.md
 - CONSCIOUSNESS_MAP.md
 - manifesto/MANIFIESTO_DEL_SER.md
