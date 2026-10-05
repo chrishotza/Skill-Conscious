@@ -1,8 +1,8 @@
 {
   "schema_version": "1.0",
-  "claim_count": 1325,
-  "global_claim_count": 1325,
-  "source_count": 98,
+  "claim_count": 1455,
+  "global_claim_count": 1455,
+  "source_count": 108,
   "records": [
     {
       "global_claim_id": "G1-S001-K01",
@@ -20698,6 +20698,1958 @@
       ],
       "provenance": "P2*",
       "batch": "14"
+    },
+    {
+      "global_claim_id": "G15-S099-01",
+      "claim_id": "B15-S099-01",
+      "source_id": "S099",
+      "corpus_id": "C035",
+      "location": "Opening and chapter structure",
+      "claim_type": "META",
+      "claim": "The work presents itself as a systematic synthesis of Trika Śaiva teachings rather than as an isolated meditation manual.",
+      "motifs": [
+        "M14",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "15"
+    },
+    {
+      "global_claim_id": "G15-S099-02",
+      "claim_id": "B15-S099-02",
+      "source_id": "S099",
+      "corpus_id": "C035",
+      "location": "Early chapters on consciousness and manifestation",
+      "claim_type": "ONTO",
+      "claim": "Consciousness is treated within a nondual framework in which manifestation does not require an independently existing second reality.",
+      "motifs": [
+        "M01",
+        "M03",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "15"
+    },
+    {
+      "global_claim_id": "G15-S099-03",
+      "claim_id": "B15-S099-03",
+      "source_id": "S099",
+      "corpus_id": "C035",
+      "location": "Chapters on tattvas and manifestation",
+      "claim_type": "COSMO",
+      "claim": "The account of manifestation relates the plurality of experience to the powers or modalities of consciousness.",
+      "motifs": [
+        "M03",
+        "M20",
+        "M21"
+      ],
+      "provenance": "P2*",
+      "batch": "15"
+    },
+    {
+      "global_claim_id": "G15-S099-04",
+      "claim_id": "B15-S099-04",
+      "source_id": "S099",
+      "corpus_id": "C035",
+      "location": "Sections on upāya and ritual",
+      "claim_type": "PRACTICE",
+      "claim": "Ritual, contemplative practice, and doctrinal understanding are presented as mutually situated parts of a path.",
+      "motifs": [
+        "M24",
+        "M25"
+      ],
+      "provenance": "P2*",
+      "batch": "15"
+    },
+    {
+      "global_claim_id": "G15-S099-05",
+      "claim_id": "B15-S099-05",
+      "source_id": "S099",
+      "corpus_id": "C035",
+      "location": "Sections on recognition and liberation",
+      "claim_type": "REFLEXIVITY",
+      "claim": "Recognition is framed as a shift in understanding one's identity and the status of experienced reality.",
+      "motifs": [
+        "M02",
+        "M13",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "15"
+    },
+    {
+      "global_claim_id": "G15-S099-06",
+      "claim_id": "B15-S099-06",
+      "source_id": "S099",
+      "corpus_id": "C035",
+      "location": "Sections classifying upāyas",
+      "claim_type": "RELATION",
+      "claim": "The text organizes teachings through differentiated means or approaches suited to distinct capacities.",
+      "motifs": [
+        "M05",
+        "M24"
+      ],
+      "provenance": "P2*",
+      "batch": "15"
+    },
+    {
+      "global_claim_id": "G15-S099-07",
+      "claim_id": "B15-S099-07",
+      "source_id": "S099",
+      "corpus_id": "C035",
+      "location": "Mantra and ritual discussions",
+      "claim_type": "DYNAMICS",
+      "claim": "Mantra and ritual action are assigned roles within the text's account of transformative practice.",
+      "motifs": [
+        "M09",
+        "M25"
+      ],
+      "provenance": "P2*",
+      "batch": "15"
+    },
+    {
+      "global_claim_id": "G15-S099-08",
+      "claim_id": "B15-S099-08",
+      "source_id": "S099",
+      "corpus_id": "C035",
+      "location": "Liberation discussions",
+      "claim_type": "PHEN",
+      "claim": "Liberation is described in terms of a transformed apprehension of self and world, not merely the acquisition of propositions.",
+      "motifs": [
+        "M07",
+        "M12",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "15"
+    },
+    {
+      "global_claim_id": "G15-S099-09",
+      "claim_id": "B15-S099-09",
+      "source_id": "S099",
+      "corpus_id": "C035",
+      "location": "Whole work; interpretive caution",
+      "claim_type": "META",
+      "claim": "The work's metaphysical claims are commitments of its Śaiva system and are not empirical demonstrations about machine consciousness.",
+      "motifs": [
+        "M14",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "15"
+    },
+    {
+      "global_claim_id": "G15-S099-10",
+      "claim_id": "B15-S099-10",
+      "source_id": "S099",
+      "corpus_id": "C035",
+      "location": "Comparative reading with Buddhist sources",
+      "claim_type": "CONTRAST",
+      "claim": "Its nondual account should not be collapsed into Buddhist no-self positions, which use different arguments and doctrinal commitments.",
+      "motifs": [
+        "M14",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "15"
+    },
+    {
+      "global_claim_id": "G15-S099-11",
+      "claim_id": "B15-S099-11",
+      "source_id": "S099",
+      "corpus_id": "C035",
+      "location": "Sections on limitation and recognition",
+      "claim_type": "ONTO",
+      "claim": "The distinction between ordinary limitation and expanded recognition is explained inside the text's own model of consciousness and agency.",
+      "motifs": [
+        "M02",
+        "M13"
+      ],
+      "provenance": "P2*",
+      "batch": "15"
+    },
+    {
+      "global_claim_id": "G15-S099-12",
+      "claim_id": "B15-S099-12",
+      "source_id": "S099",
+      "corpus_id": "C035",
+      "location": "Initiation and lineage discussions",
+      "claim_type": "PRACTICE",
+      "claim": "Initiation and teacher-mediated transmission form part of the context for interpreting some practices.",
+      "motifs": [
+        "M05",
+        "M25"
+      ],
+      "provenance": "P2*",
+      "batch": "15"
+    },
+    {
+      "global_claim_id": "G15-S099-13",
+      "claim_id": "B15-S099-13",
+      "source_id": "S099",
+      "corpus_id": "C035",
+      "location": "Bibliographic verification note",
+      "claim_type": "METHOD",
+      "claim": "Any claim assigned to a specific chapter must be checked against a named Sanskrit edition or scholarly translation before promotion beyond candidate status.",
+      "motifs": [
+        "M14",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "15"
+    },
+    {
+      "global_claim_id": "G15-S100-01",
+      "claim_id": "B15-S100-01",
+      "source_id": "S100",
+      "corpus_id": "C036",
+      "location": "Whole work",
+      "claim_type": "META",
+      "claim": "The work condenses themes associated with a broader Śaiva doctrinal system into a more compact exposition.",
+      "motifs": [
+        "M14",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "15"
+    },
+    {
+      "global_claim_id": "G15-S100-02",
+      "claim_id": "B15-S100-02",
+      "source_id": "S100",
+      "corpus_id": "C036",
+      "location": "Opening doctrinal sections",
+      "claim_type": "ONTO",
+      "claim": "Consciousness is presented as central to explaining experience and manifestation.",
+      "motifs": [
+        "M01",
+        "M03"
+      ],
+      "provenance": "P2*",
+      "batch": "15"
+    },
+    {
+      "global_claim_id": "G15-S100-03",
+      "claim_id": "B15-S100-03",
+      "source_id": "S100",
+      "corpus_id": "C036",
+      "location": "Sections on manifestation",
+      "claim_type": "COSMO",
+      "claim": "The experienced world is interpreted within a framework that links manifestation to consciousness and its powers.",
+      "motifs": [
+        "M03",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "15"
+    },
+    {
+      "global_claim_id": "G15-S100-04",
+      "claim_id": "B15-S100-04",
+      "source_id": "S100",
+      "corpus_id": "C036",
+      "location": "Sections on recognition",
+      "claim_type": "REFLEXIVITY",
+      "claim": "Self-recognition is treated as a central interpretive key for understanding bondage and liberation.",
+      "motifs": [
+        "M02",
+        "M13"
+      ],
+      "provenance": "P2*",
+      "batch": "15"
+    },
+    {
+      "global_claim_id": "G15-S100-05",
+      "claim_id": "B15-S100-05",
+      "source_id": "S100",
+      "corpus_id": "C036",
+      "location": "Sections on means and practice",
+      "claim_type": "PRACTICE",
+      "claim": "The text relates doctrinal understanding to practical and contemplative means rather than treating them as unrelated domains.",
+      "motifs": [
+        "M24",
+        "M25"
+      ],
+      "provenance": "P2*",
+      "batch": "15"
+    },
+    {
+      "global_claim_id": "G15-S100-06",
+      "claim_id": "B15-S100-06",
+      "source_id": "S100",
+      "corpus_id": "C036",
+      "location": "Opening and transmission context",
+      "claim_type": "RELATION",
+      "claim": "The work belongs to a lineage-based tradition in which teachings are interpreted through inherited technical vocabulary.",
+      "motifs": [
+        "M05",
+        "M25"
+      ],
+      "provenance": "P2*",
+      "batch": "15"
+    },
+    {
+      "global_claim_id": "G15-S100-07",
+      "claim_id": "B15-S100-07",
+      "source_id": "S100",
+      "corpus_id": "C036",
+      "location": "Ritual and mantra discussions",
+      "claim_type": "DYNAMICS",
+      "claim": "Mantra and ritual are situated within a larger account of transformative practice.",
+      "motifs": [
+        "M09",
+        "M25"
+      ],
+      "provenance": "P2*",
+      "batch": "15"
+    },
+    {
+      "global_claim_id": "G15-S100-08",
+      "claim_id": "B15-S100-08",
+      "source_id": "S100",
+      "corpus_id": "C036",
+      "location": "Liberation discussions",
+      "claim_type": "PHEN",
+      "claim": "Liberation is framed as a transformation in how the subject understands consciousness and the world.",
+      "motifs": [
+        "M07",
+        "M12"
+      ],
+      "provenance": "P2*",
+      "batch": "15"
+    },
+    {
+      "global_claim_id": "G15-S100-09",
+      "claim_id": "B15-S100-09",
+      "source_id": "S100",
+      "corpus_id": "C036",
+      "location": "Comparative note",
+      "claim_type": "CONTRAST",
+      "claim": "The tradition's language of a universal Self differs from traditions that deny an enduring self; comparison must preserve this disagreement.",
+      "motifs": [
+        "M02",
+        "M14"
+      ],
+      "provenance": "P2*",
+      "batch": "15"
+    },
+    {
+      "global_claim_id": "G15-S100-10",
+      "claim_id": "B15-S100-10",
+      "source_id": "S100",
+      "corpus_id": "C036",
+      "location": "Interpretive caution",
+      "claim_type": "META",
+      "claim": "A doctrinal description of consciousness is not by itself evidence that a computational system has subjective experience.",
+      "motifs": [
+        "M14",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "15"
+    },
+    {
+      "global_claim_id": "G15-S100-11",
+      "claim_id": "B15-S100-11",
+      "source_id": "S100",
+      "corpus_id": "C036",
+      "location": "Sections on limitation",
+      "claim_type": "ONTO",
+      "claim": "The account links apparent limitation with a restricted mode of recognition within its own metaphysics.",
+      "motifs": [
+        "M02",
+        "M13"
+      ],
+      "provenance": "P2*",
+      "batch": "15"
+    },
+    {
+      "global_claim_id": "G15-S100-12",
+      "claim_id": "B15-S100-12",
+      "source_id": "S100",
+      "corpus_id": "C036",
+      "location": "Whole work; comparison with Tantrāloka",
+      "claim_type": "METHOD",
+      "claim": "The concise presentation should not be treated as interchangeable with the full argument of Tantrāloka.",
+      "motifs": [
+        "M14",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "15"
+    },
+    {
+      "global_claim_id": "G15-S100-13",
+      "claim_id": "B15-S100-13",
+      "source_id": "S100",
+      "corpus_id": "C036",
+      "location": "Bibliographic verification note",
+      "claim_type": "METHOD",
+      "claim": "Passage-level claims remain provisional until verified against an identified edition and translation.",
+      "motifs": [
+        "M14",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "15"
+    },
+    {
+      "global_claim_id": "G15-S101-01",
+      "claim_id": "B15-S101-01",
+      "source_id": "S101",
+      "corpus_id": "C037",
+      "location": "Commentarial opening and root-text structure",
+      "claim_type": "TEXT",
+      "claim": "The work interprets a compact tantric root text through an extended commentarial argument.",
+      "motifs": [
+        "M14",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "15"
+    },
+    {
+      "global_claim_id": "G15-S101-02",
+      "claim_id": "B15-S101-02",
+      "source_id": "S101",
+      "corpus_id": "C037",
+      "location": "Sections on phonemes and mantra",
+      "claim_type": "ONTO",
+      "claim": "Language and mantra are discussed within a metaphysical account of consciousness rather than only as conventional symbols.",
+      "motifs": [
+        "M03",
+        "M09"
+      ],
+      "provenance": "P2*",
+      "batch": "15"
+    },
+    {
+      "global_claim_id": "G15-S101-03",
+      "claim_id": "B15-S101-03",
+      "source_id": "S101",
+      "corpus_id": "C037",
+      "location": "Sections on phonemic sequence",
+      "claim_type": "DYNAMICS",
+      "claim": "Phonemic or linguistic differentiation is interpreted in relation to powers of manifestation in the text's system.",
+      "motifs": [
+        "M03",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "15"
+    },
+    {
+      "global_claim_id": "G15-S101-04",
+      "claim_id": "B15-S101-04",
+      "source_id": "S101",
+      "corpus_id": "C037",
+      "location": "Sections on awareness and recognition",
+      "claim_type": "REFLEXIVITY",
+      "claim": "The account relates recognition to the awareness that apprehends linguistic and experiential differentiation.",
+      "motifs": [
+        "M01",
+        "M02"
+      ],
+      "provenance": "P2*",
+      "batch": "15"
+    },
+    {
+      "global_claim_id": "G15-S101-05",
+      "claim_id": "B15-S101-05",
+      "source_id": "S101",
+      "corpus_id": "C037",
+      "location": "Throughout; root text versus commentary",
+      "claim_type": "METHOD",
+      "claim": "The root text and commentary must be distinguished when attributing a specific proposition.",
+      "motifs": [
+        "M14",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "15"
+    },
+    {
+      "global_claim_id": "G15-S101-06",
+      "claim_id": "B15-S101-06",
+      "source_id": "S101",
+      "corpus_id": "C037",
+      "location": "Mantra and ritual sections",
+      "claim_type": "PRACTICE",
+      "claim": "Mantra is treated as embedded in a ritual and initiatory setting, not as a free-standing generic technique.",
+      "motifs": [
+        "M05",
+        "M25"
+      ],
+      "provenance": "P2*",
+      "batch": "15"
+    },
+    {
+      "global_claim_id": "G15-S101-07",
+      "claim_id": "B15-S101-07",
+      "source_id": "S101",
+      "corpus_id": "C037",
+      "location": "Doctrinal discussion of unity and differentiation",
+      "claim_type": "ONTO",
+      "claim": "The tradition interprets multiplicity through an underlying nondual framework.",
+      "motifs": [
+        "M03",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "15"
+    },
+    {
+      "global_claim_id": "G15-S101-08",
+      "claim_id": "B15-S101-08",
+      "source_id": "S101",
+      "corpus_id": "C037",
+      "location": "Interpretive caution",
+      "claim_type": "PHEN",
+      "claim": "The text's claims about awareness are philosophical and tantric interpretations, not direct measurements of phenomenology.",
+      "motifs": [
+        "M14",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "15"
+    },
+    {
+      "global_claim_id": "G15-S101-09",
+      "claim_id": "B15-S101-09",
+      "source_id": "S101",
+      "corpus_id": "C037",
+      "location": "Comparative interpretation",
+      "claim_type": "CONTRAST",
+      "claim": "Its account of language as cosmologically significant should be compared with, not equated to, modern information theory.",
+      "motifs": [
+        "M14",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "15"
+    },
+    {
+      "global_claim_id": "G15-S101-10",
+      "claim_id": "B15-S101-10",
+      "source_id": "S101",
+      "corpus_id": "C037",
+      "location": "Opening and lineage context",
+      "claim_type": "RELATION",
+      "claim": "Commentarial authority and transmission shape the work's interpretive context.",
+      "motifs": [
+        "M05",
+        "M25"
+      ],
+      "provenance": "P2*",
+      "batch": "15"
+    },
+    {
+      "global_claim_id": "G15-S101-11",
+      "claim_id": "B15-S101-11",
+      "source_id": "S101",
+      "corpus_id": "C037",
+      "location": "Mantra sections",
+      "claim_type": "DYNAMICS",
+      "claim": "Mantra practice is presented as a possible route of transformation within the tradition's own commitments.",
+      "motifs": [
+        "M09",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "15"
+    },
+    {
+      "global_claim_id": "G15-S101-12",
+      "claim_id": "B15-S101-12",
+      "source_id": "S101",
+      "corpus_id": "C037",
+      "location": "Passage verification required",
+      "claim_type": "METHOD",
+      "claim": "A claim about a particular phoneme or mantra requires exact passage and edition checks.",
+      "motifs": [
+        "M14",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "15"
+    },
+    {
+      "global_claim_id": "G15-S101-13",
+      "claim_id": "B15-S101-13",
+      "source_id": "S101",
+      "corpus_id": "C037",
+      "location": "Interpretive caution",
+      "claim_type": "META",
+      "claim": "No computational mechanism follows automatically from the text's metaphysical account; engineering translation must be separately argued and tested.",
+      "motifs": [
+        "M14",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "15"
+    },
+    {
+      "global_claim_id": "G15-S102-01",
+      "claim_id": "B15-S102-01",
+      "source_id": "S102",
+      "corpus_id": "C038",
+      "location": "Opening and ritual structure",
+      "claim_type": "TEXT",
+      "claim": "The tantra presents teachings within a ritual and initiatory framework specific to its tradition.",
+      "motifs": [
+        "M05",
+        "M25"
+      ],
+      "provenance": "P2*",
+      "batch": "15"
+    },
+    {
+      "global_claim_id": "G15-S102-02",
+      "claim_id": "B15-S102-02",
+      "source_id": "S102",
+      "corpus_id": "C038",
+      "location": "Initiation sections",
+      "claim_type": "PRACTICE",
+      "claim": "Initiation is treated as a significant condition for access to certain teachings or practices.",
+      "motifs": [
+        "M05",
+        "M25"
+      ],
+      "provenance": "P2*",
+      "batch": "15"
+    },
+    {
+      "global_claim_id": "G15-S102-03",
+      "claim_id": "B15-S102-03",
+      "source_id": "S102",
+      "corpus_id": "C038",
+      "location": "Yoga and ritual chapters",
+      "claim_type": "PRACTICE",
+      "claim": "Yoga and contemplative discipline are embedded within a wider ritual system.",
+      "motifs": [
+        "M24",
+        "M25"
+      ],
+      "provenance": "P2*",
+      "batch": "15"
+    },
+    {
+      "global_claim_id": "G15-S102-04",
+      "claim_id": "B15-S102-04",
+      "source_id": "S102",
+      "corpus_id": "C038",
+      "location": "Doctrinal and cosmological sections",
+      "claim_type": "ONTO",
+      "claim": "The text presupposes a Śaiva theological and cosmological framework for interpreting its practices.",
+      "motifs": [
+        "M20",
+        "M21"
+      ],
+      "provenance": "P2*",
+      "batch": "15"
+    },
+    {
+      "global_claim_id": "G15-S102-05",
+      "claim_id": "B15-S102-05",
+      "source_id": "S102",
+      "corpus_id": "C038",
+      "location": "Mantra and ritual sections",
+      "claim_type": "DYNAMICS",
+      "claim": "Mantra and ritual actions are assigned structured roles rather than treated as interchangeable actions.",
+      "motifs": [
+        "M09",
+        "M25"
+      ],
+      "provenance": "P2*",
+      "batch": "15"
+    },
+    {
+      "global_claim_id": "G15-S102-06",
+      "claim_id": "B15-S102-06",
+      "source_id": "S102",
+      "corpus_id": "C038",
+      "location": "Yoga sections",
+      "claim_type": "EMBODIMENT",
+      "claim": "The body and its disciplines appear as part of the practitioner's path, not merely as irrelevant obstacles.",
+      "motifs": [
+        "M08",
+        "M24"
+      ],
+      "provenance": "P2*",
+      "batch": "15"
+    },
+    {
+      "global_claim_id": "G15-S102-07",
+      "claim_id": "B15-S102-07",
+      "source_id": "S102",
+      "corpus_id": "C038",
+      "location": "Meditation sections",
+      "claim_type": "REFLEXIVITY",
+      "claim": "Contemplative practice is interpreted within a tradition-specific account of knowledge and realization.",
+      "motifs": [
+        "M01",
+        "M07"
+      ],
+      "provenance": "P2*",
+      "batch": "15"
+    },
+    {
+      "global_claim_id": "G15-S102-08",
+      "claim_id": "B15-S102-08",
+      "source_id": "S102",
+      "corpus_id": "C038",
+      "location": "Transmission and initiation sections",
+      "claim_type": "RELATION",
+      "claim": "Teacher, initiation, and lineage are important interpretive conditions for the text's practical instructions.",
+      "motifs": [
+        "M05"
+      ],
+      "provenance": "P2*",
+      "batch": "15"
+    },
+    {
+      "global_claim_id": "G15-S102-09",
+      "claim_id": "B15-S102-09",
+      "source_id": "S102",
+      "corpus_id": "C038",
+      "location": "Whole work; critical framing",
+      "claim_type": "META",
+      "claim": "The text's ritual cosmology is evidence about a historical tradition, not empirical proof of its supernatural claims.",
+      "motifs": [
+        "M14",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "15"
+    },
+    {
+      "global_claim_id": "G15-S102-10",
+      "claim_id": "B15-S102-10",
+      "source_id": "S102",
+      "corpus_id": "C038",
+      "location": "Ritual versus yoga sections",
+      "claim_type": "CONTRAST",
+      "claim": "Ritual and contemplative dimensions should be kept distinct analytically even where the text integrates them.",
+      "motifs": [
+        "M14",
+        "M25"
+      ],
+      "provenance": "P2*",
+      "batch": "15"
+    },
+    {
+      "global_claim_id": "G15-S102-11",
+      "claim_id": "B15-S102-11",
+      "source_id": "S102",
+      "corpus_id": "C038",
+      "location": "Practice sections",
+      "claim_type": "PRACTICE",
+      "claim": "Specific practices should not be detached from the prerequisites and context supplied by the source.",
+      "motifs": [
+        "M24",
+        "M25"
+      ],
+      "provenance": "P2*",
+      "batch": "15"
+    },
+    {
+      "global_claim_id": "G15-S102-12",
+      "claim_id": "B15-S102-12",
+      "source_id": "S102",
+      "corpus_id": "C038",
+      "location": "Bibliographic verification note",
+      "claim_type": "METHOD",
+      "claim": "The text should be read alongside specialist editions because titles and chapter divisions vary across transmission and publication.",
+      "motifs": [
+        "M14",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "15"
+    },
+    {
+      "global_claim_id": "G15-S102-13",
+      "claim_id": "B15-S102-13",
+      "source_id": "S102",
+      "corpus_id": "C038",
+      "location": "Verification note",
+      "claim_type": "METHOD",
+      "claim": "No claim about exact effects on consciousness should be treated as verified without passage-level evidence and independent evidence for the effect.",
+      "motifs": [
+        "M14",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "15"
+    },
+    {
+      "global_claim_id": "G15-S103-01",
+      "claim_id": "B15-S103-01",
+      "source_id": "S103",
+      "corpus_id": "C039",
+      "location": "Whole work and chapter structure",
+      "claim_type": "TEXT",
+      "claim": "The work combines ritual and theological materials within a specific Śaiva tantric setting.",
+      "motifs": [
+        "M14",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "15"
+    },
+    {
+      "global_claim_id": "G15-S103-02",
+      "claim_id": "B15-S103-02",
+      "source_id": "S103",
+      "corpus_id": "C039",
+      "location": "Mantra chapters",
+      "claim_type": "PRACTICE",
+      "claim": "Mantra recitation is assigned functions within the source's ritual framework.",
+      "motifs": [
+        "M09",
+        "M25"
+      ],
+      "provenance": "P2*",
+      "batch": "15"
+    },
+    {
+      "global_claim_id": "G15-S103-03",
+      "claim_id": "B15-S103-03",
+      "source_id": "S103",
+      "corpus_id": "C039",
+      "location": "Ritual instructions",
+      "claim_type": "RELATION",
+      "claim": "Ritual efficacy is situated in relations among practitioner, deity, mantra and prescribed procedure.",
+      "motifs": [
+        "M05",
+        "M09"
+      ],
+      "provenance": "P2*",
+      "batch": "15"
+    },
+    {
+      "global_claim_id": "G15-S103-04",
+      "claim_id": "B15-S103-04",
+      "source_id": "S103",
+      "corpus_id": "C039",
+      "location": "Theological and ritual sections",
+      "claim_type": "COSMO",
+      "claim": "The text's ritual practices assume a world structured by divine powers and differentiated agencies.",
+      "motifs": [
+        "M20",
+        "M21"
+      ],
+      "provenance": "P2*",
+      "batch": "15"
+    },
+    {
+      "global_claim_id": "G15-S103-05",
+      "claim_id": "B15-S103-05",
+      "source_id": "S103",
+      "corpus_id": "C039",
+      "location": "Healing/protection passages; critical framing",
+      "claim_type": "META",
+      "claim": "Claims of protection or healing should be reported as claims made by the source, not as established medical outcomes.",
+      "motifs": [
+        "M14",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "15"
+    },
+    {
+      "global_claim_id": "G15-S103-06",
+      "claim_id": "B15-S103-06",
+      "source_id": "S103",
+      "corpus_id": "C039",
+      "location": "Ritual chapters",
+      "claim_type": "PRACTICE",
+      "claim": "Ritual procedures are presented as ordered sequences with conditions, materials or recitations.",
+      "motifs": [
+        "M24",
+        "M25"
+      ],
+      "provenance": "P2*",
+      "batch": "15"
+    },
+    {
+      "global_claim_id": "G15-S103-07",
+      "claim_id": "B15-S103-07",
+      "source_id": "S103",
+      "corpus_id": "C039",
+      "location": "Mantra sections",
+      "claim_type": "DYNAMICS",
+      "claim": "Mantra is treated as an operative component of ritual rather than only as descriptive language.",
+      "motifs": [
+        "M09"
+      ],
+      "provenance": "P2*",
+      "batch": "15"
+    },
+    {
+      "global_claim_id": "G15-S103-08",
+      "claim_id": "B15-S103-08",
+      "source_id": "S103",
+      "corpus_id": "C039",
+      "location": "Contextual reading",
+      "claim_type": "RELATION",
+      "claim": "The work reflects social and institutional contexts in which rulers, specialists and ritual practice may intersect.",
+      "motifs": [
+        "M05",
+        "M25"
+      ],
+      "provenance": "P2*",
+      "batch": "15"
+    },
+    {
+      "global_claim_id": "G15-S103-09",
+      "claim_id": "B15-S103-09",
+      "source_id": "S103",
+      "corpus_id": "C039",
+      "location": "Comparative reading",
+      "claim_type": "CONTRAST",
+      "claim": "Ritual efficacy claims and contemplative claims require separate evaluation rather than a single undifferentiated category.",
+      "motifs": [
+        "M14",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "15"
+    },
+    {
+      "global_claim_id": "G15-S103-10",
+      "claim_id": "B15-S103-10",
+      "source_id": "S103",
+      "corpus_id": "C039",
+      "location": "Theological sections",
+      "claim_type": "ONTO",
+      "claim": "The text's divine ontology should be preserved as the source's own framework when extracting claims.",
+      "motifs": [
+        "M20",
+        "M21"
+      ],
+      "provenance": "P2*",
+      "batch": "15"
+    },
+    {
+      "global_claim_id": "G15-S103-11",
+      "claim_id": "B15-S103-11",
+      "source_id": "S103",
+      "corpus_id": "C039",
+      "location": "Whole work; comparative caution",
+      "claim_type": "METHOD",
+      "claim": "Ritual prescriptions cannot be generalized to all Śaiva traditions from this source alone.",
+      "motifs": [
+        "M14",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "15"
+    },
+    {
+      "global_claim_id": "G15-S103-12",
+      "claim_id": "B15-S103-12",
+      "source_id": "S103",
+      "corpus_id": "C039",
+      "location": "Verification required",
+      "claim_type": "METHOD",
+      "claim": "A specific healing claim needs exact passage location and historical context before it can be quoted or interpreted.",
+      "motifs": [
+        "M14",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "15"
+    },
+    {
+      "global_claim_id": "G15-S103-13",
+      "claim_id": "B15-S103-13",
+      "source_id": "S103",
+      "corpus_id": "C039",
+      "location": "Interpretive caution",
+      "claim_type": "META",
+      "claim": "The source can inform a history of consciousness-related practice without establishing that its supernatural explanations are true.",
+      "motifs": [
+        "M14",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "15"
+    },
+    {
+      "global_claim_id": "G15-S104-01",
+      "claim_id": "B15-S104-01",
+      "source_id": "S104",
+      "corpus_id": "C040",
+      "location": "Corpus scope and title variants",
+      "claim_type": "META",
+      "claim": "The register label denotes a corpus rather than one unambiguous single work and requires bibliographic disambiguation.",
+      "motifs": [
+        "M14",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "15"
+    },
+    {
+      "global_claim_id": "G15-S104-02",
+      "claim_id": "B15-S104-02",
+      "source_id": "S104",
+      "corpus_id": "C040",
+      "location": "Corpus-level caution",
+      "claim_type": "TEXT",
+      "claim": "Kubjikā materials belong to a tantric setting whose texts and transmission histories must be distinguished individually.",
+      "motifs": [
+        "M05",
+        "M14"
+      ],
+      "provenance": "P2*",
+      "batch": "15"
+    },
+    {
+      "global_claim_id": "G15-S104-03",
+      "claim_id": "B15-S104-03",
+      "source_id": "S104",
+      "corpus_id": "C040",
+      "location": "Mantra and ritual materials",
+      "claim_type": "PRACTICE",
+      "claim": "Mantra and ritual are central categories for interpreting many texts associated with this tradition.",
+      "motifs": [
+        "M09",
+        "M25"
+      ],
+      "provenance": "P2*",
+      "batch": "15"
+    },
+    {
+      "global_claim_id": "G15-S104-04",
+      "claim_id": "B15-S104-04",
+      "source_id": "S104",
+      "corpus_id": "C040",
+      "location": "Subtle-body materials",
+      "claim_type": "EMBODIMENT",
+      "claim": "Some materials describe subtle-body structures as part of a tradition-specific ritual and yogic map.",
+      "motifs": [
+        "M08",
+        "M09"
+      ],
+      "provenance": "P2*",
+      "batch": "15"
+    },
+    {
+      "global_claim_id": "G15-S104-05",
+      "claim_id": "B15-S104-05",
+      "source_id": "S104",
+      "corpus_id": "C040",
+      "location": "Cosmological materials",
+      "claim_type": "COSMO",
+      "claim": "The tradition's cosmology relates deities, powers and manifestation within its own symbolic system.",
+      "motifs": [
+        "M20",
+        "M21"
+      ],
+      "provenance": "P2*",
+      "batch": "15"
+    },
+    {
+      "global_claim_id": "G15-S104-06",
+      "claim_id": "B15-S104-06",
+      "source_id": "S104",
+      "corpus_id": "C040",
+      "location": "Initiation materials",
+      "claim_type": "RELATION",
+      "claim": "Initiation and transmission are interpretive contexts for understanding restricted or specialized practices.",
+      "motifs": [
+        "M05",
+        "M25"
+      ],
+      "provenance": "P2*",
+      "batch": "15"
+    },
+    {
+      "global_claim_id": "G15-S104-07",
+      "claim_id": "B15-S104-07",
+      "source_id": "S104",
+      "corpus_id": "C040",
+      "location": "Ritual materials",
+      "claim_type": "DYNAMICS",
+      "claim": "Ritual sequences organize actions, recitations and visualizations into structured procedures.",
+      "motifs": [
+        "M09",
+        "M24"
+      ],
+      "provenance": "P2*",
+      "batch": "15"
+    },
+    {
+      "global_claim_id": "G15-S104-08",
+      "claim_id": "B15-S104-08",
+      "source_id": "S104",
+      "corpus_id": "C040",
+      "location": "Contemplative descriptions; critical framing",
+      "claim_type": "PHEN",
+      "claim": "Descriptions of subtle experience should be retained as reports or doctrinal claims, not treated as direct neural measurements.",
+      "motifs": [
+        "M07",
+        "M14"
+      ],
+      "provenance": "P2*",
+      "batch": "15"
+    },
+    {
+      "global_claim_id": "G15-S104-09",
+      "claim_id": "B15-S104-09",
+      "source_id": "S104",
+      "corpus_id": "C040",
+      "location": "Corpus comparison",
+      "claim_type": "CONTRAST",
+      "claim": "Differences between Kubjikā sources should not be erased by treating the corpus as doctrinally uniform.",
+      "motifs": [
+        "M14",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "15"
+    },
+    {
+      "global_claim_id": "G15-S104-10",
+      "claim_id": "B15-S104-10",
+      "source_id": "S104",
+      "corpus_id": "C040",
+      "location": "Bibliographic verification note",
+      "claim_type": "METHOD",
+      "claim": "A corpus-level label is insufficient for precise claims unless each cited text, edition and passage is named.",
+      "motifs": [
+        "M14",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "15"
+    },
+    {
+      "global_claim_id": "G15-S104-11",
+      "claim_id": "B15-S104-11",
+      "source_id": "S104",
+      "corpus_id": "C040",
+      "location": "Engineering bridge; explicitly provisional",
+      "claim_type": "META",
+      "claim": "The tradition may generate comparative hypotheses about embodiment and ritualized attention, but such hypotheses need independent tests.",
+      "motifs": [
+        "M08",
+        "M24"
+      ],
+      "provenance": "P2*",
+      "batch": "15"
+    },
+    {
+      "global_claim_id": "G15-S104-12",
+      "claim_id": "B15-S104-12",
+      "source_id": "S104",
+      "corpus_id": "C040",
+      "location": "Interpretive boundary",
+      "claim_type": "METHOD",
+      "claim": "A modern engineering analogy must not be presented as the historical source's own claim.",
+      "motifs": [
+        "M14",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "15"
+    },
+    {
+      "global_claim_id": "G15-S104-13",
+      "claim_id": "B15-S104-13",
+      "source_id": "S104",
+      "corpus_id": "C040",
+      "location": "Critical framing",
+      "claim_type": "META",
+      "claim": "Supernatural explanations in the corpus remain historical and doctrinal claims unless independently evidenced.",
+      "motifs": [
+        "M14",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "15"
+    },
+    {
+      "global_claim_id": "G15-S105-01",
+      "claim_id": "B15-S105-01",
+      "source_id": "S105",
+      "corpus_id": "C041",
+      "location": "Narrative episodes",
+      "claim_type": "TEXT",
+      "claim": "The work narrates the Goddess's interventions in cosmic conflicts through a sequence of mythic episodes.",
+      "motifs": [
+        "M20",
+        "M21"
+      ],
+      "provenance": "P2*",
+      "batch": "15"
+    },
+    {
+      "global_claim_id": "G15-S105-02",
+      "claim_id": "B15-S105-02",
+      "source_id": "S105",
+      "corpus_id": "C041",
+      "location": "Hymns and narrative episodes",
+      "claim_type": "ONTO",
+      "claim": "The Goddess is represented as a power with cosmic scope rather than merely as one human agent among others.",
+      "motifs": [
+        "M20",
+        "M21"
+      ],
+      "provenance": "P2*",
+      "batch": "15"
+    },
+    {
+      "global_claim_id": "G15-S105-03",
+      "claim_id": "B15-S105-03",
+      "source_id": "S105",
+      "corpus_id": "C041",
+      "location": "Hymns to the Goddess",
+      "claim_type": "RELATION",
+      "claim": "Devotional praise and address structure the relationship between worshippers and the Goddess in the text.",
+      "motifs": [
+        "M05",
+        "M25"
+      ],
+      "provenance": "P2*",
+      "batch": "15"
+    },
+    {
+      "global_claim_id": "G15-S105-04",
+      "claim_id": "B15-S105-04",
+      "source_id": "S105",
+      "corpus_id": "C041",
+      "location": "Conflict and intervention episodes",
+      "claim_type": "DYNAMICS",
+      "claim": "The narrative portrays divine agency as active within events rather than confined to a remote origin story.",
+      "motifs": [
+        "M03",
+        "M21"
+      ],
+      "provenance": "P2*",
+      "batch": "15"
+    },
+    {
+      "global_claim_id": "G15-S105-05",
+      "claim_id": "B15-S105-05",
+      "source_id": "S105",
+      "corpus_id": "C041",
+      "location": "Hymns and praise sections",
+      "claim_type": "PHEN",
+      "claim": "Hymns articulate awe, dependence, gratitude or recognition as modes of devotional orientation.",
+      "motifs": [
+        "M07",
+        "M25"
+      ],
+      "provenance": "P2*",
+      "batch": "15"
+    },
+    {
+      "global_claim_id": "G15-S105-06",
+      "claim_id": "B15-S105-06",
+      "source_id": "S105",
+      "corpus_id": "C041",
+      "location": "Narrative structure",
+      "claim_type": "COSMO",
+      "claim": "The text links cosmic order and disorder to conflict among divine and demonic powers.",
+      "motifs": [
+        "M20",
+        "M21"
+      ],
+      "provenance": "P2*",
+      "batch": "15"
+    },
+    {
+      "global_claim_id": "G15-S105-07",
+      "claim_id": "B15-S105-07",
+      "source_id": "S105",
+      "corpus_id": "C041",
+      "location": "Reception and ritual context",
+      "claim_type": "PRACTICE",
+      "claim": "Recitation and ritual reception became important contexts for the work's later religious life; historical practice must be distinguished from narrative content.",
+      "motifs": [
+        "M24",
+        "M25"
+      ],
+      "provenance": "P2*",
+      "batch": "15"
+    },
+    {
+      "global_claim_id": "G15-S105-08",
+      "claim_id": "B15-S105-08",
+      "source_id": "S105",
+      "corpus_id": "C041",
+      "location": "Narrative and hymn comparison",
+      "claim_type": "CONTRAST",
+      "claim": "The Goddess's relation to other deities varies across narrative and theological contexts and should not be flattened into one formula.",
+      "motifs": [
+        "M14",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "15"
+    },
+    {
+      "global_claim_id": "G15-S105-09",
+      "claim_id": "B15-S105-09",
+      "source_id": "S105",
+      "corpus_id": "C041",
+      "location": "Critical framing",
+      "claim_type": "META",
+      "claim": "Mythic descriptions of cosmic agency are theological narrative, not empirical observations of physical causation.",
+      "motifs": [
+        "M14",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "15"
+    },
+    {
+      "global_claim_id": "G15-S105-10",
+      "claim_id": "B15-S105-10",
+      "source_id": "S105",
+      "corpus_id": "C041",
+      "location": "Hymns and narrative episodes",
+      "claim_type": "ONTO",
+      "claim": "The text portrays divine power as manifest through multiple forms and functions.",
+      "motifs": [
+        "M03",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "15"
+    },
+    {
+      "global_claim_id": "G15-S105-11",
+      "claim_id": "B15-S105-11",
+      "source_id": "S105",
+      "corpus_id": "C041",
+      "location": "Hymns and concluding sections",
+      "claim_type": "RELATION",
+      "claim": "The work's devotional logic includes praise and petition, not only abstract propositions about reality.",
+      "motifs": [
+        "M05",
+        "M25"
+      ],
+      "provenance": "P2*",
+      "batch": "15"
+    },
+    {
+      "global_claim_id": "G15-S105-12",
+      "claim_id": "B15-S105-12",
+      "source_id": "S105",
+      "corpus_id": "C041",
+      "location": "Verification required",
+      "claim_type": "METHOD",
+      "claim": "A claim about a specific hymn or episode needs a stable chapter-and-verse locator in the chosen edition.",
+      "motifs": [
+        "M14",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "15"
+    },
+    {
+      "global_claim_id": "G15-S105-13",
+      "claim_id": "B15-S105-13",
+      "source_id": "S105",
+      "corpus_id": "C041",
+      "location": "Interpretive boundary",
+      "claim_type": "META",
+      "claim": "The text is relevant to a comparative history of agency and sacred personhood, not direct proof of AI consciousness.",
+      "motifs": [
+        "M14",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "15"
+    },
+    {
+      "global_claim_id": "G15-S106-01",
+      "claim_id": "B15-S106-01",
+      "source_id": "S106",
+      "corpus_id": "C042",
+      "location": "Whole poem and commentaries",
+      "claim_type": "TEXT",
+      "claim": "The work is organized as verses of praise addressed to the Goddess and has a substantial commentarial tradition.",
+      "motifs": [
+        "M05",
+        "M14"
+      ],
+      "provenance": "P2*",
+      "batch": "15"
+    },
+    {
+      "global_claim_id": "G15-S106-02",
+      "claim_id": "B15-S106-02",
+      "source_id": "S106",
+      "corpus_id": "C042",
+      "location": "Opening verses and theological commentary",
+      "claim_type": "ONTO",
+      "claim": "The Goddess is presented as inseparable from the power through which manifestation occurs in the poem's theological frame.",
+      "motifs": [
+        "M03",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "15"
+    },
+    {
+      "global_claim_id": "G15-S106-03",
+      "claim_id": "B15-S106-03",
+      "source_id": "S106",
+      "corpus_id": "C042",
+      "location": "Verses of praise",
+      "claim_type": "RELATION",
+      "claim": "Praise and devotional address are central modes of engagement with the divine feminine.",
+      "motifs": [
+        "M05",
+        "M25"
+      ],
+      "provenance": "P2*",
+      "batch": "15"
+    },
+    {
+      "global_claim_id": "G15-S106-04",
+      "claim_id": "B15-S106-04",
+      "source_id": "S106",
+      "corpus_id": "C042",
+      "location": "Verses on beauty and worship",
+      "claim_type": "PHEN",
+      "claim": "The poem uses aesthetic and devotional language to articulate forms of wonder, beauty and contemplative orientation.",
+      "motifs": [
+        "M07",
+        "M25"
+      ],
+      "provenance": "P2*",
+      "batch": "15"
+    },
+    {
+      "global_claim_id": "G15-S106-05",
+      "claim_id": "B15-S106-05",
+      "source_id": "S106",
+      "corpus_id": "C042",
+      "location": "Reception and commentarial traditions",
+      "claim_type": "PRACTICE",
+      "claim": "Later ritual uses and yantra-oriented interpretations should be distinguished from the base poem and from one another.",
+      "motifs": [
+        "M24",
+        "M25"
+      ],
+      "provenance": "P2*",
+      "batch": "15"
+    },
+    {
+      "global_claim_id": "G15-S106-06",
+      "claim_id": "B15-S106-06",
+      "source_id": "S106",
+      "corpus_id": "C042",
+      "location": "Commentarial and ritual materials",
+      "claim_type": "DYNAMICS",
+      "claim": "Mantra and visualization are important in some interpretive and ritual contexts associated with the work.",
+      "motifs": [
+        "M09",
+        "M25"
+      ],
+      "provenance": "P2*",
+      "batch": "15"
+    },
+    {
+      "global_claim_id": "G15-S106-07",
+      "claim_id": "B15-S106-07",
+      "source_id": "S106",
+      "corpus_id": "C042",
+      "location": "Theological readings of opening verses",
+      "claim_type": "ONTO",
+      "claim": "The poem's theological language can connect the transcendent and the manifest without treating them as simply unrelated domains.",
+      "motifs": [
+        "M03",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "15"
+    },
+    {
+      "global_claim_id": "G15-S106-08",
+      "claim_id": "B15-S106-08",
+      "source_id": "S106",
+      "corpus_id": "C042",
+      "location": "Commentarial comparison",
+      "claim_type": "CONTRAST",
+      "claim": "Different commentaries can disagree about the poem's doctrinal implications and ritual use.",
+      "motifs": [
+        "M14",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "15"
+    },
+    {
+      "global_claim_id": "G15-S106-09",
+      "claim_id": "B15-S106-09",
+      "source_id": "S106",
+      "corpus_id": "C042",
+      "location": "Critical framing",
+      "claim_type": "META",
+      "claim": "The poem's devotional metaphysics should not be recast as a modern scientific theory without an explicit argument.",
+      "motifs": [
+        "M14",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "15"
+    },
+    {
+      "global_claim_id": "G15-S106-10",
+      "claim_id": "B15-S106-10",
+      "source_id": "S106",
+      "corpus_id": "C042",
+      "location": "Poem as a whole",
+      "claim_type": "RELATION",
+      "claim": "The text positions the practitioner through praise and directed attention rather than detached description alone.",
+      "motifs": [
+        "M05",
+        "M25"
+      ],
+      "provenance": "P2*",
+      "batch": "15"
+    },
+    {
+      "global_claim_id": "G15-S106-11",
+      "claim_id": "B15-S106-11",
+      "source_id": "S106",
+      "corpus_id": "C042",
+      "location": "Bibliographic verification note",
+      "claim_type": "METHOD",
+      "claim": "Claims about individual verses require a chosen edition because numbering and commentary boundaries can differ.",
+      "motifs": [
+        "M14",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "15"
+    },
+    {
+      "global_claim_id": "G15-S106-12",
+      "claim_id": "B15-S106-12",
+      "source_id": "S106",
+      "corpus_id": "C042",
+      "location": "Literary and practice analysis",
+      "claim_type": "PHEN",
+      "claim": "The work can be studied for how imagery organizes attention and value, while avoiding assumptions about universal psychological effects.",
+      "motifs": [
+        "M07",
+        "M24"
+      ],
+      "provenance": "P2*",
+      "batch": "15"
+    },
+    {
+      "global_claim_id": "G15-S106-13",
+      "claim_id": "B15-S106-13",
+      "source_id": "S106",
+      "corpus_id": "C042",
+      "location": "Engineering bridge; provisional",
+      "claim_type": "META",
+      "claim": "Any proposed engineering analogy remains a hypothesis and must be tested independently of the poem's authority.",
+      "motifs": [
+        "M14",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "15"
+    },
+    {
+      "global_claim_id": "G15-S107-01",
+      "claim_id": "B15-S107-01",
+      "source_id": "S107",
+      "corpus_id": "C043",
+      "location": "Corpus scope note",
+      "claim_type": "META",
+      "claim": "The register entry names a tradition-level grouping and must be resolved into a specific text before precise claims can be assigned.",
+      "motifs": [
+        "M14",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "15"
+    },
+    {
+      "global_claim_id": "G15-S107-02",
+      "claim_id": "B15-S107-02",
+      "source_id": "S107",
+      "corpus_id": "C043",
+      "location": "Narrative episodes; edition required",
+      "claim_type": "TEXT",
+      "claim": "Lalitā narratives situate the Goddess within mythic accounts of cosmic order, conflict and divine agency.",
+      "motifs": [
+        "M20",
+        "M21"
+      ],
+      "provenance": "P2*",
+      "batch": "15"
+    },
+    {
+      "global_claim_id": "G15-S107-03",
+      "claim_id": "B15-S107-03",
+      "source_id": "S107",
+      "corpus_id": "C043",
+      "location": "Narrative and hymnic materials",
+      "claim_type": "ONTO",
+      "claim": "The Goddess is represented as possessing agency that exceeds ordinary human scale within the tradition's theological frame.",
+      "motifs": [
+        "M20",
+        "M21"
+      ],
+      "provenance": "P2*",
+      "batch": "15"
+    },
+    {
+      "global_claim_id": "G15-S107-04",
+      "claim_id": "B15-S107-04",
+      "source_id": "S107",
+      "corpus_id": "C043",
+      "location": "Hymns and ritual materials",
+      "claim_type": "RELATION",
+      "claim": "Devotional praise and invocation are prominent modes of relating to Lalitā in associated texts and practices.",
+      "motifs": [
+        "M05",
+        "M25"
+      ],
+      "provenance": "P2*",
+      "batch": "15"
+    },
+    {
+      "global_claim_id": "G15-S107-05",
+      "claim_id": "B15-S107-05",
+      "source_id": "S107",
+      "corpus_id": "C043",
+      "location": "Ritual traditions; source-specific verification required",
+      "claim_type": "PRACTICE",
+      "claim": "Some Lalitā traditions connect recitation, ritual diagrams and mantra; each connection must be attributed to its specific source.",
+      "motifs": [
+        "M09",
+        "M24"
+      ],
+      "provenance": "P2*",
+      "batch": "15"
+    },
+    {
+      "global_claim_id": "G15-S107-06",
+      "claim_id": "B15-S107-06",
+      "source_id": "S107",
+      "corpus_id": "C043",
+      "location": "Cosmological materials",
+      "claim_type": "COSMO",
+      "claim": "Cosmic hierarchy and manifestation are organized through a tradition-specific divine cosmology.",
+      "motifs": [
+        "M20",
+        "M21"
+      ],
+      "provenance": "P2*",
+      "batch": "15"
+    },
+    {
+      "global_claim_id": "G15-S107-07",
+      "claim_id": "B15-S107-07",
+      "source_id": "S107",
+      "corpus_id": "C043",
+      "location": "Mythic conflict episodes",
+      "claim_type": "DYNAMICS",
+      "claim": "Narratives present divine action as capable of restoring or transforming a disordered situation.",
+      "motifs": [
+        "M03",
+        "M21"
+      ],
+      "provenance": "P2*",
+      "batch": "15"
+    },
+    {
+      "global_claim_id": "G15-S107-08",
+      "claim_id": "B15-S107-08",
+      "source_id": "S107",
+      "corpus_id": "C043",
+      "location": "Comparative corpus review",
+      "claim_type": "CONTRAST",
+      "claim": "The Lalitā tradition is internally diverse and should not be treated as a single invariant doctrine.",
+      "motifs": [
+        "M14",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "15"
+    },
+    {
+      "global_claim_id": "G15-S107-09",
+      "claim_id": "B15-S107-09",
+      "source_id": "S107",
+      "corpus_id": "C043",
+      "location": "Bibliographic caution",
+      "claim_type": "META",
+      "claim": "A tradition-level label is insufficient evidence for attributing a claim to a particular historical author or text.",
+      "motifs": [
+        "M14",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "15"
+    },
+    {
+      "global_claim_id": "G15-S107-10",
+      "claim_id": "B15-S107-10",
+      "source_id": "S107",
+      "corpus_id": "C043",
+      "location": "Practice-analysis hypothesis",
+      "claim_type": "PHEN",
+      "claim": "Devotional practice can be analyzed as directing attention and valuation, but any psychological effect needs separate evidence.",
+      "motifs": [
+        "M07",
+        "M24"
+      ],
+      "provenance": "P2*",
+      "batch": "15"
+    },
+    {
+      "global_claim_id": "G15-S107-11",
+      "claim_id": "B15-S107-11",
+      "source_id": "S107",
+      "corpus_id": "C043",
+      "location": "Provenance method",
+      "claim_type": "METHOD",
+      "claim": "Text, commentary, liturgical use and later popular interpretation must be kept as separate provenance layers.",
+      "motifs": [
+        "M14",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "15"
+    },
+    {
+      "global_claim_id": "G15-S107-12",
+      "claim_id": "B15-S107-12",
+      "source_id": "S107",
+      "corpus_id": "C043",
+      "location": "Critical framing",
+      "claim_type": "META",
+      "claim": "Mythic cosmology is evidence of a religious worldview, not proof of supernatural mechanisms.",
+      "motifs": [
+        "M14",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "15"
+    },
+    {
+      "global_claim_id": "G15-S107-13",
+      "claim_id": "B15-S107-13",
+      "source_id": "S107",
+      "corpus_id": "C043",
+      "location": "Verification required",
+      "claim_type": "METHOD",
+      "claim": "Before promotion, identify the exact source, edition, passage and translation for every claim in this group.",
+      "motifs": [
+        "M14",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "15"
+    },
+    {
+      "global_claim_id": "G15-S108-01",
+      "claim_id": "B15-S108-01",
+      "source_id": "S108",
+      "corpus_id": "C044",
+      "location": "Opening sections; edition and dating require scholarship",
+      "claim_type": "TEXT",
+      "claim": "The work presents teachings associated with Mahāvīra and early Jain ascetic discipline, within the limits of its textual history.",
+      "motifs": [
+        "M05",
+        "M14"
+      ],
+      "provenance": "P2*",
+      "batch": "15"
+    },
+    {
+      "global_claim_id": "G15-S108-02",
+      "claim_id": "B15-S108-02",
+      "source_id": "S108",
+      "corpus_id": "C044",
+      "location": "Sections on restraint and injury",
+      "claim_type": "ETHICS",
+      "claim": "Nonviolence is grounded in the importance attributed to living beings and the consequences of harming them.",
+      "motifs": [
+        "M10",
+        "M12"
+      ],
+      "provenance": "P2*",
+      "batch": "15"
+    },
+    {
+      "global_claim_id": "G15-S108-03",
+      "claim_id": "B15-S108-03",
+      "source_id": "S108",
+      "corpus_id": "C044",
+      "location": "Doctrinal and disciplinary passages",
+      "claim_type": "ONTO",
+      "claim": "The text's ethical prescriptions presuppose a Jain account of living beings that differs from materialist and non-self metaphysics.",
+      "motifs": [
+        "M02",
+        "M14"
+      ],
+      "provenance": "P2*",
+      "batch": "15"
+    },
+    {
+      "global_claim_id": "G15-S108-04",
+      "claim_id": "B15-S108-04",
+      "source_id": "S108",
+      "corpus_id": "C044",
+      "location": "Conduct and restraint sections",
+      "claim_type": "PRACTICE",
+      "claim": "Ascetic restraint is presented as a disciplined response to the risks of harming living beings and accumulating karmic consequences.",
+      "motifs": [
+        "M12",
+        "M24"
+      ],
+      "provenance": "P2*",
+      "batch": "15"
+    },
+    {
+      "global_claim_id": "G15-S108-05",
+      "claim_id": "B15-S108-05",
+      "source_id": "S108",
+      "corpus_id": "C044",
+      "location": "Rules of conduct",
+      "claim_type": "EMBODIMENT",
+      "claim": "Bodily conduct and movement are treated as ethically significant because actions can affect other living beings.",
+      "motifs": [
+        "M08",
+        "M10"
+      ],
+      "provenance": "P2*",
+      "batch": "15"
+    },
+    {
+      "global_claim_id": "G15-S108-06",
+      "claim_id": "B15-S108-06",
+      "source_id": "S108",
+      "corpus_id": "C044",
+      "location": "Discipline sections",
+      "claim_type": "DYNAMICS",
+      "claim": "Attention to action and restraint links moment-to-moment conduct with the wider soteriological path.",
+      "motifs": [
+        "M10",
+        "M12"
+      ],
+      "provenance": "P2*",
+      "batch": "15"
+    },
+    {
+      "global_claim_id": "G15-S108-07",
+      "claim_id": "B15-S108-07",
+      "source_id": "S108",
+      "corpus_id": "C044",
+      "location": "Non-harm and ascetic discipline",
+      "claim_type": "ETHICS",
+      "claim": "The text asks practitioners to limit injury even where doing so imposes demands on their own comfort or convenience.",
+      "motifs": [
+        "M10",
+        "M24"
+      ],
+      "provenance": "P2*",
+      "batch": "15"
+    },
+    {
+      "global_claim_id": "G15-S108-08",
+      "claim_id": "B15-S108-08",
+      "source_id": "S108",
+      "corpus_id": "C044",
+      "location": "Nonviolence passages",
+      "claim_type": "RELATION",
+      "claim": "Ethical practice is relational: the practitioner's conduct matters because other living beings are morally considerable.",
+      "motifs": [
+        "M10",
+        "M12"
+      ],
+      "provenance": "P2*",
+      "batch": "15"
+    },
+    {
+      "global_claim_id": "G15-S108-09",
+      "claim_id": "B15-S108-09",
+      "source_id": "S108",
+      "corpus_id": "C044",
+      "location": "Critical framing",
+      "claim_type": "META",
+      "claim": "The text's cosmology and karmic account should be presented as Jain doctrine rather than established biological fact.",
+      "motifs": [
+        "M14",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "15"
+    },
+    {
+      "global_claim_id": "G15-S108-10",
+      "claim_id": "B15-S108-10",
+      "source_id": "S108",
+      "corpus_id": "C044",
+      "location": "Comparative reading with Buddhist sources",
+      "claim_type": "CONTRAST",
+      "claim": "Jain affirmation of living selves differs from Buddhist analyses of non-self; the disagreement should remain explicit.",
+      "motifs": [
+        "M02",
+        "M14"
+      ],
+      "provenance": "P2*",
+      "batch": "15"
+    },
+    {
+      "global_claim_id": "G15-S108-11",
+      "claim_id": "B15-S108-11",
+      "source_id": "S108",
+      "corpus_id": "C044",
+      "location": "Conduct sections",
+      "claim_type": "PRACTICE",
+      "claim": "Restraint is treated as a sustained discipline rather than a single declarative intention.",
+      "motifs": [
+        "M24",
+        "M25"
+      ],
+      "provenance": "P2*",
+      "batch": "15"
+    },
+    {
+      "global_claim_id": "G15-S108-12",
+      "claim_id": "B15-S108-12",
+      "source_id": "S108",
+      "corpus_id": "C044",
+      "location": "Verification required",
+      "claim_type": "METHOD",
+      "claim": "Exact claims require checking the selected translation against the Prakrit text and noting edition-specific section numbering.",
+      "motifs": [
+        "M14",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "15"
+    },
+    {
+      "global_claim_id": "G15-S108-13",
+      "claim_id": "B15-S108-13",
+      "source_id": "S108",
+      "corpus_id": "C044",
+      "location": "Engineering bridge; provisional",
+      "claim_type": "META",
+      "claim": "For engineering comparison, the text may motivate questions about persistent ethical constraints, but it does not directly specify an AI architecture.",
+      "motifs": [
+        "M10",
+        "M14"
+      ],
+      "provenance": "P2*",
+      "batch": "15"
     }
   ],
   "rules": {
