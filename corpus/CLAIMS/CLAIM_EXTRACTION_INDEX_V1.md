@@ -15,8 +15,9 @@ The corpus has **325 source records** and **216 atomic claims extracted** across
 | Presence/Relational Personhood Batch v7 | 5 | 100 | Suhrawardi, Yoruba Orí, Māori whakapapa, Haudenosaunee Address, Tempels/Bantu Philosophy |
 | Nature/Emanation/Mahāmudrā Batch v8 | 5 | 50 | Mahāparinirvāṇa, Tilopa Mahāmudrā, Pardes Rimmonim, Etz Chaim, Fihi Ma Fihi |
 | Emptiness/Spanda/Recognition Batch v9 | 5 | 100 | Nāgārjuna, Vasubandhu, Spanda Kārikās, Vijñāna Bhairava, Ibn ʿArabi |
-| Relational/Indigenous Closure Batch v10 | 3 | 52 | Ifá, Huarochirí, Diné Bahane' |
-| **Total** | **71** | **1,000** | cross-cultural source families with multiple internal traditions |
+| Relational/Indigenous/Transpersonal Batch v10 | 5 | 100 | Ifá, Huarochirí, Diné Bahane', Aboriginal Dreaming corpus, Yogananda |
+| Relational/Indigenous Closure Batch v10 | 3 | 52 | 52 unique closure claims from Ifá, Huarochirí, Diné Bahane' |
+| **Total** | **73** | **1,000** | cross-cultural source families with multiple internal traditions |
 
 ## Claim-growth rule
 
