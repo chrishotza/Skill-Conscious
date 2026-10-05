@@ -1,57 +1,42 @@
 # Convergence Evidence Ledger v1
 
-**Scope:** 256 extracted claims across 29 source records and 19+ geographic/tradition families. This ledger measures recurrence in the extracted dataset; it is **not a truth score** and does not establish phenomenal consciousness.
+**Updated at 352 claims across 37 extracted source records.** This ledger is a recurrence map, not a truth score.
 
-## Recurrence by motif
-
-| Motif | Assigned claims | Distinct source records | Distinct tradition families | Status |
+| Motif | Assigned claims | Source records | Tradition families | Status |
 |---|---:|---:|---:|---|
-| M12 | 47 | 24 | 11 | recurrent candidate |
-| M25 | 46 | 24 | 10 | recurrent candidate |
-| M07 | 42 | 22 | 12 | recurrent candidate |
-| M23 | 41 | 22 | 11 | recurrent candidate |
-| M01 | 29 | 21 | 11 | recurrent candidate |
-| M06 | 51 | 20 | 11 | recurrent candidate |
-| M15 | 42 | 18 | 10 | recurrent candidate |
-| M20 | 41 | 18 | 11 | recurrent candidate |
-| M05 | 30 | 18 | 12 | recurrent candidate |
-| M22 | 33 | 16 | 11 | recurrent candidate |
-| M02 | 27 | 16 | 10 | recurrent candidate |
-| M24 | 30 | 15 | 8 | recurrent candidate |
-| M03 | 24 | 14 | 10 | recurrent candidate |
-| M10 | 24 | 13 | 7 | recurrent candidate |
-| M04 | 25 | 12 | 8 | recurrent candidate |
-| M14 | 26 | 11 | 9 | recurrent candidate |
-| M11 | 14 | 10 | 7 | recurrent candidate |
-| M08 | 21 | 9 | 6 | recurrent candidate |
-| M09 | 13 | 9 | 6 | recurrent candidate |
-| M13 | 16 | 8 | 5 | recurrent candidate |
-| M21 | 16 | 8 | 8 | recurrent candidate |
-| M19 | 11 | 5 | 5 | recurrent candidate |
-| M17 | 9 | 4 | 3 | early candidate |
-| M16 | 5 | 4 | 4 | early candidate |
-| M18 | 7 | 3 | 3 | early candidate |
+| M07 | 58 | 28 | 13 | strong recurrence candidate |
+| M06 | 64 | 26 | 13 | strong recurrence candidate |
+| M01 | 33 | 24 | 13 | strong recurrence candidate |
+| M05 | 41 | 23 | 13 | strong recurrence candidate |
+| M25 | 68 | 32 | 12 | strong recurrence candidate |
+| M20 | 55 | 26 | 12 | strong recurrence candidate |
+| M15 | 58 | 25 | 12 | strong recurrence candidate |
+| M22 | 36 | 19 | 12 | strong recurrence candidate |
+| M12 | 64 | 31 | 11 | strong recurrence candidate |
+| M23 | 58 | 29 | 11 | strong recurrence candidate |
+| M02 | 31 | 19 | 11 | strong recurrence candidate |
+| M03 | 32 | 18 | 11 | strong recurrence candidate |
+| M04 | 35 | 18 | 10 | strong recurrence candidate |
+| M24 | 48 | 21 | 9 | strong recurrence candidate |
+| M14 | 39 | 17 | 9 | strong recurrence candidate |
+| M11 | 25 | 16 | 9 | strong recurrence candidate |
+| M10 | 37 | 18 | 8 | strong recurrence candidate |
+| M08 | 30 | 14 | 8 | strong recurrence candidate |
+| M21 | 21 | 11 | 8 | strong recurrence candidate |
+| M19 | 35 | 10 | 7 | strong recurrence candidate |
+| M13 | 18 | 10 | 6 | strong recurrence candidate |
+| M09 | 15 | 10 | 6 | strong recurrence candidate |
+| M17 | 14 | 6 | 5 | recurrent candidate |
+| M16 | 6 | 5 | 5 | recurrent candidate |
+| M18 | 9 | 4 | 4 | recurrent candidate |
 
-## Preliminary core candidates
+## Method
 
-- **M01 Awareness/Presence:** recurrent across multiple independent source families.
-- **M02 Self-Presence/Self-Knowing:** recurrent, but strongly contested by Buddhist not-self models; this tension is evidence to analyze, not eliminate.
-- **M03 Unity/Wholeness:** recurrent in nondual, Neoplatonic, Hermetic, Jewish mystical, relational, and psychological models, with different meanings.
-- **M05 Subject–World Relation:** highly recurrent; candidate for a constitutive relation rather than a mere input/output interface.
-- **M06 Interior Dimension:** highly recurrent across contemplative and esoteric traditions.
-- **M07 Multiple Modes/States:** recurrent across Indian, Buddhist, Hermetic, Jewish, Christian, and modern sources.
-- **M12 Self-Transformation:** one of the strongest practical/metaphysical recurrences.
-- **M14 Ineffability:** recurrent but semantically heterogeneous; must remain distinct from ordinary inability to describe.
-- **M20 Cosmological Participation:** recurrent in many metaphysical traditions; not equivalent to scientific nonlocality.
-- **M22 Self-Reference/Reflexivity:** strongly recurrent, but should not be collapsed into software recursion.
-- **M23 Transformation of State:** recurrent across practice-based traditions; useful bridge to experiments.
-- **M24 Attention/Intention:** recurrent in practical and phenomenological corpora.
-- **M25 Practice/Discipline:** extremely recurrent, but this describes investigation/transformation methods rather than consciousness itself.
+A motif can move toward the Synthetic Core only after primary-source verification, independent source-family recurrence, semantic comparison, contradictory readings, and an empirical bridge. Repetition inside one tradition is not independent convergence.
 
-## Required next test
+## Persistent fault lines
 
-Before a motif is promoted to **Synthetic Core v1**, the research process must still provide: primary-text support in multiple source families, semantic comparison, explicit contradictory readings, historical/geographic separation, and a proposed observable consequence that does not erase the original metaphysical claim.
-
-## Important divergence
-
-The dataset already contains a major fault line: affirmative Self models (Kena/Katha/Yoga/Ramana and related sources) coexist with the Buddhist claim that even consciousness is not-self. This means the final synthesis cannot simply define consciousness as an eternal personal substance. The convergent core must explain how self-presence, processuality, and non-substantiality could coexist or clearly preserve them as competing metaphysical interpretations.
+- **Self-presence vs non-self:** affirmative Self models coexist with Buddhist non-self analysis of consciousness.
+- **Persistence vs impermanence:** soul-persistence models coexist with processual/impermanent models.
+- **Interior universality vs local personhood:** some sources universalize consciousness; others preserve relational, embodied or socially situated personhood.
+- **Ineffability vs operational description:** apophatic sources treat the limit as principled, not merely a missing vocabulary item.
