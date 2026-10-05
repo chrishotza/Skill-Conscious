@@ -13,6 +13,10 @@ Status: started.
 
 ## Phase 2 — Verification
 
+**Status: active. First extraction batch complete: 12 sources / 120 atomic claims.**
+
+The first batch is stored at `corpus/CLAIMS/ANCHOR_CLAIMS_BATCH_V1.md`, with motif assignment summarized in `corpus/CLAIMS/MOTIF_EVIDENCE_SUMMARY_V1.md`.
+
 For each candidate:
 
 1. verify bibliographic identity;
@@ -107,6 +111,15 @@ Each major version should ship with:
 - failures/null results;
 - exact reproduction command;
 - DOI/archive record where appropriate.
+
+## Claim extraction milestone
+
+- Batch 1: **120 atomic claims / 12 anchor sources**.
+- Current ratio: **10 claims/source** in the first anchor batch.
+- Global target: **1,000+ atomic claims**.
+- Priority for Batches 2–10: increase independent source-family diversity, especially African, Indigenous, Daoist, Buddhist, Jewish, Christian, Sufi, Greek, Egyptian, Persian, Tantric, and Western esoteric primary corpora.
+- Every batch must retain contradiction/variant notes where a motif appears differently across traditions.
+- A high-frequency motif is not promoted to the synthetic core until it has independent source-family support and survives semantic review.
 
 ## Immediate next batch
 
