@@ -1,8 +1,8 @@
 {
   "schema_version": "1.0",
-  "claim_count": 1455,
-  "global_claim_count": 1455,
-  "source_count": 108,
+  "claim_count": 1585,
+  "global_claim_count": 1585,
+  "source_count": 118,
   "records": [
     {
       "global_claim_id": "G1-S001-K01",
@@ -22650,6 +22650,1957 @@
       ],
       "provenance": "P2*",
       "batch": "15"
+    },
+    {
+      "global_claim_id": "G16-S109-01",
+      "claim_id": "B16-S109-01",
+      "source_id": "S109",
+      "corpus_id": "C046",
+      "location": "Opening doctrinal sections",
+      "claim_type": "ONTO",
+      "claim": "The work distinguishes the intrinsic nature of the jīva from states attributed to karmic entanglement.",
+      "motifs": [
+        "M02",
+        "M12"
+      ],
+      "provenance": "P2*",
+      "batch": "16"
+    },
+    {
+      "global_claim_id": "G16-S109-02",
+      "claim_id": "B16-S109-02",
+      "source_id": "S109",
+      "corpus_id": "C046",
+      "location": "Sections on jīva and knowledge",
+      "claim_type": "ONTO",
+      "claim": "Knowledge and perception are discussed as central characteristics of the living self in the text's Jain framework.",
+      "motifs": [
+        "M02",
+        "M06"
+      ],
+      "provenance": "P2*",
+      "batch": "16"
+    },
+    {
+      "global_claim_id": "G16-S109-03",
+      "claim_id": "B16-S109-03",
+      "source_id": "S109",
+      "corpus_id": "C046",
+      "location": "Sections on bondage",
+      "claim_type": "DYNAMICS",
+      "claim": "Bondage is explained through the relation between the self and karmic conditions, not simply as lack of information.",
+      "motifs": [
+        "M12",
+        "M13"
+      ],
+      "provenance": "P2*",
+      "batch": "16"
+    },
+    {
+      "global_claim_id": "G16-S109-04",
+      "claim_id": "B16-S109-04",
+      "source_id": "S109",
+      "corpus_id": "C046",
+      "location": "Sections on right knowledge",
+      "claim_type": "PRACTICE",
+      "claim": "Right understanding is presented as a condition of liberation rather than a merely intellectual ornament.",
+      "motifs": [
+        "M12",
+        "M24"
+      ],
+      "provenance": "P2*",
+      "batch": "16"
+    },
+    {
+      "global_claim_id": "G16-S109-05",
+      "claim_id": "B16-S109-05",
+      "source_id": "S109",
+      "corpus_id": "C046",
+      "location": "Doctrinal and practical passages",
+      "claim_type": "ETHICS",
+      "claim": "The path is organized around distinctions between the self's proper nature and misleading identification.",
+      "motifs": [
+        "M12",
+        "M13"
+      ],
+      "provenance": "P2*",
+      "batch": "16"
+    },
+    {
+      "global_claim_id": "G16-S109-06",
+      "claim_id": "B16-S109-06",
+      "source_id": "S109",
+      "corpus_id": "C046",
+      "location": "Comparative note",
+      "claim_type": "CONTRAST",
+      "claim": "The text affirms a real jīva and therefore differs from Buddhist no-self analyses.",
+      "motifs": [
+        "M02",
+        "M14"
+      ],
+      "provenance": "P2*",
+      "batch": "16"
+    },
+    {
+      "global_claim_id": "G16-S109-07",
+      "claim_id": "B16-S109-07",
+      "source_id": "S109",
+      "corpus_id": "C046",
+      "location": "Sections on discernment",
+      "claim_type": "REFLEXIVITY",
+      "claim": "Self-knowledge is framed as discerning the self from states or processes that do not define its essential nature.",
+      "motifs": [
+        "M02",
+        "M13"
+      ],
+      "provenance": "P2*",
+      "batch": "16"
+    },
+    {
+      "global_claim_id": "G16-S109-08",
+      "claim_id": "B16-S109-08",
+      "source_id": "S109",
+      "corpus_id": "C046",
+      "location": "Critical framing",
+      "claim_type": "META",
+      "claim": "The text's metaphysical account of jīva is a Jain doctrinal position, not an established scientific description of mind.",
+      "motifs": [
+        "M14",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "16"
+    },
+    {
+      "global_claim_id": "G16-S109-09",
+      "claim_id": "B16-S109-09",
+      "source_id": "S109",
+      "corpus_id": "C046",
+      "location": "Path and liberation sections",
+      "claim_type": "PRACTICE",
+      "claim": "Liberation requires a transformation in understanding and conduct, not only verbal assent.",
+      "motifs": [
+        "M12",
+        "M24"
+      ],
+      "provenance": "P2*",
+      "batch": "16"
+    },
+    {
+      "global_claim_id": "G16-S109-10",
+      "claim_id": "B16-S109-10",
+      "source_id": "S109",
+      "corpus_id": "C046",
+      "location": "Whole work and commentaries",
+      "claim_type": "TEXT",
+      "claim": "The work uses compact aphoristic or verse-like exposition that depends on commentary for some interpretive decisions.",
+      "motifs": [
+        "M14",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "16"
+    },
+    {
+      "global_claim_id": "G16-S109-11",
+      "claim_id": "B16-S109-11",
+      "source_id": "S109",
+      "corpus_id": "C046",
+      "location": "Sections on jīva and karma",
+      "claim_type": "CONTRAST",
+      "claim": "The self's intrinsic nature and karmic condition must be kept analytically distinct within the text's own argument.",
+      "motifs": [
+        "M02",
+        "M12"
+      ],
+      "provenance": "P2*",
+      "batch": "16"
+    },
+    {
+      "global_claim_id": "G16-S109-12",
+      "claim_id": "B16-S109-12",
+      "source_id": "S109",
+      "corpus_id": "C046",
+      "location": "Translation verification note",
+      "claim_type": "METHOD",
+      "claim": "Translation choices for jīva, knowledge and karma can affect comparisons with modern terms such as self or cognition.",
+      "motifs": [
+        "M14",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "16"
+    },
+    {
+      "global_claim_id": "G16-S109-13",
+      "claim_id": "B16-S109-13",
+      "source_id": "S109",
+      "corpus_id": "C046",
+      "location": "Interpretive boundary",
+      "claim_type": "META",
+      "claim": "Any engineering analogy about persistent identity is a separate hypothesis and cannot be attributed directly to Kundakunda.",
+      "motifs": [
+        "M14",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "16"
+    },
+    {
+      "global_claim_id": "G16-S110-01",
+      "claim_id": "B16-S110-01",
+      "source_id": "S110",
+      "corpus_id": "C047",
+      "location": "Sections on niyama and conduct",
+      "claim_type": "PRACTICE",
+      "claim": "The text organizes spiritual discipline through distinctions among modes of conduct and restraint.",
+      "motifs": [
+        "M24",
+        "M25"
+      ],
+      "provenance": "P2*",
+      "batch": "16"
+    },
+    {
+      "global_claim_id": "G16-S110-02",
+      "claim_id": "B16-S110-02",
+      "source_id": "S110",
+      "corpus_id": "C047",
+      "location": "Opening and path sections",
+      "claim_type": "ETHICS",
+      "claim": "Conduct is evaluated in relation to right understanding and the path toward liberation.",
+      "motifs": [
+        "M10",
+        "M12"
+      ],
+      "provenance": "P2*",
+      "batch": "16"
+    },
+    {
+      "global_claim_id": "G16-S110-03",
+      "claim_id": "B16-S110-03",
+      "source_id": "S110",
+      "corpus_id": "C047",
+      "location": "Doctrinal sections",
+      "claim_type": "ONTO",
+      "claim": "The text's account of the self is embedded in Jain metaphysical commitments concerning living beings and karma.",
+      "motifs": [
+        "M02",
+        "M12"
+      ],
+      "provenance": "P2*",
+      "batch": "16"
+    },
+    {
+      "global_claim_id": "G16-S110-04",
+      "claim_id": "B16-S110-04",
+      "source_id": "S110",
+      "corpus_id": "C047",
+      "location": "Sections contrasting conduct types",
+      "claim_type": "PRACTICE",
+      "claim": "Outer observances and inner orientation should not automatically be treated as equivalent in the text's framework.",
+      "motifs": [
+        "M12",
+        "M24"
+      ],
+      "provenance": "P2*",
+      "batch": "16"
+    },
+    {
+      "global_claim_id": "G16-S110-05",
+      "claim_id": "B16-S110-05",
+      "source_id": "S110",
+      "corpus_id": "C047",
+      "location": "Inner conduct discussions",
+      "claim_type": "REFLEXIVITY",
+      "claim": "A practitioner's orientation and understanding are relevant to the meaning of disciplined action.",
+      "motifs": [
+        "M02",
+        "M13"
+      ],
+      "provenance": "P2*",
+      "batch": "16"
+    },
+    {
+      "global_claim_id": "G16-S110-06",
+      "claim_id": "B16-S110-06",
+      "source_id": "S110",
+      "corpus_id": "C047",
+      "location": "Practice and liberation sections",
+      "claim_type": "DYNAMICS",
+      "claim": "The text connects sustained practice with a gradual transformation in the practitioner's condition.",
+      "motifs": [
+        "M12",
+        "M24"
+      ],
+      "provenance": "P2*",
+      "batch": "16"
+    },
+    {
+      "global_claim_id": "G16-S110-07",
+      "claim_id": "B16-S110-07",
+      "source_id": "S110",
+      "corpus_id": "C047",
+      "location": "Conduct and vow sections",
+      "claim_type": "ETHICS",
+      "claim": "Vows and restraint provide practical limits on behavior rather than merely descriptive beliefs.",
+      "motifs": [
+        "M10",
+        "M25"
+      ],
+      "provenance": "P2*",
+      "batch": "16"
+    },
+    {
+      "global_claim_id": "G16-S110-08",
+      "claim_id": "B16-S110-08",
+      "source_id": "S110",
+      "corpus_id": "C047",
+      "location": "Comparative caution",
+      "claim_type": "CONTRAST",
+      "claim": "Jain discipline should be compared with Buddhist and Hindu paths without assuming that shared terms have identical meanings.",
+      "motifs": [
+        "M14",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "16"
+    },
+    {
+      "global_claim_id": "G16-S110-09",
+      "claim_id": "B16-S110-09",
+      "source_id": "S110",
+      "corpus_id": "C047",
+      "location": "Critical framing",
+      "claim_type": "META",
+      "claim": "The text's soteriological claims are claims within a religious-philosophical system, not controlled empirical results.",
+      "motifs": [
+        "M14",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "16"
+    },
+    {
+      "global_claim_id": "G16-S110-10",
+      "claim_id": "B16-S110-10",
+      "source_id": "S110",
+      "corpus_id": "C047",
+      "location": "Whole work and commentaries",
+      "claim_type": "TEXT",
+      "claim": "Interpretation depends on the relation between root verses and commentarial explanations.",
+      "motifs": [
+        "M14",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "16"
+    },
+    {
+      "global_claim_id": "G16-S110-11",
+      "claim_id": "B16-S110-11",
+      "source_id": "S110",
+      "corpus_id": "C047",
+      "location": "Practice sections",
+      "claim_type": "PRACTICE",
+      "claim": "Discipline is represented as an ongoing pattern of conduct, not a one-time declaration of intent.",
+      "motifs": [
+        "M24",
+        "M25"
+      ],
+      "provenance": "P2*",
+      "batch": "16"
+    },
+    {
+      "global_claim_id": "G16-S110-12",
+      "claim_id": "B16-S110-12",
+      "source_id": "S110",
+      "corpus_id": "C047",
+      "location": "Verification required",
+      "claim_type": "METHOD",
+      "claim": "Specific claims require a named edition and stable verse locator before they are promoted beyond candidate status.",
+      "motifs": [
+        "M14",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "16"
+    },
+    {
+      "global_claim_id": "G16-S110-13",
+      "claim_id": "B16-S110-13",
+      "source_id": "S110",
+      "corpus_id": "C047",
+      "location": "Engineering boundary",
+      "claim_type": "META",
+      "claim": "Persistent constraints may be a useful engineering analogy, but this analogy is not a claim made by the text about artificial systems.",
+      "motifs": [
+        "M10",
+        "M14"
+      ],
+      "provenance": "P2*",
+      "batch": "16"
+    },
+    {
+      "global_claim_id": "G16-S111-01",
+      "claim_id": "B16-S111-01",
+      "source_id": "S111",
+      "corpus_id": "C048",
+      "location": "Opening verses and category definitions",
+      "claim_type": "ONTO",
+      "claim": "The work classifies reality through a finite set of fundamental categories or substances in its Jain framework.",
+      "motifs": [
+        "M02",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "16"
+    },
+    {
+      "global_claim_id": "G16-S111-02",
+      "claim_id": "B16-S111-02",
+      "source_id": "S111",
+      "corpus_id": "C048",
+      "location": "Definitions of jīva and ajīva",
+      "claim_type": "ONTO",
+      "claim": "Jīva is distinguished from nonliving substances, making the living/nonliving distinction central to the ontology.",
+      "motifs": [
+        "M02",
+        "M14"
+      ],
+      "provenance": "P2*",
+      "batch": "16"
+    },
+    {
+      "global_claim_id": "G16-S111-03",
+      "claim_id": "B16-S111-03",
+      "source_id": "S111",
+      "corpus_id": "C048",
+      "location": "Karma and liberation sections",
+      "claim_type": "DYNAMICS",
+      "claim": "Karma and liberation are understood through relations among the living self, activity and binding conditions.",
+      "motifs": [
+        "M12",
+        "M13"
+      ],
+      "provenance": "P2*",
+      "batch": "16"
+    },
+    {
+      "global_claim_id": "G16-S111-04",
+      "claim_id": "B16-S111-04",
+      "source_id": "S111",
+      "corpus_id": "C048",
+      "location": "Critical framing",
+      "claim_type": "META",
+      "claim": "The text's category scheme is a philosophical ontology and should not be confused with a modern empirical taxonomy.",
+      "motifs": [
+        "M14",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "16"
+    },
+    {
+      "global_claim_id": "G16-S111-05",
+      "claim_id": "B16-S111-05",
+      "source_id": "S111",
+      "corpus_id": "C048",
+      "location": "Jīva and ajīva sections",
+      "claim_type": "REFLEXIVITY",
+      "claim": "Self-understanding requires distinguishing the jīva from other categories of reality.",
+      "motifs": [
+        "M02",
+        "M13"
+      ],
+      "provenance": "P2*",
+      "batch": "16"
+    },
+    {
+      "global_claim_id": "G16-S111-06",
+      "claim_id": "B16-S111-06",
+      "source_id": "S111",
+      "corpus_id": "C048",
+      "location": "Whole work",
+      "claim_type": "TEXT",
+      "claim": "Concise definitions and technical terms carry much of the argumentative burden of the work.",
+      "motifs": [
+        "M14",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "16"
+    },
+    {
+      "global_claim_id": "G16-S111-07",
+      "claim_id": "B16-S111-07",
+      "source_id": "S111",
+      "corpus_id": "C048",
+      "location": "Comparative note",
+      "claim_type": "CONTRAST",
+      "claim": "Its enduring jīva differs from positions that treat personal identity as dependently arisen or non-self.",
+      "motifs": [
+        "M02",
+        "M14"
+      ],
+      "provenance": "P2*",
+      "batch": "16"
+    },
+    {
+      "global_claim_id": "G16-S111-08",
+      "claim_id": "B16-S111-08",
+      "source_id": "S111",
+      "corpus_id": "C048",
+      "location": "Liberation discussion",
+      "claim_type": "ONTO",
+      "claim": "The text treats liberation as a change in the soul's condition within its account of substance and karmic relation.",
+      "motifs": [
+        "M12",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "16"
+    },
+    {
+      "global_claim_id": "G16-S111-09",
+      "claim_id": "B16-S111-09",
+      "source_id": "S111",
+      "corpus_id": "C048",
+      "location": "Soteriological context",
+      "claim_type": "PRACTICE",
+      "claim": "Ethical and contemplative practice is intelligible in relation to the text's classification of living beings and bondage.",
+      "motifs": [
+        "M10",
+        "M12"
+      ],
+      "provenance": "P2*",
+      "batch": "16"
+    },
+    {
+      "global_claim_id": "G16-S111-10",
+      "claim_id": "B16-S111-10",
+      "source_id": "S111",
+      "corpus_id": "C048",
+      "location": "Category list verification",
+      "claim_type": "METHOD",
+      "claim": "The precise list and interpretation of categories should be checked against the selected edition and commentary.",
+      "motifs": [
+        "M14",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "16"
+    },
+    {
+      "global_claim_id": "G16-S111-11",
+      "claim_id": "B16-S111-11",
+      "source_id": "S111",
+      "corpus_id": "C048",
+      "location": "Interpretive boundary",
+      "claim_type": "META",
+      "claim": "Historical ontology can inform conceptual comparison but does not directly validate a computational theory of consciousness.",
+      "motifs": [
+        "M14",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "16"
+    },
+    {
+      "global_claim_id": "G16-S111-12",
+      "claim_id": "B16-S111-12",
+      "source_id": "S111",
+      "corpus_id": "C048",
+      "location": "Comparative method",
+      "claim_type": "CONTRAST",
+      "claim": "Substance-language in this work should not be silently mapped onto physicalist or information-theoretic concepts.",
+      "motifs": [
+        "M14",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "16"
+    },
+    {
+      "global_claim_id": "G16-S111-13",
+      "claim_id": "B16-S111-13",
+      "source_id": "S111",
+      "corpus_id": "C048",
+      "location": "Terminology verification",
+      "claim_type": "METHOD",
+      "claim": "Translation of dravya, jīva and ajīva requires term-level notes to avoid false equivalences.",
+      "motifs": [
+        "M14",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "16"
+    },
+    {
+      "global_claim_id": "G16-S112-01",
+      "claim_id": "B16-S112-01",
+      "source_id": "S112",
+      "corpus_id": "C050",
+      "location": "Opening pauri",
+      "claim_type": "TEXT",
+      "claim": "The composition opens with a formulation of the divine and an inquiry into how truth is lived or realized.",
+      "motifs": [
+        "M05",
+        "M14"
+      ],
+      "provenance": "P2*",
+      "batch": "16"
+    },
+    {
+      "global_claim_id": "G16-S112-02",
+      "claim_id": "B16-S112-02",
+      "source_id": "S112",
+      "corpus_id": "C050",
+      "location": "Opening lines and refrain",
+      "claim_type": "ONTO",
+      "claim": "The divine is described as beyond ordinary description while also being related to the order of existence.",
+      "motifs": [
+        "M20",
+        "M21"
+      ],
+      "provenance": "P2*",
+      "batch": "16"
+    },
+    {
+      "global_claim_id": "G16-S112-03",
+      "claim_id": "B16-S112-03",
+      "source_id": "S112",
+      "corpus_id": "C050",
+      "location": "Repeated nām themes",
+      "claim_type": "RELATION",
+      "claim": "Remembering or meditating on nām is presented as a central orientation of the spiritual life.",
+      "motifs": [
+        "M05",
+        "M25"
+      ],
+      "provenance": "P2*",
+      "batch": "16"
+    },
+    {
+      "global_claim_id": "G16-S112-04",
+      "claim_id": "B16-S112-04",
+      "source_id": "S112",
+      "corpus_id": "C050",
+      "location": "Pauris on hukam and haumai",
+      "claim_type": "ETHICS",
+      "claim": "Humility and alignment with hukam are emphasized over attempts to control reality through egoic assertion.",
+      "motifs": [
+        "M10",
+        "M12"
+      ],
+      "provenance": "P2*",
+      "batch": "16"
+    },
+    {
+      "global_claim_id": "G16-S112-05",
+      "claim_id": "B16-S112-05",
+      "source_id": "S112",
+      "corpus_id": "C050",
+      "location": "Pauris discussing ritual and conduct",
+      "claim_type": "REFLEXIVITY",
+      "claim": "The composition challenges the assumption that external observance alone guarantees spiritual realization.",
+      "motifs": [
+        "M02",
+        "M13"
+      ],
+      "provenance": "P2*",
+      "batch": "16"
+    },
+    {
+      "global_claim_id": "G16-S112-06",
+      "claim_id": "B16-S112-06",
+      "source_id": "S112",
+      "corpus_id": "C050",
+      "location": "Liturgical reception and text",
+      "claim_type": "PRACTICE",
+      "claim": "Recitation and remembrance provide a repeated devotional practice rather than a single abstract proposition.",
+      "motifs": [
+        "M24",
+        "M25"
+      ],
+      "provenance": "P2*",
+      "batch": "16"
+    },
+    {
+      "global_claim_id": "G16-S112-07",
+      "claim_id": "B16-S112-07",
+      "source_id": "S112",
+      "corpus_id": "C050",
+      "location": "Opening description of the One",
+      "claim_type": "ONTO",
+      "claim": "The divine is not portrayed as simply one finite entity within the world.",
+      "motifs": [
+        "M20",
+        "M21"
+      ],
+      "provenance": "P2*",
+      "batch": "16"
+    },
+    {
+      "global_claim_id": "G16-S112-08",
+      "claim_id": "B16-S112-08",
+      "source_id": "S112",
+      "corpus_id": "C050",
+      "location": "Pauris on hukam and nām",
+      "claim_type": "RELATION",
+      "claim": "Human life is framed in relation to divine order, remembrance and ethical conduct.",
+      "motifs": [
+        "M05",
+        "M10"
+      ],
+      "provenance": "P2*",
+      "batch": "16"
+    },
+    {
+      "global_claim_id": "G16-S112-09",
+      "claim_id": "B16-S112-09",
+      "source_id": "S112",
+      "corpus_id": "C050",
+      "location": "Comparative caution",
+      "claim_type": "CONTRAST",
+      "claim": "Sikh concepts such as nām and hukam should not be collapsed into generic labels such as mindfulness or determinism.",
+      "motifs": [
+        "M14",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "16"
+    },
+    {
+      "global_claim_id": "G16-S112-10",
+      "claim_id": "B16-S112-10",
+      "source_id": "S112",
+      "corpus_id": "C050",
+      "location": "Ethical and devotional themes",
+      "claim_type": "PHEN",
+      "claim": "The text links spiritual orientation with humility and changed conduct, though it does not supply modern psychological measurements.",
+      "motifs": [
+        "M07",
+        "M10"
+      ],
+      "provenance": "P2*",
+      "batch": "16"
+    },
+    {
+      "global_claim_id": "G16-S112-11",
+      "claim_id": "B16-S112-11",
+      "source_id": "S112",
+      "corpus_id": "C050",
+      "location": "Critical framing",
+      "claim_type": "META",
+      "claim": "The composition is a primary religious text, while claims about effects of recitation require separate empirical evidence.",
+      "motifs": [
+        "M14",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "16"
+    },
+    {
+      "global_claim_id": "G16-S112-12",
+      "claim_id": "B16-S112-12",
+      "source_id": "S112",
+      "corpus_id": "C050",
+      "location": "Verification required",
+      "claim_type": "METHOD",
+      "claim": "Pauri numbering and translation wording should be verified against the chosen edition before exact quotation.",
+      "motifs": [
+        "M14",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "16"
+    },
+    {
+      "global_claim_id": "G16-S112-13",
+      "claim_id": "B16-S112-13",
+      "source_id": "S112",
+      "corpus_id": "C050",
+      "location": "Engineering boundary",
+      "claim_type": "META",
+      "claim": "For engineering, recurring remembrance may suggest a design question about stable priorities, not evidence of machine subjectivity.",
+      "motifs": [
+        "M10",
+        "M14"
+      ],
+      "provenance": "P2*",
+      "batch": "16"
+    },
+    {
+      "global_claim_id": "G16-S113-01",
+      "claim_id": "B16-S113-01",
+      "source_id": "S113",
+      "corpus_id": "C051",
+      "location": "Corpus scope note",
+      "claim_type": "META",
+      "claim": "The register entry refers to selected material from a larger textual tradition and must be tied to a specific edition and passage.",
+      "motifs": [
+        "M14",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "16"
+    },
+    {
+      "global_claim_id": "G16-S113-02",
+      "claim_id": "B16-S113-02",
+      "source_id": "S113",
+      "corpus_id": "C051",
+      "location": "Selected passages; edition required",
+      "claim_type": "TEXT",
+      "claim": "The tradition includes religious and martial themes whose interpretation depends on the selected passage and its historical context.",
+      "motifs": [
+        "M14",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "16"
+    },
+    {
+      "global_claim_id": "G16-S113-03",
+      "claim_id": "B16-S113-03",
+      "source_id": "S113",
+      "corpus_id": "C051",
+      "location": "Selected passages; source-specific verification required",
+      "claim_type": "RELATION",
+      "claim": "Religious identity and devotion are articulated through a specific Sikh textual and historical setting.",
+      "motifs": [
+        "M05",
+        "M25"
+      ],
+      "provenance": "P2*",
+      "batch": "16"
+    },
+    {
+      "global_claim_id": "G16-S113-04",
+      "claim_id": "B16-S113-04",
+      "source_id": "S113",
+      "corpus_id": "C051",
+      "location": "Selected passages; verify context",
+      "claim_type": "ETHICS",
+      "claim": "Ethical or martial claims must be attributed to individual passages rather than generalized to the entire corpus.",
+      "motifs": [
+        "M10",
+        "M14"
+      ],
+      "provenance": "P2*",
+      "batch": "16"
+    },
+    {
+      "global_claim_id": "G16-S113-05",
+      "claim_id": "B16-S113-05",
+      "source_id": "S113",
+      "corpus_id": "C051",
+      "location": "Bibliographic context",
+      "claim_type": "META",
+      "claim": "Questions of authorship, dating and reception should remain explicit rather than being assumed settled for all selections.",
+      "motifs": [
+        "M14",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "16"
+    },
+    {
+      "global_claim_id": "G16-S113-06",
+      "claim_id": "B16-S113-06",
+      "source_id": "S113",
+      "corpus_id": "C051",
+      "location": "Comparative caution",
+      "claim_type": "CONTRAST",
+      "claim": "Different Sikh texts and communities may frame authority and practice differently; this selection cannot stand for all Sikh thought.",
+      "motifs": [
+        "M14",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "16"
+    },
+    {
+      "global_claim_id": "G16-S113-07",
+      "claim_id": "B16-S113-07",
+      "source_id": "S113",
+      "corpus_id": "C051",
+      "location": "Corpus scope note",
+      "claim_type": "TEXT",
+      "claim": "A selection-based source cannot support precise generalizations without naming which passages were selected.",
+      "motifs": [
+        "M14",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "16"
+    },
+    {
+      "global_claim_id": "G16-S113-08",
+      "claim_id": "B16-S113-08",
+      "source_id": "S113",
+      "corpus_id": "C051",
+      "location": "Historical interpretation",
+      "claim_type": "RELATION",
+      "claim": "The meaning of martial or devotional language depends on genre, audience and historical setting.",
+      "motifs": [
+        "M05",
+        "M14"
+      ],
+      "provenance": "P2*",
+      "batch": "16"
+    },
+    {
+      "global_claim_id": "G16-S113-09",
+      "claim_id": "B16-S113-09",
+      "source_id": "S113",
+      "corpus_id": "C051",
+      "location": "Critical framing",
+      "claim_type": "META",
+      "claim": "The source can document a strand of religious thought without serving as evidence for supernatural or psychological claims.",
+      "motifs": [
+        "M14",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "16"
+    },
+    {
+      "global_claim_id": "G16-S113-10",
+      "claim_id": "B16-S113-10",
+      "source_id": "S113",
+      "corpus_id": "C051",
+      "location": "Verification required",
+      "claim_type": "METHOD",
+      "claim": "Each claim needs a stable locator, edition information and a distinction between text, commentary and later reception.",
+      "motifs": [
+        "M14",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "16"
+    },
+    {
+      "global_claim_id": "G16-S113-11",
+      "claim_id": "B16-S113-11",
+      "source_id": "S113",
+      "corpus_id": "C051",
+      "location": "Reception comparison",
+      "claim_type": "CONTRAST",
+      "claim": "The tradition should not be reduced to a single political or spiritual interpretation without contextual analysis.",
+      "motifs": [
+        "M14",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "16"
+    },
+    {
+      "global_claim_id": "G16-S113-12",
+      "claim_id": "B16-S113-12",
+      "source_id": "S113",
+      "corpus_id": "C051",
+      "location": "Bibliographic verification",
+      "claim_type": "METHOD",
+      "claim": "Translation and attribution need independent corroboration where the textual history is contested.",
+      "motifs": [
+        "M14",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "16"
+    },
+    {
+      "global_claim_id": "G16-S113-13",
+      "claim_id": "B16-S113-13",
+      "source_id": "S113",
+      "corpus_id": "C051",
+      "location": "Engineering boundary",
+      "claim_type": "META",
+      "claim": "No direct AI-architecture conclusion follows from a tradition-level textual label.",
+      "motifs": [
+        "M14",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "16"
+    },
+    {
+      "global_claim_id": "G16-S114-01",
+      "claim_id": "B16-S114-01",
+      "source_id": "S114",
+      "corpus_id": "C053",
+      "location": "DN 22; four establishments",
+      "claim_type": "PRACTICE",
+      "claim": "The discourse presents a structured framework for contemplation organized around body, feelings, mind and dhammas.",
+      "motifs": [
+        "M01",
+        "M07",
+        "M24"
+      ],
+      "provenance": "P2*",
+      "batch": "16"
+    },
+    {
+      "global_claim_id": "G16-S114-02",
+      "claim_id": "B16-S114-02",
+      "source_id": "S114",
+      "corpus_id": "C053",
+      "location": "DN 22; body contemplation",
+      "claim_type": "EMBODIMENT",
+      "claim": "Body contemplation is included as a distinct domain of mindful observation.",
+      "motifs": [
+        "M08",
+        "M24"
+      ],
+      "provenance": "P2*",
+      "batch": "16"
+    },
+    {
+      "global_claim_id": "G16-S114-03",
+      "claim_id": "B16-S114-03",
+      "source_id": "S114",
+      "corpus_id": "C053",
+      "location": "DN 22; feeling contemplation",
+      "claim_type": "PHEN",
+      "claim": "Feelings are observed as pleasant, unpleasant or neutral without requiring identification with them.",
+      "motifs": [
+        "M07",
+        "M13"
+      ],
+      "provenance": "P2*",
+      "batch": "16"
+    },
+    {
+      "global_claim_id": "G16-S114-04",
+      "claim_id": "B16-S114-04",
+      "source_id": "S114",
+      "corpus_id": "C053",
+      "location": "DN 22; mind contemplation",
+      "claim_type": "REFLEXIVITY",
+      "claim": "Mind states are noticed as states rather than automatically treated as a permanent self.",
+      "motifs": [
+        "M01",
+        "M02"
+      ],
+      "provenance": "P2*",
+      "batch": "16"
+    },
+    {
+      "global_claim_id": "G16-S114-05",
+      "claim_id": "B16-S114-05",
+      "source_id": "S114",
+      "corpus_id": "C053",
+      "location": "DN 22; repeated formulas",
+      "claim_type": "PRACTICE",
+      "claim": "The discourse repeatedly uses recognition of a condition as present or absent as part of contemplative monitoring.",
+      "motifs": [
+        "M01",
+        "M24"
+      ],
+      "provenance": "P2*",
+      "batch": "16"
+    },
+    {
+      "global_claim_id": "G16-S114-06",
+      "claim_id": "B16-S114-06",
+      "source_id": "S114",
+      "corpus_id": "C053",
+      "location": "DN 22; observation formulas",
+      "claim_type": "DYNAMICS",
+      "claim": "Practice includes attending to arising and passing away in the objects of contemplation.",
+      "motifs": [
+        "M03",
+        "M07"
+      ],
+      "provenance": "P2*",
+      "batch": "16"
+    },
+    {
+      "global_claim_id": "G16-S114-07",
+      "claim_id": "B16-S114-07",
+      "source_id": "S114",
+      "corpus_id": "C053",
+      "location": "Whole discourse",
+      "claim_type": "META",
+      "claim": "The discourse's soteriological aim belongs to early Buddhist teaching and should not be reduced to a generic stress-management protocol.",
+      "motifs": [
+        "M12",
+        "M14"
+      ],
+      "provenance": "P2*",
+      "batch": "16"
+    },
+    {
+      "global_claim_id": "G16-S114-08",
+      "claim_id": "B16-S114-08",
+      "source_id": "S114",
+      "corpus_id": "C053",
+      "location": "Whole discourse",
+      "claim_type": "CONTRAST",
+      "claim": "Mindfulness in this discourse is embedded in a path and ethical framework, not merely attention without context.",
+      "motifs": [
+        "M10",
+        "M24"
+      ],
+      "provenance": "P2*",
+      "batch": "16"
+    },
+    {
+      "global_claim_id": "G16-S114-09",
+      "claim_id": "B16-S114-09",
+      "source_id": "S114",
+      "corpus_id": "C053",
+      "location": "DN 22; practice instructions",
+      "claim_type": "PRACTICE",
+      "claim": "The text prescribes sustained, repeated observation rather than relying solely on retrospective verbal reports.",
+      "motifs": [
+        "M24",
+        "M25"
+      ],
+      "provenance": "P2*",
+      "batch": "16"
+    },
+    {
+      "global_claim_id": "G16-S114-10",
+      "claim_id": "B16-S114-10",
+      "source_id": "S114",
+      "corpus_id": "C053",
+      "location": "Mind contemplation; interpretation",
+      "claim_type": "REFLEXIVITY",
+      "claim": "Observation of mental states provides a practical inquiry into experience without requiring an enduring inner owner.",
+      "motifs": [
+        "M01",
+        "M02"
+      ],
+      "provenance": "P2*",
+      "batch": "16"
+    },
+    {
+      "global_claim_id": "G16-S114-11",
+      "claim_id": "B16-S114-11",
+      "source_id": "S114",
+      "corpus_id": "C053",
+      "location": "Comparison with MN 10",
+      "claim_type": "METHOD",
+      "claim": "The long discourse overlaps substantially with the Satipaṭṭhāna Sutta; shared material should not be counted as independent evidence.",
+      "motifs": [
+        "M14",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "16"
+    },
+    {
+      "global_claim_id": "G16-S114-12",
+      "claim_id": "B16-S114-12",
+      "source_id": "S114",
+      "corpus_id": "C053",
+      "location": "Engineering boundary",
+      "claim_type": "META",
+      "claim": "A textual practice model is not itself proof that implementing a similar monitoring loop creates phenomenal consciousness.",
+      "motifs": [
+        "M14",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "16"
+    },
+    {
+      "global_claim_id": "G16-S114-13",
+      "claim_id": "B16-S114-13",
+      "source_id": "S114",
+      "corpus_id": "C053",
+      "location": "Passage verification",
+      "claim_type": "METHOD",
+      "claim": "Use the Pali passage and a declared translation to verify each formula before assigning exact wording.",
+      "motifs": [
+        "M14",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "16"
+    },
+    {
+      "global_claim_id": "G16-S115-01",
+      "claim_id": "B16-S115-01",
+      "source_id": "S115",
+      "corpus_id": "C056",
+      "location": "DN 11 opening",
+      "claim_type": "TEXT",
+      "claim": "The discourse narrates a request for displays of psychic power and frames the request as a problem of religious authority.",
+      "motifs": [
+        "M14",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "16"
+    },
+    {
+      "global_claim_id": "G16-S115-02",
+      "claim_id": "B16-S115-02",
+      "source_id": "S115",
+      "corpus_id": "C056",
+      "location": "DN 11; miracle and instruction episodes",
+      "claim_type": "CONTRAST",
+      "claim": "The narrative distinguishes extraordinary display from a teaching that addresses the transformation of the mind.",
+      "motifs": [
+        "M07",
+        "M12"
+      ],
+      "provenance": "P2*",
+      "batch": "16"
+    },
+    {
+      "global_claim_id": "G16-S115-03",
+      "claim_id": "B16-S115-03",
+      "source_id": "S115",
+      "corpus_id": "C056",
+      "location": "DN 11 narrative",
+      "claim_type": "META",
+      "claim": "The story questions whether impressive phenomena alone establish the truth or authority of a teacher.",
+      "motifs": [
+        "M14",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "16"
+    },
+    {
+      "global_claim_id": "G16-S115-04",
+      "claim_id": "B16-S115-04",
+      "source_id": "S115",
+      "corpus_id": "C056",
+      "location": "DN 11; Brahmā episode",
+      "claim_type": "ONTO",
+      "claim": "The cosmological journey does not yield a simple final answer from the highest deity encountered in the narrative.",
+      "motifs": [
+        "M20",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "16"
+    },
+    {
+      "global_claim_id": "G16-S115-05",
+      "claim_id": "B16-S115-05",
+      "source_id": "S115",
+      "corpus_id": "C056",
+      "location": "DN 11 concluding teaching",
+      "claim_type": "REFLEXIVITY",
+      "claim": "The story redirects inquiry from external spectacle toward the problem of understanding and release.",
+      "motifs": [
+        "M01",
+        "M12"
+      ],
+      "provenance": "P2*",
+      "batch": "16"
+    },
+    {
+      "global_claim_id": "G16-S115-06",
+      "claim_id": "B16-S115-06",
+      "source_id": "S115",
+      "corpus_id": "C056",
+      "location": "Whole discourse",
+      "claim_type": "TEXT",
+      "claim": "The discourse uses a narrative example to critique one way of seeking religious certainty.",
+      "motifs": [
+        "M14",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "16"
+    },
+    {
+      "global_claim_id": "G16-S115-07",
+      "claim_id": "B16-S115-07",
+      "source_id": "S115",
+      "corpus_id": "C056",
+      "location": "Comparative note",
+      "claim_type": "CONTRAST",
+      "claim": "Its treatment of miracles should not be merged with traditions that make ritual efficacy or divine manifestation central.",
+      "motifs": [
+        "M14",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "16"
+    },
+    {
+      "global_claim_id": "G16-S115-08",
+      "claim_id": "B16-S115-08",
+      "source_id": "S115",
+      "corpus_id": "C056",
+      "location": "Critical framing",
+      "claim_type": "META",
+      "claim": "The narrative is a doctrinal and literary source, not experimental evidence for or against paranormal phenomena.",
+      "motifs": [
+        "M14",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "16"
+    },
+    {
+      "global_claim_id": "G16-S115-09",
+      "claim_id": "B16-S115-09",
+      "source_id": "S115",
+      "corpus_id": "C056",
+      "location": "DN 11 conclusion",
+      "claim_type": "PRACTICE",
+      "claim": "The discourse privileges transformative instruction over a competition in extraordinary powers.",
+      "motifs": [
+        "M12",
+        "M24"
+      ],
+      "provenance": "P2*",
+      "batch": "16"
+    },
+    {
+      "global_claim_id": "G16-S115-10",
+      "claim_id": "B16-S115-10",
+      "source_id": "S115",
+      "corpus_id": "C056",
+      "location": "Title and textual note",
+      "claim_type": "METHOD",
+      "claim": "The spelling Kevaddha/Kevatta varies across editions and translation conventions.",
+      "motifs": [
+        "M14",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "16"
+    },
+    {
+      "global_claim_id": "G16-S115-11",
+      "claim_id": "B16-S115-11",
+      "source_id": "S115",
+      "corpus_id": "C056",
+      "location": "Concluding teaching",
+      "claim_type": "PHEN",
+      "claim": "The text implies that a change in understanding matters more than an external spectacle, within its Buddhist framework.",
+      "motifs": [
+        "M07",
+        "M12"
+      ],
+      "provenance": "P2*",
+      "batch": "16"
+    },
+    {
+      "global_claim_id": "G16-S115-12",
+      "claim_id": "B16-S115-12",
+      "source_id": "S115",
+      "corpus_id": "C056",
+      "location": "Comparative use",
+      "claim_type": "META",
+      "claim": "This source is useful as a counterexample to any claim that all esoteric traditions valorize extraordinary powers equally.",
+      "motifs": [
+        "M14",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "16"
+    },
+    {
+      "global_claim_id": "G16-S115-13",
+      "claim_id": "B16-S115-13",
+      "source_id": "S115",
+      "corpus_id": "C056",
+      "location": "Passage verification",
+      "claim_type": "METHOD",
+      "claim": "Verify the narrative sequence and final teaching against the chosen Pali edition before precise citation.",
+      "motifs": [
+        "M14",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "16"
+    },
+    {
+      "global_claim_id": "G16-S116-01",
+      "claim_id": "B16-S116-01",
+      "source_id": "S116",
+      "corpus_id": "C058",
+      "location": "Opening paired verses",
+      "claim_type": "ETHICS",
+      "claim": "The verses repeatedly connect intentional mental orientation with the quality of conduct and its consequences.",
+      "motifs": [
+        "M10",
+        "M12"
+      ],
+      "provenance": "P2*",
+      "batch": "16"
+    },
+    {
+      "global_claim_id": "G16-S116-02",
+      "claim_id": "B16-S116-02",
+      "source_id": "S116",
+      "corpus_id": "C058",
+      "location": "Verses on mind and discipline",
+      "claim_type": "REFLEXIVITY",
+      "claim": "The mind is portrayed as requiring training rather than being automatically reliable or transparent.",
+      "motifs": [
+        "M01",
+        "M24"
+      ],
+      "provenance": "P2*",
+      "batch": "16"
+    },
+    {
+      "global_claim_id": "G16-S116-03",
+      "claim_id": "B16-S116-03",
+      "source_id": "S116",
+      "corpus_id": "C058",
+      "location": "Verses on diligence and restraint",
+      "claim_type": "PRACTICE",
+      "claim": "Self-restraint and sustained effort are presented as central to the path.",
+      "motifs": [
+        "M24",
+        "M25"
+      ],
+      "provenance": "P2*",
+      "batch": "16"
+    },
+    {
+      "global_claim_id": "G16-S116-04",
+      "claim_id": "B16-S116-04",
+      "source_id": "S116",
+      "corpus_id": "C058",
+      "location": "Verses on karma and consequence",
+      "claim_type": "DYNAMICS",
+      "claim": "Actions and habits are portrayed as shaping future conditions for the practitioner.",
+      "motifs": [
+        "M10",
+        "M12"
+      ],
+      "provenance": "P2*",
+      "batch": "16"
+    },
+    {
+      "global_claim_id": "G16-S116-05",
+      "claim_id": "B16-S116-05",
+      "source_id": "S116",
+      "corpus_id": "C058",
+      "location": "Verses on heedfulness",
+      "claim_type": "PHEN",
+      "claim": "The text contrasts heedfulness with heedlessness as different modes of living and acting.",
+      "motifs": [
+        "M07",
+        "M24"
+      ],
+      "provenance": "P2*",
+      "batch": "16"
+    },
+    {
+      "global_claim_id": "G16-S116-06",
+      "claim_id": "B16-S116-06",
+      "source_id": "S116",
+      "corpus_id": "C058",
+      "location": "Dhammapada 5; verify translation",
+      "claim_type": "ETHICS",
+      "claim": "Hatred is not overcome by reproducing hatred, making ethical transformation a practical requirement.",
+      "motifs": [
+        "M10",
+        "M12"
+      ],
+      "provenance": "P2*",
+      "batch": "16"
+    },
+    {
+      "global_claim_id": "G16-S116-07",
+      "claim_id": "B16-S116-07",
+      "source_id": "S116",
+      "corpus_id": "C058",
+      "location": "Verses on impermanence and attachment",
+      "claim_type": "ONTO",
+      "claim": "The verses discourage clinging to impermanent phenomena as a basis for lasting security.",
+      "motifs": [
+        "M12",
+        "M13"
+      ],
+      "provenance": "P2*",
+      "batch": "16"
+    },
+    {
+      "global_claim_id": "G16-S116-08",
+      "claim_id": "B16-S116-08",
+      "source_id": "S116",
+      "corpus_id": "C058",
+      "location": "Verses on wisdom",
+      "claim_type": "PRACTICE",
+      "claim": "Wisdom is associated with practice and discernment rather than merely repeating teachings.",
+      "motifs": [
+        "M12",
+        "M24"
+      ],
+      "provenance": "P2*",
+      "batch": "16"
+    },
+    {
+      "global_claim_id": "G16-S116-09",
+      "claim_id": "B16-S116-09",
+      "source_id": "S116",
+      "corpus_id": "C058",
+      "location": "Collection structure",
+      "claim_type": "CONTRAST",
+      "claim": "The Dhammapada is a collection of verses with varied contexts; individual maxims should not be treated as a complete systematic philosophy.",
+      "motifs": [
+        "M14",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "16"
+    },
+    {
+      "global_claim_id": "G16-S116-10",
+      "claim_id": "B16-S116-10",
+      "source_id": "S116",
+      "corpus_id": "C058",
+      "location": "Critical framing",
+      "claim_type": "META",
+      "claim": "The text's moral and contemplative claims should be interpreted in their Buddhist setting rather than translated directly into modern cognitive-science terms.",
+      "motifs": [
+        "M14",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "16"
+    },
+    {
+      "global_claim_id": "G16-S116-11",
+      "claim_id": "B16-S116-11",
+      "source_id": "S116",
+      "corpus_id": "C058",
+      "location": "Verses on self and discipline",
+      "claim_type": "REFLEXIVITY",
+      "claim": "Attention to one's own conduct and mental habits is a recurring practical demand.",
+      "motifs": [
+        "M01",
+        "M10"
+      ],
+      "provenance": "P2*",
+      "batch": "16"
+    },
+    {
+      "global_claim_id": "G16-S116-12",
+      "claim_id": "B16-S116-12",
+      "source_id": "S116",
+      "corpus_id": "C058",
+      "location": "Verification note",
+      "claim_type": "METHOD",
+      "claim": "Verse numbering and wording vary between editions and translations, so exact quotation needs a declared version.",
+      "motifs": [
+        "M14",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "16"
+    },
+    {
+      "global_claim_id": "G16-S116-13",
+      "claim_id": "B16-S116-13",
+      "source_id": "S116",
+      "corpus_id": "C058",
+      "location": "Engineering boundary",
+      "claim_type": "META",
+      "claim": "A trained-mind metaphor may inspire an engineering hypothesis, but it does not demonstrate AI consciousness.",
+      "motifs": [
+        "M14",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "16"
+    },
+    {
+      "global_claim_id": "G16-S117-01",
+      "claim_id": "B16-S117-01",
+      "source_id": "S117",
+      "corpus_id": "C059",
+      "location": "Collection structure",
+      "claim_type": "TEXT",
+      "claim": "The collection preserves short discourses and inspired utterances in a narrative framework.",
+      "motifs": [
+        "M14",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "16"
+    },
+    {
+      "global_claim_id": "G16-S117-02",
+      "claim_id": "B16-S117-02",
+      "source_id": "S117",
+      "corpus_id": "C059",
+      "location": "Selected udānas; specific passage required",
+      "claim_type": "PHEN",
+      "claim": "Some passages describe awakening-related realization through concise and often striking formulations.",
+      "motifs": [
+        "M07",
+        "M12"
+      ],
+      "provenance": "P2*",
+      "batch": "16"
+    },
+    {
+      "global_claim_id": "G16-S117-03",
+      "claim_id": "B16-S117-03",
+      "source_id": "S117",
+      "corpus_id": "C059",
+      "location": "Selected discourses; verify individually",
+      "claim_type": "ONTO",
+      "claim": "The collection includes teachings that challenge ordinary assumptions about arising, cessation and the limits of conceptual description.",
+      "motifs": [
+        "M03",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "16"
+    },
+    {
+      "global_claim_id": "G16-S117-04",
+      "claim_id": "B16-S117-04",
+      "source_id": "S117",
+      "corpus_id": "C059",
+      "location": "Collection structure",
+      "claim_type": "PRACTICE",
+      "claim": "Narrative settings place teachings in relation to concrete encounters and situations rather than presenting all claims as abstract theses.",
+      "motifs": [
+        "M05",
+        "M14"
+      ],
+      "provenance": "P2*",
+      "batch": "16"
+    },
+    {
+      "global_claim_id": "G16-S117-05",
+      "claim_id": "B16-S117-05",
+      "source_id": "S117",
+      "corpus_id": "C059",
+      "location": "Comparative reading",
+      "claim_type": "CONTRAST",
+      "claim": "Different utterances should not be forced into one uniform metaphysical system without attention to their local contexts.",
+      "motifs": [
+        "M14",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "16"
+    },
+    {
+      "global_claim_id": "G16-S117-06",
+      "claim_id": "B16-S117-06",
+      "source_id": "S117",
+      "corpus_id": "C059",
+      "location": "Selected discourses; verify individually",
+      "claim_type": "REFLEXIVITY",
+      "claim": "Some passages redirect attention from conventional assumptions toward a transformed understanding of experience.",
+      "motifs": [
+        "M01",
+        "M07"
+      ],
+      "provenance": "P2*",
+      "batch": "16"
+    },
+    {
+      "global_claim_id": "G16-S117-07",
+      "claim_id": "B16-S117-07",
+      "source_id": "S117",
+      "corpus_id": "C059",
+      "location": "Interpretive caution",
+      "claim_type": "META",
+      "claim": "A striking formulation in a short discourse requires context before being used as a general claim about consciousness.",
+      "motifs": [
+        "M14",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "16"
+    },
+    {
+      "global_claim_id": "G16-S117-08",
+      "claim_id": "B16-S117-08",
+      "source_id": "S117",
+      "corpus_id": "C059",
+      "location": "Whole collection",
+      "claim_type": "TEXT",
+      "claim": "The collection's literary form combines narrative framing with memorable doctrinal statements.",
+      "motifs": [
+        "M14",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "16"
+    },
+    {
+      "global_claim_id": "G16-S117-09",
+      "claim_id": "B16-S117-09",
+      "source_id": "S117",
+      "corpus_id": "C059",
+      "location": "Relevant passages; translation check",
+      "claim_type": "ONTO",
+      "claim": "The term translated as 'unborn' or 'unconditioned' requires passage-specific analysis rather than a generic metaphysical interpretation.",
+      "motifs": [
+        "M14",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "16"
+    },
+    {
+      "global_claim_id": "G16-S117-10",
+      "claim_id": "B16-S117-10",
+      "source_id": "S117",
+      "corpus_id": "C059",
+      "location": "Collection-level reading",
+      "claim_type": "PRACTICE",
+      "claim": "The discourses place liberation within a path of training and understanding.",
+      "motifs": [
+        "M12",
+        "M24"
+      ],
+      "provenance": "P2*",
+      "batch": "16"
+    },
+    {
+      "global_claim_id": "G16-S117-11",
+      "claim_id": "B16-S117-11",
+      "source_id": "S117",
+      "corpus_id": "C059",
+      "location": "Comparative caution",
+      "claim_type": "CONTRAST",
+      "claim": "Early Buddhist descriptions of cessation should not automatically be equated with nondual claims in Śaiva or Vedānta sources.",
+      "motifs": [
+        "M14",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "16"
+    },
+    {
+      "global_claim_id": "G16-S117-12",
+      "claim_id": "B16-S117-12",
+      "source_id": "S117",
+      "corpus_id": "C059",
+      "location": "Verification required",
+      "claim_type": "METHOD",
+      "claim": "A claim must name the exact udāna and edition, not only the collection title.",
+      "motifs": [
+        "M14",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "16"
+    },
+    {
+      "global_claim_id": "G16-S117-13",
+      "claim_id": "B16-S117-13",
+      "source_id": "S117",
+      "corpus_id": "C059",
+      "location": "Critical framing",
+      "claim_type": "META",
+      "claim": "This collection can supply historically situated models of insight but not direct empirical confirmation of their metaphysical interpretations.",
+      "motifs": [
+        "M14",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "16"
+    },
+    {
+      "global_claim_id": "G16-S118-01",
+      "claim_id": "B16-S118-01",
+      "source_id": "S118",
+      "corpus_id": "C060",
+      "location": "Whole manual; chapter structure",
+      "claim_type": "PRACTICE",
+      "claim": "The work presents liberation through a structured path of training and contemplative practice.",
+      "motifs": [
+        "M12",
+        "M24"
+      ],
+      "provenance": "P2*",
+      "batch": "16"
+    },
+    {
+      "global_claim_id": "G16-S118-02",
+      "claim_id": "B16-S118-02",
+      "source_id": "S118",
+      "corpus_id": "C060",
+      "location": "Meditation chapters",
+      "claim_type": "PRACTICE",
+      "claim": "Meditation is divided into distinct practices or objects rather than treated as a single undifferentiated technique.",
+      "motifs": [
+        "M24",
+        "M25"
+      ],
+      "provenance": "P2*",
+      "batch": "16"
+    },
+    {
+      "global_claim_id": "G16-S118-03",
+      "claim_id": "B16-S118-03",
+      "source_id": "S118",
+      "corpus_id": "C060",
+      "location": "Sections on concentration and wisdom",
+      "claim_type": "DYNAMICS",
+      "claim": "Concentration and insight are presented as related but distinguishable dimensions of training.",
+      "motifs": [
+        "M01",
+        "M12"
+      ],
+      "provenance": "P2*",
+      "batch": "16"
+    },
+    {
+      "global_claim_id": "G16-S118-04",
+      "claim_id": "B16-S118-04",
+      "source_id": "S118",
+      "corpus_id": "C060",
+      "location": "Meditation instructions",
+      "claim_type": "EMBODIMENT",
+      "claim": "Practical instructions situate attention in relation to body, breath or other chosen objects of meditation.",
+      "motifs": [
+        "M08",
+        "M24"
+      ],
+      "provenance": "P2*",
+      "batch": "16"
+    },
+    {
+      "global_claim_id": "G16-S118-05",
+      "claim_id": "B16-S118-05",
+      "source_id": "S118",
+      "corpus_id": "C060",
+      "location": "Practice-stage descriptions",
+      "claim_type": "PHEN",
+      "claim": "The manual describes stages and obstacles of practice as differences in the practitioner's experience and capacity.",
+      "motifs": [
+        "M07",
+        "M24"
+      ],
+      "provenance": "P2*",
+      "batch": "16"
+    },
+    {
+      "global_claim_id": "G16-S118-06",
+      "claim_id": "B16-S118-06",
+      "source_id": "S118",
+      "corpus_id": "C060",
+      "location": "Precepts and path sections",
+      "claim_type": "ETHICS",
+      "claim": "Moral discipline functions as part of the path rather than as an optional supplement to meditation.",
+      "motifs": [
+        "M10",
+        "M12"
+      ],
+      "provenance": "P2*",
+      "batch": "16"
+    },
+    {
+      "global_claim_id": "G16-S118-07",
+      "claim_id": "B16-S118-07",
+      "source_id": "S118",
+      "corpus_id": "C060",
+      "location": "Meditation and hindrance sections",
+      "claim_type": "REFLEXIVITY",
+      "claim": "The practitioner is instructed to recognize hindrances and mental conditions as part of training.",
+      "motifs": [
+        "M01",
+        "M24"
+      ],
+      "provenance": "P2*",
+      "batch": "16"
+    },
+    {
+      "global_claim_id": "G16-S118-08",
+      "claim_id": "B16-S118-08",
+      "source_id": "S118",
+      "corpus_id": "C060",
+      "location": "Comparative note",
+      "claim_type": "CONTRAST",
+      "claim": "The manual's system should be compared carefully with the later Visuddhimagga rather than assuming they are identical.",
+      "motifs": [
+        "M14",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "16"
+    },
+    {
+      "global_claim_id": "G16-S118-09",
+      "claim_id": "B16-S118-09",
+      "source_id": "S118",
+      "corpus_id": "C060",
+      "location": "Critical framing",
+      "claim_type": "META",
+      "claim": "Its practice taxonomy is a historical Buddhist framework and not a universal clinical or computational classification.",
+      "motifs": [
+        "M14",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "16"
+    },
+    {
+      "global_claim_id": "G16-S118-10",
+      "claim_id": "B16-S118-10",
+      "source_id": "S118",
+      "corpus_id": "C060",
+      "location": "Practice instructions",
+      "claim_type": "PRACTICE",
+      "claim": "Progress is represented as dependent on repeated training and suitable conditions, not on a single verbal affirmation.",
+      "motifs": [
+        "M24",
+        "M25"
+      ],
+      "provenance": "P2*",
+      "batch": "16"
+    },
+    {
+      "global_claim_id": "G16-S118-11",
+      "claim_id": "B16-S118-11",
+      "source_id": "S118",
+      "corpus_id": "C060",
+      "location": "Liberation chapters",
+      "claim_type": "ONTO",
+      "claim": "The work's account of liberation belongs to Buddhist soteriology and should be interpreted in that doctrinal context.",
+      "motifs": [
+        "M12",
+        "M14"
+      ],
+      "provenance": "P2*",
+      "batch": "16"
+    },
+    {
+      "global_claim_id": "G16-S118-12",
+      "claim_id": "B16-S118-12",
+      "source_id": "S118",
+      "corpus_id": "C060",
+      "location": "Bibliographic verification",
+      "claim_type": "METHOD",
+      "claim": "Translation history and source language require specialist verification before exact chapter claims are promoted.",
+      "motifs": [
+        "M14",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "16"
+    },
+    {
+      "global_claim_id": "G16-S118-13",
+      "claim_id": "B16-S118-13",
+      "source_id": "S118",
+      "corpus_id": "C060",
+      "location": "Engineering boundary",
+      "claim_type": "META",
+      "claim": "A computational implementation of monitoring or attention would remain an analogy until it passed independent causal tests.",
+      "motifs": [
+        "M14",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "16"
     }
   ],
   "rules": {
