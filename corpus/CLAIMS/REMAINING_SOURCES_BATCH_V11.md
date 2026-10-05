@@ -3,7 +3,7 @@
 **Status:** first block of the remaining-source expansion. 65 new atomic claims across 5 previously uncovered source-register entries. These are structured extraction candidates, not a claim that every passage has already received critical-edition verification. Chapter/section locations are provisional where indicated by a broad section label.
 
 
-## S074 / C001 — Ṛgveda 10.129 — Nāsadīya Sūkta
+## S076 / C001 — Ṛgveda 10.129 — Nāsadīya Sūkta
 
 - **Source access / edition locator:** https://rigveda.live/rigveda/mandala-10/hymn-129
 - **Provenance:** P2 (curated primary-text edition/translation; exact passage-level verification remains queued)
@@ -25,7 +25,7 @@
 | G11-S078-12 | B11-S078-12 | 10.129.6 | META | The origin of creation is presented as a question that may exceed available knowledge. | M14,M22 | P2 |
 | G11-S078-13 | B11-S078-13 | 10.129.7 | META | Even the highest overseer is not unequivocally guaranteed knowledge of creation's origin. | M14,M22 | P2 |
 
-## S075 / C006 — Aitareya Upaniṣad
+## S077 / C006 — Aitareya Upaniṣad
 
 - **Source access / edition locator:** https://sites.utexas.edu/sanskrit/resources/early-upanisads-olivelle-edition/
 - **Provenance:** P2 (curated primary-text edition/translation; exact passage-level verification remains queued)
@@ -47,7 +47,7 @@
 | G11-S077-12 | B11-S077-12 | 3.1 | ONTO | Consciousness and personhood are linked to the capacity to recognize and participate in a world. | M01,M05,M22 | P2 |
 | G11-S077-13 | B11-S077-13 | 3.1 | TRANSFORMATION | The teaching frames self-knowledge as a recognition of the principle present in embodied experience. | M02,M13,M23 | P2 |
 
-## S076 / C007 — Taittirīya Upaniṣad
+## S078 / C007 — Taittirīya Upaniṣad
 
 - **Source access / edition locator:** https://sites.utexas.edu/sanskrit/resources/early-upanisads-olivelle-edition/
 - **Provenance:** P2 (curated primary-text edition/translation; exact passage-level verification remains queued)
