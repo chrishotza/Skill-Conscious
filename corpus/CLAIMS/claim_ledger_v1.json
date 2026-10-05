@@ -1,8 +1,8 @@
 {
   "schema_version": "1.0",
-  "claim_count": 1585,
-  "global_claim_count": 1585,
-  "source_count": 118,
+  "claim_count": 1715,
+  "global_claim_count": 1715,
+  "source_count": 128,
   "records": [
     {
       "global_claim_id": "G1-S001-K01",
@@ -24601,6 +24601,1978 @@
       ],
       "provenance": "P2*",
       "batch": "16"
+    },
+    {
+      "global_claim_id": "G17-S119-01",
+      "claim_id": "B17-S119-01",
+      "source_id": "S119",
+      "corpus_id": "C061",
+      "location": "Whole work",
+      "claim_type": "TEXT",
+      "claim": "The work organizes the Buddhist path as a systematic training toward purification and liberation.",
+      "motifs": [
+        "M12",
+        "M23",
+        "M25"
+      ],
+      "provenance": "P2*",
+      "batch": "17"
+    },
+    {
+      "global_claim_id": "G17-S119-02",
+      "claim_id": "B17-S119-02",
+      "source_id": "S119",
+      "corpus_id": "C061",
+      "location": "Practice/path sections",
+      "claim_type": "PRACTICE",
+      "claim": "It presents ethical discipline, concentration, and wisdom as mutually related aspects of training.",
+      "motifs": [
+        "M12",
+        "M24",
+        "M25"
+      ],
+      "provenance": "P2*",
+      "batch": "17"
+    },
+    {
+      "global_claim_id": "G17-S119-03",
+      "claim_id": "B17-S119-03",
+      "source_id": "S119",
+      "corpus_id": "C061",
+      "location": "Practice/path sections",
+      "claim_type": "PRACTICE",
+      "claim": "The text describes a large set of meditation objects used to develop concentration.",
+      "motifs": [
+        "M23",
+        "M24",
+        "M25"
+      ],
+      "provenance": "P2*",
+      "batch": "17"
+    },
+    {
+      "global_claim_id": "G17-S119-04",
+      "claim_id": "B17-S119-04",
+      "source_id": "S119",
+      "corpus_id": "C061",
+      "location": "Relevant thematic sections",
+      "claim_type": "STATE",
+      "claim": "Meditative absorption is described as producing distinctive organized states of mind.",
+      "motifs": [
+        "M07",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "17"
+    },
+    {
+      "global_claim_id": "G17-S119-05",
+      "claim_id": "B17-S119-05",
+      "source_id": "S119",
+      "corpus_id": "C061",
+      "location": "Relevant thematic sections",
+      "claim_type": "STATE",
+      "claim": "Insight practice is distinguished from absorption while being able to use concentration as support.",
+      "motifs": [
+        "M12",
+        "M23",
+        "M25"
+      ],
+      "provenance": "P2*",
+      "batch": "17"
+    },
+    {
+      "global_claim_id": "G17-S119-06",
+      "claim_id": "B17-S119-06",
+      "source_id": "S119",
+      "corpus_id": "C061",
+      "location": "Relevant thematic sections",
+      "claim_type": "ONTO",
+      "claim": "The analysis of the aggregates treats them as changing phenomena rather than an enduring self.",
+      "motifs": [
+        "M04",
+        "M11"
+      ],
+      "provenance": "P2*",
+      "batch": "17"
+    },
+    {
+      "global_claim_id": "G17-S119-07",
+      "claim_id": "B17-S119-07",
+      "source_id": "S119",
+      "corpus_id": "C061",
+      "location": "Relevant thematic sections",
+      "claim_type": "CAUSAL",
+      "claim": "Dependent origination is presented as a conditional process linking ignorance, formations, cognition and later factors.",
+      "motifs": [
+        "M11",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "17"
+    },
+    {
+      "global_claim_id": "G17-S119-08",
+      "claim_id": "B17-S119-08",
+      "source_id": "S119",
+      "corpus_id": "C061",
+      "location": "Relevant thematic sections",
+      "claim_type": "PHEN",
+      "claim": "Insight attends to arising, passing, internal and external aspects of conditioned experience.",
+      "motifs": [
+        "M01",
+        "M07",
+        "M11"
+      ],
+      "provenance": "P2*",
+      "batch": "17"
+    },
+    {
+      "global_claim_id": "G17-S119-09",
+      "claim_id": "B17-S119-09",
+      "source_id": "S119",
+      "corpus_id": "C061",
+      "location": "Relevant thematic sections",
+      "claim_type": "TRANSFORMATION",
+      "claim": "Purification is described as a sequence in which insight changes the practitioner's organization of mind.",
+      "motifs": [
+        "M12",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "17"
+    },
+    {
+      "global_claim_id": "G17-S119-10",
+      "claim_id": "B17-S119-10",
+      "source_id": "S119",
+      "corpus_id": "C061",
+      "location": "Relevant thematic sections",
+      "claim_type": "ONTO",
+      "claim": "The path culminates in knowledge oriented toward Nibbana, treated as distinct from conditioned phenomena.",
+      "motifs": [
+        "M11",
+        "M14"
+      ],
+      "provenance": "P2*",
+      "batch": "17"
+    },
+    {
+      "global_claim_id": "G17-S119-11",
+      "claim_id": "B17-S119-11",
+      "source_id": "S119",
+      "corpus_id": "C061",
+      "location": "Practice/path sections",
+      "claim_type": "PRACTICE",
+      "claim": "Mindfulness and careful attention are used to examine bodily and mental processes rather than merely memorize doctrines.",
+      "motifs": [
+        "M01",
+        "M24",
+        "M25"
+      ],
+      "provenance": "P2*",
+      "batch": "17"
+    },
+    {
+      "global_claim_id": "G17-S119-12",
+      "claim_id": "B17-S119-12",
+      "source_id": "S119",
+      "corpus_id": "C061",
+      "location": "Relevant thematic sections",
+      "claim_type": "VALENCE",
+      "claim": "The removal of defilements and obstacles is treated as a change in what constrains or colors cognition.",
+      "motifs": [
+        "M10",
+        "M12"
+      ],
+      "provenance": "P2*",
+      "batch": "17"
+    },
+    {
+      "global_claim_id": "G17-S119-13",
+      "claim_id": "B17-S119-13",
+      "source_id": "S119",
+      "corpus_id": "C061",
+      "location": "Relevant thematic sections",
+      "claim_type": "META",
+      "claim": "The work is a historical Theravada doctrinal and contemplative synthesis; its soteriological claims are source claims, not laboratory findings.",
+      "motifs": [
+        "M14",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "17"
+    },
+    {
+      "global_claim_id": "G17-S120-01",
+      "claim_id": "B17-S120-01",
+      "source_id": "S120",
+      "corpus_id": "C062",
+      "location": "Relevant thematic sections",
+      "claim_type": "RELATION",
+      "claim": "The chariot analogy explains a person in terms of parts and a conventional designation rather than a separate essence.",
+      "motifs": [
+        "M02",
+        "M04",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "17"
+    },
+    {
+      "global_claim_id": "G17-S120-02",
+      "claim_id": "B17-S120-02",
+      "source_id": "S120",
+      "corpus_id": "C062",
+      "location": "Relevant thematic sections",
+      "claim_type": "ONTO",
+      "claim": "Nāgasena argues that no permanent individual soul is found over and above the physical and mental constituents.",
+      "motifs": [
+        "M02",
+        "M04"
+      ],
+      "provenance": "P2*",
+      "batch": "17"
+    },
+    {
+      "global_claim_id": "G17-S120-03",
+      "claim_id": "B17-S120-03",
+      "source_id": "S120",
+      "corpus_id": "C062",
+      "location": "Relevant thematic sections",
+      "claim_type": "META",
+      "claim": "Personal names are treated as conventional designations for an organized collection of conditions.",
+      "motifs": [
+        "M04",
+        "M05"
+      ],
+      "provenance": "P2*",
+      "batch": "17"
+    },
+    {
+      "global_claim_id": "G17-S120-04",
+      "claim_id": "B17-S120-04",
+      "source_id": "S120",
+      "corpus_id": "C062",
+      "location": "Relevant thematic sections",
+      "claim_type": "TEMPORAL",
+      "claim": "Continuity across time is discussed without requiring the exact same entity to persist unchanged.",
+      "motifs": [
+        "M11",
+        "M19"
+      ],
+      "provenance": "P2*",
+      "batch": "17"
+    },
+    {
+      "global_claim_id": "G17-S120-05",
+      "claim_id": "B17-S120-05",
+      "source_id": "S120",
+      "corpus_id": "C062",
+      "location": "Relevant thematic sections",
+      "claim_type": "CAUSAL",
+      "claim": "Rebirth is explained through causal continuity rather than a simple transfer of an unchanged soul.",
+      "motifs": [
+        "M11",
+        "M19"
+      ],
+      "provenance": "P2*",
+      "batch": "17"
+    },
+    {
+      "global_claim_id": "G17-S120-06",
+      "claim_id": "B17-S120-06",
+      "source_id": "S120",
+      "corpus_id": "C062",
+      "location": "Relevant thematic sections",
+      "claim_type": "RELATION",
+      "claim": "The relation between present and future life is compared using analogies such as flame and causation.",
+      "motifs": [
+        "M11",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "17"
+    },
+    {
+      "global_claim_id": "G17-S120-07",
+      "claim_id": "B17-S120-07",
+      "source_id": "S120",
+      "corpus_id": "C062",
+      "location": "Relevant thematic sections",
+      "claim_type": "META",
+      "claim": "The dialogue distinguishes what is conventionally said from what is ultimately analyzed.",
+      "motifs": [
+        "M02",
+        "M14"
+      ],
+      "provenance": "P2*",
+      "batch": "17"
+    },
+    {
+      "global_claim_id": "G17-S120-08",
+      "claim_id": "B17-S120-08",
+      "source_id": "S120",
+      "corpus_id": "C062",
+      "location": "Relevant thematic sections",
+      "claim_type": "STATE",
+      "claim": "Mental and physical factors are treated as processes whose conditions matter for continuity.",
+      "motifs": [
+        "M07",
+        "M11"
+      ],
+      "provenance": "P2*",
+      "batch": "17"
+    },
+    {
+      "global_claim_id": "G17-S120-09",
+      "claim_id": "B17-S120-09",
+      "source_id": "S120",
+      "corpus_id": "C062",
+      "location": "Relevant thematic sections",
+      "claim_type": "CAUSAL",
+      "claim": "Karmic consequences are treated as dependent on actions and conditions rather than on an eternal personal substance.",
+      "motifs": [
+        "M10",
+        "M11"
+      ],
+      "provenance": "P2*",
+      "batch": "17"
+    },
+    {
+      "global_claim_id": "G17-S120-10",
+      "claim_id": "B17-S120-10",
+      "source_id": "S120",
+      "corpus_id": "C062",
+      "location": "Relevant thematic sections",
+      "claim_type": "REFLEXIVITY",
+      "claim": "Questions about who remembers, acts, and receives results are used to probe identity across change.",
+      "motifs": [
+        "M02",
+        "M11",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "17"
+    },
+    {
+      "global_claim_id": "G17-S120-11",
+      "claim_id": "B17-S120-11",
+      "source_id": "S120",
+      "corpus_id": "C062",
+      "location": "Relevant thematic sections",
+      "claim_type": "CONTRAST",
+      "claim": "The discussion explicitly resists both the idea of an unchanged self and the idea that causal succession becomes entirely disconnected.",
+      "motifs": [
+        "M02",
+        "M11"
+      ],
+      "provenance": "P2*",
+      "batch": "17"
+    },
+    {
+      "global_claim_id": "G17-S120-12",
+      "claim_id": "B17-S120-12",
+      "source_id": "S120",
+      "corpus_id": "C062",
+      "location": "Whole work",
+      "claim_type": "TEXT",
+      "claim": "The work uses a dialogical method in which analogies are deployed to test philosophical positions.",
+      "motifs": [
+        "M14",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "17"
+    },
+    {
+      "global_claim_id": "G17-S120-13",
+      "claim_id": "B17-S120-13",
+      "source_id": "S120",
+      "corpus_id": "C062",
+      "location": "Relevant thematic sections",
+      "claim_type": "META",
+      "claim": "Its account of identity is a historical Buddhist philosophical argument, not an empirical demonstration about artificial agents.",
+      "motifs": [
+        "M14",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "17"
+    },
+    {
+      "global_claim_id": "G17-S121-01",
+      "claim_id": "B17-S121-01",
+      "source_id": "S121",
+      "corpus_id": "C063",
+      "location": "Relevant thematic sections",
+      "claim_type": "ONTO",
+      "claim": "The work classifies ultimate reality into consciousness, mental factors, matter, and Nibbana.",
+      "motifs": [
+        "M02",
+        "M06",
+        "M14"
+      ],
+      "provenance": "P2*",
+      "batch": "17"
+    },
+    {
+      "global_claim_id": "G17-S121-02",
+      "claim_id": "B17-S121-02",
+      "source_id": "S121",
+      "corpus_id": "C063",
+      "location": "Relevant thematic sections",
+      "claim_type": "STATE",
+      "claim": "Consciousness is divided into broad classes spanning sense-sphere, fine-material, immaterial and supramundane modes.",
+      "motifs": [
+        "M07",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "17"
+    },
+    {
+      "global_claim_id": "G17-S121-03",
+      "claim_id": "B17-S121-03",
+      "source_id": "S121",
+      "corpus_id": "C063",
+      "location": "Relevant thematic sections",
+      "claim_type": "ONTO",
+      "claim": "The text enumerates differentiated types of citta rather than treating consciousness as one undifferentiated substance.",
+      "motifs": [
+        "M03",
+        "M07"
+      ],
+      "provenance": "P2*",
+      "batch": "17"
+    },
+    {
+      "global_claim_id": "G17-S121-04",
+      "claim_id": "B17-S121-04",
+      "source_id": "S121",
+      "corpus_id": "C063",
+      "location": "Relevant thematic sections",
+      "claim_type": "RELATION",
+      "claim": "Mental factors are defined by their co-arising and co-ceasing relation with consciousness and by sharing its object and base.",
+      "motifs": [
+        "M04",
+        "M05"
+      ],
+      "provenance": "P2*",
+      "batch": "17"
+    },
+    {
+      "global_claim_id": "G17-S121-05",
+      "claim_id": "B17-S121-05",
+      "source_id": "S121",
+      "corpus_id": "C063",
+      "location": "Relevant thematic sections",
+      "claim_type": "ONTO",
+      "claim": "The compendium distinguishes numerous ethically variable, unwholesome and beautiful mental factors.",
+      "motifs": [
+        "M10",
+        "M07"
+      ],
+      "provenance": "P2*",
+      "batch": "17"
+    },
+    {
+      "global_claim_id": "G17-S121-06",
+      "claim_id": "B17-S121-06",
+      "source_id": "S121",
+      "corpus_id": "C063",
+      "location": "Relevant thematic sections",
+      "claim_type": "ATTENTION",
+      "claim": "Attention is counted among universal mental factors that accompany consciousness in the Abhidhamma scheme.",
+      "motifs": [
+        "M24"
+      ],
+      "provenance": "P2*",
+      "batch": "17"
+    },
+    {
+      "global_claim_id": "G17-S121-07",
+      "claim_id": "B17-S121-07",
+      "source_id": "S121",
+      "corpus_id": "C063",
+      "location": "Relevant thematic sections",
+      "claim_type": "VALENCE",
+      "claim": "Feeling, roots, wholesome factors and unwholesome factors differentiate the qualitative and ethical character of mind states.",
+      "motifs": [
+        "M10",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "17"
+    },
+    {
+      "global_claim_id": "G17-S121-08",
+      "claim_id": "B17-S121-08",
+      "source_id": "S121",
+      "corpus_id": "C063",
+      "location": "Relevant thematic sections",
+      "claim_type": "TEMPORAL",
+      "claim": "Citta and associated mental factors are analyzed as momentary events that arise and cease.",
+      "motifs": [
+        "M11",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "17"
+    },
+    {
+      "global_claim_id": "G17-S121-09",
+      "claim_id": "B17-S121-09",
+      "source_id": "S121",
+      "corpus_id": "C063",
+      "location": "Relevant thematic sections",
+      "claim_type": "STATE",
+      "claim": "The system distinguishes ordinary and supramundane consciousness and several meditative planes.",
+      "motifs": [
+        "M07",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "17"
+    },
+    {
+      "global_claim_id": "G17-S121-10",
+      "claim_id": "B17-S121-10",
+      "source_id": "S121",
+      "corpus_id": "C063",
+      "location": "Relevant thematic sections",
+      "claim_type": "CAUSAL",
+      "claim": "The larger Abhidhamma framework explains streams of consciousness through conditions, life-continuum and process sequences.",
+      "motifs": [
+        "M11",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "17"
+    },
+    {
+      "global_claim_id": "G17-S121-11",
+      "claim_id": "B17-S121-11",
+      "source_id": "S121",
+      "corpus_id": "C063",
+      "location": "Relevant thematic sections",
+      "claim_type": "TRANSFORMATION",
+      "claim": "Meditative development changes the type and organization of conscious processes represented in the taxonomy.",
+      "motifs": [
+        "M12",
+        "M23",
+        "M25"
+      ],
+      "provenance": "P2*",
+      "batch": "17"
+    },
+    {
+      "global_claim_id": "G17-S121-12",
+      "claim_id": "B17-S121-12",
+      "source_id": "S121",
+      "corpus_id": "C063",
+      "location": "Relevant thematic sections",
+      "claim_type": "METHOD",
+      "claim": "The classification is intended as an analytic map for understanding mind processes, not merely as a list of introspective labels.",
+      "motifs": [
+        "M06",
+        "M25"
+      ],
+      "provenance": "P2*",
+      "batch": "17"
+    },
+    {
+      "global_claim_id": "G17-S121-13",
+      "claim_id": "B17-S121-13",
+      "source_id": "S121",
+      "corpus_id": "C063",
+      "location": "Relevant thematic sections",
+      "claim_type": "META",
+      "claim": "The compendium is a Theravada scholastic system; its categories should not be silently equated with contemporary cognitive-science variables.",
+      "motifs": [
+        "M14",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "17"
+    },
+    {
+      "global_claim_id": "G17-S122-01",
+      "claim_id": "B17-S122-01",
+      "source_id": "S122",
+      "corpus_id": "C064",
+      "location": "Relevant thematic sections",
+      "claim_type": "ONTO",
+      "claim": "The analysis treats persons as composites of conditioned factors rather than as independently existing selves.",
+      "motifs": [
+        "M02",
+        "M04"
+      ],
+      "provenance": "P2*",
+      "batch": "17"
+    },
+    {
+      "global_claim_id": "G17-S122-02",
+      "claim_id": "B17-S122-02",
+      "source_id": "S122",
+      "corpus_id": "C064",
+      "location": "Relevant thematic sections",
+      "claim_type": "ONTO",
+      "claim": "The five aggregates and other dharmas provide an analytic framework for describing experience.",
+      "motifs": [
+        "M03",
+        "M04",
+        "M07"
+      ],
+      "provenance": "P2*",
+      "batch": "17"
+    },
+    {
+      "global_claim_id": "G17-S122-03",
+      "claim_id": "B17-S122-03",
+      "source_id": "S122",
+      "corpus_id": "C064",
+      "location": "Relevant thematic sections",
+      "claim_type": "CAUSAL",
+      "claim": "Conditioned phenomena are explained through networks of causal relations and conditions.",
+      "motifs": [
+        "M05",
+        "M11"
+      ],
+      "provenance": "P2*",
+      "batch": "17"
+    },
+    {
+      "global_claim_id": "G17-S122-04",
+      "claim_id": "B17-S122-04",
+      "source_id": "S122",
+      "corpus_id": "C064",
+      "location": "Relevant thematic sections",
+      "claim_type": "TEMPORAL",
+      "claim": "The text analyzes how karmic efficacy and continuity can be preserved without a permanent self.",
+      "motifs": [
+        "M11",
+        "M19"
+      ],
+      "provenance": "P2*",
+      "batch": "17"
+    },
+    {
+      "global_claim_id": "G17-S122-05",
+      "claim_id": "B17-S122-05",
+      "source_id": "S122",
+      "corpus_id": "C064",
+      "location": "Relevant thematic sections",
+      "claim_type": "META",
+      "claim": "The denial of an inherent self is used as an argument against treating persons as substances with independent essence.",
+      "motifs": [
+        "M02",
+        "M04"
+      ],
+      "provenance": "P2*",
+      "batch": "17"
+    },
+    {
+      "global_claim_id": "G17-S122-06",
+      "claim_id": "B17-S122-06",
+      "source_id": "S122",
+      "corpus_id": "C064",
+      "location": "Relevant thematic sections",
+      "claim_type": "STATE",
+      "claim": "Different classes of dharmas and mental events are distinguished according to their functions and conditions.",
+      "motifs": [
+        "M07",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "17"
+    },
+    {
+      "global_claim_id": "G17-S122-07",
+      "claim_id": "B17-S122-07",
+      "source_id": "S122",
+      "corpus_id": "C064",
+      "location": "Relevant thematic sections",
+      "claim_type": "VALENCE",
+      "claim": "Wholesome and unwholesome factors have consequences within the causal stream of experience and action.",
+      "motifs": [
+        "M10",
+        "M11"
+      ],
+      "provenance": "P2*",
+      "batch": "17"
+    },
+    {
+      "global_claim_id": "G17-S122-08",
+      "claim_id": "B17-S122-08",
+      "source_id": "S122",
+      "corpus_id": "C064",
+      "location": "Relevant thematic sections",
+      "claim_type": "CAUSAL",
+      "claim": "Karma is modeled through causal efficacy rather than through a permanent agent that carries an essence unchanged.",
+      "motifs": [
+        "M10",
+        "M11"
+      ],
+      "provenance": "P2*",
+      "batch": "17"
+    },
+    {
+      "global_claim_id": "G17-S122-09",
+      "claim_id": "B17-S122-09",
+      "source_id": "S122",
+      "corpus_id": "C064",
+      "location": "Relevant thematic sections",
+      "claim_type": "REFLEXIVITY",
+      "claim": "Debates about the person probe whether a conventionally designated subject is anything over and above its components and relations.",
+      "motifs": [
+        "M02",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "17"
+    },
+    {
+      "global_claim_id": "G17-S122-10",
+      "claim_id": "B17-S122-10",
+      "source_id": "S122",
+      "corpus_id": "C064",
+      "location": "Relevant thematic sections",
+      "claim_type": "ONTO",
+      "claim": "Later Yogacara developments associated with Vasubandhu distinguish appearance, dependence and perfected nature rather than accepting naive realism.",
+      "motifs": [
+        "M05",
+        "M14"
+      ],
+      "provenance": "P2*",
+      "batch": "17"
+    },
+    {
+      "global_claim_id": "G17-S122-11",
+      "claim_id": "B17-S122-11",
+      "source_id": "S122",
+      "corpus_id": "C064",
+      "location": "Relevant thematic sections",
+      "claim_type": "RELATION",
+      "claim": "A thing's apparent identity can be analyzed through the causal process that produces its appearance.",
+      "motifs": [
+        "M05",
+        "M11"
+      ],
+      "provenance": "P2*",
+      "batch": "17"
+    },
+    {
+      "global_claim_id": "G17-S122-12",
+      "claim_id": "B17-S122-12",
+      "source_id": "S122",
+      "corpus_id": "C064",
+      "location": "Relevant thematic sections",
+      "claim_type": "CONTRAST",
+      "claim": "The Treasury's analytic strategy differs in important respects from later Yogacara formulations; they should not be collapsed.",
+      "motifs": [
+        "M14",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "17"
+    },
+    {
+      "global_claim_id": "G17-S122-13",
+      "claim_id": "B17-S122-13",
+      "source_id": "S122",
+      "corpus_id": "C064",
+      "location": "Relevant thematic sections",
+      "claim_type": "META",
+      "claim": "The work is a historical philosophical system, so its ontological claims remain distinct from modern empirical claims about consciousness.",
+      "motifs": [
+        "M14",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "17"
+    },
+    {
+      "global_claim_id": "G17-S123-01",
+      "claim_id": "B17-S123-01",
+      "source_id": "S123",
+      "corpus_id": "C065",
+      "location": "Relevant thematic sections",
+      "claim_type": "META",
+      "claim": "The text presents a method for distinguishing the extremes of permanence and annihilation.",
+      "motifs": [
+        "M14",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "17"
+    },
+    {
+      "global_claim_id": "G17-S123-02",
+      "claim_id": "B17-S123-02",
+      "source_id": "S123",
+      "corpus_id": "C065",
+      "location": "Relevant thematic sections",
+      "claim_type": "ONTO",
+      "claim": "It analyzes reality through fabricated, dependent and perfected aspects within a Yogacara framework.",
+      "motifs": [
+        "M03",
+        "M05",
+        "M14"
+      ],
+      "provenance": "P2*",
+      "batch": "17"
+    },
+    {
+      "global_claim_id": "G17-S123-03",
+      "claim_id": "B17-S123-03",
+      "source_id": "S123",
+      "corpus_id": "C065",
+      "location": "Relevant thematic sections",
+      "claim_type": "RELATION",
+      "claim": "The fabricated aspect concerns how phenomena appear, while the dependent aspect concerns the causal process supporting that appearance.",
+      "motifs": [
+        "M05",
+        "M11"
+      ],
+      "provenance": "P2*",
+      "batch": "17"
+    },
+    {
+      "global_claim_id": "G17-S123-04",
+      "claim_id": "B17-S123-04",
+      "source_id": "S123",
+      "corpus_id": "C065",
+      "location": "Relevant thematic sections",
+      "claim_type": "META",
+      "claim": "The perfected aspect is associated with the absence of the imagined duality attributed to phenomena.",
+      "motifs": [
+        "M03",
+        "M14"
+      ],
+      "provenance": "P2*",
+      "batch": "17"
+    },
+    {
+      "global_claim_id": "G17-S123-05",
+      "claim_id": "B17-S123-05",
+      "source_id": "S123",
+      "corpus_id": "C065",
+      "location": "Relevant thematic sections",
+      "claim_type": "REFLEXIVITY",
+      "claim": "The analysis uses mistaken duality between subject and object as a target of philosophical diagnosis.",
+      "motifs": [
+        "M02",
+        "M04",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "17"
+    },
+    {
+      "global_claim_id": "G17-S123-06",
+      "claim_id": "B17-S123-06",
+      "source_id": "S123",
+      "corpus_id": "C065",
+      "location": "Relevant thematic sections",
+      "claim_type": "CAUSAL",
+      "claim": "Dependent arising remains essential to explaining how appearances are generated and sustained.",
+      "motifs": [
+        "M05",
+        "M11"
+      ],
+      "provenance": "P2*",
+      "batch": "17"
+    },
+    {
+      "global_claim_id": "G17-S123-07",
+      "claim_id": "B17-S123-07",
+      "source_id": "S123",
+      "corpus_id": "C065",
+      "location": "Relevant thematic sections",
+      "claim_type": "ONTO",
+      "claim": "The middle avoids both treating appearances as independently real and treating conditioned experience as simply nonexistent.",
+      "motifs": [
+        "M14",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "17"
+    },
+    {
+      "global_claim_id": "G17-S123-08",
+      "claim_id": "B17-S123-08",
+      "source_id": "S123",
+      "corpus_id": "C065",
+      "location": "Relevant thematic sections",
+      "claim_type": "STATE",
+      "claim": "The work analyzes afflictive and cognitive patterns as conditions that can be transformed through the path.",
+      "motifs": [
+        "M10",
+        "M12",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "17"
+    },
+    {
+      "global_claim_id": "G17-S123-09",
+      "claim_id": "B17-S123-09",
+      "source_id": "S123",
+      "corpus_id": "C065",
+      "location": "Practice/path sections",
+      "claim_type": "PRACTICE",
+      "claim": "The Yogacara path is connected with changing how phenomena are apprehended and understood.",
+      "motifs": [
+        "M12",
+        "M24",
+        "M25"
+      ],
+      "provenance": "P2*",
+      "batch": "17"
+    },
+    {
+      "global_claim_id": "G17-S123-10",
+      "claim_id": "B17-S123-10",
+      "source_id": "S123",
+      "corpus_id": "C065",
+      "location": "Relevant thematic sections",
+      "claim_type": "UNITY",
+      "claim": "The three natures are presented as different ways of characterizing the same field or event rather than three unrelated worlds.",
+      "motifs": [
+        "M03",
+        "M05"
+      ],
+      "provenance": "P2*",
+      "batch": "17"
+    },
+    {
+      "global_claim_id": "G17-S123-11",
+      "claim_id": "B17-S123-11",
+      "source_id": "S123",
+      "corpus_id": "C065",
+      "location": "Relevant thematic sections",
+      "claim_type": "TEMPORAL",
+      "claim": "The dependent side is a process rather than a static essence, so continuity is analyzed dynamically.",
+      "motifs": [
+        "M11",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "17"
+    },
+    {
+      "global_claim_id": "G17-S123-12",
+      "claim_id": "B17-S123-12",
+      "source_id": "S123",
+      "corpus_id": "C065",
+      "location": "Relevant thematic sections",
+      "claim_type": "CONTRAST",
+      "claim": "The text should be compared with Madhyamaka rather than treated as interchangeable with it despite shared emptiness language.",
+      "motifs": [
+        "M14",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "17"
+    },
+    {
+      "global_claim_id": "G17-S123-13",
+      "claim_id": "B17-S123-13",
+      "source_id": "S123",
+      "corpus_id": "C065",
+      "location": "Relevant thematic sections",
+      "claim_type": "META",
+      "claim": "Its three-nature framework is a historical Mahayana philosophical model, not an experimentally established ontology of mind.",
+      "motifs": [
+        "M14",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "17"
+    },
+    {
+      "global_claim_id": "G17-S124-01",
+      "claim_id": "B17-S124-01",
+      "source_id": "S124",
+      "corpus_id": "C066",
+      "location": "Relevant thematic sections",
+      "claim_type": "ONTO",
+      "claim": "The text repeatedly presents a mind-only orientation in which perceived externality is analyzed through consciousness.",
+      "motifs": [
+        "M05",
+        "M21"
+      ],
+      "provenance": "P2*",
+      "batch": "17"
+    },
+    {
+      "global_claim_id": "G17-S124-02",
+      "claim_id": "B17-S124-02",
+      "source_id": "S124",
+      "corpus_id": "C066",
+      "location": "Relevant thematic sections",
+      "claim_type": "ONTO",
+      "claim": "Alayavijnana is presented as a repository or foundational stream related to continuity of cognition.",
+      "motifs": [
+        "M02",
+        "M11"
+      ],
+      "provenance": "P2*",
+      "batch": "17"
+    },
+    {
+      "global_claim_id": "G17-S124-03",
+      "claim_id": "B17-S124-03",
+      "source_id": "S124",
+      "corpus_id": "C066",
+      "location": "Relevant thematic sections",
+      "claim_type": "STATE",
+      "claim": "The text differentiates citta, manas and manovijnana as distinguishable modes or functions of mind.",
+      "motifs": [
+        "M07",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "17"
+    },
+    {
+      "global_claim_id": "G17-S124-04",
+      "claim_id": "B17-S124-04",
+      "source_id": "S124",
+      "corpus_id": "C066",
+      "location": "Relevant thematic sections",
+      "claim_type": "REFLEXIVITY",
+      "claim": "Manas is associated with self-conscious or self-grasping activity within the consciousness system.",
+      "motifs": [
+        "M02",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "17"
+    },
+    {
+      "global_claim_id": "G17-S124-05",
+      "claim_id": "B17-S124-05",
+      "source_id": "S124",
+      "corpus_id": "C066",
+      "location": "Relevant thematic sections",
+      "claim_type": "CAUSAL",
+      "claim": "Karmic seeds and habitual formations are used to explain recurring patterns in the mental stream.",
+      "motifs": [
+        "M11",
+        "M12"
+      ],
+      "provenance": "P2*",
+      "batch": "17"
+    },
+    {
+      "global_claim_id": "G17-S124-06",
+      "claim_id": "B17-S124-06",
+      "source_id": "S124",
+      "corpus_id": "C066",
+      "location": "Relevant thematic sections",
+      "claim_type": "META",
+      "claim": "The text treats dualistic subject-object construction as a source of misunderstanding.",
+      "motifs": [
+        "M04",
+        "M14"
+      ],
+      "provenance": "P2*",
+      "batch": "17"
+    },
+    {
+      "global_claim_id": "G17-S124-07",
+      "claim_id": "B17-S124-07",
+      "source_id": "S124",
+      "corpus_id": "C066",
+      "location": "Practice/path sections",
+      "claim_type": "PRACTICE",
+      "claim": "Meditative realization involves transforming how conceptual discrimination and grasping operate.",
+      "motifs": [
+        "M12",
+        "M24",
+        "M25"
+      ],
+      "provenance": "P2*",
+      "batch": "17"
+    },
+    {
+      "global_claim_id": "G17-S124-08",
+      "claim_id": "B17-S124-08",
+      "source_id": "S124",
+      "corpus_id": "C066",
+      "location": "Relevant thematic sections",
+      "claim_type": "UNITY",
+      "claim": "The text seeks a nondual mode in which the split between perceiver and perceived is overcome.",
+      "motifs": [
+        "M03",
+        "M04",
+        "M13"
+      ],
+      "provenance": "P2*",
+      "batch": "17"
+    },
+    {
+      "global_claim_id": "G17-S124-09",
+      "claim_id": "B17-S124-09",
+      "source_id": "S124",
+      "corpus_id": "C066",
+      "location": "Relevant thematic sections",
+      "claim_type": "STATE",
+      "claim": "The purification or transformation of the alaya is associated with a changed mode of cognition.",
+      "motifs": [
+        "M12",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "17"
+    },
+    {
+      "global_claim_id": "G17-S124-10",
+      "claim_id": "B17-S124-10",
+      "source_id": "S124",
+      "corpus_id": "C066",
+      "location": "Relevant thematic sections",
+      "claim_type": "ONTO",
+      "claim": "Tathagatagarbha language appears in relation to the transformed and purified basis of mind.",
+      "motifs": [
+        "M02",
+        "M15"
+      ],
+      "provenance": "P2*",
+      "batch": "17"
+    },
+    {
+      "global_claim_id": "G17-S124-11",
+      "claim_id": "B17-S124-11",
+      "source_id": "S124",
+      "corpus_id": "C066",
+      "location": "Relevant thematic sections",
+      "claim_type": "TEMPORAL",
+      "claim": "Habitual seeds and their maturation give the mental stream a longitudinal continuity.",
+      "motifs": [
+        "M11",
+        "M17"
+      ],
+      "provenance": "P2*",
+      "batch": "17"
+    },
+    {
+      "global_claim_id": "G17-S124-12",
+      "claim_id": "B17-S124-12",
+      "source_id": "S124",
+      "corpus_id": "C066",
+      "location": "Relevant thematic sections",
+      "claim_type": "CONTRAST",
+      "claim": "Its mind-only claims should not be reduced to the modern slogan that 'everything is subjective'; the text supplies a specific soteriological framework.",
+      "motifs": [
+        "M14",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "17"
+    },
+    {
+      "global_claim_id": "G17-S124-13",
+      "claim_id": "B17-S124-13",
+      "source_id": "S124",
+      "corpus_id": "C066",
+      "location": "Relevant thematic sections",
+      "claim_type": "META",
+      "claim": "The sutra's metaphysical account of consciousness remains a historical Mahayana claim rather than a validated scientific model.",
+      "motifs": [
+        "M14",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "17"
+    },
+    {
+      "global_claim_id": "G17-S125-01",
+      "claim_id": "B17-S125-01",
+      "source_id": "S125",
+      "corpus_id": "C068",
+      "location": "Practice/path sections",
+      "claim_type": "PRACTICE",
+      "claim": "The bodhisattva is instructed to give without dwelling on a fixed object or expectation.",
+      "motifs": [
+        "M24",
+        "M25"
+      ],
+      "provenance": "P2*",
+      "batch": "17"
+    },
+    {
+      "global_claim_id": "G17-S125-02",
+      "claim_id": "B17-S125-02",
+      "source_id": "S125",
+      "corpus_id": "C068",
+      "location": "Relevant thematic sections",
+      "claim_type": "META",
+      "claim": "The text repeatedly treats conventional marks as lacking fixed ultimate status.",
+      "motifs": [
+        "M14",
+        "M17"
+      ],
+      "provenance": "P2*",
+      "batch": "17"
+    },
+    {
+      "global_claim_id": "G17-S125-03",
+      "claim_id": "B17-S125-03",
+      "source_id": "S125",
+      "corpus_id": "C068",
+      "location": "Relevant thematic sections",
+      "claim_type": "REFLEXIVITY",
+      "claim": "Self, other, living beings and life are presented as categories without independent fixed marks.",
+      "motifs": [
+        "M02",
+        "M04"
+      ],
+      "provenance": "P2*",
+      "batch": "17"
+    },
+    {
+      "global_claim_id": "G17-S125-04",
+      "claim_id": "B17-S125-04",
+      "source_id": "S125",
+      "corpus_id": "C068",
+      "location": "Relevant thematic sections",
+      "claim_type": "ONTO",
+      "claim": "The bodhisattva ideal is framed through benefiting beings without reifying a solid agent or recipient.",
+      "motifs": [
+        "M05",
+        "M16"
+      ],
+      "provenance": "P2*",
+      "batch": "17"
+    },
+    {
+      "global_claim_id": "G17-S125-05",
+      "claim_id": "B17-S125-05",
+      "source_id": "S125",
+      "corpus_id": "C068",
+      "location": "Practice/path sections",
+      "claim_type": "PRACTICE",
+      "claim": "Patience is presented as a transformative discipline that does not depend on a fixed self-concept.",
+      "motifs": [
+        "M10",
+        "M12",
+        "M25"
+      ],
+      "provenance": "P2*",
+      "batch": "17"
+    },
+    {
+      "global_claim_id": "G17-S125-06",
+      "claim_id": "B17-S125-06",
+      "source_id": "S125",
+      "corpus_id": "C068",
+      "location": "Relevant thematic sections",
+      "claim_type": "RELATION",
+      "claim": "Generosity is detached from fixation on forms, sounds, smells, tastes, touches or conceptual objects.",
+      "motifs": [
+        "M05",
+        "M24"
+      ],
+      "provenance": "P2*",
+      "batch": "17"
+    },
+    {
+      "global_claim_id": "G17-S125-07",
+      "claim_id": "B17-S125-07",
+      "source_id": "S125",
+      "corpus_id": "C068",
+      "location": "Relevant thematic sections",
+      "claim_type": "META",
+      "claim": "The text distinguishes the use of names and conceptual marks from the ultimate status of what they designate.",
+      "motifs": [
+        "M14",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "17"
+    },
+    {
+      "global_claim_id": "G17-S125-08",
+      "claim_id": "B17-S125-08",
+      "source_id": "S125",
+      "corpus_id": "C068",
+      "location": "Relevant thematic sections",
+      "claim_type": "STATE",
+      "claim": "Fearlessness toward the teaching is portrayed as a significant change in the practitioner's relation to conceptual forms.",
+      "motifs": [
+        "M12",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "17"
+    },
+    {
+      "global_claim_id": "G17-S125-09",
+      "claim_id": "B17-S125-09",
+      "source_id": "S125",
+      "corpus_id": "C068",
+      "location": "Relevant thematic sections",
+      "claim_type": "TRANSFORMATION",
+      "claim": "Hearing, understanding and receiving the teaching are treated as capable of changing the practitioner's orientation.",
+      "motifs": [
+        "M12",
+        "M25"
+      ],
+      "provenance": "P2*",
+      "batch": "17"
+    },
+    {
+      "global_claim_id": "G17-S125-10",
+      "claim_id": "B17-S125-10",
+      "source_id": "S125",
+      "corpus_id": "C068",
+      "location": "Relevant thematic sections",
+      "claim_type": "CONTRAST",
+      "claim": "The text does not simply reject conventional distinctions; it uses them while denying that they possess independent fixed essence.",
+      "motifs": [
+        "M04",
+        "M14"
+      ],
+      "provenance": "P2*",
+      "batch": "17"
+    },
+    {
+      "global_claim_id": "G17-S125-11",
+      "claim_id": "B17-S125-11",
+      "source_id": "S125",
+      "corpus_id": "C068",
+      "location": "Relevant thematic sections",
+      "claim_type": "UNITY",
+      "claim": "Non-abiding is presented as freedom from fixation rather than as absence of engagement with the world.",
+      "motifs": [
+        "M03",
+        "M05"
+      ],
+      "provenance": "P2*",
+      "batch": "17"
+    },
+    {
+      "global_claim_id": "G17-S125-12",
+      "claim_id": "B17-S125-12",
+      "source_id": "S125",
+      "corpus_id": "C068",
+      "location": "Relevant thematic sections",
+      "claim_type": "META",
+      "claim": "Claims about emptiness and liberation belong to the Mahayana doctrinal framework and require historical/textual interpretation.",
+      "motifs": [
+        "M14",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "17"
+    },
+    {
+      "global_claim_id": "G17-S125-13",
+      "claim_id": "B17-S125-13",
+      "source_id": "S125",
+      "corpus_id": "C068",
+      "location": "Practice/path sections",
+      "claim_type": "PRACTICE",
+      "claim": "The text's recurring instruction is to act compassionately without turning the action into an identity-defining possession.",
+      "motifs": [
+        "M10",
+        "M16",
+        "M25"
+      ],
+      "provenance": "P2*",
+      "batch": "17"
+    },
+    {
+      "global_claim_id": "G17-S126-01",
+      "claim_id": "B17-S126-01",
+      "source_id": "S126",
+      "corpus_id": "C070",
+      "location": "Relevant thematic sections",
+      "claim_type": "ONTO",
+      "claim": "The text presents a buddha element as present within sentient beings.",
+      "motifs": [
+        "M02",
+        "M15"
+      ],
+      "provenance": "P2*",
+      "batch": "17"
+    },
+    {
+      "global_claim_id": "G17-S126-02",
+      "claim_id": "B17-S126-02",
+      "source_id": "S126",
+      "corpus_id": "C070",
+      "location": "Relevant thematic sections",
+      "claim_type": "RELATION",
+      "claim": "The underlying buddha element is described as present even while ordinary beings remain obscured by afflictions.",
+      "motifs": [
+        "M04",
+        "M12"
+      ],
+      "provenance": "P2*",
+      "batch": "17"
+    },
+    {
+      "global_claim_id": "G17-S126-03",
+      "claim_id": "B17-S126-03",
+      "source_id": "S126",
+      "corpus_id": "C070",
+      "location": "Relevant thematic sections",
+      "claim_type": "HIDDEN",
+      "claim": "The tradition uses the language of concealment to distinguish an underlying potential from its ordinary appearance.",
+      "motifs": [
+        "M17",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "17"
+    },
+    {
+      "global_claim_id": "G17-S126-04",
+      "claim_id": "B17-S126-04",
+      "source_id": "S126",
+      "corpus_id": "C070",
+      "location": "Relevant thematic sections",
+      "claim_type": "TRANSFORMATION",
+      "claim": "Removing obscuring afflictions is presented as allowing the latent buddha nature to manifest.",
+      "motifs": [
+        "M12",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "17"
+    },
+    {
+      "global_claim_id": "G17-S126-05",
+      "claim_id": "B17-S126-05",
+      "source_id": "S126",
+      "corpus_id": "C070",
+      "location": "Relevant thematic sections",
+      "claim_type": "META",
+      "claim": "The text uses nine similes to articulate the relationship between hidden buddha nature and visible obscuration.",
+      "motifs": [
+        "M14",
+        "M17"
+      ],
+      "provenance": "P2*",
+      "batch": "17"
+    },
+    {
+      "global_claim_id": "G17-S126-06",
+      "claim_id": "B17-S126-06",
+      "source_id": "S126",
+      "corpus_id": "C070",
+      "location": "Relevant thematic sections",
+      "claim_type": "UNITY",
+      "claim": "The underlying buddha nature is portrayed as a common element across sentient beings.",
+      "motifs": [
+        "M03",
+        "M15"
+      ],
+      "provenance": "P2*",
+      "batch": "17"
+    },
+    {
+      "global_claim_id": "G17-S126-07",
+      "claim_id": "B17-S126-07",
+      "source_id": "S126",
+      "corpus_id": "C070",
+      "location": "Relevant thematic sections",
+      "claim_type": "PHEN",
+      "claim": "Ordinary beings are said not to recognize the buddhahood present within them.",
+      "motifs": [
+        "M01",
+        "M02",
+        "M13"
+      ],
+      "provenance": "P2*",
+      "batch": "17"
+    },
+    {
+      "global_claim_id": "G17-S126-08",
+      "claim_id": "B17-S126-08",
+      "source_id": "S126",
+      "corpus_id": "C070",
+      "location": "Practice/path sections",
+      "claim_type": "PRACTICE",
+      "claim": "The path functions as a process of removing obscurations rather than creating an entirely new ultimate nature.",
+      "motifs": [
+        "M12",
+        "M25"
+      ],
+      "provenance": "P2*",
+      "batch": "17"
+    },
+    {
+      "global_claim_id": "G17-S126-09",
+      "claim_id": "B17-S126-09",
+      "source_id": "S126",
+      "corpus_id": "C070",
+      "location": "Relevant thematic sections",
+      "claim_type": "STATE",
+      "claim": "Afflictions and awakening are treated as different conditions of the same stream of beings.",
+      "motifs": [
+        "M07",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "17"
+    },
+    {
+      "global_claim_id": "G17-S126-10",
+      "claim_id": "B17-S126-10",
+      "source_id": "S126",
+      "corpus_id": "C070",
+      "location": "Relevant thematic sections",
+      "claim_type": "RELATION",
+      "claim": "The distinction between underlying nature and adventitious stains allows a difference between identity and current condition.",
+      "motifs": [
+        "M02",
+        "M11"
+      ],
+      "provenance": "P2*",
+      "batch": "17"
+    },
+    {
+      "global_claim_id": "G17-S126-11",
+      "claim_id": "B17-S126-11",
+      "source_id": "S126",
+      "corpus_id": "C070",
+      "location": "Relevant thematic sections",
+      "claim_type": "META",
+      "claim": "The doctrine has a complex relationship to other Buddhist accounts of emptiness and no-self and should not be assumed to teach a simple permanent soul.",
+      "motifs": [
+        "M14",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "17"
+    },
+    {
+      "global_claim_id": "G17-S126-12",
+      "claim_id": "B17-S126-12",
+      "source_id": "S126",
+      "corpus_id": "C070",
+      "location": "Relevant thematic sections",
+      "claim_type": "CONTRAST",
+      "claim": "Later commentarial traditions interpret tathagatagarbha in different ways; the sutra should not be collapsed into every later buddha-nature doctrine.",
+      "motifs": [
+        "M14",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "17"
+    },
+    {
+      "global_claim_id": "G17-S126-13",
+      "claim_id": "B17-S126-13",
+      "source_id": "S126",
+      "corpus_id": "C070",
+      "location": "Relevant thematic sections",
+      "claim_type": "META",
+      "claim": "The text is a Mahayana soteriological source; its metaphysical claims are preserved as historical doctrine rather than empirical fact.",
+      "motifs": [
+        "M14",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "17"
+    },
+    {
+      "global_claim_id": "G17-S127-01",
+      "claim_id": "B17-S127-01",
+      "source_id": "S127",
+      "corpus_id": "C071",
+      "location": "Relevant thematic sections",
+      "claim_type": "ONTO",
+      "claim": "The treatise begins from the idea of one mind that contains both mundane and supramundane dharmas.",
+      "motifs": [
+        "M03",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "17"
+    },
+    {
+      "global_claim_id": "G17-S127-02",
+      "claim_id": "B17-S127-02",
+      "source_id": "S127",
+      "corpus_id": "C071",
+      "location": "Relevant thematic sections",
+      "claim_type": "STATE",
+      "claim": "One Mind is analyzed through two inseparable aspects: suchness and arising-and-ceasing.",
+      "motifs": [
+        "M07",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "17"
+    },
+    {
+      "global_claim_id": "G17-S127-03",
+      "claim_id": "B17-S127-03",
+      "source_id": "S127",
+      "corpus_id": "C071",
+      "location": "Relevant thematic sections",
+      "claim_type": "META",
+      "claim": "Suchness is described as beyond ordinary conceptual distinctions and not simply one object among others.",
+      "motifs": [
+        "M14",
+        "M15"
+      ],
+      "provenance": "P2*",
+      "batch": "17"
+    },
+    {
+      "global_claim_id": "G17-S127-04",
+      "claim_id": "B17-S127-04",
+      "source_id": "S127",
+      "corpus_id": "C071",
+      "location": "Relevant thematic sections",
+      "claim_type": "CAUSAL",
+      "claim": "Ignorance and habituation are used to explain how defiled and pure patterns arise within the changing mind.",
+      "motifs": [
+        "M11",
+        "M12"
+      ],
+      "provenance": "P2*",
+      "batch": "17"
+    },
+    {
+      "global_claim_id": "G17-S127-05",
+      "claim_id": "B17-S127-05",
+      "source_id": "S127",
+      "corpus_id": "C071",
+      "location": "Relevant thematic sections",
+      "claim_type": "ONTO",
+      "claim": "The text connects the arising-and-ceasing aspect with alayavijnana and tathagatagarbha language.",
+      "motifs": [
+        "M02",
+        "M11"
+      ],
+      "provenance": "P2*",
+      "batch": "17"
+    },
+    {
+      "global_claim_id": "G17-S127-06",
+      "claim_id": "B17-S127-06",
+      "source_id": "S127",
+      "corpus_id": "C071",
+      "location": "Relevant thematic sections",
+      "claim_type": "TRANSFORMATION",
+      "claim": "The treatise distinguishes non-enlightenment, initial awakening and fuller realization as stages of transformation.",
+      "motifs": [
+        "M12",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "17"
+    },
+    {
+      "global_claim_id": "G17-S127-07",
+      "claim_id": "B17-S127-07",
+      "source_id": "S127",
+      "corpus_id": "C071",
+      "location": "Relevant thematic sections",
+      "claim_type": "REFLEXIVITY",
+      "claim": "Awakening involves a change in how mind recognizes its own nature rather than only adding external information.",
+      "motifs": [
+        "M02",
+        "M13"
+      ],
+      "provenance": "P2*",
+      "batch": "17"
+    },
+    {
+      "global_claim_id": "G17-S127-08",
+      "claim_id": "B17-S127-08",
+      "source_id": "S127",
+      "corpus_id": "C071",
+      "location": "Relevant thematic sections",
+      "claim_type": "RELATION",
+      "claim": "Truth and delusion are presented as dynamically related rather than as two unrelated substances.",
+      "motifs": [
+        "M05",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "17"
+    },
+    {
+      "global_claim_id": "G17-S127-09",
+      "claim_id": "B17-S127-09",
+      "source_id": "S127",
+      "corpus_id": "C071",
+      "location": "Practice/path sections",
+      "claim_type": "PRACTICE",
+      "claim": "The path includes cultivation intended to reduce habitual delusion and stabilize realization.",
+      "motifs": [
+        "M24",
+        "M25"
+      ],
+      "provenance": "P2*",
+      "batch": "17"
+    },
+    {
+      "global_claim_id": "G17-S127-10",
+      "claim_id": "B17-S127-10",
+      "source_id": "S127",
+      "corpus_id": "C071",
+      "location": "Relevant thematic sections",
+      "claim_type": "META",
+      "claim": "Suchness is described as not increasing or decreasing through the changing states of ordinary beings.",
+      "motifs": [
+        "M11",
+        "M14"
+      ],
+      "provenance": "P2*",
+      "batch": "17"
+    },
+    {
+      "global_claim_id": "G17-S127-11",
+      "claim_id": "B17-S127-11",
+      "source_id": "S127",
+      "corpus_id": "C071",
+      "location": "Relevant thematic sections",
+      "claim_type": "DYNAMICS",
+      "claim": "Habituation functions as a mechanism by which repeated conditions shape the manifest character of mind.",
+      "motifs": [
+        "M09",
+        "M11",
+        "M12"
+      ],
+      "provenance": "P2*",
+      "batch": "17"
+    },
+    {
+      "global_claim_id": "G17-S127-12",
+      "claim_id": "B17-S127-12",
+      "source_id": "S127",
+      "corpus_id": "C071",
+      "location": "Relevant thematic sections",
+      "claim_type": "CONTRAST",
+      "claim": "The text belongs to a distinctive East Asian Mahayana synthesis and should not be treated as interchangeable with early Buddhist or Yogacara formulations.",
+      "motifs": [
+        "M14",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "17"
+    },
+    {
+      "global_claim_id": "G17-S127-13",
+      "claim_id": "B17-S127-13",
+      "source_id": "S127",
+      "corpus_id": "C071",
+      "location": "Relevant thematic sections",
+      "claim_type": "META",
+      "claim": "The work's historical authorship and transmission are debated; claims here should remain tied to the text and its commentarial history.",
+      "motifs": [
+        "M14",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "17"
+    },
+    {
+      "global_claim_id": "G17-S128-01",
+      "claim_id": "B17-S128-01",
+      "source_id": "S128",
+      "corpus_id": "C074",
+      "location": "Practice/path sections",
+      "claim_type": "PRACTICE",
+      "claim": "The text presents bodhicitta, the aspiration for awakening, as a central organizing motivation of the bodhisattva path.",
+      "motifs": [
+        "M10",
+        "M12",
+        "M25"
+      ],
+      "provenance": "P2*",
+      "batch": "17"
+    },
+    {
+      "global_claim_id": "G17-S128-02",
+      "claim_id": "B17-S128-02",
+      "source_id": "S128",
+      "corpus_id": "C074",
+      "location": "Relevant thematic sections",
+      "claim_type": "VALENCE",
+      "claim": "Compassion and concern for other beings are treated as transformative orientations rather than incidental emotions.",
+      "motifs": [
+        "M10",
+        "M16"
+      ],
+      "provenance": "P2*",
+      "batch": "17"
+    },
+    {
+      "global_claim_id": "G17-S128-03",
+      "claim_id": "B17-S128-03",
+      "source_id": "S128",
+      "corpus_id": "C074",
+      "location": "Relevant thematic sections",
+      "claim_type": "TRANSFORMATION",
+      "claim": "The cultivation of bodhicitta is portrayed as changing the practitioner's motives and behavior.",
+      "motifs": [
+        "M12",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "17"
+    },
+    {
+      "global_claim_id": "G17-S128-04",
+      "claim_id": "B17-S128-04",
+      "source_id": "S128",
+      "corpus_id": "C074",
+      "location": "Practice/path sections",
+      "claim_type": "PRACTICE",
+      "claim": "Patience, generosity, ethical conduct and meditative discipline are developed as trainable capacities.",
+      "motifs": [
+        "M10",
+        "M24",
+        "M25"
+      ],
+      "provenance": "P2*",
+      "batch": "17"
+    },
+    {
+      "global_claim_id": "G17-S128-05",
+      "claim_id": "B17-S128-05",
+      "source_id": "S128",
+      "corpus_id": "C074",
+      "location": "Relevant thematic sections",
+      "claim_type": "META",
+      "claim": "The text argues that suffering and self-concern can be analyzed without positing a substantial permanent self.",
+      "motifs": [
+        "M02",
+        "M04"
+      ],
+      "provenance": "P2*",
+      "batch": "17"
+    },
+    {
+      "global_claim_id": "G17-S128-06",
+      "claim_id": "B17-S128-06",
+      "source_id": "S128",
+      "corpus_id": "C074",
+      "location": "Relevant thematic sections",
+      "claim_type": "ONTO",
+      "claim": "Emptiness is presented as the absence of intrinsic self-nature in phenomena rather than simple nothingness.",
+      "motifs": [
+        "M14",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "17"
+    },
+    {
+      "global_claim_id": "G17-S128-07",
+      "claim_id": "B17-S128-07",
+      "source_id": "S128",
+      "corpus_id": "C074",
+      "location": "Relevant thematic sections",
+      "claim_type": "CAUSAL",
+      "claim": "The text links distorted self-grasping with suffering and the cultivation of wisdom with its reduction.",
+      "motifs": [
+        "M10",
+        "M12"
+      ],
+      "provenance": "P2*",
+      "batch": "17"
+    },
+    {
+      "global_claim_id": "G17-S128-08",
+      "claim_id": "B17-S128-08",
+      "source_id": "S128",
+      "corpus_id": "C074",
+      "location": "Relevant thematic sections",
+      "claim_type": "REFLEXIVITY",
+      "claim": "Arguments about self and other turn ordinary self-preference into an object of examination.",
+      "motifs": [
+        "M02",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "17"
+    },
+    {
+      "global_claim_id": "G17-S128-09",
+      "claim_id": "B17-S128-09",
+      "source_id": "S128",
+      "corpus_id": "C074",
+      "location": "Relevant thematic sections",
+      "claim_type": "RELATION",
+      "claim": "The identity of a person is analyzed through causal processes rather than as an independent owner of experiences.",
+      "motifs": [
+        "M04",
+        "M05"
+      ],
+      "provenance": "P2*",
+      "batch": "17"
+    },
+    {
+      "global_claim_id": "G17-S128-10",
+      "claim_id": "B17-S128-10",
+      "source_id": "S128",
+      "corpus_id": "C074",
+      "location": "Relevant thematic sections",
+      "claim_type": "STATE",
+      "claim": "Meditative training is described as changing the stability and organization of attention and emotion.",
+      "motifs": [
+        "M23",
+        "M24"
+      ],
+      "provenance": "P2*",
+      "batch": "17"
+    },
+    {
+      "global_claim_id": "G17-S128-11",
+      "claim_id": "B17-S128-11",
+      "source_id": "S128",
+      "corpus_id": "C074",
+      "location": "Relevant thematic sections",
+      "claim_type": "TEMPORAL",
+      "claim": "Spiritual development is cumulative: repeated practice builds dispositions that affect later conduct and realization.",
+      "motifs": [
+        "M11",
+        "M12"
+      ],
+      "provenance": "P2*",
+      "batch": "17"
+    },
+    {
+      "global_claim_id": "G17-S128-12",
+      "claim_id": "B17-S128-12",
+      "source_id": "S128",
+      "corpus_id": "C074",
+      "location": "Relevant thematic sections",
+      "claim_type": "META",
+      "claim": "The text combines conventional ethical action with analysis of ultimate emptiness rather than choosing only one level.",
+      "motifs": [
+        "M03",
+        "M14"
+      ],
+      "provenance": "P2*",
+      "batch": "17"
+    },
+    {
+      "global_claim_id": "G17-S128-13",
+      "claim_id": "B17-S128-13",
+      "source_id": "S128",
+      "corpus_id": "C074",
+      "location": "Relevant thematic sections",
+      "claim_type": "CONTRAST",
+      "claim": "Śāntideva's arguments about no-self and emptiness should be distinguished from later metaphysical interpretations that read them as a single monolithic doctrine.",
+      "motifs": [
+        "M14",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "17"
     }
   ],
   "rules": {
