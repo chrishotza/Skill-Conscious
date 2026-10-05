@@ -1,0 +1,2153 @@
+{
+  "schema_version": "1.0-append",
+  "base_ledger": "claim_ledger_v1.json",
+  "batch": "37",
+  "claim_count": 143,
+  "records": [
+    {
+      "global_claim_id": "G37-S318-K01",
+      "claim_id": "K01",
+      "source_id": "S318",
+      "corpus_id": "C314",
+      "location": "Archetypes and the Collective Unconscious",
+      "claim_type": "ARCHETYPE",
+      "claim": "Jung describes archetypes as structural patterns of the collective unconscious that shape recurrent forms of imagination, symbolism and behavior.",
+      "motifs": [
+        "M03",
+        "M15"
+      ],
+      "provenance": "P2*",
+      "batch": "37"
+    },
+    {
+      "global_claim_id": "G37-S318-K02",
+      "claim_id": "K02",
+      "source_id": "S318",
+      "corpus_id": "C314",
+      "location": "Archetypes and the Collective Unconscious",
+      "claim_type": "COLLECTIVE_UNCONSCIOUS",
+      "claim": "The collective unconscious is distinguished from the personal unconscious and is proposed as a deeper layer of psychic structure common to human beings.",
+      "motifs": [
+        "M02",
+        "M15"
+      ],
+      "provenance": "P2*",
+      "batch": "37"
+    },
+    {
+      "global_claim_id": "G37-S318-K03",
+      "claim_id": "K03",
+      "source_id": "S318",
+      "corpus_id": "C314",
+      "location": "Archetypes and the Collective Unconscious",
+      "claim_type": "SYMBOL",
+      "claim": "Archetypal contents typically become available to consciousness through symbolic images, myths, dreams and fantasies rather than as literal propositions.",
+      "motifs": [
+        "M01",
+        "M06"
+      ],
+      "provenance": "P2*",
+      "batch": "37"
+    },
+    {
+      "global_claim_id": "G37-S318-K04",
+      "claim_id": "K04",
+      "source_id": "S318",
+      "corpus_id": "C314",
+      "location": "Archetypes and the Collective Unconscious",
+      "claim_type": "MOTHER",
+      "claim": "The mother archetype is treated as a recurring symbolic pattern with multiple manifestations rather than as a single biographical image.",
+      "motifs": [
+        "M02",
+        "M15"
+      ],
+      "provenance": "P2*",
+      "batch": "37"
+    },
+    {
+      "global_claim_id": "G37-S318-K05",
+      "claim_id": "K05",
+      "source_id": "S318",
+      "corpus_id": "C314",
+      "location": "Archetypes and the Collective Unconscious",
+      "claim_type": "ANIMA",
+      "claim": "The anima concept is used to describe a structured unconscious figure associated with the male psyche in Jung's model.",
+      "motifs": [
+        "M02",
+        "M16"
+      ],
+      "provenance": "P2*",
+      "batch": "37"
+    },
+    {
+      "global_claim_id": "G37-S318-K06",
+      "claim_id": "K06",
+      "source_id": "S318",
+      "corpus_id": "C314",
+      "location": "Archetypes and the Collective Unconscious",
+      "claim_type": "INDIVIDUATION",
+      "claim": "Jung connects awareness of unconscious contents with individuation, a process of differentiating and integrating aspects of the psyche.",
+      "motifs": [
+        "M12",
+        "M16"
+      ],
+      "provenance": "P2*",
+      "batch": "37"
+    },
+    {
+      "global_claim_id": "G37-S318-K07",
+      "claim_id": "K07",
+      "source_id": "S318",
+      "corpus_id": "C314",
+      "location": "Archetypes and the Collective Unconscious",
+      "claim_type": "PROJECTION",
+      "claim": "Unconscious archetypal contents can be projected onto people or external objects, making their psychic origin harder to recognize.",
+      "motifs": [
+        "M02",
+        "M05"
+      ],
+      "provenance": "P2*",
+      "batch": "37"
+    },
+    {
+      "global_claim_id": "G37-S318-K08",
+      "claim_id": "K08",
+      "source_id": "S318",
+      "corpus_id": "C314",
+      "location": "Archetypes and the Collective Unconscious",
+      "claim_type": "CONSCIOUS_UNCONSCIOUS",
+      "claim": "Psychological development involves an ongoing relation between conscious awareness and unconscious processes rather than total identification with either.",
+      "motifs": [
+        "M01",
+        "M02"
+      ],
+      "provenance": "P2*",
+      "batch": "37"
+    },
+    {
+      "global_claim_id": "G37-S318-K09",
+      "claim_id": "K09",
+      "source_id": "S318",
+      "corpus_id": "C314",
+      "location": "Archetypes and the Collective Unconscious",
+      "claim_type": "MYTH",
+      "claim": "Mythological motifs are treated as culturally variable expressions of recurring psychic patterns.",
+      "motifs": [
+        "M15",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "37"
+    },
+    {
+      "global_claim_id": "G37-S318-K10",
+      "claim_id": "K10",
+      "source_id": "S318",
+      "corpus_id": "C314",
+      "location": "Archetypes and the Collective Unconscious",
+      "claim_type": "TEMPORAL",
+      "claim": "Archetypal patterns can persist across historical change while taking different symbolic forms in particular cultures.",
+      "motifs": [
+        "M11",
+        "M15"
+      ],
+      "provenance": "P2*",
+      "batch": "37"
+    },
+    {
+      "global_claim_id": "G37-S318-K11",
+      "claim_id": "K11",
+      "source_id": "S318",
+      "corpus_id": "C314",
+      "location": "Archetypes and the Collective Unconscious",
+      "claim_type": "META",
+      "claim": "The archetype theory is a depth-psychological framework and should not be silently converted into a claim that archetypes are experimentally verified universal neural modules.",
+      "motifs": [
+        "M14",
+        "M17"
+      ],
+      "provenance": "P2*",
+      "batch": "37"
+    },
+    {
+      "global_claim_id": "G37-S318-K12",
+      "claim_id": "K12",
+      "source_id": "S318",
+      "corpus_id": "C314",
+      "location": "Archetypes and the Collective Unconscious",
+      "claim_type": "CONTRAST",
+      "claim": "The collective unconscious is conceptually distinct from a social archive or simple inherited memory of specific events.",
+      "motifs": [
+        "M04",
+        "M15"
+      ],
+      "provenance": "P2*",
+      "batch": "37"
+    },
+    {
+      "global_claim_id": "G37-S318-K13",
+      "claim_id": "K13",
+      "source_id": "S318",
+      "corpus_id": "C314",
+      "location": "Archetypes and the Collective Unconscious",
+      "claim_type": "PRACTICE",
+      "claim": "The source is most useful for comparative analysis when symbolic phenomenology, psychological interpretation and ontological claims are coded separately.",
+      "motifs": [
+        "M24",
+        "M25"
+      ],
+      "provenance": "P2*",
+      "batch": "37"
+    },
+    {
+      "global_claim_id": "G37-S319-K01",
+      "claim_id": "K01",
+      "source_id": "S319",
+      "corpus_id": "C315",
+      "location": "Aion",
+      "claim_type": "SELF",
+      "claim": "Aion centers on the phenomenology of the Self and its relation to conscious ego identity.",
+      "motifs": [
+        "M02",
+        "M16"
+      ],
+      "provenance": "P2*",
+      "batch": "37"
+    },
+    {
+      "global_claim_id": "G37-S319-K02",
+      "claim_id": "K02",
+      "source_id": "S319",
+      "corpus_id": "C315",
+      "location": "Aion",
+      "claim_type": "SHADOW",
+      "claim": "The shadow represents relatively unconscious aspects of personality that can be encountered through self-observation and projection.",
+      "motifs": [
+        "M02",
+        "M16"
+      ],
+      "provenance": "P2*",
+      "batch": "37"
+    },
+    {
+      "global_claim_id": "G37-S319-K03",
+      "claim_id": "K03",
+      "source_id": "S319",
+      "corpus_id": "C315",
+      "location": "Aion",
+      "claim_type": "ANIMA",
+      "claim": "Anima and animus are treated as archetypal structures whose projections can strongly shape interpersonal experience.",
+      "motifs": [
+        "M02",
+        "M05"
+      ],
+      "provenance": "P2*",
+      "batch": "37"
+    },
+    {
+      "global_claim_id": "G37-S319-K04",
+      "claim_id": "K04",
+      "source_id": "S319",
+      "corpus_id": "C315",
+      "location": "Aion",
+      "claim_type": "PROJECTION",
+      "claim": "Recognition of projection is part of the process through which unconscious material can become psychologically differentiated.",
+      "motifs": [
+        "M06",
+        "M16"
+      ],
+      "provenance": "P2*",
+      "batch": "37"
+    },
+    {
+      "global_claim_id": "G37-S319-K05",
+      "claim_id": "K05",
+      "source_id": "S319",
+      "corpus_id": "C315",
+      "location": "Aion",
+      "claim_type": "COLLECTIVE_UNCONSCIOUS",
+      "claim": "Jung explicitly situates the shadow, anima and animus within his account of the collective unconscious.",
+      "motifs": [
+        "M03",
+        "M15"
+      ],
+      "provenance": "P2*",
+      "batch": "37"
+    },
+    {
+      "global_claim_id": "G37-S319-K06",
+      "claim_id": "K06",
+      "source_id": "S319",
+      "corpus_id": "C315",
+      "location": "Aion",
+      "claim_type": "SELF_EGO",
+      "claim": "The Self is broader than the conscious ego and is used to represent a more comprehensive organization of psyche.",
+      "motifs": [
+        "M02",
+        "M16"
+      ],
+      "provenance": "P2*",
+      "batch": "37"
+    },
+    {
+      "global_claim_id": "G37-S319-K07",
+      "claim_id": "K07",
+      "source_id": "S319",
+      "corpus_id": "C315",
+      "location": "Aion",
+      "claim_type": "INDIVIDUATION",
+      "claim": "Integration of shadow material is described as an early movement in individuation and further development of the personality.",
+      "motifs": [
+        "M12",
+        "M16"
+      ],
+      "provenance": "P2*",
+      "batch": "37"
+    },
+    {
+      "global_claim_id": "G37-S319-K08",
+      "claim_id": "K08",
+      "source_id": "S319",
+      "corpus_id": "C315",
+      "location": "Aion",
+      "claim_type": "RELATION",
+      "claim": "Psychological growth occurs partly through recognizing how inner structures shape one's relations with other people.",
+      "motifs": [
+        "M05",
+        "M16"
+      ],
+      "provenance": "P2*",
+      "batch": "37"
+    },
+    {
+      "global_claim_id": "G37-S319-K09",
+      "claim_id": "K09",
+      "source_id": "S319",
+      "corpus_id": "C315",
+      "location": "Aion",
+      "claim_type": "CONTRAST",
+      "claim": "Archetypal structures are not identical to conscious self-concepts or deliberate beliefs.",
+      "motifs": [
+        "M04",
+        "M02"
+      ],
+      "provenance": "P2*",
+      "batch": "37"
+    },
+    {
+      "global_claim_id": "G37-S319-K10",
+      "claim_id": "K10",
+      "source_id": "S319",
+      "corpus_id": "C315",
+      "location": "Aion",
+      "claim_type": "TEMPORAL",
+      "claim": "Aion places psychic development within historical and symbolic patterns that recur across periods.",
+      "motifs": [
+        "M11",
+        "M15"
+      ],
+      "provenance": "P2*",
+      "batch": "37"
+    },
+    {
+      "global_claim_id": "G37-S319-K11",
+      "claim_id": "K11",
+      "source_id": "S319",
+      "corpus_id": "C315",
+      "location": "Aion",
+      "claim_type": "META",
+      "claim": "Aion is a Jungian psychological and symbolic framework, not a demonstrated account of universal neural architecture.",
+      "motifs": [
+        "M14",
+        "M17"
+      ],
+      "provenance": "P2*",
+      "batch": "37"
+    },
+    {
+      "global_claim_id": "G37-S319-K12",
+      "claim_id": "K12",
+      "source_id": "S319",
+      "corpus_id": "C315",
+      "location": "Aion",
+      "claim_type": "TRANSFORMATION",
+      "claim": "Individuation requires transformation in the relation between conscious identity and unconscious material rather than simple accumulation of information.",
+      "motifs": [
+        "M12",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "37"
+    },
+    {
+      "global_claim_id": "G37-S319-K13",
+      "claim_id": "K13",
+      "source_id": "S319",
+      "corpus_id": "C315",
+      "location": "Aion",
+      "claim_type": "PRACTICE",
+      "claim": "The text supports coding shadow, projection, anima/animus and Self as distinct motifs rather than collapsing them into a single 'unconscious' category.",
+      "motifs": [
+        "M24",
+        "M25"
+      ],
+      "provenance": "P2*",
+      "batch": "37"
+    },
+    {
+      "global_claim_id": "G37-S320-K01",
+      "claim_id": "K01",
+      "source_id": "S320",
+      "corpus_id": "C316",
+      "location": "Mysterium Coniunctionis",
+      "claim_type": "CONIUNCTIO",
+      "claim": "Jung interprets alchemical coniunctio imagery as a symbolic representation of the union of psychological opposites.",
+      "motifs": [
+        "M03",
+        "M15"
+      ],
+      "provenance": "P2*",
+      "batch": "37"
+    },
+    {
+      "global_claim_id": "G37-S320-K02",
+      "claim_id": "K02",
+      "source_id": "S320",
+      "corpus_id": "C316",
+      "location": "Mysterium Coniunctionis",
+      "claim_type": "OPPOSITES",
+      "claim": "The work analyzes paired opposites such as masculine/feminine, spirit/soul and conscious/unconscious as central symbolic structures.",
+      "motifs": [
+        "M04",
+        "M02"
+      ],
+      "provenance": "P2*",
+      "batch": "37"
+    },
+    {
+      "global_claim_id": "G37-S320-K03",
+      "claim_id": "K03",
+      "source_id": "S320",
+      "corpus_id": "C316",
+      "location": "Mysterium Coniunctionis",
+      "claim_type": "SELF",
+      "claim": "The union of opposites is related to the emergence of a more complete sense of Self and psychic wholeness.",
+      "motifs": [
+        "M02",
+        "M16"
+      ],
+      "provenance": "P2*",
+      "batch": "37"
+    },
+    {
+      "global_claim_id": "G37-S320-K04",
+      "claim_id": "K04",
+      "source_id": "S320",
+      "corpus_id": "C316",
+      "location": "Mysterium Coniunctionis",
+      "claim_type": "ALCHEMY",
+      "claim": "Alchemy is read psychologically, with its procedures and substances treated as projections of inner processes.",
+      "motifs": [
+        "M03",
+        "M14"
+      ],
+      "provenance": "P2*",
+      "batch": "37"
+    },
+    {
+      "global_claim_id": "G37-S320-K05",
+      "claim_id": "K05",
+      "source_id": "S320",
+      "corpus_id": "C316",
+      "location": "Mysterium Coniunctionis",
+      "claim_type": "INDIVIDUATION",
+      "claim": "The conjunction is compared with stages of individuation in which previously separated aspects of personality are brought into relation.",
+      "motifs": [
+        "M12",
+        "M16"
+      ],
+      "provenance": "P2*",
+      "batch": "37"
+    },
+    {
+      "global_claim_id": "G37-S320-K06",
+      "claim_id": "K06",
+      "source_id": "S320",
+      "corpus_id": "C316",
+      "location": "Mysterium Coniunctionis",
+      "claim_type": "DEATH_REBIRTH",
+      "claim": "Alchemical death-and-rebirth symbolism is interpreted as a model for psychological transformation.",
+      "motifs": [
+        "M10",
+        "M12"
+      ],
+      "provenance": "P2*",
+      "batch": "37"
+    },
+    {
+      "global_claim_id": "G37-S320-K07",
+      "claim_id": "K07",
+      "source_id": "S320",
+      "corpus_id": "C316",
+      "location": "Mysterium Coniunctionis",
+      "claim_type": "BODY_SOUL",
+      "claim": "The work explores symbolic relations between body and soul and the need to integrate rather than simply suppress their difference.",
+      "motifs": [
+        "M08",
+        "M16"
+      ],
+      "provenance": "P2*",
+      "batch": "37"
+    },
+    {
+      "global_claim_id": "G37-S320-K08",
+      "claim_id": "K08",
+      "source_id": "S320",
+      "corpus_id": "C316",
+      "location": "Mysterium Coniunctionis",
+      "claim_type": "PARADOX",
+      "claim": "Jung emphasizes paradoxical images that hold opposed qualities together rather than reducing them to one side.",
+      "motifs": [
+        "M04",
+        "M14"
+      ],
+      "provenance": "P2*",
+      "batch": "37"
+    },
+    {
+      "global_claim_id": "G37-S320-K09",
+      "claim_id": "K09",
+      "source_id": "S320",
+      "corpus_id": "C316",
+      "location": "Mysterium Coniunctionis",
+      "claim_type": "CONSCIOUSNESS",
+      "claim": "The alchemical symbols are interpreted as expressions of dynamics between consciousness and unconsciousness.",
+      "motifs": [
+        "M01",
+        "M02"
+      ],
+      "provenance": "P2*",
+      "batch": "37"
+    },
+    {
+      "global_claim_id": "G37-S320-K10",
+      "claim_id": "K10",
+      "source_id": "S320",
+      "corpus_id": "C316",
+      "location": "Mysterium Coniunctionis",
+      "claim_type": "SELF_KNOWLEDGE",
+      "claim": "Integration is linked with self-knowledge and a more comprehensive relation to one's psychic totality.",
+      "motifs": [
+        "M02",
+        "M16"
+      ],
+      "provenance": "P2*",
+      "batch": "37"
+    },
+    {
+      "global_claim_id": "G37-S320-K11",
+      "claim_id": "K11",
+      "source_id": "S320",
+      "corpus_id": "C316",
+      "location": "Mysterium Coniunctionis",
+      "claim_type": "META",
+      "claim": "These readings are Jung's psychological interpretations of alchemical symbolism, not evidence that historical alchemists experimentally discovered a modern psychology.",
+      "motifs": [
+        "M14",
+        "M17"
+      ],
+      "provenance": "P2*",
+      "batch": "37"
+    },
+    {
+      "global_claim_id": "G37-S320-K12",
+      "claim_id": "K12",
+      "source_id": "S320",
+      "corpus_id": "C316",
+      "location": "Mysterium Coniunctionis",
+      "claim_type": "TRANSFORMATION",
+      "claim": "The coniunctio is treated as a transformation toward greater psychic wholeness rather than a static state.",
+      "motifs": [
+        "M12",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "37"
+    },
+    {
+      "global_claim_id": "G37-S320-K13",
+      "claim_id": "K13",
+      "source_id": "S320",
+      "corpus_id": "C316",
+      "location": "Mysterium Coniunctionis",
+      "claim_type": "PRACTICE",
+      "claim": "The corpus should keep the historical alchemical source material distinct from Jung's later psychological interpretation of it.",
+      "motifs": [
+        "M24",
+        "M25"
+      ],
+      "provenance": "P2*",
+      "batch": "37"
+    },
+    {
+      "global_claim_id": "G37-S321-K01",
+      "claim_id": "K01",
+      "source_id": "S321",
+      "corpus_id": "C317",
+      "location": "Synchronicity",
+      "claim_type": "SYNCHRONICITY",
+      "claim": "Jung defines synchronicity as an acausal connecting principle involving meaningful coincidence.",
+      "motifs": [
+        "M05",
+        "M14"
+      ],
+      "provenance": "P2*",
+      "batch": "37"
+    },
+    {
+      "global_claim_id": "G37-S321-K02",
+      "claim_id": "K02",
+      "source_id": "S321",
+      "corpus_id": "C317",
+      "location": "Synchronicity",
+      "claim_type": "MEANING",
+      "claim": "The concept focuses on the meaningful relation experienced between events rather than only on their ordinary efficient causation.",
+      "motifs": [
+        "M01",
+        "M05"
+      ],
+      "provenance": "P2*",
+      "batch": "37"
+    },
+    {
+      "global_claim_id": "G37-S321-K03",
+      "claim_id": "K03",
+      "source_id": "S321",
+      "corpus_id": "C317",
+      "location": "Synchronicity",
+      "claim_type": "ACausal",
+      "claim": "Synchronicity is explicitly distinguished from a conventional causal mechanism linking one event materially to another.",
+      "motifs": [
+        "M04",
+        "M09"
+      ],
+      "provenance": "P2*",
+      "batch": "37"
+    },
+    {
+      "global_claim_id": "G37-S321-K04",
+      "claim_id": "K04",
+      "source_id": "S321",
+      "corpus_id": "C317",
+      "location": "Synchronicity",
+      "claim_type": "PSYCHE_WORLD",
+      "claim": "Jung examines coincidences in which an inner psychological state and an external event appear meaningfully related.",
+      "motifs": [
+        "M02",
+        "M05"
+      ],
+      "provenance": "P2*",
+      "batch": "37"
+    },
+    {
+      "global_claim_id": "G37-S321-K05",
+      "claim_id": "K05",
+      "source_id": "S321",
+      "corpus_id": "C317",
+      "location": "Synchronicity",
+      "claim_type": "ARCHETYPE",
+      "claim": "Archetypal patterns are used as part of Jung's interpretation of why certain coincidences can carry unusual psychological meaning.",
+      "motifs": [
+        "M03",
+        "M15"
+      ],
+      "provenance": "P2*",
+      "batch": "37"
+    },
+    {
+      "global_claim_id": "G37-S321-K06",
+      "claim_id": "K06",
+      "source_id": "S321",
+      "corpus_id": "C317",
+      "location": "Synchronicity",
+      "claim_type": "TIME",
+      "claim": "The significance of coincidence depends on temporal correspondence between otherwise apparently unrelated events.",
+      "motifs": [
+        "M11",
+        "M05"
+      ],
+      "provenance": "P2*",
+      "batch": "37"
+    },
+    {
+      "global_claim_id": "G37-S321-K07",
+      "claim_id": "K07",
+      "source_id": "S321",
+      "corpus_id": "C317",
+      "location": "Synchronicity",
+      "claim_type": "PROBABILITY",
+      "claim": "The work discusses probability and exceptional coincidence as part of the problem of distinguishing meaningful pattern from chance.",
+      "motifs": [
+        "M22",
+        "M24"
+      ],
+      "provenance": "P2*",
+      "batch": "37"
+    },
+    {
+      "global_claim_id": "G37-S321-K08",
+      "claim_id": "K08",
+      "source_id": "S321",
+      "corpus_id": "C317",
+      "location": "Synchronicity",
+      "claim_type": "ASTROLOGY",
+      "claim": "Jung includes an experimental discussion of astrology as part of his historical and empirical exploration of synchronicity.",
+      "motifs": [
+        "M22",
+        "M14"
+      ],
+      "provenance": "P2*",
+      "batch": "37"
+    },
+    {
+      "global_claim_id": "G37-S321-K09",
+      "claim_id": "K09",
+      "source_id": "S321",
+      "corpus_id": "C317",
+      "location": "Synchronicity",
+      "claim_type": "PAULI",
+      "claim": "The book was published together with Wolfgang Pauli's study of archetypal ideas and scientific theories, reflecting a dialogue between psychology and physics.",
+      "motifs": [
+        "M03",
+        "M14"
+      ],
+      "provenance": "P2*",
+      "batch": "37"
+    },
+    {
+      "global_claim_id": "G37-S321-K10",
+      "claim_id": "K10",
+      "source_id": "S321",
+      "corpus_id": "C317",
+      "location": "Synchronicity",
+      "claim_type": "ONTOLOGY",
+      "claim": "Jung's proposal raises an ontological question about whether all significant relations must be reducible to ordinary causal chains.",
+      "motifs": [
+        "M14",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "37"
+    },
+    {
+      "global_claim_id": "G37-S321-K11",
+      "claim_id": "K11",
+      "source_id": "S321",
+      "corpus_id": "C317",
+      "location": "Synchronicity",
+      "claim_type": "UNCERTAINTY",
+      "claim": "The concept remains interpretive and controversial and should not be coded as an established physical law of acausal influence.",
+      "motifs": [
+        "M14",
+        "M17"
+      ],
+      "provenance": "P2*",
+      "batch": "37"
+    },
+    {
+      "global_claim_id": "G37-S321-K12",
+      "claim_id": "K12",
+      "source_id": "S321",
+      "corpus_id": "C317",
+      "location": "Synchronicity",
+      "claim_type": "CONTRAST",
+      "claim": "Meaningful coincidence is different from demonstrating a hidden causal mechanism or nonlocal signal transfer.",
+      "motifs": [
+        "M04",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "37"
+    },
+    {
+      "global_claim_id": "G37-S321-K13",
+      "claim_id": "K13",
+      "source_id": "S321",
+      "corpus_id": "C317",
+      "location": "Synchronicity",
+      "claim_type": "PRACTICE",
+      "claim": "Rigorous extraction should separate reported coincidences, statistical discussion and Jung's metaphysical interpretation.",
+      "motifs": [
+        "M24",
+        "M25"
+      ],
+      "provenance": "P2*",
+      "batch": "37"
+    },
+    {
+      "global_claim_id": "G37-S322-K01",
+      "claim_id": "K01",
+      "source_id": "S322",
+      "corpus_id": "C318",
+      "location": "Dhammasangani",
+      "claim_type": "DHAMMA",
+      "claim": "The Dhammasangani enumerates ultimate phenomena or dhammas used within the Abhidhamma analytical framework.",
+      "motifs": [
+        "M03",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "37"
+    },
+    {
+      "global_claim_id": "G37-S322-K02",
+      "claim_id": "K02",
+      "source_id": "S322",
+      "corpus_id": "C318",
+      "location": "Dhammasangani",
+      "claim_type": "CONSCIOUSNESS",
+      "claim": "The text classifies many possible states of consciousness (citta) as part of a systematic analysis of mind.",
+      "motifs": [
+        "M01",
+        "M07"
+      ],
+      "provenance": "P2*",
+      "batch": "37"
+    },
+    {
+      "global_claim_id": "G37-S322-K03",
+      "claim_id": "K03",
+      "source_id": "S322",
+      "corpus_id": "C318",
+      "location": "Dhammasangani",
+      "claim_type": "MENTAL_FACTORS",
+      "claim": "Mental factors (cetasikas) are analyzed in combinations that accompany different states of consciousness.",
+      "motifs": [
+        "M06",
+        "M07"
+      ],
+      "provenance": "P2*",
+      "batch": "37"
+    },
+    {
+      "global_claim_id": "G37-S322-K04",
+      "claim_id": "K04",
+      "source_id": "S322",
+      "corpus_id": "C318",
+      "location": "Dhammasangani",
+      "claim_type": "NO_SOUL",
+      "claim": "The analytical framework focuses on processes and constituent phenomena rather than positing a permanent soul as an explanatory unit.",
+      "motifs": [
+        "M02",
+        "M16"
+      ],
+      "provenance": "P2*",
+      "batch": "37"
+    },
+    {
+      "global_claim_id": "G37-S322-K05",
+      "claim_id": "K05",
+      "source_id": "S322",
+      "corpus_id": "C318",
+      "location": "Dhammasangani",
+      "claim_type": "ETHICS",
+      "claim": "States of mind are distinguished partly by wholesome, unwholesome and ethically indeterminate qualities.",
+      "motifs": [
+        "M10",
+        "M12"
+      ],
+      "provenance": "P2*",
+      "batch": "37"
+    },
+    {
+      "global_claim_id": "G37-S322-K06",
+      "claim_id": "K06",
+      "source_id": "S322",
+      "corpus_id": "C318",
+      "location": "Dhammasangani",
+      "claim_type": "ATTENTION",
+      "claim": "Mental activity is analyzed through constituent factors, supporting a fine-grained model of how particular states arise.",
+      "motifs": [
+        "M06",
+        "M07"
+      ],
+      "provenance": "P2*",
+      "batch": "37"
+    },
+    {
+      "global_claim_id": "G37-S322-K07",
+      "claim_id": "K07",
+      "source_id": "S322",
+      "corpus_id": "C318",
+      "location": "Dhammasangani",
+      "claim_type": "CAUSATION",
+      "claim": "The Abhidhamma project links mental states to conditional relations among phenomena rather than a single enduring self.",
+      "motifs": [
+        "M09",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "37"
+    },
+    {
+      "global_claim_id": "G37-S322-K08",
+      "claim_id": "K08",
+      "source_id": "S322",
+      "corpus_id": "C318",
+      "location": "Dhammasangani",
+      "claim_type": "TEMPORAL",
+      "claim": "Mental events are treated as conditioned and changing rather than as a permanently fixed state.",
+      "motifs": [
+        "M11",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "37"
+    },
+    {
+      "global_claim_id": "G37-S322-K09",
+      "claim_id": "K09",
+      "source_id": "S322",
+      "corpus_id": "C318",
+      "location": "Dhammasangani",
+      "claim_type": "BODY",
+      "claim": "The larger Abhidhamma system distinguishes mental phenomena from physical phenomena while analyzing their relations.",
+      "motifs": [
+        "M08",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "37"
+    },
+    {
+      "global_claim_id": "G37-S322-K10",
+      "claim_id": "K10",
+      "source_id": "S322",
+      "corpus_id": "C318",
+      "location": "Dhammasangani",
+      "claim_type": "LIBERATION",
+      "claim": "The analytical taxonomy supports a broader Buddhist project of understanding conditions that sustain suffering and those associated with liberation.",
+      "motifs": [
+        "M10",
+        "M12"
+      ],
+      "provenance": "P2*",
+      "batch": "37"
+    },
+    {
+      "global_claim_id": "G37-S322-K11",
+      "claim_id": "K11",
+      "source_id": "S322",
+      "corpus_id": "C318",
+      "location": "Dhammasangani",
+      "claim_type": "PHENOMENOLOGY",
+      "claim": "Detailed classification of mental states provides a systematic vocabulary for describing varieties of experience and cognition.",
+      "motifs": [
+        "M01",
+        "M07"
+      ],
+      "provenance": "P2*",
+      "batch": "37"
+    },
+    {
+      "global_claim_id": "G37-S322-K12",
+      "claim_id": "K12",
+      "source_id": "S322",
+      "corpus_id": "C318",
+      "location": "Dhammasangani",
+      "claim_type": "META",
+      "claim": "Dhammasangani belongs to a religious-philosophical analytical tradition and should not be equated directly with modern experimental psychology.",
+      "motifs": [
+        "M14",
+        "M17"
+      ],
+      "provenance": "P2*",
+      "batch": "37"
+    },
+    {
+      "global_claim_id": "G37-S322-K13",
+      "claim_id": "K13",
+      "source_id": "S322",
+      "corpus_id": "C318",
+      "location": "Dhammasangani",
+      "claim_type": "PRACTICE",
+      "claim": "The source is valuable for comparing process-based analyses of mind, attention and selflessness with contemporary models while preserving doctrinal context.",
+      "motifs": [
+        "M24",
+        "M25"
+      ],
+      "provenance": "P2*",
+      "batch": "37"
+    },
+    {
+      "global_claim_id": "G37-S323-K01",
+      "claim_id": "K01",
+      "source_id": "S323",
+      "corpus_id": "C319",
+      "location": "Avatamsaka Sutra",
+      "claim_type": "INTERPENETRATION",
+      "claim": "Huayan interpretations of the Avatamsaka describe phenomena as mutually interpenetrating rather than existing as fully isolated entities.",
+      "motifs": [
+        "M05",
+        "M15"
+      ],
+      "provenance": "P2*",
+      "batch": "37"
+    },
+    {
+      "global_claim_id": "G37-S323-K02",
+      "claim_id": "K02",
+      "source_id": "S323",
+      "corpus_id": "C319",
+      "location": "Avatamsaka Sutra",
+      "claim_type": "INDRA_NET",
+      "claim": "The imagery of Indra's net represents a universe in which each jewel reflects all the others without abolishing their distinctness.",
+      "motifs": [
+        "M05",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "37"
+    },
+    {
+      "global_claim_id": "G37-S323-K03",
+      "claim_id": "K03",
+      "source_id": "S323",
+      "corpus_id": "C319",
+      "location": "Avatamsaka Sutra",
+      "claim_type": "UNITY",
+      "claim": "The whole is presented as dynamically related to every part, providing a radical model of relational unity.",
+      "motifs": [
+        "M03",
+        "M15"
+      ],
+      "provenance": "P2*",
+      "batch": "37"
+    },
+    {
+      "global_claim_id": "G37-S323-K04",
+      "claim_id": "K04",
+      "source_id": "S323",
+      "corpus_id": "C319",
+      "location": "Avatamsaka Sutra",
+      "claim_type": "MIND_WORLD",
+      "claim": "The sutra links awakening, mind and the structure of reality within a Mahayana Buddhist framework.",
+      "motifs": [
+        "M01",
+        "M15"
+      ],
+      "provenance": "P2*",
+      "batch": "37"
+    },
+    {
+      "global_claim_id": "G37-S323-K05",
+      "claim_id": "K05",
+      "source_id": "S323",
+      "corpus_id": "C319",
+      "location": "Avatamsaka Sutra",
+      "claim_type": "NONDUAL",
+      "claim": "Ordinary distinctions are not simply denied but are reinterpreted within a larger non-dual or mutually conditioning perspective.",
+      "motifs": [
+        "M04",
+        "M15"
+      ],
+      "provenance": "P2*",
+      "batch": "37"
+    },
+    {
+      "global_claim_id": "G37-S323-K06",
+      "claim_id": "K06",
+      "source_id": "S323",
+      "corpus_id": "C319",
+      "location": "Avatamsaka Sutra",
+      "claim_type": "BODHISATTVA",
+      "claim": "The bodhisattva path places compassion, wisdom and practice at the center of transformation toward awakening.",
+      "motifs": [
+        "M10",
+        "M12"
+      ],
+      "provenance": "P2*",
+      "batch": "37"
+    },
+    {
+      "global_claim_id": "G37-S323-K07",
+      "claim_id": "K07",
+      "source_id": "S323",
+      "corpus_id": "C319",
+      "location": "Avatamsaka Sutra",
+      "claim_type": "PERCEPTION",
+      "claim": "How phenomena are apprehended is transformed by insight into their interdependence and emptiness.",
+      "motifs": [
+        "M06",
+        "M15"
+      ],
+      "provenance": "P2*",
+      "batch": "37"
+    },
+    {
+      "global_claim_id": "G37-S323-K08",
+      "claim_id": "K08",
+      "source_id": "S323",
+      "corpus_id": "C319",
+      "location": "Avatamsaka Sutra",
+      "claim_type": "SELF",
+      "claim": "The framework undermines an isolated substantial self by emphasizing relational arising and mutual dependence.",
+      "motifs": [
+        "M02",
+        "M16"
+      ],
+      "provenance": "P2*",
+      "batch": "37"
+    },
+    {
+      "global_claim_id": "G37-S323-K09",
+      "claim_id": "K09",
+      "source_id": "S323",
+      "corpus_id": "C319",
+      "location": "Avatamsaka Sutra",
+      "claim_type": "TIME",
+      "claim": "Long temporal scales and vast cosmological sequences are used to depict the scope of bodhisattva practice and awakening.",
+      "motifs": [
+        "M11",
+        "M15"
+      ],
+      "provenance": "P2*",
+      "batch": "37"
+    },
+    {
+      "global_claim_id": "G37-S323-K10",
+      "claim_id": "K10",
+      "source_id": "S323",
+      "corpus_id": "C319",
+      "location": "Avatamsaka Sutra",
+      "claim_type": "COSMOLOGY",
+      "claim": "The text uses an expansive cosmological vision in which many realms and beings participate in an interconnected order.",
+      "motifs": [
+        "M15",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "37"
+    },
+    {
+      "global_claim_id": "G37-S323-K11",
+      "claim_id": "K11",
+      "source_id": "S323",
+      "corpus_id": "C319",
+      "location": "Avatamsaka Sutra",
+      "claim_type": "EMBODIMENT",
+      "claim": "Practice is expressed through conduct, vows and compassion rather than as a purely abstract intellectual doctrine.",
+      "motifs": [
+        "M08",
+        "M12"
+      ],
+      "provenance": "P2*",
+      "batch": "37"
+    },
+    {
+      "global_claim_id": "G37-S323-K12",
+      "claim_id": "K12",
+      "source_id": "S323",
+      "corpus_id": "C319",
+      "location": "Avatamsaka Sutra",
+      "claim_type": "META",
+      "claim": "Huayan cosmological and ontological claims belong to Buddhist scripture and interpretation, not to established physical cosmology.",
+      "motifs": [
+        "M14",
+        "M17"
+      ],
+      "provenance": "P2*",
+      "batch": "37"
+    },
+    {
+      "global_claim_id": "G37-S323-K13",
+      "claim_id": "K13",
+      "source_id": "S323",
+      "corpus_id": "C319",
+      "location": "Avatamsaka Sutra",
+      "claim_type": "PRACTICE",
+      "claim": "For comparative work, interpenetration, emptiness, compassion and cosmology should be distinguished from later metaphysical or scientific analogies.",
+      "motifs": [
+        "M24",
+        "M25"
+      ],
+      "provenance": "P2*",
+      "batch": "37"
+    },
+    {
+      "global_claim_id": "G37-S324-K01",
+      "claim_id": "K01",
+      "source_id": "S324",
+      "corpus_id": "C320",
+      "location": "Qingjing Jing",
+      "claim_type": "PURITY",
+      "claim": "The Qingjing tradition presents purity and clarity of mind as central conditions of spiritual cultivation.",
+      "motifs": [
+        "M01",
+        "M12"
+      ],
+      "provenance": "P2*",
+      "batch": "37"
+    },
+    {
+      "global_claim_id": "G37-S324-K02",
+      "claim_id": "K02",
+      "source_id": "S324",
+      "corpus_id": "C320",
+      "location": "Qingjing Jing",
+      "claim_type": "STILLNESS",
+      "claim": "Stillness or tranquility is treated as a practice for reducing agitation and returning the mind toward a simpler condition.",
+      "motifs": [
+        "M06",
+        "M12"
+      ],
+      "provenance": "P2*",
+      "batch": "37"
+    },
+    {
+      "global_claim_id": "G37-S324-K03",
+      "claim_id": "K03",
+      "source_id": "S324",
+      "corpus_id": "C320",
+      "location": "Qingjing Jing",
+      "claim_type": "DESIRE",
+      "claim": "Attachment and desire are depicted as forces that disturb clarity and contribute to inner disorder.",
+      "motifs": [
+        "M10",
+        "M12"
+      ],
+      "provenance": "P2*",
+      "batch": "37"
+    },
+    {
+      "global_claim_id": "G37-S324-K04",
+      "claim_id": "K04",
+      "source_id": "S324",
+      "corpus_id": "C320",
+      "location": "Qingjing Jing",
+      "claim_type": "MIND",
+      "claim": "The text frames spiritual cultivation in terms of regulating and clarifying the mind rather than accumulating conceptual knowledge.",
+      "motifs": [
+        "M01",
+        "M06"
+      ],
+      "provenance": "P2*",
+      "batch": "37"
+    },
+    {
+      "global_claim_id": "G37-S324-K05",
+      "claim_id": "K05",
+      "source_id": "S324",
+      "corpus_id": "C320",
+      "location": "Qingjing Jing",
+      "claim_type": "DAO",
+      "claim": "The human path is oriented toward alignment with Dao through purification and tranquility.",
+      "motifs": [
+        "M15",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "37"
+    },
+    {
+      "global_claim_id": "G37-S324-K06",
+      "claim_id": "K06",
+      "source_id": "S324",
+      "corpus_id": "C320",
+      "location": "Qingjing Jing",
+      "claim_type": "BODY",
+      "claim": "Daoist cultivation links mental quieting with embodied practice and the condition of the living organism.",
+      "motifs": [
+        "M08",
+        "M12"
+      ],
+      "provenance": "P2*",
+      "batch": "37"
+    },
+    {
+      "global_claim_id": "G37-S324-K07",
+      "claim_id": "K07",
+      "source_id": "S324",
+      "corpus_id": "C320",
+      "location": "Qingjing Jing",
+      "claim_type": "EMPTINESS",
+      "claim": "Release from excessive grasping supports a less reified relation to self and phenomena.",
+      "motifs": [
+        "M02",
+        "M16"
+      ],
+      "provenance": "P2*",
+      "batch": "37"
+    },
+    {
+      "global_claim_id": "G37-S324-K08",
+      "claim_id": "K08",
+      "source_id": "S324",
+      "corpus_id": "C320",
+      "location": "Qingjing Jing",
+      "claim_type": "COSMOLOGY",
+      "claim": "The scripture situates personal cultivation within a larger Daoist account of Heaven, Earth and the natural order.",
+      "motifs": [
+        "M15",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "37"
+    },
+    {
+      "global_claim_id": "G37-S324-K09",
+      "claim_id": "K09",
+      "source_id": "S324",
+      "corpus_id": "C320",
+      "location": "Qingjing Jing",
+      "claim_type": "ETHICS",
+      "claim": "Purity is connected with conduct and the reduction of actions driven by disruptive desires.",
+      "motifs": [
+        "M10",
+        "M12"
+      ],
+      "provenance": "P2*",
+      "batch": "37"
+    },
+    {
+      "global_claim_id": "G37-S324-K10",
+      "claim_id": "K10",
+      "source_id": "S324",
+      "corpus_id": "C320",
+      "location": "Qingjing Jing",
+      "claim_type": "TRANSFORMATION",
+      "claim": "Regular cultivation is presented as a transformation of the practitioner's state rather than a purely intellectual belief.",
+      "motifs": [
+        "M12",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "37"
+    },
+    {
+      "global_claim_id": "G37-S324-K11",
+      "claim_id": "K11",
+      "source_id": "S324",
+      "corpus_id": "C320",
+      "location": "Qingjing Jing",
+      "claim_type": "META",
+      "claim": "The scripture is a Daoist religious text and its cosmological claims should not be rewritten as empirical scientific propositions.",
+      "motifs": [
+        "M14",
+        "M17"
+      ],
+      "provenance": "P2*",
+      "batch": "37"
+    },
+    {
+      "global_claim_id": "G37-S324-K12",
+      "claim_id": "K12",
+      "source_id": "S324",
+      "corpus_id": "C320",
+      "location": "Qingjing Jing",
+      "claim_type": "TRANSMISSION",
+      "claim": "The Chinese Text Project notes that the text occurs in the Yunji Qiqian and in the Daozang tradition, and that its textual history has multiple related versions.",
+      "motifs": [
+        "M24",
+        "M25"
+      ],
+      "provenance": "P2*",
+      "batch": "37"
+    },
+    {
+      "global_claim_id": "G37-S324-K13",
+      "claim_id": "K13",
+      "source_id": "S324",
+      "corpus_id": "C320",
+      "location": "Qingjing Jing",
+      "claim_type": "PRACTICE",
+      "claim": "The source is useful for coding stillness, desire, mind cultivation and Dao alignment as a coherent contemplative pathway.",
+      "motifs": [
+        "M24",
+        "M12"
+      ],
+      "provenance": "P2*",
+      "batch": "37"
+    },
+    {
+      "global_claim_id": "G37-S325-K01",
+      "claim_id": "K01",
+      "source_id": "S325",
+      "corpus_id": "C321",
+      "location": "Menog i Khrad",
+      "claim_type": "WISDOM",
+      "claim": "The Menog i Khrad belongs to the Middle Persian wisdom literature concerned with human conduct, wisdom and religious understanding.",
+      "motifs": [
+        "M03",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "37"
+    },
+    {
+      "global_claim_id": "G37-S325-K02",
+      "claim_id": "K02",
+      "source_id": "S325",
+      "corpus_id": "C321",
+      "location": "Menog i Khrad",
+      "claim_type": "SOUL",
+      "claim": "The tradition links ethical and spiritual development with the condition and destiny of the soul.",
+      "motifs": [
+        "M02",
+        "M15"
+      ],
+      "provenance": "P2*",
+      "batch": "37"
+    },
+    {
+      "global_claim_id": "G37-S325-K03",
+      "claim_id": "K03",
+      "source_id": "S325",
+      "corpus_id": "C321",
+      "location": "Menog i Khrad",
+      "claim_type": "SELF_KNOWLEDGE",
+      "claim": "Self-knowledge is treated as important for understanding one's origins, religious identity and ultimate end.",
+      "motifs": [
+        "M02",
+        "M16"
+      ],
+      "provenance": "P2*",
+      "batch": "37"
+    },
+    {
+      "global_claim_id": "G37-S325-K04",
+      "claim_id": "K04",
+      "source_id": "S325",
+      "corpus_id": "C321",
+      "location": "Menog i Khrad",
+      "claim_type": "THOUGHT_WORD_ACTION",
+      "claim": "Zoroastrian ethics emphasizes the integrated triad of good thought, good word and good action.",
+      "motifs": [
+        "M06",
+        "M10"
+      ],
+      "provenance": "P2*",
+      "batch": "37"
+    },
+    {
+      "global_claim_id": "G37-S325-K05",
+      "claim_id": "K05",
+      "source_id": "S325",
+      "corpus_id": "C321",
+      "location": "Menog i Khrad",
+      "claim_type": "ETHICS",
+      "claim": "Moral character is assessed through the consequences and quality of thoughts, words and deeds.",
+      "motifs": [
+        "M10",
+        "M12"
+      ],
+      "provenance": "P2*",
+      "batch": "37"
+    },
+    {
+      "global_claim_id": "G37-S325-K06",
+      "claim_id": "K06",
+      "source_id": "S325",
+      "corpus_id": "C321",
+      "location": "Menog i Khrad",
+      "claim_type": "WISDOM",
+      "claim": "Education and learning are presented as routes toward wisdom and better conduct.",
+      "motifs": [
+        "M06",
+        "M12"
+      ],
+      "provenance": "P2*",
+      "batch": "37"
+    },
+    {
+      "global_claim_id": "G37-S325-K07",
+      "claim_id": "K07",
+      "source_id": "S325",
+      "corpus_id": "C321",
+      "location": "Menog i Khrad",
+      "claim_type": "COMMUNITY",
+      "claim": "Association with wise and good people is treated as a support for religious and ethical development.",
+      "motifs": [
+        "M05",
+        "M12"
+      ],
+      "provenance": "P2*",
+      "batch": "37"
+    },
+    {
+      "global_claim_id": "G37-S325-K08",
+      "claim_id": "K08",
+      "source_id": "S325",
+      "corpus_id": "C321",
+      "location": "Menog i Khrad",
+      "claim_type": "DIVINE",
+      "claim": "The soul of the righteous is described within a theological framework relating human goodness to divine reality.",
+      "motifs": [
+        "M15",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "37"
+    },
+    {
+      "global_claim_id": "G37-S325-K09",
+      "claim_id": "K09",
+      "source_id": "S325",
+      "corpus_id": "C321",
+      "location": "Menog i Khrad",
+      "claim_type": "DESTINY",
+      "claim": "The ethical life is linked with happiness, reward and the ultimate condition of the person.",
+      "motifs": [
+        "M10",
+        "M15"
+      ],
+      "provenance": "P2*",
+      "batch": "37"
+    },
+    {
+      "global_claim_id": "G37-S325-K10",
+      "claim_id": "K10",
+      "source_id": "S325",
+      "corpus_id": "C321",
+      "location": "Menog i Khrad",
+      "claim_type": "TRANSFORMATION",
+      "claim": "Cultivating correct thought, speech and action is presented as a path of moral transformation.",
+      "motifs": [
+        "M12",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "37"
+    },
+    {
+      "global_claim_id": "G37-S325-K11",
+      "claim_id": "K11",
+      "source_id": "S325",
+      "corpus_id": "C321",
+      "location": "Menog i Khrad",
+      "claim_type": "META",
+      "claim": "The Menog i Khrad is a religious wisdom text, so theological claims about soul and divine order must remain within their historical doctrinal context.",
+      "motifs": [
+        "M14",
+        "M17"
+      ],
+      "provenance": "P2*",
+      "batch": "37"
+    },
+    {
+      "global_claim_id": "G37-S325-K12",
+      "claim_id": "K12",
+      "source_id": "S325",
+      "corpus_id": "C321",
+      "location": "Menog i Khrad",
+      "claim_type": "CONTRAST",
+      "claim": "Its threefold ethical framework is distinct from a modern neural or computational theory of consciousness, even though both can be compared at the level of self-regulation and action.",
+      "motifs": [
+        "M04",
+        "M24"
+      ],
+      "provenance": "P2*",
+      "batch": "37"
+    },
+    {
+      "global_claim_id": "G37-S325-K13",
+      "claim_id": "K13",
+      "source_id": "S325",
+      "corpus_id": "C321",
+      "location": "Menog i Khrad",
+      "claim_type": "PRACTICE",
+      "claim": "Comparative extraction should preserve the original ethical vocabulary rather than retrofitting it into contemporary psychological categories.",
+      "motifs": [
+        "M24",
+        "M25"
+      ],
+      "provenance": "P2*",
+      "batch": "37"
+    },
+    {
+      "global_claim_id": "G37-S326-K01",
+      "claim_id": "K01",
+      "source_id": "S326",
+      "corpus_id": "C322",
+      "location": "Sefer Ha-Razim",
+      "claim_type": "MAGIC",
+      "claim": "Sefer ha-Razim is an early Jewish magical text organized around heavenly realms, angels and ritual knowledge.",
+      "motifs": [
+        "M03",
+        "M15"
+      ],
+      "provenance": "P2*",
+      "batch": "37"
+    },
+    {
+      "global_claim_id": "G37-S326-K02",
+      "claim_id": "K02",
+      "source_id": "S326",
+      "corpus_id": "C322",
+      "location": "Sefer Ha-Razim",
+      "claim_type": "HEAVENS",
+      "claim": "The reconstructed text is organized into seven heavenly or firmamental sections associated with different beings and powers.",
+      "motifs": [
+        "M15",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "37"
+    },
+    {
+      "global_claim_id": "G37-S326-K03",
+      "claim_id": "K03",
+      "source_id": "S326",
+      "corpus_id": "C322",
+      "location": "Sefer Ha-Razim",
+      "claim_type": "ANGELS",
+      "claim": "Angels and other supernatural beings are invoked as intermediaries within the ritual system of the text.",
+      "motifs": [
+        "M05",
+        "M15"
+      ],
+      "provenance": "P2*",
+      "batch": "37"
+    },
+    {
+      "global_claim_id": "G37-S326-K04",
+      "claim_id": "K04",
+      "source_id": "S326",
+      "corpus_id": "C322",
+      "location": "Sefer Ha-Razim",
+      "claim_type": "VISION",
+      "claim": "The text includes formulas and procedures aimed at gaining knowledge, protection or access to supernatural information.",
+      "motifs": [
+        "M06",
+        "M15"
+      ],
+      "provenance": "P2*",
+      "batch": "37"
+    },
+    {
+      "global_claim_id": "G37-S326-K05",
+      "claim_id": "K05",
+      "source_id": "S326",
+      "corpus_id": "C322",
+      "location": "Sefer Ha-Razim",
+      "claim_type": "SOUL",
+      "claim": "The text presupposes a religious cosmology in which human persons interact with powers beyond ordinary physical experience.",
+      "motifs": [
+        "M02",
+        "M15"
+      ],
+      "provenance": "P2*",
+      "batch": "37"
+    },
+    {
+      "global_claim_id": "G37-S326-K06",
+      "claim_id": "K06",
+      "source_id": "S326",
+      "corpus_id": "C322",
+      "location": "Sefer Ha-Razim",
+      "claim_type": "RITUAL",
+      "claim": "Knowledge in the text is not merely theoretical; it is tied to prescribed words, names and ritual actions.",
+      "motifs": [
+        "M12",
+        "M24"
+      ],
+      "provenance": "P2*",
+      "batch": "37"
+    },
+    {
+      "global_claim_id": "G37-S326-K07",
+      "claim_id": "K07",
+      "source_id": "S326",
+      "corpus_id": "C322",
+      "location": "Sefer Ha-Razim",
+      "claim_type": "TRANSMISSION",
+      "claim": "Cambridge's account identifies Mordecai Margalioth's reconstruction and Michael A. Morgan's translation and annotation as important modern transmission points.",
+      "motifs": [
+        "M24",
+        "M25"
+      ],
+      "provenance": "P2*",
+      "batch": "37"
+    },
+    {
+      "global_claim_id": "G37-S326-K08",
+      "claim_id": "K08",
+      "source_id": "S326",
+      "corpus_id": "C322",
+      "location": "Sefer Ha-Razim",
+      "claim_type": "ANCIENT",
+      "claim": "The surviving material represents an early Jewish magical tradition from the first centuries of the Common Era.",
+      "motifs": [
+        "M14",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "37"
+    },
+    {
+      "global_claim_id": "G37-S326-K09",
+      "claim_id": "K09",
+      "source_id": "S326",
+      "corpus_id": "C322",
+      "location": "Sefer Ha-Razim",
+      "claim_type": "COSMOLOGY",
+      "claim": "The heavens are arranged as a structured hierarchy with differentiated inhabitants and powers.",
+      "motifs": [
+        "M15",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "37"
+    },
+    {
+      "global_claim_id": "G37-S326-K10",
+      "claim_id": "K10",
+      "source_id": "S326",
+      "corpus_id": "C322",
+      "location": "Sefer Ha-Razim",
+      "claim_type": "EPISTEMIC",
+      "claim": "The text treats special knowledge as obtainable through ritual access to hidden or heavenly realities.",
+      "motifs": [
+        "M06",
+        "M15"
+      ],
+      "provenance": "P2*",
+      "batch": "37"
+    },
+    {
+      "global_claim_id": "G37-S326-K11",
+      "claim_id": "K11",
+      "source_id": "S326",
+      "corpus_id": "C322",
+      "location": "Sefer Ha-Razim",
+      "claim_type": "META",
+      "claim": "These supernatural claims belong to the text's religious-magical worldview and are not empirical claims established by modern science.",
+      "motifs": [
+        "M14",
+        "M17"
+      ],
+      "provenance": "P2*",
+      "batch": "37"
+    },
+    {
+      "global_claim_id": "G37-S326-K12",
+      "claim_id": "K12",
+      "source_id": "S326",
+      "corpus_id": "C322",
+      "location": "Sefer Ha-Razim",
+      "claim_type": "CONTRAST",
+      "claim": "Sefer ha-Razim should not be conflated with later Jewish mystical systems simply because both discuss hidden heavenly realities.",
+      "motifs": [
+        "M04",
+        "M14"
+      ],
+      "provenance": "P2*",
+      "batch": "37"
+    },
+    {
+      "global_claim_id": "G37-S326-K13",
+      "claim_id": "K13",
+      "source_id": "S326",
+      "corpus_id": "C322",
+      "location": "Sefer Ha-Razim",
+      "claim_type": "PRACTICE",
+      "claim": "For corpus purposes, manuscript reconstruction, translation history, ritual description and theological interpretation should be kept separately coded.",
+      "motifs": [
+        "M24",
+        "M25"
+      ],
+      "provenance": "P2*",
+      "batch": "37"
+    },
+    {
+      "global_claim_id": "G37-S327-K01",
+      "claim_id": "K01",
+      "source_id": "S327",
+      "corpus_id": "C323",
+      "location": "Mawaqif",
+      "claim_type": "STATION",
+      "claim": "Mawaqif is structured around spiritual 'stoppings' or stations in which the seeker encounters divine disclosure.",
+      "motifs": [
+        "M01",
+        "M12"
+      ],
+      "provenance": "P2*",
+      "batch": "37"
+    },
+    {
+      "global_claim_id": "G37-S327-K02",
+      "claim_id": "K02",
+      "source_id": "S327",
+      "corpus_id": "C323",
+      "location": "Mawaqif",
+      "claim_type": "DISCLOSURE",
+      "claim": "The text presents episodes of encounter with divine reality through a highly compressed mystical idiom.",
+      "motifs": [
+        "M01",
+        "M15"
+      ],
+      "provenance": "P2*",
+      "batch": "37"
+    },
+    {
+      "global_claim_id": "G37-S327-K03",
+      "claim_id": "K03",
+      "source_id": "S327",
+      "corpus_id": "C323",
+      "location": "Mawaqif",
+      "claim_type": "HEART",
+      "claim": "The qalb/heart functions as a key locus of spiritual perception and transformation in the Sufi vocabulary associated with the work.",
+      "motifs": [
+        "M02",
+        "M16"
+      ],
+      "provenance": "P2*",
+      "batch": "37"
+    },
+    {
+      "global_claim_id": "G37-S327-K04",
+      "claim_id": "K04",
+      "source_id": "S327",
+      "corpus_id": "C323",
+      "location": "Mawaqif",
+      "claim_type": "SOUL",
+      "claim": "Nafs-related language frames the disciplined self whose ordinary tendencies can obstruct direct spiritual realization.",
+      "motifs": [
+        "M02",
+        "M10"
+      ],
+      "provenance": "P2*",
+      "batch": "37"
+    },
+    {
+      "global_claim_id": "G37-S327-K05",
+      "claim_id": "K05",
+      "source_id": "S327",
+      "corpus_id": "C323",
+      "location": "Mawaqif",
+      "claim_type": "SPIRIT",
+      "claim": "The rūḥ vocabulary points toward a deeper spiritual dimension beyond ordinary ego identity.",
+      "motifs": [
+        "M01",
+        "M15"
+      ],
+      "provenance": "P2*",
+      "batch": "37"
+    },
+    {
+      "global_claim_id": "G37-S327-K06",
+      "claim_id": "K06",
+      "source_id": "S327",
+      "corpus_id": "C323",
+      "location": "Mawaqif",
+      "claim_type": "KNOWLEDGE",
+      "claim": "Ma'rifa or direct spiritual knowing is presented as distinct from merely discursive or propositional knowledge.",
+      "motifs": [
+        "M06",
+        "M15"
+      ],
+      "provenance": "P2*",
+      "batch": "37"
+    },
+    {
+      "global_claim_id": "G37-S327-K07",
+      "claim_id": "K07",
+      "source_id": "S327",
+      "corpus_id": "C323",
+      "location": "Mawaqif",
+      "claim_type": "TRANSFORMATION",
+      "claim": "The stations are transformative encounters that alter the seeker's relation to self, world and God.",
+      "motifs": [
+        "M12",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "37"
+    },
+    {
+      "global_claim_id": "G37-S327-K08",
+      "claim_id": "K08",
+      "source_id": "S327",
+      "corpus_id": "C323",
+      "location": "Mawaqif",
+      "claim_type": "NONDUAL",
+      "claim": "The language frequently compresses subject-object distinctions in describing divine presence and realization.",
+      "motifs": [
+        "M04",
+        "M15"
+      ],
+      "provenance": "P2*",
+      "batch": "37"
+    },
+    {
+      "global_claim_id": "G37-S327-K09",
+      "claim_id": "K09",
+      "source_id": "S327",
+      "corpus_id": "C323",
+      "location": "Mawaqif",
+      "claim_type": "ATTENTION",
+      "claim": "The seeker is called toward sustained inward attention and receptivity to disclosure.",
+      "motifs": [
+        "M06",
+        "M12"
+      ],
+      "provenance": "P2*",
+      "batch": "37"
+    },
+    {
+      "global_claim_id": "G37-S327-K10",
+      "claim_id": "K10",
+      "source_id": "S327",
+      "corpus_id": "C323",
+      "location": "Mawaqif",
+      "claim_type": "ETHICS",
+      "claim": "Spiritual realization is not isolated from discipline, surrender and transformation of the self.",
+      "motifs": [
+        "M10",
+        "M12"
+      ],
+      "provenance": "P2*",
+      "batch": "37"
+    },
+    {
+      "global_claim_id": "G37-S327-K11",
+      "claim_id": "K11",
+      "source_id": "S327",
+      "corpus_id": "C323",
+      "location": "Mawaqif",
+      "claim_type": "META",
+      "claim": "The text belongs to Islamic mystical literature and should not be converted into a neuroscience claim merely because it describes altered states or direct knowing.",
+      "motifs": [
+        "M14",
+        "M17"
+      ],
+      "provenance": "P2*",
+      "batch": "37"
+    },
+    {
+      "global_claim_id": "G37-S327-K12",
+      "claim_id": "K12",
+      "source_id": "S327",
+      "corpus_id": "C323",
+      "location": "Mawaqif",
+      "claim_type": "UNCERTAINTY",
+      "claim": "Exact terminology and source relationships require critical-edition verification before fine-grained historical claims are made.",
+      "motifs": [
+        "M14",
+        "M24"
+      ],
+      "provenance": "P2*",
+      "batch": "37"
+    },
+    {
+      "global_claim_id": "G37-S327-K13",
+      "claim_id": "K13",
+      "source_id": "S327",
+      "corpus_id": "C323",
+      "location": "Mawaqif",
+      "claim_type": "PRACTICE",
+      "claim": "Until the register's exact edition is recovered, C323 should remain a corpus-level, source-attributed extraction rather than a fully bibliographically resolved one.",
+      "motifs": [
+        "M24",
+        "M25"
+      ],
+      "provenance": "P2*",
+      "batch": "37"
+    },
+    {
+      "global_claim_id": "G37-S328-K01",
+      "claim_id": "K01",
+      "source_id": "S328",
+      "corpus_id": "C325",
+      "location": "The Elementary Forms of the Religious Life",
+      "claim_type": "SACRED_PROFANE",
+      "claim": "Durkheim defines a fundamental distinction between sacred and profane domains in religious thought.",
+      "motifs": [
+        "M03",
+        "M15"
+      ],
+      "provenance": "P2*",
+      "batch": "37"
+    },
+    {
+      "global_claim_id": "G37-S328-K02",
+      "claim_id": "K02",
+      "source_id": "S328",
+      "corpus_id": "C325",
+      "location": "The Elementary Forms of the Religious Life",
+      "claim_type": "COLLECTIVE",
+      "claim": "Religious representations are treated as collective representations expressing collective realities.",
+      "motifs": [
+        "M05",
+        "M15"
+      ],
+      "provenance": "P2*",
+      "batch": "37"
+    },
+    {
+      "global_claim_id": "G37-S328-K03",
+      "claim_id": "K03",
+      "source_id": "S328",
+      "corpus_id": "C325",
+      "location": "The Elementary Forms of the Religious Life",
+      "claim_type": "RITUAL",
+      "claim": "Rituals arise in group settings and can excite, maintain or recreate particular collective mental states.",
+      "motifs": [
+        "M06",
+        "M12"
+      ],
+      "provenance": "P2*",
+      "batch": "37"
+    },
+    {
+      "global_claim_id": "G37-S328-K04",
+      "claim_id": "K04",
+      "source_id": "S328",
+      "corpus_id": "C325",
+      "location": "The Elementary Forms of the Religious Life",
+      "claim_type": "EFFERVESCENCE",
+      "claim": "Collective gatherings can generate heightened emotional energy or 'effervescence' associated with the sacred.",
+      "motifs": [
+        "M01",
+        "M05"
+      ],
+      "provenance": "P2*",
+      "batch": "37"
+    },
+    {
+      "global_claim_id": "G37-S328-K05",
+      "claim_id": "K05",
+      "source_id": "S328",
+      "corpus_id": "C325",
+      "location": "The Elementary Forms of the Religious Life",
+      "claim_type": "SOCIAL_SELF",
+      "claim": "The individual acquires durable ideas and sentiments through participation in collective life.",
+      "motifs": [
+        "M02",
+        "M05"
+      ],
+      "provenance": "P2*",
+      "batch": "37"
+    },
+    {
+      "global_claim_id": "G37-S328-K06",
+      "claim_id": "K06",
+      "source_id": "S328",
+      "corpus_id": "C325",
+      "location": "The Elementary Forms of the Religious Life",
+      "claim_type": "SOUL",
+      "claim": "Durkheim analyzes the idea of the soul in relation to social forces and collective representations rather than treating it simply as an isolated substance.",
+      "motifs": [
+        "M02",
+        "M15"
+      ],
+      "provenance": "P2*",
+      "batch": "37"
+    },
+    {
+      "global_claim_id": "G37-S328-K07",
+      "claim_id": "K07",
+      "source_id": "S328",
+      "corpus_id": "C325",
+      "location": "The Elementary Forms of the Religious Life",
+      "claim_type": "CATEGORIES",
+      "claim": "Categories of thought, including conceptual classifications, are analyzed as having collective and social origins.",
+      "motifs": [
+        "M03",
+        "M05"
+      ],
+      "provenance": "P2*",
+      "batch": "37"
+    },
+    {
+      "global_claim_id": "G37-S328-K08",
+      "claim_id": "K08",
+      "source_id": "S328",
+      "corpus_id": "C325",
+      "location": "The Elementary Forms of the Religious Life",
+      "claim_type": "TIME_SPACE",
+      "claim": "Social life contributes to how human groups organize and conceptualize categories such as time and space.",
+      "motifs": [
+        "M11",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "37"
+    },
+    {
+      "global_claim_id": "G37-S328-K09",
+      "claim_id": "K09",
+      "source_id": "S328",
+      "corpus_id": "C325",
+      "location": "The Elementary Forms of the Religious Life",
+      "claim_type": "RELIGION",
+      "claim": "Religion is analyzed as an eminently social phenomenon rather than only a private relationship between an individual and supernatural beings.",
+      "motifs": [
+        "M05",
+        "M15"
+      ],
+      "provenance": "P2*",
+      "batch": "37"
+    },
+    {
+      "global_claim_id": "G37-S328-K10",
+      "claim_id": "K10",
+      "source_id": "S328",
+      "corpus_id": "C325",
+      "location": "The Elementary Forms of the Religious Life",
+      "claim_type": "MEANING",
+      "claim": "Ritual and collective representation contribute to shared meaning and moral orientation within a group.",
+      "motifs": [
+        "M10",
+        "M15"
+      ],
+      "provenance": "P2*",
+      "batch": "37"
+    },
+    {
+      "global_claim_id": "G37-S328-K11",
+      "claim_id": "K11",
+      "source_id": "S328",
+      "corpus_id": "C325",
+      "location": "The Elementary Forms of the Religious Life",
+      "claim_type": "TRANFORMATION",
+      "claim": "Recurrent participation in collective practices can transform and renew individual mental states.",
+      "motifs": [
+        "M12",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "37"
+    },
+    {
+      "global_claim_id": "G37-S328-K12",
+      "claim_id": "K12",
+      "source_id": "S328",
+      "corpus_id": "C325",
+      "location": "The Elementary Forms of the Religious Life",
+      "claim_type": "CONTRAST",
+      "claim": "Durkheim's sociological account differs from theological claims about supernatural entities even when it analyzes the experience believers associate with them.",
+      "motifs": [
+        "M04",
+        "M14"
+      ],
+      "provenance": "P2*",
+      "batch": "37"
+    },
+    {
+      "global_claim_id": "G37-S328-K13",
+      "claim_id": "K13",
+      "source_id": "S328",
+      "corpus_id": "C325",
+      "location": "The Elementary Forms of the Religious Life",
+      "claim_type": "PRACTICE",
+      "claim": "The source is useful for comparing consciousness, self and shared meaning at the social level without reducing collective experience to a literal group mind.",
+      "motifs": [
+        "M24",
+        "M25"
+      ],
+      "provenance": "P2*",
+      "batch": "37"
+    }
+  ]
+}
