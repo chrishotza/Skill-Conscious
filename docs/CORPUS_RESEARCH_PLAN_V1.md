@@ -13,7 +13,7 @@ Status: started.
 
 ## Phase 2 — Verification
 
-**Status: active. Five extraction batches complete: 47 sources / 502 atomic claims.**
+**Status: active. Six extraction batches complete: 53 sources / 598 atomic claims.**
 
 The first batch is stored at `corpus/CLAIMS/ANCHOR_CLAIMS_BATCH_V1.md`, with motif assignment summarized in `corpus/CLAIMS/MOTIF_EVIDENCE_SUMMARY_V1.md`.
 
@@ -119,8 +119,11 @@ Each major version should ship with:
 - Batch 3: **40 atomic claims / 5 embodied-transpersonal sources**.
 - Batch 4: **96 atomic claims / 8 core-metaphysics sources**.
 - Batch 5: **150 atomic claims / 10 Self/no-self/nonduality sources**.
-- Current total: **502 atomic claims / 47 sources**.
+- Batch 6: **96 atomic claims / 6 Jain/Sikh/Zoroastrian/Christian contemplative sources**.
+- Current total: **598 atomic claims / 53 sources**.
 - Global target: **1,000+ atomic claims**.
+- Provenance control: `corpus/CLAIMS/VERIFICATION_QUEUE_V1.md` holds S1 claims at half-weight until primary verification.
+- Quantitative matrix: `ontology/CONVERGENCE_MATRIX_V2.md` now reports raw and provenance-weighted recurrence.
 - Convergence evidence ledger: `ontology/CONVERGENCE_EVIDENCE_LEDGER_V1.md` tracks recurrence by motif, source count, and tradition-family count.
 - Convergence Matrix v2: `ontology/CONVERGENCE_MATRIX_V2.md` adds quantitative recurrence tiers and explicit contradiction axes.
 - Priority for Batches 2–10: increase independent source-family diversity, especially African, Indigenous, Daoist, Buddhist, Jewish, Christian, Sufi, Greek, Egyptian, Persian, Tantric, and Western esoteric primary corpora.
