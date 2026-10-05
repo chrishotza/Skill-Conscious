@@ -78,6 +78,10 @@ __all__ = [
     "MetacognitivePredictionResult",
     "compare_metacognitive_prediction",
     "METACOGNITIVE_PREDICTION_RUNTIME_KEYS",
+    "CANONICAL_CRITERIA",
+    "ConsciousnessCriterion",
+    "evaluate_case",
 ]
 
 from .adversarial_battery import AdversarialCondition, CONDITIONS, run_adversarial_battery, run_condition, summarize_battery
+from .case_standard import CANONICAL_CRITERIA, ConsciousnessCriterion, evaluate_case
