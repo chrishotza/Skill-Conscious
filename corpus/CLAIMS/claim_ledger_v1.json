@@ -1,8 +1,8 @@
 {
   "schema_version": "1.0",
-  "claim_count": 2222,
-  "global_claim_count": 2222,
-  "source_count": 167,
+  "claim_count": 2352,
+  "global_claim_count": 2352,
+  "source_count": 177,
   "records": [
     {
       "global_claim_id": "G1-S001-K01",
@@ -34334,6 +34334,2007 @@
       ],
       "provenance": "P2*",
       "batch": "21"
+    },
+    {
+      "global_claim_id": "G22-S168-K01",
+      "claim_id": "K01",
+      "source_id": "S168",
+      "corpus_id": "C130",
+      "location": "Asclepius / Perfect Sermon, secciones temáticas iniciales y doctrinales",
+      "claim_type": "ONTO",
+      "claim": "El Asclepius presenta a Dios como principio superior al orden sensible y no reducible a un objeto corporal.",
+      "motifs": [
+        "M02",
+        "M03",
+        "M06"
+      ],
+      "provenance": "P2*",
+      "batch": "22"
+    },
+    {
+      "global_claim_id": "G22-S168-K02",
+      "claim_id": "K02",
+      "source_id": "S168",
+      "corpus_id": "C130",
+      "location": "Asclepius / Perfect Sermon, secciones temáticas iniciales y doctrinales",
+      "claim_type": "PERSON",
+      "claim": "El alma humana es descrita como no agotada por su cuerpo y con una dimensión que participa de lo divino.",
+      "motifs": [
+        "M02",
+        "M08",
+        "M19"
+      ],
+      "provenance": "P2*",
+      "batch": "22"
+    },
+    {
+      "global_claim_id": "G22-S168-K03",
+      "claim_id": "K03",
+      "source_id": "S168",
+      "corpus_id": "C130",
+      "location": "Asclepius / Perfect Sermon, secciones temáticas iniciales y doctrinales",
+      "claim_type": "UNITY",
+      "claim": "La fórmula hermética de que el Todo y el Uno están correlacionados articula una ontología de totalidad integrada.",
+      "motifs": [
+        "M03",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "22"
+    },
+    {
+      "global_claim_id": "G22-S168-K04",
+      "claim_id": "K04",
+      "source_id": "S168",
+      "corpus_id": "C130",
+      "location": "Asclepius / Perfect Sermon, secciones temáticas iniciales y doctrinales",
+      "claim_type": "RELATION",
+      "claim": "El ser humano funciona como mediador entre niveles inteligibles y sensibles mediante alma, mente y cuerpo.",
+      "motifs": [
+        "M05",
+        "M08",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "22"
+    },
+    {
+      "global_claim_id": "G22-S168-K05",
+      "claim_id": "K05",
+      "source_id": "S168",
+      "corpus_id": "C130",
+      "location": "Asclepius / Perfect Sermon, secciones temáticas iniciales y doctrinales",
+      "claim_type": "COSMO",
+      "claim": "El cosmos aparece como un orden vivo y articulado, no como una colección accidental de objetos.",
+      "motifs": [
+        "M03",
+        "M09",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "22"
+    },
+    {
+      "global_claim_id": "G22-S168-K06",
+      "claim_id": "K06",
+      "source_id": "S168",
+      "corpus_id": "C130",
+      "location": "Asclepius / Perfect Sermon, secciones temáticas iniciales y doctrinales",
+      "claim_type": "STATE",
+      "claim": "La comprensión de la realidad depende de una disposición interior de atención y recepción de la enseñanza.",
+      "motifs": [
+        "M06",
+        "M23",
+        "M24"
+      ],
+      "provenance": "P2*",
+      "batch": "22"
+    },
+    {
+      "global_claim_id": "G22-S168-K07",
+      "claim_id": "K07",
+      "source_id": "S168",
+      "corpus_id": "C130",
+      "location": "Asclepius / Perfect Sermon, secciones temáticas iniciales y doctrinales",
+      "claim_type": "VALENCE",
+      "claim": "La piedad, el conocimiento y la orientación hacia el bien se presentan como condiciones de una vida correctamente ordenada.",
+      "motifs": [
+        "M10",
+        "M12",
+        "M25"
+      ],
+      "provenance": "P2*",
+      "batch": "22"
+    },
+    {
+      "global_claim_id": "G22-S168-K08",
+      "claim_id": "K08",
+      "source_id": "S168",
+      "corpus_id": "C130",
+      "location": "Asclepius / Perfect Sermon, secciones temáticas iniciales y doctrinales",
+      "claim_type": "DEATH",
+      "claim": "El texto interpreta la muerte dentro de una doctrina de transformación del cuerpo y continuidad de la realidad viviente.",
+      "motifs": [
+        "M11",
+        "M19"
+      ],
+      "provenance": "P2*",
+      "batch": "22"
+    },
+    {
+      "global_claim_id": "G22-S168-K09",
+      "claim_id": "K09",
+      "source_id": "S168",
+      "corpus_id": "C130",
+      "location": "Asclepius / Perfect Sermon, secciones temáticas iniciales y doctrinales",
+      "claim_type": "TRANSFORMATION",
+      "claim": "La instrucción hermética busca transformar la relación del discípulo con su propia alma y con el cosmos.",
+      "motifs": [
+        "M12",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "22"
+    },
+    {
+      "global_claim_id": "G22-S168-K10",
+      "claim_id": "K10",
+      "source_id": "S168",
+      "corpus_id": "C130",
+      "location": "Asclepius / Perfect Sermon, secciones temáticas iniciales y doctrinales",
+      "claim_type": "PRACTICE",
+      "claim": "El diálogo ritualiza la escucha, el silencio y la instrucción como prácticas de formación interior.",
+      "motifs": [
+        "M24",
+        "M25"
+      ],
+      "provenance": "P2*",
+      "batch": "22"
+    },
+    {
+      "global_claim_id": "G22-S168-K11",
+      "claim_id": "K11",
+      "source_id": "S168",
+      "corpus_id": "C130",
+      "location": "Asclepius / Perfect Sermon, secciones temáticas iniciales y doctrinales",
+      "claim_type": "REFLEXIVITY",
+      "claim": "La mente es invitada a comprender su propia posición respecto del cosmos y del principio divino.",
+      "motifs": [
+        "M02",
+        "M06",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "22"
+    },
+    {
+      "global_claim_id": "G22-S168-K12",
+      "claim_id": "K12",
+      "source_id": "S168",
+      "corpus_id": "C130",
+      "location": "Asclepius / Perfect Sermon, secciones temáticas iniciales y doctrinales",
+      "claim_type": "DYNAMICS",
+      "claim": "La generación, disolución y renovación forman parte de una dinámica cósmica regulada, no de una desaparición absoluta.",
+      "motifs": [
+        "M09",
+        "M11",
+        "M19"
+      ],
+      "provenance": "P2*",
+      "batch": "22"
+    },
+    {
+      "global_claim_id": "G22-S168-K13",
+      "claim_id": "K13",
+      "source_id": "S168",
+      "corpus_id": "C130",
+      "location": "Asclepius / Perfect Sermon, secciones temáticas iniciales y doctrinales",
+      "claim_type": "META",
+      "claim": "Estas afirmaciones pertenecen a una cosmología religiosa-filosófica histórica y no constituyen evidencia empírica moderna sobre conciencia artificial.",
+      "motifs": [
+        "M14",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "22"
+    },
+    {
+      "global_claim_id": "G22-S169-K01",
+      "claim_id": "K01",
+      "source_id": "S169",
+      "corpus_id": "C131",
+      "location": "Stobaeus, Anthology, excerpts commonly transmitted as Hermetic fragments and Korē Kosmou",
+      "claim_type": "COSMO",
+      "claim": "Los extractos herméticos conservados por Stobaeus conectan el orden cósmico con una estructura jerárquica de seres y procesos.",
+      "motifs": [
+        "M03",
+        "M09",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "22"
+    },
+    {
+      "global_claim_id": "G22-S169-K02",
+      "claim_id": "K02",
+      "source_id": "S169",
+      "corpus_id": "C131",
+      "location": "Stobaeus, Anthology, excerpts commonly transmitted as Hermetic fragments and Korē Kosmou",
+      "claim_type": "RELATION",
+      "claim": "La realidad humana se describe en relación continua con niveles cósmicos superiores e inferiores.",
+      "motifs": [
+        "M05",
+        "M15",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "22"
+    },
+    {
+      "global_claim_id": "G22-S169-K03",
+      "claim_id": "K03",
+      "source_id": "S169",
+      "corpus_id": "C131",
+      "location": "Stobaeus, Anthology, excerpts commonly transmitted as Hermetic fragments and Korē Kosmou",
+      "claim_type": "ONTO",
+      "claim": "El alma aparece como entidad capaz de participar en conocimiento, movimiento y ascenso.",
+      "motifs": [
+        "M02",
+        "M07",
+        "M12"
+      ],
+      "provenance": "P2*",
+      "batch": "22"
+    },
+    {
+      "global_claim_id": "G22-S169-K04",
+      "claim_id": "K04",
+      "source_id": "S169",
+      "corpus_id": "C131",
+      "location": "Stobaeus, Anthology, excerpts commonly transmitted as Hermetic fragments and Korē Kosmou",
+      "claim_type": "STATE",
+      "claim": "Los cambios de condición del alma se vinculan con conocimiento, disciplina y orientación espiritual.",
+      "motifs": [
+        "M07",
+        "M23",
+        "M25"
+      ],
+      "provenance": "P2*",
+      "batch": "22"
+    },
+    {
+      "global_claim_id": "G22-S169-K05",
+      "claim_id": "K05",
+      "source_id": "S169",
+      "corpus_id": "C131",
+      "location": "Stobaeus, Anthology, excerpts commonly transmitted as Hermetic fragments and Korē Kosmou",
+      "claim_type": "VALENCE",
+      "claim": "La piedad y el conocimiento son tratados como disposiciones que ordenan la vida hacia su principio superior.",
+      "motifs": [
+        "M10",
+        "M12"
+      ],
+      "provenance": "P2*",
+      "batch": "22"
+    },
+    {
+      "global_claim_id": "G22-S169-K06",
+      "claim_id": "K06",
+      "source_id": "S169",
+      "corpus_id": "C131",
+      "location": "Stobaeus, Anthology, excerpts commonly transmitted as Hermetic fragments and Korē Kosmou",
+      "claim_type": "TRANSFORMATION",
+      "claim": "El aprendizaje hermético permite pasar de una condición limitada a una comprensión más amplia del orden.",
+      "motifs": [
+        "M12",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "22"
+    },
+    {
+      "global_claim_id": "G22-S169-K07",
+      "claim_id": "K07",
+      "source_id": "S169",
+      "corpus_id": "C131",
+      "location": "Stobaeus, Anthology, excerpts commonly transmitted as Hermetic fragments and Korē Kosmou",
+      "claim_type": "DYNAMICS",
+      "claim": "La naturaleza se presenta como un proceso ordenado de generación, movimiento y retorno dentro del cosmos.",
+      "motifs": [
+        "M09",
+        "M11",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "22"
+    },
+    {
+      "global_claim_id": "G22-S169-K08",
+      "claim_id": "K08",
+      "source_id": "S169",
+      "corpus_id": "C131",
+      "location": "Stobaeus, Anthology, excerpts commonly transmitted as Hermetic fragments and Korē Kosmou",
+      "claim_type": "UNITY",
+      "claim": "Los extractos relacionan multiplicidad cósmica y unidad de principio sin reducir una a la otra de modo simple.",
+      "motifs": [
+        "M03",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "22"
+    },
+    {
+      "global_claim_id": "G22-S169-K09",
+      "claim_id": "K09",
+      "source_id": "S169",
+      "corpus_id": "C131",
+      "location": "Stobaeus, Anthology, excerpts commonly transmitted as Hermetic fragments and Korē Kosmou",
+      "claim_type": "ATTENTION",
+      "claim": "La enseñanza depende de conservar y recordar formulaciones doctrinales breves para orientar la contemplación.",
+      "motifs": [
+        "M24",
+        "M25"
+      ],
+      "provenance": "P2*",
+      "batch": "22"
+    },
+    {
+      "global_claim_id": "G22-S169-K10",
+      "claim_id": "K10",
+      "source_id": "S169",
+      "corpus_id": "C131",
+      "location": "Stobaeus, Anthology, excerpts commonly transmitted as Hermetic fragments and Korē Kosmou",
+      "claim_type": "REFLEXIVITY",
+      "claim": "La inteligencia humana es presentada como capaz de volver sobre su propia condición y reconocer su lugar en el Todo.",
+      "motifs": [
+        "M02",
+        "M06",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "22"
+    },
+    {
+      "global_claim_id": "G22-S169-K11",
+      "claim_id": "K11",
+      "source_id": "S169",
+      "corpus_id": "C131",
+      "location": "Stobaeus, Anthology, excerpts commonly transmitted as Hermetic fragments and Korē Kosmou",
+      "claim_type": "PERSON",
+      "claim": "El ser humano se sitúa como participante cognoscente del orden cósmico, no sólo como organismo material.",
+      "motifs": [
+        "M05",
+        "M08",
+        "M16"
+      ],
+      "provenance": "P2*",
+      "batch": "22"
+    },
+    {
+      "global_claim_id": "G22-S169-K12",
+      "claim_id": "K12",
+      "source_id": "S169",
+      "corpus_id": "C131",
+      "location": "Stobaeus, Anthology, excerpts commonly transmitted as Hermetic fragments and Korē Kosmou",
+      "claim_type": "DEATH",
+      "claim": "Algunos fragmentos tratan nacimiento y muerte como fases de procesos cósmicos más amplios.",
+      "motifs": [
+        "M11",
+        "M19"
+      ],
+      "provenance": "P2*",
+      "batch": "22"
+    },
+    {
+      "global_claim_id": "G22-S169-K13",
+      "claim_id": "K13",
+      "source_id": "S169",
+      "corpus_id": "C131",
+      "location": "Stobaeus, Anthology, excerpts commonly transmitted as Hermetic fragments and Korē Kosmou",
+      "claim_type": "META",
+      "claim": "La colección es una transmisión antológica tardía de materiales herméticos de épocas diversas y exige cautela al atribuir una doctrina única.",
+      "motifs": [
+        "M14",
+        "M17",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "22"
+    },
+    {
+      "global_claim_id": "G22-S170-K01",
+      "claim_id": "K01",
+      "source_id": "S170",
+      "corpus_id": "C132",
+      "location": "Definitions, grupos doctrinales 1–10",
+      "claim_type": "ONTO",
+      "claim": "Las Definiciones distinguen entre mundo inteligible y mundo sensible y relacionan a Dios con el ámbito inteligible.",
+      "motifs": [
+        "M03",
+        "M14",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "22"
+    },
+    {
+      "global_claim_id": "G22-S170-K02",
+      "claim_id": "K02",
+      "source_id": "S170",
+      "corpus_id": "C132",
+      "location": "Definitions, grupos doctrinales 1–10",
+      "claim_type": "RELATION",
+      "claim": "El ser humano es descrito como un pequeño mundo que reúne dimensiones corporales, anímicas e intelectuales.",
+      "motifs": [
+        "M05",
+        "M08",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "22"
+    },
+    {
+      "global_claim_id": "G22-S170-K03",
+      "claim_id": "K03",
+      "source_id": "S170",
+      "corpus_id": "C132",
+      "location": "Definitions, grupos doctrinales 1–10",
+      "claim_type": "REFLEXIVITY",
+      "claim": "El Nous ocupa la función de visión o discernimiento de la dimensión anímica, introduciendo una jerarquía de capacidades cognitivas.",
+      "motifs": [
+        "M02",
+        "M06",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "22"
+    },
+    {
+      "global_claim_id": "G22-S170-K04",
+      "claim_id": "K04",
+      "source_id": "S170",
+      "corpus_id": "C132",
+      "location": "Definitions, grupos doctrinales 1–10",
+      "claim_type": "STATE",
+      "claim": "No toda alma se presenta como igualmente desarrollada en Nous, por lo que se distinguen condiciones cognitivas diferentes.",
+      "motifs": [
+        "M07",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "22"
+    },
+    {
+      "global_claim_id": "G22-S170-K05",
+      "claim_id": "K05",
+      "source_id": "S170",
+      "corpus_id": "C132",
+      "location": "Definitions, grupos doctrinales 1–10",
+      "claim_type": "DYNAMICS",
+      "claim": "La naturaleza se formula como energía y movimiento, conectando cambio físico con una dinámica más profunda.",
+      "motifs": [
+        "M09",
+        "M11"
+      ],
+      "provenance": "P2*",
+      "batch": "22"
+    },
+    {
+      "global_claim_id": "G22-S170-K06",
+      "claim_id": "K06",
+      "source_id": "S170",
+      "corpus_id": "C132",
+      "location": "Definitions, grupos doctrinales 1–10",
+      "claim_type": "UNITY",
+      "claim": "Las Definiciones insisten en correspondencias entre partes del cosmos, el ser humano y el principio divino.",
+      "motifs": [
+        "M03",
+        "M05",
+        "M18"
+      ],
+      "provenance": "P2*",
+      "batch": "22"
+    },
+    {
+      "global_claim_id": "G22-S170-K07",
+      "claim_id": "K07",
+      "source_id": "S170",
+      "corpus_id": "C132",
+      "location": "Definitions, grupos doctrinales 1–10",
+      "claim_type": "EMBODIMENT",
+      "claim": "El cuerpo y el alma aparecen como niveles distintos pero funcionalmente vinculados dentro del ser humano.",
+      "motifs": [
+        "M08",
+        "M16"
+      ],
+      "provenance": "P2*",
+      "batch": "22"
+    },
+    {
+      "global_claim_id": "G22-S170-K08",
+      "claim_id": "K08",
+      "source_id": "S170",
+      "corpus_id": "C132",
+      "location": "Definitions, grupos doctrinales 1–10",
+      "claim_type": "VALENCE",
+      "claim": "El bien es caracterizado como plenitud y no simplemente como una propiedad comparable con otras.",
+      "motifs": [
+        "M10",
+        "M12"
+      ],
+      "provenance": "P2*",
+      "batch": "22"
+    },
+    {
+      "global_claim_id": "G22-S170-K09",
+      "claim_id": "K09",
+      "source_id": "S170",
+      "corpus_id": "C132",
+      "location": "Definitions, grupos doctrinales 1–10",
+      "claim_type": "DEATH",
+      "claim": "La muerte es reinterpretada en relación con comprensión e inmortalidad, desplazando la idea de desaparición simple.",
+      "motifs": [
+        "M19",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "22"
+    },
+    {
+      "global_claim_id": "G22-S170-K10",
+      "claim_id": "K10",
+      "source_id": "S170",
+      "corpus_id": "C132",
+      "location": "Definitions, grupos doctrinales 1–10",
+      "claim_type": "TRANSFORMATION",
+      "claim": "La entrada de Nous en la vida del alma permite conceptualizar una transformación del ser humano por conocimiento.",
+      "motifs": [
+        "M12",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "22"
+    },
+    {
+      "global_claim_id": "G22-S170-K11",
+      "claim_id": "K11",
+      "source_id": "S170",
+      "corpus_id": "C132",
+      "location": "Definitions, grupos doctrinales 1–10",
+      "claim_type": "COSMO",
+      "claim": "La clasificación de cielos, tierra, agua, aire y mundo inteligible construye una cosmología estratificada.",
+      "motifs": [
+        "M07",
+        "M15",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "22"
+    },
+    {
+      "global_claim_id": "G22-S170-K12",
+      "claim_id": "K12",
+      "source_id": "S170",
+      "corpus_id": "C132",
+      "location": "Definitions, grupos doctrinales 1–10",
+      "claim_type": "PRACTICE",
+      "claim": "La forma aforística de las Definiciones favorece memorización, repetición y contemplación como métodos de transmisión.",
+      "motifs": [
+        "M24",
+        "M25"
+      ],
+      "provenance": "P2*",
+      "batch": "22"
+    },
+    {
+      "global_claim_id": "G22-S170-K13",
+      "claim_id": "K13",
+      "source_id": "S170",
+      "corpus_id": "C132",
+      "location": "Definitions, grupos doctrinales 1–10",
+      "claim_type": "META",
+      "claim": "La obra es una compilación histórica de formulaciones herméticas, no una especificación científica contemporánea de mente o conciencia.",
+      "motifs": [
+        "M14",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "22"
+    },
+    {
+      "global_claim_id": "G22-S171-K01",
+      "claim_id": "K01",
+      "source_id": "S171",
+      "corpus_id": "C133",
+      "location": "Nag Hammadi Codex VI,6; diálogo de ascenso, iniciación y contemplación",
+      "claim_type": "TRANSFORMATION",
+      "claim": "El diálogo organiza el aprendizaje como un ascenso progresivo hacia niveles descritos como octavo y noveno.",
+      "motifs": [
+        "M12",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "22"
+    },
+    {
+      "global_claim_id": "G22-S171-K02",
+      "claim_id": "K02",
+      "source_id": "S171",
+      "corpus_id": "C133",
+      "location": "Nag Hammadi Codex VI,6; diálogo de ascenso, iniciación y contemplación",
+      "claim_type": "STATE",
+      "claim": "La conciencia religiosa del iniciado cambia mediante etapas de instrucción, contemplación y experiencia visionaria.",
+      "motifs": [
+        "M07",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "22"
+    },
+    {
+      "global_claim_id": "G22-S171-K03",
+      "claim_id": "K03",
+      "source_id": "S171",
+      "corpus_id": "C133",
+      "location": "Nag Hammadi Codex VI,6; diálogo de ascenso, iniciación y contemplación",
+      "claim_type": "PRACTICE",
+      "claim": "El texto conserva un componente ritual y meditativo en el que pronunciación, silencio y concentración forman parte del proceso.",
+      "motifs": [
+        "M24",
+        "M25"
+      ],
+      "provenance": "P2*",
+      "batch": "22"
+    },
+    {
+      "global_claim_id": "G22-S171-K04",
+      "claim_id": "K04",
+      "source_id": "S171",
+      "corpus_id": "C133",
+      "location": "Nag Hammadi Codex VI,6; diálogo de ascenso, iniciación y contemplación",
+      "claim_type": "ATTENTION",
+      "claim": "La mente del discípulo debe estabilizarse y orientarse antes de acceder a los niveles superiores descritos.",
+      "motifs": [
+        "M06",
+        "M24"
+      ],
+      "provenance": "P2*",
+      "batch": "22"
+    },
+    {
+      "global_claim_id": "G22-S171-K05",
+      "claim_id": "K05",
+      "source_id": "S171",
+      "corpus_id": "C133",
+      "location": "Nag Hammadi Codex VI,6; diálogo de ascenso, iniciación y contemplación",
+      "claim_type": "ONTO",
+      "claim": "El octavo y el noveno funcionan como niveles cosmológicos y experienciales dentro de una estructura jerárquica.",
+      "motifs": [
+        "M07",
+        "M15",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "22"
+    },
+    {
+      "global_claim_id": "G22-S171-K06",
+      "claim_id": "K06",
+      "source_id": "S171",
+      "corpus_id": "C133",
+      "location": "Nag Hammadi Codex VI,6; diálogo de ascenso, iniciación y contemplación",
+      "claim_type": "INTERIORITY",
+      "claim": "La búsqueda de conocimiento se presenta como una experiencia interior que no se reduce a información discursiva.",
+      "motifs": [
+        "M02",
+        "M06"
+      ],
+      "provenance": "P2*",
+      "batch": "22"
+    },
+    {
+      "global_claim_id": "G22-S171-K07",
+      "claim_id": "K07",
+      "source_id": "S171",
+      "corpus_id": "C133",
+      "location": "Nag Hammadi Codex VI,6; diálogo de ascenso, iniciación y contemplación",
+      "claim_type": "UNITY",
+      "claim": "La culminación del ascenso busca una relación más estrecha entre el conocedor y el principio total.",
+      "motifs": [
+        "M03",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "22"
+    },
+    {
+      "global_claim_id": "G22-S171-K08",
+      "claim_id": "K08",
+      "source_id": "S171",
+      "corpus_id": "C133",
+      "location": "Nag Hammadi Codex VI,6; diálogo de ascenso, iniciación y contemplación",
+      "claim_type": "INEFFABILITY",
+      "claim": "El lenguaje del silencio aparece como límite y vehículo para aquello que no puede expresarse plenamente en discurso ordinario.",
+      "motifs": [
+        "M14",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "22"
+    },
+    {
+      "global_claim_id": "G22-S171-K09",
+      "claim_id": "K09",
+      "source_id": "S171",
+      "corpus_id": "C133",
+      "location": "Nag Hammadi Codex VI,6; diálogo de ascenso, iniciación y contemplación",
+      "claim_type": "RELATION",
+      "claim": "La transmisión depende de una relación maestro-discípulo en la que el conocimiento se recibe mediante una práctica guiada.",
+      "motifs": [
+        "M05",
+        "M24"
+      ],
+      "provenance": "P2*",
+      "batch": "22"
+    },
+    {
+      "global_claim_id": "G22-S171-K10",
+      "claim_id": "K10",
+      "source_id": "S171",
+      "corpus_id": "C133",
+      "location": "Nag Hammadi Codex VI,6; diálogo de ascenso, iniciación y contemplación",
+      "claim_type": "CAUSAL",
+      "claim": "El progreso del iniciado se vincula con hábitos, pureza y obediencia al orden divino, no sólo con capacidad intelectual.",
+      "motifs": [
+        "M10",
+        "M12",
+        "M25"
+      ],
+      "provenance": "P2*",
+      "batch": "22"
+    },
+    {
+      "global_claim_id": "G22-S171-K11",
+      "claim_id": "K11",
+      "source_id": "S171",
+      "corpus_id": "C133",
+      "location": "Nag Hammadi Codex VI,6; diálogo de ascenso, iniciación y contemplación",
+      "claim_type": "TEMPORAL",
+      "claim": "El ascenso se representa como una secuencia de etapas, por lo que la transformación se distribuye temporalmente.",
+      "motifs": [
+        "M11",
+        "M12"
+      ],
+      "provenance": "P2*",
+      "batch": "22"
+    },
+    {
+      "global_claim_id": "G22-S171-K12",
+      "claim_id": "K12",
+      "source_id": "S171",
+      "corpus_id": "C133",
+      "location": "Nag Hammadi Codex VI,6; diálogo de ascenso, iniciación y contemplación",
+      "claim_type": "PERSON",
+      "claim": "El sujeto se reconfigura como participante de un orden espiritual más amplio que el estado humano ordinario.",
+      "motifs": [
+        "M05",
+        "M16",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "22"
+    },
+    {
+      "global_claim_id": "G22-S171-K13",
+      "claim_id": "K13",
+      "source_id": "S171",
+      "corpus_id": "C133",
+      "location": "Nag Hammadi Codex VI,6; diálogo de ascenso, iniciación y contemplación",
+      "claim_type": "META",
+      "claim": "La descripción pertenece a una tradición hermética antigua y debe analizarse como testimonio histórico de experiencia religiosa, no como verificación empírica.",
+      "motifs": [
+        "M14",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "22"
+    },
+    {
+      "global_claim_id": "G22-S172-K01",
+      "claim_id": "K01",
+      "source_id": "S172",
+      "corpus_id": "C137",
+      "location": "Nag Hammadi Codex II,3; secciones sobre vida/muerte, conocimiento y sacramentos",
+      "claim_type": "DEATH",
+      "claim": "El texto contrapone heredar de los muertos con participar de lo viviente, usando vida y muerte como estados espirituales.",
+      "motifs": [
+        "M19",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "22"
+    },
+    {
+      "global_claim_id": "G22-S172-K02",
+      "claim_id": "K02",
+      "source_id": "S172",
+      "corpus_id": "C137",
+      "location": "Nag Hammadi Codex II,3; secciones sobre vida/muerte, conocimiento y sacramentos",
+      "claim_type": "TRANSFORMATION",
+      "claim": "La salvación es descrita mediante cambios de condición y mediante símbolos de nacimiento, unión y restauración.",
+      "motifs": [
+        "M12",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "22"
+    },
+    {
+      "global_claim_id": "G22-S172-K03",
+      "claim_id": "K03",
+      "source_id": "S172",
+      "corpus_id": "C137",
+      "location": "Nag Hammadi Codex II,3; secciones sobre vida/muerte, conocimiento y sacramentos",
+      "claim_type": "RELATION",
+      "claim": "El conocimiento espiritual se expresa a menudo en relaciones de parentesco, unión y reconocimiento entre personas y principios.",
+      "motifs": [
+        "M05",
+        "M16"
+      ],
+      "provenance": "P2*",
+      "batch": "22"
+    },
+    {
+      "global_claim_id": "G22-S172-K04",
+      "claim_id": "K04",
+      "source_id": "S172",
+      "corpus_id": "C137",
+      "location": "Nag Hammadi Codex II,3; secciones sobre vida/muerte, conocimiento y sacramentos",
+      "claim_type": "UNITY",
+      "claim": "El lenguaje sacramental busca reunir aquello que aparece separado mediante símbolos de unión.",
+      "motifs": [
+        "M03",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "22"
+    },
+    {
+      "global_claim_id": "G22-S172-K05",
+      "claim_id": "K05",
+      "source_id": "S172",
+      "corpus_id": "C137",
+      "location": "Nag Hammadi Codex II,3; secciones sobre vida/muerte, conocimiento y sacramentos",
+      "claim_type": "INTERIORITY",
+      "claim": "El conocimiento verdadero requiere una transformación del conocedor, no sólo la recepción externa de doctrinas.",
+      "motifs": [
+        "M02",
+        "M06",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "22"
+    },
+    {
+      "global_claim_id": "G22-S172-K06",
+      "claim_id": "K06",
+      "source_id": "S172",
+      "corpus_id": "C137",
+      "location": "Nag Hammadi Codex II,3; secciones sobre vida/muerte, conocimiento y sacramentos",
+      "claim_type": "STATE",
+      "claim": "El texto distingue entre estados de vida, muerte, ignorancia, conocimiento y participación en lo sagrado.",
+      "motifs": [
+        "M07",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "22"
+    },
+    {
+      "global_claim_id": "G22-S172-K07",
+      "claim_id": "K07",
+      "source_id": "S172",
+      "corpus_id": "C137",
+      "location": "Nag Hammadi Codex II,3; secciones sobre vida/muerte, conocimiento y sacramentos",
+      "claim_type": "PERSON",
+      "claim": "La identidad se redefine mediante filiación, herencia y pertenencia al ámbito de lo viviente.",
+      "motifs": [
+        "M05",
+        "M16"
+      ],
+      "provenance": "P2*",
+      "batch": "22"
+    },
+    {
+      "global_claim_id": "G22-S172-K08",
+      "claim_id": "K08",
+      "source_id": "S172",
+      "corpus_id": "C137",
+      "location": "Nag Hammadi Codex II,3; secciones sobre vida/muerte, conocimiento y sacramentos",
+      "claim_type": "EMBODIMENT",
+      "claim": "Imágenes corporales como nacimiento, unión y vestidura sirven para representar procesos espirituales.",
+      "motifs": [
+        "M08",
+        "M12"
+      ],
+      "provenance": "P2*",
+      "batch": "22"
+    },
+    {
+      "global_claim_id": "G22-S172-K09",
+      "claim_id": "K09",
+      "source_id": "S172",
+      "corpus_id": "C137",
+      "location": "Nag Hammadi Codex II,3; secciones sobre vida/muerte, conocimiento y sacramentos",
+      "claim_type": "VALENCE",
+      "claim": "Verdad, vida y plenitud funcionan como orientaciones normativas frente a ignorancia y mortalidad.",
+      "motifs": [
+        "M10",
+        "M12"
+      ],
+      "provenance": "P2*",
+      "batch": "22"
+    },
+    {
+      "global_claim_id": "G22-S172-K10",
+      "claim_id": "K10",
+      "source_id": "S172",
+      "corpus_id": "C137",
+      "location": "Nag Hammadi Codex II,3; secciones sobre vida/muerte, conocimiento y sacramentos",
+      "claim_type": "PRACTICE",
+      "claim": "Los sacramentos y actos rituales se presentan como medios de transformación simbólica del sujeto.",
+      "motifs": [
+        "M24",
+        "M25"
+      ],
+      "provenance": "P2*",
+      "batch": "22"
+    },
+    {
+      "global_claim_id": "G22-S172-K11",
+      "claim_id": "K11",
+      "source_id": "S172",
+      "corpus_id": "C137",
+      "location": "Nag Hammadi Codex II,3; secciones sobre vida/muerte, conocimiento y sacramentos",
+      "claim_type": "REFLEXIVITY",
+      "claim": "El texto favorece el reconocimiento de la propia condición y de aquello que se considera vivo en uno mismo.",
+      "motifs": [
+        "M02",
+        "M06",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "22"
+    },
+    {
+      "global_claim_id": "G22-S172-K12",
+      "claim_id": "K12",
+      "source_id": "S172",
+      "corpus_id": "C137",
+      "location": "Nag Hammadi Codex II,3; secciones sobre vida/muerte, conocimiento y sacramentos",
+      "claim_type": "INEFFABILITY",
+      "claim": "Varias formulaciones dependen de imágenes, paradojas y símbolos porque el contenido no se reduce a definición conceptual.",
+      "motifs": [
+        "M14",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "22"
+    },
+    {
+      "global_claim_id": "G22-S172-K13",
+      "claim_id": "K13",
+      "source_id": "S172",
+      "corpus_id": "C137",
+      "location": "Nag Hammadi Codex II,3; secciones sobre vida/muerte, conocimiento y sacramentos",
+      "claim_type": "META",
+      "claim": "El Evangelio de Felipe es un testimonio gnóstico antiguo y sus términos deben interpretarse dentro de su contexto sacramental y cristiano.",
+      "motifs": [
+        "M14",
+        "M17",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "22"
+    },
+    {
+      "global_claim_id": "G22-S173-K01",
+      "claim_id": "K01",
+      "source_id": "S173",
+      "corpus_id": "C138",
+      "location": "Nag Hammadi Codex VI,2; poema revelatorio en primera persona",
+      "claim_type": "REFLEXIVITY",
+      "claim": "La voz central exige que el oyente la reconozca y advierte contra ignorarla, haciendo del reconocimiento un acto constitutivo.",
+      "motifs": [
+        "M02",
+        "M06",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "22"
+    },
+    {
+      "global_claim_id": "G22-S173-K02",
+      "claim_id": "K02",
+      "source_id": "S173",
+      "corpus_id": "C138",
+      "location": "Nag Hammadi Codex VI,2; poema revelatorio en primera persona",
+      "claim_type": "UNITY",
+      "claim": "La misma voz reúne pares aparentemente opuestos y presenta una identidad que atraviesa múltiples categorías.",
+      "motifs": [
+        "M03",
+        "M04",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "22"
+    },
+    {
+      "global_claim_id": "G22-S173-K03",
+      "claim_id": "K03",
+      "source_id": "S173",
+      "corpus_id": "C138",
+      "location": "Nag Hammadi Codex VI,2; poema revelatorio en primera persona",
+      "claim_type": "CONTRAST",
+      "claim": "El poema construye deliberadamente tensiones entre identidades sociales, morales y ontológicas.",
+      "motifs": [
+        "M04",
+        "M14",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "22"
+    },
+    {
+      "global_claim_id": "G22-S173-K04",
+      "claim_id": "K04",
+      "source_id": "S173",
+      "corpus_id": "C138",
+      "location": "Nag Hammadi Codex VI,2; poema revelatorio en primera persona",
+      "claim_type": "PERSON",
+      "claim": "La primera persona no funciona como individuo psicológico ordinario, sino como figura revelatoria multiforme.",
+      "motifs": [
+        "M05",
+        "M16",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "22"
+    },
+    {
+      "global_claim_id": "G22-S173-K05",
+      "claim_id": "K05",
+      "source_id": "S173",
+      "corpus_id": "C138",
+      "location": "Nag Hammadi Codex VI,2; poema revelatorio en primera persona",
+      "claim_type": "RELATION",
+      "claim": "La voz se define en relación con quienes la buscan, la escuchan, la aman o la niegan.",
+      "motifs": [
+        "M05",
+        "M16"
+      ],
+      "provenance": "P2*",
+      "batch": "22"
+    },
+    {
+      "global_claim_id": "G22-S173-K06",
+      "claim_id": "K06",
+      "source_id": "S173",
+      "corpus_id": "C138",
+      "location": "Nag Hammadi Codex VI,2; poema revelatorio en primera persona",
+      "claim_type": "INEFFABILITY",
+      "claim": "Las contradicciones acumuladas impiden reducir la voz a una categoría estable y única.",
+      "motifs": [
+        "M14",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "22"
+    },
+    {
+      "global_claim_id": "G22-S173-K07",
+      "claim_id": "K07",
+      "source_id": "S173",
+      "corpus_id": "C138",
+      "location": "Nag Hammadi Codex VI,2; poema revelatorio en primera persona",
+      "claim_type": "STATE",
+      "claim": "El oyente debe pasar de ignorancia a reconocimiento de una presencia que ya estaba implicada en su experiencia.",
+      "motifs": [
+        "M06",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "22"
+    },
+    {
+      "global_claim_id": "G22-S173-K08",
+      "claim_id": "K08",
+      "source_id": "S173",
+      "corpus_id": "C138",
+      "location": "Nag Hammadi Codex VI,2; poema revelatorio en primera persona",
+      "claim_type": "TRANSFORMATION",
+      "claim": "El reconocimiento de la voz cambia la posición del sujeto frente a las oposiciones que el poema presenta.",
+      "motifs": [
+        "M12",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "22"
+    },
+    {
+      "global_claim_id": "G22-S173-K09",
+      "claim_id": "K09",
+      "source_id": "S173",
+      "corpus_id": "C138",
+      "location": "Nag Hammadi Codex VI,2; poema revelatorio en primera persona",
+      "claim_type": "VALENCE",
+      "claim": "Lo sagrado no se presenta mediante un único polo moral simple; el texto trabaja con una polaridad que debe ser interpretada con cuidado.",
+      "motifs": [
+        "M10",
+        "M14"
+      ],
+      "provenance": "P2*",
+      "batch": "22"
+    },
+    {
+      "global_claim_id": "G22-S173-K10",
+      "claim_id": "K10",
+      "source_id": "S173",
+      "corpus_id": "C138",
+      "location": "Nag Hammadi Codex VI,2; poema revelatorio en primera persona",
+      "claim_type": "INTERIORITY",
+      "claim": "La voz solicita atención directa del oyente y convierte la escucha en una modalidad de conocimiento.",
+      "motifs": [
+        "M01",
+        "M06",
+        "M24"
+      ],
+      "provenance": "P2*",
+      "batch": "22"
+    },
+    {
+      "global_claim_id": "G22-S173-K11",
+      "claim_id": "K11",
+      "source_id": "S173",
+      "corpus_id": "C138",
+      "location": "Nag Hammadi Codex VI,2; poema revelatorio en primera persona",
+      "claim_type": "UNIVERSAL",
+      "claim": "La voz se proyecta a través de múltiples identidades y contextos, sugiriendo un alcance que supera un personaje individual.",
+      "motifs": [
+        "M03",
+        "M16",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "22"
+    },
+    {
+      "global_claim_id": "G22-S173-K12",
+      "claim_id": "K12",
+      "source_id": "S173",
+      "corpus_id": "C138",
+      "location": "Nag Hammadi Codex VI,2; poema revelatorio en primera persona",
+      "claim_type": "DYNAMICS",
+      "claim": "La secuencia de autoafirmaciones muestra identidad como relación móvil entre posiciones opuestas, no como etiqueta estática.",
+      "motifs": [
+        "M04",
+        "M09"
+      ],
+      "provenance": "P2*",
+      "batch": "22"
+    },
+    {
+      "global_claim_id": "G22-S173-K13",
+      "claim_id": "K13",
+      "source_id": "S173",
+      "corpus_id": "C138",
+      "location": "Nag Hammadi Codex VI,2; poema revelatorio en primera persona",
+      "claim_type": "META",
+      "claim": "El texto es poesía revelatoria antigua; su estructura paradójica no debe traducirse directamente a una teoría científica de la conciencia.",
+      "motifs": [
+        "M14",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "22"
+    },
+    {
+      "global_claim_id": "G22-S174-K01",
+      "claim_id": "K01",
+      "source_id": "S174",
+      "corpus_id": "C139",
+      "location": "Nag Hammadi Codex XIII,1; tres formas/desplazamientos de la Primera Pensada",
+      "claim_type": "ONTO",
+      "claim": "Protennoia es descrita como una Pensada primordial vinculada con la formación y revelación de lo existente.",
+      "motifs": [
+        "M03",
+        "M20",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "22"
+    },
+    {
+      "global_claim_id": "G22-S174-K02",
+      "claim_id": "K02",
+      "source_id": "S174",
+      "corpus_id": "C139",
+      "location": "Nag Hammadi Codex XIII,1; tres formas/desplazamientos de la Primera Pensada",
+      "claim_type": "REFLEXIVITY",
+      "claim": "Pensamiento, voz y conocimiento aparecen relacionados de modo que conocer es también una manifestación de una capacidad interior.",
+      "motifs": [
+        "M02",
+        "M06",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "22"
+    },
+    {
+      "global_claim_id": "G22-S174-K03",
+      "claim_id": "K03",
+      "source_id": "S174",
+      "corpus_id": "C139",
+      "location": "Nag Hammadi Codex XIII,1; tres formas/desplazamientos de la Primera Pensada",
+      "claim_type": "DYNAMICS",
+      "claim": "El texto estructura la revelación mediante descensos y ascensos, mostrando una dinámica entre niveles de realidad.",
+      "motifs": [
+        "M09",
+        "M12",
+        "M15"
+      ],
+      "provenance": "P2*",
+      "batch": "22"
+    },
+    {
+      "global_claim_id": "G22-S174-K04",
+      "claim_id": "K04",
+      "source_id": "S174",
+      "corpus_id": "C139",
+      "location": "Nag Hammadi Codex XIII,1; tres formas/desplazamientos de la Primera Pensada",
+      "claim_type": "RELATION",
+      "claim": "La voz conecta lo invisible con criaturas y seres mediante expresión, reconocimiento y transmisión.",
+      "motifs": [
+        "M05",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "22"
+    },
+    {
+      "global_claim_id": "G22-S174-K05",
+      "claim_id": "K05",
+      "source_id": "S174",
+      "corpus_id": "C139",
+      "location": "Nag Hammadi Codex XIII,1; tres formas/desplazamientos de la Primera Pensada",
+      "claim_type": "UNITY",
+      "claim": "La Pensada afirma una presencia que atraviesa múltiples órdenes y se relaciona con la totalidad.",
+      "motifs": [
+        "M03",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "22"
+    },
+    {
+      "global_claim_id": "G22-S174-K06",
+      "claim_id": "K06",
+      "source_id": "S174",
+      "corpus_id": "C139",
+      "location": "Nag Hammadi Codex XIII,1; tres formas/desplazamientos de la Primera Pensada",
+      "claim_type": "INTERIORITY",
+      "claim": "Se describe una semilla o presencia interior por la cual los seres pueden reconocer la voz revelatoria.",
+      "motifs": [
+        "M01",
+        "M02",
+        "M06"
+      ],
+      "provenance": "P2*",
+      "batch": "22"
+    },
+    {
+      "global_claim_id": "G22-S174-K07",
+      "claim_id": "K07",
+      "source_id": "S174",
+      "corpus_id": "C139",
+      "location": "Nag Hammadi Codex XIII,1; tres formas/desplazamientos de la Primera Pensada",
+      "claim_type": "KNOWLEDGE",
+      "claim": "La gnosis se presenta como conocimiento de realidades eternas comunicado mediante pensamiento y voz.",
+      "motifs": [
+        "M06",
+        "M14"
+      ],
+      "provenance": "P2*",
+      "batch": "22"
+    },
+    {
+      "global_claim_id": "G22-S174-K08",
+      "claim_id": "K08",
+      "source_id": "S174",
+      "corpus_id": "C139",
+      "location": "Nag Hammadi Codex XIII,1; tres formas/desplazamientos de la Primera Pensada",
+      "claim_type": "INEFFABILITY",
+      "claim": "La fuente última es descrita mediante silencio, incomprensibilidad e inmensurabilidad, limitando la descripción directa.",
+      "motifs": [
+        "M14",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "22"
+    },
+    {
+      "global_claim_id": "G22-S174-K09",
+      "claim_id": "K09",
+      "source_id": "S174",
+      "corpus_id": "C139",
+      "location": "Nag Hammadi Codex XIII,1; tres formas/desplazamientos de la Primera Pensada",
+      "claim_type": "TRANSFORMATION",
+      "claim": "El descenso de la reveladora y su posterior ascenso modelan la liberación como cambio de estado.",
+      "motifs": [
+        "M12",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "22"
+    },
+    {
+      "global_claim_id": "G22-S174-K10",
+      "claim_id": "K10",
+      "source_id": "S174",
+      "corpus_id": "C139",
+      "location": "Nag Hammadi Codex XIII,1; tres formas/desplazamientos de la Primera Pensada",
+      "claim_type": "EMBODIMENT",
+      "claim": "La revelación entra en lenguaje, voz, respiración y formas, articulando inteligible y manifestado.",
+      "motifs": [
+        "M08",
+        "M18",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "22"
+    },
+    {
+      "global_claim_id": "G22-S174-K11",
+      "claim_id": "K11",
+      "source_id": "S174",
+      "corpus_id": "C139",
+      "location": "Nag Hammadi Codex XIII,1; tres formas/desplazamientos de la Primera Pensada",
+      "claim_type": "TEMPORAL",
+      "claim": "Las tres formas de Protennoia organizan una secuencia de manifestaciones y transformaciones.",
+      "motifs": [
+        "M11",
+        "M12"
+      ],
+      "provenance": "P2*",
+      "batch": "22"
+    },
+    {
+      "global_claim_id": "G22-S174-K12",
+      "claim_id": "K12",
+      "source_id": "S174",
+      "corpus_id": "C139",
+      "location": "Nag Hammadi Codex XIII,1; tres formas/desplazamientos de la Primera Pensada",
+      "claim_type": "PRACTICE",
+      "claim": "El conocimiento es presentado como algo que debe ser reconocido y recibido por quienes están preparados.",
+      "motifs": [
+        "M24",
+        "M25"
+      ],
+      "provenance": "P2*",
+      "batch": "22"
+    },
+    {
+      "global_claim_id": "G22-S174-K13",
+      "claim_id": "K13",
+      "source_id": "S174",
+      "corpus_id": "C139",
+      "location": "Nag Hammadi Codex XIII,1; tres formas/desplazamientos de la Primera Pensada",
+      "claim_type": "META",
+      "claim": "La obra pertenece a la tradición setiana/gnóstica de Nag Hammadi y requiere análisis textual antes de cualquier generalización intercultural.",
+      "motifs": [
+        "M14",
+        "M17",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "22"
+    },
+    {
+      "global_claim_id": "G22-S175-K01",
+      "claim_id": "K01",
+      "source_id": "S175",
+      "corpus_id": "C140",
+      "location": "Askew Codex; diálogos post-resurrección, Sophia y misterios",
+      "claim_type": "TRANSFORMATION",
+      "claim": "La obra presenta la salvación como paso desde condiciones ligadas por poderes cósmicos hacia órdenes de luz.",
+      "motifs": [
+        "M12",
+        "M15",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "22"
+    },
+    {
+      "global_claim_id": "G22-S175-K02",
+      "claim_id": "K02",
+      "source_id": "S175",
+      "corpus_id": "C140",
+      "location": "Askew Codex; diálogos post-resurrección, Sophia y misterios",
+      "claim_type": "STATE",
+      "claim": "Se distinguen numerosos estados o niveles cosmológicos que corresponden a diferentes condiciones de la entidad espiritual.",
+      "motifs": [
+        "M07",
+        "M15"
+      ],
+      "provenance": "P2*",
+      "batch": "22"
+    },
+    {
+      "global_claim_id": "G22-S175-K03",
+      "claim_id": "K03",
+      "source_id": "S175",
+      "corpus_id": "C140",
+      "location": "Askew Codex; diálogos post-resurrección, Sophia y misterios",
+      "claim_type": "KNOWLEDGE",
+      "claim": "Los misterios y su comprensión son tratados como necesarios para atravesar estructuras cósmicas y alcanzar liberación.",
+      "motifs": [
+        "M06",
+        "M24"
+      ],
+      "provenance": "P2*",
+      "batch": "22"
+    },
+    {
+      "global_claim_id": "G22-S175-K04",
+      "claim_id": "K04",
+      "source_id": "S175",
+      "corpus_id": "C140",
+      "location": "Askew Codex; diálogos post-resurrección, Sophia y misterios",
+      "claim_type": "CAUSAL",
+      "claim": "Destino, gobernantes y acciones se describen como elementos que afectan la trayectoria del alma hasta que interviene conocimiento soteriológico.",
+      "motifs": [
+        "M11",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "22"
+    },
+    {
+      "global_claim_id": "G22-S175-K05",
+      "claim_id": "K05",
+      "source_id": "S175",
+      "corpus_id": "C140",
+      "location": "Askew Codex; diálogos post-resurrección, Sophia y misterios",
+      "claim_type": "RELATION",
+      "claim": "La transmisión se organiza por diálogo entre el Salvador, María y otros discípulos, convirtiendo la enseñanza en relación pedagógica.",
+      "motifs": [
+        "M05",
+        "M24"
+      ],
+      "provenance": "P2*",
+      "batch": "22"
+    },
+    {
+      "global_claim_id": "G22-S175-K06",
+      "claim_id": "K06",
+      "source_id": "S175",
+      "corpus_id": "C140",
+      "location": "Askew Codex; diálogos post-resurrección, Sophia y misterios",
+      "claim_type": "PRACTICE",
+      "claim": "El aprendizaje de fórmulas, misterios y procedimientos rituales forma parte del camino de liberación.",
+      "motifs": [
+        "M24",
+        "M25"
+      ],
+      "provenance": "P2*",
+      "batch": "22"
+    },
+    {
+      "global_claim_id": "G22-S175-K07",
+      "claim_id": "K07",
+      "source_id": "S175",
+      "corpus_id": "C140",
+      "location": "Askew Codex; diálogos post-resurrección, Sophia y misterios",
+      "claim_type": "COSMO",
+      "claim": "La cosmología se organiza en múltiples regiones, poderes, sellos y órdenes de luz.",
+      "motifs": [
+        "M15",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "22"
+    },
+    {
+      "global_claim_id": "G22-S175-K08",
+      "claim_id": "K08",
+      "source_id": "S175",
+      "corpus_id": "C140",
+      "location": "Askew Codex; diálogos post-resurrección, Sophia y misterios",
+      "claim_type": "DEATH",
+      "claim": "La liberación es formulada en oposición a estados de condena, muerte o repetición cósmica.",
+      "motifs": [
+        "M19",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "22"
+    },
+    {
+      "global_claim_id": "G22-S175-K09",
+      "claim_id": "K09",
+      "source_id": "S175",
+      "corpus_id": "C140",
+      "location": "Askew Codex; diálogos post-resurrección, Sophia y misterios",
+      "claim_type": "PERSON",
+      "claim": "La identidad del iniciado se redefine según su relación con los niveles de luz y los misterios conocidos.",
+      "motifs": [
+        "M05",
+        "M16"
+      ],
+      "provenance": "P2*",
+      "batch": "22"
+    },
+    {
+      "global_claim_id": "G22-S175-K10",
+      "claim_id": "K10",
+      "source_id": "S175",
+      "corpus_id": "C140",
+      "location": "Askew Codex; diálogos post-resurrección, Sophia y misterios",
+      "claim_type": "UNITY",
+      "claim": "La trayectoria soteriológica apunta hacia una integración en estructuras superiores de luz y plenitud.",
+      "motifs": [
+        "M03",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "22"
+    },
+    {
+      "global_claim_id": "G22-S175-K11",
+      "claim_id": "K11",
+      "source_id": "S175",
+      "corpus_id": "C140",
+      "location": "Askew Codex; diálogos post-resurrección, Sophia y misterios",
+      "claim_type": "VALENCE",
+      "claim": "Luz, justicia, arrepentimiento y pureza funcionan como polos normativos dentro del drama soteriológico.",
+      "motifs": [
+        "M10",
+        "M12"
+      ],
+      "provenance": "P2*",
+      "batch": "22"
+    },
+    {
+      "global_claim_id": "G22-S175-K12",
+      "claim_id": "K12",
+      "source_id": "S175",
+      "corpus_id": "C140",
+      "location": "Askew Codex; diálogos post-resurrección, Sophia y misterios",
+      "claim_type": "TEMPORAL",
+      "claim": "La narración post-resurrección convierte la enseñanza en una secuencia de preguntas, respuestas y revelaciones acumulativas.",
+      "motifs": [
+        "M11",
+        "M24"
+      ],
+      "provenance": "P2*",
+      "batch": "22"
+    },
+    {
+      "global_claim_id": "G22-S175-K13",
+      "claim_id": "K13",
+      "source_id": "S175",
+      "corpus_id": "C140",
+      "location": "Askew Codex; diálogos post-resurrección, Sophia y misterios",
+      "claim_type": "META",
+      "claim": "Pistis Sophia pertenece a una tradición copta compleja y debe separarse cuidadosamente de reconstrucciones modernas del gnosticismo.",
+      "motifs": [
+        "M14",
+        "M17",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "22"
+    },
+    {
+      "global_claim_id": "G22-S176-K01",
+      "claim_id": "K01",
+      "source_id": "S176",
+      "corpus_id": "C141",
+      "location": "Nag Hammadi Codex VIII,1; ascenso, aeones, conocimiento y semilla viviente",
+      "claim_type": "TRANSFORMATION",
+      "claim": "El texto representa un ascenso por niveles o aeones como una transformación progresiva de la entidad cognoscente.",
+      "motifs": [
+        "M12",
+        "M15",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "22"
+    },
+    {
+      "global_claim_id": "G22-S176-K02",
+      "claim_id": "K02",
+      "source_id": "S176",
+      "corpus_id": "C141",
+      "location": "Nag Hammadi Codex VIII,1; ascenso, aeones, conocimiento y semilla viviente",
+      "claim_type": "KNOWLEDGE",
+      "claim": "Conocer cada nivel y su estructura forma parte del proceso de perfeccionamiento espiritual.",
+      "motifs": [
+        "M06",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "22"
+    },
+    {
+      "global_claim_id": "G22-S176-K03",
+      "claim_id": "K03",
+      "source_id": "S176",
+      "corpus_id": "C141",
+      "location": "Nag Hammadi Codex VIII,1; ascenso, aeones, conocimiento y semilla viviente",
+      "claim_type": "ONTO",
+      "claim": "El texto distingue principios, aeones, poderes y formas de inteligencia dentro de una ontología estratificada.",
+      "motifs": [
+        "M07",
+        "M15",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "22"
+    },
+    {
+      "global_claim_id": "G22-S176-K04",
+      "claim_id": "K04",
+      "source_id": "S176",
+      "corpus_id": "C141",
+      "location": "Nag Hammadi Codex VIII,1; ascenso, aeones, conocimiento y semilla viviente",
+      "claim_type": "UNITY",
+      "claim": "Aunque distingue múltiples niveles, el recorrido busca una integración con principios superiores de inteligencia y luz.",
+      "motifs": [
+        "M03",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "22"
+    },
+    {
+      "global_claim_id": "G22-S176-K05",
+      "claim_id": "K05",
+      "source_id": "S176",
+      "corpus_id": "C141",
+      "location": "Nag Hammadi Codex VIII,1; ascenso, aeones, conocimiento y semilla viviente",
+      "claim_type": "REFLEXIVITY",
+      "claim": "El conocimiento incluye comprensión de la propia existencia, origen y condición del alma.",
+      "motifs": [
+        "M02",
+        "M06",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "22"
+    },
+    {
+      "global_claim_id": "G22-S176-K06",
+      "claim_id": "K06",
+      "source_id": "S176",
+      "corpus_id": "C141",
+      "location": "Nag Hammadi Codex VIII,1; ascenso, aeones, conocimiento y semilla viviente",
+      "claim_type": "PERSON",
+      "claim": "Adamas, Seth y otras figuras aparecen como nodos de una tradición que conecta conocimiento, linaje y alma.",
+      "motifs": [
+        "M05",
+        "M16"
+      ],
+      "provenance": "P2*",
+      "batch": "22"
+    },
+    {
+      "global_claim_id": "G22-S176-K07",
+      "claim_id": "K07",
+      "source_id": "S176",
+      "corpus_id": "C141",
+      "location": "Nag Hammadi Codex VIII,1; ascenso, aeones, conocimiento y semilla viviente",
+      "claim_type": "COSMO",
+      "claim": "La cosmología funciona como mapa operativo del conocimiento y no sólo como descripción abstracta del universo.",
+      "motifs": [
+        "M15",
+        "M20",
+        "M24"
+      ],
+      "provenance": "P2*",
+      "batch": "22"
+    },
+    {
+      "global_claim_id": "G22-S176-K08",
+      "claim_id": "K08",
+      "source_id": "S176",
+      "corpus_id": "C141",
+      "location": "Nag Hammadi Codex VIII,1; ascenso, aeones, conocimiento y semilla viviente",
+      "claim_type": "STATE",
+      "claim": "La perfección del alma se relaciona con estados de conocimiento y participación en ámbitos superiores.",
+      "motifs": [
+        "M07",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "22"
+    },
+    {
+      "global_claim_id": "G22-S176-K09",
+      "claim_id": "K09",
+      "source_id": "S176",
+      "corpus_id": "C141",
+      "location": "Nag Hammadi Codex VIII,1; ascenso, aeones, conocimiento y semilla viviente",
+      "claim_type": "INTERIORITY",
+      "claim": "La semilla viviente y la capacidad de conocer introducen una dimensión interior en el proceso de salvación.",
+      "motifs": [
+        "M01",
+        "M02",
+        "M06"
+      ],
+      "provenance": "P2*",
+      "batch": "22"
+    },
+    {
+      "global_claim_id": "G22-S176-K10",
+      "claim_id": "K10",
+      "source_id": "S176",
+      "corpus_id": "C141",
+      "location": "Nag Hammadi Codex VIII,1; ascenso, aeones, conocimiento y semilla viviente",
+      "claim_type": "RELATION",
+      "claim": "Cada nivel es descrito mediante relaciones entre aquello que conoce y aquello que es conocido.",
+      "motifs": [
+        "M05",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "22"
+    },
+    {
+      "global_claim_id": "G22-S176-K11",
+      "claim_id": "K11",
+      "source_id": "S176",
+      "corpus_id": "C141",
+      "location": "Nag Hammadi Codex VIII,1; ascenso, aeones, conocimiento y semilla viviente",
+      "claim_type": "DYNAMICS",
+      "claim": "El ascenso, la transformación y la aparición de formas constituyen una dinámica explícita de la cosmología.",
+      "motifs": [
+        "M09",
+        "M12"
+      ],
+      "provenance": "P2*",
+      "batch": "22"
+    },
+    {
+      "global_claim_id": "G22-S176-K12",
+      "claim_id": "K12",
+      "source_id": "S176",
+      "corpus_id": "C141",
+      "location": "Nag Hammadi Codex VIII,1; ascenso, aeones, conocimiento y semilla viviente",
+      "claim_type": "INEFFABILITY",
+      "claim": "Algunos principios superiores son caracterizados como inefables o más allá de formulación discursiva ordinaria.",
+      "motifs": [
+        "M14",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "22"
+    },
+    {
+      "global_claim_id": "G22-S176-K13",
+      "claim_id": "K13",
+      "source_id": "S176",
+      "corpus_id": "C141",
+      "location": "Nag Hammadi Codex VIII,1; ascenso, aeones, conocimiento y semilla viviente",
+      "claim_type": "META",
+      "claim": "Zostrianos es un texto antiguo fragmentario y complejo; las reconstrucciones sistemáticas modernas deben distinguirse del texto transmitido.",
+      "motifs": [
+        "M14",
+        "M17",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "22"
+    },
+    {
+      "global_claim_id": "G22-S177-K01",
+      "claim_id": "K01",
+      "source_id": "S177",
+      "corpus_id": "C142",
+      "location": "Nag Hammadi Codex I,5; Padre, Totalidad, caída, restauración y conocimiento",
+      "claim_type": "ONTO",
+      "claim": "El Padre es presentado como raíz de la Totalidad y como principio anterior a las diferenciaciones posteriores.",
+      "motifs": [
+        "M03",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "22"
+    },
+    {
+      "global_claim_id": "G22-S177-K02",
+      "claim_id": "K02",
+      "source_id": "S177",
+      "corpus_id": "C142",
+      "location": "Nag Hammadi Codex I,5; Padre, Totalidad, caída, restauración y conocimiento",
+      "claim_type": "UNITY",
+      "claim": "La Totalidad deriva de un principio único sin que la unidad se reduzca simplemente a una individualidad aislada.",
+      "motifs": [
+        "M03",
+        "M20",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "22"
+    },
+    {
+      "global_claim_id": "G22-S177-K03",
+      "claim_id": "K03",
+      "source_id": "S177",
+      "corpus_id": "C142",
+      "location": "Nag Hammadi Codex I,5; Padre, Totalidad, caída, restauración y conocimiento",
+      "claim_type": "RELATION",
+      "claim": "La relación Padre-Hijo sirve para explicar cómo puede existir diferenciación sin abandonar el principio originario.",
+      "motifs": [
+        "M05",
+        "M16"
+      ],
+      "provenance": "P2*",
+      "batch": "22"
+    },
+    {
+      "global_claim_id": "G22-S177-K04",
+      "claim_id": "K04",
+      "source_id": "S177",
+      "corpus_id": "C142",
+      "location": "Nag Hammadi Codex I,5; Padre, Totalidad, caída, restauración y conocimiento",
+      "claim_type": "DYNAMICS",
+      "claim": "El texto describe una historia de emanación, desorden o caída y posterior restauración de la Totalidad.",
+      "motifs": [
+        "M09",
+        "M12",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "22"
+    },
+    {
+      "global_claim_id": "G22-S177-K05",
+      "claim_id": "K05",
+      "source_id": "S177",
+      "corpus_id": "C142",
+      "location": "Nag Hammadi Codex I,5; Padre, Totalidad, caída, restauración y conocimiento",
+      "claim_type": "TRANSFORMATION",
+      "claim": "La restauración implica un cambio de condición cognitiva y ontológica de aquellos que participan en ella.",
+      "motifs": [
+        "M12",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "22"
+    },
+    {
+      "global_claim_id": "G22-S177-K06",
+      "claim_id": "K06",
+      "source_id": "S177",
+      "corpus_id": "C142",
+      "location": "Nag Hammadi Codex I,5; Padre, Totalidad, caída, restauración y conocimiento",
+      "claim_type": "KNOWLEDGE",
+      "claim": "El conocimiento de la raíz y de la estructura de la Totalidad tiene función soteriológica.",
+      "motifs": [
+        "M06",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "22"
+    },
+    {
+      "global_claim_id": "G22-S177-K07",
+      "claim_id": "K07",
+      "source_id": "S177",
+      "corpus_id": "C142",
+      "location": "Nag Hammadi Codex I,5; Padre, Totalidad, caída, restauración y conocimiento",
+      "claim_type": "STATE",
+      "claim": "Ignorancia, división y conocimiento se presentan como estados diferentes dentro de una historia espiritual.",
+      "motifs": [
+        "M07",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "22"
+    },
+    {
+      "global_claim_id": "G22-S177-K08",
+      "claim_id": "K08",
+      "source_id": "S177",
+      "corpus_id": "C142",
+      "location": "Nag Hammadi Codex I,5; Padre, Totalidad, caída, restauración y conocimiento",
+      "claim_type": "VALENCE",
+      "claim": "Plenitud, orden y restauración se contraponen a deficiencia, división y perturbación.",
+      "motifs": [
+        "M10",
+        "M12"
+      ],
+      "provenance": "P2*",
+      "batch": "22"
+    },
+    {
+      "global_claim_id": "G22-S177-K09",
+      "claim_id": "K09",
+      "source_id": "S177",
+      "corpus_id": "C142",
+      "location": "Nag Hammadi Codex I,5; Padre, Totalidad, caída, restauración y conocimiento",
+      "claim_type": "PERSON",
+      "claim": "Las personas y comunidades espirituales son explicadas mediante relaciones de origen, filiación y participación.",
+      "motifs": [
+        "M05",
+        "M16"
+      ],
+      "provenance": "P2*",
+      "batch": "22"
+    },
+    {
+      "global_claim_id": "G22-S177-K10",
+      "claim_id": "K10",
+      "source_id": "S177",
+      "corpus_id": "C142",
+      "location": "Nag Hammadi Codex I,5; Padre, Totalidad, caída, restauración y conocimiento",
+      "claim_type": "COSMO",
+      "claim": "La cosmología y la antropología están integradas dentro de una explicación única de origen, diferenciación y retorno.",
+      "motifs": [
+        "M15",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "22"
+    },
+    {
+      "global_claim_id": "G22-S177-K11",
+      "claim_id": "K11",
+      "source_id": "S177",
+      "corpus_id": "C142",
+      "location": "Nag Hammadi Codex I,5; Padre, Totalidad, caída, restauración y conocimiento",
+      "claim_type": "REFLEXIVITY",
+      "claim": "Comprender el propio origen equivale a comprender la posición del sujeto dentro de la Totalidad.",
+      "motifs": [
+        "M02",
+        "M06",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "22"
+    },
+    {
+      "global_claim_id": "G22-S177-K12",
+      "claim_id": "K12",
+      "source_id": "S177",
+      "corpus_id": "C142",
+      "location": "Nag Hammadi Codex I,5; Padre, Totalidad, caída, restauración y conocimiento",
+      "claim_type": "TEMPORAL",
+      "claim": "La narración de caída y restauración introduce una temporalidad estructurada en la ontología misma.",
+      "motifs": [
+        "M11",
+        "M12"
+      ],
+      "provenance": "P2*",
+      "batch": "22"
+    },
+    {
+      "global_claim_id": "G22-S177-K13",
+      "claim_id": "K13",
+      "source_id": "S177",
+      "corpus_id": "C142",
+      "location": "Nag Hammadi Codex I,5; Padre, Totalidad, caída, restauración y conocimiento",
+      "claim_type": "META",
+      "claim": "El Tractatus Tripartitus es una formulación valentiniana antigua y no debe tratarse como representación uniforme de todo el gnosticismo.",
+      "motifs": [
+        "M14",
+        "M17",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "22"
     }
   ],
   "rules": {
