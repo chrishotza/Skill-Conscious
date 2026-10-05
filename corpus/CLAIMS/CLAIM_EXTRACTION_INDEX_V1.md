@@ -8,7 +8,7 @@ The corpus has **325 source records** and **216 atomic claims extracted** across
 |---|---:|---:|---|
 | Anchor Batch v1 | 12 | 120 | Upanishadic, Yoga, Buddhist, Daoist, Neoplatonic, Hermetic, Jewish, Christian apophatic, Sufi, Ramana, Aurobindo |
 | Cross-Cultural Batch v2 | 12 | 96 | Katha, anatta, Orphic, Pythagorean, Gnostic, Zohar, Hekhalot, Ghazali, Rumi, Chan, Gurdjieff/Ouspensky, Iamblichian |
-| **Total** | **24** | **216** | **21?** historical/source families with multiple internal traditions |
+| **Total** | **24** | **216** | cross-cultural source families with multiple internal traditions |
 
 ## Claim-growth rule
 
