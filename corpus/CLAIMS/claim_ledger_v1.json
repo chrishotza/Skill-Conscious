@@ -16,7 +16,8 @@
         "M22"
       ],
       "provenance": "P1",
-      "batch": "ANCHOR_CLAIMS_BATCH_V1"
+      "batch": "ANCHOR_CLAIMS_BATCH_V1",
+      "global_claim_id": "G1-S001-K01"
     },
     {
       "claim_id": "K02",
@@ -32,7 +33,8 @@
         "M22"
       ],
       "provenance": "P1",
-      "batch": "ANCHOR_CLAIMS_BATCH_V1"
+      "batch": "ANCHOR_CLAIMS_BATCH_V1",
+      "global_claim_id": "G1-S001-K02"
     },
     {
       "claim_id": "K03",
@@ -46,7 +48,8 @@
         "M14"
       ],
       "provenance": "P1",
-      "batch": "ANCHOR_CLAIMS_BATCH_V1"
+      "batch": "ANCHOR_CLAIMS_BATCH_V1",
+      "global_claim_id": "G1-S001-K03"
     },
     {
       "claim_id": "K04",
@@ -61,7 +64,8 @@
         "M22"
       ],
       "provenance": "P1",
-      "batch": "ANCHOR_CLAIMS_BATCH_V1"
+      "batch": "ANCHOR_CLAIMS_BATCH_V1",
+      "global_claim_id": "G1-S001-K04"
     },
     {
       "claim_id": "K05",
@@ -76,7 +80,8 @@
         "M22"
       ],
       "provenance": "P1",
-      "batch": "ANCHOR_CLAIMS_BATCH_V1"
+      "batch": "ANCHOR_CLAIMS_BATCH_V1",
+      "global_claim_id": "G1-S001-K05"
     },
     {
       "claim_id": "K06",
@@ -90,7 +95,8 @@
         "M13"
       ],
       "provenance": "P1",
-      "batch": "ANCHOR_CLAIMS_BATCH_V1"
+      "batch": "ANCHOR_CLAIMS_BATCH_V1",
+      "global_claim_id": "G1-S001-K06"
     },
     {
       "claim_id": "K07",
@@ -104,7 +110,8 @@
         "M14"
       ],
       "provenance": "P1",
-      "batch": "ANCHOR_CLAIMS_BATCH_V1"
+      "batch": "ANCHOR_CLAIMS_BATCH_V1",
+      "global_claim_id": "G1-S001-K07"
     },
     {
       "claim_id": "K08",
@@ -118,7 +125,8 @@
         "M25"
       ],
       "provenance": "P1",
-      "batch": "ANCHOR_CLAIMS_BATCH_V1"
+      "batch": "ANCHOR_CLAIMS_BATCH_V1",
+      "global_claim_id": "G1-S001-K08"
     },
     {
       "claim_id": "K09",
@@ -133,7 +141,8 @@
         "M23"
       ],
       "provenance": "P1",
-      "batch": "ANCHOR_CLAIMS_BATCH_V1"
+      "batch": "ANCHOR_CLAIMS_BATCH_V1",
+      "global_claim_id": "G1-S001-K09"
     },
     {
       "claim_id": "K10",
@@ -148,7 +157,8 @@
         "M23"
       ],
       "provenance": "P1",
-      "batch": "ANCHOR_CLAIMS_BATCH_V1"
+      "batch": "ANCHOR_CLAIMS_BATCH_V1",
+      "global_claim_id": "G1-S001-K10"
     },
     {
       "claim_id": "M01",
@@ -163,7 +173,8 @@
         "M24"
       ],
       "provenance": "P2",
-      "batch": "ANCHOR_CLAIMS_BATCH_V1"
+      "batch": "ANCHOR_CLAIMS_BATCH_V1",
+      "global_claim_id": "G1-S002-M01"
     },
     {
       "claim_id": "M02",
@@ -178,7 +189,8 @@
         "M07"
       ],
       "provenance": "P2",
-      "batch": "ANCHOR_CLAIMS_BATCH_V1"
+      "batch": "ANCHOR_CLAIMS_BATCH_V1",
+      "global_claim_id": "G1-S002-M02"
     },
     {
       "claim_id": "M03",
@@ -192,7 +204,8 @@
         "M07"
       ],
       "provenance": "P2",
-      "batch": "ANCHOR_CLAIMS_BATCH_V1"
+      "batch": "ANCHOR_CLAIMS_BATCH_V1",
+      "global_claim_id": "G1-S002-M03"
     },
     {
       "claim_id": "M04",
@@ -206,7 +219,8 @@
         "M14"
       ],
       "provenance": "P2",
-      "batch": "ANCHOR_CLAIMS_BATCH_V1"
+      "batch": "ANCHOR_CLAIMS_BATCH_V1",
+      "global_claim_id": "G1-S002-M04"
     },
     {
       "claim_id": "M05",
@@ -219,7 +233,8 @@
         "M14"
       ],
       "provenance": "P2",
-      "batch": "ANCHOR_CLAIMS_BATCH_V1"
+      "batch": "ANCHOR_CLAIMS_BATCH_V1",
+      "global_claim_id": "G1-S002-M05"
     },
     {
       "claim_id": "M06",
@@ -234,7 +249,8 @@
         "M06"
       ],
       "provenance": "P2",
-      "batch": "ANCHOR_CLAIMS_BATCH_V1"
+      "batch": "ANCHOR_CLAIMS_BATCH_V1",
+      "global_claim_id": "G1-S002-M06"
     },
     {
       "claim_id": "M07",
@@ -248,7 +264,8 @@
         "M23"
       ],
       "provenance": "P2",
-      "batch": "ANCHOR_CLAIMS_BATCH_V1"
+      "batch": "ANCHOR_CLAIMS_BATCH_V1",
+      "global_claim_id": "G1-S002-M07"
     },
     {
       "claim_id": "M08",
@@ -262,7 +279,8 @@
         "M15"
       ],
       "provenance": "P2",
-      "batch": "ANCHOR_CLAIMS_BATCH_V1"
+      "batch": "ANCHOR_CLAIMS_BATCH_V1",
+      "global_claim_id": "G1-S002-M08"
     },
     {
       "claim_id": "M09",
@@ -275,7 +293,8 @@
         "M14"
       ],
       "provenance": "P2",
-      "batch": "ANCHOR_CLAIMS_BATCH_V1"
+      "batch": "ANCHOR_CLAIMS_BATCH_V1",
+      "global_claim_id": "G1-S002-M09"
     },
     {
       "claim_id": "M10",
@@ -289,7 +308,8 @@
         "M25"
       ],
       "provenance": "P2",
-      "batch": "ANCHOR_CLAIMS_BATCH_V1"
+      "batch": "ANCHOR_CLAIMS_BATCH_V1",
+      "global_claim_id": "G1-S002-M10"
     },
     {
       "claim_id": "Y01",
@@ -303,7 +323,8 @@
         "M23"
       ],
       "provenance": "P2",
-      "batch": "ANCHOR_CLAIMS_BATCH_V1"
+      "batch": "ANCHOR_CLAIMS_BATCH_V1",
+      "global_claim_id": "G1-S003-Y01"
     },
     {
       "claim_id": "Y02",
@@ -318,7 +339,8 @@
         "M13"
       ],
       "provenance": "P2",
-      "batch": "ANCHOR_CLAIMS_BATCH_V1"
+      "batch": "ANCHOR_CLAIMS_BATCH_V1",
+      "global_claim_id": "G1-S003-Y02"
     },
     {
       "claim_id": "Y03",
@@ -332,7 +354,8 @@
         "M13"
       ],
       "provenance": "P2",
-      "batch": "ANCHOR_CLAIMS_BATCH_V1"
+      "batch": "ANCHOR_CLAIMS_BATCH_V1",
+      "global_claim_id": "G1-S003-Y03"
     },
     {
       "claim_id": "Y04",
@@ -347,7 +370,8 @@
         "M25"
       ],
       "provenance": "P2",
-      "batch": "ANCHOR_CLAIMS_BATCH_V1"
+      "batch": "ANCHOR_CLAIMS_BATCH_V1",
+      "global_claim_id": "G1-S003-Y04"
     },
     {
       "claim_id": "Y05",
@@ -362,7 +386,8 @@
         "M25"
       ],
       "provenance": "P2",
-      "batch": "ANCHOR_CLAIMS_BATCH_V1"
+      "batch": "ANCHOR_CLAIMS_BATCH_V1",
+      "global_claim_id": "G1-S003-Y05"
     },
     {
       "claim_id": "Y06",
@@ -377,7 +402,8 @@
         "M22"
       ],
       "provenance": "P2",
-      "batch": "ANCHOR_CLAIMS_BATCH_V1"
+      "batch": "ANCHOR_CLAIMS_BATCH_V1",
+      "global_claim_id": "G1-S003-Y06"
     },
     {
       "claim_id": "Y07",
@@ -392,7 +418,8 @@
         "M06"
       ],
       "provenance": "P2",
-      "batch": "ANCHOR_CLAIMS_BATCH_V1"
+      "batch": "ANCHOR_CLAIMS_BATCH_V1",
+      "global_claim_id": "G1-S003-Y07"
     },
     {
       "claim_id": "Y08",
@@ -407,7 +434,8 @@
         "M20"
       ],
       "provenance": "P2",
-      "batch": "ANCHOR_CLAIMS_BATCH_V1"
+      "batch": "ANCHOR_CLAIMS_BATCH_V1",
+      "global_claim_id": "G1-S003-Y08"
     },
     {
       "claim_id": "Y09",
@@ -422,7 +450,8 @@
         "M25"
       ],
       "provenance": "P2",
-      "batch": "ANCHOR_CLAIMS_BATCH_V1"
+      "batch": "ANCHOR_CLAIMS_BATCH_V1",
+      "global_claim_id": "G1-S003-Y09"
     },
     {
       "claim_id": "Y10",
@@ -437,7 +466,8 @@
         "M22"
       ],
       "provenance": "P2",
-      "batch": "ANCHOR_CLAIMS_BATCH_V1"
+      "batch": "ANCHOR_CLAIMS_BATCH_V1",
+      "global_claim_id": "G1-S003-Y10"
     },
     {
       "claim_id": "B01",
@@ -453,7 +483,8 @@
         "M25"
       ],
       "provenance": "P2",
-      "batch": "ANCHOR_CLAIMS_BATCH_V1"
+      "batch": "ANCHOR_CLAIMS_BATCH_V1",
+      "global_claim_id": "G1-S004-B01"
     },
     {
       "claim_id": "B02",
@@ -468,7 +499,8 @@
         "M24"
       ],
       "provenance": "P2",
-      "batch": "ANCHOR_CLAIMS_BATCH_V1"
+      "batch": "ANCHOR_CLAIMS_BATCH_V1",
+      "global_claim_id": "G1-S004-B02"
     },
     {
       "claim_id": "B03",
@@ -482,7 +514,8 @@
         "M25"
       ],
       "provenance": "P2",
-      "batch": "ANCHOR_CLAIMS_BATCH_V1"
+      "batch": "ANCHOR_CLAIMS_BATCH_V1",
+      "global_claim_id": "G1-S004-B03"
     },
     {
       "claim_id": "B04",
@@ -497,7 +530,8 @@
         "M23"
       ],
       "provenance": "P2",
-      "batch": "ANCHOR_CLAIMS_BATCH_V1"
+      "batch": "ANCHOR_CLAIMS_BATCH_V1",
+      "global_claim_id": "G1-S004-B04"
     },
     {
       "claim_id": "B05",
@@ -511,7 +545,8 @@
         "M16"
       ],
       "provenance": "P2",
-      "batch": "ANCHOR_CLAIMS_BATCH_V1"
+      "batch": "ANCHOR_CLAIMS_BATCH_V1",
+      "global_claim_id": "G1-S004-B05"
     },
     {
       "claim_id": "B06",
@@ -525,7 +560,8 @@
         "M10"
       ],
       "provenance": "P2",
-      "batch": "ANCHOR_CLAIMS_BATCH_V1"
+      "batch": "ANCHOR_CLAIMS_BATCH_V1",
+      "global_claim_id": "G1-S004-B06"
     },
     {
       "claim_id": "B07",
@@ -539,7 +575,8 @@
         "M23"
       ],
       "provenance": "P2",
-      "batch": "ANCHOR_CLAIMS_BATCH_V1"
+      "batch": "ANCHOR_CLAIMS_BATCH_V1",
+      "global_claim_id": "G1-S004-B07"
     },
     {
       "claim_id": "B08",
@@ -554,7 +591,8 @@
         "M25"
       ],
       "provenance": "P2",
-      "batch": "ANCHOR_CLAIMS_BATCH_V1"
+      "batch": "ANCHOR_CLAIMS_BATCH_V1",
+      "global_claim_id": "G1-S004-B08"
     },
     {
       "claim_id": "B09",
@@ -568,7 +606,8 @@
         "M23"
       ],
       "provenance": "P2",
-      "batch": "ANCHOR_CLAIMS_BATCH_V1"
+      "batch": "ANCHOR_CLAIMS_BATCH_V1",
+      "global_claim_id": "G1-S004-B09"
     },
     {
       "claim_id": "B10",
@@ -583,7 +622,8 @@
         "M25"
       ],
       "provenance": "P2",
-      "batch": "ANCHOR_CLAIMS_BATCH_V1"
+      "batch": "ANCHOR_CLAIMS_BATCH_V1",
+      "global_claim_id": "G1-S004-B10"
     },
     {
       "claim_id": "N01",
@@ -598,7 +638,8 @@
         "M20"
       ],
       "provenance": "P2",
-      "batch": "ANCHOR_CLAIMS_BATCH_V1"
+      "batch": "ANCHOR_CLAIMS_BATCH_V1",
+      "global_claim_id": "G1-S005-N01"
     },
     {
       "claim_id": "N02",
@@ -613,7 +654,8 @@
         "M21"
       ],
       "provenance": "P2",
-      "batch": "ANCHOR_CLAIMS_BATCH_V1"
+      "batch": "ANCHOR_CLAIMS_BATCH_V1",
+      "global_claim_id": "G1-S005-N02"
     },
     {
       "claim_id": "N03",
@@ -627,7 +669,8 @@
         "M12"
       ],
       "provenance": "P2",
-      "batch": "ANCHOR_CLAIMS_BATCH_V1"
+      "batch": "ANCHOR_CLAIMS_BATCH_V1",
+      "global_claim_id": "G1-S005-N03"
     },
     {
       "claim_id": "N04",
@@ -640,7 +683,8 @@
         "M09"
       ],
       "provenance": "P2",
-      "batch": "ANCHOR_CLAIMS_BATCH_V1"
+      "batch": "ANCHOR_CLAIMS_BATCH_V1",
+      "global_claim_id": "G1-S005-N04"
     },
     {
       "claim_id": "N05",
@@ -654,7 +698,8 @@
         "M25"
       ],
       "provenance": "P2",
-      "batch": "ANCHOR_CLAIMS_BATCH_V1"
+      "batch": "ANCHOR_CLAIMS_BATCH_V1",
+      "global_claim_id": "G1-S005-N05"
     },
     {
       "claim_id": "N06",
@@ -669,7 +714,8 @@
         "M24"
       ],
       "provenance": "P2",
-      "batch": "ANCHOR_CLAIMS_BATCH_V1"
+      "batch": "ANCHOR_CLAIMS_BATCH_V1",
+      "global_claim_id": "G1-S005-N06"
     },
     {
       "claim_id": "N07",
@@ -684,7 +730,8 @@
         "M12"
       ],
       "provenance": "P2",
-      "batch": "ANCHOR_CLAIMS_BATCH_V1"
+      "batch": "ANCHOR_CLAIMS_BATCH_V1",
+      "global_claim_id": "G1-S005-N07"
     },
     {
       "claim_id": "N08",
@@ -699,7 +746,8 @@
         "M23"
       ],
       "provenance": "P2",
-      "batch": "ANCHOR_CLAIMS_BATCH_V1"
+      "batch": "ANCHOR_CLAIMS_BATCH_V1",
+      "global_claim_id": "G1-S005-N08"
     },
     {
       "claim_id": "N09",
@@ -714,7 +762,8 @@
         "M12"
       ],
       "provenance": "P2",
-      "batch": "ANCHOR_CLAIMS_BATCH_V1"
+      "batch": "ANCHOR_CLAIMS_BATCH_V1",
+      "global_claim_id": "G1-S005-N09"
     },
     {
       "claim_id": "N10",
@@ -729,7 +778,8 @@
         "M25"
       ],
       "provenance": "P2",
-      "batch": "ANCHOR_CLAIMS_BATCH_V1"
+      "batch": "ANCHOR_CLAIMS_BATCH_V1",
+      "global_claim_id": "G1-S005-N10"
     },
     {
       "claim_id": "P01",
@@ -744,7 +794,8 @@
         "M22"
       ],
       "provenance": "P2",
-      "batch": "ANCHOR_CLAIMS_BATCH_V1"
+      "batch": "ANCHOR_CLAIMS_BATCH_V1",
+      "global_claim_id": "G1-S006-P01"
     },
     {
       "claim_id": "P02",
@@ -758,7 +809,8 @@
         "M22"
       ],
       "provenance": "P2",
-      "batch": "ANCHOR_CLAIMS_BATCH_V1"
+      "batch": "ANCHOR_CLAIMS_BATCH_V1",
+      "global_claim_id": "G1-S006-P02"
     },
     {
       "claim_id": "P03",
@@ -773,7 +825,8 @@
         "M22"
       ],
       "provenance": "P2",
-      "batch": "ANCHOR_CLAIMS_BATCH_V1"
+      "batch": "ANCHOR_CLAIMS_BATCH_V1",
+      "global_claim_id": "G1-S006-P03"
     },
     {
       "claim_id": "P04",
@@ -787,7 +840,8 @@
         "M06"
       ],
       "provenance": "P2",
-      "batch": "ANCHOR_CLAIMS_BATCH_V1"
+      "batch": "ANCHOR_CLAIMS_BATCH_V1",
+      "global_claim_id": "G1-S006-P04"
     },
     {
       "claim_id": "P05",
@@ -801,7 +855,8 @@
         "M25"
       ],
       "provenance": "P2",
-      "batch": "ANCHOR_CLAIMS_BATCH_V1"
+      "batch": "ANCHOR_CLAIMS_BATCH_V1",
+      "global_claim_id": "G1-S006-P05"
     },
     {
       "claim_id": "P06",
@@ -816,7 +871,8 @@
         "M20"
       ],
       "provenance": "P2",
-      "batch": "ANCHOR_CLAIMS_BATCH_V1"
+      "batch": "ANCHOR_CLAIMS_BATCH_V1",
+      "global_claim_id": "G1-S006-P06"
     },
     {
       "claim_id": "P07",
@@ -830,7 +886,8 @@
         "M22"
       ],
       "provenance": "P2",
-      "batch": "ANCHOR_CLAIMS_BATCH_V1"
+      "batch": "ANCHOR_CLAIMS_BATCH_V1",
+      "global_claim_id": "G1-S006-P07"
     },
     {
       "claim_id": "P08",
@@ -844,7 +901,8 @@
         "M06"
       ],
       "provenance": "P2",
-      "batch": "ANCHOR_CLAIMS_BATCH_V1"
+      "batch": "ANCHOR_CLAIMS_BATCH_V1",
+      "global_claim_id": "G1-S006-P08"
     },
     {
       "claim_id": "P09",
@@ -858,7 +916,8 @@
         "M06"
       ],
       "provenance": "P2",
-      "batch": "ANCHOR_CLAIMS_BATCH_V1"
+      "batch": "ANCHOR_CLAIMS_BATCH_V1",
+      "global_claim_id": "G1-S006-P09"
     },
     {
       "claim_id": "P10",
@@ -873,7 +932,8 @@
         "M22"
       ],
       "provenance": "P2",
-      "batch": "ANCHOR_CLAIMS_BATCH_V1"
+      "batch": "ANCHOR_CLAIMS_BATCH_V1",
+      "global_claim_id": "G1-S006-P10"
     },
     {
       "claim_id": "H01",
@@ -887,7 +947,8 @@
         "M07"
       ],
       "provenance": "P2",
-      "batch": "ANCHOR_CLAIMS_BATCH_V1"
+      "batch": "ANCHOR_CLAIMS_BATCH_V1",
+      "global_claim_id": "G1-S007-H01"
     },
     {
       "claim_id": "H02",
@@ -902,7 +963,8 @@
         "M20"
       ],
       "provenance": "P2",
-      "batch": "ANCHOR_CLAIMS_BATCH_V1"
+      "batch": "ANCHOR_CLAIMS_BATCH_V1",
+      "global_claim_id": "G1-S007-H02"
     },
     {
       "claim_id": "H03",
@@ -917,7 +979,8 @@
         "M23"
       ],
       "provenance": "P2",
-      "batch": "ANCHOR_CLAIMS_BATCH_V1"
+      "batch": "ANCHOR_CLAIMS_BATCH_V1",
+      "global_claim_id": "G1-S007-H03"
     },
     {
       "claim_id": "H04",
@@ -931,7 +994,8 @@
         "M15"
       ],
       "provenance": "P2",
-      "batch": "ANCHOR_CLAIMS_BATCH_V1"
+      "batch": "ANCHOR_CLAIMS_BATCH_V1",
+      "global_claim_id": "G1-S007-H04"
     },
     {
       "claim_id": "H05",
@@ -947,7 +1011,8 @@
         "M21"
       ],
       "provenance": "P2",
-      "batch": "ANCHOR_CLAIMS_BATCH_V1"
+      "batch": "ANCHOR_CLAIMS_BATCH_V1",
+      "global_claim_id": "G1-S007-H05"
     },
     {
       "claim_id": "H06",
@@ -962,7 +1027,8 @@
         "M15"
       ],
       "provenance": "P2",
-      "batch": "ANCHOR_CLAIMS_BATCH_V1"
+      "batch": "ANCHOR_CLAIMS_BATCH_V1",
+      "global_claim_id": "G1-S007-H06"
     },
     {
       "claim_id": "H07",
@@ -978,7 +1044,8 @@
         "M20"
       ],
       "provenance": "P2",
-      "batch": "ANCHOR_CLAIMS_BATCH_V1"
+      "batch": "ANCHOR_CLAIMS_BATCH_V1",
+      "global_claim_id": "G1-S007-H07"
     },
     {
       "claim_id": "H08",
@@ -993,7 +1060,8 @@
         "M25"
       ],
       "provenance": "P2",
-      "batch": "ANCHOR_CLAIMS_BATCH_V1"
+      "batch": "ANCHOR_CLAIMS_BATCH_V1",
+      "global_claim_id": "G1-S007-H08"
     },
     {
       "claim_id": "H09",
@@ -1007,7 +1075,8 @@
         "M23"
       ],
       "provenance": "P2",
-      "batch": "ANCHOR_CLAIMS_BATCH_V1"
+      "batch": "ANCHOR_CLAIMS_BATCH_V1",
+      "global_claim_id": "G1-S007-H09"
     },
     {
       "claim_id": "H10",
@@ -1022,7 +1091,8 @@
         "M20"
       ],
       "provenance": "P2",
-      "batch": "ANCHOR_CLAIMS_BATCH_V1"
+      "batch": "ANCHOR_CLAIMS_BATCH_V1",
+      "global_claim_id": "G1-S007-H10"
     },
     {
       "claim_id": "Z01",
@@ -1037,7 +1107,8 @@
         "M21"
       ],
       "provenance": "P1",
-      "batch": "ANCHOR_CLAIMS_BATCH_V1"
+      "batch": "ANCHOR_CLAIMS_BATCH_V1",
+      "global_claim_id": "G1-S008-Z01"
     },
     {
       "claim_id": "Z02",
@@ -1052,7 +1123,8 @@
         "M21"
       ],
       "provenance": "P1",
-      "batch": "ANCHOR_CLAIMS_BATCH_V1"
+      "batch": "ANCHOR_CLAIMS_BATCH_V1",
+      "global_claim_id": "G1-S008-Z02"
     },
     {
       "claim_id": "Z03",
@@ -1066,7 +1138,8 @@
         "M25"
       ],
       "provenance": "P1",
-      "batch": "ANCHOR_CLAIMS_BATCH_V1"
+      "batch": "ANCHOR_CLAIMS_BATCH_V1",
+      "global_claim_id": "G1-S008-Z03"
     },
     {
       "claim_id": "Z04",
@@ -1081,7 +1154,8 @@
         "M18"
       ],
       "provenance": "P1",
-      "batch": "ANCHOR_CLAIMS_BATCH_V1"
+      "batch": "ANCHOR_CLAIMS_BATCH_V1",
+      "global_claim_id": "G1-S008-Z04"
     },
     {
       "claim_id": "Z05",
@@ -1096,7 +1170,8 @@
         "M21"
       ],
       "provenance": "P1",
-      "batch": "ANCHOR_CLAIMS_BATCH_V1"
+      "batch": "ANCHOR_CLAIMS_BATCH_V1",
+      "global_claim_id": "G1-S008-Z05"
     },
     {
       "claim_id": "Z06",
@@ -1111,7 +1186,8 @@
         "M22"
       ],
       "provenance": "P1",
-      "batch": "ANCHOR_CLAIMS_BATCH_V1"
+      "batch": "ANCHOR_CLAIMS_BATCH_V1",
+      "global_claim_id": "G1-S008-Z06"
     },
     {
       "claim_id": "Z07",
@@ -1126,7 +1202,8 @@
         "M20"
       ],
       "provenance": "P1",
-      "batch": "ANCHOR_CLAIMS_BATCH_V1"
+      "batch": "ANCHOR_CLAIMS_BATCH_V1",
+      "global_claim_id": "G1-S008-Z07"
     },
     {
       "claim_id": "Z08",
@@ -1140,7 +1217,8 @@
         "M21"
       ],
       "provenance": "P1",
-      "batch": "ANCHOR_CLAIMS_BATCH_V1"
+      "batch": "ANCHOR_CLAIMS_BATCH_V1",
+      "global_claim_id": "G1-S008-Z08"
     },
     {
       "claim_id": "Z09",
@@ -1155,7 +1233,8 @@
         "M21"
       ],
       "provenance": "P1",
-      "batch": "ANCHOR_CLAIMS_BATCH_V1"
+      "batch": "ANCHOR_CLAIMS_BATCH_V1",
+      "global_claim_id": "G1-S008-Z09"
     },
     {
       "claim_id": "Z10",
@@ -1172,7 +1251,8 @@
         "M25"
       ],
       "provenance": "P1",
-      "batch": "ANCHOR_CLAIMS_BATCH_V1"
+      "batch": "ANCHOR_CLAIMS_BATCH_V1",
+      "global_claim_id": "G1-S008-Z10"
     },
     {
       "claim_id": "D01",
@@ -1186,7 +1266,8 @@
         "M15"
       ],
       "provenance": "P2",
-      "batch": "ANCHOR_CLAIMS_BATCH_V1"
+      "batch": "ANCHOR_CLAIMS_BATCH_V1",
+      "global_claim_id": "G1-S009-D01"
     },
     {
       "claim_id": "D02",
@@ -1200,7 +1281,8 @@
         "M15"
       ],
       "provenance": "P2",
-      "batch": "ANCHOR_CLAIMS_BATCH_V1"
+      "batch": "ANCHOR_CLAIMS_BATCH_V1",
+      "global_claim_id": "G1-S009-D02"
     },
     {
       "claim_id": "D03",
@@ -1214,7 +1296,8 @@
         "M25"
       ],
       "provenance": "P2",
-      "batch": "ANCHOR_CLAIMS_BATCH_V1"
+      "batch": "ANCHOR_CLAIMS_BATCH_V1",
+      "global_claim_id": "G1-S009-D03"
     },
     {
       "claim_id": "D04",
@@ -1229,7 +1312,8 @@
         "M23"
       ],
       "provenance": "P2",
-      "batch": "ANCHOR_CLAIMS_BATCH_V1"
+      "batch": "ANCHOR_CLAIMS_BATCH_V1",
+      "global_claim_id": "G1-S009-D04"
     },
     {
       "claim_id": "D05",
@@ -1244,7 +1328,8 @@
         "M23"
       ],
       "provenance": "P2",
-      "batch": "ANCHOR_CLAIMS_BATCH_V1"
+      "batch": "ANCHOR_CLAIMS_BATCH_V1",
+      "global_claim_id": "G1-S009-D05"
     },
     {
       "claim_id": "D06",
@@ -1259,7 +1344,8 @@
         "M15"
       ],
       "provenance": "P2",
-      "batch": "ANCHOR_CLAIMS_BATCH_V1"
+      "batch": "ANCHOR_CLAIMS_BATCH_V1",
+      "global_claim_id": "G1-S009-D06"
     },
     {
       "claim_id": "D07",
@@ -1273,7 +1359,8 @@
         "M21"
       ],
       "provenance": "P2",
-      "batch": "ANCHOR_CLAIMS_BATCH_V1"
+      "batch": "ANCHOR_CLAIMS_BATCH_V1",
+      "global_claim_id": "G1-S009-D07"
     },
     {
       "claim_id": "D08",
@@ -1288,7 +1375,8 @@
         "M25"
       ],
       "provenance": "P2",
-      "batch": "ANCHOR_CLAIMS_BATCH_V1"
+      "batch": "ANCHOR_CLAIMS_BATCH_V1",
+      "global_claim_id": "G1-S009-D08"
     },
     {
       "claim_id": "D09",
@@ -1302,7 +1390,8 @@
         "M14"
       ],
       "provenance": "P2",
-      "batch": "ANCHOR_CLAIMS_BATCH_V1"
+      "batch": "ANCHOR_CLAIMS_BATCH_V1",
+      "global_claim_id": "G1-S009-D09"
     },
     {
       "claim_id": "D10",
@@ -1315,7 +1404,8 @@
         "M14"
       ],
       "provenance": "P2",
-      "batch": "ANCHOR_CLAIMS_BATCH_V1"
+      "batch": "ANCHOR_CLAIMS_BATCH_V1",
+      "global_claim_id": "G1-S009-D10"
     },
     {
       "claim_id": "I01",
@@ -1329,7 +1419,8 @@
         "M15"
       ],
       "provenance": "P2",
-      "batch": "ANCHOR_CLAIMS_BATCH_V1"
+      "batch": "ANCHOR_CLAIMS_BATCH_V1",
+      "global_claim_id": "G1-S010-I01"
     },
     {
       "claim_id": "I02",
@@ -1343,7 +1434,8 @@
         "M16"
       ],
       "provenance": "P2",
-      "batch": "ANCHOR_CLAIMS_BATCH_V1"
+      "batch": "ANCHOR_CLAIMS_BATCH_V1",
+      "global_claim_id": "G1-S010-I02"
     },
     {
       "claim_id": "I03",
@@ -1357,7 +1449,8 @@
         "M12"
       ],
       "provenance": "P2",
-      "batch": "ANCHOR_CLAIMS_BATCH_V1"
+      "batch": "ANCHOR_CLAIMS_BATCH_V1",
+      "global_claim_id": "G1-S010-I03"
     },
     {
       "claim_id": "I04",
@@ -1372,7 +1465,8 @@
         "M24"
       ],
       "provenance": "P2",
-      "batch": "ANCHOR_CLAIMS_BATCH_V1"
+      "batch": "ANCHOR_CLAIMS_BATCH_V1",
+      "global_claim_id": "G1-S010-I04"
     },
     {
       "claim_id": "I05",
@@ -1386,7 +1480,8 @@
         "M25"
       ],
       "provenance": "P2",
-      "batch": "ANCHOR_CLAIMS_BATCH_V1"
+      "batch": "ANCHOR_CLAIMS_BATCH_V1",
+      "global_claim_id": "G1-S010-I05"
     },
     {
       "claim_id": "I06",
@@ -1401,7 +1496,8 @@
         "M19"
       ],
       "provenance": "P2",
-      "batch": "ANCHOR_CLAIMS_BATCH_V1"
+      "batch": "ANCHOR_CLAIMS_BATCH_V1",
+      "global_claim_id": "G1-S010-I06"
     },
     {
       "claim_id": "I07",
@@ -1416,7 +1512,8 @@
         "M22"
       ],
       "provenance": "P2",
-      "batch": "ANCHOR_CLAIMS_BATCH_V1"
+      "batch": "ANCHOR_CLAIMS_BATCH_V1",
+      "global_claim_id": "G1-S010-I07"
     },
     {
       "claim_id": "I08",
@@ -1430,7 +1527,8 @@
         "M14"
       ],
       "provenance": "P2",
-      "batch": "ANCHOR_CLAIMS_BATCH_V1"
+      "batch": "ANCHOR_CLAIMS_BATCH_V1",
+      "global_claim_id": "G1-S010-I08"
     },
     {
       "claim_id": "I09",
@@ -1445,7 +1543,8 @@
         "M14"
       ],
       "provenance": "P2",
-      "batch": "ANCHOR_CLAIMS_BATCH_V1"
+      "batch": "ANCHOR_CLAIMS_BATCH_V1",
+      "global_claim_id": "G1-S010-I09"
     },
     {
       "claim_id": "I10",
@@ -1460,7 +1559,8 @@
         "M23"
       ],
       "provenance": "P2",
-      "batch": "ANCHOR_CLAIMS_BATCH_V1"
+      "batch": "ANCHOR_CLAIMS_BATCH_V1",
+      "global_claim_id": "G1-S010-I10"
     },
     {
       "claim_id": "R01",
@@ -1475,7 +1575,8 @@
         "M08"
       ],
       "provenance": "P2",
-      "batch": "ANCHOR_CLAIMS_BATCH_V1"
+      "batch": "ANCHOR_CLAIMS_BATCH_V1",
+      "global_claim_id": "G1-S011-R01"
     },
     {
       "claim_id": "R02",
@@ -1490,7 +1591,8 @@
         "M08"
       ],
       "provenance": "P2",
-      "batch": "ANCHOR_CLAIMS_BATCH_V1"
+      "batch": "ANCHOR_CLAIMS_BATCH_V1",
+      "global_claim_id": "G1-S011-R02"
     },
     {
       "claim_id": "R03",
@@ -1504,7 +1606,8 @@
         "M09"
       ],
       "provenance": "P2",
-      "batch": "ANCHOR_CLAIMS_BATCH_V1"
+      "batch": "ANCHOR_CLAIMS_BATCH_V1",
+      "global_claim_id": "G1-S011-R03"
     },
     {
       "claim_id": "R04",
@@ -1519,7 +1622,8 @@
         "M22"
       ],
       "provenance": "P2",
-      "batch": "ANCHOR_CLAIMS_BATCH_V1"
+      "batch": "ANCHOR_CLAIMS_BATCH_V1",
+      "global_claim_id": "G1-S011-R04"
     },
     {
       "claim_id": "R05",
@@ -1534,7 +1638,8 @@
         "M25"
       ],
       "provenance": "P2",
-      "batch": "ANCHOR_CLAIMS_BATCH_V1"
+      "batch": "ANCHOR_CLAIMS_BATCH_V1",
+      "global_claim_id": "G1-S011-R05"
     },
     {
       "claim_id": "R06",
@@ -1549,7 +1654,8 @@
         "M25"
       ],
       "provenance": "P2",
-      "batch": "ANCHOR_CLAIMS_BATCH_V1"
+      "batch": "ANCHOR_CLAIMS_BATCH_V1",
+      "global_claim_id": "G1-S011-R06"
     },
     {
       "claim_id": "R07",
@@ -1563,7 +1669,8 @@
         "M11"
       ],
       "provenance": "P2",
-      "batch": "ANCHOR_CLAIMS_BATCH_V1"
+      "batch": "ANCHOR_CLAIMS_BATCH_V1",
+      "global_claim_id": "G1-S011-R07"
     },
     {
       "claim_id": "R08",
@@ -1578,7 +1685,8 @@
         "M06"
       ],
       "provenance": "P2",
-      "batch": "ANCHOR_CLAIMS_BATCH_V1"
+      "batch": "ANCHOR_CLAIMS_BATCH_V1",
+      "global_claim_id": "G1-S011-R08"
     },
     {
       "claim_id": "R09",
@@ -1593,7 +1701,8 @@
         "M22"
       ],
       "provenance": "P2",
-      "batch": "ANCHOR_CLAIMS_BATCH_V1"
+      "batch": "ANCHOR_CLAIMS_BATCH_V1",
+      "global_claim_id": "G1-S011-R09"
     },
     {
       "claim_id": "R10",
@@ -1608,7 +1717,8 @@
         "M23"
       ],
       "provenance": "P2",
-      "batch": "ANCHOR_CLAIMS_BATCH_V1"
+      "batch": "ANCHOR_CLAIMS_BATCH_V1",
+      "global_claim_id": "G1-S011-R10"
     },
     {
       "claim_id": "A01",
@@ -1623,7 +1733,8 @@
         "M20"
       ],
       "provenance": "P1",
-      "batch": "ANCHOR_CLAIMS_BATCH_V1"
+      "batch": "ANCHOR_CLAIMS_BATCH_V1",
+      "global_claim_id": "G1-S012-A01"
     },
     {
       "claim_id": "A02",
@@ -1638,7 +1749,8 @@
         "M21"
       ],
       "provenance": "P1",
-      "batch": "ANCHOR_CLAIMS_BATCH_V1"
+      "batch": "ANCHOR_CLAIMS_BATCH_V1",
+      "global_claim_id": "G1-S012-A02"
     },
     {
       "claim_id": "A03",
@@ -1653,7 +1765,8 @@
         "M05"
       ],
       "provenance": "P1",
-      "batch": "ANCHOR_CLAIMS_BATCH_V1"
+      "batch": "ANCHOR_CLAIMS_BATCH_V1",
+      "global_claim_id": "G1-S012-A03"
     },
     {
       "claim_id": "A04",
@@ -1668,7 +1781,8 @@
         "M15"
       ],
       "provenance": "P1",
-      "batch": "ANCHOR_CLAIMS_BATCH_V1"
+      "batch": "ANCHOR_CLAIMS_BATCH_V1",
+      "global_claim_id": "G1-S012-A04"
     },
     {
       "claim_id": "A05",
@@ -1684,7 +1798,8 @@
         "M20"
       ],
       "provenance": "P1",
-      "batch": "ANCHOR_CLAIMS_BATCH_V1"
+      "batch": "ANCHOR_CLAIMS_BATCH_V1",
+      "global_claim_id": "G1-S012-A05"
     },
     {
       "claim_id": "A06",
@@ -1699,7 +1814,8 @@
         "M15"
       ],
       "provenance": "P1",
-      "batch": "ANCHOR_CLAIMS_BATCH_V1"
+      "batch": "ANCHOR_CLAIMS_BATCH_V1",
+      "global_claim_id": "G1-S012-A06"
     },
     {
       "claim_id": "A07",
@@ -1714,7 +1830,8 @@
         "M23"
       ],
       "provenance": "P1",
-      "batch": "ANCHOR_CLAIMS_BATCH_V1"
+      "batch": "ANCHOR_CLAIMS_BATCH_V1",
+      "global_claim_id": "G1-S012-A07"
     },
     {
       "claim_id": "A08",
@@ -1729,7 +1846,8 @@
         "M23"
       ],
       "provenance": "P1",
-      "batch": "ANCHOR_CLAIMS_BATCH_V1"
+      "batch": "ANCHOR_CLAIMS_BATCH_V1",
+      "global_claim_id": "G1-S012-A08"
     },
     {
       "claim_id": "A09",
@@ -1744,7 +1862,8 @@
         "M20"
       ],
       "provenance": "P1",
-      "batch": "ANCHOR_CLAIMS_BATCH_V1"
+      "batch": "ANCHOR_CLAIMS_BATCH_V1",
+      "global_claim_id": "G1-S012-A09"
     },
     {
       "claim_id": "A10",
@@ -1761,7 +1880,8 @@
         "M20"
       ],
       "provenance": "P1",
-      "batch": "ANCHOR_CLAIMS_BATCH_V1"
+      "batch": "ANCHOR_CLAIMS_BATCH_V1",
+      "global_claim_id": "G1-S012-A10"
     },
     {
       "claim_id": "K01",
@@ -1775,7 +1895,8 @@
         "M08"
       ],
       "provenance": "P2",
-      "batch": "CROSS_CULTURAL_BATCH_V2"
+      "batch": "CROSS_CULTURAL_BATCH_V2",
+      "global_claim_id": "G2-S013-K01"
     },
     {
       "claim_id": "K02",
@@ -1789,7 +1910,8 @@
         "M24"
       ],
       "provenance": "P2",
-      "batch": "CROSS_CULTURAL_BATCH_V2"
+      "batch": "CROSS_CULTURAL_BATCH_V2",
+      "global_claim_id": "G2-S013-K02"
     },
     {
       "claim_id": "K03",
@@ -1804,7 +1926,8 @@
         "M24"
       ],
       "provenance": "P2",
-      "batch": "CROSS_CULTURAL_BATCH_V2"
+      "batch": "CROSS_CULTURAL_BATCH_V2",
+      "global_claim_id": "G2-S013-K03"
     },
     {
       "claim_id": "K04",
@@ -1819,7 +1942,8 @@
         "M08"
       ],
       "provenance": "P2",
-      "batch": "CROSS_CULTURAL_BATCH_V2"
+      "batch": "CROSS_CULTURAL_BATCH_V2",
+      "global_claim_id": "G2-S013-K04"
     },
     {
       "claim_id": "K05",
@@ -1833,7 +1957,8 @@
         "M24"
       ],
       "provenance": "P2",
-      "batch": "CROSS_CULTURAL_BATCH_V2"
+      "batch": "CROSS_CULTURAL_BATCH_V2",
+      "global_claim_id": "G2-S013-K05"
     },
     {
       "claim_id": "K06",
@@ -1848,7 +1973,8 @@
         "M25"
       ],
       "provenance": "P2",
-      "batch": "CROSS_CULTURAL_BATCH_V2"
+      "batch": "CROSS_CULTURAL_BATCH_V2",
+      "global_claim_id": "G2-S013-K06"
     },
     {
       "claim_id": "K07",
@@ -1863,7 +1989,8 @@
         "M25"
       ],
       "provenance": "P2",
-      "batch": "CROSS_CULTURAL_BATCH_V2"
+      "batch": "CROSS_CULTURAL_BATCH_V2",
+      "global_claim_id": "G2-S013-K07"
     },
     {
       "claim_id": "K08",
@@ -1878,7 +2005,8 @@
         "M06"
       ],
       "provenance": "P2",
-      "batch": "CROSS_CULTURAL_BATCH_V2"
+      "batch": "CROSS_CULTURAL_BATCH_V2",
+      "global_claim_id": "G2-S013-K08"
     },
     {
       "claim_id": "A01",
@@ -1892,7 +2020,8 @@
         "M08"
       ],
       "provenance": "P2",
-      "batch": "CROSS_CULTURAL_BATCH_V2"
+      "batch": "CROSS_CULTURAL_BATCH_V2",
+      "global_claim_id": "G2-S014-A01"
     },
     {
       "claim_id": "A02",
@@ -1906,7 +2035,8 @@
         "M10"
       ],
       "provenance": "P2",
-      "batch": "CROSS_CULTURAL_BATCH_V2"
+      "batch": "CROSS_CULTURAL_BATCH_V2",
+      "global_claim_id": "G2-S014-A02"
     },
     {
       "claim_id": "A03",
@@ -1920,7 +2050,8 @@
         "M07"
       ],
       "provenance": "P2",
-      "batch": "CROSS_CULTURAL_BATCH_V2"
+      "batch": "CROSS_CULTURAL_BATCH_V2",
+      "global_claim_id": "G2-S014-A03"
     },
     {
       "claim_id": "A04",
@@ -1934,7 +2065,8 @@
         "M07"
       ],
       "provenance": "P2",
-      "batch": "CROSS_CULTURAL_BATCH_V2"
+      "batch": "CROSS_CULTURAL_BATCH_V2",
+      "global_claim_id": "G2-S014-A04"
     },
     {
       "claim_id": "A05",
@@ -1949,7 +2081,8 @@
         "M22"
       ],
       "provenance": "P2",
-      "batch": "CROSS_CULTURAL_BATCH_V2"
+      "batch": "CROSS_CULTURAL_BATCH_V2",
+      "global_claim_id": "G2-S014-A05"
     },
     {
       "claim_id": "A06",
@@ -1963,7 +2096,8 @@
         "M11"
       ],
       "provenance": "P2",
-      "batch": "CROSS_CULTURAL_BATCH_V2"
+      "batch": "CROSS_CULTURAL_BATCH_V2",
+      "global_claim_id": "G2-S014-A06"
     },
     {
       "claim_id": "A07",
@@ -1978,7 +2112,8 @@
         "M23"
       ],
       "provenance": "P2",
-      "batch": "CROSS_CULTURAL_BATCH_V2"
+      "batch": "CROSS_CULTURAL_BATCH_V2",
+      "global_claim_id": "G2-S014-A07"
     },
     {
       "claim_id": "A08",
@@ -1993,7 +2128,8 @@
         "M23"
       ],
       "provenance": "P2",
-      "batch": "CROSS_CULTURAL_BATCH_V2"
+      "batch": "CROSS_CULTURAL_BATCH_V2",
+      "global_claim_id": "G2-S014-A08"
     },
     {
       "claim_id": "O01",
@@ -2007,7 +2143,8 @@
         "M19"
       ],
       "provenance": "P2",
-      "batch": "CROSS_CULTURAL_BATCH_V2"
+      "batch": "CROSS_CULTURAL_BATCH_V2",
+      "global_claim_id": "G2-S015-O01"
     },
     {
       "claim_id": "O02",
@@ -2021,7 +2158,8 @@
         "M20"
       ],
       "provenance": "P2",
-      "batch": "CROSS_CULTURAL_BATCH_V2"
+      "batch": "CROSS_CULTURAL_BATCH_V2",
+      "global_claim_id": "G2-S015-O02"
     },
     {
       "claim_id": "O03",
@@ -2035,7 +2173,8 @@
         "M25"
       ],
       "provenance": "P2",
-      "batch": "CROSS_CULTURAL_BATCH_V2"
+      "batch": "CROSS_CULTURAL_BATCH_V2",
+      "global_claim_id": "G2-S015-O03"
     },
     {
       "claim_id": "O04",
@@ -2049,7 +2188,8 @@
         "M19"
       ],
       "provenance": "P2",
-      "batch": "CROSS_CULTURAL_BATCH_V2"
+      "batch": "CROSS_CULTURAL_BATCH_V2",
+      "global_claim_id": "G2-S015-O04"
     },
     {
       "claim_id": "O05",
@@ -2064,7 +2204,8 @@
         "M23"
       ],
       "provenance": "P2",
-      "batch": "CROSS_CULTURAL_BATCH_V2"
+      "batch": "CROSS_CULTURAL_BATCH_V2",
+      "global_claim_id": "G2-S015-O05"
     },
     {
       "claim_id": "O06",
@@ -2078,7 +2219,8 @@
         "M19"
       ],
       "provenance": "P2",
-      "batch": "CROSS_CULTURAL_BATCH_V2"
+      "batch": "CROSS_CULTURAL_BATCH_V2",
+      "global_claim_id": "G2-S015-O06"
     },
     {
       "claim_id": "O07",
@@ -2093,7 +2235,8 @@
         "M20"
       ],
       "provenance": "P2",
-      "batch": "CROSS_CULTURAL_BATCH_V2"
+      "batch": "CROSS_CULTURAL_BATCH_V2",
+      "global_claim_id": "G2-S015-O07"
     },
     {
       "claim_id": "O08",
@@ -2108,7 +2251,8 @@
         "M25"
       ],
       "provenance": "P2",
-      "batch": "CROSS_CULTURAL_BATCH_V2"
+      "batch": "CROSS_CULTURAL_BATCH_V2",
+      "global_claim_id": "G2-S015-O08"
     },
     {
       "claim_id": "P01",
@@ -2122,7 +2266,8 @@
         "M25"
       ],
       "provenance": "P2",
-      "batch": "CROSS_CULTURAL_BATCH_V2"
+      "batch": "CROSS_CULTURAL_BATCH_V2",
+      "global_claim_id": "G2-S016-P01"
     },
     {
       "claim_id": "P02",
@@ -2137,7 +2282,8 @@
         "M25"
       ],
       "provenance": "P2",
-      "batch": "CROSS_CULTURAL_BATCH_V2"
+      "batch": "CROSS_CULTURAL_BATCH_V2",
+      "global_claim_id": "G2-S016-P02"
     },
     {
       "claim_id": "P03",
@@ -2152,7 +2298,8 @@
         "M13"
       ],
       "provenance": "P2",
-      "batch": "CROSS_CULTURAL_BATCH_V2"
+      "batch": "CROSS_CULTURAL_BATCH_V2",
+      "global_claim_id": "G2-S016-P03"
     },
     {
       "claim_id": "P04",
@@ -2167,7 +2314,8 @@
         "M20"
       ],
       "provenance": "P2",
-      "batch": "CROSS_CULTURAL_BATCH_V2"
+      "batch": "CROSS_CULTURAL_BATCH_V2",
+      "global_claim_id": "G2-S016-P04"
     },
     {
       "claim_id": "P05",
@@ -2182,7 +2330,8 @@
         "M25"
       ],
       "provenance": "P2",
-      "batch": "CROSS_CULTURAL_BATCH_V2"
+      "batch": "CROSS_CULTURAL_BATCH_V2",
+      "global_claim_id": "G2-S016-P05"
     },
     {
       "claim_id": "P06",
@@ -2196,7 +2345,8 @@
         "M12"
       ],
       "provenance": "P2",
-      "batch": "CROSS_CULTURAL_BATCH_V2"
+      "batch": "CROSS_CULTURAL_BATCH_V2",
+      "global_claim_id": "G2-S016-P06"
     },
     {
       "claim_id": "P07",
@@ -2211,7 +2361,8 @@
         "M20"
       ],
       "provenance": "P2",
-      "batch": "CROSS_CULTURAL_BATCH_V2"
+      "batch": "CROSS_CULTURAL_BATCH_V2",
+      "global_claim_id": "G2-S016-P07"
     },
     {
       "claim_id": "P08",
@@ -2227,7 +2378,8 @@
         "M25"
       ],
       "provenance": "P2",
-      "batch": "CROSS_CULTURAL_BATCH_V2"
+      "batch": "CROSS_CULTURAL_BATCH_V2",
+      "global_claim_id": "G2-S016-P08"
     },
     {
       "claim_id": "G01",
@@ -2241,7 +2393,8 @@
         "M15"
       ],
       "provenance": "P2",
-      "batch": "CROSS_CULTURAL_BATCH_V2"
+      "batch": "CROSS_CULTURAL_BATCH_V2",
+      "global_claim_id": "G2-S017-G01"
     },
     {
       "claim_id": "G02",
@@ -2256,7 +2409,8 @@
         "M22"
       ],
       "provenance": "P2",
-      "batch": "CROSS_CULTURAL_BATCH_V2"
+      "batch": "CROSS_CULTURAL_BATCH_V2",
+      "global_claim_id": "G2-S017-G02"
     },
     {
       "claim_id": "G03",
@@ -2270,7 +2424,8 @@
         "M21"
       ],
       "provenance": "P2",
-      "batch": "CROSS_CULTURAL_BATCH_V2"
+      "batch": "CROSS_CULTURAL_BATCH_V2",
+      "global_claim_id": "G2-S017-G03"
     },
     {
       "claim_id": "G04",
@@ -2286,7 +2441,8 @@
         "M20"
       ],
       "provenance": "P2",
-      "batch": "CROSS_CULTURAL_BATCH_V2"
+      "batch": "CROSS_CULTURAL_BATCH_V2",
+      "global_claim_id": "G2-S017-G04"
     },
     {
       "claim_id": "G05",
@@ -2301,7 +2457,8 @@
         "M23"
       ],
       "provenance": "P2",
-      "batch": "CROSS_CULTURAL_BATCH_V2"
+      "batch": "CROSS_CULTURAL_BATCH_V2",
+      "global_claim_id": "G2-S017-G05"
     },
     {
       "claim_id": "G06",
@@ -2316,7 +2473,8 @@
         "M23"
       ],
       "provenance": "P2",
-      "batch": "CROSS_CULTURAL_BATCH_V2"
+      "batch": "CROSS_CULTURAL_BATCH_V2",
+      "global_claim_id": "G2-S017-G06"
     },
     {
       "claim_id": "G07",
@@ -2331,7 +2489,8 @@
         "M20"
       ],
       "provenance": "P2",
-      "batch": "CROSS_CULTURAL_BATCH_V2"
+      "batch": "CROSS_CULTURAL_BATCH_V2",
+      "global_claim_id": "G2-S017-G07"
     },
     {
       "claim_id": "G08",
@@ -2346,7 +2505,8 @@
         "M22"
       ],
       "provenance": "P2",
-      "batch": "CROSS_CULTURAL_BATCH_V2"
+      "batch": "CROSS_CULTURAL_BATCH_V2",
+      "global_claim_id": "G2-S017-G08"
     },
     {
       "claim_id": "Z01",
@@ -2360,7 +2520,8 @@
         "M08"
       ],
       "provenance": "P2",
-      "batch": "CROSS_CULTURAL_BATCH_V2"
+      "batch": "CROSS_CULTURAL_BATCH_V2",
+      "global_claim_id": "G2-S018-Z01"
     },
     {
       "claim_id": "Z02",
@@ -2374,7 +2535,8 @@
         "M07"
       ],
       "provenance": "P2",
-      "batch": "CROSS_CULTURAL_BATCH_V2"
+      "batch": "CROSS_CULTURAL_BATCH_V2",
+      "global_claim_id": "G2-S018-Z02"
     },
     {
       "claim_id": "Z03",
@@ -2389,7 +2551,8 @@
         "M25"
       ],
       "provenance": "P2",
-      "batch": "CROSS_CULTURAL_BATCH_V2"
+      "batch": "CROSS_CULTURAL_BATCH_V2",
+      "global_claim_id": "G2-S018-Z03"
     },
     {
       "claim_id": "Z04",
@@ -2403,7 +2566,8 @@
         "M15"
       ],
       "provenance": "P2",
-      "batch": "CROSS_CULTURAL_BATCH_V2"
+      "batch": "CROSS_CULTURAL_BATCH_V2",
+      "global_claim_id": "G2-S018-Z04"
     },
     {
       "claim_id": "Z05",
@@ -2417,7 +2581,8 @@
         "M09"
       ],
       "provenance": "P2",
-      "batch": "CROSS_CULTURAL_BATCH_V2"
+      "batch": "CROSS_CULTURAL_BATCH_V2",
+      "global_claim_id": "G2-S018-Z05"
     },
     {
       "claim_id": "Z06",
@@ -2431,7 +2596,8 @@
         "M22"
       ],
       "provenance": "P2",
-      "batch": "CROSS_CULTURAL_BATCH_V2"
+      "batch": "CROSS_CULTURAL_BATCH_V2",
+      "global_claim_id": "G2-S018-Z06"
     },
     {
       "claim_id": "Z07",
@@ -2446,7 +2612,8 @@
         "M20"
       ],
       "provenance": "P2",
-      "batch": "CROSS_CULTURAL_BATCH_V2"
+      "batch": "CROSS_CULTURAL_BATCH_V2",
+      "global_claim_id": "G2-S018-Z07"
     },
     {
       "claim_id": "Z08",
@@ -2461,7 +2628,8 @@
         "M25"
       ],
       "provenance": "P2",
-      "batch": "CROSS_CULTURAL_BATCH_V2"
+      "batch": "CROSS_CULTURAL_BATCH_V2",
+      "global_claim_id": "G2-S018-Z08"
     },
     {
       "claim_id": "H01",
@@ -2476,7 +2644,8 @@
         "M25"
       ],
       "provenance": "P2",
-      "batch": "CROSS_CULTURAL_BATCH_V2"
+      "batch": "CROSS_CULTURAL_BATCH_V2",
+      "global_claim_id": "G2-S019-H01"
     },
     {
       "claim_id": "H02",
@@ -2490,7 +2659,8 @@
         "M23"
       ],
       "provenance": "P2",
-      "batch": "CROSS_CULTURAL_BATCH_V2"
+      "batch": "CROSS_CULTURAL_BATCH_V2",
+      "global_claim_id": "G2-S019-H02"
     },
     {
       "claim_id": "H03",
@@ -2505,7 +2675,8 @@
         "M20"
       ],
       "provenance": "P2",
-      "batch": "CROSS_CULTURAL_BATCH_V2"
+      "batch": "CROSS_CULTURAL_BATCH_V2",
+      "global_claim_id": "G2-S019-H03"
     },
     {
       "claim_id": "H04",
@@ -2519,7 +2690,8 @@
         "M20"
       ],
       "provenance": "P2",
-      "batch": "CROSS_CULTURAL_BATCH_V2"
+      "batch": "CROSS_CULTURAL_BATCH_V2",
+      "global_claim_id": "G2-S019-H04"
     },
     {
       "claim_id": "H05",
@@ -2534,7 +2706,8 @@
         "M19"
       ],
       "provenance": "P2",
-      "batch": "CROSS_CULTURAL_BATCH_V2"
+      "batch": "CROSS_CULTURAL_BATCH_V2",
+      "global_claim_id": "G2-S019-H05"
     },
     {
       "claim_id": "H06",
@@ -2548,7 +2721,8 @@
         "M25"
       ],
       "provenance": "P2",
-      "batch": "CROSS_CULTURAL_BATCH_V2"
+      "batch": "CROSS_CULTURAL_BATCH_V2",
+      "global_claim_id": "G2-S019-H06"
     },
     {
       "claim_id": "H07",
@@ -2563,7 +2737,8 @@
         "M20"
       ],
       "provenance": "P2",
-      "batch": "CROSS_CULTURAL_BATCH_V2"
+      "batch": "CROSS_CULTURAL_BATCH_V2",
+      "global_claim_id": "G2-S019-H07"
     },
     {
       "claim_id": "H08",
@@ -2578,7 +2753,8 @@
         "M25"
       ],
       "provenance": "P2",
-      "batch": "CROSS_CULTURAL_BATCH_V2"
+      "batch": "CROSS_CULTURAL_BATCH_V2",
+      "global_claim_id": "G2-S019-H08"
     },
     {
       "claim_id": "GZ01",
@@ -2592,7 +2768,8 @@
         "M06"
       ],
       "provenance": "P2",
-      "batch": "CROSS_CULTURAL_BATCH_V2"
+      "batch": "CROSS_CULTURAL_BATCH_V2",
+      "global_claim_id": "G2-S020-GZ01"
     },
     {
       "claim_id": "GZ02",
@@ -2606,7 +2783,8 @@
         "M12"
       ],
       "provenance": "P2",
-      "batch": "CROSS_CULTURAL_BATCH_V2"
+      "batch": "CROSS_CULTURAL_BATCH_V2",
+      "global_claim_id": "G2-S020-GZ02"
     },
     {
       "claim_id": "GZ03",
@@ -2620,7 +2798,8 @@
         "M25"
       ],
       "provenance": "P2",
-      "batch": "CROSS_CULTURAL_BATCH_V2"
+      "batch": "CROSS_CULTURAL_BATCH_V2",
+      "global_claim_id": "G2-S020-GZ03"
     },
     {
       "claim_id": "GZ04",
@@ -2634,7 +2813,8 @@
         "M10"
       ],
       "provenance": "P2",
-      "batch": "CROSS_CULTURAL_BATCH_V2"
+      "batch": "CROSS_CULTURAL_BATCH_V2",
+      "global_claim_id": "G2-S020-GZ04"
     },
     {
       "claim_id": "GZ05",
@@ -2648,7 +2828,8 @@
         "M12"
       ],
       "provenance": "P2",
-      "batch": "CROSS_CULTURAL_BATCH_V2"
+      "batch": "CROSS_CULTURAL_BATCH_V2",
+      "global_claim_id": "G2-S020-GZ05"
     },
     {
       "claim_id": "GZ06",
@@ -2663,7 +2844,8 @@
         "M25"
       ],
       "provenance": "P2",
-      "batch": "CROSS_CULTURAL_BATCH_V2"
+      "batch": "CROSS_CULTURAL_BATCH_V2",
+      "global_claim_id": "G2-S020-GZ06"
     },
     {
       "claim_id": "GZ07",
@@ -2678,7 +2860,8 @@
         "M23"
       ],
       "provenance": "P2",
-      "batch": "CROSS_CULTURAL_BATCH_V2"
+      "batch": "CROSS_CULTURAL_BATCH_V2",
+      "global_claim_id": "G2-S020-GZ07"
     },
     {
       "claim_id": "GZ08",
@@ -2694,7 +2877,8 @@
         "M24"
       ],
       "provenance": "P2",
-      "batch": "CROSS_CULTURAL_BATCH_V2"
+      "batch": "CROSS_CULTURAL_BATCH_V2",
+      "global_claim_id": "G2-S020-GZ08"
     },
     {
       "claim_id": "R01",
@@ -2708,7 +2892,8 @@
         "M06"
       ],
       "provenance": "P2",
-      "batch": "CROSS_CULTURAL_BATCH_V2"
+      "batch": "CROSS_CULTURAL_BATCH_V2",
+      "global_claim_id": "G2-S021-R01"
     },
     {
       "claim_id": "R02",
@@ -2722,7 +2907,8 @@
         "M12"
       ],
       "provenance": "P2",
-      "batch": "CROSS_CULTURAL_BATCH_V2"
+      "batch": "CROSS_CULTURAL_BATCH_V2",
+      "global_claim_id": "G2-S021-R02"
     },
     {
       "claim_id": "R03",
@@ -2737,7 +2923,8 @@
         "M23"
       ],
       "provenance": "P2",
-      "batch": "CROSS_CULTURAL_BATCH_V2"
+      "batch": "CROSS_CULTURAL_BATCH_V2",
+      "global_claim_id": "G2-S021-R03"
     },
     {
       "claim_id": "R04",
@@ -2751,7 +2938,8 @@
         "M14"
       ],
       "provenance": "P2",
-      "batch": "CROSS_CULTURAL_BATCH_V2"
+      "batch": "CROSS_CULTURAL_BATCH_V2",
+      "global_claim_id": "G2-S021-R04"
     },
     {
       "claim_id": "R05",
@@ -2766,7 +2954,8 @@
         "M15"
       ],
       "provenance": "P2",
-      "batch": "CROSS_CULTURAL_BATCH_V2"
+      "batch": "CROSS_CULTURAL_BATCH_V2",
+      "global_claim_id": "G2-S021-R05"
     },
     {
       "claim_id": "R06",
@@ -2780,7 +2969,8 @@
         "M23"
       ],
       "provenance": "P2",
-      "batch": "CROSS_CULTURAL_BATCH_V2"
+      "batch": "CROSS_CULTURAL_BATCH_V2",
+      "global_claim_id": "G2-S021-R06"
     },
     {
       "claim_id": "R07",
@@ -2794,7 +2984,8 @@
         "M23"
       ],
       "provenance": "P2",
-      "batch": "CROSS_CULTURAL_BATCH_V2"
+      "batch": "CROSS_CULTURAL_BATCH_V2",
+      "global_claim_id": "G2-S021-R07"
     },
     {
       "claim_id": "R08",
@@ -2809,7 +3000,8 @@
         "M25"
       ],
       "provenance": "P2",
-      "batch": "CROSS_CULTURAL_BATCH_V2"
+      "batch": "CROSS_CULTURAL_BATCH_V2",
+      "global_claim_id": "G2-S021-R08"
     },
     {
       "claim_id": "HUI01",
@@ -2823,7 +3015,8 @@
         "M24"
       ],
       "provenance": "P2",
-      "batch": "CROSS_CULTURAL_BATCH_V2"
+      "batch": "CROSS_CULTURAL_BATCH_V2",
+      "global_claim_id": "G2-S022-HUI01"
     },
     {
       "claim_id": "HUI02",
@@ -2837,7 +3030,8 @@
         "M14"
       ],
       "provenance": "P2",
-      "batch": "CROSS_CULTURAL_BATCH_V2"
+      "batch": "CROSS_CULTURAL_BATCH_V2",
+      "global_claim_id": "G2-S022-HUI02"
     },
     {
       "claim_id": "HUI03",
@@ -2851,7 +3045,8 @@
         "M23"
       ],
       "provenance": "P2",
-      "batch": "CROSS_CULTURAL_BATCH_V2"
+      "batch": "CROSS_CULTURAL_BATCH_V2",
+      "global_claim_id": "G2-S022-HUI03"
     },
     {
       "claim_id": "HUI04",
@@ -2866,7 +3061,8 @@
         "M24"
       ],
       "provenance": "P2",
-      "batch": "CROSS_CULTURAL_BATCH_V2"
+      "batch": "CROSS_CULTURAL_BATCH_V2",
+      "global_claim_id": "G2-S022-HUI04"
     },
     {
       "claim_id": "HUI05",
@@ -2881,7 +3077,8 @@
         "M25"
       ],
       "provenance": "P2",
-      "batch": "CROSS_CULTURAL_BATCH_V2"
+      "batch": "CROSS_CULTURAL_BATCH_V2",
+      "global_claim_id": "G2-S022-HUI05"
     },
     {
       "claim_id": "HUI06",
@@ -2895,7 +3092,8 @@
         "M23"
       ],
       "provenance": "P2",
-      "batch": "CROSS_CULTURAL_BATCH_V2"
+      "batch": "CROSS_CULTURAL_BATCH_V2",
+      "global_claim_id": "G2-S022-HUI06"
     },
     {
       "claim_id": "HUI07",
@@ -2909,7 +3107,8 @@
         "M20"
       ],
       "provenance": "P2",
-      "batch": "CROSS_CULTURAL_BATCH_V2"
+      "batch": "CROSS_CULTURAL_BATCH_V2",
+      "global_claim_id": "G2-S022-HUI07"
     },
     {
       "claim_id": "HUI08",
@@ -2924,7 +3123,8 @@
         "M25"
       ],
       "provenance": "P2",
-      "batch": "CROSS_CULTURAL_BATCH_V2"
+      "batch": "CROSS_CULTURAL_BATCH_V2",
+      "global_claim_id": "G2-S022-HUI08"
     },
     {
       "claim_id": "GUR01",
@@ -2939,7 +3139,8 @@
         "M24"
       ],
       "provenance": "P2",
-      "batch": "CROSS_CULTURAL_BATCH_V2"
+      "batch": "CROSS_CULTURAL_BATCH_V2",
+      "global_claim_id": "G2-S023-GUR01"
     },
     {
       "claim_id": "GUR02",
@@ -2953,7 +3154,8 @@
         "M05"
       ],
       "provenance": "P2",
-      "batch": "CROSS_CULTURAL_BATCH_V2"
+      "batch": "CROSS_CULTURAL_BATCH_V2",
+      "global_claim_id": "G2-S023-GUR02"
     },
     {
       "claim_id": "GUR03",
@@ -2969,7 +3171,8 @@
         "M25"
       ],
       "provenance": "P2",
-      "batch": "CROSS_CULTURAL_BATCH_V2"
+      "batch": "CROSS_CULTURAL_BATCH_V2",
+      "global_claim_id": "G2-S023-GUR03"
     },
     {
       "claim_id": "GUR04",
@@ -2984,7 +3187,8 @@
         "M22"
       ],
       "provenance": "P2",
-      "batch": "CROSS_CULTURAL_BATCH_V2"
+      "batch": "CROSS_CULTURAL_BATCH_V2",
+      "global_claim_id": "G2-S023-GUR04"
     },
     {
       "claim_id": "GUR05",
@@ -2999,7 +3203,8 @@
         "M22"
       ],
       "provenance": "P2",
-      "batch": "CROSS_CULTURAL_BATCH_V2"
+      "batch": "CROSS_CULTURAL_BATCH_V2",
+      "global_claim_id": "G2-S023-GUR05"
     },
     {
       "claim_id": "GUR06",
@@ -3014,7 +3219,8 @@
         "M24"
       ],
       "provenance": "P2",
-      "batch": "CROSS_CULTURAL_BATCH_V2"
+      "batch": "CROSS_CULTURAL_BATCH_V2",
+      "global_claim_id": "G2-S023-GUR06"
     },
     {
       "claim_id": "GUR07",
@@ -3029,7 +3235,8 @@
         "M25"
       ],
       "provenance": "P2",
-      "batch": "CROSS_CULTURAL_BATCH_V2"
+      "batch": "CROSS_CULTURAL_BATCH_V2",
+      "global_claim_id": "G2-S023-GUR07"
     },
     {
       "claim_id": "GUR08",
@@ -3044,7 +3251,8 @@
         "M22"
       ],
       "provenance": "P2",
-      "batch": "CROSS_CULTURAL_BATCH_V2"
+      "batch": "CROSS_CULTURAL_BATCH_V2",
+      "global_claim_id": "G2-S023-GUR08"
     },
     {
       "claim_id": "I01",
@@ -3059,7 +3267,8 @@
         "M20"
       ],
       "provenance": "S1",
-      "batch": "CROSS_CULTURAL_BATCH_V2"
+      "batch": "CROSS_CULTURAL_BATCH_V2",
+      "global_claim_id": "G2-S024-I01"
     },
     {
       "claim_id": "I02",
@@ -3073,7 +3282,8 @@
         "M15"
       ],
       "provenance": "S1",
-      "batch": "CROSS_CULTURAL_BATCH_V2"
+      "batch": "CROSS_CULTURAL_BATCH_V2",
+      "global_claim_id": "G2-S024-I02"
     },
     {
       "claim_id": "I03",
@@ -3088,7 +3298,8 @@
         "M25"
       ],
       "provenance": "S1",
-      "batch": "CROSS_CULTURAL_BATCH_V2"
+      "batch": "CROSS_CULTURAL_BATCH_V2",
+      "global_claim_id": "G2-S024-I03"
     },
     {
       "claim_id": "I04",
@@ -3102,7 +3313,8 @@
         "M20"
       ],
       "provenance": "S1",
-      "batch": "CROSS_CULTURAL_BATCH_V2"
+      "batch": "CROSS_CULTURAL_BATCH_V2",
+      "global_claim_id": "G2-S024-I04"
     },
     {
       "claim_id": "I05",
@@ -3117,7 +3329,8 @@
         "M20"
       ],
       "provenance": "S1",
-      "batch": "CROSS_CULTURAL_BATCH_V2"
+      "batch": "CROSS_CULTURAL_BATCH_V2",
+      "global_claim_id": "G2-S024-I05"
     },
     {
       "claim_id": "I06",
@@ -3132,7 +3345,8 @@
         "M17"
       ],
       "provenance": "S1",
-      "batch": "CROSS_CULTURAL_BATCH_V2"
+      "batch": "CROSS_CULTURAL_BATCH_V2",
+      "global_claim_id": "G2-S024-I06"
     },
     {
       "claim_id": "I07",
@@ -3147,7 +3361,8 @@
         "M23"
       ],
       "provenance": "S1",
-      "batch": "CROSS_CULTURAL_BATCH_V2"
+      "batch": "CROSS_CULTURAL_BATCH_V2",
+      "global_claim_id": "G2-S024-I07"
     },
     {
       "claim_id": "I08",
@@ -3160,7 +3375,8 @@
         "M17"
       ],
       "provenance": "S1",
-      "batch": "CROSS_CULTURAL_BATCH_V2"
+      "batch": "CROSS_CULTURAL_BATCH_V2",
+      "global_claim_id": "G2-S024-I08"
     },
     {
       "claim_id": "PV01",
@@ -3175,7 +3391,8 @@
         "M21"
       ],
       "provenance": "P2",
-      "batch": "EMBODIED_TRANSPERSONAL_BATCH_V3"
+      "batch": "EMBODIED_TRANSPERSONAL_BATCH_V3",
+      "global_claim_id": "G3-S025-PV01"
     },
     {
       "claim_id": "PV02",
@@ -3189,7 +3406,8 @@
         "M20"
       ],
       "provenance": "P2",
-      "batch": "EMBODIED_TRANSPERSONAL_BATCH_V3"
+      "batch": "EMBODIED_TRANSPERSONAL_BATCH_V3",
+      "global_claim_id": "G3-S025-PV02"
     },
     {
       "claim_id": "PV03",
@@ -3203,7 +3421,8 @@
         "M22"
       ],
       "provenance": "P2",
-      "batch": "EMBODIED_TRANSPERSONAL_BATCH_V3"
+      "batch": "EMBODIED_TRANSPERSONAL_BATCH_V3",
+      "global_claim_id": "G3-S025-PV03"
     },
     {
       "claim_id": "PV04",
@@ -3218,7 +3437,8 @@
         "M21"
       ],
       "provenance": "P2",
-      "batch": "EMBODIED_TRANSPERSONAL_BATCH_V3"
+      "batch": "EMBODIED_TRANSPERSONAL_BATCH_V3",
+      "global_claim_id": "G3-S025-PV04"
     },
     {
       "claim_id": "PV05",
@@ -3232,7 +3452,8 @@
         "M21"
       ],
       "provenance": "P2",
-      "batch": "EMBODIED_TRANSPERSONAL_BATCH_V3"
+      "batch": "EMBODIED_TRANSPERSONAL_BATCH_V3",
+      "global_claim_id": "G3-S025-PV05"
     },
     {
       "claim_id": "PV06",
@@ -3246,7 +3467,8 @@
         "M23"
       ],
       "provenance": "P2",
-      "batch": "EMBODIED_TRANSPERSONAL_BATCH_V3"
+      "batch": "EMBODIED_TRANSPERSONAL_BATCH_V3",
+      "global_claim_id": "G3-S025-PV06"
     },
     {
       "claim_id": "PV07",
@@ -3261,7 +3483,8 @@
         "M20"
       ],
       "provenance": "P2",
-      "batch": "EMBODIED_TRANSPERSONAL_BATCH_V3"
+      "batch": "EMBODIED_TRANSPERSONAL_BATCH_V3",
+      "global_claim_id": "G3-S025-PV07"
     },
     {
       "claim_id": "PV08",
@@ -3277,7 +3500,8 @@
         "M20"
       ],
       "provenance": "P2",
-      "batch": "EMBODIED_TRANSPERSONAL_BATCH_V3"
+      "batch": "EMBODIED_TRANSPERSONAL_BATCH_V3",
+      "global_claim_id": "G3-S025-PV08"
     },
     {
       "claim_id": "DZ01",
@@ -3290,7 +3514,8 @@
         "M14"
       ],
       "provenance": "P2",
-      "batch": "EMBODIED_TRANSPERSONAL_BATCH_V3"
+      "batch": "EMBODIED_TRANSPERSONAL_BATCH_V3",
+      "global_claim_id": "G3-S026-DZ01"
     },
     {
       "claim_id": "DZ02",
@@ -3305,7 +3530,8 @@
         "M14"
       ],
       "provenance": "P2",
-      "batch": "EMBODIED_TRANSPERSONAL_BATCH_V3"
+      "batch": "EMBODIED_TRANSPERSONAL_BATCH_V3",
+      "global_claim_id": "G3-S026-DZ02"
     },
     {
       "claim_id": "DZ03",
@@ -3320,7 +3546,8 @@
         "M21"
       ],
       "provenance": "P2",
-      "batch": "EMBODIED_TRANSPERSONAL_BATCH_V3"
+      "batch": "EMBODIED_TRANSPERSONAL_BATCH_V3",
+      "global_claim_id": "G3-S026-DZ03"
     },
     {
       "claim_id": "DZ04",
@@ -3335,7 +3562,8 @@
         "M20"
       ],
       "provenance": "P2",
-      "batch": "EMBODIED_TRANSPERSONAL_BATCH_V3"
+      "batch": "EMBODIED_TRANSPERSONAL_BATCH_V3",
+      "global_claim_id": "G3-S026-DZ04"
     },
     {
       "claim_id": "DZ05",
@@ -3349,7 +3577,8 @@
         "M25"
       ],
       "provenance": "P2",
-      "batch": "EMBODIED_TRANSPERSONAL_BATCH_V3"
+      "batch": "EMBODIED_TRANSPERSONAL_BATCH_V3",
+      "global_claim_id": "G3-S026-DZ05"
     },
     {
       "claim_id": "DZ06",
@@ -3364,7 +3593,8 @@
         "M23"
       ],
       "provenance": "P2",
-      "batch": "EMBODIED_TRANSPERSONAL_BATCH_V3"
+      "batch": "EMBODIED_TRANSPERSONAL_BATCH_V3",
+      "global_claim_id": "G3-S026-DZ06"
     },
     {
       "claim_id": "DZ07",
@@ -3377,7 +3607,8 @@
         "M14"
       ],
       "provenance": "P2",
-      "batch": "EMBODIED_TRANSPERSONAL_BATCH_V3"
+      "batch": "EMBODIED_TRANSPERSONAL_BATCH_V3",
+      "global_claim_id": "G3-S026-DZ07"
     },
     {
       "claim_id": "DZ08",
@@ -3392,7 +3623,8 @@
         "M22"
       ],
       "provenance": "P2",
-      "batch": "EMBODIED_TRANSPERSONAL_BATCH_V3"
+      "batch": "EMBODIED_TRANSPERSONAL_BATCH_V3",
+      "global_claim_id": "G3-S026-DZ08"
     },
     {
       "claim_id": "WP01",
@@ -3406,7 +3638,8 @@
         "M25"
       ],
       "provenance": "S1",
-      "batch": "EMBODIED_TRANSPERSONAL_BATCH_V3"
+      "batch": "EMBODIED_TRANSPERSONAL_BATCH_V3",
+      "global_claim_id": "G3-S027-WP01"
     },
     {
       "claim_id": "WP02",
@@ -3421,7 +3654,8 @@
         "M25"
       ],
       "provenance": "S1",
-      "batch": "EMBODIED_TRANSPERSONAL_BATCH_V3"
+      "batch": "EMBODIED_TRANSPERSONAL_BATCH_V3",
+      "global_claim_id": "G3-S027-WP02"
     },
     {
       "claim_id": "WP03",
@@ -3436,7 +3670,8 @@
         "M23"
       ],
       "provenance": "S1",
-      "batch": "EMBODIED_TRANSPERSONAL_BATCH_V3"
+      "batch": "EMBODIED_TRANSPERSONAL_BATCH_V3",
+      "global_claim_id": "G3-S027-WP03"
     },
     {
       "claim_id": "WP04",
@@ -3451,7 +3686,8 @@
         "M23"
       ],
       "provenance": "S1",
-      "batch": "EMBODIED_TRANSPERSONAL_BATCH_V3"
+      "batch": "EMBODIED_TRANSPERSONAL_BATCH_V3",
+      "global_claim_id": "G3-S027-WP04"
     },
     {
       "claim_id": "WP05",
@@ -3466,7 +3702,8 @@
         "M23"
       ],
       "provenance": "S1",
-      "batch": "EMBODIED_TRANSPERSONAL_BATCH_V3"
+      "batch": "EMBODIED_TRANSPERSONAL_BATCH_V3",
+      "global_claim_id": "G3-S027-WP05"
     },
     {
       "claim_id": "WP06",
@@ -3481,7 +3718,8 @@
         "M23"
       ],
       "provenance": "S1",
-      "batch": "EMBODIED_TRANSPERSONAL_BATCH_V3"
+      "batch": "EMBODIED_TRANSPERSONAL_BATCH_V3",
+      "global_claim_id": "G3-S027-WP06"
     },
     {
       "claim_id": "WP07",
@@ -3496,7 +3734,8 @@
         "M22"
       ],
       "provenance": "S1",
-      "batch": "EMBODIED_TRANSPERSONAL_BATCH_V3"
+      "batch": "EMBODIED_TRANSPERSONAL_BATCH_V3",
+      "global_claim_id": "G3-S027-WP07"
     },
     {
       "claim_id": "WP08",
@@ -3511,7 +3750,8 @@
         "M20"
       ],
       "provenance": "S1",
-      "batch": "EMBODIED_TRANSPERSONAL_BATCH_V3"
+      "batch": "EMBODIED_TRANSPERSONAL_BATCH_V3",
+      "global_claim_id": "G3-S027-WP08"
     },
     {
       "claim_id": "J01",
@@ -3525,7 +3765,8 @@
         "M06"
       ],
       "provenance": "P2",
-      "batch": "EMBODIED_TRANSPERSONAL_BATCH_V3"
+      "batch": "EMBODIED_TRANSPERSONAL_BATCH_V3",
+      "global_claim_id": "G3-S028-J01"
     },
     {
       "claim_id": "J02",
@@ -3539,7 +3780,8 @@
         "M16"
       ],
       "provenance": "P2",
-      "batch": "EMBODIED_TRANSPERSONAL_BATCH_V3"
+      "batch": "EMBODIED_TRANSPERSONAL_BATCH_V3",
+      "global_claim_id": "G3-S028-J02"
     },
     {
       "claim_id": "J03",
@@ -3553,7 +3795,8 @@
         "M15"
       ],
       "provenance": "P2",
-      "batch": "EMBODIED_TRANSPERSONAL_BATCH_V3"
+      "batch": "EMBODIED_TRANSPERSONAL_BATCH_V3",
+      "global_claim_id": "G3-S028-J03"
     },
     {
       "claim_id": "J04",
@@ -3567,7 +3810,8 @@
         "M07"
       ],
       "provenance": "P2",
-      "batch": "EMBODIED_TRANSPERSONAL_BATCH_V3"
+      "batch": "EMBODIED_TRANSPERSONAL_BATCH_V3",
+      "global_claim_id": "G3-S028-J04"
     },
     {
       "claim_id": "J05",
@@ -3581,7 +3825,8 @@
         "M22"
       ],
       "provenance": "P2",
-      "batch": "EMBODIED_TRANSPERSONAL_BATCH_V3"
+      "batch": "EMBODIED_TRANSPERSONAL_BATCH_V3",
+      "global_claim_id": "G3-S028-J05"
     },
     {
       "claim_id": "J06",
@@ -3595,7 +3840,8 @@
         "M17"
       ],
       "provenance": "P2",
-      "batch": "EMBODIED_TRANSPERSONAL_BATCH_V3"
+      "batch": "EMBODIED_TRANSPERSONAL_BATCH_V3",
+      "global_claim_id": "G3-S028-J06"
     },
     {
       "claim_id": "J07",
@@ -3610,7 +3856,8 @@
         "M15"
       ],
       "provenance": "P2",
-      "batch": "EMBODIED_TRANSPERSONAL_BATCH_V3"
+      "batch": "EMBODIED_TRANSPERSONAL_BATCH_V3",
+      "global_claim_id": "G3-S028-J07"
     },
     {
       "claim_id": "J08",
@@ -3625,7 +3872,8 @@
         "M20"
       ],
       "provenance": "P2",
-      "batch": "EMBODIED_TRANSPERSONAL_BATCH_V3"
+      "batch": "EMBODIED_TRANSPERSONAL_BATCH_V3",
+      "global_claim_id": "G3-S028-J08"
     },
     {
       "claim_id": "ST01",
@@ -3639,7 +3887,8 @@
         "M06"
       ],
       "provenance": "P2",
-      "batch": "EMBODIED_TRANSPERSONAL_BATCH_V3"
+      "batch": "EMBODIED_TRANSPERSONAL_BATCH_V3",
+      "global_claim_id": "G3-S029-ST01"
     },
     {
       "claim_id": "ST02",
@@ -3654,7 +3903,8 @@
         "M25"
       ],
       "provenance": "P2",
-      "batch": "EMBODIED_TRANSPERSONAL_BATCH_V3"
+      "batch": "EMBODIED_TRANSPERSONAL_BATCH_V3",
+      "global_claim_id": "G3-S029-ST02"
     },
     {
       "claim_id": "ST03",
@@ -3668,7 +3918,8 @@
         "M22"
       ],
       "provenance": "P2",
-      "batch": "EMBODIED_TRANSPERSONAL_BATCH_V3"
+      "batch": "EMBODIED_TRANSPERSONAL_BATCH_V3",
+      "global_claim_id": "G3-S029-ST03"
     },
     {
       "claim_id": "ST04",
@@ -3683,7 +3934,8 @@
         "M22"
       ],
       "provenance": "P2",
-      "batch": "EMBODIED_TRANSPERSONAL_BATCH_V3"
+      "batch": "EMBODIED_TRANSPERSONAL_BATCH_V3",
+      "global_claim_id": "G3-S029-ST04"
     },
     {
       "claim_id": "ST05",
@@ -3698,7 +3950,8 @@
         "M06"
       ],
       "provenance": "P2",
-      "batch": "EMBODIED_TRANSPERSONAL_BATCH_V3"
+      "batch": "EMBODIED_TRANSPERSONAL_BATCH_V3",
+      "global_claim_id": "G3-S029-ST05"
     },
     {
       "claim_id": "ST06",
@@ -3713,7 +3966,8 @@
         "M25"
       ],
       "provenance": "P2",
-      "batch": "EMBODIED_TRANSPERSONAL_BATCH_V3"
+      "batch": "EMBODIED_TRANSPERSONAL_BATCH_V3",
+      "global_claim_id": "G3-S029-ST06"
     },
     {
       "claim_id": "ST07",
@@ -3728,7 +3982,8 @@
         "M14"
       ],
       "provenance": "P2",
-      "batch": "EMBODIED_TRANSPERSONAL_BATCH_V3"
+      "batch": "EMBODIED_TRANSPERSONAL_BATCH_V3",
+      "global_claim_id": "G3-S029-ST07"
     },
     {
       "claim_id": "ST08",
@@ -3743,7 +3998,8 @@
         "M22"
       ],
       "provenance": "P2",
-      "batch": "EMBODIED_TRANSPERSONAL_BATCH_V3"
+      "batch": "EMBODIED_TRANSPERSONAL_BATCH_V3",
+      "global_claim_id": "G3-S029-ST08"
     },
     {
       "claim_id": "G01",
@@ -3758,7 +4014,8 @@
         "M19"
       ],
       "provenance": "P2",
-      "batch": "CORE_METAPHYSICS_BATCH_V4"
+      "batch": "CORE_METAPHYSICS_BATCH_V4",
+      "global_claim_id": "G4-S030-G01"
     },
     {
       "claim_id": "G02",
@@ -3773,7 +4030,8 @@
         "M11"
       ],
       "provenance": "P2",
-      "batch": "CORE_METAPHYSICS_BATCH_V4"
+      "batch": "CORE_METAPHYSICS_BATCH_V4",
+      "global_claim_id": "G4-S030-G02"
     },
     {
       "claim_id": "G03",
@@ -3788,7 +4046,8 @@
         "M25"
       ],
       "provenance": "P2",
-      "batch": "CORE_METAPHYSICS_BATCH_V4"
+      "batch": "CORE_METAPHYSICS_BATCH_V4",
+      "global_claim_id": "G4-S030-G03"
     },
     {
       "claim_id": "G04",
@@ -3803,7 +4062,8 @@
         "M19"
       ],
       "provenance": "P2",
-      "batch": "CORE_METAPHYSICS_BATCH_V4"
+      "batch": "CORE_METAPHYSICS_BATCH_V4",
+      "global_claim_id": "G4-S030-G04"
     },
     {
       "claim_id": "G05",
@@ -3817,7 +4077,8 @@
         "M20"
       ],
       "provenance": "P2",
-      "batch": "CORE_METAPHYSICS_BATCH_V4"
+      "batch": "CORE_METAPHYSICS_BATCH_V4",
+      "global_claim_id": "G4-S030-G05"
     },
     {
       "claim_id": "G06",
@@ -3831,7 +4092,8 @@
         "M19"
       ],
       "provenance": "P2",
-      "batch": "CORE_METAPHYSICS_BATCH_V4"
+      "batch": "CORE_METAPHYSICS_BATCH_V4",
+      "global_claim_id": "G4-S030-G06"
     },
     {
       "claim_id": "G07",
@@ -3846,7 +4108,8 @@
         "M19"
       ],
       "provenance": "P2",
-      "batch": "CORE_METAPHYSICS_BATCH_V4"
+      "batch": "CORE_METAPHYSICS_BATCH_V4",
+      "global_claim_id": "G4-S030-G07"
     },
     {
       "claim_id": "G08",
@@ -3861,7 +4124,8 @@
         "M19"
       ],
       "provenance": "P2",
-      "batch": "CORE_METAPHYSICS_BATCH_V4"
+      "batch": "CORE_METAPHYSICS_BATCH_V4",
+      "global_claim_id": "G4-S030-G08"
     },
     {
       "claim_id": "G09",
@@ -3876,7 +4140,8 @@
         "M23"
       ],
       "provenance": "P2",
-      "batch": "CORE_METAPHYSICS_BATCH_V4"
+      "batch": "CORE_METAPHYSICS_BATCH_V4",
+      "global_claim_id": "G4-S030-G09"
     },
     {
       "claim_id": "G10",
@@ -3890,7 +4155,8 @@
         "M24"
       ],
       "provenance": "P2",
-      "batch": "CORE_METAPHYSICS_BATCH_V4"
+      "batch": "CORE_METAPHYSICS_BATCH_V4",
+      "global_claim_id": "G4-S030-G10"
     },
     {
       "claim_id": "G11",
@@ -3905,7 +4171,8 @@
         "M25"
       ],
       "provenance": "P2",
-      "batch": "CORE_METAPHYSICS_BATCH_V4"
+      "batch": "CORE_METAPHYSICS_BATCH_V4",
+      "global_claim_id": "G4-S030-G11"
     },
     {
       "claim_id": "G12",
@@ -3921,7 +4188,8 @@
         "M25"
       ],
       "provenance": "P2",
-      "batch": "CORE_METAPHYSICS_BATCH_V4"
+      "batch": "CORE_METAPHYSICS_BATCH_V4",
+      "global_claim_id": "G4-S030-G12"
     },
     {
       "claim_id": "D01",
@@ -3935,7 +4203,8 @@
         "M21"
       ],
       "provenance": "P2",
-      "batch": "CORE_METAPHYSICS_BATCH_V4"
+      "batch": "CORE_METAPHYSICS_BATCH_V4",
+      "global_claim_id": "G4-S031-D01"
     },
     {
       "claim_id": "D02",
@@ -3950,7 +4219,8 @@
         "M21"
       ],
       "provenance": "P2",
-      "batch": "CORE_METAPHYSICS_BATCH_V4"
+      "batch": "CORE_METAPHYSICS_BATCH_V4",
+      "global_claim_id": "G4-S031-D02"
     },
     {
       "claim_id": "D03",
@@ -3965,7 +4235,8 @@
         "M18"
       ],
       "provenance": "P2",
-      "batch": "CORE_METAPHYSICS_BATCH_V4"
+      "batch": "CORE_METAPHYSICS_BATCH_V4",
+      "global_claim_id": "G4-S031-D03"
     },
     {
       "claim_id": "D04",
@@ -3980,7 +4251,8 @@
         "M18"
       ],
       "provenance": "P2",
-      "batch": "CORE_METAPHYSICS_BATCH_V4"
+      "batch": "CORE_METAPHYSICS_BATCH_V4",
+      "global_claim_id": "G4-S031-D04"
     },
     {
       "claim_id": "D05",
@@ -3995,7 +4267,8 @@
         "M09"
       ],
       "provenance": "P2",
-      "batch": "CORE_METAPHYSICS_BATCH_V4"
+      "batch": "CORE_METAPHYSICS_BATCH_V4",
+      "global_claim_id": "G4-S031-D05"
     },
     {
       "claim_id": "D06",
@@ -4010,7 +4283,8 @@
         "M25"
       ],
       "provenance": "P2",
-      "batch": "CORE_METAPHYSICS_BATCH_V4"
+      "batch": "CORE_METAPHYSICS_BATCH_V4",
+      "global_claim_id": "G4-S031-D06"
     },
     {
       "claim_id": "D07",
@@ -4025,7 +4299,8 @@
         "M23"
       ],
       "provenance": "P2",
-      "batch": "CORE_METAPHYSICS_BATCH_V4"
+      "batch": "CORE_METAPHYSICS_BATCH_V4",
+      "global_claim_id": "G4-S031-D07"
     },
     {
       "claim_id": "D08",
@@ -4040,7 +4315,8 @@
         "M24"
       ],
       "provenance": "P2",
-      "batch": "CORE_METAPHYSICS_BATCH_V4"
+      "batch": "CORE_METAPHYSICS_BATCH_V4",
+      "global_claim_id": "G4-S031-D08"
     },
     {
       "claim_id": "D09",
@@ -4055,7 +4331,8 @@
         "M21"
       ],
       "provenance": "P2",
-      "batch": "CORE_METAPHYSICS_BATCH_V4"
+      "batch": "CORE_METAPHYSICS_BATCH_V4",
+      "global_claim_id": "G4-S031-D09"
     },
     {
       "claim_id": "D10",
@@ -4070,7 +4347,8 @@
         "M24"
       ],
       "provenance": "P2",
-      "batch": "CORE_METAPHYSICS_BATCH_V4"
+      "batch": "CORE_METAPHYSICS_BATCH_V4",
+      "global_claim_id": "G4-S031-D10"
     },
     {
       "claim_id": "D11",
@@ -4084,7 +4362,8 @@
         "M19"
       ],
       "provenance": "P2",
-      "batch": "CORE_METAPHYSICS_BATCH_V4"
+      "batch": "CORE_METAPHYSICS_BATCH_V4",
+      "global_claim_id": "G4-S031-D11"
     },
     {
       "claim_id": "D12",
@@ -4099,7 +4378,8 @@
         "M25"
       ],
       "provenance": "P2",
-      "batch": "CORE_METAPHYSICS_BATCH_V4"
+      "batch": "CORE_METAPHYSICS_BATCH_V4",
+      "global_claim_id": "G4-S031-D12"
     },
     {
       "claim_id": "Z01",
@@ -4114,7 +4394,8 @@
         "M23"
       ],
       "provenance": "P2",
-      "batch": "CORE_METAPHYSICS_BATCH_V4"
+      "batch": "CORE_METAPHYSICS_BATCH_V4",
+      "global_claim_id": "G4-S032-Z01"
     },
     {
       "claim_id": "Z02",
@@ -4129,7 +4410,8 @@
         "M05"
       ],
       "provenance": "P2",
-      "batch": "CORE_METAPHYSICS_BATCH_V4"
+      "batch": "CORE_METAPHYSICS_BATCH_V4",
+      "global_claim_id": "G4-S032-Z02"
     },
     {
       "claim_id": "Z03",
@@ -4144,7 +4426,8 @@
         "M21"
       ],
       "provenance": "P2",
-      "batch": "CORE_METAPHYSICS_BATCH_V4"
+      "batch": "CORE_METAPHYSICS_BATCH_V4",
+      "global_claim_id": "G4-S032-Z03"
     },
     {
       "claim_id": "Z04",
@@ -4158,7 +4441,8 @@
         "M14"
       ],
       "provenance": "P2",
-      "batch": "CORE_METAPHYSICS_BATCH_V4"
+      "batch": "CORE_METAPHYSICS_BATCH_V4",
+      "global_claim_id": "G4-S032-Z04"
     },
     {
       "claim_id": "Z05",
@@ -4174,7 +4458,8 @@
         "M23"
       ],
       "provenance": "P2",
-      "batch": "CORE_METAPHYSICS_BATCH_V4"
+      "batch": "CORE_METAPHYSICS_BATCH_V4",
+      "global_claim_id": "G4-S032-Z05"
     },
     {
       "claim_id": "Z06",
@@ -4189,7 +4474,8 @@
         "M25"
       ],
       "provenance": "P2",
-      "batch": "CORE_METAPHYSICS_BATCH_V4"
+      "batch": "CORE_METAPHYSICS_BATCH_V4",
+      "global_claim_id": "G4-S032-Z06"
     },
     {
       "claim_id": "Z07",
@@ -4204,7 +4490,8 @@
         "M25"
       ],
       "provenance": "P2",
-      "batch": "CORE_METAPHYSICS_BATCH_V4"
+      "batch": "CORE_METAPHYSICS_BATCH_V4",
+      "global_claim_id": "G4-S032-Z07"
     },
     {
       "claim_id": "Z08",
@@ -4218,7 +4505,8 @@
         "M24"
       ],
       "provenance": "P2",
-      "batch": "CORE_METAPHYSICS_BATCH_V4"
+      "batch": "CORE_METAPHYSICS_BATCH_V4",
+      "global_claim_id": "G4-S032-Z08"
     },
     {
       "claim_id": "Z09",
@@ -4232,7 +4520,8 @@
         "M23"
       ],
       "provenance": "P2",
-      "batch": "CORE_METAPHYSICS_BATCH_V4"
+      "batch": "CORE_METAPHYSICS_BATCH_V4",
+      "global_claim_id": "G4-S032-Z09"
     },
     {
       "claim_id": "Z10",
@@ -4248,7 +4537,8 @@
         "M23"
       ],
       "provenance": "P2",
-      "batch": "CORE_METAPHYSICS_BATCH_V4"
+      "batch": "CORE_METAPHYSICS_BATCH_V4",
+      "global_claim_id": "G4-S032-Z10"
     },
     {
       "claim_id": "Z11",
@@ -4263,7 +4553,8 @@
         "M23"
       ],
       "provenance": "P2",
-      "batch": "CORE_METAPHYSICS_BATCH_V4"
+      "batch": "CORE_METAPHYSICS_BATCH_V4",
+      "global_claim_id": "G4-S032-Z11"
     },
     {
       "claim_id": "Z12",
@@ -4278,7 +4569,8 @@
         "M24"
       ],
       "provenance": "P2",
-      "batch": "CORE_METAPHYSICS_BATCH_V4"
+      "batch": "CORE_METAPHYSICS_BATCH_V4",
+      "global_claim_id": "G4-S032-Z12"
     },
     {
       "claim_id": "P01",
@@ -4293,7 +4585,8 @@
         "M19"
       ],
       "provenance": "P2",
-      "batch": "CORE_METAPHYSICS_BATCH_V4"
+      "batch": "CORE_METAPHYSICS_BATCH_V4",
+      "global_claim_id": "G4-S033-P01"
     },
     {
       "claim_id": "P02",
@@ -4308,7 +4601,8 @@
         "M25"
       ],
       "provenance": "P2",
-      "batch": "CORE_METAPHYSICS_BATCH_V4"
+      "batch": "CORE_METAPHYSICS_BATCH_V4",
+      "global_claim_id": "G4-S033-P02"
     },
     {
       "claim_id": "P03",
@@ -4322,7 +4616,8 @@
         "M14"
       ],
       "provenance": "P2",
-      "batch": "CORE_METAPHYSICS_BATCH_V4"
+      "batch": "CORE_METAPHYSICS_BATCH_V4",
+      "global_claim_id": "G4-S033-P03"
     },
     {
       "claim_id": "P04",
@@ -4336,7 +4631,8 @@
         "M14"
       ],
       "provenance": "P2",
-      "batch": "CORE_METAPHYSICS_BATCH_V4"
+      "batch": "CORE_METAPHYSICS_BATCH_V4",
+      "global_claim_id": "G4-S033-P04"
     },
     {
       "claim_id": "P05",
@@ -4352,7 +4648,8 @@
         "M25"
       ],
       "provenance": "P2",
-      "batch": "CORE_METAPHYSICS_BATCH_V4"
+      "batch": "CORE_METAPHYSICS_BATCH_V4",
+      "global_claim_id": "G4-S033-P05"
     },
     {
       "claim_id": "P06",
@@ -4366,7 +4663,8 @@
         "M19"
       ],
       "provenance": "P2",
-      "batch": "CORE_METAPHYSICS_BATCH_V4"
+      "batch": "CORE_METAPHYSICS_BATCH_V4",
+      "global_claim_id": "G4-S033-P06"
     },
     {
       "claim_id": "P07",
@@ -4381,7 +4679,8 @@
         "M19"
       ],
       "provenance": "P2",
-      "batch": "CORE_METAPHYSICS_BATCH_V4"
+      "batch": "CORE_METAPHYSICS_BATCH_V4",
+      "global_claim_id": "G4-S033-P07"
     },
     {
       "claim_id": "P08",
@@ -4396,7 +4695,8 @@
         "M23"
       ],
       "provenance": "P2",
-      "batch": "CORE_METAPHYSICS_BATCH_V4"
+      "batch": "CORE_METAPHYSICS_BATCH_V4",
+      "global_claim_id": "G4-S033-P08"
     },
     {
       "claim_id": "P09",
@@ -4411,7 +4711,8 @@
         "M19"
       ],
       "provenance": "P2",
-      "batch": "CORE_METAPHYSICS_BATCH_V4"
+      "batch": "CORE_METAPHYSICS_BATCH_V4",
+      "global_claim_id": "G4-S033-P09"
     },
     {
       "claim_id": "P10",
@@ -4427,7 +4728,8 @@
         "M25"
       ],
       "provenance": "P2",
-      "batch": "CORE_METAPHYSICS_BATCH_V4"
+      "batch": "CORE_METAPHYSICS_BATCH_V4",
+      "global_claim_id": "G4-S033-P10"
     },
     {
       "claim_id": "P11",
@@ -4442,7 +4744,8 @@
         "M19"
       ],
       "provenance": "P2",
-      "batch": "CORE_METAPHYSICS_BATCH_V4"
+      "batch": "CORE_METAPHYSICS_BATCH_V4",
+      "global_claim_id": "G4-S033-P11"
     },
     {
       "claim_id": "P12",
@@ -4457,7 +4760,8 @@
         "M20"
       ],
       "provenance": "P2",
-      "batch": "CORE_METAPHYSICS_BATCH_V4"
+      "batch": "CORE_METAPHYSICS_BATCH_V4",
+      "global_claim_id": "G4-S033-P12"
     },
     {
       "claim_id": "R01",
@@ -4471,7 +4775,8 @@
         "M07"
       ],
       "provenance": "P2",
-      "batch": "CORE_METAPHYSICS_BATCH_V4"
+      "batch": "CORE_METAPHYSICS_BATCH_V4",
+      "global_claim_id": "G4-S034-R01"
     },
     {
       "claim_id": "R02",
@@ -4485,7 +4790,8 @@
         "M23"
       ],
       "provenance": "P2",
-      "batch": "CORE_METAPHYSICS_BATCH_V4"
+      "batch": "CORE_METAPHYSICS_BATCH_V4",
+      "global_claim_id": "G4-S034-R02"
     },
     {
       "claim_id": "R03",
@@ -4499,7 +4805,8 @@
         "M23"
       ],
       "provenance": "P2",
-      "batch": "CORE_METAPHYSICS_BATCH_V4"
+      "batch": "CORE_METAPHYSICS_BATCH_V4",
+      "global_claim_id": "G4-S034-R03"
     },
     {
       "claim_id": "R04",
@@ -4513,7 +4820,8 @@
         "M23"
       ],
       "provenance": "P2",
-      "batch": "CORE_METAPHYSICS_BATCH_V4"
+      "batch": "CORE_METAPHYSICS_BATCH_V4",
+      "global_claim_id": "G4-S034-R04"
     },
     {
       "claim_id": "R05",
@@ -4527,7 +4835,8 @@
         "M24"
       ],
       "provenance": "P2",
-      "batch": "CORE_METAPHYSICS_BATCH_V4"
+      "batch": "CORE_METAPHYSICS_BATCH_V4",
+      "global_claim_id": "G4-S034-R05"
     },
     {
       "claim_id": "R06",
@@ -4542,7 +4851,8 @@
         "M25"
       ],
       "provenance": "P2",
-      "batch": "CORE_METAPHYSICS_BATCH_V4"
+      "batch": "CORE_METAPHYSICS_BATCH_V4",
+      "global_claim_id": "G4-S034-R06"
     },
     {
       "claim_id": "R07",
@@ -4557,7 +4867,8 @@
         "M25"
       ],
       "provenance": "P2",
-      "batch": "CORE_METAPHYSICS_BATCH_V4"
+      "batch": "CORE_METAPHYSICS_BATCH_V4",
+      "global_claim_id": "G4-S034-R07"
     },
     {
       "claim_id": "R08",
@@ -4571,7 +4882,8 @@
         "M24"
       ],
       "provenance": "P2",
-      "batch": "CORE_METAPHYSICS_BATCH_V4"
+      "batch": "CORE_METAPHYSICS_BATCH_V4",
+      "global_claim_id": "G4-S034-R08"
     },
     {
       "claim_id": "R09",
@@ -4586,7 +4898,8 @@
         "M20"
       ],
       "provenance": "P2",
-      "batch": "CORE_METAPHYSICS_BATCH_V4"
+      "batch": "CORE_METAPHYSICS_BATCH_V4",
+      "global_claim_id": "G4-S034-R09"
     },
     {
       "claim_id": "R10",
@@ -4600,7 +4913,8 @@
         "M23"
       ],
       "provenance": "P2",
-      "batch": "CORE_METAPHYSICS_BATCH_V4"
+      "batch": "CORE_METAPHYSICS_BATCH_V4",
+      "global_claim_id": "G4-S034-R10"
     },
     {
       "claim_id": "R11",
@@ -4615,7 +4929,8 @@
         "M20"
       ],
       "provenance": "P2",
-      "batch": "CORE_METAPHYSICS_BATCH_V4"
+      "batch": "CORE_METAPHYSICS_BATCH_V4",
+      "global_claim_id": "G4-S034-R11"
     },
     {
       "claim_id": "R12",
@@ -4630,7 +4945,8 @@
         "M24"
       ],
       "provenance": "P2",
-      "batch": "CORE_METAPHYSICS_BATCH_V4"
+      "batch": "CORE_METAPHYSICS_BATCH_V4",
+      "global_claim_id": "G4-S034-R12"
     },
     {
       "claim_id": "T01",
@@ -4645,7 +4961,8 @@
         "M25"
       ],
       "provenance": "P2",
-      "batch": "CORE_METAPHYSICS_BATCH_V4"
+      "batch": "CORE_METAPHYSICS_BATCH_V4",
+      "global_claim_id": "G4-S035-T01"
     },
     {
       "claim_id": "T02",
@@ -4660,7 +4977,8 @@
         "M15"
       ],
       "provenance": "P2",
-      "batch": "CORE_METAPHYSICS_BATCH_V4"
+      "batch": "CORE_METAPHYSICS_BATCH_V4",
+      "global_claim_id": "G4-S035-T02"
     },
     {
       "claim_id": "T03",
@@ -4675,7 +4993,8 @@
         "M20"
       ],
       "provenance": "P2",
-      "batch": "CORE_METAPHYSICS_BATCH_V4"
+      "batch": "CORE_METAPHYSICS_BATCH_V4",
+      "global_claim_id": "G4-S035-T03"
     },
     {
       "claim_id": "T04",
@@ -4689,7 +5008,8 @@
         "M23"
       ],
       "provenance": "P2",
-      "batch": "CORE_METAPHYSICS_BATCH_V4"
+      "batch": "CORE_METAPHYSICS_BATCH_V4",
+      "global_claim_id": "G4-S035-T04"
     },
     {
       "claim_id": "T05",
@@ -4703,7 +5023,8 @@
         "M24"
       ],
       "provenance": "P2",
-      "batch": "CORE_METAPHYSICS_BATCH_V4"
+      "batch": "CORE_METAPHYSICS_BATCH_V4",
+      "global_claim_id": "G4-S035-T05"
     },
     {
       "claim_id": "T06",
@@ -4717,7 +5038,8 @@
         "M25"
       ],
       "provenance": "P2",
-      "batch": "CORE_METAPHYSICS_BATCH_V4"
+      "batch": "CORE_METAPHYSICS_BATCH_V4",
+      "global_claim_id": "G4-S035-T06"
     },
     {
       "claim_id": "T07",
@@ -4731,7 +5053,8 @@
         "M21"
       ],
       "provenance": "P2",
-      "batch": "CORE_METAPHYSICS_BATCH_V4"
+      "batch": "CORE_METAPHYSICS_BATCH_V4",
+      "global_claim_id": "G4-S035-T07"
     },
     {
       "claim_id": "T08",
@@ -4746,7 +5069,8 @@
         "M23"
       ],
       "provenance": "P2",
-      "batch": "CORE_METAPHYSICS_BATCH_V4"
+      "batch": "CORE_METAPHYSICS_BATCH_V4",
+      "global_claim_id": "G4-S035-T08"
     },
     {
       "claim_id": "T09",
@@ -4761,7 +5085,8 @@
         "M15"
       ],
       "provenance": "P2",
-      "batch": "CORE_METAPHYSICS_BATCH_V4"
+      "batch": "CORE_METAPHYSICS_BATCH_V4",
+      "global_claim_id": "G4-S035-T09"
     },
     {
       "claim_id": "T10",
@@ -4775,7 +5100,8 @@
         "M20"
       ],
       "provenance": "P2",
-      "batch": "CORE_METAPHYSICS_BATCH_V4"
+      "batch": "CORE_METAPHYSICS_BATCH_V4",
+      "global_claim_id": "G4-S035-T10"
     },
     {
       "claim_id": "T11",
@@ -4789,7 +5115,8 @@
         "M15"
       ],
       "provenance": "P2",
-      "batch": "CORE_METAPHYSICS_BATCH_V4"
+      "batch": "CORE_METAPHYSICS_BATCH_V4",
+      "global_claim_id": "G4-S035-T11"
     },
     {
       "claim_id": "T12",
@@ -4804,7 +5131,8 @@
         "M17"
       ],
       "provenance": "P2",
-      "batch": "CORE_METAPHYSICS_BATCH_V4"
+      "batch": "CORE_METAPHYSICS_BATCH_V4",
+      "global_claim_id": "G4-S035-T12"
     },
     {
       "claim_id": "CLOUD01",
@@ -4819,7 +5147,8 @@
         "M25"
       ],
       "provenance": "P2",
-      "batch": "CORE_METAPHYSICS_BATCH_V4"
+      "batch": "CORE_METAPHYSICS_BATCH_V4",
+      "global_claim_id": "G4-S036-CLOUD01"
     },
     {
       "claim_id": "CLOUD02",
@@ -4833,7 +5162,8 @@
         "M25"
       ],
       "provenance": "P2",
-      "batch": "CORE_METAPHYSICS_BATCH_V4"
+      "batch": "CORE_METAPHYSICS_BATCH_V4",
+      "global_claim_id": "G4-S036-CLOUD02"
     },
     {
       "claim_id": "CLOUD03",
@@ -4847,7 +5177,8 @@
         "M14"
       ],
       "provenance": "P2",
-      "batch": "CORE_METAPHYSICS_BATCH_V4"
+      "batch": "CORE_METAPHYSICS_BATCH_V4",
+      "global_claim_id": "G4-S036-CLOUD03"
     },
     {
       "claim_id": "CLOUD04",
@@ -4861,7 +5192,8 @@
         "M25"
       ],
       "provenance": "P2",
-      "batch": "CORE_METAPHYSICS_BATCH_V4"
+      "batch": "CORE_METAPHYSICS_BATCH_V4",
+      "global_claim_id": "G4-S036-CLOUD04"
     },
     {
       "claim_id": "CLOUD05",
@@ -4875,7 +5207,8 @@
         "M14"
       ],
       "provenance": "P2",
-      "batch": "CORE_METAPHYSICS_BATCH_V4"
+      "batch": "CORE_METAPHYSICS_BATCH_V4",
+      "global_claim_id": "G4-S036-CLOUD05"
     },
     {
       "claim_id": "CLOUD06",
@@ -4889,7 +5222,8 @@
         "M15"
       ],
       "provenance": "P2",
-      "batch": "CORE_METAPHYSICS_BATCH_V4"
+      "batch": "CORE_METAPHYSICS_BATCH_V4",
+      "global_claim_id": "G4-S036-CLOUD06"
     },
     {
       "claim_id": "CLOUD07",
@@ -4903,7 +5237,8 @@
         "M24"
       ],
       "provenance": "P2",
-      "batch": "CORE_METAPHYSICS_BATCH_V4"
+      "batch": "CORE_METAPHYSICS_BATCH_V4",
+      "global_claim_id": "G4-S036-CLOUD07"
     },
     {
       "claim_id": "CLOUD08",
@@ -4918,7 +5253,8 @@
         "M25"
       ],
       "provenance": "P2",
-      "batch": "CORE_METAPHYSICS_BATCH_V4"
+      "batch": "CORE_METAPHYSICS_BATCH_V4",
+      "global_claim_id": "G4-S036-CLOUD08"
     },
     {
       "claim_id": "CLOUD09",
@@ -4933,7 +5269,8 @@
         "M25"
       ],
       "provenance": "P2",
-      "batch": "CORE_METAPHYSICS_BATCH_V4"
+      "batch": "CORE_METAPHYSICS_BATCH_V4",
+      "global_claim_id": "G4-S036-CLOUD09"
     },
     {
       "claim_id": "CLOUD10",
@@ -4948,7 +5285,8 @@
         "M25"
       ],
       "provenance": "P2",
-      "batch": "CORE_METAPHYSICS_BATCH_V4"
+      "batch": "CORE_METAPHYSICS_BATCH_V4",
+      "global_claim_id": "G4-S036-CLOUD10"
     },
     {
       "claim_id": "CLOUD11",
@@ -4963,7 +5301,8 @@
         "M23"
       ],
       "provenance": "P2",
-      "batch": "CORE_METAPHYSICS_BATCH_V4"
+      "batch": "CORE_METAPHYSICS_BATCH_V4",
+      "global_claim_id": "G4-S036-CLOUD11"
     },
     {
       "claim_id": "CLOUD12",
@@ -4978,7 +5317,8 @@
         "M23"
       ],
       "provenance": "P2",
-      "batch": "CORE_METAPHYSICS_BATCH_V4"
+      "batch": "CORE_METAPHYSICS_BATCH_V4",
+      "global_claim_id": "G4-S036-CLOUD12"
     },
     {
       "claim_id": "BD01",
@@ -4993,7 +5333,8 @@
         "M19"
       ],
       "provenance": "S1",
-      "batch": "CORE_METAPHYSICS_BATCH_V4"
+      "batch": "CORE_METAPHYSICS_BATCH_V4",
+      "global_claim_id": "G4-S037-BD01"
     },
     {
       "claim_id": "BD02",
@@ -5008,7 +5349,8 @@
         "M20"
       ],
       "provenance": "S1",
-      "batch": "CORE_METAPHYSICS_BATCH_V4"
+      "batch": "CORE_METAPHYSICS_BATCH_V4",
+      "global_claim_id": "G4-S037-BD02"
     },
     {
       "claim_id": "BD03",
@@ -5023,7 +5365,8 @@
         "M25"
       ],
       "provenance": "S1",
-      "batch": "CORE_METAPHYSICS_BATCH_V4"
+      "batch": "CORE_METAPHYSICS_BATCH_V4",
+      "global_claim_id": "G4-S037-BD03"
     },
     {
       "claim_id": "BD04",
@@ -5038,7 +5381,8 @@
         "M20"
       ],
       "provenance": "S1",
-      "batch": "CORE_METAPHYSICS_BATCH_V4"
+      "batch": "CORE_METAPHYSICS_BATCH_V4",
+      "global_claim_id": "G4-S037-BD04"
     },
     {
       "claim_id": "BD05",
@@ -5052,7 +5396,8 @@
         "M19"
       ],
       "provenance": "S1",
-      "batch": "CORE_METAPHYSICS_BATCH_V4"
+      "batch": "CORE_METAPHYSICS_BATCH_V4",
+      "global_claim_id": "G4-S037-BD05"
     },
     {
       "claim_id": "BD06",
@@ -5066,7 +5411,8 @@
         "M19"
       ],
       "provenance": "S1",
-      "batch": "CORE_METAPHYSICS_BATCH_V4"
+      "batch": "CORE_METAPHYSICS_BATCH_V4",
+      "global_claim_id": "G4-S037-BD06"
     },
     {
       "claim_id": "BD07",
@@ -5081,7 +5427,8 @@
         "M25"
       ],
       "provenance": "S1",
-      "batch": "CORE_METAPHYSICS_BATCH_V4"
+      "batch": "CORE_METAPHYSICS_BATCH_V4",
+      "global_claim_id": "G4-S037-BD07"
     },
     {
       "claim_id": "BD08",
@@ -5096,7 +5443,8 @@
         "M20"
       ],
       "provenance": "S1",
-      "batch": "CORE_METAPHYSICS_BATCH_V4"
+      "batch": "CORE_METAPHYSICS_BATCH_V4",
+      "global_claim_id": "G4-S037-BD08"
     },
     {
       "claim_id": "BD09",
@@ -5111,7 +5459,8 @@
         "M19"
       ],
       "provenance": "S1",
-      "batch": "CORE_METAPHYSICS_BATCH_V4"
+      "batch": "CORE_METAPHYSICS_BATCH_V4",
+      "global_claim_id": "G4-S037-BD09"
     },
     {
       "claim_id": "BD10",
@@ -5126,7 +5475,8 @@
         "M17"
       ],
       "provenance": "S1",
-      "batch": "CORE_METAPHYSICS_BATCH_V4"
+      "batch": "CORE_METAPHYSICS_BATCH_V4",
+      "global_claim_id": "G4-S037-BD10"
     },
     {
       "claim_id": "BD11",
@@ -5140,7 +5490,8 @@
         "M20"
       ],
       "provenance": "S1",
-      "batch": "CORE_METAPHYSICS_BATCH_V4"
+      "batch": "CORE_METAPHYSICS_BATCH_V4",
+      "global_claim_id": "G4-S037-BD11"
     },
     {
       "claim_id": "BD12",
@@ -5155,7 +5506,8 @@
         "M19"
       ],
       "provenance": "S1",
-      "batch": "CORE_METAPHYSICS_BATCH_V4"
+      "batch": "CORE_METAPHYSICS_BATCH_V4",
+      "global_claim_id": "G4-S037-BD12"
     },
     {
       "claim_id": "BR01",
@@ -5170,7 +5522,8 @@
         "M21"
       ],
       "provenance": "P2",
-      "batch": "SELF_NOSELF_NONDUALITY_BATCH_V5"
+      "batch": "SELF_NOSELF_NONDUALITY_BATCH_V5",
+      "global_claim_id": "G5-S038-BR01"
     },
     {
       "claim_id": "BR02",
@@ -5185,7 +5538,8 @@
         "M22"
       ],
       "provenance": "P2",
-      "batch": "SELF_NOSELF_NONDUALITY_BATCH_V5"
+      "batch": "SELF_NOSELF_NONDUALITY_BATCH_V5",
+      "global_claim_id": "G5-S038-BR02"
     },
     {
       "claim_id": "BR03",
@@ -5200,7 +5554,8 @@
         "M21"
       ],
       "provenance": "P2",
-      "batch": "SELF_NOSELF_NONDUALITY_BATCH_V5"
+      "batch": "SELF_NOSELF_NONDUALITY_BATCH_V5",
+      "global_claim_id": "G5-S038-BR03"
     },
     {
       "claim_id": "BR04",
@@ -5215,7 +5570,8 @@
         "M15"
       ],
       "provenance": "P2",
-      "batch": "SELF_NOSELF_NONDUALITY_BATCH_V5"
+      "batch": "SELF_NOSELF_NONDUALITY_BATCH_V5",
+      "global_claim_id": "G5-S038-BR04"
     },
     {
       "claim_id": "BR05",
@@ -5230,7 +5586,8 @@
         "M05"
       ],
       "provenance": "P2",
-      "batch": "SELF_NOSELF_NONDUALITY_BATCH_V5"
+      "batch": "SELF_NOSELF_NONDUALITY_BATCH_V5",
+      "global_claim_id": "G5-S038-BR05"
     },
     {
       "claim_id": "BR06",
@@ -5243,7 +5600,8 @@
         "M14"
       ],
       "provenance": "P2",
-      "batch": "SELF_NOSELF_NONDUALITY_BATCH_V5"
+      "batch": "SELF_NOSELF_NONDUALITY_BATCH_V5",
+      "global_claim_id": "G5-S038-BR06"
     },
     {
       "claim_id": "BR07",
@@ -5257,7 +5615,8 @@
         "M14"
       ],
       "provenance": "P2",
-      "batch": "SELF_NOSELF_NONDUALITY_BATCH_V5"
+      "batch": "SELF_NOSELF_NONDUALITY_BATCH_V5",
+      "global_claim_id": "G5-S038-BR07"
     },
     {
       "claim_id": "BR08",
@@ -5271,7 +5630,8 @@
         "M22"
       ],
       "provenance": "P2",
-      "batch": "SELF_NOSELF_NONDUALITY_BATCH_V5"
+      "batch": "SELF_NOSELF_NONDUALITY_BATCH_V5",
+      "global_claim_id": "G5-S038-BR08"
     },
     {
       "claim_id": "BR09",
@@ -5286,7 +5646,8 @@
         "M22"
       ],
       "provenance": "P2",
-      "batch": "SELF_NOSELF_NONDUALITY_BATCH_V5"
+      "batch": "SELF_NOSELF_NONDUALITY_BATCH_V5",
+      "global_claim_id": "G5-S038-BR09"
     },
     {
       "claim_id": "BR10",
@@ -5300,7 +5661,8 @@
         "M14"
       ],
       "provenance": "P2",
-      "batch": "SELF_NOSELF_NONDUALITY_BATCH_V5"
+      "batch": "SELF_NOSELF_NONDUALITY_BATCH_V5",
+      "global_claim_id": "G5-S038-BR10"
     },
     {
       "claim_id": "BR11",
@@ -5315,7 +5677,8 @@
         "M22"
       ],
       "provenance": "P2",
-      "batch": "SELF_NOSELF_NONDUALITY_BATCH_V5"
+      "batch": "SELF_NOSELF_NONDUALITY_BATCH_V5",
+      "global_claim_id": "G5-S038-BR11"
     },
     {
       "claim_id": "BR12",
@@ -5329,7 +5692,8 @@
         "M19"
       ],
       "provenance": "P2",
-      "batch": "SELF_NOSELF_NONDUALITY_BATCH_V5"
+      "batch": "SELF_NOSELF_NONDUALITY_BATCH_V5",
+      "global_claim_id": "G5-S038-BR12"
     },
     {
       "claim_id": "BR13",
@@ -5344,7 +5708,8 @@
         "M14"
       ],
       "provenance": "P2",
-      "batch": "SELF_NOSELF_NONDUALITY_BATCH_V5"
+      "batch": "SELF_NOSELF_NONDUALITY_BATCH_V5",
+      "global_claim_id": "G5-S038-BR13"
     },
     {
       "claim_id": "BR14",
@@ -5358,7 +5723,8 @@
         "M19"
       ],
       "provenance": "P2",
-      "batch": "SELF_NOSELF_NONDUALITY_BATCH_V5"
+      "batch": "SELF_NOSELF_NONDUALITY_BATCH_V5",
+      "global_claim_id": "G5-S038-BR14"
     },
     {
       "claim_id": "BR15",
@@ -5373,7 +5739,8 @@
         "M22"
       ],
       "provenance": "P2",
-      "batch": "SELF_NOSELF_NONDUALITY_BATCH_V5"
+      "batch": "SELF_NOSELF_NONDUALITY_BATCH_V5",
+      "global_claim_id": "G5-S038-BR15"
     },
     {
       "claim_id": "CH01",
@@ -5387,7 +5754,8 @@
         "M20"
       ],
       "provenance": "P2",
-      "batch": "SELF_NOSELF_NONDUALITY_BATCH_V5"
+      "batch": "SELF_NOSELF_NONDUALITY_BATCH_V5",
+      "global_claim_id": "G5-S039-CH01"
     },
     {
       "claim_id": "CH02",
@@ -5402,7 +5770,8 @@
         "M20"
       ],
       "provenance": "P2",
-      "batch": "SELF_NOSELF_NONDUALITY_BATCH_V5"
+      "batch": "SELF_NOSELF_NONDUALITY_BATCH_V5",
+      "global_claim_id": "G5-S039-CH02"
     },
     {
       "claim_id": "CH03",
@@ -5417,7 +5786,8 @@
         "M20"
       ],
       "provenance": "P2",
-      "batch": "SELF_NOSELF_NONDUALITY_BATCH_V5"
+      "batch": "SELF_NOSELF_NONDUALITY_BATCH_V5",
+      "global_claim_id": "G5-S039-CH03"
     },
     {
       "claim_id": "CH04",
@@ -5432,7 +5802,8 @@
         "M15"
       ],
       "provenance": "P2",
-      "batch": "SELF_NOSELF_NONDUALITY_BATCH_V5"
+      "batch": "SELF_NOSELF_NONDUALITY_BATCH_V5",
+      "global_claim_id": "G5-S039-CH04"
     },
     {
       "claim_id": "CH05",
@@ -5447,7 +5818,8 @@
         "M15"
       ],
       "provenance": "P2",
-      "batch": "SELF_NOSELF_NONDUALITY_BATCH_V5"
+      "batch": "SELF_NOSELF_NONDUALITY_BATCH_V5",
+      "global_claim_id": "G5-S039-CH05"
     },
     {
       "claim_id": "CH06",
@@ -5462,7 +5834,8 @@
         "M20"
       ],
       "provenance": "P2",
-      "batch": "SELF_NOSELF_NONDUALITY_BATCH_V5"
+      "batch": "SELF_NOSELF_NONDUALITY_BATCH_V5",
+      "global_claim_id": "G5-S039-CH06"
     },
     {
       "claim_id": "CH07",
@@ -5476,7 +5849,8 @@
         "M21"
       ],
       "provenance": "P2",
-      "batch": "SELF_NOSELF_NONDUALITY_BATCH_V5"
+      "batch": "SELF_NOSELF_NONDUALITY_BATCH_V5",
+      "global_claim_id": "G5-S039-CH07"
     },
     {
       "claim_id": "CH08",
@@ -5491,7 +5865,8 @@
         "M20"
       ],
       "provenance": "P2",
-      "batch": "SELF_NOSELF_NONDUALITY_BATCH_V5"
+      "batch": "SELF_NOSELF_NONDUALITY_BATCH_V5",
+      "global_claim_id": "G5-S039-CH08"
     },
     {
       "claim_id": "CH09",
@@ -5505,7 +5880,8 @@
         "M25"
       ],
       "provenance": "P2",
-      "batch": "SELF_NOSELF_NONDUALITY_BATCH_V5"
+      "batch": "SELF_NOSELF_NONDUALITY_BATCH_V5",
+      "global_claim_id": "G5-S039-CH09"
     },
     {
       "claim_id": "CH10",
@@ -5519,7 +5895,8 @@
         "M15"
       ],
       "provenance": "P2",
-      "batch": "SELF_NOSELF_NONDUALITY_BATCH_V5"
+      "batch": "SELF_NOSELF_NONDUALITY_BATCH_V5",
+      "global_claim_id": "G5-S039-CH10"
     },
     {
       "claim_id": "CH11",
@@ -5533,7 +5910,8 @@
         "M21"
       ],
       "provenance": "P2",
-      "batch": "SELF_NOSELF_NONDUALITY_BATCH_V5"
+      "batch": "SELF_NOSELF_NONDUALITY_BATCH_V5",
+      "global_claim_id": "G5-S039-CH11"
     },
     {
       "claim_id": "CH12",
@@ -5548,7 +5926,8 @@
         "M15"
       ],
       "provenance": "P2",
-      "batch": "SELF_NOSELF_NONDUALITY_BATCH_V5"
+      "batch": "SELF_NOSELF_NONDUALITY_BATCH_V5",
+      "global_claim_id": "G5-S039-CH12"
     },
     {
       "claim_id": "CH13",
@@ -5563,7 +5942,8 @@
         "M19"
       ],
       "provenance": "P2",
-      "batch": "SELF_NOSELF_NONDUALITY_BATCH_V5"
+      "batch": "SELF_NOSELF_NONDUALITY_BATCH_V5",
+      "global_claim_id": "G5-S039-CH13"
     },
     {
       "claim_id": "CH14",
@@ -5578,7 +5958,8 @@
         "M15"
       ],
       "provenance": "P2",
-      "batch": "SELF_NOSELF_NONDUALITY_BATCH_V5"
+      "batch": "SELF_NOSELF_NONDUALITY_BATCH_V5",
+      "global_claim_id": "G5-S039-CH14"
     },
     {
       "claim_id": "CH15",
@@ -5593,7 +5974,8 @@
         "M25"
       ],
       "provenance": "P2",
-      "batch": "SELF_NOSELF_NONDUALITY_BATCH_V5"
+      "batch": "SELF_NOSELF_NONDUALITY_BATCH_V5",
+      "global_claim_id": "G5-S039-CH15"
     },
     {
       "claim_id": "BA01",
@@ -5607,7 +5989,8 @@
         "M25"
       ],
       "provenance": "P2",
-      "batch": "SELF_NOSELF_NONDUALITY_BATCH_V5"
+      "batch": "SELF_NOSELF_NONDUALITY_BATCH_V5",
+      "global_claim_id": "G5-S040-BA01"
     },
     {
       "claim_id": "BA02",
@@ -5622,7 +6005,8 @@
         "M22"
       ],
       "provenance": "P2",
-      "batch": "SELF_NOSELF_NONDUALITY_BATCH_V5"
+      "batch": "SELF_NOSELF_NONDUALITY_BATCH_V5",
+      "global_claim_id": "G5-S040-BA02"
     },
     {
       "claim_id": "BA03",
@@ -5637,7 +6021,8 @@
         "M14"
       ],
       "provenance": "P2",
-      "batch": "SELF_NOSELF_NONDUALITY_BATCH_V5"
+      "batch": "SELF_NOSELF_NONDUALITY_BATCH_V5",
+      "global_claim_id": "G5-S040-BA03"
     },
     {
       "claim_id": "BA04",
@@ -5652,7 +6037,8 @@
         "M24"
       ],
       "provenance": "P2",
-      "batch": "SELF_NOSELF_NONDUALITY_BATCH_V5"
+      "batch": "SELF_NOSELF_NONDUALITY_BATCH_V5",
+      "global_claim_id": "G5-S040-BA04"
     },
     {
       "claim_id": "BA05",
@@ -5666,7 +6052,8 @@
         "M25"
       ],
       "provenance": "P2",
-      "batch": "SELF_NOSELF_NONDUALITY_BATCH_V5"
+      "batch": "SELF_NOSELF_NONDUALITY_BATCH_V5",
+      "global_claim_id": "G5-S040-BA05"
     },
     {
       "claim_id": "BA06",
@@ -5681,7 +6068,8 @@
         "M23"
       ],
       "provenance": "P2",
-      "batch": "SELF_NOSELF_NONDUALITY_BATCH_V5"
+      "batch": "SELF_NOSELF_NONDUALITY_BATCH_V5",
+      "global_claim_id": "G5-S040-BA06"
     },
     {
       "claim_id": "BA07",
@@ -5695,7 +6083,8 @@
         "M23"
       ],
       "provenance": "P2",
-      "batch": "SELF_NOSELF_NONDUALITY_BATCH_V5"
+      "batch": "SELF_NOSELF_NONDUALITY_BATCH_V5",
+      "global_claim_id": "G5-S040-BA07"
     },
     {
       "claim_id": "BA08",
@@ -5709,7 +6098,8 @@
         "M14"
       ],
       "provenance": "P2",
-      "batch": "SELF_NOSELF_NONDUALITY_BATCH_V5"
+      "batch": "SELF_NOSELF_NONDUALITY_BATCH_V5",
+      "global_claim_id": "G5-S040-BA08"
     },
     {
       "claim_id": "BA09",
@@ -5724,7 +6114,8 @@
         "M23"
       ],
       "provenance": "P2",
-      "batch": "SELF_NOSELF_NONDUALITY_BATCH_V5"
+      "batch": "SELF_NOSELF_NONDUALITY_BATCH_V5",
+      "global_claim_id": "G5-S040-BA09"
     },
     {
       "claim_id": "BA10",
@@ -5738,7 +6129,8 @@
         "M06"
       ],
       "provenance": "P2",
-      "batch": "SELF_NOSELF_NONDUALITY_BATCH_V5"
+      "batch": "SELF_NOSELF_NONDUALITY_BATCH_V5",
+      "global_claim_id": "G5-S040-BA10"
     },
     {
       "claim_id": "BA11",
@@ -5752,7 +6144,8 @@
         "M22"
       ],
       "provenance": "P2",
-      "batch": "SELF_NOSELF_NONDUALITY_BATCH_V5"
+      "batch": "SELF_NOSELF_NONDUALITY_BATCH_V5",
+      "global_claim_id": "G5-S040-BA11"
     },
     {
       "claim_id": "BA12",
@@ -5766,7 +6159,8 @@
         "M25"
       ],
       "provenance": "P2",
-      "batch": "SELF_NOSELF_NONDUALITY_BATCH_V5"
+      "batch": "SELF_NOSELF_NONDUALITY_BATCH_V5",
+      "global_claim_id": "G5-S040-BA12"
     },
     {
       "claim_id": "BA13",
@@ -5780,7 +6174,8 @@
         "M14"
       ],
       "provenance": "P2",
-      "batch": "SELF_NOSELF_NONDUALITY_BATCH_V5"
+      "batch": "SELF_NOSELF_NONDUALITY_BATCH_V5",
+      "global_claim_id": "G5-S040-BA13"
     },
     {
       "claim_id": "BA14",
@@ -5795,7 +6190,8 @@
         "M23"
       ],
       "provenance": "P2",
-      "batch": "SELF_NOSELF_NONDUALITY_BATCH_V5"
+      "batch": "SELF_NOSELF_NONDUALITY_BATCH_V5",
+      "global_claim_id": "G5-S040-BA14"
     },
     {
       "claim_id": "BA15",
@@ -5810,7 +6206,8 @@
         "M15"
       ],
       "provenance": "P2",
-      "batch": "SELF_NOSELF_NONDUALITY_BATCH_V5"
+      "batch": "SELF_NOSELF_NONDUALITY_BATCH_V5",
+      "global_claim_id": "G5-S040-BA15"
     },
     {
       "claim_id": "PO01",
@@ -5824,7 +6221,8 @@
         "M23"
       ],
       "provenance": "P2",
-      "batch": "SELF_NOSELF_NONDUALITY_BATCH_V5"
+      "batch": "SELF_NOSELF_NONDUALITY_BATCH_V5",
+      "global_claim_id": "G5-S041-PO01"
     },
     {
       "claim_id": "PO02",
@@ -5839,7 +6237,8 @@
         "M25"
       ],
       "provenance": "P2",
-      "batch": "SELF_NOSELF_NONDUALITY_BATCH_V5"
+      "batch": "SELF_NOSELF_NONDUALITY_BATCH_V5",
+      "global_claim_id": "G5-S041-PO02"
     },
     {
       "claim_id": "PO03",
@@ -5854,7 +6253,8 @@
         "M25"
       ],
       "provenance": "P2",
-      "batch": "SELF_NOSELF_NONDUALITY_BATCH_V5"
+      "batch": "SELF_NOSELF_NONDUALITY_BATCH_V5",
+      "global_claim_id": "G5-S041-PO03"
     },
     {
       "claim_id": "PO04",
@@ -5868,7 +6268,8 @@
         "M14"
       ],
       "provenance": "P2",
-      "batch": "SELF_NOSELF_NONDUALITY_BATCH_V5"
+      "batch": "SELF_NOSELF_NONDUALITY_BATCH_V5",
+      "global_claim_id": "G5-S041-PO04"
     },
     {
       "claim_id": "PO05",
@@ -5882,7 +6283,8 @@
         "M14"
       ],
       "provenance": "P2",
-      "batch": "SELF_NOSELF_NONDUALITY_BATCH_V5"
+      "batch": "SELF_NOSELF_NONDUALITY_BATCH_V5",
+      "global_claim_id": "G5-S041-PO05"
     },
     {
       "claim_id": "PO06",
@@ -5896,7 +6298,8 @@
         "M23"
       ],
       "provenance": "P2",
-      "batch": "SELF_NOSELF_NONDUALITY_BATCH_V5"
+      "batch": "SELF_NOSELF_NONDUALITY_BATCH_V5",
+      "global_claim_id": "G5-S041-PO06"
     },
     {
       "claim_id": "PO07",
@@ -5911,7 +6314,8 @@
         "M25"
       ],
       "provenance": "P2",
-      "batch": "SELF_NOSELF_NONDUALITY_BATCH_V5"
+      "batch": "SELF_NOSELF_NONDUALITY_BATCH_V5",
+      "global_claim_id": "G5-S041-PO07"
     },
     {
       "claim_id": "PO08",
@@ -5925,7 +6329,8 @@
         "M06"
       ],
       "provenance": "P2",
-      "batch": "SELF_NOSELF_NONDUALITY_BATCH_V5"
+      "batch": "SELF_NOSELF_NONDUALITY_BATCH_V5",
+      "global_claim_id": "G5-S041-PO08"
     },
     {
       "claim_id": "PO09",
@@ -5939,7 +6344,8 @@
         "M07"
       ],
       "provenance": "P2",
-      "batch": "SELF_NOSELF_NONDUALITY_BATCH_V5"
+      "batch": "SELF_NOSELF_NONDUALITY_BATCH_V5",
+      "global_claim_id": "G5-S041-PO09"
     },
     {
       "claim_id": "PO10",
@@ -5953,7 +6359,8 @@
         "M07"
       ],
       "provenance": "P2",
-      "batch": "SELF_NOSELF_NONDUALITY_BATCH_V5"
+      "batch": "SELF_NOSELF_NONDUALITY_BATCH_V5",
+      "global_claim_id": "G5-S041-PO10"
     },
     {
       "claim_id": "PO11",
@@ -5968,7 +6375,8 @@
         "M23"
       ],
       "provenance": "P2",
-      "batch": "SELF_NOSELF_NONDUALITY_BATCH_V5"
+      "batch": "SELF_NOSELF_NONDUALITY_BATCH_V5",
+      "global_claim_id": "G5-S041-PO11"
     },
     {
       "claim_id": "PO12",
@@ -5982,7 +6390,8 @@
         "M14"
       ],
       "provenance": "P2",
-      "batch": "SELF_NOSELF_NONDUALITY_BATCH_V5"
+      "batch": "SELF_NOSELF_NONDUALITY_BATCH_V5",
+      "global_claim_id": "G5-S041-PO12"
     },
     {
       "claim_id": "PO13",
@@ -5997,7 +6406,8 @@
         "M25"
       ],
       "provenance": "P2",
-      "batch": "SELF_NOSELF_NONDUALITY_BATCH_V5"
+      "batch": "SELF_NOSELF_NONDUALITY_BATCH_V5",
+      "global_claim_id": "G5-S041-PO13"
     },
     {
       "claim_id": "PO14",
@@ -6012,7 +6422,8 @@
         "M22"
       ],
       "provenance": "P2",
-      "batch": "SELF_NOSELF_NONDUALITY_BATCH_V5"
+      "batch": "SELF_NOSELF_NONDUALITY_BATCH_V5",
+      "global_claim_id": "G5-S041-PO14"
     },
     {
       "claim_id": "PO15",
@@ -6026,7 +6437,8 @@
         "M25"
       ],
       "provenance": "P2",
-      "batch": "SELF_NOSELF_NONDUALITY_BATCH_V5"
+      "batch": "SELF_NOSELF_NONDUALITY_BATCH_V5",
+      "global_claim_id": "G5-S041-PO15"
     },
     {
       "claim_id": "HS01",
@@ -6041,7 +6453,8 @@
         "M14"
       ],
       "provenance": "P2",
-      "batch": "SELF_NOSELF_NONDUALITY_BATCH_V5"
+      "batch": "SELF_NOSELF_NONDUALITY_BATCH_V5",
+      "global_claim_id": "G5-S042-HS01"
     },
     {
       "claim_id": "HS02",
@@ -6056,7 +6469,8 @@
         "M20"
       ],
       "provenance": "P2",
-      "batch": "SELF_NOSELF_NONDUALITY_BATCH_V5"
+      "batch": "SELF_NOSELF_NONDUALITY_BATCH_V5",
+      "global_claim_id": "G5-S042-HS02"
     },
     {
       "claim_id": "HS03",
@@ -6070,7 +6484,8 @@
         "M07"
       ],
       "provenance": "P2",
-      "batch": "SELF_NOSELF_NONDUALITY_BATCH_V5"
+      "batch": "SELF_NOSELF_NONDUALITY_BATCH_V5",
+      "global_claim_id": "G5-S042-HS03"
     },
     {
       "claim_id": "HS04",
@@ -6084,7 +6499,8 @@
         "M07"
       ],
       "provenance": "P2",
-      "batch": "SELF_NOSELF_NONDUALITY_BATCH_V5"
+      "batch": "SELF_NOSELF_NONDUALITY_BATCH_V5",
+      "global_claim_id": "G5-S042-HS04"
     },
     {
       "claim_id": "HS05",
@@ -6098,7 +6514,8 @@
         "M07"
       ],
       "provenance": "P2",
-      "batch": "SELF_NOSELF_NONDUALITY_BATCH_V5"
+      "batch": "SELF_NOSELF_NONDUALITY_BATCH_V5",
+      "global_claim_id": "G5-S042-HS05"
     },
     {
       "claim_id": "HS06",
@@ -6113,7 +6530,8 @@
         "M14"
       ],
       "provenance": "P2",
-      "batch": "SELF_NOSELF_NONDUALITY_BATCH_V5"
+      "batch": "SELF_NOSELF_NONDUALITY_BATCH_V5",
+      "global_claim_id": "G5-S042-HS06"
     },
     {
       "claim_id": "HS07",
@@ -6127,7 +6545,8 @@
         "M14"
       ],
       "provenance": "P2",
-      "batch": "SELF_NOSELF_NONDUALITY_BATCH_V5"
+      "batch": "SELF_NOSELF_NONDUALITY_BATCH_V5",
+      "global_claim_id": "G5-S042-HS07"
     },
     {
       "claim_id": "HS08",
@@ -6141,7 +6560,8 @@
         "M14"
       ],
       "provenance": "P2",
-      "batch": "SELF_NOSELF_NONDUALITY_BATCH_V5"
+      "batch": "SELF_NOSELF_NONDUALITY_BATCH_V5",
+      "global_claim_id": "G5-S042-HS08"
     },
     {
       "claim_id": "HS09",
@@ -6155,7 +6575,8 @@
         "M05"
       ],
       "provenance": "P2",
-      "batch": "SELF_NOSELF_NONDUALITY_BATCH_V5"
+      "batch": "SELF_NOSELF_NONDUALITY_BATCH_V5",
+      "global_claim_id": "G5-S042-HS09"
     },
     {
       "claim_id": "HS10",
@@ -6169,7 +6590,8 @@
         "M14"
       ],
       "provenance": "P2",
-      "batch": "SELF_NOSELF_NONDUALITY_BATCH_V5"
+      "batch": "SELF_NOSELF_NONDUALITY_BATCH_V5",
+      "global_claim_id": "G5-S042-HS10"
     },
     {
       "claim_id": "HS11",
@@ -6183,7 +6605,8 @@
         "M14"
       ],
       "provenance": "P2",
-      "batch": "SELF_NOSELF_NONDUALITY_BATCH_V5"
+      "batch": "SELF_NOSELF_NONDUALITY_BATCH_V5",
+      "global_claim_id": "G5-S042-HS11"
     },
     {
       "claim_id": "HS12",
@@ -6198,7 +6621,8 @@
         "M25"
       ],
       "provenance": "P2",
-      "batch": "SELF_NOSELF_NONDUALITY_BATCH_V5"
+      "batch": "SELF_NOSELF_NONDUALITY_BATCH_V5",
+      "global_claim_id": "G5-S042-HS12"
     },
     {
       "claim_id": "HS13",
@@ -6213,7 +6637,8 @@
         "M23"
       ],
       "provenance": "P2",
-      "batch": "SELF_NOSELF_NONDUALITY_BATCH_V5"
+      "batch": "SELF_NOSELF_NONDUALITY_BATCH_V5",
+      "global_claim_id": "G5-S042-HS13"
     },
     {
       "claim_id": "HS14",
@@ -6228,7 +6653,8 @@
         "M14"
       ],
       "provenance": "P2",
-      "batch": "SELF_NOSELF_NONDUALITY_BATCH_V5"
+      "batch": "SELF_NOSELF_NONDUALITY_BATCH_V5",
+      "global_claim_id": "G5-S042-HS14"
     },
     {
       "claim_id": "HS15",
@@ -6243,7 +6669,8 @@
         "M14"
       ],
       "provenance": "P2",
-      "batch": "SELF_NOSELF_NONDUALITY_BATCH_V5"
+      "batch": "SELF_NOSELF_NONDUALITY_BATCH_V5",
+      "global_claim_id": "G5-S042-HS15"
     },
     {
       "claim_id": "VI01",
@@ -6258,7 +6685,8 @@
         "M23"
       ],
       "provenance": "P2",
-      "batch": "SELF_NOSELF_NONDUALITY_BATCH_V5"
+      "batch": "SELF_NOSELF_NONDUALITY_BATCH_V5",
+      "global_claim_id": "G5-S043-VI01"
     },
     {
       "claim_id": "VI02",
@@ -6272,7 +6700,8 @@
         "M14"
       ],
       "provenance": "P2",
-      "batch": "SELF_NOSELF_NONDUALITY_BATCH_V5"
+      "batch": "SELF_NOSELF_NONDUALITY_BATCH_V5",
+      "global_claim_id": "G5-S043-VI02"
     },
     {
       "claim_id": "VI03",
@@ -6287,7 +6716,8 @@
         "M10"
       ],
       "provenance": "P2",
-      "batch": "SELF_NOSELF_NONDUALITY_BATCH_V5"
+      "batch": "SELF_NOSELF_NONDUALITY_BATCH_V5",
+      "global_claim_id": "G5-S043-VI03"
     },
     {
       "claim_id": "VI04",
@@ -6301,7 +6731,8 @@
         "M25"
       ],
       "provenance": "P2",
-      "batch": "SELF_NOSELF_NONDUALITY_BATCH_V5"
+      "batch": "SELF_NOSELF_NONDUALITY_BATCH_V5",
+      "global_claim_id": "G5-S043-VI04"
     },
     {
       "claim_id": "VI05",
@@ -6315,7 +6746,8 @@
         "M14"
       ],
       "provenance": "P2",
-      "batch": "SELF_NOSELF_NONDUALITY_BATCH_V5"
+      "batch": "SELF_NOSELF_NONDUALITY_BATCH_V5",
+      "global_claim_id": "G5-S043-VI05"
     },
     {
       "claim_id": "VI06",
@@ -6330,7 +6762,8 @@
         "M25"
       ],
       "provenance": "P2",
-      "batch": "SELF_NOSELF_NONDUALITY_BATCH_V5"
+      "batch": "SELF_NOSELF_NONDUALITY_BATCH_V5",
+      "global_claim_id": "G5-S043-VI06"
     },
     {
       "claim_id": "VI07",
@@ -6345,7 +6778,8 @@
         "M05"
       ],
       "provenance": "P2",
-      "batch": "SELF_NOSELF_NONDUALITY_BATCH_V5"
+      "batch": "SELF_NOSELF_NONDUALITY_BATCH_V5",
+      "global_claim_id": "G5-S043-VI07"
     },
     {
       "claim_id": "VI08",
@@ -6359,7 +6793,8 @@
         "M14"
       ],
       "provenance": "P2",
-      "batch": "SELF_NOSELF_NONDUALITY_BATCH_V5"
+      "batch": "SELF_NOSELF_NONDUALITY_BATCH_V5",
+      "global_claim_id": "G5-S043-VI08"
     },
     {
       "claim_id": "VI09",
@@ -6373,7 +6808,8 @@
         "M23"
       ],
       "provenance": "P2",
-      "batch": "SELF_NOSELF_NONDUALITY_BATCH_V5"
+      "batch": "SELF_NOSELF_NONDUALITY_BATCH_V5",
+      "global_claim_id": "G5-S043-VI09"
     },
     {
       "claim_id": "VI10",
@@ -6387,7 +6823,8 @@
         "M14"
       ],
       "provenance": "P2",
-      "batch": "SELF_NOSELF_NONDUALITY_BATCH_V5"
+      "batch": "SELF_NOSELF_NONDUALITY_BATCH_V5",
+      "global_claim_id": "G5-S043-VI10"
     },
     {
       "claim_id": "VI11",
@@ -6401,7 +6838,8 @@
         "M25"
       ],
       "provenance": "P2",
-      "batch": "SELF_NOSELF_NONDUALITY_BATCH_V5"
+      "batch": "SELF_NOSELF_NONDUALITY_BATCH_V5",
+      "global_claim_id": "G5-S043-VI11"
     },
     {
       "claim_id": "VI12",
@@ -6415,7 +6853,8 @@
         "M23"
       ],
       "provenance": "P2",
-      "batch": "SELF_NOSELF_NONDUALITY_BATCH_V5"
+      "batch": "SELF_NOSELF_NONDUALITY_BATCH_V5",
+      "global_claim_id": "G5-S043-VI12"
     },
     {
       "claim_id": "VI13",
@@ -6429,7 +6868,8 @@
         "M05"
       ],
       "provenance": "P2",
-      "batch": "SELF_NOSELF_NONDUALITY_BATCH_V5"
+      "batch": "SELF_NOSELF_NONDUALITY_BATCH_V5",
+      "global_claim_id": "G5-S043-VI13"
     },
     {
       "claim_id": "VI14",
@@ -6444,7 +6884,8 @@
         "M22"
       ],
       "provenance": "P2",
-      "batch": "SELF_NOSELF_NONDUALITY_BATCH_V5"
+      "batch": "SELF_NOSELF_NONDUALITY_BATCH_V5",
+      "global_claim_id": "G5-S043-VI14"
     },
     {
       "claim_id": "VI15",
@@ -6459,7 +6900,8 @@
         "M04"
       ],
       "provenance": "P2",
-      "batch": "SELF_NOSELF_NONDUALITY_BATCH_V5"
+      "batch": "SELF_NOSELF_NONDUALITY_BATCH_V5",
+      "global_claim_id": "G5-S043-VI15"
     },
     {
       "claim_id": "GT01",
@@ -6474,7 +6916,8 @@
         "M15"
       ],
       "provenance": "P2",
-      "batch": "SELF_NOSELF_NONDUALITY_BATCH_V5"
+      "batch": "SELF_NOSELF_NONDUALITY_BATCH_V5",
+      "global_claim_id": "G5-S044-GT01"
     },
     {
       "claim_id": "GT02",
@@ -6489,7 +6932,8 @@
         "M21"
       ],
       "provenance": "P2",
-      "batch": "SELF_NOSELF_NONDUALITY_BATCH_V5"
+      "batch": "SELF_NOSELF_NONDUALITY_BATCH_V5",
+      "global_claim_id": "G5-S044-GT02"
     },
     {
       "claim_id": "GT03",
@@ -6503,7 +6947,8 @@
         "M15"
       ],
       "provenance": "P2",
-      "batch": "SELF_NOSELF_NONDUALITY_BATCH_V5"
+      "batch": "SELF_NOSELF_NONDUALITY_BATCH_V5",
+      "global_claim_id": "G5-S044-GT03"
     },
     {
       "claim_id": "GT04",
@@ -6518,7 +6963,8 @@
         "M14"
       ],
       "provenance": "P2",
-      "batch": "SELF_NOSELF_NONDUALITY_BATCH_V5"
+      "batch": "SELF_NOSELF_NONDUALITY_BATCH_V5",
+      "global_claim_id": "G5-S044-GT04"
     },
     {
       "claim_id": "GT05",
@@ -6532,7 +6978,8 @@
         "M17"
       ],
       "provenance": "P2",
-      "batch": "SELF_NOSELF_NONDUALITY_BATCH_V5"
+      "batch": "SELF_NOSELF_NONDUALITY_BATCH_V5",
+      "global_claim_id": "G5-S044-GT05"
     },
     {
       "claim_id": "GT06",
@@ -6546,7 +6993,8 @@
         "M25"
       ],
       "provenance": "P2",
-      "batch": "SELF_NOSELF_NONDUALITY_BATCH_V5"
+      "batch": "SELF_NOSELF_NONDUALITY_BATCH_V5",
+      "global_claim_id": "G5-S044-GT06"
     },
     {
       "claim_id": "GT07",
@@ -6560,7 +7008,8 @@
         "M16"
       ],
       "provenance": "P2",
-      "batch": "SELF_NOSELF_NONDUALITY_BATCH_V5"
+      "batch": "SELF_NOSELF_NONDUALITY_BATCH_V5",
+      "global_claim_id": "G5-S044-GT07"
     },
     {
       "claim_id": "GT08",
@@ -6575,7 +7024,8 @@
         "M25"
       ],
       "provenance": "P2",
-      "batch": "SELF_NOSELF_NONDUALITY_BATCH_V5"
+      "batch": "SELF_NOSELF_NONDUALITY_BATCH_V5",
+      "global_claim_id": "G5-S044-GT08"
     },
     {
       "claim_id": "GT09",
@@ -6589,7 +7039,8 @@
         "M23"
       ],
       "provenance": "P2",
-      "batch": "SELF_NOSELF_NONDUALITY_BATCH_V5"
+      "batch": "SELF_NOSELF_NONDUALITY_BATCH_V5",
+      "global_claim_id": "G5-S044-GT09"
     },
     {
       "claim_id": "GT10",
@@ -6603,7 +7054,8 @@
         "M15"
       ],
       "provenance": "P2",
-      "batch": "SELF_NOSELF_NONDUALITY_BATCH_V5"
+      "batch": "SELF_NOSELF_NONDUALITY_BATCH_V5",
+      "global_claim_id": "G5-S044-GT10"
     },
     {
       "claim_id": "GT11",
@@ -6618,7 +7070,8 @@
         "M20"
       ],
       "provenance": "P2",
-      "batch": "SELF_NOSELF_NONDUALITY_BATCH_V5"
+      "batch": "SELF_NOSELF_NONDUALITY_BATCH_V5",
+      "global_claim_id": "G5-S044-GT11"
     },
     {
       "claim_id": "GT12",
@@ -6633,7 +7086,8 @@
         "M23"
       ],
       "provenance": "P2",
-      "batch": "SELF_NOSELF_NONDUALITY_BATCH_V5"
+      "batch": "SELF_NOSELF_NONDUALITY_BATCH_V5",
+      "global_claim_id": "G5-S044-GT12"
     },
     {
       "claim_id": "GT13",
@@ -6648,7 +7102,8 @@
         "M23"
       ],
       "provenance": "P2",
-      "batch": "SELF_NOSELF_NONDUALITY_BATCH_V5"
+      "batch": "SELF_NOSELF_NONDUALITY_BATCH_V5",
+      "global_claim_id": "G5-S044-GT13"
     },
     {
       "claim_id": "GT14",
@@ -6662,7 +7117,8 @@
         "M23"
       ],
       "provenance": "P2",
-      "batch": "SELF_NOSELF_NONDUALITY_BATCH_V5"
+      "batch": "SELF_NOSELF_NONDUALITY_BATCH_V5",
+      "global_claim_id": "G5-S044-GT14"
     },
     {
       "claim_id": "GT15",
@@ -6676,7 +7132,8 @@
         "M15"
       ],
       "provenance": "P2",
-      "batch": "SELF_NOSELF_NONDUALITY_BATCH_V5"
+      "batch": "SELF_NOSELF_NONDUALITY_BATCH_V5",
+      "global_claim_id": "G5-S044-GT15"
     },
     {
       "claim_id": "DD01",
@@ -6691,7 +7148,8 @@
         "M25"
       ],
       "provenance": "P2",
-      "batch": "SELF_NOSELF_NONDUALITY_BATCH_V5"
+      "batch": "SELF_NOSELF_NONDUALITY_BATCH_V5",
+      "global_claim_id": "G5-S045-DD01"
     },
     {
       "claim_id": "DD02",
@@ -6706,7 +7164,8 @@
         "M24"
       ],
       "provenance": "P2",
-      "batch": "SELF_NOSELF_NONDUALITY_BATCH_V5"
+      "batch": "SELF_NOSELF_NONDUALITY_BATCH_V5",
+      "global_claim_id": "G5-S045-DD02"
     },
     {
       "claim_id": "DD03",
@@ -6720,7 +7179,8 @@
         "M23"
       ],
       "provenance": "P2",
-      "batch": "SELF_NOSELF_NONDUALITY_BATCH_V5"
+      "batch": "SELF_NOSELF_NONDUALITY_BATCH_V5",
+      "global_claim_id": "G5-S045-DD03"
     },
     {
       "claim_id": "DD04",
@@ -6735,7 +7195,8 @@
         "M23"
       ],
       "provenance": "P2",
-      "batch": "SELF_NOSELF_NONDUALITY_BATCH_V5"
+      "batch": "SELF_NOSELF_NONDUALITY_BATCH_V5",
+      "global_claim_id": "G5-S045-DD04"
     },
     {
       "claim_id": "DD05",
@@ -6749,7 +7210,8 @@
         "M20"
       ],
       "provenance": "P2",
-      "batch": "SELF_NOSELF_NONDUALITY_BATCH_V5"
+      "batch": "SELF_NOSELF_NONDUALITY_BATCH_V5",
+      "global_claim_id": "G5-S045-DD05"
     },
     {
       "claim_id": "DD06",
@@ -6763,7 +7225,8 @@
         "M24"
       ],
       "provenance": "P2",
-      "batch": "SELF_NOSELF_NONDUALITY_BATCH_V5"
+      "batch": "SELF_NOSELF_NONDUALITY_BATCH_V5",
+      "global_claim_id": "G5-S045-DD06"
     },
     {
       "claim_id": "DD07",
@@ -6777,7 +7240,8 @@
         "M12"
       ],
       "provenance": "P2",
-      "batch": "SELF_NOSELF_NONDUALITY_BATCH_V5"
+      "batch": "SELF_NOSELF_NONDUALITY_BATCH_V5",
+      "global_claim_id": "G5-S045-DD07"
     },
     {
       "claim_id": "DD08",
@@ -6791,7 +7255,8 @@
         "M10"
       ],
       "provenance": "P2",
-      "batch": "SELF_NOSELF_NONDUALITY_BATCH_V5"
+      "batch": "SELF_NOSELF_NONDUALITY_BATCH_V5",
+      "global_claim_id": "G5-S045-DD08"
     },
     {
       "claim_id": "DD09",
@@ -6805,7 +7270,8 @@
         "M20"
       ],
       "provenance": "P2",
-      "batch": "SELF_NOSELF_NONDUALITY_BATCH_V5"
+      "batch": "SELF_NOSELF_NONDUALITY_BATCH_V5",
+      "global_claim_id": "G5-S045-DD09"
     },
     {
       "claim_id": "DD10",
@@ -6820,7 +7286,8 @@
         "M20"
       ],
       "provenance": "P2",
-      "batch": "SELF_NOSELF_NONDUALITY_BATCH_V5"
+      "batch": "SELF_NOSELF_NONDUALITY_BATCH_V5",
+      "global_claim_id": "G5-S045-DD10"
     },
     {
       "claim_id": "DD11",
@@ -6835,7 +7302,8 @@
         "M25"
       ],
       "provenance": "P2",
-      "batch": "SELF_NOSELF_NONDUALITY_BATCH_V5"
+      "batch": "SELF_NOSELF_NONDUALITY_BATCH_V5",
+      "global_claim_id": "G5-S045-DD11"
     },
     {
       "claim_id": "DD12",
@@ -6849,7 +7317,8 @@
         "M23"
       ],
       "provenance": "P2",
-      "batch": "SELF_NOSELF_NONDUALITY_BATCH_V5"
+      "batch": "SELF_NOSELF_NONDUALITY_BATCH_V5",
+      "global_claim_id": "G5-S045-DD12"
     },
     {
       "claim_id": "DD13",
@@ -6863,7 +7332,8 @@
         "M24"
       ],
       "provenance": "P2",
-      "batch": "SELF_NOSELF_NONDUALITY_BATCH_V5"
+      "batch": "SELF_NOSELF_NONDUALITY_BATCH_V5",
+      "global_claim_id": "G5-S045-DD13"
     },
     {
       "claim_id": "DD14",
@@ -6878,7 +7348,8 @@
         "M09"
       ],
       "provenance": "P2",
-      "batch": "SELF_NOSELF_NONDUALITY_BATCH_V5"
+      "batch": "SELF_NOSELF_NONDUALITY_BATCH_V5",
+      "global_claim_id": "G5-S045-DD14"
     },
     {
       "claim_id": "DD15",
@@ -6893,7 +7364,8 @@
         "M22"
       ],
       "provenance": "P2",
-      "batch": "SELF_NOSELF_NONDUALITY_BATCH_V5"
+      "batch": "SELF_NOSELF_NONDUALITY_BATCH_V5",
+      "global_claim_id": "G5-S045-DD15"
     },
     {
       "claim_id": "ZQ01",
@@ -6907,7 +7379,8 @@
         "M05"
       ],
       "provenance": "P2",
-      "batch": "SELF_NOSELF_NONDUALITY_BATCH_V5"
+      "batch": "SELF_NOSELF_NONDUALITY_BATCH_V5",
+      "global_claim_id": "G5-S046-ZQ01"
     },
     {
       "claim_id": "ZQ02",
@@ -6922,7 +7395,8 @@
         "M23"
       ],
       "provenance": "P2",
-      "batch": "SELF_NOSELF_NONDUALITY_BATCH_V5"
+      "batch": "SELF_NOSELF_NONDUALITY_BATCH_V5",
+      "global_claim_id": "G5-S046-ZQ02"
     },
     {
       "claim_id": "ZQ03",
@@ -6936,7 +7410,8 @@
         "M14"
       ],
       "provenance": "P2",
-      "batch": "SELF_NOSELF_NONDUALITY_BATCH_V5"
+      "batch": "SELF_NOSELF_NONDUALITY_BATCH_V5",
+      "global_claim_id": "G5-S046-ZQ03"
     },
     {
       "claim_id": "ZQ04",
@@ -6952,7 +7427,8 @@
         "M23"
       ],
       "provenance": "P2",
-      "batch": "SELF_NOSELF_NONDUALITY_BATCH_V5"
+      "batch": "SELF_NOSELF_NONDUALITY_BATCH_V5",
+      "global_claim_id": "G5-S046-ZQ04"
     },
     {
       "claim_id": "ZQ05",
@@ -6966,7 +7442,8 @@
         "M23"
       ],
       "provenance": "P2",
-      "batch": "SELF_NOSELF_NONDUALITY_BATCH_V5"
+      "batch": "SELF_NOSELF_NONDUALITY_BATCH_V5",
+      "global_claim_id": "G5-S046-ZQ05"
     },
     {
       "claim_id": "ZQ06",
@@ -6980,7 +7457,8 @@
         "M25"
       ],
       "provenance": "P2",
-      "batch": "SELF_NOSELF_NONDUALITY_BATCH_V5"
+      "batch": "SELF_NOSELF_NONDUALITY_BATCH_V5",
+      "global_claim_id": "G5-S046-ZQ06"
     },
     {
       "claim_id": "ZQ07",
@@ -6995,7 +7473,8 @@
         "M24"
       ],
       "provenance": "P2",
-      "batch": "SELF_NOSELF_NONDUALITY_BATCH_V5"
+      "batch": "SELF_NOSELF_NONDUALITY_BATCH_V5",
+      "global_claim_id": "G5-S046-ZQ07"
     },
     {
       "claim_id": "ZQ08",
@@ -7009,7 +7488,8 @@
         "M24"
       ],
       "provenance": "P2",
-      "batch": "SELF_NOSELF_NONDUALITY_BATCH_V5"
+      "batch": "SELF_NOSELF_NONDUALITY_BATCH_V5",
+      "global_claim_id": "G5-S046-ZQ08"
     },
     {
       "claim_id": "ZQ09",
@@ -7023,7 +7503,8 @@
         "M24"
       ],
       "provenance": "P2",
-      "batch": "SELF_NOSELF_NONDUALITY_BATCH_V5"
+      "batch": "SELF_NOSELF_NONDUALITY_BATCH_V5",
+      "global_claim_id": "G5-S046-ZQ09"
     },
     {
       "claim_id": "ZQ10",
@@ -7037,7 +7518,8 @@
         "M23"
       ],
       "provenance": "P2",
-      "batch": "SELF_NOSELF_NONDUALITY_BATCH_V5"
+      "batch": "SELF_NOSELF_NONDUALITY_BATCH_V5",
+      "global_claim_id": "G5-S046-ZQ10"
     },
     {
       "claim_id": "ZQ11",
@@ -7053,7 +7535,8 @@
         "M23"
       ],
       "provenance": "P2",
-      "batch": "SELF_NOSELF_NONDUALITY_BATCH_V5"
+      "batch": "SELF_NOSELF_NONDUALITY_BATCH_V5",
+      "global_claim_id": "G5-S046-ZQ11"
     },
     {
       "claim_id": "ZQ12",
@@ -7068,7 +7551,8 @@
         "M23"
       ],
       "provenance": "P2",
-      "batch": "SELF_NOSELF_NONDUALITY_BATCH_V5"
+      "batch": "SELF_NOSELF_NONDUALITY_BATCH_V5",
+      "global_claim_id": "G5-S046-ZQ12"
     },
     {
       "claim_id": "ZQ13",
@@ -7083,7 +7567,8 @@
         "M24"
       ],
       "provenance": "P2",
-      "batch": "SELF_NOSELF_NONDUALITY_BATCH_V5"
+      "batch": "SELF_NOSELF_NONDUALITY_BATCH_V5",
+      "global_claim_id": "G5-S046-ZQ13"
     },
     {
       "claim_id": "ZQ14",
@@ -7098,7 +7583,8 @@
         "M05"
       ],
       "provenance": "P2",
-      "batch": "SELF_NOSELF_NONDUALITY_BATCH_V5"
+      "batch": "SELF_NOSELF_NONDUALITY_BATCH_V5",
+      "global_claim_id": "G5-S046-ZQ14"
     },
     {
       "claim_id": "ZQ15",
@@ -7113,7 +7599,8 @@
         "M23"
       ],
       "provenance": "P2",
-      "batch": "SELF_NOSELF_NONDUALITY_BATCH_V5"
+      "batch": "SELF_NOSELF_NONDUALITY_BATCH_V5",
+      "global_claim_id": "G5-S046-ZQ15"
     },
     {
       "claim_id": "DE01",
@@ -7127,7 +7614,8 @@
         "M25"
       ],
       "provenance": "P2",
-      "batch": "SELF_NOSELF_NONDUALITY_BATCH_V5"
+      "batch": "SELF_NOSELF_NONDUALITY_BATCH_V5",
+      "global_claim_id": "G5-S047-DE01"
     },
     {
       "claim_id": "DE02",
@@ -7141,7 +7629,8 @@
         "M14"
       ],
       "provenance": "P2",
-      "batch": "SELF_NOSELF_NONDUALITY_BATCH_V5"
+      "batch": "SELF_NOSELF_NONDUALITY_BATCH_V5",
+      "global_claim_id": "G5-S047-DE02"
     },
     {
       "claim_id": "DE03",
@@ -7155,7 +7644,8 @@
         "M22"
       ],
       "provenance": "P2",
-      "batch": "SELF_NOSELF_NONDUALITY_BATCH_V5"
+      "batch": "SELF_NOSELF_NONDUALITY_BATCH_V5",
+      "global_claim_id": "G5-S047-DE03"
     },
     {
       "claim_id": "DE04",
@@ -7170,7 +7660,8 @@
         "M22"
       ],
       "provenance": "P2",
-      "batch": "SELF_NOSELF_NONDUALITY_BATCH_V5"
+      "batch": "SELF_NOSELF_NONDUALITY_BATCH_V5",
+      "global_claim_id": "G5-S047-DE04"
     },
     {
       "claim_id": "DE05",
@@ -7184,7 +7675,8 @@
         "M06"
       ],
       "provenance": "P2",
-      "batch": "SELF_NOSELF_NONDUALITY_BATCH_V5"
+      "batch": "SELF_NOSELF_NONDUALITY_BATCH_V5",
+      "global_claim_id": "G5-S047-DE05"
     },
     {
       "claim_id": "DE06",
@@ -7198,7 +7690,8 @@
         "M08"
       ],
       "provenance": "P2",
-      "batch": "SELF_NOSELF_NONDUALITY_BATCH_V5"
+      "batch": "SELF_NOSELF_NONDUALITY_BATCH_V5",
+      "global_claim_id": "G5-S047-DE06"
     },
     {
       "claim_id": "DE07",
@@ -7212,7 +7705,8 @@
         "M22"
       ],
       "provenance": "P2",
-      "batch": "SELF_NOSELF_NONDUALITY_BATCH_V5"
+      "batch": "SELF_NOSELF_NONDUALITY_BATCH_V5",
+      "global_claim_id": "G5-S047-DE07"
     },
     {
       "claim_id": "DE08",
@@ -7226,7 +7720,8 @@
         "M06"
       ],
       "provenance": "P2",
-      "batch": "SELF_NOSELF_NONDUALITY_BATCH_V5"
+      "batch": "SELF_NOSELF_NONDUALITY_BATCH_V5",
+      "global_claim_id": "G5-S047-DE08"
     },
     {
       "claim_id": "DE09",
@@ -7241,7 +7736,8 @@
         "M24"
       ],
       "provenance": "P2",
-      "batch": "SELF_NOSELF_NONDUALITY_BATCH_V5"
+      "batch": "SELF_NOSELF_NONDUALITY_BATCH_V5",
+      "global_claim_id": "G5-S047-DE09"
     },
     {
       "claim_id": "DE10",
@@ -7255,7 +7751,8 @@
         "M06"
       ],
       "provenance": "P2",
-      "batch": "SELF_NOSELF_NONDUALITY_BATCH_V5"
+      "batch": "SELF_NOSELF_NONDUALITY_BATCH_V5",
+      "global_claim_id": "G5-S047-DE10"
     },
     {
       "claim_id": "DE11",
@@ -7269,7 +7766,8 @@
         "M22"
       ],
       "provenance": "P2",
-      "batch": "SELF_NOSELF_NONDUALITY_BATCH_V5"
+      "batch": "SELF_NOSELF_NONDUALITY_BATCH_V5",
+      "global_claim_id": "G5-S047-DE11"
     },
     {
       "claim_id": "DE12",
@@ -7284,7 +7782,8 @@
         "M20"
       ],
       "provenance": "P2",
-      "batch": "SELF_NOSELF_NONDUALITY_BATCH_V5"
+      "batch": "SELF_NOSELF_NONDUALITY_BATCH_V5",
+      "global_claim_id": "G5-S047-DE12"
     },
     {
       "claim_id": "DE13",
@@ -7298,7 +7797,8 @@
         "M10"
       ],
       "provenance": "P2",
-      "batch": "SELF_NOSELF_NONDUALITY_BATCH_V5"
+      "batch": "SELF_NOSELF_NONDUALITY_BATCH_V5",
+      "global_claim_id": "G5-S047-DE13"
     },
     {
       "claim_id": "DE14",
@@ -7313,7 +7813,8 @@
         "M08"
       ],
       "provenance": "P2",
-      "batch": "SELF_NOSELF_NONDUALITY_BATCH_V5"
+      "batch": "SELF_NOSELF_NONDUALITY_BATCH_V5",
+      "global_claim_id": "G5-S047-DE14"
     },
     {
       "claim_id": "DE15",
@@ -7328,7 +7829,8 @@
         "M08"
       ],
       "provenance": "P2",
-      "batch": "SELF_NOSELF_NONDUALITY_BATCH_V5"
+      "batch": "SELF_NOSELF_NONDUALITY_BATCH_V5",
+      "global_claim_id": "G5-S047-DE15"
     },
     {
       "claim_id": "J01",
@@ -7343,7 +7845,8 @@
         "M25"
       ],
       "provenance": "S1",
-      "batch": "JAIN_SIKH_ZOROASTRIAN_CHRISTIAN_BATCH_V6"
+      "batch": "JAIN_SIKH_ZOROASTRIAN_CHRISTIAN_BATCH_V6",
+      "global_claim_id": "G6-S048-J01"
     },
     {
       "claim_id": "J02",
@@ -7359,7 +7862,8 @@
         "M23"
       ],
       "provenance": "S1",
-      "batch": "JAIN_SIKH_ZOROASTRIAN_CHRISTIAN_BATCH_V6"
+      "batch": "JAIN_SIKH_ZOROASTRIAN_CHRISTIAN_BATCH_V6",
+      "global_claim_id": "G6-S048-J02"
     },
     {
       "claim_id": "J03",
@@ -7374,7 +7878,8 @@
         "M15"
       ],
       "provenance": "S1",
-      "batch": "JAIN_SIKH_ZOROASTRIAN_CHRISTIAN_BATCH_V6"
+      "batch": "JAIN_SIKH_ZOROASTRIAN_CHRISTIAN_BATCH_V6",
+      "global_claim_id": "G6-S048-J03"
     },
     {
       "claim_id": "J04",
@@ -7389,7 +7894,8 @@
         "M08"
       ],
       "provenance": "S1",
-      "batch": "JAIN_SIKH_ZOROASTRIAN_CHRISTIAN_BATCH_V6"
+      "batch": "JAIN_SIKH_ZOROASTRIAN_CHRISTIAN_BATCH_V6",
+      "global_claim_id": "G6-S048-J04"
     },
     {
       "claim_id": "J05",
@@ -7403,7 +7909,8 @@
         "M08"
       ],
       "provenance": "S1",
-      "batch": "JAIN_SIKH_ZOROASTRIAN_CHRISTIAN_BATCH_V6"
+      "batch": "JAIN_SIKH_ZOROASTRIAN_CHRISTIAN_BATCH_V6",
+      "global_claim_id": "G6-S048-J05"
     },
     {
       "claim_id": "J06",
@@ -7418,7 +7925,8 @@
         "M20"
       ],
       "provenance": "S1",
-      "batch": "JAIN_SIKH_ZOROASTRIAN_CHRISTIAN_BATCH_V6"
+      "batch": "JAIN_SIKH_ZOROASTRIAN_CHRISTIAN_BATCH_V6",
+      "global_claim_id": "G6-S048-J06"
     },
     {
       "claim_id": "J07",
@@ -7432,7 +7940,8 @@
         "M08"
       ],
       "provenance": "S1",
-      "batch": "JAIN_SIKH_ZOROASTRIAN_CHRISTIAN_BATCH_V6"
+      "batch": "JAIN_SIKH_ZOROASTRIAN_CHRISTIAN_BATCH_V6",
+      "global_claim_id": "G6-S048-J07"
     },
     {
       "claim_id": "J08",
@@ -7447,7 +7956,8 @@
         "M23"
       ],
       "provenance": "S1",
-      "batch": "JAIN_SIKH_ZOROASTRIAN_CHRISTIAN_BATCH_V6"
+      "batch": "JAIN_SIKH_ZOROASTRIAN_CHRISTIAN_BATCH_V6",
+      "global_claim_id": "G6-S048-J08"
     },
     {
       "claim_id": "J09",
@@ -7462,7 +7972,8 @@
         "M25"
       ],
       "provenance": "S1",
-      "batch": "JAIN_SIKH_ZOROASTRIAN_CHRISTIAN_BATCH_V6"
+      "batch": "JAIN_SIKH_ZOROASTRIAN_CHRISTIAN_BATCH_V6",
+      "global_claim_id": "G6-S048-J09"
     },
     {
       "claim_id": "J10",
@@ -7476,7 +7987,8 @@
         "M23"
       ],
       "provenance": "S1",
-      "batch": "JAIN_SIKH_ZOROASTRIAN_CHRISTIAN_BATCH_V6"
+      "batch": "JAIN_SIKH_ZOROASTRIAN_CHRISTIAN_BATCH_V6",
+      "global_claim_id": "G6-S048-J10"
     },
     {
       "claim_id": "J11",
@@ -7492,7 +8004,8 @@
         "M23"
       ],
       "provenance": "S1",
-      "batch": "JAIN_SIKH_ZOROASTRIAN_CHRISTIAN_BATCH_V6"
+      "batch": "JAIN_SIKH_ZOROASTRIAN_CHRISTIAN_BATCH_V6",
+      "global_claim_id": "G6-S048-J11"
     },
     {
       "claim_id": "J12",
@@ -7507,7 +8020,8 @@
         "M19"
       ],
       "provenance": "S1",
-      "batch": "JAIN_SIKH_ZOROASTRIAN_CHRISTIAN_BATCH_V6"
+      "batch": "JAIN_SIKH_ZOROASTRIAN_CHRISTIAN_BATCH_V6",
+      "global_claim_id": "G6-S048-J12"
     },
     {
       "claim_id": "J13",
@@ -7522,7 +8036,8 @@
         "M24"
       ],
       "provenance": "S1",
-      "batch": "JAIN_SIKH_ZOROASTRIAN_CHRISTIAN_BATCH_V6"
+      "batch": "JAIN_SIKH_ZOROASTRIAN_CHRISTIAN_BATCH_V6",
+      "global_claim_id": "G6-S048-J13"
     },
     {
       "claim_id": "J14",
@@ -7537,7 +8052,8 @@
         "M23"
       ],
       "provenance": "S1",
-      "batch": "JAIN_SIKH_ZOROASTRIAN_CHRISTIAN_BATCH_V6"
+      "batch": "JAIN_SIKH_ZOROASTRIAN_CHRISTIAN_BATCH_V6",
+      "global_claim_id": "G6-S048-J14"
     },
     {
       "claim_id": "J15",
@@ -7552,7 +8068,8 @@
         "M08"
       ],
       "provenance": "S1",
-      "batch": "JAIN_SIKH_ZOROASTRIAN_CHRISTIAN_BATCH_V6"
+      "batch": "JAIN_SIKH_ZOROASTRIAN_CHRISTIAN_BATCH_V6",
+      "global_claim_id": "G6-S048-J15"
     },
     {
       "claim_id": "J16",
@@ -7567,7 +8084,8 @@
         "M15"
       ],
       "provenance": "S1",
-      "batch": "JAIN_SIKH_ZOROASTRIAN_CHRISTIAN_BATCH_V6"
+      "batch": "JAIN_SIKH_ZOROASTRIAN_CHRISTIAN_BATCH_V6",
+      "global_claim_id": "G6-S048-J16"
     },
     {
       "claim_id": "S01",
@@ -7582,7 +8100,8 @@
         "M23"
       ],
       "provenance": "S1",
-      "batch": "JAIN_SIKH_ZOROASTRIAN_CHRISTIAN_BATCH_V6"
+      "batch": "JAIN_SIKH_ZOROASTRIAN_CHRISTIAN_BATCH_V6",
+      "global_claim_id": "G6-S049-S01"
     },
     {
       "claim_id": "S02",
@@ -7597,7 +8116,8 @@
         "M22"
       ],
       "provenance": "S1",
-      "batch": "JAIN_SIKH_ZOROASTRIAN_CHRISTIAN_BATCH_V6"
+      "batch": "JAIN_SIKH_ZOROASTRIAN_CHRISTIAN_BATCH_V6",
+      "global_claim_id": "G6-S049-S02"
     },
     {
       "claim_id": "S03",
@@ -7612,7 +8132,8 @@
         "M25"
       ],
       "provenance": "S1",
-      "batch": "JAIN_SIKH_ZOROASTRIAN_CHRISTIAN_BATCH_V6"
+      "batch": "JAIN_SIKH_ZOROASTRIAN_CHRISTIAN_BATCH_V6",
+      "global_claim_id": "G6-S049-S03"
     },
     {
       "claim_id": "S04",
@@ -7627,7 +8148,8 @@
         "M25"
       ],
       "provenance": "S1",
-      "batch": "JAIN_SIKH_ZOROASTRIAN_CHRISTIAN_BATCH_V6"
+      "batch": "JAIN_SIKH_ZOROASTRIAN_CHRISTIAN_BATCH_V6",
+      "global_claim_id": "G6-S049-S04"
     },
     {
       "claim_id": "S05",
@@ -7642,7 +8164,8 @@
         "M25"
       ],
       "provenance": "S1",
-      "batch": "JAIN_SIKH_ZOROASTRIAN_CHRISTIAN_BATCH_V6"
+      "batch": "JAIN_SIKH_ZOROASTRIAN_CHRISTIAN_BATCH_V6",
+      "global_claim_id": "G6-S049-S05"
     },
     {
       "claim_id": "S06",
@@ -7658,7 +8181,8 @@
         "M25"
       ],
       "provenance": "S1",
-      "batch": "JAIN_SIKH_ZOROASTRIAN_CHRISTIAN_BATCH_V6"
+      "batch": "JAIN_SIKH_ZOROASTRIAN_CHRISTIAN_BATCH_V6",
+      "global_claim_id": "G6-S049-S06"
     },
     {
       "claim_id": "S07",
@@ -7673,7 +8197,8 @@
         "M23"
       ],
       "provenance": "S1",
-      "batch": "JAIN_SIKH_ZOROASTRIAN_CHRISTIAN_BATCH_V6"
+      "batch": "JAIN_SIKH_ZOROASTRIAN_CHRISTIAN_BATCH_V6",
+      "global_claim_id": "G6-S049-S07"
     },
     {
       "claim_id": "S08",
@@ -7687,7 +8212,8 @@
         "M23"
       ],
       "provenance": "S1",
-      "batch": "JAIN_SIKH_ZOROASTRIAN_CHRISTIAN_BATCH_V6"
+      "batch": "JAIN_SIKH_ZOROASTRIAN_CHRISTIAN_BATCH_V6",
+      "global_claim_id": "G6-S049-S08"
     },
     {
       "claim_id": "S09",
@@ -7702,7 +8228,8 @@
         "M20"
       ],
       "provenance": "S1",
-      "batch": "JAIN_SIKH_ZOROASTRIAN_CHRISTIAN_BATCH_V6"
+      "batch": "JAIN_SIKH_ZOROASTRIAN_CHRISTIAN_BATCH_V6",
+      "global_claim_id": "G6-S049-S09"
     },
     {
       "claim_id": "S10",
@@ -7716,7 +8243,8 @@
         "M21"
       ],
       "provenance": "S1",
-      "batch": "JAIN_SIKH_ZOROASTRIAN_CHRISTIAN_BATCH_V6"
+      "batch": "JAIN_SIKH_ZOROASTRIAN_CHRISTIAN_BATCH_V6",
+      "global_claim_id": "G6-S049-S10"
     },
     {
       "claim_id": "S11",
@@ -7731,7 +8259,8 @@
         "M20"
       ],
       "provenance": "S1",
-      "batch": "JAIN_SIKH_ZOROASTRIAN_CHRISTIAN_BATCH_V6"
+      "batch": "JAIN_SIKH_ZOROASTRIAN_CHRISTIAN_BATCH_V6",
+      "global_claim_id": "G6-S049-S11"
     },
     {
       "claim_id": "S12",
@@ -7746,7 +8275,8 @@
         "M20"
       ],
       "provenance": "S1",
-      "batch": "JAIN_SIKH_ZOROASTRIAN_CHRISTIAN_BATCH_V6"
+      "batch": "JAIN_SIKH_ZOROASTRIAN_CHRISTIAN_BATCH_V6",
+      "global_claim_id": "G6-S049-S12"
     },
     {
       "claim_id": "S13",
@@ -7760,7 +8290,8 @@
         "M25"
       ],
       "provenance": "S1",
-      "batch": "JAIN_SIKH_ZOROASTRIAN_CHRISTIAN_BATCH_V6"
+      "batch": "JAIN_SIKH_ZOROASTRIAN_CHRISTIAN_BATCH_V6",
+      "global_claim_id": "G6-S049-S13"
     },
     {
       "claim_id": "S14",
@@ -7775,7 +8306,8 @@
         "M20"
       ],
       "provenance": "S1",
-      "batch": "JAIN_SIKH_ZOROASTRIAN_CHRISTIAN_BATCH_V6"
+      "batch": "JAIN_SIKH_ZOROASTRIAN_CHRISTIAN_BATCH_V6",
+      "global_claim_id": "G6-S049-S14"
     },
     {
       "claim_id": "S15",
@@ -7790,7 +8322,8 @@
         "M23"
       ],
       "provenance": "S1",
-      "batch": "JAIN_SIKH_ZOROASTRIAN_CHRISTIAN_BATCH_V6"
+      "batch": "JAIN_SIKH_ZOROASTRIAN_CHRISTIAN_BATCH_V6",
+      "global_claim_id": "G6-S049-S15"
     },
     {
       "claim_id": "S16",
@@ -7805,7 +8338,8 @@
         "M15"
       ],
       "provenance": "S1",
-      "batch": "JAIN_SIKH_ZOROASTRIAN_CHRISTIAN_BATCH_V6"
+      "batch": "JAIN_SIKH_ZOROASTRIAN_CHRISTIAN_BATCH_V6",
+      "global_claim_id": "G6-S049-S16"
     },
     {
       "claim_id": "Y01",
@@ -7819,7 +8353,8 @@
         "M25"
       ],
       "provenance": "P2",
-      "batch": "JAIN_SIKH_ZOROASTRIAN_CHRISTIAN_BATCH_V6"
+      "batch": "JAIN_SIKH_ZOROASTRIAN_CHRISTIAN_BATCH_V6",
+      "global_claim_id": "G6-S050-Y01"
     },
     {
       "claim_id": "Y02",
@@ -7833,7 +8368,8 @@
         "M24"
       ],
       "provenance": "P2",
-      "batch": "JAIN_SIKH_ZOROASTRIAN_CHRISTIAN_BATCH_V6"
+      "batch": "JAIN_SIKH_ZOROASTRIAN_CHRISTIAN_BATCH_V6",
+      "global_claim_id": "G6-S050-Y02"
     },
     {
       "claim_id": "Y03",
@@ -7848,7 +8384,8 @@
         "M24"
       ],
       "provenance": "P2",
-      "batch": "JAIN_SIKH_ZOROASTRIAN_CHRISTIAN_BATCH_V6"
+      "batch": "JAIN_SIKH_ZOROASTRIAN_CHRISTIAN_BATCH_V6",
+      "global_claim_id": "G6-S050-Y03"
     },
     {
       "claim_id": "Y04",
@@ -7862,7 +8399,8 @@
         "M07"
       ],
       "provenance": "P2",
-      "batch": "JAIN_SIKH_ZOROASTRIAN_CHRISTIAN_BATCH_V6"
+      "batch": "JAIN_SIKH_ZOROASTRIAN_CHRISTIAN_BATCH_V6",
+      "global_claim_id": "G6-S050-Y04"
     },
     {
       "claim_id": "Y05",
@@ -7876,7 +8414,8 @@
         "M12"
       ],
       "provenance": "P2",
-      "batch": "JAIN_SIKH_ZOROASTRIAN_CHRISTIAN_BATCH_V6"
+      "batch": "JAIN_SIKH_ZOROASTRIAN_CHRISTIAN_BATCH_V6",
+      "global_claim_id": "G6-S050-Y05"
     },
     {
       "claim_id": "Y06",
@@ -7890,7 +8429,8 @@
         "M20"
       ],
       "provenance": "P2",
-      "batch": "JAIN_SIKH_ZOROASTRIAN_CHRISTIAN_BATCH_V6"
+      "batch": "JAIN_SIKH_ZOROASTRIAN_CHRISTIAN_BATCH_V6",
+      "global_claim_id": "G6-S050-Y06"
     },
     {
       "claim_id": "Y07",
@@ -7904,7 +8444,8 @@
         "M14"
       ],
       "provenance": "P2",
-      "batch": "JAIN_SIKH_ZOROASTRIAN_CHRISTIAN_BATCH_V6"
+      "batch": "JAIN_SIKH_ZOROASTRIAN_CHRISTIAN_BATCH_V6",
+      "global_claim_id": "G6-S050-Y07"
     },
     {
       "claim_id": "Y08",
@@ -7919,7 +8460,8 @@
         "M24"
       ],
       "provenance": "P2",
-      "batch": "JAIN_SIKH_ZOROASTRIAN_CHRISTIAN_BATCH_V6"
+      "batch": "JAIN_SIKH_ZOROASTRIAN_CHRISTIAN_BATCH_V6",
+      "global_claim_id": "G6-S050-Y08"
     },
     {
       "claim_id": "Y09",
@@ -7934,7 +8476,8 @@
         "M20"
       ],
       "provenance": "P2",
-      "batch": "JAIN_SIKH_ZOROASTRIAN_CHRISTIAN_BATCH_V6"
+      "batch": "JAIN_SIKH_ZOROASTRIAN_CHRISTIAN_BATCH_V6",
+      "global_claim_id": "G6-S050-Y09"
     },
     {
       "claim_id": "Y10",
@@ -7949,7 +8492,8 @@
         "M21"
       ],
       "provenance": "P2",
-      "batch": "JAIN_SIKH_ZOROASTRIAN_CHRISTIAN_BATCH_V6"
+      "batch": "JAIN_SIKH_ZOROASTRIAN_CHRISTIAN_BATCH_V6",
+      "global_claim_id": "G6-S050-Y10"
     },
     {
       "claim_id": "Y11",
@@ -7963,7 +8507,8 @@
         "M22"
       ],
       "provenance": "P2",
-      "batch": "JAIN_SIKH_ZOROASTRIAN_CHRISTIAN_BATCH_V6"
+      "batch": "JAIN_SIKH_ZOROASTRIAN_CHRISTIAN_BATCH_V6",
+      "global_claim_id": "G6-S050-Y11"
     },
     {
       "claim_id": "Y12",
@@ -7977,7 +8522,8 @@
         "M25"
       ],
       "provenance": "P2",
-      "batch": "JAIN_SIKH_ZOROASTRIAN_CHRISTIAN_BATCH_V6"
+      "batch": "JAIN_SIKH_ZOROASTRIAN_CHRISTIAN_BATCH_V6",
+      "global_claim_id": "G6-S050-Y12"
     },
     {
       "claim_id": "Y13",
@@ -7991,7 +8537,8 @@
         "M20"
       ],
       "provenance": "P2",
-      "batch": "JAIN_SIKH_ZOROASTRIAN_CHRISTIAN_BATCH_V6"
+      "batch": "JAIN_SIKH_ZOROASTRIAN_CHRISTIAN_BATCH_V6",
+      "global_claim_id": "G6-S050-Y13"
     },
     {
       "claim_id": "Y14",
@@ -8005,7 +8552,8 @@
         "M19"
       ],
       "provenance": "P2",
-      "batch": "JAIN_SIKH_ZOROASTRIAN_CHRISTIAN_BATCH_V6"
+      "batch": "JAIN_SIKH_ZOROASTRIAN_CHRISTIAN_BATCH_V6",
+      "global_claim_id": "G6-S050-Y14"
     },
     {
       "claim_id": "Y15",
@@ -8019,7 +8567,8 @@
         "M20"
       ],
       "provenance": "P2",
-      "batch": "JAIN_SIKH_ZOROASTRIAN_CHRISTIAN_BATCH_V6"
+      "batch": "JAIN_SIKH_ZOROASTRIAN_CHRISTIAN_BATCH_V6",
+      "global_claim_id": "G6-S050-Y15"
     },
     {
       "claim_id": "Y16",
@@ -8034,7 +8583,8 @@
         "M20"
       ],
       "provenance": "P2",
-      "batch": "JAIN_SIKH_ZOROASTRIAN_CHRISTIAN_BATCH_V6"
+      "batch": "JAIN_SIKH_ZOROASTRIAN_CHRISTIAN_BATCH_V6",
+      "global_claim_id": "G6-S050-Y16"
     },
     {
       "claim_id": "E01",
@@ -8048,7 +8598,8 @@
         "M15"
       ],
       "provenance": "S1",
-      "batch": "JAIN_SIKH_ZOROASTRIAN_CHRISTIAN_BATCH_V6"
+      "batch": "JAIN_SIKH_ZOROASTRIAN_CHRISTIAN_BATCH_V6",
+      "global_claim_id": "G6-S051-E01"
     },
     {
       "claim_id": "E02",
@@ -8063,7 +8614,8 @@
         "M15"
       ],
       "provenance": "S1",
-      "batch": "JAIN_SIKH_ZOROASTRIAN_CHRISTIAN_BATCH_V6"
+      "batch": "JAIN_SIKH_ZOROASTRIAN_CHRISTIAN_BATCH_V6",
+      "global_claim_id": "G6-S051-E02"
     },
     {
       "claim_id": "E03",
@@ -8078,7 +8630,8 @@
         "M25"
       ],
       "provenance": "S1",
-      "batch": "JAIN_SIKH_ZOROASTRIAN_CHRISTIAN_BATCH_V6"
+      "batch": "JAIN_SIKH_ZOROASTRIAN_CHRISTIAN_BATCH_V6",
+      "global_claim_id": "G6-S051-E03"
     },
     {
       "claim_id": "E04",
@@ -8092,7 +8645,8 @@
         "M12"
       ],
       "provenance": "S1",
-      "batch": "JAIN_SIKH_ZOROASTRIAN_CHRISTIAN_BATCH_V6"
+      "batch": "JAIN_SIKH_ZOROASTRIAN_CHRISTIAN_BATCH_V6",
+      "global_claim_id": "G6-S051-E04"
     },
     {
       "claim_id": "E05",
@@ -8107,7 +8661,8 @@
         "M14"
       ],
       "provenance": "S1",
-      "batch": "JAIN_SIKH_ZOROASTRIAN_CHRISTIAN_BATCH_V6"
+      "batch": "JAIN_SIKH_ZOROASTRIAN_CHRISTIAN_BATCH_V6",
+      "global_claim_id": "G6-S051-E05"
     },
     {
       "claim_id": "E06",
@@ -8121,7 +8676,8 @@
         "M15"
       ],
       "provenance": "S1",
-      "batch": "JAIN_SIKH_ZOROASTRIAN_CHRISTIAN_BATCH_V6"
+      "batch": "JAIN_SIKH_ZOROASTRIAN_CHRISTIAN_BATCH_V6",
+      "global_claim_id": "G6-S051-E06"
     },
     {
       "claim_id": "E07",
@@ -8136,7 +8692,8 @@
         "M22"
       ],
       "provenance": "S1",
-      "batch": "JAIN_SIKH_ZOROASTRIAN_CHRISTIAN_BATCH_V6"
+      "batch": "JAIN_SIKH_ZOROASTRIAN_CHRISTIAN_BATCH_V6",
+      "global_claim_id": "G6-S051-E07"
     },
     {
       "claim_id": "E08",
@@ -8150,7 +8707,8 @@
         "M23"
       ],
       "provenance": "S1",
-      "batch": "JAIN_SIKH_ZOROASTRIAN_CHRISTIAN_BATCH_V6"
+      "batch": "JAIN_SIKH_ZOROASTRIAN_CHRISTIAN_BATCH_V6",
+      "global_claim_id": "G6-S051-E08"
     },
     {
       "claim_id": "E09",
@@ -8165,7 +8723,8 @@
         "M14"
       ],
       "provenance": "S1",
-      "batch": "JAIN_SIKH_ZOROASTRIAN_CHRISTIAN_BATCH_V6"
+      "batch": "JAIN_SIKH_ZOROASTRIAN_CHRISTIAN_BATCH_V6",
+      "global_claim_id": "G6-S051-E09"
     },
     {
       "claim_id": "E10",
@@ -8180,7 +8739,8 @@
         "M25"
       ],
       "provenance": "S1",
-      "batch": "JAIN_SIKH_ZOROASTRIAN_CHRISTIAN_BATCH_V6"
+      "batch": "JAIN_SIKH_ZOROASTRIAN_CHRISTIAN_BATCH_V6",
+      "global_claim_id": "G6-S051-E10"
     },
     {
       "claim_id": "E11",
@@ -8194,7 +8754,8 @@
         "M20"
       ],
       "provenance": "S1",
-      "batch": "JAIN_SIKH_ZOROASTRIAN_CHRISTIAN_BATCH_V6"
+      "batch": "JAIN_SIKH_ZOROASTRIAN_CHRISTIAN_BATCH_V6",
+      "global_claim_id": "G6-S051-E11"
     },
     {
       "claim_id": "E12",
@@ -8208,7 +8769,8 @@
         "M23"
       ],
       "provenance": "S1",
-      "batch": "JAIN_SIKH_ZOROASTRIAN_CHRISTIAN_BATCH_V6"
+      "batch": "JAIN_SIKH_ZOROASTRIAN_CHRISTIAN_BATCH_V6",
+      "global_claim_id": "G6-S051-E12"
     },
     {
       "claim_id": "E13",
@@ -8222,7 +8784,8 @@
         "M14"
       ],
       "provenance": "S1",
-      "batch": "JAIN_SIKH_ZOROASTRIAN_CHRISTIAN_BATCH_V6"
+      "batch": "JAIN_SIKH_ZOROASTRIAN_CHRISTIAN_BATCH_V6",
+      "global_claim_id": "G6-S051-E13"
     },
     {
       "claim_id": "E14",
@@ -8236,7 +8799,8 @@
         "M12"
       ],
       "provenance": "S1",
-      "batch": "JAIN_SIKH_ZOROASTRIAN_CHRISTIAN_BATCH_V6"
+      "batch": "JAIN_SIKH_ZOROASTRIAN_CHRISTIAN_BATCH_V6",
+      "global_claim_id": "G6-S051-E14"
     },
     {
       "claim_id": "E15",
@@ -8250,7 +8814,8 @@
         "M15"
       ],
       "provenance": "S1",
-      "batch": "JAIN_SIKH_ZOROASTRIAN_CHRISTIAN_BATCH_V6"
+      "batch": "JAIN_SIKH_ZOROASTRIAN_CHRISTIAN_BATCH_V6",
+      "global_claim_id": "G6-S051-E15"
     },
     {
       "claim_id": "E16",
@@ -8263,7 +8828,8 @@
         "M17"
       ],
       "provenance": "S1",
-      "batch": "JAIN_SIKH_ZOROASTRIAN_CHRISTIAN_BATCH_V6"
+      "batch": "JAIN_SIKH_ZOROASTRIAN_CHRISTIAN_BATCH_V6",
+      "global_claim_id": "G6-S051-E16"
     },
     {
       "claim_id": "PH01",
@@ -8277,7 +8843,8 @@
         "M25"
       ],
       "provenance": "S1",
-      "batch": "JAIN_SIKH_ZOROASTRIAN_CHRISTIAN_BATCH_V6"
+      "batch": "JAIN_SIKH_ZOROASTRIAN_CHRISTIAN_BATCH_V6",
+      "global_claim_id": "G6-S052-PH01"
     },
     {
       "claim_id": "PH02",
@@ -8292,7 +8859,8 @@
         "M25"
       ],
       "provenance": "S1",
-      "batch": "JAIN_SIKH_ZOROASTRIAN_CHRISTIAN_BATCH_V6"
+      "batch": "JAIN_SIKH_ZOROASTRIAN_CHRISTIAN_BATCH_V6",
+      "global_claim_id": "G6-S052-PH02"
     },
     {
       "claim_id": "PH03",
@@ -8306,7 +8874,8 @@
         "M06"
       ],
       "provenance": "S1",
-      "batch": "JAIN_SIKH_ZOROASTRIAN_CHRISTIAN_BATCH_V6"
+      "batch": "JAIN_SIKH_ZOROASTRIAN_CHRISTIAN_BATCH_V6",
+      "global_claim_id": "G6-S052-PH03"
     },
     {
       "claim_id": "PH04",
@@ -8320,7 +8889,8 @@
         "M15"
       ],
       "provenance": "S1",
-      "batch": "JAIN_SIKH_ZOROASTRIAN_CHRISTIAN_BATCH_V6"
+      "batch": "JAIN_SIKH_ZOROASTRIAN_CHRISTIAN_BATCH_V6",
+      "global_claim_id": "G6-S052-PH04"
     },
     {
       "claim_id": "PH05",
@@ -8334,7 +8904,8 @@
         "M14"
       ],
       "provenance": "S1",
-      "batch": "JAIN_SIKH_ZOROASTRIAN_CHRISTIAN_BATCH_V6"
+      "batch": "JAIN_SIKH_ZOROASTRIAN_CHRISTIAN_BATCH_V6",
+      "global_claim_id": "G6-S052-PH05"
     },
     {
       "claim_id": "PH06",
@@ -8348,7 +8919,8 @@
         "M06"
       ],
       "provenance": "S1",
-      "batch": "JAIN_SIKH_ZOROASTRIAN_CHRISTIAN_BATCH_V6"
+      "batch": "JAIN_SIKH_ZOROASTRIAN_CHRISTIAN_BATCH_V6",
+      "global_claim_id": "G6-S052-PH06"
     },
     {
       "claim_id": "PH07",
@@ -8362,7 +8934,8 @@
         "M23"
       ],
       "provenance": "S1",
-      "batch": "JAIN_SIKH_ZOROASTRIAN_CHRISTIAN_BATCH_V6"
+      "batch": "JAIN_SIKH_ZOROASTRIAN_CHRISTIAN_BATCH_V6",
+      "global_claim_id": "G6-S052-PH07"
     },
     {
       "claim_id": "PH08",
@@ -8376,7 +8949,8 @@
         "M25"
       ],
       "provenance": "S1",
-      "batch": "JAIN_SIKH_ZOROASTRIAN_CHRISTIAN_BATCH_V6"
+      "batch": "JAIN_SIKH_ZOROASTRIAN_CHRISTIAN_BATCH_V6",
+      "global_claim_id": "G6-S052-PH08"
     },
     {
       "claim_id": "PH09",
@@ -8390,7 +8964,8 @@
         "M23"
       ],
       "provenance": "S1",
-      "batch": "JAIN_SIKH_ZOROASTRIAN_CHRISTIAN_BATCH_V6"
+      "batch": "JAIN_SIKH_ZOROASTRIAN_CHRISTIAN_BATCH_V6",
+      "global_claim_id": "G6-S052-PH09"
     },
     {
       "claim_id": "PH10",
@@ -8404,7 +8979,8 @@
         "M03"
       ],
       "provenance": "S1",
-      "batch": "JAIN_SIKH_ZOROASTRIAN_CHRISTIAN_BATCH_V6"
+      "batch": "JAIN_SIKH_ZOROASTRIAN_CHRISTIAN_BATCH_V6",
+      "global_claim_id": "G6-S052-PH10"
     },
     {
       "claim_id": "PH11",
@@ -8419,7 +8995,8 @@
         "M23"
       ],
       "provenance": "S1",
-      "batch": "JAIN_SIKH_ZOROASTRIAN_CHRISTIAN_BATCH_V6"
+      "batch": "JAIN_SIKH_ZOROASTRIAN_CHRISTIAN_BATCH_V6",
+      "global_claim_id": "G6-S052-PH11"
     },
     {
       "claim_id": "PH12",
@@ -8434,7 +9011,8 @@
         "M25"
       ],
       "provenance": "S1",
-      "batch": "JAIN_SIKH_ZOROASTRIAN_CHRISTIAN_BATCH_V6"
+      "batch": "JAIN_SIKH_ZOROASTRIAN_CHRISTIAN_BATCH_V6",
+      "global_claim_id": "G6-S052-PH12"
     },
     {
       "claim_id": "PH13",
@@ -8449,7 +9027,8 @@
         "M20"
       ],
       "provenance": "S1",
-      "batch": "JAIN_SIKH_ZOROASTRIAN_CHRISTIAN_BATCH_V6"
+      "batch": "JAIN_SIKH_ZOROASTRIAN_CHRISTIAN_BATCH_V6",
+      "global_claim_id": "G6-S052-PH13"
     },
     {
       "claim_id": "PH14",
@@ -8464,7 +9043,8 @@
         "M22"
       ],
       "provenance": "S1",
-      "batch": "JAIN_SIKH_ZOROASTRIAN_CHRISTIAN_BATCH_V6"
+      "batch": "JAIN_SIKH_ZOROASTRIAN_CHRISTIAN_BATCH_V6",
+      "global_claim_id": "G6-S052-PH14"
     },
     {
       "claim_id": "PH15",
@@ -8478,7 +9058,8 @@
         "M14"
       ],
       "provenance": "S1",
-      "batch": "JAIN_SIKH_ZOROASTRIAN_CHRISTIAN_BATCH_V6"
+      "batch": "JAIN_SIKH_ZOROASTRIAN_CHRISTIAN_BATCH_V6",
+      "global_claim_id": "G6-S052-PH15"
     },
     {
       "claim_id": "PH16",
@@ -8491,7 +9072,8 @@
         "M17"
       ],
       "provenance": "S1",
-      "batch": "JAIN_SIKH_ZOROASTRIAN_CHRISTIAN_BATCH_V6"
+      "batch": "JAIN_SIKH_ZOROASTRIAN_CHRISTIAN_BATCH_V6",
+      "global_claim_id": "G6-S052-PH16"
     },
     {
       "claim_id": "CL01",
@@ -8505,7 +9087,8 @@
         "M25"
       ],
       "provenance": "S1",
-      "batch": "JAIN_SIKH_ZOROASTRIAN_CHRISTIAN_BATCH_V6"
+      "batch": "JAIN_SIKH_ZOROASTRIAN_CHRISTIAN_BATCH_V6",
+      "global_claim_id": "G6-S053-CL01"
     },
     {
       "claim_id": "CL02",
@@ -8520,7 +9103,8 @@
         "M25"
       ],
       "provenance": "S1",
-      "batch": "JAIN_SIKH_ZOROASTRIAN_CHRISTIAN_BATCH_V6"
+      "batch": "JAIN_SIKH_ZOROASTRIAN_CHRISTIAN_BATCH_V6",
+      "global_claim_id": "G6-S053-CL02"
     },
     {
       "claim_id": "CL03",
@@ -8535,7 +9119,8 @@
         "M23"
       ],
       "provenance": "S1",
-      "batch": "JAIN_SIKH_ZOROASTRIAN_CHRISTIAN_BATCH_V6"
+      "batch": "JAIN_SIKH_ZOROASTRIAN_CHRISTIAN_BATCH_V6",
+      "global_claim_id": "G6-S053-CL03"
     },
     {
       "claim_id": "CL04",
@@ -8549,7 +9134,8 @@
         "M12"
       ],
       "provenance": "S1",
-      "batch": "JAIN_SIKH_ZOROASTRIAN_CHRISTIAN_BATCH_V6"
+      "batch": "JAIN_SIKH_ZOROASTRIAN_CHRISTIAN_BATCH_V6",
+      "global_claim_id": "G6-S053-CL04"
     },
     {
       "claim_id": "CL05",
@@ -8563,7 +9149,8 @@
         "M23"
       ],
       "provenance": "S1",
-      "batch": "JAIN_SIKH_ZOROASTRIAN_CHRISTIAN_BATCH_V6"
+      "batch": "JAIN_SIKH_ZOROASTRIAN_CHRISTIAN_BATCH_V6",
+      "global_claim_id": "G6-S053-CL05"
     },
     {
       "claim_id": "CL06",
@@ -8577,7 +9164,8 @@
         "M15"
       ],
       "provenance": "S1",
-      "batch": "JAIN_SIKH_ZOROASTRIAN_CHRISTIAN_BATCH_V6"
+      "batch": "JAIN_SIKH_ZOROASTRIAN_CHRISTIAN_BATCH_V6",
+      "global_claim_id": "G6-S053-CL06"
     },
     {
       "claim_id": "CL07",
@@ -8591,7 +9179,8 @@
         "M15"
       ],
       "provenance": "S1",
-      "batch": "JAIN_SIKH_ZOROASTRIAN_CHRISTIAN_BATCH_V6"
+      "batch": "JAIN_SIKH_ZOROASTRIAN_CHRISTIAN_BATCH_V6",
+      "global_claim_id": "G6-S053-CL07"
     },
     {
       "claim_id": "CL08",
@@ -8605,7 +9194,8 @@
         "M24"
       ],
       "provenance": "S1",
-      "batch": "JAIN_SIKH_ZOROASTRIAN_CHRISTIAN_BATCH_V6"
+      "batch": "JAIN_SIKH_ZOROASTRIAN_CHRISTIAN_BATCH_V6",
+      "global_claim_id": "G6-S053-CL08"
     },
     {
       "claim_id": "CL09",
@@ -8620,7 +9210,8 @@
         "M23"
       ],
       "provenance": "S1",
-      "batch": "JAIN_SIKH_ZOROASTRIAN_CHRISTIAN_BATCH_V6"
+      "batch": "JAIN_SIKH_ZOROASTRIAN_CHRISTIAN_BATCH_V6",
+      "global_claim_id": "G6-S053-CL09"
     },
     {
       "claim_id": "CL10",
@@ -8634,7 +9225,8 @@
         "M24"
       ],
       "provenance": "S1",
-      "batch": "JAIN_SIKH_ZOROASTRIAN_CHRISTIAN_BATCH_V6"
+      "batch": "JAIN_SIKH_ZOROASTRIAN_CHRISTIAN_BATCH_V6",
+      "global_claim_id": "G6-S053-CL10"
     },
     {
       "claim_id": "CL11",
@@ -8648,7 +9240,8 @@
         "M25"
       ],
       "provenance": "S1",
-      "batch": "JAIN_SIKH_ZOROASTRIAN_CHRISTIAN_BATCH_V6"
+      "batch": "JAIN_SIKH_ZOROASTRIAN_CHRISTIAN_BATCH_V6",
+      "global_claim_id": "G6-S053-CL11"
     },
     {
       "claim_id": "CL12",
@@ -8662,7 +9255,8 @@
         "M06"
       ],
       "provenance": "S1",
-      "batch": "JAIN_SIKH_ZOROASTRIAN_CHRISTIAN_BATCH_V6"
+      "batch": "JAIN_SIKH_ZOROASTRIAN_CHRISTIAN_BATCH_V6",
+      "global_claim_id": "G6-S053-CL12"
     },
     {
       "claim_id": "CL13",
@@ -8676,7 +9270,8 @@
         "M14"
       ],
       "provenance": "S1",
-      "batch": "JAIN_SIKH_ZOROASTRIAN_CHRISTIAN_BATCH_V6"
+      "batch": "JAIN_SIKH_ZOROASTRIAN_CHRISTIAN_BATCH_V6",
+      "global_claim_id": "G6-S053-CL13"
     },
     {
       "claim_id": "CL14",
@@ -8690,7 +9285,8 @@
         "M15"
       ],
       "provenance": "S1",
-      "batch": "JAIN_SIKH_ZOROASTRIAN_CHRISTIAN_BATCH_V6"
+      "batch": "JAIN_SIKH_ZOROASTRIAN_CHRISTIAN_BATCH_V6",
+      "global_claim_id": "G6-S053-CL14"
     },
     {
       "claim_id": "CL15",
@@ -8705,7 +9301,8 @@
         "M15"
       ],
       "provenance": "S1",
-      "batch": "JAIN_SIKH_ZOROASTRIAN_CHRISTIAN_BATCH_V6"
+      "batch": "JAIN_SIKH_ZOROASTRIAN_CHRISTIAN_BATCH_V6",
+      "global_claim_id": "G6-S053-CL15"
     },
     {
       "claim_id": "CL16",
@@ -8718,7 +9315,8 @@
         "M17"
       ],
       "provenance": "S1",
-      "batch": "JAIN_SIKH_ZOROASTRIAN_CHRISTIAN_BATCH_V6"
+      "batch": "JAIN_SIKH_ZOROASTRIAN_CHRISTIAN_BATCH_V6",
+      "global_claim_id": "G6-S053-CL16"
     },
     {
       "claim_id": "SU01",
@@ -8733,7 +9331,8 @@
         "M24"
       ],
       "provenance": "P2",
-      "batch": "PRESENCE_RELATIONAL_PERSONHOOD_BATCH_V7"
+      "batch": "PRESENCE_RELATIONAL_PERSONHOOD_BATCH_V7",
+      "global_claim_id": "G7-S054-SU01"
     },
     {
       "claim_id": "SU02",
@@ -8748,7 +9347,8 @@
         "M17"
       ],
       "provenance": "P2",
-      "batch": "PRESENCE_RELATIONAL_PERSONHOOD_BATCH_V7"
+      "batch": "PRESENCE_RELATIONAL_PERSONHOOD_BATCH_V7",
+      "global_claim_id": "G7-S054-SU02"
     },
     {
       "claim_id": "SU03",
@@ -8763,7 +9363,8 @@
         "M06"
       ],
       "provenance": "P2",
-      "batch": "PRESENCE_RELATIONAL_PERSONHOOD_BATCH_V7"
+      "batch": "PRESENCE_RELATIONAL_PERSONHOOD_BATCH_V7",
+      "global_claim_id": "G7-S054-SU03"
     },
     {
       "claim_id": "SU04",
@@ -8778,7 +9379,8 @@
         "M22"
       ],
       "provenance": "P2",
-      "batch": "PRESENCE_RELATIONAL_PERSONHOOD_BATCH_V7"
+      "batch": "PRESENCE_RELATIONAL_PERSONHOOD_BATCH_V7",
+      "global_claim_id": "G7-S054-SU04"
     },
     {
       "claim_id": "SU05",
@@ -8792,7 +9394,8 @@
         "M06"
       ],
       "provenance": "P2",
-      "batch": "PRESENCE_RELATIONAL_PERSONHOOD_BATCH_V7"
+      "batch": "PRESENCE_RELATIONAL_PERSONHOOD_BATCH_V7",
+      "global_claim_id": "G7-S054-SU05"
     },
     {
       "claim_id": "SU06",
@@ -8807,7 +9410,8 @@
         "M22"
       ],
       "provenance": "P2",
-      "batch": "PRESENCE_RELATIONAL_PERSONHOOD_BATCH_V7"
+      "batch": "PRESENCE_RELATIONAL_PERSONHOOD_BATCH_V7",
+      "global_claim_id": "G7-S054-SU06"
     },
     {
       "claim_id": "SU07",
@@ -8821,7 +9425,8 @@
         "M14"
       ],
       "provenance": "P2",
-      "batch": "PRESENCE_RELATIONAL_PERSONHOOD_BATCH_V7"
+      "batch": "PRESENCE_RELATIONAL_PERSONHOOD_BATCH_V7",
+      "global_claim_id": "G7-S054-SU07"
     },
     {
       "claim_id": "SU08",
@@ -8836,7 +9441,8 @@
         "M14"
       ],
       "provenance": "P2",
-      "batch": "PRESENCE_RELATIONAL_PERSONHOOD_BATCH_V7"
+      "batch": "PRESENCE_RELATIONAL_PERSONHOOD_BATCH_V7",
+      "global_claim_id": "G7-S054-SU08"
     },
     {
       "claim_id": "SU09",
@@ -8850,7 +9456,8 @@
         "M20"
       ],
       "provenance": "P2",
-      "batch": "PRESENCE_RELATIONAL_PERSONHOOD_BATCH_V7"
+      "batch": "PRESENCE_RELATIONAL_PERSONHOOD_BATCH_V7",
+      "global_claim_id": "G7-S054-SU09"
     },
     {
       "claim_id": "SU10",
@@ -8864,7 +9471,8 @@
         "M22"
       ],
       "provenance": "P2",
-      "batch": "PRESENCE_RELATIONAL_PERSONHOOD_BATCH_V7"
+      "batch": "PRESENCE_RELATIONAL_PERSONHOOD_BATCH_V7",
+      "global_claim_id": "G7-S054-SU10"
     },
     {
       "claim_id": "SU11",
@@ -8879,7 +9487,8 @@
         "M22"
       ],
       "provenance": "P2",
-      "batch": "PRESENCE_RELATIONAL_PERSONHOOD_BATCH_V7"
+      "batch": "PRESENCE_RELATIONAL_PERSONHOOD_BATCH_V7",
+      "global_claim_id": "G7-S054-SU11"
     },
     {
       "claim_id": "SU12",
@@ -8893,7 +9502,8 @@
         "M20"
       ],
       "provenance": "P2",
-      "batch": "PRESENCE_RELATIONAL_PERSONHOOD_BATCH_V7"
+      "batch": "PRESENCE_RELATIONAL_PERSONHOOD_BATCH_V7",
+      "global_claim_id": "G7-S054-SU12"
     },
     {
       "claim_id": "SU13",
@@ -8908,7 +9518,8 @@
         "M15"
       ],
       "provenance": "P2",
-      "batch": "PRESENCE_RELATIONAL_PERSONHOOD_BATCH_V7"
+      "batch": "PRESENCE_RELATIONAL_PERSONHOOD_BATCH_V7",
+      "global_claim_id": "G7-S054-SU13"
     },
     {
       "claim_id": "SU14",
@@ -8923,7 +9534,8 @@
         "M25"
       ],
       "provenance": "P2",
-      "batch": "PRESENCE_RELATIONAL_PERSONHOOD_BATCH_V7"
+      "batch": "PRESENCE_RELATIONAL_PERSONHOOD_BATCH_V7",
+      "global_claim_id": "G7-S054-SU14"
     },
     {
       "claim_id": "SU15",
@@ -8938,7 +9550,8 @@
         "M25"
       ],
       "provenance": "P2",
-      "batch": "PRESENCE_RELATIONAL_PERSONHOOD_BATCH_V7"
+      "batch": "PRESENCE_RELATIONAL_PERSONHOOD_BATCH_V7",
+      "global_claim_id": "G7-S054-SU15"
     },
     {
       "claim_id": "SU16",
@@ -8954,7 +9567,8 @@
         "M20"
       ],
       "provenance": "P2",
-      "batch": "PRESENCE_RELATIONAL_PERSONHOOD_BATCH_V7"
+      "batch": "PRESENCE_RELATIONAL_PERSONHOOD_BATCH_V7",
+      "global_claim_id": "G7-S054-SU16"
     },
     {
       "claim_id": "SU17",
@@ -8969,7 +9583,8 @@
         "M21"
       ],
       "provenance": "P2",
-      "batch": "PRESENCE_RELATIONAL_PERSONHOOD_BATCH_V7"
+      "batch": "PRESENCE_RELATIONAL_PERSONHOOD_BATCH_V7",
+      "global_claim_id": "G7-S054-SU17"
     },
     {
       "claim_id": "SU18",
@@ -8983,7 +9598,8 @@
         "M06"
       ],
       "provenance": "P2",
-      "batch": "PRESENCE_RELATIONAL_PERSONHOOD_BATCH_V7"
+      "batch": "PRESENCE_RELATIONAL_PERSONHOOD_BATCH_V7",
+      "global_claim_id": "G7-S054-SU18"
     },
     {
       "claim_id": "SU19",
@@ -8997,7 +9613,8 @@
         "M04"
       ],
       "provenance": "P2",
-      "batch": "PRESENCE_RELATIONAL_PERSONHOOD_BATCH_V7"
+      "batch": "PRESENCE_RELATIONAL_PERSONHOOD_BATCH_V7",
+      "global_claim_id": "G7-S054-SU19"
     },
     {
       "claim_id": "SU20",
@@ -9013,7 +9630,8 @@
         "M20"
       ],
       "provenance": "P2",
-      "batch": "PRESENCE_RELATIONAL_PERSONHOOD_BATCH_V7"
+      "batch": "PRESENCE_RELATIONAL_PERSONHOOD_BATCH_V7",
+      "global_claim_id": "G7-S054-SU20"
     },
     {
       "claim_id": "YO01",
@@ -9028,7 +9646,8 @@
         "M16"
       ],
       "provenance": "S1",
-      "batch": "PRESENCE_RELATIONAL_PERSONHOOD_BATCH_V7"
+      "batch": "PRESENCE_RELATIONAL_PERSONHOOD_BATCH_V7",
+      "global_claim_id": "G7-S055-YO01"
     },
     {
       "claim_id": "YO02",
@@ -9043,7 +9662,8 @@
         "M16"
       ],
       "provenance": "S1",
-      "batch": "PRESENCE_RELATIONAL_PERSONHOOD_BATCH_V7"
+      "batch": "PRESENCE_RELATIONAL_PERSONHOOD_BATCH_V7",
+      "global_claim_id": "G7-S055-YO02"
     },
     {
       "claim_id": "YO03",
@@ -9058,7 +9678,8 @@
         "M13"
       ],
       "provenance": "S1",
-      "batch": "PRESENCE_RELATIONAL_PERSONHOOD_BATCH_V7"
+      "batch": "PRESENCE_RELATIONAL_PERSONHOOD_BATCH_V7",
+      "global_claim_id": "G7-S055-YO03"
     },
     {
       "claim_id": "YO04",
@@ -9073,7 +9694,8 @@
         "M24"
       ],
       "provenance": "S1",
-      "batch": "PRESENCE_RELATIONAL_PERSONHOOD_BATCH_V7"
+      "batch": "PRESENCE_RELATIONAL_PERSONHOOD_BATCH_V7",
+      "global_claim_id": "G7-S055-YO04"
     },
     {
       "claim_id": "YO05",
@@ -9088,7 +9710,8 @@
         "M20"
       ],
       "provenance": "S1",
-      "batch": "PRESENCE_RELATIONAL_PERSONHOOD_BATCH_V7"
+      "batch": "PRESENCE_RELATIONAL_PERSONHOOD_BATCH_V7",
+      "global_claim_id": "G7-S055-YO05"
     },
     {
       "claim_id": "YO06",
@@ -9103,7 +9726,8 @@
         "M20"
       ],
       "provenance": "S1",
-      "batch": "PRESENCE_RELATIONAL_PERSONHOOD_BATCH_V7"
+      "batch": "PRESENCE_RELATIONAL_PERSONHOOD_BATCH_V7",
+      "global_claim_id": "G7-S055-YO06"
     },
     {
       "claim_id": "YO07",
@@ -9118,7 +9742,8 @@
         "M12"
       ],
       "provenance": "S1",
-      "batch": "PRESENCE_RELATIONAL_PERSONHOOD_BATCH_V7"
+      "batch": "PRESENCE_RELATIONAL_PERSONHOOD_BATCH_V7",
+      "global_claim_id": "G7-S055-YO07"
     },
     {
       "claim_id": "YO08",
@@ -9132,7 +9757,8 @@
         "M25"
       ],
       "provenance": "S1",
-      "batch": "PRESENCE_RELATIONAL_PERSONHOOD_BATCH_V7"
+      "batch": "PRESENCE_RELATIONAL_PERSONHOOD_BATCH_V7",
+      "global_claim_id": "G7-S055-YO08"
     },
     {
       "claim_id": "YO09",
@@ -9147,7 +9773,8 @@
         "M16"
       ],
       "provenance": "S1",
-      "batch": "PRESENCE_RELATIONAL_PERSONHOOD_BATCH_V7"
+      "batch": "PRESENCE_RELATIONAL_PERSONHOOD_BATCH_V7",
+      "global_claim_id": "G7-S055-YO09"
     },
     {
       "claim_id": "YO10",
@@ -9162,7 +9789,8 @@
         "M08"
       ],
       "provenance": "S1",
-      "batch": "PRESENCE_RELATIONAL_PERSONHOOD_BATCH_V7"
+      "batch": "PRESENCE_RELATIONAL_PERSONHOOD_BATCH_V7",
+      "global_claim_id": "G7-S055-YO10"
     },
     {
       "claim_id": "YO11",
@@ -9177,7 +9805,8 @@
         "M20"
       ],
       "provenance": "S1",
-      "batch": "PRESENCE_RELATIONAL_PERSONHOOD_BATCH_V7"
+      "batch": "PRESENCE_RELATIONAL_PERSONHOOD_BATCH_V7",
+      "global_claim_id": "G7-S055-YO11"
     },
     {
       "claim_id": "YO12",
@@ -9192,7 +9821,8 @@
         "M24"
       ],
       "provenance": "S1",
-      "batch": "PRESENCE_RELATIONAL_PERSONHOOD_BATCH_V7"
+      "batch": "PRESENCE_RELATIONAL_PERSONHOOD_BATCH_V7",
+      "global_claim_id": "G7-S055-YO12"
     },
     {
       "claim_id": "YO13",
@@ -9206,7 +9836,8 @@
         "M12"
       ],
       "provenance": "S1",
-      "batch": "PRESENCE_RELATIONAL_PERSONHOOD_BATCH_V7"
+      "batch": "PRESENCE_RELATIONAL_PERSONHOOD_BATCH_V7",
+      "global_claim_id": "G7-S055-YO13"
     },
     {
       "claim_id": "YO14",
@@ -9222,7 +9853,8 @@
         "M16"
       ],
       "provenance": "S1",
-      "batch": "PRESENCE_RELATIONAL_PERSONHOOD_BATCH_V7"
+      "batch": "PRESENCE_RELATIONAL_PERSONHOOD_BATCH_V7",
+      "global_claim_id": "G7-S055-YO14"
     },
     {
       "claim_id": "YO15",
@@ -9236,7 +9868,8 @@
         "M04"
       ],
       "provenance": "S1",
-      "batch": "PRESENCE_RELATIONAL_PERSONHOOD_BATCH_V7"
+      "batch": "PRESENCE_RELATIONAL_PERSONHOOD_BATCH_V7",
+      "global_claim_id": "G7-S055-YO15"
     },
     {
       "claim_id": "YO16",
@@ -9251,7 +9884,8 @@
         "M20"
       ],
       "provenance": "S1",
-      "batch": "PRESENCE_RELATIONAL_PERSONHOOD_BATCH_V7"
+      "batch": "PRESENCE_RELATIONAL_PERSONHOOD_BATCH_V7",
+      "global_claim_id": "G7-S055-YO16"
     },
     {
       "claim_id": "YO17",
@@ -9266,7 +9900,8 @@
         "M25"
       ],
       "provenance": "S1",
-      "batch": "PRESENCE_RELATIONAL_PERSONHOOD_BATCH_V7"
+      "batch": "PRESENCE_RELATIONAL_PERSONHOOD_BATCH_V7",
+      "global_claim_id": "G7-S055-YO17"
     },
     {
       "claim_id": "YO18",
@@ -9280,7 +9915,8 @@
         "M12"
       ],
       "provenance": "S1",
-      "batch": "PRESENCE_RELATIONAL_PERSONHOOD_BATCH_V7"
+      "batch": "PRESENCE_RELATIONAL_PERSONHOOD_BATCH_V7",
+      "global_claim_id": "G7-S055-YO18"
     },
     {
       "claim_id": "YO19",
@@ -9295,7 +9931,8 @@
         "M08"
       ],
       "provenance": "S1",
-      "batch": "PRESENCE_RELATIONAL_PERSONHOOD_BATCH_V7"
+      "batch": "PRESENCE_RELATIONAL_PERSONHOOD_BATCH_V7",
+      "global_claim_id": "G7-S055-YO19"
     },
     {
       "claim_id": "YO20",
@@ -9308,7 +9945,8 @@
         "M17"
       ],
       "provenance": "S1",
-      "batch": "PRESENCE_RELATIONAL_PERSONHOOD_BATCH_V7"
+      "batch": "PRESENCE_RELATIONAL_PERSONHOOD_BATCH_V7",
+      "global_claim_id": "G7-S055-YO20"
     },
     {
       "claim_id": "MA01",
@@ -9323,7 +9961,8 @@
         "M20"
       ],
       "provenance": "S1",
-      "batch": "PRESENCE_RELATIONAL_PERSONHOOD_BATCH_V7"
+      "batch": "PRESENCE_RELATIONAL_PERSONHOOD_BATCH_V7",
+      "global_claim_id": "G7-S056-MA01"
     },
     {
       "claim_id": "MA02",
@@ -9338,7 +9977,8 @@
         "M20"
       ],
       "provenance": "S1",
-      "batch": "PRESENCE_RELATIONAL_PERSONHOOD_BATCH_V7"
+      "batch": "PRESENCE_RELATIONAL_PERSONHOOD_BATCH_V7",
+      "global_claim_id": "G7-S056-MA02"
     },
     {
       "claim_id": "MA03",
@@ -9352,7 +9992,8 @@
         "M19"
       ],
       "provenance": "S1",
-      "batch": "PRESENCE_RELATIONAL_PERSONHOOD_BATCH_V7"
+      "batch": "PRESENCE_RELATIONAL_PERSONHOOD_BATCH_V7",
+      "global_claim_id": "G7-S056-MA03"
     },
     {
       "claim_id": "MA04",
@@ -9368,7 +10009,8 @@
         "M21"
       ],
       "provenance": "S1",
-      "batch": "PRESENCE_RELATIONAL_PERSONHOOD_BATCH_V7"
+      "batch": "PRESENCE_RELATIONAL_PERSONHOOD_BATCH_V7",
+      "global_claim_id": "G7-S056-MA04"
     },
     {
       "claim_id": "MA05",
@@ -9383,7 +10025,8 @@
         "M16"
       ],
       "provenance": "S1",
-      "batch": "PRESENCE_RELATIONAL_PERSONHOOD_BATCH_V7"
+      "batch": "PRESENCE_RELATIONAL_PERSONHOOD_BATCH_V7",
+      "global_claim_id": "G7-S056-MA05"
     },
     {
       "claim_id": "MA06",
@@ -9397,7 +10040,8 @@
         "M25"
       ],
       "provenance": "S1",
-      "batch": "PRESENCE_RELATIONAL_PERSONHOOD_BATCH_V7"
+      "batch": "PRESENCE_RELATIONAL_PERSONHOOD_BATCH_V7",
+      "global_claim_id": "G7-S056-MA06"
     },
     {
       "claim_id": "MA07",
@@ -9411,7 +10055,8 @@
         "M24"
       ],
       "provenance": "S1",
-      "batch": "PRESENCE_RELATIONAL_PERSONHOOD_BATCH_V7"
+      "batch": "PRESENCE_RELATIONAL_PERSONHOOD_BATCH_V7",
+      "global_claim_id": "G7-S056-MA07"
     },
     {
       "claim_id": "MA08",
@@ -9426,7 +10071,8 @@
         "M20"
       ],
       "provenance": "S1",
-      "batch": "PRESENCE_RELATIONAL_PERSONHOOD_BATCH_V7"
+      "batch": "PRESENCE_RELATIONAL_PERSONHOOD_BATCH_V7",
+      "global_claim_id": "G7-S056-MA08"
     },
     {
       "claim_id": "MA09",
@@ -9440,7 +10086,8 @@
         "M16"
       ],
       "provenance": "S1",
-      "batch": "PRESENCE_RELATIONAL_PERSONHOOD_BATCH_V7"
+      "batch": "PRESENCE_RELATIONAL_PERSONHOOD_BATCH_V7",
+      "global_claim_id": "G7-S056-MA09"
     },
     {
       "claim_id": "MA10",
@@ -9455,7 +10102,8 @@
         "M20"
       ],
       "provenance": "S1",
-      "batch": "PRESENCE_RELATIONAL_PERSONHOOD_BATCH_V7"
+      "batch": "PRESENCE_RELATIONAL_PERSONHOOD_BATCH_V7",
+      "global_claim_id": "G7-S056-MA10"
     },
     {
       "claim_id": "MA11",
@@ -9469,7 +10117,8 @@
         "M17"
       ],
       "provenance": "S1",
-      "batch": "PRESENCE_RELATIONAL_PERSONHOOD_BATCH_V7"
+      "batch": "PRESENCE_RELATIONAL_PERSONHOOD_BATCH_V7",
+      "global_claim_id": "G7-S056-MA11"
     },
     {
       "claim_id": "MA12",
@@ -9484,7 +10133,8 @@
         "M21"
       ],
       "provenance": "S1",
-      "batch": "PRESENCE_RELATIONAL_PERSONHOOD_BATCH_V7"
+      "batch": "PRESENCE_RELATIONAL_PERSONHOOD_BATCH_V7",
+      "global_claim_id": "G7-S056-MA12"
     },
     {
       "claim_id": "MA13",
@@ -9499,7 +10149,8 @@
         "M21"
       ],
       "provenance": "S1",
-      "batch": "PRESENCE_RELATIONAL_PERSONHOOD_BATCH_V7"
+      "batch": "PRESENCE_RELATIONAL_PERSONHOOD_BATCH_V7",
+      "global_claim_id": "G7-S056-MA13"
     },
     {
       "claim_id": "MA14",
@@ -9514,7 +10165,8 @@
         "M20"
       ],
       "provenance": "S1",
-      "batch": "PRESENCE_RELATIONAL_PERSONHOOD_BATCH_V7"
+      "batch": "PRESENCE_RELATIONAL_PERSONHOOD_BATCH_V7",
+      "global_claim_id": "G7-S056-MA14"
     },
     {
       "claim_id": "MA15",
@@ -9528,7 +10180,8 @@
         "M16"
       ],
       "provenance": "S1",
-      "batch": "PRESENCE_RELATIONAL_PERSONHOOD_BATCH_V7"
+      "batch": "PRESENCE_RELATIONAL_PERSONHOOD_BATCH_V7",
+      "global_claim_id": "G7-S056-MA15"
     },
     {
       "claim_id": "MA16",
@@ -9542,7 +10195,8 @@
         "M25"
       ],
       "provenance": "S1",
-      "batch": "PRESENCE_RELATIONAL_PERSONHOOD_BATCH_V7"
+      "batch": "PRESENCE_RELATIONAL_PERSONHOOD_BATCH_V7",
+      "global_claim_id": "G7-S056-MA16"
     },
     {
       "claim_id": "MA17",
@@ -9557,7 +10211,8 @@
         "M20"
       ],
       "provenance": "S1",
-      "batch": "PRESENCE_RELATIONAL_PERSONHOOD_BATCH_V7"
+      "batch": "PRESENCE_RELATIONAL_PERSONHOOD_BATCH_V7",
+      "global_claim_id": "G7-S056-MA17"
     },
     {
       "claim_id": "MA18",
@@ -9571,7 +10226,8 @@
         "M16"
       ],
       "provenance": "S1",
-      "batch": "PRESENCE_RELATIONAL_PERSONHOOD_BATCH_V7"
+      "batch": "PRESENCE_RELATIONAL_PERSONHOOD_BATCH_V7",
+      "global_claim_id": "G7-S056-MA18"
     },
     {
       "claim_id": "MA19",
@@ -9586,7 +10242,8 @@
         "M20"
       ],
       "provenance": "S1",
-      "batch": "PRESENCE_RELATIONAL_PERSONHOOD_BATCH_V7"
+      "batch": "PRESENCE_RELATIONAL_PERSONHOOD_BATCH_V7",
+      "global_claim_id": "G7-S056-MA19"
     },
     {
       "claim_id": "MA20",
@@ -9601,7 +10258,8 @@
         "M16"
       ],
       "provenance": "S1",
-      "batch": "PRESENCE_RELATIONAL_PERSONHOOD_BATCH_V7"
+      "batch": "PRESENCE_RELATIONAL_PERSONHOOD_BATCH_V7",
+      "global_claim_id": "G7-S056-MA20"
     },
     {
       "claim_id": "HA01",
@@ -9615,7 +10273,8 @@
         "M25"
       ],
       "provenance": "S1",
-      "batch": "PRESENCE_RELATIONAL_PERSONHOOD_BATCH_V7"
+      "batch": "PRESENCE_RELATIONAL_PERSONHOOD_BATCH_V7",
+      "global_claim_id": "G7-S057-HA01"
     },
     {
       "claim_id": "HA02",
@@ -9630,7 +10289,8 @@
         "M24"
       ],
       "provenance": "S1",
-      "batch": "PRESENCE_RELATIONAL_PERSONHOOD_BATCH_V7"
+      "batch": "PRESENCE_RELATIONAL_PERSONHOOD_BATCH_V7",
+      "global_claim_id": "G7-S057-HA02"
     },
     {
       "claim_id": "HA03",
@@ -9645,7 +10305,8 @@
         "M20"
       ],
       "provenance": "S1",
-      "batch": "PRESENCE_RELATIONAL_PERSONHOOD_BATCH_V7"
+      "batch": "PRESENCE_RELATIONAL_PERSONHOOD_BATCH_V7",
+      "global_claim_id": "G7-S057-HA03"
     },
     {
       "claim_id": "HA04",
@@ -9660,7 +10321,8 @@
         "M20"
       ],
       "provenance": "S1",
-      "batch": "PRESENCE_RELATIONAL_PERSONHOOD_BATCH_V7"
+      "batch": "PRESENCE_RELATIONAL_PERSONHOOD_BATCH_V7",
+      "global_claim_id": "G7-S057-HA04"
     },
     {
       "claim_id": "HA05",
@@ -9675,7 +10337,8 @@
         "M20"
       ],
       "provenance": "S1",
-      "batch": "PRESENCE_RELATIONAL_PERSONHOOD_BATCH_V7"
+      "batch": "PRESENCE_RELATIONAL_PERSONHOOD_BATCH_V7",
+      "global_claim_id": "G7-S057-HA05"
     },
     {
       "claim_id": "HA06",
@@ -9690,7 +10353,8 @@
         "M20"
       ],
       "provenance": "S1",
-      "batch": "PRESENCE_RELATIONAL_PERSONHOOD_BATCH_V7"
+      "batch": "PRESENCE_RELATIONAL_PERSONHOOD_BATCH_V7",
+      "global_claim_id": "G7-S057-HA06"
     },
     {
       "claim_id": "HA07",
@@ -9705,7 +10369,8 @@
         "M20"
       ],
       "provenance": "S1",
-      "batch": "PRESENCE_RELATIONAL_PERSONHOOD_BATCH_V7"
+      "batch": "PRESENCE_RELATIONAL_PERSONHOOD_BATCH_V7",
+      "global_claim_id": "G7-S057-HA07"
     },
     {
       "claim_id": "HA08",
@@ -9719,7 +10384,8 @@
         "M20"
       ],
       "provenance": "S1",
-      "batch": "PRESENCE_RELATIONAL_PERSONHOOD_BATCH_V7"
+      "batch": "PRESENCE_RELATIONAL_PERSONHOOD_BATCH_V7",
+      "global_claim_id": "G7-S057-HA08"
     },
     {
       "claim_id": "HA09",
@@ -9734,7 +10400,8 @@
         "M20"
       ],
       "provenance": "S1",
-      "batch": "PRESENCE_RELATIONAL_PERSONHOOD_BATCH_V7"
+      "batch": "PRESENCE_RELATIONAL_PERSONHOOD_BATCH_V7",
+      "global_claim_id": "G7-S057-HA09"
     },
     {
       "claim_id": "HA10",
@@ -9748,7 +10415,8 @@
         "M20"
       ],
       "provenance": "S1",
-      "batch": "PRESENCE_RELATIONAL_PERSONHOOD_BATCH_V7"
+      "batch": "PRESENCE_RELATIONAL_PERSONHOOD_BATCH_V7",
+      "global_claim_id": "G7-S057-HA10"
     },
     {
       "claim_id": "HA11",
@@ -9763,7 +10431,8 @@
         "M20"
       ],
       "provenance": "S1",
-      "batch": "PRESENCE_RELATIONAL_PERSONHOOD_BATCH_V7"
+      "batch": "PRESENCE_RELATIONAL_PERSONHOOD_BATCH_V7",
+      "global_claim_id": "G7-S057-HA11"
     },
     {
       "claim_id": "HA12",
@@ -9778,7 +10447,8 @@
         "M20"
       ],
       "provenance": "S1",
-      "batch": "PRESENCE_RELATIONAL_PERSONHOOD_BATCH_V7"
+      "batch": "PRESENCE_RELATIONAL_PERSONHOOD_BATCH_V7",
+      "global_claim_id": "G7-S057-HA12"
     },
     {
       "claim_id": "HA13",
@@ -9792,7 +10462,8 @@
         "M20"
       ],
       "provenance": "S1",
-      "batch": "PRESENCE_RELATIONAL_PERSONHOOD_BATCH_V7"
+      "batch": "PRESENCE_RELATIONAL_PERSONHOOD_BATCH_V7",
+      "global_claim_id": "G7-S057-HA13"
     },
     {
       "claim_id": "HA14",
@@ -9807,7 +10478,8 @@
         "M25"
       ],
       "provenance": "S1",
-      "batch": "PRESENCE_RELATIONAL_PERSONHOOD_BATCH_V7"
+      "batch": "PRESENCE_RELATIONAL_PERSONHOOD_BATCH_V7",
+      "global_claim_id": "G7-S057-HA14"
     },
     {
       "claim_id": "HA15",
@@ -9822,7 +10494,8 @@
         "M20"
       ],
       "provenance": "S1",
-      "batch": "PRESENCE_RELATIONAL_PERSONHOOD_BATCH_V7"
+      "batch": "PRESENCE_RELATIONAL_PERSONHOOD_BATCH_V7",
+      "global_claim_id": "G7-S057-HA15"
     },
     {
       "claim_id": "HA16",
@@ -9837,7 +10510,8 @@
         "M24"
       ],
       "provenance": "S1",
-      "batch": "PRESENCE_RELATIONAL_PERSONHOOD_BATCH_V7"
+      "batch": "PRESENCE_RELATIONAL_PERSONHOOD_BATCH_V7",
+      "global_claim_id": "G7-S057-HA16"
     },
     {
       "claim_id": "HA17",
@@ -9852,7 +10526,8 @@
         "M20"
       ],
       "provenance": "S1",
-      "batch": "PRESENCE_RELATIONAL_PERSONHOOD_BATCH_V7"
+      "batch": "PRESENCE_RELATIONAL_PERSONHOOD_BATCH_V7",
+      "global_claim_id": "G7-S057-HA17"
     },
     {
       "claim_id": "HA18",
@@ -9867,7 +10542,8 @@
         "M25"
       ],
       "provenance": "S1",
-      "batch": "PRESENCE_RELATIONAL_PERSONHOOD_BATCH_V7"
+      "batch": "PRESENCE_RELATIONAL_PERSONHOOD_BATCH_V7",
+      "global_claim_id": "G7-S057-HA18"
     },
     {
       "claim_id": "HA19",
@@ -9881,7 +10557,8 @@
         "M24"
       ],
       "provenance": "S1",
-      "batch": "PRESENCE_RELATIONAL_PERSONHOOD_BATCH_V7"
+      "batch": "PRESENCE_RELATIONAL_PERSONHOOD_BATCH_V7",
+      "global_claim_id": "G7-S057-HA19"
     },
     {
       "claim_id": "HA20",
@@ -9894,7 +10571,8 @@
         "M17"
       ],
       "provenance": "S1",
-      "batch": "PRESENCE_RELATIONAL_PERSONHOOD_BATCH_V7"
+      "batch": "PRESENCE_RELATIONAL_PERSONHOOD_BATCH_V7",
+      "global_claim_id": "G7-S057-HA20"
     },
     {
       "claim_id": "BT01",
@@ -9908,7 +10586,8 @@
         "M20"
       ],
       "provenance": "P2",
-      "batch": "PRESENCE_RELATIONAL_PERSONHOOD_BATCH_V7"
+      "batch": "PRESENCE_RELATIONAL_PERSONHOOD_BATCH_V7",
+      "global_claim_id": "G7-S058-BT01"
     },
     {
       "claim_id": "BT02",
@@ -9922,7 +10601,8 @@
         "M20"
       ],
       "provenance": "P2",
-      "batch": "PRESENCE_RELATIONAL_PERSONHOOD_BATCH_V7"
+      "batch": "PRESENCE_RELATIONAL_PERSONHOOD_BATCH_V7",
+      "global_claim_id": "G7-S058-BT02"
     },
     {
       "claim_id": "BT03",
@@ -9936,7 +10616,8 @@
         "M20"
       ],
       "provenance": "P2",
-      "batch": "PRESENCE_RELATIONAL_PERSONHOOD_BATCH_V7"
+      "batch": "PRESENCE_RELATIONAL_PERSONHOOD_BATCH_V7",
+      "global_claim_id": "G7-S058-BT03"
     },
     {
       "claim_id": "BT04",
@@ -9951,7 +10632,8 @@
         "M20"
       ],
       "provenance": "P2",
-      "batch": "PRESENCE_RELATIONAL_PERSONHOOD_BATCH_V7"
+      "batch": "PRESENCE_RELATIONAL_PERSONHOOD_BATCH_V7",
+      "global_claim_id": "G7-S058-BT04"
     },
     {
       "claim_id": "BT05",
@@ -9966,7 +10648,8 @@
         "M20"
       ],
       "provenance": "P2",
-      "batch": "PRESENCE_RELATIONAL_PERSONHOOD_BATCH_V7"
+      "batch": "PRESENCE_RELATIONAL_PERSONHOOD_BATCH_V7",
+      "global_claim_id": "G7-S058-BT05"
     },
     {
       "claim_id": "BT06",
@@ -9980,7 +10663,8 @@
         "M12"
       ],
       "provenance": "P2",
-      "batch": "PRESENCE_RELATIONAL_PERSONHOOD_BATCH_V7"
+      "batch": "PRESENCE_RELATIONAL_PERSONHOOD_BATCH_V7",
+      "global_claim_id": "G7-S058-BT06"
     },
     {
       "claim_id": "BT07",
@@ -9995,7 +10679,8 @@
         "M20"
       ],
       "provenance": "P2",
-      "batch": "PRESENCE_RELATIONAL_PERSONHOOD_BATCH_V7"
+      "batch": "PRESENCE_RELATIONAL_PERSONHOOD_BATCH_V7",
+      "global_claim_id": "G7-S058-BT07"
     },
     {
       "claim_id": "BT08",
@@ -10010,7 +10695,8 @@
         "M16"
       ],
       "provenance": "P2",
-      "batch": "PRESENCE_RELATIONAL_PERSONHOOD_BATCH_V7"
+      "batch": "PRESENCE_RELATIONAL_PERSONHOOD_BATCH_V7",
+      "global_claim_id": "G7-S058-BT08"
     },
     {
       "claim_id": "BT09",
@@ -10025,7 +10711,8 @@
         "M12"
       ],
       "provenance": "P2",
-      "batch": "PRESENCE_RELATIONAL_PERSONHOOD_BATCH_V7"
+      "batch": "PRESENCE_RELATIONAL_PERSONHOOD_BATCH_V7",
+      "global_claim_id": "G7-S058-BT09"
     },
     {
       "claim_id": "BT10",
@@ -10040,7 +10727,8 @@
         "M20"
       ],
       "provenance": "P2",
-      "batch": "PRESENCE_RELATIONAL_PERSONHOOD_BATCH_V7"
+      "batch": "PRESENCE_RELATIONAL_PERSONHOOD_BATCH_V7",
+      "global_claim_id": "G7-S058-BT10"
     },
     {
       "claim_id": "BT11",
@@ -10055,7 +10743,8 @@
         "M17"
       ],
       "provenance": "P2",
-      "batch": "PRESENCE_RELATIONAL_PERSONHOOD_BATCH_V7"
+      "batch": "PRESENCE_RELATIONAL_PERSONHOOD_BATCH_V7",
+      "global_claim_id": "G7-S058-BT11"
     },
     {
       "claim_id": "BT12",
@@ -10070,7 +10759,8 @@
         "M22"
       ],
       "provenance": "P2",
-      "batch": "PRESENCE_RELATIONAL_PERSONHOOD_BATCH_V7"
+      "batch": "PRESENCE_RELATIONAL_PERSONHOOD_BATCH_V7",
+      "global_claim_id": "G7-S058-BT12"
     },
     {
       "claim_id": "BT13",
@@ -10085,7 +10775,8 @@
         "M24"
       ],
       "provenance": "P2",
-      "batch": "PRESENCE_RELATIONAL_PERSONHOOD_BATCH_V7"
+      "batch": "PRESENCE_RELATIONAL_PERSONHOOD_BATCH_V7",
+      "global_claim_id": "G7-S058-BT13"
     },
     {
       "claim_id": "BT14",
@@ -10100,7 +10791,8 @@
         "M20"
       ],
       "provenance": "P2",
-      "batch": "PRESENCE_RELATIONAL_PERSONHOOD_BATCH_V7"
+      "batch": "PRESENCE_RELATIONAL_PERSONHOOD_BATCH_V7",
+      "global_claim_id": "G7-S058-BT14"
     },
     {
       "claim_id": "BT15",
@@ -10115,7 +10807,8 @@
         "M21"
       ],
       "provenance": "P2",
-      "batch": "PRESENCE_RELATIONAL_PERSONHOOD_BATCH_V7"
+      "batch": "PRESENCE_RELATIONAL_PERSONHOOD_BATCH_V7",
+      "global_claim_id": "G7-S058-BT15"
     },
     {
       "claim_id": "BT16",
@@ -10130,7 +10823,8 @@
         "M09"
       ],
       "provenance": "P2",
-      "batch": "PRESENCE_RELATIONAL_PERSONHOOD_BATCH_V7"
+      "batch": "PRESENCE_RELATIONAL_PERSONHOOD_BATCH_V7",
+      "global_claim_id": "G7-S058-BT16"
     },
     {
       "claim_id": "BT17",
@@ -10145,7 +10839,8 @@
         "M17"
       ],
       "provenance": "P2",
-      "batch": "PRESENCE_RELATIONAL_PERSONHOOD_BATCH_V7"
+      "batch": "PRESENCE_RELATIONAL_PERSONHOOD_BATCH_V7",
+      "global_claim_id": "G7-S058-BT17"
     },
     {
       "claim_id": "BT18",
@@ -10160,7 +10855,8 @@
         "M23"
       ],
       "provenance": "P2",
-      "batch": "PRESENCE_RELATIONAL_PERSONHOOD_BATCH_V7"
+      "batch": "PRESENCE_RELATIONAL_PERSONHOOD_BATCH_V7",
+      "global_claim_id": "G7-S058-BT18"
     },
     {
       "claim_id": "BT19",
@@ -10173,7 +10869,8 @@
         "M17"
       ],
       "provenance": "P2",
-      "batch": "PRESENCE_RELATIONAL_PERSONHOOD_BATCH_V7"
+      "batch": "PRESENCE_RELATIONAL_PERSONHOOD_BATCH_V7",
+      "global_claim_id": "G7-S058-BT19"
     },
     {
       "claim_id": "BT20",
@@ -10188,7 +10885,8 @@
         "M16"
       ],
       "provenance": "P2",
-      "batch": "PRESENCE_RELATIONAL_PERSONHOOD_BATCH_V7"
+      "batch": "PRESENCE_RELATIONAL_PERSONHOOD_BATCH_V7",
+      "global_claim_id": "G7-S058-BT20"
     }
   ],
   "rules": {
@@ -10196,5 +10894,8 @@
     "motif_is_normalization": "Motifs are cross-cultural analytical tags and never replace source vocabulary.",
     "provenance_is_not_truth": "P1/P2/S1 indicate source traceability, not truth probability.",
     "convergence_requires_independence": true
-  }
+  },
+  "global_claim_count": 698,
+  "local_claim_ids_are_batch_scoped": true,
+  "identity_rule": "global_claim_id = G<batch>-<source_id>-<local_claim_id>"
 }
