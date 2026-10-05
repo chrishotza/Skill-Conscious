@@ -5,18 +5,18 @@
 **Ledger:** `corpus/CLAIMS/claim_ledger_v1.json` + registered append deltas  
 **Audit rule:** an entry counts as represented only if its exact `corpus_id` occurs in at least one ledger record. This does **not** mean all claims are source-verified.
 
-## Reconciled totals after batch v32
+## Reconciled totals after batch v33
 
 - Register entries parsed: **325** (325 unique IDs).
-- Entries represented in effective corpus ledger: **274**.
-- Entries not yet represented: **51**.
-- Effective ledger records: **3652** (**2482** core ledger + **130** each in v24–v32 append deltas).
+- Entries represented in effective corpus ledger: **284**.
+- Entries not yet represented: **41**.
+- Effective ledger records: **3782** (**2482** core ledger + **130** each in v24–v33 append deltas).
 - Core ledger records in `claim_ledger_v1.json`: **2482**.
-- Unique source IDs in effective ledger: **277**.
-- Sources with exactly 13 effective ledger records: **204**.
+- Unique source IDs in effective ledger: **287**.
+- Sources with exactly 13 effective ledger records: **214**.
 - Represented but under 13: **40**.
 - Represented above 13: **30**.
-- **Storage note:** v24–v32 are stored as append-only deltas because the current GitHub contents connector cannot safely rewrite the now-large core JSON blob.
+- **Storage note:** v24–v33 are stored as append-only deltas because the current GitHub contents connector cannot safely rewrite the now-large core JSON blob.
 - **Quality caveat:** “represented” is a coverage flag only. P2* claims and generic locators remain verification-pending.
 
 ## Status table
@@ -294,16 +294,16 @@
 | C269 | Consciousness and the Brain — Ciencia/IA; foco: conciencia, persona, realidad, transformación. | Represented — exactly 13 | 13 | S276 |
 | C270 | The Feeling of Life Itself — Ciencia/IA; foco: conciencia, persona, realidad, transformación. | Represented — exactly 13 | 13 | S277 |
 | C271 | Phi / IIT corpus — Ciencia/IA; foco: mecanismos, métricas, predicciones. | Represented — over 13 | 20 | S065 |
-| C272 | Recurrent Processing corpus — Ciencia/IA; foco: mecanismos, métricas, predicciones. | Missing | 0 | — |
-| C273 | No-Report Paradigm corpus — Ciencia/IA; foco: mecanismos, métricas, predicciones. | Missing | 0 | — |
-| C274 | Attention Schema Theory corpus — Ciencia/IA; foco: mecanismos, métricas, predicciones. | Missing | 0 | — |
-| C275 | Active Inference / Free Energy corpus — Ciencia/IA; foco: mecanismos, métricas, predicciones. | Missing | 0 | — |
-| C276 | Integrated World Modeling Theory — Ciencia/IA; foco: conciencia, persona, realidad, transformación. | Missing | 0 | — |
-| C277 | Being You — Ciencia/IA; foco: conciencia, persona, realidad, transformación. | Missing | 0 | — |
-| C278 | The Astonishing Hypothesis — Ciencia/IA; foco: conciencia, persona, realidad, transformación. | Missing | 0 | — |
-| C279 | The Rediscovery of the Mind — Ciencia/IA; foco: conciencia, persona, realidad, transformación. | Missing | 0 | — |
-| C280 | Phenomenal concepts corpus — Ciencia/IA; foco: conciencia, persona, realidad, transformación. | Missing | 0 | — |
-| C281 | Russellian monism / panpsychism corpus — Ciencia/IA; foco: conciencia, persona, realidad, transformación. | Missing | 0 | — |
+| C272 | Recurrent Processing corpus — Ciencia/IA; foco: mecanismos, métricas, predicciones. | Represented — exactly 13 | 13 | S278 |
+| C273 | No-Report Paradigm corpus — Ciencia/IA; foco: mecanismos, métricas, predicciones. | Represented — exactly 13 | 13 | S279 |
+| C274 | Attention Schema Theory corpus — Ciencia/IA; foco: mecanismos, métricas, predicciones. | Represented — exactly 13 | 13 | S280 |
+| C275 | Active Inference / Free Energy corpus — Ciencia/IA; foco: mecanismos, métricas, predicciones. | Represented — exactly 13 | 13 | S281 |
+| C276 | Integrated World Modeling Theory — Ciencia/IA; foco: conciencia, persona, realidad, transformación. | Represented — exactly 13 | 13 | S282 |
+| C277 | Being You — Ciencia/IA; foco: conciencia, persona, realidad, transformación. | Represented — exactly 13 | 13 | S283 |
+| C278 | The Astonishing Hypothesis — Ciencia/IA; foco: conciencia, persona, realidad, transformación. | Represented — exactly 13 | 13 | S284 |
+| C279 | The Rediscovery of the Mind — Ciencia/IA; foco: conciencia, persona, realidad, transformación. | Represented — exactly 13 | 13 | S285 |
+| C280 | Phenomenal concepts corpus — Ciencia/IA; foco: conciencia, persona, realidad, transformación. | Represented — exactly 13 | 13 | S286 |
+| C281 | Russellian monism / panpsychism corpus — Ciencia/IA; foco: conciencia, persona, realidad, transformación. | Represented — exactly 13 | 13 | S287 |
 | C282 | Can only meat machines be conscious? — Ciencia/IA; foco: conciencia, persona, realidad, transformación. | Missing | 0 | — |
 | C283 | AI Consciousness: A Centrist Manifesto — Ciencia/IA; foco: conciencia, persona, realidad, transformación. | Missing | 0 | — |
 | C284 | Attribution of consciousness to non-human animals — Ciencia/IA; foco: conciencia, persona, realidad, transformación. | Missing | 0 | — |
@@ -445,3 +445,12 @@
 - Core ledger: 2482 records / 187 source IDs.
 - Current register coverage: 274/325 represented; 51/325 still missing.
 - Exact-13 represented sources: 204.
+
+## Batch v33 checkpoint
+
+- Newly represented register entries: C272, C273, C274, C275, C276, C277, C278, C279, C280, C281.
+- Added claims: 130 (10 × 13), stored as append-only delta.
+- Effective ledger: 3782 records / 287 source IDs.
+- Core ledger: 2482 records / 187 source IDs.
+- Current register coverage: 284/325 represented; 41/325 still missing.
+- Exact-13 represented sources: 214.
