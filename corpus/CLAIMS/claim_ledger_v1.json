@@ -1,8 +1,8 @@
 {
   "schema_version": "1.0",
-  "claim_count": 748,
-  "global_claim_count": 748,
-  "source_count": 63,
+  "claim_count": 848,
+  "global_claim_count": 848,
+  "source_count": 68,
   "records": [
     {
       "global_claim_id": "G1-S001-K01",
@@ -11671,6 +11671,1587 @@
       ],
       "provenance": "S1",
       "batch": "8"
+    },
+    {
+      "global_claim_id": "G9-S064-NG01",
+      "claim_id": "NG01",
+      "source_id": "S064",
+      "corpus_id": "C073",
+      "location": "1.1",
+      "claim_type": "META",
+      "claim": "Things are not shown to arise independently from themselves, others, both, or without conditions.",
+      "motifs": [
+        "M04",
+        "M05",
+        "M14"
+      ],
+      "provenance": "P2",
+      "batch": "9"
+    },
+    {
+      "global_claim_id": "G9-S064-NG02",
+      "claim_id": "NG02",
+      "source_id": "S064",
+      "corpus_id": "C073",
+      "location": "1.3",
+      "claim_type": "ONTO",
+      "claim": "Intrinsic self-nature is not found independently within conditions.",
+      "motifs": [
+        "M04",
+        "M05"
+      ],
+      "provenance": "P2",
+      "batch": "9"
+    },
+    {
+      "global_claim_id": "G9-S064-NG03",
+      "claim_id": "NG03",
+      "source_id": "S064",
+      "corpus_id": "C073",
+      "location": "1.5",
+      "claim_type": "CAUSAL",
+      "claim": "Conditions function through relations rather than isolated essences.",
+      "motifs": [
+        "M05",
+        "M20"
+      ],
+      "provenance": "P2",
+      "batch": "9"
+    },
+    {
+      "global_claim_id": "G9-S064-NG04",
+      "claim_id": "NG04",
+      "source_id": "S064",
+      "corpus_id": "C073",
+      "location": "7.1",
+      "claim_type": "META",
+      "claim": "Production, duration, and cessation depend on relational analysis.",
+      "motifs": [
+        "M07",
+        "M11",
+        "M14"
+      ],
+      "provenance": "P2",
+      "batch": "9"
+    },
+    {
+      "global_claim_id": "G9-S064-NG05",
+      "claim_id": "NG05",
+      "source_id": "S064",
+      "corpus_id": "C073",
+      "location": "18.1",
+      "claim_type": "ONTO",
+      "claim": "The self is not established independently of the aggregates.",
+      "motifs": [
+        "M02",
+        "M04"
+      ],
+      "provenance": "P2",
+      "batch": "9"
+    },
+    {
+      "global_claim_id": "G9-S064-NG06",
+      "claim_id": "NG06",
+      "source_id": "S064",
+      "corpus_id": "C073",
+      "location": "18.2",
+      "claim_type": "ONTO",
+      "claim": "Dependent designation is empty of intrinsic nature.",
+      "motifs": [
+        "M04",
+        "M05",
+        "M14"
+      ],
+      "provenance": "P2",
+      "batch": "9"
+    },
+    {
+      "global_claim_id": "G9-S064-NG07",
+      "claim_id": "NG07",
+      "source_id": "S064",
+      "corpus_id": "C073",
+      "location": "18.3",
+      "claim_type": "RELATION",
+      "claim": "Dependent arising and lack of intrinsic nature are inseparable in the analysis.",
+      "motifs": [
+        "M05",
+        "M20"
+      ],
+      "provenance": "P2",
+      "batch": "9"
+    },
+    {
+      "global_claim_id": "G9-S064-NG08",
+      "claim_id": "NG08",
+      "source_id": "S064",
+      "corpus_id": "C073",
+      "location": "18.5",
+      "claim_type": "PRACTICE",
+      "claim": "Liberation requires loosening conceptual constructions about self and reality.",
+      "motifs": [
+        "M12",
+        "M24",
+        "M25"
+      ],
+      "provenance": "P2",
+      "batch": "9"
+    },
+    {
+      "global_claim_id": "G9-S064-NG09",
+      "claim_id": "NG09",
+      "source_id": "S064",
+      "corpus_id": "C073",
+      "location": "22.1",
+      "claim_type": "ONTO",
+      "claim": "The Tathāgata is not intrinsically identical with or different from the aggregates.",
+      "motifs": [
+        "M02",
+        "M04",
+        "M14"
+      ],
+      "provenance": "P2",
+      "batch": "9"
+    },
+    {
+      "global_claim_id": "G9-S064-NG10",
+      "claim_id": "NG10",
+      "source_id": "S064",
+      "corpus_id": "C073",
+      "location": "22.11",
+      "claim_type": "META",
+      "claim": "The Tathāgata cannot be fixed as ultimately existent or nonexistent.",
+      "motifs": [
+        "M03",
+        "M04",
+        "M14"
+      ],
+      "provenance": "P2",
+      "batch": "9"
+    },
+    {
+      "global_claim_id": "G9-S064-NG11",
+      "claim_id": "NG11",
+      "source_id": "S064",
+      "corpus_id": "C073",
+      "location": "24.8",
+      "claim_type": "META",
+      "claim": "Conventional and ultimate truth are distinguished.",
+      "motifs": [
+        "M03",
+        "M14"
+      ],
+      "provenance": "P2",
+      "batch": "9"
+    },
+    {
+      "global_claim_id": "G9-S064-NG12",
+      "claim_id": "NG12",
+      "source_id": "S064",
+      "corpus_id": "C073",
+      "location": "24.18",
+      "claim_type": "RELATION",
+      "claim": "Dependent origination is identified with emptiness and the middle way.",
+      "motifs": [
+        "M04",
+        "M05",
+        "M20"
+      ],
+      "provenance": "P2",
+      "batch": "9"
+    },
+    {
+      "global_claim_id": "G9-S064-NG13",
+      "claim_id": "NG13",
+      "source_id": "S064",
+      "corpus_id": "C073",
+      "location": "24.19",
+      "claim_type": "CAUSAL",
+      "claim": "Conditioned existence depends on dependent origination rather than intrinsic essence.",
+      "motifs": [
+        "M05",
+        "M20"
+      ],
+      "provenance": "P2",
+      "batch": "9"
+    },
+    {
+      "global_claim_id": "G9-S064-NG14",
+      "claim_id": "NG14",
+      "source_id": "S064",
+      "corpus_id": "C073",
+      "location": "24.14",
+      "claim_type": "CAUSAL",
+      "claim": "Causal functioning is compatible with emptiness of independent self-nature.",
+      "motifs": [
+        "M05",
+        "M12"
+      ],
+      "provenance": "P2",
+      "batch": "9"
+    },
+    {
+      "global_claim_id": "G9-S064-NG15",
+      "claim_id": "NG15",
+      "source_id": "S064",
+      "corpus_id": "C073",
+      "location": "24.23",
+      "claim_type": "PRACTICE",
+      "claim": "Understanding emptiness does not deny the Four Noble Truths.",
+      "motifs": [
+        "M12",
+        "M24",
+        "M25"
+      ],
+      "provenance": "P2",
+      "batch": "9"
+    },
+    {
+      "global_claim_id": "G9-S064-NG16",
+      "claim_id": "NG16",
+      "source_id": "S064",
+      "corpus_id": "C073",
+      "location": "25",
+      "claim_type": "META",
+      "claim": "Nirvana is analyzed without positing a separate substantial realm.",
+      "motifs": [
+        "M03",
+        "M14",
+        "M15"
+      ],
+      "provenance": "P2",
+      "batch": "9"
+    },
+    {
+      "global_claim_id": "G9-S064-NG17",
+      "claim_id": "NG17",
+      "source_id": "S064",
+      "corpus_id": "C073",
+      "location": "27",
+      "claim_type": "TEMPORAL",
+      "claim": "Beginning, middle, and end are subjected to dependent analysis.",
+      "motifs": [
+        "M11",
+        "M14"
+      ],
+      "provenance": "P2",
+      "batch": "9"
+    },
+    {
+      "global_claim_id": "G9-S064-NG18",
+      "claim_id": "NG18",
+      "source_id": "S064",
+      "corpus_id": "C073",
+      "location": "18",
+      "claim_type": "DIVERGENCE",
+      "claim": "Personhood is not treated as an independently existing essence.",
+      "motifs": [
+        "M02",
+        "M04",
+        "M14"
+      ],
+      "provenance": "P2",
+      "batch": "9"
+    },
+    {
+      "global_claim_id": "G9-S064-NG19",
+      "claim_id": "NG19",
+      "source_id": "S064",
+      "corpus_id": "C073",
+      "location": "24.14",
+      "claim_type": "DIVERGENCE",
+      "claim": "Emptiness is not equivalent to nothingness because dependent functioning remains possible.",
+      "motifs": [
+        "M03",
+        "M05",
+        "M23"
+      ],
+      "provenance": "P2",
+      "batch": "9"
+    },
+    {
+      "global_claim_id": "G9-S064-NG20",
+      "claim_id": "NG20",
+      "source_id": "S064",
+      "corpus_id": "C073",
+      "location": "whole",
+      "claim_type": "META",
+      "claim": "Reified oppositions are dissolved rather than replaced by another fixed substance.",
+      "motifs": [
+        "M03",
+        "M04",
+        "M14"
+      ],
+      "provenance": "P2",
+      "batch": "9"
+    },
+    {
+      "global_claim_id": "G9-S065-VA01",
+      "claim_id": "VA01",
+      "source_id": "S065",
+      "corpus_id": "C271",
+      "location": "1–2",
+      "claim_type": "ONTO",
+      "claim": "Multiple streams of consciousness and a storehouse consciousness are distinguished.",
+      "motifs": [
+        "M07",
+        "M11"
+      ],
+      "provenance": "P2",
+      "batch": "9"
+    },
+    {
+      "global_claim_id": "G9-S065-VA02",
+      "claim_id": "VA02",
+      "source_id": "S065",
+      "corpus_id": "C271",
+      "location": "2–4",
+      "claim_type": "ONTO",
+      "claim": "Eight consciousnesses are differentiated, including sensory, mental, ego-consciousness, and storehouse consciousness.",
+      "motifs": [
+        "M07",
+        "M22"
+      ],
+      "provenance": "P2",
+      "batch": "9"
+    },
+    {
+      "global_claim_id": "G9-S065-VA03",
+      "claim_id": "VA03",
+      "source_id": "S065",
+      "corpus_id": "C271",
+      "location": "2–4",
+      "claim_type": "REFLEXIVITY",
+      "claim": "Manas appropriates storehouse consciousness as self.",
+      "motifs": [
+        "M02",
+        "M22"
+      ],
+      "provenance": "P2",
+      "batch": "9"
+    },
+    {
+      "global_claim_id": "G9-S065-VA04",
+      "claim_id": "VA04",
+      "source_id": "S065",
+      "corpus_id": "C271",
+      "location": "5–6",
+      "claim_type": "CAUSAL",
+      "claim": "Consciousness is conditioned by seeds and prior transformations.",
+      "motifs": [
+        "M09",
+        "M11",
+        "M12"
+      ],
+      "provenance": "P2",
+      "batch": "9"
+    },
+    {
+      "global_claim_id": "G9-S065-VA05",
+      "claim_id": "VA05",
+      "source_id": "S065",
+      "corpus_id": "C271",
+      "location": "8–10",
+      "claim_type": "STATE",
+      "claim": "Different consciousnesses arise in dependence on conditions.",
+      "motifs": [
+        "M07",
+        "M23"
+      ],
+      "provenance": "P2",
+      "batch": "9"
+    },
+    {
+      "global_claim_id": "G9-S065-VA06",
+      "claim_id": "VA06",
+      "source_id": "S065",
+      "corpus_id": "C271",
+      "location": "17",
+      "claim_type": "META",
+      "claim": "Imagined, dependent, and perfected natures provide three modes of analysis.",
+      "motifs": [
+        "M03",
+        "M04",
+        "M14"
+      ],
+      "provenance": "P2",
+      "batch": "9"
+    },
+    {
+      "global_claim_id": "G9-S065-VA07",
+      "claim_id": "VA07",
+      "source_id": "S065",
+      "corpus_id": "C271",
+      "location": "18",
+      "claim_type": "ONTO",
+      "claim": "The imagined nature involves mistaken separation of subject and object.",
+      "motifs": [
+        "M04",
+        "M05",
+        "M14"
+      ],
+      "provenance": "P2",
+      "batch": "9"
+    },
+    {
+      "global_claim_id": "G9-S065-VA08",
+      "claim_id": "VA08",
+      "source_id": "S065",
+      "corpus_id": "C271",
+      "location": "18",
+      "claim_type": "RELATION",
+      "claim": "The dependent nature is defined through causal dependence.",
+      "motifs": [
+        "M05",
+        "M20"
+      ],
+      "provenance": "P2",
+      "batch": "9"
+    },
+    {
+      "global_claim_id": "G9-S065-VA09",
+      "claim_id": "VA09",
+      "source_id": "S065",
+      "corpus_id": "C271",
+      "location": "20",
+      "claim_type": "ONTO",
+      "claim": "The perfected nature is understood through removal of imagined duality.",
+      "motifs": [
+        "M03",
+        "M04",
+        "M14"
+      ],
+      "provenance": "P2",
+      "batch": "9"
+    },
+    {
+      "global_claim_id": "G9-S065-VA10",
+      "claim_id": "VA10",
+      "source_id": "S065",
+      "corpus_id": "C271",
+      "location": "21",
+      "claim_type": "META",
+      "claim": "Appearance is distinguished from reality after conceptual superimposition is removed.",
+      "motifs": [
+        "M14",
+        "M22"
+      ],
+      "provenance": "P2",
+      "batch": "9"
+    },
+    {
+      "global_claim_id": "G9-S065-VA11",
+      "claim_id": "VA11",
+      "source_id": "S065",
+      "corpus_id": "C271",
+      "location": "24",
+      "claim_type": "DIVERGENCE",
+      "claim": "Self and dharmas grasped as inherently existing are rejected.",
+      "motifs": [
+        "M02",
+        "M04",
+        "M14"
+      ],
+      "provenance": "P2",
+      "batch": "9"
+    },
+    {
+      "global_claim_id": "G9-S065-VA12",
+      "claim_id": "VA12",
+      "source_id": "S065",
+      "corpus_id": "C271",
+      "location": "25",
+      "claim_type": "META",
+      "claim": "The perfected nature is identified with suchness and ultimate truth.",
+      "motifs": [
+        "M14",
+        "M15"
+      ],
+      "provenance": "P2",
+      "batch": "9"
+    },
+    {
+      "global_claim_id": "G9-S065-VA13",
+      "claim_id": "VA13",
+      "source_id": "S065",
+      "corpus_id": "C271",
+      "location": "26–30",
+      "claim_type": "TRANSFORMATION",
+      "claim": "Liberation is a transformation of the basis rather than destruction of consciousness.",
+      "motifs": [
+        "M11",
+        "M12",
+        "M23"
+      ],
+      "provenance": "P2",
+      "batch": "9"
+    },
+    {
+      "global_claim_id": "G9-S065-VA14",
+      "claim_id": "VA14",
+      "source_id": "S065",
+      "corpus_id": "C271",
+      "location": "26–30",
+      "claim_type": "STATE",
+      "claim": "Purified consciousness is transformed into wisdom.",
+      "motifs": [
+        "M07",
+        "M12",
+        "M23"
+      ],
+      "provenance": "P2",
+      "batch": "9"
+    },
+    {
+      "global_claim_id": "G9-S065-VA15",
+      "claim_id": "VA15",
+      "source_id": "S065",
+      "corpus_id": "C271",
+      "location": "26–30",
+      "claim_type": "ONTO",
+      "claim": "Wisdom is treated as transformed consciousness rather than a separate substance.",
+      "motifs": [
+        "M01",
+        "M07",
+        "M15"
+      ],
+      "provenance": "P2",
+      "batch": "9"
+    },
+    {
+      "global_claim_id": "G9-S065-VA16",
+      "claim_id": "VA16",
+      "source_id": "S065",
+      "corpus_id": "C271",
+      "location": "whole",
+      "claim_type": "RELATION",
+      "claim": "World appearance is explained through dependent consciousness processes.",
+      "motifs": [
+        "M05",
+        "M14",
+        "M20"
+      ],
+      "provenance": "P2",
+      "batch": "9"
+    },
+    {
+      "global_claim_id": "G9-S065-VA17",
+      "claim_id": "VA17",
+      "source_id": "S065",
+      "corpus_id": "C271",
+      "location": "whole",
+      "claim_type": "CAUSAL",
+      "claim": "Karmic seeds and cognition are connected through transformations of consciousness.",
+      "motifs": [
+        "M11",
+        "M12",
+        "M23"
+      ],
+      "provenance": "P2",
+      "batch": "9"
+    },
+    {
+      "global_claim_id": "G9-S065-VA18",
+      "claim_id": "VA18",
+      "source_id": "S065",
+      "corpus_id": "C271",
+      "location": "whole",
+      "claim_type": "PRACTICE",
+      "claim": "The system explains a path from ordinary cognition to liberated wisdom.",
+      "motifs": [
+        "M12",
+        "M24",
+        "M25"
+      ],
+      "provenance": "P2",
+      "batch": "9"
+    },
+    {
+      "global_claim_id": "G9-S065-VA19",
+      "claim_id": "VA19",
+      "source_id": "S065",
+      "corpus_id": "C271",
+      "location": "whole",
+      "claim_type": "DIVERGENCE",
+      "claim": "Consciousness-first language does not require an eternal conscious substance.",
+      "motifs": [
+        "M01",
+        "M03",
+        "M14"
+      ],
+      "provenance": "P2",
+      "batch": "9"
+    },
+    {
+      "global_claim_id": "G9-S065-VA20",
+      "claim_id": "VA20",
+      "source_id": "S065",
+      "corpus_id": "C271",
+      "location": "whole",
+      "claim_type": "META",
+      "claim": "Self-modeling manas is distinct from the broader architecture of consciousness.",
+      "motifs": [
+        "M02",
+        "M07",
+        "M22"
+      ],
+      "provenance": "P2",
+      "batch": "9"
+    },
+    {
+      "global_claim_id": "G9-S066-SP01",
+      "claim_id": "SP01",
+      "source_id": "S066",
+      "corpus_id": "C030",
+      "location": "1",
+      "claim_type": "META",
+      "claim": "Cosmic emergence and dissolution are linked to Spanda as dynamic power.",
+      "motifs": [
+        "M09",
+        "M20",
+        "M21"
+      ],
+      "provenance": "P2",
+      "batch": "9"
+    },
+    {
+      "global_claim_id": "G9-S066-SP02",
+      "claim_id": "SP02",
+      "source_id": "S066",
+      "corpus_id": "C030",
+      "location": "2",
+      "claim_type": "ONTO",
+      "claim": "The universe rests in and emerges from the same unobstructed principle.",
+      "motifs": [
+        "M03",
+        "M15",
+        "M21"
+      ],
+      "provenance": "P2",
+      "batch": "9"
+    },
+    {
+      "global_claim_id": "G9-S066-SP03",
+      "claim_id": "SP03",
+      "source_id": "S066",
+      "corpus_id": "C030",
+      "location": "3",
+      "claim_type": "STATE",
+      "claim": "Changing states do not separate the experiencer from Spanda.",
+      "motifs": [
+        "M07",
+        "M23"
+      ],
+      "provenance": "P2",
+      "batch": "9"
+    },
+    {
+      "global_claim_id": "G9-S066-SP04",
+      "claim_id": "SP04",
+      "source_id": "S066",
+      "corpus_id": "C030",
+      "location": "4",
+      "claim_type": "REFLEXIVITY",
+      "claim": "Changing cognitions are said to be strung within an underlying experiencer.",
+      "motifs": [
+        "M02",
+        "M11",
+        "M22"
+      ],
+      "provenance": "P2",
+      "batch": "9"
+    },
+    {
+      "global_claim_id": "G9-S066-SP05",
+      "claim_id": "SP05",
+      "source_id": "S066",
+      "corpus_id": "C030",
+      "location": "5",
+      "claim_type": "META",
+      "claim": "The highest Spanda principle is beyond ordinary subject/object opposition.",
+      "motifs": [
+        "M03",
+        "M14"
+      ],
+      "provenance": "P2",
+      "batch": "9"
+    },
+    {
+      "global_claim_id": "G9-S066-SP06",
+      "claim_id": "SP06",
+      "source_id": "S066",
+      "corpus_id": "C030",
+      "location": "6–7",
+      "claim_type": "ONTO",
+      "claim": "Intellect, ego, mind, senses and actions operate through an underlying conscious principle.",
+      "motifs": [
+        "M02",
+        "M07",
+        "M22"
+      ],
+      "provenance": "P2",
+      "batch": "9"
+    },
+    {
+      "global_claim_id": "G9-S066-SP07",
+      "claim_id": "SP07",
+      "source_id": "S066",
+      "corpus_id": "C030",
+      "location": "6–7",
+      "claim_type": "CAUSAL",
+      "claim": "That principle enables movement toward objects and dissolution back into Self.",
+      "motifs": [
+        "M09",
+        "M12",
+        "M23"
+      ],
+      "provenance": "P2",
+      "batch": "9"
+    },
+    {
+      "global_claim_id": "G9-S066-SP08",
+      "claim_id": "SP08",
+      "source_id": "S066",
+      "corpus_id": "C030",
+      "location": "8",
+      "claim_type": "PRACTICE",
+      "claim": "Careful inspection of the underlying principle is prescribed.",
+      "motifs": [
+        "M24",
+        "M25"
+      ],
+      "provenance": "P2",
+      "batch": "9"
+    },
+    {
+      "global_claim_id": "G9-S066-SP09",
+      "claim_id": "SP09",
+      "source_id": "S066",
+      "corpus_id": "C030",
+      "location": "10",
+      "claim_type": "STATE",
+      "claim": "The same principle remains through internal and external activity.",
+      "motifs": [
+        "M01",
+        "M07",
+        "M23"
+      ],
+      "provenance": "P2",
+      "batch": "9"
+    },
+    {
+      "global_claim_id": "G9-S066-SP10",
+      "claim_id": "SP10",
+      "source_id": "S066",
+      "corpus_id": "C030",
+      "location": "11",
+      "claim_type": "RELATION",
+      "claim": "Individual knowing is linked with a wider consciousness principle.",
+      "motifs": [
+        "M05",
+        "M15",
+        "M20"
+      ],
+      "provenance": "P2",
+      "batch": "9"
+    },
+    {
+      "global_claim_id": "G9-S066-SP11",
+      "claim_id": "SP11",
+      "source_id": "S066",
+      "corpus_id": "C030",
+      "location": "12",
+      "claim_type": "ONTO",
+      "claim": "Awareness is not reduced to particular mental contents.",
+      "motifs": [
+        "M01",
+        "M06",
+        "M22"
+      ],
+      "provenance": "P2",
+      "batch": "9"
+    },
+    {
+      "global_claim_id": "G9-S066-SP12",
+      "claim_id": "SP12",
+      "source_id": "S066",
+      "corpus_id": "C030",
+      "location": "13",
+      "claim_type": "TRANSFORMATION",
+      "claim": "Recognition changes the significance of ordinary states.",
+      "motifs": [
+        "M12",
+        "M23"
+      ],
+      "provenance": "P2",
+      "batch": "9"
+    },
+    {
+      "global_claim_id": "G9-S066-SP13",
+      "claim_id": "SP13",
+      "source_id": "S066",
+      "corpus_id": "C030",
+      "location": "14",
+      "claim_type": "STATE",
+      "claim": "The same principle is to be recognized through waking, dream, and sleep.",
+      "motifs": [
+        "M07",
+        "M11",
+        "M23"
+      ],
+      "provenance": "P2",
+      "batch": "9"
+    },
+    {
+      "global_claim_id": "G9-S066-SP14",
+      "claim_id": "SP14",
+      "source_id": "S066",
+      "corpus_id": "C030",
+      "location": "15",
+      "claim_type": "REFLEXIVITY",
+      "claim": "The recognizing awareness is itself part of what is recognized.",
+      "motifs": [
+        "M02",
+        "M13",
+        "M22"
+      ],
+      "provenance": "P2",
+      "batch": "9"
+    },
+    {
+      "global_claim_id": "G9-S066-SP15",
+      "claim_id": "SP15",
+      "source_id": "S066",
+      "corpus_id": "C030",
+      "location": "16",
+      "claim_type": "PRACTICE",
+      "claim": "Attention is directed toward continuity behind fluctuations.",
+      "motifs": [
+        "M11",
+        "M24",
+        "M25"
+      ],
+      "provenance": "P2",
+      "batch": "9"
+    },
+    {
+      "global_claim_id": "G9-S066-SP16",
+      "claim_id": "SP16",
+      "source_id": "S066",
+      "corpus_id": "C030",
+      "location": "17",
+      "claim_type": "META",
+      "claim": "Consciousness is described as dynamic rather than inert.",
+      "motifs": [
+        "M09",
+        "M21"
+      ],
+      "provenance": "P2",
+      "batch": "9"
+    },
+    {
+      "global_claim_id": "G9-S066-SP17",
+      "claim_id": "SP17",
+      "source_id": "S066",
+      "corpus_id": "C030",
+      "location": "18",
+      "claim_type": "UNITY",
+      "claim": "Diverse phenomena are treated as expressions of one underlying principle.",
+      "motifs": [
+        "M03",
+        "M20",
+        "M21"
+      ],
+      "provenance": "P2",
+      "batch": "9"
+    },
+    {
+      "global_claim_id": "G9-S066-SP18",
+      "claim_id": "SP18",
+      "source_id": "S066",
+      "corpus_id": "C030",
+      "location": "19",
+      "claim_type": "PRACTICE",
+      "claim": "Recognition can be stabilized through repeated contemplation.",
+      "motifs": [
+        "M12",
+        "M24",
+        "M25"
+      ],
+      "provenance": "P2",
+      "batch": "9"
+    },
+    {
+      "global_claim_id": "G9-S066-SP19",
+      "claim_id": "SP19",
+      "source_id": "S066",
+      "corpus_id": "C030",
+      "location": "20",
+      "claim_type": "DIVERGENCE",
+      "claim": "Spanda affirms an underlying conscious principle unlike Buddhist emptiness.",
+      "motifs": [
+        "M02",
+        "M03",
+        "M14"
+      ],
+      "provenance": "P2",
+      "batch": "9"
+    },
+    {
+      "global_claim_id": "G9-S066-SP20",
+      "claim_id": "SP20",
+      "source_id": "S066",
+      "corpus_id": "C030",
+      "location": "whole",
+      "claim_type": "META",
+      "claim": "Continuity of the experiencing principle is more fundamental than any single content.",
+      "motifs": [
+        "M01",
+        "M07",
+        "M11",
+        "M22"
+      ],
+      "provenance": "P2",
+      "batch": "9"
+    },
+    {
+      "global_claim_id": "G9-S067-VB01",
+      "claim_id": "VB01",
+      "source_id": "S067",
+      "corpus_id": "C031",
+      "location": "24",
+      "claim_type": "PRACTICE",
+      "claim": "Attention at breath turning points is used to enter a state of fullness.",
+      "motifs": [
+        "M08",
+        "M24",
+        "M25"
+      ],
+      "provenance": "P2",
+      "batch": "9"
+    },
+    {
+      "global_claim_id": "G9-S067-VB02",
+      "claim_id": "VB02",
+      "source_id": "S067",
+      "corpus_id": "C031",
+      "location": "25",
+      "claim_type": "PRACTICE",
+      "claim": "The interval between movements is treated as a doorway into Bhairava.",
+      "motifs": [
+        "M06",
+        "M14",
+        "M24"
+      ],
+      "provenance": "P2",
+      "batch": "9"
+    },
+    {
+      "global_claim_id": "G9-S067-VB03",
+      "claim_id": "VB03",
+      "source_id": "S067",
+      "corpus_id": "C031",
+      "location": "29",
+      "claim_type": "STATE",
+      "claim": "A sudden sound can become a doorway beyond ordinary conceptualization.",
+      "motifs": [
+        "M07",
+        "M14"
+      ],
+      "provenance": "P2",
+      "batch": "9"
+    },
+    {
+      "global_claim_id": "G9-S067-VB04",
+      "claim_id": "VB04",
+      "source_id": "S067",
+      "corpus_id": "C031",
+      "location": "36",
+      "claim_type": "PRACTICE",
+      "claim": "Internal sensation can serve as a basis for direct realization.",
+      "motifs": [
+        "M06",
+        "M24",
+        "M25"
+      ],
+      "provenance": "P2",
+      "batch": "9"
+    },
+    {
+      "global_claim_id": "G9-S067-VB05",
+      "claim_id": "VB05",
+      "source_id": "S067",
+      "corpus_id": "C031",
+      "location": "41",
+      "claim_type": "REFLEXIVITY",
+      "claim": "Attention to the first impulse of thought can reveal a deeper awareness.",
+      "motifs": [
+        "M02",
+        "M13",
+        "M22"
+      ],
+      "provenance": "P2",
+      "batch": "9"
+    },
+    {
+      "global_claim_id": "G9-S067-VB06",
+      "claim_id": "VB06",
+      "source_id": "S067",
+      "corpus_id": "C031",
+      "location": "44",
+      "claim_type": "PHEN",
+      "claim": "The gap between mental movements is treated as experientially significant.",
+      "motifs": [
+        "M06",
+        "M07",
+        "M14"
+      ],
+      "provenance": "P2",
+      "batch": "9"
+    },
+    {
+      "global_claim_id": "G9-S067-VB07",
+      "claim_id": "VB07",
+      "source_id": "S067",
+      "corpus_id": "C031",
+      "location": "52",
+      "claim_type": "PRACTICE",
+      "claim": "Breath intervals are repeatedly used as direct contemplative supports.",
+      "motifs": [
+        "M08",
+        "M24",
+        "M25"
+      ],
+      "provenance": "P2",
+      "batch": "9"
+    },
+    {
+      "global_claim_id": "G9-S067-VB08",
+      "claim_id": "VB08",
+      "source_id": "S067",
+      "corpus_id": "C031",
+      "location": "64",
+      "claim_type": "STATE",
+      "claim": "Ordinary perception can become a vehicle for nonordinary awareness.",
+      "motifs": [
+        "M07",
+        "M23"
+      ],
+      "provenance": "P2",
+      "batch": "9"
+    },
+    {
+      "global_claim_id": "G9-S067-VB09",
+      "claim_id": "VB09",
+      "source_id": "S067",
+      "corpus_id": "C031",
+      "location": "72",
+      "claim_type": "RELATION",
+      "claim": "Awareness is recognized in relation to the whole perceptual field.",
+      "motifs": [
+        "M01",
+        "M05",
+        "M24"
+      ],
+      "provenance": "P2",
+      "batch": "9"
+    },
+    {
+      "global_claim_id": "G9-S067-VB10",
+      "claim_id": "VB10",
+      "source_id": "S067",
+      "corpus_id": "C031",
+      "location": "84",
+      "claim_type": "PRACTICE",
+      "claim": "The senses can become supports for recognition when attention is stabilized.",
+      "motifs": [
+        "M08",
+        "M24",
+        "M25"
+      ],
+      "provenance": "P2",
+      "batch": "9"
+    },
+    {
+      "global_claim_id": "G9-S067-VB11",
+      "claim_id": "VB11",
+      "source_id": "S067",
+      "corpus_id": "C031",
+      "location": "86",
+      "claim_type": "STATE",
+      "claim": "Astonishment can suspend ordinary conceptual construction.",
+      "motifs": [
+        "M07",
+        "M14",
+        "M23"
+      ],
+      "provenance": "P2",
+      "batch": "9"
+    },
+    {
+      "global_claim_id": "G9-S067-VB12",
+      "claim_id": "VB12",
+      "source_id": "S067",
+      "corpus_id": "C031",
+      "location": "92",
+      "claim_type": "PRACTICE",
+      "claim": "The interval after an impulse becomes a focus for broader awareness.",
+      "motifs": [
+        "M06",
+        "M22",
+        "M24"
+      ],
+      "provenance": "P2",
+      "batch": "9"
+    },
+    {
+      "global_claim_id": "G9-S067-VB13",
+      "claim_id": "VB13",
+      "source_id": "S067",
+      "corpus_id": "C031",
+      "location": "96",
+      "claim_type": "ONTO",
+      "claim": "Object and awareness are used as a contemplative distinction rather than fixed dualism.",
+      "motifs": [
+        "M04",
+        "M05",
+        "M14"
+      ],
+      "provenance": "P2",
+      "batch": "9"
+    },
+    {
+      "global_claim_id": "G9-S067-VB14",
+      "claim_id": "VB14",
+      "source_id": "S067",
+      "corpus_id": "C031",
+      "location": "102",
+      "claim_type": "STATE",
+      "claim": "Deep absorption is associated with cessation of ordinary differentiation.",
+      "motifs": [
+        "M03",
+        "M07",
+        "M23"
+      ],
+      "provenance": "P2",
+      "batch": "9"
+    },
+    {
+      "global_claim_id": "G9-S067-VB15",
+      "claim_id": "VB15",
+      "source_id": "S067",
+      "corpus_id": "C031",
+      "location": "106",
+      "claim_type": "PRACTICE",
+      "claim": "Total experience can function as the contemplative doorway.",
+      "motifs": [
+        "M03",
+        "M05",
+        "M24"
+      ],
+      "provenance": "P2",
+      "batch": "9"
+    },
+    {
+      "global_claim_id": "G9-S067-VB16",
+      "claim_id": "VB16",
+      "source_id": "S067",
+      "corpus_id": "C031",
+      "location": "110",
+      "claim_type": "META",
+      "claim": "The universe is compared to waves arising from Bhairava.",
+      "motifs": [
+        "M03",
+        "M20",
+        "M21"
+      ],
+      "provenance": "P2",
+      "batch": "9"
+    },
+    {
+      "global_claim_id": "G9-S067-VB17",
+      "claim_id": "VB17",
+      "source_id": "S067",
+      "corpus_id": "C031",
+      "location": "110",
+      "claim_type": "ONTO",
+      "claim": "Multiplicity is treated as expression of a deeper conscious source.",
+      "motifs": [
+        "M03",
+        "M15",
+        "M21"
+      ],
+      "provenance": "P2",
+      "batch": "9"
+    },
+    {
+      "global_claim_id": "G9-S067-VB18",
+      "claim_id": "VB18",
+      "source_id": "S067",
+      "corpus_id": "C031",
+      "location": "112",
+      "claim_type": "STATE",
+      "claim": "The universe is recognized within the same awareness that perceives it.",
+      "motifs": [
+        "M03",
+        "M05",
+        "M15"
+      ],
+      "provenance": "P2",
+      "batch": "9"
+    },
+    {
+      "global_claim_id": "G9-S067-VB19",
+      "claim_id": "VB19",
+      "source_id": "S067",
+      "corpus_id": "C031",
+      "location": "112",
+      "claim_type": "REFLEXIVITY",
+      "claim": "Recognition involves awareness recognizing its own nature through experience.",
+      "motifs": [
+        "M02",
+        "M13",
+        "M22"
+      ],
+      "provenance": "P2",
+      "batch": "9"
+    },
+    {
+      "global_claim_id": "G9-S067-VB20",
+      "claim_id": "VB20",
+      "source_id": "S067",
+      "corpus_id": "C031",
+      "location": "whole",
+      "claim_type": "DIVERGENCE",
+      "claim": "Embodied breath, senses, and intense moments are direct doors to realization.",
+      "motifs": [
+        "M06",
+        "M08",
+        "M24",
+        "M25"
+      ],
+      "provenance": "P2",
+      "batch": "9"
+    },
+    {
+      "global_claim_id": "G9-S068-IA01",
+      "claim_id": "IA01",
+      "source_id": "S068",
+      "corpus_id": "C181",
+      "location": "Adam chapter",
+      "claim_type": "META",
+      "claim": "Humanity is presented as an image or mirror of the cosmos.",
+      "motifs": [
+        "M03",
+        "M15",
+        "M17",
+        "M20"
+      ],
+      "provenance": "P2",
+      "batch": "9"
+    },
+    {
+      "global_claim_id": "G9-S068-IA02",
+      "claim_id": "IA02",
+      "source_id": "S068",
+      "corpus_id": "C181",
+      "location": "Adam chapter",
+      "claim_type": "REFLEXIVITY",
+      "claim": "The divine is described as knowing itself through manifestation in the human image.",
+      "motifs": [
+        "M02",
+        "M13",
+        "M20"
+      ],
+      "provenance": "P2",
+      "batch": "9"
+    },
+    {
+      "global_claim_id": "G9-S068-IA03",
+      "claim_id": "IA03",
+      "source_id": "S068",
+      "corpus_id": "C181",
+      "location": "Adam chapter",
+      "claim_type": "RELATION",
+      "claim": "Human plurality and divine unity are treated as compatible.",
+      "motifs": [
+        "M03",
+        "M04",
+        "M05"
+      ],
+      "provenance": "P2",
+      "batch": "9"
+    },
+    {
+      "global_claim_id": "G9-S068-IA04",
+      "claim_id": "IA04",
+      "source_id": "S068",
+      "corpus_id": "C181",
+      "location": "Adam chapter",
+      "claim_type": "ONTO",
+      "claim": "The world is described as a mirror whose polishing relates to human realization.",
+      "motifs": [
+        "M06",
+        "M17",
+        "M20"
+      ],
+      "provenance": "P2",
+      "batch": "9"
+    },
+    {
+      "global_claim_id": "G9-S068-IA05",
+      "claim_id": "IA05",
+      "source_id": "S068",
+      "corpus_id": "C181",
+      "location": "Adam chapter",
+      "claim_type": "COSMO",
+      "claim": "Human being and universe are correlated rather than isolated.",
+      "motifs": [
+        "M05",
+        "M18",
+        "M20"
+      ],
+      "provenance": "P2",
+      "batch": "9"
+    },
+    {
+      "global_claim_id": "G9-S068-IA06",
+      "claim_id": "IA06",
+      "source_id": "S068",
+      "corpus_id": "C181",
+      "location": "Adam chapter",
+      "claim_type": "PRACTICE",
+      "claim": "Direct kashf/insight is valued alongside conceptual reasoning.",
+      "motifs": [
+        "M14",
+        "M24",
+        "M25"
+      ],
+      "provenance": "P2",
+      "batch": "9"
+    },
+    {
+      "global_claim_id": "G9-S068-IA07",
+      "claim_id": "IA07",
+      "source_id": "S068",
+      "corpus_id": "C181",
+      "location": "Adam chapter",
+      "claim_type": "META",
+      "claim": "Some divine meanings become intelligible through realized human existence.",
+      "motifs": [
+        "M06",
+        "M15"
+      ],
+      "provenance": "P2",
+      "batch": "9"
+    },
+    {
+      "global_claim_id": "G9-S068-IA08",
+      "claim_id": "IA08",
+      "source_id": "S068",
+      "corpus_id": "C181",
+      "location": "Adam chapter",
+      "claim_type": "REFLEXIVITY",
+      "claim": "Self-knowledge and knowledge of the Real are structurally linked.",
+      "motifs": [
+        "M02",
+        "M13",
+        "M22"
+      ],
+      "provenance": "P2",
+      "batch": "9"
+    },
+    {
+      "global_claim_id": "G9-S068-IA09",
+      "claim_id": "IA09",
+      "source_id": "S068",
+      "corpus_id": "C181",
+      "location": "Adam chapter",
+      "claim_type": "UNITY",
+      "claim": "Multiplicity does not cancel the claim of one Reality.",
+      "motifs": [
+        "M03",
+        "M04",
+        "M15"
+      ],
+      "provenance": "P2",
+      "batch": "9"
+    },
+    {
+      "global_claim_id": "G9-S068-IA10",
+      "claim_id": "IA10",
+      "source_id": "S068",
+      "corpus_id": "C181",
+      "location": "Adam chapter",
+      "claim_type": "DIVERGENCE",
+      "claim": "Unity does not erase phenomenal differentiation.",
+      "motifs": [
+        "M03",
+        "M04",
+        "M05"
+      ],
+      "provenance": "P2",
+      "batch": "9"
+    },
+    {
+      "global_claim_id": "G9-S068-IA11",
+      "claim_id": "IA11",
+      "source_id": "S068",
+      "corpus_id": "C181",
+      "location": "Universality",
+      "claim_type": "META",
+      "claim": "Existence is presented as one while beings vary in manifestation.",
+      "motifs": [
+        "M03",
+        "M04",
+        "M15"
+      ],
+      "provenance": "P2",
+      "batch": "9"
+    },
+    {
+      "global_claim_id": "G9-S068-IA12",
+      "claim_id": "IA12",
+      "source_id": "S068",
+      "corpus_id": "C181",
+      "location": "Universality",
+      "claim_type": "REFLEXIVITY",
+      "claim": "Self-consciousness is treated as a mode through which Being considers itself.",
+      "motifs": [
+        "M02",
+        "M13",
+        "M22"
+      ],
+      "provenance": "P2",
+      "batch": "9"
+    },
+    {
+      "global_claim_id": "G9-S068-IA13",
+      "claim_id": "IA13",
+      "source_id": "S068",
+      "corpus_id": "C181",
+      "location": "Universality",
+      "claim_type": "GENERATIVITY",
+      "claim": "Manifestation brings latent possibility into expressed form.",
+      "motifs": [
+        "M17",
+        "M20",
+        "M21"
+      ],
+      "provenance": "P2",
+      "batch": "9"
+    },
+    {
+      "global_claim_id": "G9-S068-IA14",
+      "claim_id": "IA14",
+      "source_id": "S068",
+      "corpus_id": "C181",
+      "location": "Self-knowledge",
+      "claim_type": "PRACTICE",
+      "claim": "Self-knowledge is a route toward experiential knowledge of God.",
+      "motifs": [
+        "M02",
+        "M12",
+        "M25"
+      ],
+      "provenance": "P2",
+      "batch": "9"
+    },
+    {
+      "global_claim_id": "G9-S068-IA15",
+      "claim_id": "IA15",
+      "source_id": "S068",
+      "corpus_id": "C181",
+      "location": "Self-knowledge",
+      "claim_type": "PHEN",
+      "claim": "Deep knowledge is described as tasted through lived experience rather than mere information.",
+      "motifs": [
+        "M01",
+        "M06",
+        "M12"
+      ],
+      "provenance": "P2",
+      "batch": "9"
+    },
+    {
+      "global_claim_id": "G9-S068-IA16",
+      "claim_id": "IA16",
+      "source_id": "S068",
+      "corpus_id": "C181",
+      "location": "Self-knowledge",
+      "claim_type": "RELATION",
+      "claim": "Events change in meaning when recognized in relation to divine love and purpose.",
+      "motifs": [
+        "M05",
+        "M10",
+        "M12"
+      ],
+      "provenance": "P2",
+      "batch": "9"
+    },
+    {
+      "global_claim_id": "G9-S068-IA17",
+      "claim_id": "IA17",
+      "source_id": "S068",
+      "corpus_id": "C181",
+      "location": "Fuṣūṣ",
+      "claim_type": "STATE",
+      "claim": "Different prophetic figures embody distinct divine wisdoms or modes of manifestation.",
+      "motifs": [
+        "M07",
+        "M15",
+        "M20"
+      ],
+      "provenance": "P2",
+      "batch": "9"
+    },
+    {
+      "global_claim_id": "G9-S068-IA18",
+      "claim_id": "IA18",
+      "source_id": "S068",
+      "corpus_id": "C181",
+      "location": "Fuṣūṣ",
+      "claim_type": "UNITY",
+      "claim": "Multiple wisdoms are gathered within one Reality.",
+      "motifs": [
+        "M03",
+        "M15",
+        "M20"
+      ],
+      "provenance": "P2",
+      "batch": "9"
+    },
+    {
+      "global_claim_id": "G9-S068-IA19",
+      "claim_id": "IA19",
+      "source_id": "S068",
+      "corpus_id": "C181",
+      "location": "Fuṣūṣ",
+      "claim_type": "INEFFABILITY",
+      "claim": "Divine reality exceeds any single descriptive qualification.",
+      "motifs": [
+        "M14",
+        "M15"
+      ],
+      "provenance": "P2",
+      "batch": "9"
+    },
+    {
+      "global_claim_id": "G9-S068-IA20",
+      "claim_id": "IA20",
+      "source_id": "S068",
+      "corpus_id": "C181",
+      "location": "whole",
+      "claim_type": "META",
+      "claim": "Ibn Arabi offers a model of unity-with-difference, with self-knowledge as a route into the larger whole.",
+      "motifs": [
+        "M02",
+        "M03",
+        "M04",
+        "M05",
+        "M20"
+      ],
+      "provenance": "P2",
+      "batch": "9"
     }
   ],
   "rules": {
