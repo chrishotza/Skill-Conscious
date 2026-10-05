@@ -207,3 +207,12 @@ The next extraction stage should systematically traverse the remaining register 
 - Current register coverage: 294/325 represented; 31/325 still missing.
 - Exact-13 represented sources: 224.
 - v34 source blocks: contemporary AI/animal/methodological literature (C282–C287) plus explicitly tagged heterodox/extended material (C288–C291).
+
+## Batch v35 checkpoint
+
+- Newly represented register entries: C292, C293, C294, C295, C296, C297, C298, C299, C300, C301.
+- Added claims: 130.
+- Effective ledger: 4042 records / 307 source IDs (2482 core + 12 append batches of 130 each: v24–v35).
+- Current register coverage: 304/325 represented; 21/325 still missing.
+- Exact-13 represented sources: 234.
+- v35 consists entirely of register-tagged heterodox/extended sources; provenance remains explicitly attributed and provisional.
