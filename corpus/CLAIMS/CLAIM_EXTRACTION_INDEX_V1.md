@@ -48,7 +48,7 @@ A frequently repeated motif is not automatically true. Promotion requires:
 
 ## Current milestone
 
-**2482 globally unique claims across 187 source IDs; 184/325 register entries represented (141 still missing).** The original 1,000-claim minimum has been exceeded; expansion continues until the register is covered.**
+**2612 effective claims across 197 source IDs; 194/325 register entries represented (131 still missing).** The original 1,000-claim minimum has been exceeded; expansion continues until the register is covered.**
 
 The next extraction stage should systematically traverse the remaining register while deepening the highest-value motifs: M01, M02, M03, M04, M05, M06, M07, M11, M12, M13, M14, M15, M16, M19, M20, M22, M23, M24 and M25.
 
@@ -107,3 +107,13 @@ The next extraction stage should systematically traverse the remaining register 
 - Current ledger: 2482 records / 187 source IDs.
 - Current register coverage: 184/325 represented; 141/325 still missing.
 - Exact-13 represented sources: 114.
+
+
+## Batch v24 checkpoint
+
+- Newly represented register entries: C164, C165, C166, C167, C168, C169, C170, C171, C172, C173.
+- Added claims: 130.
+- Effective ledger: 2612 records / 197 source IDs (2482 core + 130 v24 append).
+- Current register coverage: 194/325 represented; 131/325 still missing.
+- Exact-13 represented sources: 124.
+- Storage note: v24 is preserved in `corpus/CLAIMS/claim_ledger_v1_append_v24.json` because the core ledger blob is now too large for the current connector to rewrite safely.
