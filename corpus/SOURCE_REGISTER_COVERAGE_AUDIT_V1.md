@@ -5,18 +5,18 @@
 **Ledger:** `corpus/CLAIMS/claim_ledger_v1.json` + registered append deltas  
 **Audit rule:** an entry counts as represented only if its exact `corpus_id` occurs in at least one ledger record. This does **not** mean all claims are source-verified.
 
-## Reconciled totals after batch v34
+## Reconciled totals after batch v35
 
 - Register entries parsed: **325** (325 unique IDs).
-- Entries represented in effective corpus ledger: **294**.
-- Entries not yet represented: **31**.
-- Effective ledger records: **3912** (**2482** core ledger + **130** each in v24–v34 append deltas).
+- Entries represented in effective corpus ledger: **304**.
+- Entries not yet represented: **21**.
+- Effective ledger records: **4042** (**2482** core ledger + **130** each in v24–v35 append deltas).
 - Core ledger records in `claim_ledger_v1.json`: **2482**.
-- Unique source IDs in effective ledger: **297**.
-- Sources with exactly 13 effective ledger records: **224**.
+- Unique source IDs in effective ledger: **307**.
+- Sources with exactly 13 effective ledger records: **234**.
 - Represented but under 13: **40**.
 - Represented above 13: **30**.
-- **Storage note:** v24–v34 are stored as append-only deltas because the current GitHub contents connector cannot safely rewrite the now-large core JSON blob.
+- **Storage note:** v24–v35 are stored as append-only deltas because the current GitHub contents connector cannot safely rewrite the now-large core JSON blob.
 - **Quality caveat:** “represented” is a coverage flag only. P2* claims and generic locators remain verification-pending.
 
 ## Status table
@@ -314,16 +314,16 @@
 | C289 | Dancing Wu Li Masters — Heterodoxo/extendido; foco: conciencia, persona, realidad, transformación. | Represented — exactly 13 | 13 | S295 |
 | C290 | Stalking the Wild Pendulum — Heterodoxo/extendido; foco: conciencia, persona, realidad, transformación. | Represented — exactly 13 | 13 | S296 |
 | C291 | The Holographic Universe — Heterodoxo/extendido; foco: conciencia, persona, realidad, transformación. | Represented — exactly 13 | 13 | S297 |
-| C292 | Morphic Resonance corpus — Heterodoxo/extendido; foco: psyche, nous, contemplación. | Missing | 0 | — |
-| C293 | Wholeness and the Implicate Order — Heterodoxo/extendido; foco: conciencia, persona, realidad, transformación. | Missing | 0 | — |
-| C294 | Bohm consciousness interview corpus — Heterodoxo/extendido; foco: campo, resonancia, transpersonalidad. | Missing | 0 | — |
-| C295 | Holonomic brain corpus — Heterodoxo/extendido; foco: conciencia, persona, realidad, transformación. | Missing | 0 | — |
-| C296 | Science and the Akashic Field — Heterodoxo/extendido; foco: conciencia, persona, realidad, transformación. | Missing | 0 | — |
-| C297 | God, the Universe and Consciousness — Heterodoxo/extendido; foco: conciencia, persona, realidad, transformación. | Missing | 0 | — |
-| C298 | The Self-Aware Universe — Heterodoxo/extendido; foco: conciencia, persona, realidad, transformación. | Missing | 0 | — |
-| C299 | Hagelin self-referral corpus — Heterodoxo/extendido; foco: campo, resonancia, transpersonalidad. | Missing | 0 | — |
-| C300 | Analytic Idealism corpus — Heterodoxo/extendido; foco: conciencia, persona, realidad, transformación. | Missing | 0 | — |
-| C301 | Why Materialism Is Baloney — Heterodoxo/extendido; foco: conciencia, persona, realidad, transformación. | Missing | 0 | — |
+| C292 | Morphic Resonance corpus — Heterodoxo/extendido; foco: psyche, nous, contemplación. | Represented — exactly 13 | 13 | S298 |
+| C293 | Wholeness and the Implicate Order — Heterodoxo/extendido; foco: conciencia, persona, realidad, transformación. | Represented — exactly 13 | 13 | S299 |
+| C294 | Bohm consciousness interview corpus — Heterodoxo/extendido; foco: campo, resonancia, transpersonalidad. | Represented — exactly 13 | 13 | S300 |
+| C295 | Holonomic brain corpus — Heterodoxo/extendido; foco: conciencia, persona, realidad, transformación. | Represented — exactly 13 | 13 | S301 |
+| C296 | Science and the Akashic Field — Heterodoxo/extendido; foco: conciencia, persona, realidad, transformación. | Represented — exactly 13 | 13 | S302 |
+| C297 | God, the Universe and Consciousness — Heterodoxo/extendido; foco: conciencia, persona, realidad, transformación. | Represented — exactly 13 | 13 | S303 |
+| C298 | The Self-Aware Universe — Heterodoxo/extendido; foco: conciencia, persona, realidad, transformación. | Represented — exactly 13 | 13 | S304 |
+| C299 | Hagelin self-referral corpus — Heterodoxo/extendido; foco: campo, resonancia, transpersonalidad. | Represented — exactly 13 | 13 | S305 |
+| C300 | Analytic Idealism corpus — Heterodoxo/extendido; foco: conciencia, persona, realidad, transformación. | Represented — exactly 13 | 13 | S306 |
+| C301 | Why Materialism Is Baloney — Heterodoxo/extendido; foco: conciencia, persona, realidad, transformación. | Represented — exactly 13 | 13 | S307 |
 | C302 | The Conscious Universe — Heterodoxo/extendido; foco: conciencia, persona, realidad, transformación. | Missing | 0 | — |
 | C303 | Entangled Minds — Heterodoxo/extendido; foco: conciencia, persona, realidad, transformación. | Missing | 0 | — |
 | C304 | Global Consciousness Project corpus — Heterodoxo/extendido; foco: campo, resonancia, transpersonalidad. | Missing | 0 | — |
@@ -463,3 +463,12 @@
 - Current register coverage: 294/325 represented; 31/325 still missing.
 - Exact-13 represented sources: 224.
 - Verification note: C282–C287 were externally checked against current bibliographic records; C288–C291 remain explicitly heterodox/extended and are not treated as established scientific findings.
+
+## Batch v35 checkpoint
+
+- Newly represented register entries: C292, C293, C294, C295, C296, C297, C298, C299, C300, C301.
+- Added claims: 130 (10 × 13), stored as append-only delta.
+- Effective ledger: 4042 records / 307 source IDs.
+- Current register coverage: 304/325 represented; 21/325 still missing.
+- Exact-13 represented sources: 234.
+- Provenance caution: C292–C301 remain heterodox/extended; C294 and C297 have unresolved exact-source transmission and are explicitly marked accordingly in v35.
