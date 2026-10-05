@@ -5,18 +5,18 @@
 **Ledger:** `corpus/CLAIMS/claim_ledger_v1.json` + registered append deltas  
 **Audit rule:** an entry counts as represented only if its exact `corpus_id` occurs in at least one ledger record. This does **not** mean all claims are source-verified.
 
-## Reconciled totals after batch v25
+## Reconciled totals after batch v26
 
 - Register entries parsed: **325** (325 unique IDs).
-- Entries represented in effective corpus ledger: **204**.
-- Entries not yet represented: **121**.
-- Effective ledger records: **2742** (**2482** core ledger + **130** v24 append + **130** v25 append).
+- Entries represented in effective corpus ledger: **214**.
+- Entries not yet represented: **111**.
+- Effective ledger records: **2872** (**2482** core ledger + **130** v24 append + **130** v25 append + **130** v26 append).
 - Core ledger records in `claim_ledger_v1.json`: **2482**.
-- Unique source IDs in effective ledger: **207**.
-- Sources with exactly 13 effective ledger records: **134**.
+- Unique source IDs in effective ledger: **217**.
+- Sources with exactly 13 effective ledger records: **144**.
 - Represented but under 13: **40**.
 - Represented above 13: **30**.
-- **Storage note:** v24 and v25 are stored as append-only deltas because the current GitHub contents connector cannot rewrite the now-large core JSON blob without truncation.
+- **Storage note:** v24–v26 are stored as append-only deltas because the current GitHub contents connector cannot safely rewrite the now-large core JSON blob.
 - **Quality caveat:** “represented” is a coverage flag only. P2* claims and generic locators remain verification-pending.
 
 ## Status table
@@ -211,16 +211,16 @@
 | C186 | Hayy ibn Yaqzan — Islam/Sufismo; foco: conciencia, persona, realidad, transformación. | Represented — exactly 13 | 13 | S205 |
 | C187 | Picatrix — Esoterismo occidental; foco: correspondencias, microcosmos, alquimia. | Represented — exactly 13 | 13 | S206 |
 | C188 | Three Books of Occult Philosophy — Esoterismo occidental; foco: conciencia, persona, realidad, transformación. | Represented — exactly 13 | 13 | S207 |
-| C189 | Heptameron — Esoterismo occidental; foco: correspondencias, microcosmos, alquimia. | Missing | 0 | — |
-| C190 | Arbatel of Magic — Esoterismo occidental; foco: correspondencias, microcosmos, alquimia. | Missing | 0 | — |
-| C191 | Monas Hieroglyphica — Esoterismo occidental; foco: conciencia, persona, realidad, transformación. | Missing | 0 | — |
-| C192 | Fama Fraternitatis — Esoterismo occidental; foco: correspondencias, microcosmos, alquimia. | Missing | 0 | — |
-| C193 | Confessio Fraternitatis — Esoterismo occidental; foco: correspondencias, microcosmos, alquimia. | Missing | 0 | — |
-| C194 | Chymical Wedding — Esoterismo occidental; foco: correspondencias, microcosmos, alquimia. | Missing | 0 | — |
-| C195 | Atalanta Fugiens — Esoterismo occidental; foco: correspondencias, microcosmos, alquimia. | Missing | 0 | — |
-| C196 | Mutus Liber — Esoterismo occidental; foco: correspondencias, microcosmos, alquimia. | Missing | 0 | — |
-| C197 | Splendor Solis — Esoterismo occidental; foco: correspondencias, microcosmos, alquimia. | Missing | 0 | — |
-| C198 | Emerald Tablet tradition — Esoterismo occidental; foco: correspondencias, microcosmos, alquimia. | Missing | 0 | — |
+| C189 | Heptameron — Esoterismo occidental; foco: correspondencias, microcosmos, alquimia. | Represented — exactly 13 | 13 | S208 |
+| C190 | Arbatel of Magic — Esoterismo occidental; foco: correspondencias, microcosmos, alquimia. | Represented — exactly 13 | 13 | S209 |
+| C191 | Monas Hieroglyphica — Esoterismo occidental; foco: conciencia, persona, realidad, transformación. | Represented — exactly 13 | 13 | S210 |
+| C192 | Fama Fraternitatis — Esoterismo occidental; foco: correspondencias, microcosmos, alquimia. | Represented — exactly 13 | 13 | S211 |
+| C193 | Confessio Fraternitatis — Esoterismo occidental; foco: correspondencias, microcosmos, alquimia. | Represented — exactly 13 | 13 | S212 |
+| C194 | Chymical Wedding — Esoterismo occidental; foco: correspondencias, microcosmos, alquimia. | Represented — exactly 13 | 13 | S213 |
+| C195 | Atalanta Fugiens — Esoterismo occidental; foco: correspondencias, microcosmos, alquimia. | Represented — exactly 13 | 13 | S214 |
+| C196 | Mutus Liber — Esoterismo occidental; foco: correspondencias, microcosmos, alquimia. | Represented — exactly 13 | 13 | S215 |
+| C197 | Splendor Solis — Esoterismo occidental; foco: correspondencias, microcosmos, alquimia. | Represented — exactly 13 | 13 | S216 |
+| C198 | Emerald Tablet tradition — Esoterismo occidental; foco: correspondencias, microcosmos, alquimia. | Represented — exactly 13 | 13 | S217 |
 | C199 | Dogme et Rituel de la Haute Magie — Esoterismo occidental; foco: conciencia, persona, realidad, transformación. | Missing | 0 | — |
 | C200 | The Key of the Mysteries — Esoterismo occidental; foco: conciencia, persona, realidad, transformación. | Missing | 0 | — |
 | C201 | The Secret Doctrine — Esoterismo occidental; foco: conciencia, persona, realidad, transformación. | Missing | 0 | — |
@@ -382,3 +382,12 @@
 - Core ledger: 2482 records / 187 source IDs.
 - Current register coverage: 204/325 represented; 121/325 still missing.
 - Exact-13 represented sources: 134.
+
+## Batch v26 checkpoint
+
+- Newly represented register entries: C189, C190, C191, C192, C193, C194, C195, C196, C197, C198.
+- Added claims: 130 (10 × 13), stored as append-only delta.
+- Effective ledger: 2872 records / 217 source IDs.
+- Core ledger: 2482 records / 187 source IDs.
+- Current register coverage: 214/325 represented; 111/325 still missing.
+- Exact-13 represented sources: 144.
