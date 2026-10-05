@@ -13,7 +13,7 @@ Status: started.
 
 ## Phase 2 — Verification
 
-**Status: active. Nine extraction batches complete: 68 sources / 848 atomic claims.**
+**Status: claim extraction milestone complete. Ten batches plus closure complete: 73 sources / 1,000 globally unique atomic claims.**
 
 The first batch is stored at `corpus/CLAIMS/ANCHOR_CLAIMS_BATCH_V1.md`, with motif assignment summarized in `corpus/CLAIMS/MOTIF_EVIDENCE_SUMMARY_V1.md`.
 
@@ -54,6 +54,8 @@ For every proposed convergence, record:
 - whether the recurrence is phenomenological, ontological, metaphysical, or practical.
 
 ## Phase 5 — Synthetic Metaphysical Ontology
+
+**Transition unlocked:** claim extraction has reached the 1,000-claim target. Further work should prioritize provenance upgrades, contradiction analysis, structured graphing, and synthesis rather than raw claim count.
 
 Produce a versioned ontology that states:
 
@@ -123,7 +125,9 @@ Each major version should ship with:
 - Batch 7: **100 atomic claims / 5 presence-relational sources**.
 - Batch 8: **50 atomic claims / 5 Mahāyāna/Kabbalah/Sufi sources**.
 - Batch 9: **100 atomic claims / 5 Madhyamaka/Yogācāra/Kashmir Shaivism/Ibn ʿArabi sources**.
-- Current total: **848 atomic claims / 68 sources**.
+- Batch 10: **100 atomic claims / 5 relational/Indigenous/transpersonal sources**.
+- Batch 10 closure: **52 unique atomic claims / 3 relational/Indigenous sources**.
+- Current total: **1,000 globally unique atomic claims / 73 sources**.
 - Global target: **1,000+ atomic claims**.
 - Provenance control: `corpus/CLAIMS/VERIFICATION_QUEUE_V1.md` holds S1 claims at half-weight until primary verification.
 - Quantitative matrix: `ontology/CONVERGENCE_MATRIX_V2.md` now reports raw and provenance-weighted recurrence.
