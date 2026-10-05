@@ -1,0 +1,1983 @@
+{
+  "schema_version": "1.0-append",
+  "base_ledger": "claim_ledger_v1.json",
+  "batch": "26",
+  "claim_count": 130,
+  "records": [
+    {
+      "global_claim_id": "G26-S208-K01",
+      "claim_id": "K01",
+      "source_id": "S208",
+      "corpus_id": "C189",
+      "location": "Heptameron; seven-day planetary operations, angels, ritual preparation and sacred names",
+      "claim_type": "STATE",
+      "claim": "El Heptameron organiza la práctica mágica según días, horas y condiciones rituales diferenciadas.",
+      "motifs": [
+        "M07",
+        "M11",
+        "M24"
+      ],
+      "provenance": "P2*",
+      "batch": "26"
+    },
+    {
+      "global_claim_id": "G26-S208-K02",
+      "claim_id": "K02",
+      "source_id": "S208",
+      "corpus_id": "C189",
+      "location": "Heptameron; seven-day planetary operations, angels, ritual preparation and sacred names",
+      "claim_type": "CORRESPONDENCE",
+      "claim": "Días, planetas, ángeles, nombres y operaciones se vinculan mediante un sistema de correspondencias.",
+      "motifs": [
+        "M18",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "26"
+    },
+    {
+      "global_claim_id": "G26-S208-K03",
+      "claim_id": "K03",
+      "source_id": "S208",
+      "corpus_id": "C189",
+      "location": "Heptameron; seven-day planetary operations, angels, ritual preparation and sacred names",
+      "claim_type": "PRACTICE",
+      "claim": "La preparación del operador, la oración y la disposición ritual forman parte estructural de la operación.",
+      "motifs": [
+        "M24",
+        "M25"
+      ],
+      "provenance": "P2*",
+      "batch": "26"
+    },
+    {
+      "global_claim_id": "G26-S208-K04",
+      "claim_id": "K04",
+      "source_id": "S208",
+      "corpus_id": "C189",
+      "location": "Heptameron; seven-day planetary operations, angels, ritual preparation and sacred names",
+      "claim_type": "RELATION",
+      "claim": "El operador se presenta como mediador entre el ámbito humano y entidades o poderes celestes.",
+      "motifs": [
+        "M05",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "26"
+    },
+    {
+      "global_claim_id": "G26-S208-K05",
+      "claim_id": "K05",
+      "source_id": "S208",
+      "corpus_id": "C189",
+      "location": "Heptameron; seven-day planetary operations, angels, ritual preparation and sacred names",
+      "claim_type": "ATTENTION",
+      "claim": "La precisión de tiempos, nombres y secuencias requiere atención sostenida al procedimiento.",
+      "motifs": [
+        "M06",
+        "M24"
+      ],
+      "provenance": "P2*",
+      "batch": "26"
+    },
+    {
+      "global_claim_id": "G26-S208-K06",
+      "claim_id": "K06",
+      "source_id": "S208",
+      "corpus_id": "C189",
+      "location": "Heptameron; seven-day planetary operations, angels, ritual preparation and sacred names",
+      "claim_type": "VALENCE",
+      "claim": "Pureza, reverencia y preparación son condiciones normativas de la práctica.",
+      "motifs": [
+        "M10",
+        "M12"
+      ],
+      "provenance": "P2*",
+      "batch": "26"
+    },
+    {
+      "global_claim_id": "G26-S208-K07",
+      "claim_id": "K07",
+      "source_id": "S208",
+      "corpus_id": "C189",
+      "location": "Heptameron; seven-day planetary operations, angels, ritual preparation and sacred names",
+      "claim_type": "COSMO",
+      "claim": "La magia se inserta en una cosmología jerárquica de influencias planetarias y angelológicas.",
+      "motifs": [
+        "M15",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "26"
+    },
+    {
+      "global_claim_id": "G26-S208-K08",
+      "claim_id": "K08",
+      "source_id": "S208",
+      "corpus_id": "C189",
+      "location": "Heptameron; seven-day planetary operations, angels, ritual preparation and sacred names",
+      "claim_type": "TRANSFORMATION",
+      "claim": "La operación busca modificar condiciones humanas mediante una intervención simbólica en esa red de correspondencias.",
+      "motifs": [
+        "M12",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "26"
+    },
+    {
+      "global_claim_id": "G26-S208-K09",
+      "claim_id": "K09",
+      "source_id": "S208",
+      "corpus_id": "C189",
+      "location": "Heptameron; seven-day planetary operations, angels, ritual preparation and sacred names",
+      "claim_type": "EMBODIMENT",
+      "claim": "Palabras, gestos, instrumentos y materiales corporales participan en la ejecución ritual.",
+      "motifs": [
+        "M08",
+        "M18"
+      ],
+      "provenance": "P2*",
+      "batch": "26"
+    },
+    {
+      "global_claim_id": "G26-S208-K10",
+      "claim_id": "K10",
+      "source_id": "S208",
+      "corpus_id": "C189",
+      "location": "Heptameron; seven-day planetary operations, angels, ritual preparation and sacred names",
+      "claim_type": "UNITY",
+      "claim": "La división semanal y planetaria se integra en una arquitectura única de orden celeste y práctica humana.",
+      "motifs": [
+        "M03",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "26"
+    },
+    {
+      "global_claim_id": "G26-S208-K11",
+      "claim_id": "K11",
+      "source_id": "S208",
+      "corpus_id": "C189",
+      "location": "Heptameron; seven-day planetary operations, angels, ritual preparation and sacred names",
+      "claim_type": "DYNAMICS",
+      "claim": "La secuencia temporal de horas y regencias hace del tiempo una variable activa del sistema ritual.",
+      "motifs": [
+        "M09",
+        "M11"
+      ],
+      "provenance": "P2*",
+      "batch": "26"
+    },
+    {
+      "global_claim_id": "G26-S208-K12",
+      "claim_id": "K12",
+      "source_id": "S208",
+      "corpus_id": "C189",
+      "location": "Heptameron; seven-day planetary operations, angels, ritual preparation and sacred names",
+      "claim_type": "META",
+      "claim": "El texto pertenece a una tradición grimorial histórica y sus causalidades ocultas no constituyen mecanismos científicamente establecidos.",
+      "motifs": [
+        "M14",
+        "M17",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "26"
+    },
+    {
+      "global_claim_id": "G26-S208-K13",
+      "claim_id": "K13",
+      "source_id": "S208",
+      "corpus_id": "C189",
+      "location": "Heptameron; seven-day planetary operations, angels, ritual preparation and sacred names",
+      "claim_type": "REFLEXIVITY",
+      "claim": "La disciplina ritual obliga al operador a regular su propia conducta antes de atribuir eficacia a fuerzas externas.",
+      "motifs": [
+        "M02",
+        "M06",
+        "M25"
+      ],
+      "provenance": "P2*",
+      "batch": "26"
+    },
+    {
+      "global_claim_id": "G26-S209-K01",
+      "claim_id": "K01",
+      "source_id": "S209",
+      "corpus_id": "C190",
+      "location": "Arbatel de Magia Veterum; aphorisms, divine-natural order, Olympic spirits and ethical magic",
+      "claim_type": "ONTO",
+      "claim": "Arbatel presenta la magia como una disciplina integrada en un orden natural y divino, no como poder autónomo del operador.",
+      "motifs": [
+        "M03",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "26"
+    },
+    {
+      "global_claim_id": "G26-S209-K02",
+      "claim_id": "K02",
+      "source_id": "S209",
+      "corpus_id": "C190",
+      "location": "Arbatel de Magia Veterum; aphorisms, divine-natural order, Olympic spirits and ethical magic",
+      "claim_type": "PRACTICE",
+      "claim": "Los aforismos enfatizan conocimiento, prudencia, oración y conducta apropiada como bases de la práctica.",
+      "motifs": [
+        "M24",
+        "M25"
+      ],
+      "provenance": "P2*",
+      "batch": "26"
+    },
+    {
+      "global_claim_id": "G26-S209-K03",
+      "claim_id": "K03",
+      "source_id": "S209",
+      "corpus_id": "C190",
+      "location": "Arbatel de Magia Veterum; aphorisms, divine-natural order, Olympic spirits and ethical magic",
+      "claim_type": "RELATION",
+      "claim": "El operador se vincula con inteligencias u órdenes espirituales dentro de una estructura jerárquica.",
+      "motifs": [
+        "M05",
+        "M15"
+      ],
+      "provenance": "P2*",
+      "batch": "26"
+    },
+    {
+      "global_claim_id": "G26-S209-K04",
+      "claim_id": "K04",
+      "source_id": "S209",
+      "corpus_id": "C190",
+      "location": "Arbatel de Magia Veterum; aphorisms, divine-natural order, Olympic spirits and ethical magic",
+      "claim_type": "CORRESPONDENCE",
+      "claim": "Las operaciones conectan esferas planetarias, virtudes, tiempos y agentes espirituales.",
+      "motifs": [
+        "M18",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "26"
+    },
+    {
+      "global_claim_id": "G26-S209-K05",
+      "claim_id": "K05",
+      "source_id": "S209",
+      "corpus_id": "C190",
+      "location": "Arbatel de Magia Veterum; aphorisms, divine-natural order, Olympic spirits and ethical magic",
+      "claim_type": "VALENCE",
+      "claim": "La piedad y la conducta moral limitan el uso legítimo de la magia.",
+      "motifs": [
+        "M10",
+        "M12"
+      ],
+      "provenance": "P2*",
+      "batch": "26"
+    },
+    {
+      "global_claim_id": "G26-S209-K06",
+      "claim_id": "K06",
+      "source_id": "S209",
+      "corpus_id": "C190",
+      "location": "Arbatel de Magia Veterum; aphorisms, divine-natural order, Olympic spirits and ethical magic",
+      "claim_type": "STATE",
+      "claim": "La capacidad del operador depende de su preparación, conocimiento y orientación interior.",
+      "motifs": [
+        "M07",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "26"
+    },
+    {
+      "global_claim_id": "G26-S209-K07",
+      "claim_id": "K07",
+      "source_id": "S209",
+      "corpus_id": "C190",
+      "location": "Arbatel de Magia Veterum; aphorisms, divine-natural order, Olympic spirits and ethical magic",
+      "claim_type": "TRANSFORMATION",
+      "claim": "El dominio de la práctica supone cultivar capacidades y carácter, no solamente adquirir fórmulas.",
+      "motifs": [
+        "M12",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "26"
+    },
+    {
+      "global_claim_id": "G26-S209-K08",
+      "claim_id": "K08",
+      "source_id": "S209",
+      "corpus_id": "C190",
+      "location": "Arbatel de Magia Veterum; aphorisms, divine-natural order, Olympic spirits and ethical magic",
+      "claim_type": "ATTENTION",
+      "claim": "El estilo aforístico exige memorizar y aplicar con cuidado principios, correspondencias y condiciones.",
+      "motifs": [
+        "M06",
+        "M24"
+      ],
+      "provenance": "P2*",
+      "batch": "26"
+    },
+    {
+      "global_claim_id": "G26-S209-K09",
+      "claim_id": "K09",
+      "source_id": "S209",
+      "corpus_id": "C190",
+      "location": "Arbatel de Magia Veterum; aphorisms, divine-natural order, Olympic spirits and ethical magic",
+      "claim_type": "UNITY",
+      "claim": "La obra busca integrar conocimiento de naturaleza, cielo y dimensión espiritual en una sola ciencia.",
+      "motifs": [
+        "M03",
+        "M15",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "26"
+    },
+    {
+      "global_claim_id": "G26-S209-K10",
+      "claim_id": "K10",
+      "source_id": "S209",
+      "corpus_id": "C190",
+      "location": "Arbatel de Magia Veterum; aphorisms, divine-natural order, Olympic spirits and ethical magic",
+      "claim_type": "DYNAMICS",
+      "claim": "Los siete espíritus olímpicos son organizados como funciones diferenciadas dentro de la estructura planetaria.",
+      "motifs": [
+        "M09",
+        "M15"
+      ],
+      "provenance": "P2*",
+      "batch": "26"
+    },
+    {
+      "global_claim_id": "G26-S209-K11",
+      "claim_id": "K11",
+      "source_id": "S209",
+      "corpus_id": "C190",
+      "location": "Arbatel de Magia Veterum; aphorisms, divine-natural order, Olympic spirits and ethical magic",
+      "claim_type": "SELF_MODEL",
+      "claim": "El mago ideal aparece como sujeto disciplinado que ordena su propio deseo antes de intentar intervenir.",
+      "motifs": [
+        "M02",
+        "M06"
+      ],
+      "provenance": "P2*",
+      "batch": "26"
+    },
+    {
+      "global_claim_id": "G26-S209-K12",
+      "claim_id": "K12",
+      "source_id": "S209",
+      "corpus_id": "C190",
+      "location": "Arbatel de Magia Veterum; aphorisms, divine-natural order, Olympic spirits and ethical magic",
+      "claim_type": "META",
+      "claim": "La obra fue impresa anónimamente en Basilea en 1575 y funciona como tratado breve de magia natural y celeste, no como evidencia empírica de fuerzas ocultas.",
+      "motifs": [
+        "M14",
+        "M17",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "26"
+    },
+    {
+      "global_claim_id": "G26-S209-K13",
+      "claim_id": "K13",
+      "source_id": "S209",
+      "corpus_id": "C190",
+      "location": "Arbatel de Magia Veterum; aphorisms, divine-natural order, Olympic spirits and ethical magic",
+      "claim_type": "DEATH",
+      "claim": "La orientación moral y espiritual del tratado relativiza beneficios temporales frente al orden superior al que el operador debe someterse.",
+      "motifs": [
+        "M19",
+        "M25"
+      ],
+      "provenance": "P2*",
+      "batch": "26"
+    },
+    {
+      "global_claim_id": "G26-S210-K01",
+      "claim_id": "K01",
+      "source_id": "S210",
+      "corpus_id": "C191",
+      "location": "John Dee, 1564; hieroglyphic monad, point, circle, Sun, Moon, planets and nature",
+      "claim_type": "UNITY",
+      "claim": "La Monad jeroglífica intenta reunir distintos símbolos astrales y elementales en una figura única.",
+      "motifs": [
+        "M03",
+        "M18",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "26"
+    },
+    {
+      "global_claim_id": "G26-S210-K02",
+      "claim_id": "K02",
+      "source_id": "S210",
+      "corpus_id": "C191",
+      "location": "John Dee, 1564; hieroglyphic monad, point, circle, Sun, Moon, planets and nature",
+      "claim_type": "CORRESPONDENCE",
+      "claim": "Punto, círculo, Sol, Luna y signos planetarios se combinan para representar relaciones entre niveles de realidad.",
+      "motifs": [
+        "M18",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "26"
+    },
+    {
+      "global_claim_id": "G26-S210-K03",
+      "claim_id": "K03",
+      "source_id": "S210",
+      "corpus_id": "C191",
+      "location": "John Dee, 1564; hieroglyphic monad, point, circle, Sun, Moon, planets and nature",
+      "claim_type": "ONTO",
+      "claim": "Dee trata el símbolo como una representación de principios por los cuales las cosas comienzan a emerger en forma inteligible.",
+      "motifs": [
+        "M03",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "26"
+    },
+    {
+      "global_claim_id": "G26-S210-K04",
+      "claim_id": "K04",
+      "source_id": "S210",
+      "corpus_id": "C191",
+      "location": "John Dee, 1564; hieroglyphic monad, point, circle, Sun, Moon, planets and nature",
+      "claim_type": "COSMO",
+      "claim": "La estructura del glifo relaciona Tierra, Sol, Luna y planetas dentro de una cosmología simbólica.",
+      "motifs": [
+        "M15",
+        "M18"
+      ],
+      "provenance": "P2*",
+      "batch": "26"
+    },
+    {
+      "global_claim_id": "G26-S210-K05",
+      "claim_id": "K05",
+      "source_id": "S210",
+      "corpus_id": "C191",
+      "location": "John Dee, 1564; hieroglyphic monad, point, circle, Sun, Moon, planets and nature",
+      "claim_type": "REFLEXIVITY",
+      "claim": "La interpretación del símbolo requiere que el observador investigue cómo se construye el propio acto de representación.",
+      "motifs": [
+        "M02",
+        "M06",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "26"
+    },
+    {
+      "global_claim_id": "G26-S210-K06",
+      "claim_id": "K06",
+      "source_id": "S210",
+      "corpus_id": "C191",
+      "location": "John Dee, 1564; hieroglyphic monad, point, circle, Sun, Moon, planets and nature",
+      "claim_type": "STATE",
+      "claim": "El conocimiento jeroglífico implica diferentes niveles de lectura que superan la percepción literal de la figura.",
+      "motifs": [
+        "M07",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "26"
+    },
+    {
+      "global_claim_id": "G26-S210-K07",
+      "claim_id": "K07",
+      "source_id": "S210",
+      "corpus_id": "C191",
+      "location": "John Dee, 1564; hieroglyphic monad, point, circle, Sun, Moon, planets and nature",
+      "claim_type": "TRANSFORMATION",
+      "claim": "El símbolo se presenta como instrumento para pensar procesos de transformación y relación entre elementos.",
+      "motifs": [
+        "M12",
+        "M18"
+      ],
+      "provenance": "P2*",
+      "batch": "26"
+    },
+    {
+      "global_claim_id": "G26-S210-K08",
+      "claim_id": "K08",
+      "source_id": "S210",
+      "corpus_id": "C191",
+      "location": "John Dee, 1564; hieroglyphic monad, point, circle, Sun, Moon, planets and nature",
+      "claim_type": "ATTENTION",
+      "claim": "La obra exige contemplación detallada de formas geométricas, signos y relaciones internas.",
+      "motifs": [
+        "M06",
+        "M24"
+      ],
+      "provenance": "P2*",
+      "batch": "26"
+    },
+    {
+      "global_claim_id": "G26-S210-K09",
+      "claim_id": "K09",
+      "source_id": "S210",
+      "corpus_id": "C191",
+      "location": "John Dee, 1564; hieroglyphic monad, point, circle, Sun, Moon, planets and nature",
+      "claim_type": "EMBODIMENT",
+      "claim": "El conocimiento abstracto se fija en una figura material que puede observarse, dividirse y recombinarse.",
+      "motifs": [
+        "M08",
+        "M18"
+      ],
+      "provenance": "P2*",
+      "batch": "26"
+    },
+    {
+      "global_claim_id": "G26-S210-K10",
+      "claim_id": "K10",
+      "source_id": "S210",
+      "corpus_id": "C191",
+      "location": "John Dee, 1564; hieroglyphic monad, point, circle, Sun, Moon, planets and nature",
+      "claim_type": "DYNAMICS",
+      "claim": "El movimiento entre Tierra, Luna y Sol se utiliza para representar procesos y jerarquías cosmológicas.",
+      "motifs": [
+        "M09",
+        "M15"
+      ],
+      "provenance": "P2*",
+      "batch": "26"
+    },
+    {
+      "global_claim_id": "G26-S210-K11",
+      "claim_id": "K11",
+      "source_id": "S210",
+      "corpus_id": "C191",
+      "location": "John Dee, 1564; hieroglyphic monad, point, circle, Sun, Moon, planets and nature",
+      "claim_type": "INEFFABILITY",
+      "claim": "El glifo funciona como un medio simbólico para contenidos que Dee considera difíciles de expresar sólo discursivamente.",
+      "motifs": [
+        "M14",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "26"
+    },
+    {
+      "global_claim_id": "G26-S210-K12",
+      "claim_id": "K12",
+      "source_id": "S210",
+      "corpus_id": "C191",
+      "location": "John Dee, 1564; hieroglyphic monad, point, circle, Sun, Moon, planets and nature",
+      "claim_type": "META",
+      "claim": "Monas Hieroglyphica es una obra esotérica renacentista de John Dee, publicada en Amberes en 1564; sus correspondencias pertenecen a una cosmología histórica.",
+      "motifs": [
+        "M14",
+        "M17",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "26"
+    },
+    {
+      "global_claim_id": "G26-S210-K13",
+      "claim_id": "K13",
+      "source_id": "S210",
+      "corpus_id": "C191",
+      "location": "John Dee, 1564; hieroglyphic monad, point, circle, Sun, Moon, planets and nature",
+      "claim_type": "PRACTICE",
+      "claim": "La interpretación depende de estudio, lectura simbólica y manejo disciplinado de varias tradiciones de signos.",
+      "motifs": [
+        "M24",
+        "M25"
+      ],
+      "provenance": "P2*",
+      "batch": "26"
+    },
+    {
+      "global_claim_id": "G26-S211-K01",
+      "claim_id": "K01",
+      "source_id": "S211",
+      "corpus_id": "C192",
+      "location": "Rosicrucian manifesto, Christian Rosenkreutz, reform, knowledge, medicine, nature and microcosm",
+      "claim_type": "TRANSFORMATION",
+      "claim": "La Fama presenta una agenda de renovación del conocimiento y de reforma de las artes y ciencias.",
+      "motifs": [
+        "M12",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "26"
+    },
+    {
+      "global_claim_id": "G26-S211-K02",
+      "claim_id": "K02",
+      "source_id": "S211",
+      "corpus_id": "C192",
+      "location": "Rosicrucian manifesto, Christian Rosenkreutz, reform, knowledge, medicine, nature and microcosm",
+      "claim_type": "KNOWLEDGE",
+      "claim": "El texto valora el conocimiento de naturaleza, medicina, artes y sabiduría como instrumentos de renovación humana.",
+      "motifs": [
+        "M06",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "26"
+    },
+    {
+      "global_claim_id": "G26-S211-K03",
+      "claim_id": "K03",
+      "source_id": "S211",
+      "corpus_id": "C192",
+      "location": "Rosicrucian manifesto, Christian Rosenkreutz, reform, knowledge, medicine, nature and microcosm",
+      "claim_type": "MICROCOSM",
+      "claim": "El ser humano es caracterizado como microcosmos cuyo conocimiento ayuda a comprender la naturaleza.",
+      "motifs": [
+        "M03",
+        "M05",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "26"
+    },
+    {
+      "global_claim_id": "G26-S211-K04",
+      "claim_id": "K04",
+      "source_id": "S211",
+      "corpus_id": "C192",
+      "location": "Rosicrucian manifesto, Christian Rosenkreutz, reform, knowledge, medicine, nature and microcosm",
+      "claim_type": "RELATION",
+      "claim": "La fraternidad se define como comunidad de aprendizaje, intercambio y cooperación entre buscadores.",
+      "motifs": [
+        "M05",
+        "M16"
+      ],
+      "provenance": "P2*",
+      "batch": "26"
+    },
+    {
+      "global_claim_id": "G26-S211-K05",
+      "claim_id": "K05",
+      "source_id": "S211",
+      "corpus_id": "C192",
+      "location": "Rosicrucian manifesto, Christian Rosenkreutz, reform, knowledge, medicine, nature and microcosm",
+      "claim_type": "VALENCE",
+      "claim": "Reforma, servicio, conocimiento y oposición a la vanidad del saber son valores centrales del manifesto.",
+      "motifs": [
+        "M10",
+        "M12"
+      ],
+      "provenance": "P2*",
+      "batch": "26"
+    },
+    {
+      "global_claim_id": "G26-S211-K06",
+      "claim_id": "K06",
+      "source_id": "S211",
+      "corpus_id": "C192",
+      "location": "Rosicrucian manifesto, Christian Rosenkreutz, reform, knowledge, medicine, nature and microcosm",
+      "claim_type": "PRACTICE",
+      "claim": "Viaje, estudio, observación y transmisión forman parte de la formación de Christian Rosenkreutz.",
+      "motifs": [
+        "M24",
+        "M25"
+      ],
+      "provenance": "P2*",
+      "batch": "26"
+    },
+    {
+      "global_claim_id": "G26-S211-K07",
+      "claim_id": "K07",
+      "source_id": "S211",
+      "corpus_id": "C192",
+      "location": "Rosicrucian manifesto, Christian Rosenkreutz, reform, knowledge, medicine, nature and microcosm",
+      "claim_type": "COSMO",
+      "claim": "Naturaleza, medicina, teología y matemática se presentan como campos conectados dentro de un orden cognoscible.",
+      "motifs": [
+        "M15",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "26"
+    },
+    {
+      "global_claim_id": "G26-S211-K08",
+      "claim_id": "K08",
+      "source_id": "S211",
+      "corpus_id": "C192",
+      "location": "Rosicrucian manifesto, Christian Rosenkreutz, reform, knowledge, medicine, nature and microcosm",
+      "claim_type": "UNITY",
+      "claim": "El ideal de un 'libro de la naturaleza' busca reunir distintas artes en una comprensión más integrada.",
+      "motifs": [
+        "M03",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "26"
+    },
+    {
+      "global_claim_id": "G26-S211-K09",
+      "claim_id": "K09",
+      "source_id": "S211",
+      "corpus_id": "C192",
+      "location": "Rosicrucian manifesto, Christian Rosenkreutz, reform, knowledge, medicine, nature and microcosm",
+      "claim_type": "SELF_MODEL",
+      "claim": "El microcosmos humano se ofrece como modelo de relación entre conocimiento interno y estructura del mundo.",
+      "motifs": [
+        "M02",
+        "M05"
+      ],
+      "provenance": "P2*",
+      "batch": "26"
+    },
+    {
+      "global_claim_id": "G26-S211-K10",
+      "claim_id": "K10",
+      "source_id": "S211",
+      "corpus_id": "C192",
+      "location": "Rosicrucian manifesto, Christian Rosenkreutz, reform, knowledge, medicine, nature and microcosm",
+      "claim_type": "TEMPORAL",
+      "claim": "La narrativa del fundador organiza una trayectoria biográfica de viajes, aprendizaje, retorno y fundación.",
+      "motifs": [
+        "M11",
+        "M12"
+      ],
+      "provenance": "P2*",
+      "batch": "26"
+    },
+    {
+      "global_claim_id": "G26-S211-K11",
+      "claim_id": "K11",
+      "source_id": "S211",
+      "corpus_id": "C192",
+      "location": "Rosicrucian manifesto, Christian Rosenkreutz, reform, knowledge, medicine, nature and microcosm",
+      "claim_type": "REFLEXIVITY",
+      "claim": "El texto invita a reconsiderar las limitaciones del conocimiento recibido y la capacidad humana de superar sus límites.",
+      "motifs": [
+        "M02",
+        "M06",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "26"
+    },
+    {
+      "global_claim_id": "G26-S211-K12",
+      "claim_id": "K12",
+      "source_id": "S211",
+      "corpus_id": "C192",
+      "location": "Rosicrucian manifesto, Christian Rosenkreutz, reform, knowledge, medicine, nature and microcosm",
+      "claim_type": "META",
+      "claim": "Fama Fraternitatis apareció de forma rastreable en 1614 y es un manifesto rosacruz; su programa no debe confundirse con una sociedad histórica empíricamente demostrada tal como se narra.",
+      "motifs": [
+        "M14",
+        "M17",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "26"
+    },
+    {
+      "global_claim_id": "G26-S211-K13",
+      "claim_id": "K13",
+      "source_id": "S211",
+      "corpus_id": "C192",
+      "location": "Rosicrucian manifesto, Christian Rosenkreutz, reform, knowledge, medicine, nature and microcosm",
+      "claim_type": "DEATH",
+      "claim": "La tumba y el legado de Rosenkreutz convierten muerte, memoria y transmisión en componentes de la narrativa de renovación.",
+      "motifs": [
+        "M19",
+        "M16"
+      ],
+      "provenance": "P2*",
+      "batch": "26"
+    },
+    {
+      "global_claim_id": "G26-S212-K01",
+      "claim_id": "K01",
+      "source_id": "S212",
+      "corpus_id": "C193",
+      "location": "Rosicrucian manifesto, revelation, renewal, prophecy, ethical reform and hidden knowledge",
+      "claim_type": "TRANSFORMATION",
+      "claim": "La Confessio presenta la aparición de la fraternidad como señal de renovación espiritual e intelectual.",
+      "motifs": [
+        "M12",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "26"
+    },
+    {
+      "global_claim_id": "G26-S212-K02",
+      "claim_id": "K02",
+      "source_id": "S212",
+      "corpus_id": "C193",
+      "location": "Rosicrucian manifesto, revelation, renewal, prophecy, ethical reform and hidden knowledge",
+      "claim_type": "KNOWLEDGE",
+      "claim": "El texto vincula conocimiento, revelación y comprensión del orden divino con una reforma de la humanidad.",
+      "motifs": [
+        "M06",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "26"
+    },
+    {
+      "global_claim_id": "G26-S212-K03",
+      "claim_id": "K03",
+      "source_id": "S212",
+      "corpus_id": "C193",
+      "location": "Rosicrucian manifesto, revelation, renewal, prophecy, ethical reform and hidden knowledge",
+      "claim_type": "VALENCE",
+      "claim": "Reforma moral, verdad, piedad y rechazo de la corrupción se presentan como condiciones para la renovación.",
+      "motifs": [
+        "M10",
+        "M12"
+      ],
+      "provenance": "P2*",
+      "batch": "26"
+    },
+    {
+      "global_claim_id": "G26-S212-K04",
+      "claim_id": "K04",
+      "source_id": "S212",
+      "corpus_id": "C193",
+      "location": "Rosicrucian manifesto, revelation, renewal, prophecy, ethical reform and hidden knowledge",
+      "claim_type": "RELATION",
+      "claim": "La fraternidad se dirige a lectores y estudiosos como interlocutores potenciales de una misión común.",
+      "motifs": [
+        "M05",
+        "M16"
+      ],
+      "provenance": "P2*",
+      "batch": "26"
+    },
+    {
+      "global_claim_id": "G26-S212-K05",
+      "claim_id": "K05",
+      "source_id": "S212",
+      "corpus_id": "C193",
+      "location": "Rosicrucian manifesto, revelation, renewal, prophecy, ethical reform and hidden knowledge",
+      "claim_type": "PRACTICE",
+      "claim": "La invitación exige examinar, comparar y responder activamente a los principios proclamados.",
+      "motifs": [
+        "M24",
+        "M25"
+      ],
+      "provenance": "P2*",
+      "batch": "26"
+    },
+    {
+      "global_claim_id": "G26-S212-K06",
+      "claim_id": "K06",
+      "source_id": "S212",
+      "corpus_id": "C193",
+      "location": "Rosicrucian manifesto, revelation, renewal, prophecy, ethical reform and hidden knowledge",
+      "claim_type": "STATE",
+      "claim": "La humanidad es representada como situada entre ignorancia presente y una posibilidad futura de iluminación.",
+      "motifs": [
+        "M07",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "26"
+    },
+    {
+      "global_claim_id": "G26-S212-K07",
+      "claim_id": "K07",
+      "source_id": "S212",
+      "corpus_id": "C193",
+      "location": "Rosicrucian manifesto, revelation, renewal, prophecy, ethical reform and hidden knowledge",
+      "claim_type": "REFLEXIVITY",
+      "claim": "El lector es exhortado a considerar internamente si las razones presentadas son suficientes para cambiar su orientación.",
+      "motifs": [
+        "M02",
+        "M06",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "26"
+    },
+    {
+      "global_claim_id": "G26-S212-K08",
+      "claim_id": "K08",
+      "source_id": "S212",
+      "corpus_id": "C193",
+      "location": "Rosicrucian manifesto, revelation, renewal, prophecy, ethical reform and hidden knowledge",
+      "claim_type": "COSMO",
+      "claim": "Los signos naturales y astronómicos son interpretados dentro de una narrativa providencial de cambio histórico.",
+      "motifs": [
+        "M15",
+        "M18"
+      ],
+      "provenance": "P2*",
+      "batch": "26"
+    },
+    {
+      "global_claim_id": "G26-S212-K09",
+      "claim_id": "K09",
+      "source_id": "S212",
+      "corpus_id": "C193",
+      "location": "Rosicrucian manifesto, revelation, renewal, prophecy, ethical reform and hidden knowledge",
+      "claim_type": "UNITY",
+      "claim": "Ciencia, teología, moral y reforma social se presentan como dimensiones de un mismo proyecto.",
+      "motifs": [
+        "M03",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "26"
+    },
+    {
+      "global_claim_id": "G26-S212-K10",
+      "claim_id": "K10",
+      "source_id": "S212",
+      "corpus_id": "C193",
+      "location": "Rosicrucian manifesto, revelation, renewal, prophecy, ethical reform and hidden knowledge",
+      "claim_type": "TEMPORAL",
+      "claim": "La profecía introduce una estructura temporal en la que una renovación futura da sentido al presente.",
+      "motifs": [
+        "M11",
+        "M12"
+      ],
+      "provenance": "P2*",
+      "batch": "26"
+    },
+    {
+      "global_claim_id": "G26-S212-K11",
+      "claim_id": "K11",
+      "source_id": "S212",
+      "corpus_id": "C193",
+      "location": "Rosicrucian manifesto, revelation, renewal, prophecy, ethical reform and hidden knowledge",
+      "claim_type": "META",
+      "claim": "Confessio Fraternitatis fue publicada en 1615 y debe leerse como manifesto teológico-esotérico, no como informe científico.",
+      "motifs": [
+        "M14",
+        "M17",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "26"
+    },
+    {
+      "global_claim_id": "G26-S212-K12",
+      "claim_id": "K12",
+      "source_id": "S212",
+      "corpus_id": "C193",
+      "location": "Rosicrucian manifesto, revelation, renewal, prophecy, ethical reform and hidden knowledge",
+      "claim_type": "INEFFABILITY",
+      "claim": "La revelación se describe mediante signos y promesas cuyo significado completo puede no ser accesible de inmediato.",
+      "motifs": [
+        "M14",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "26"
+    },
+    {
+      "global_claim_id": "G26-S212-K13",
+      "claim_id": "K13",
+      "source_id": "S212",
+      "corpus_id": "C193",
+      "location": "Rosicrucian manifesto, revelation, renewal, prophecy, ethical reform and hidden knowledge",
+      "claim_type": "DEATH",
+      "claim": "La renovación colectiva funciona como sustitución simbólica de un mundo corrupto por un orden reformado.",
+      "motifs": [
+        "M19",
+        "M12"
+      ],
+      "provenance": "P2*",
+      "batch": "26"
+    },
+    {
+      "global_claim_id": "G26-S213-K01",
+      "claim_id": "K01",
+      "source_id": "S213",
+      "corpus_id": "C194",
+      "location": "Chymische Hochzeit; seven-day allegorical journey, trials, marriage, death and rebirth",
+      "claim_type": "TRANSFORMATION",
+      "claim": "La narración organiza la experiencia como una cadena de pruebas que transforma gradualmente al protagonista.",
+      "motifs": [
+        "M12",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "26"
+    },
+    {
+      "global_claim_id": "G26-S213-K02",
+      "claim_id": "K02",
+      "source_id": "S213",
+      "corpus_id": "C194",
+      "location": "Chymische Hochzeit; seven-day allegorical journey, trials, marriage, death and rebirth",
+      "claim_type": "TEMPORAL",
+      "claim": "Los siete días estructuran la obra como una secuencia temporal explícita de iniciación.",
+      "motifs": [
+        "M11",
+        "M12"
+      ],
+      "provenance": "P2*",
+      "batch": "26"
+    },
+    {
+      "global_claim_id": "G26-S213-K03",
+      "claim_id": "K03",
+      "source_id": "S213",
+      "corpus_id": "C194",
+      "location": "Chymische Hochzeit; seven-day allegorical journey, trials, marriage, death and rebirth",
+      "claim_type": "RELATION",
+      "claim": "La boda simbólica une figuras reales y alquímicas, usando relación y complementariedad como mecanismos de transformación.",
+      "motifs": [
+        "M05",
+        "M16"
+      ],
+      "provenance": "P2*",
+      "batch": "26"
+    },
+    {
+      "global_claim_id": "G26-S213-K04",
+      "claim_id": "K04",
+      "source_id": "S213",
+      "corpus_id": "C194",
+      "location": "Chymische Hochzeit; seven-day allegorical journey, trials, marriage, death and rebirth",
+      "claim_type": "UNITY",
+      "claim": "La unión de rey y reina funciona como imagen de integración de polaridades.",
+      "motifs": [
+        "M03",
+        "M04"
+      ],
+      "provenance": "P2*",
+      "batch": "26"
+    },
+    {
+      "global_claim_id": "G26-S213-K05",
+      "claim_id": "K05",
+      "source_id": "S213",
+      "corpus_id": "C194",
+      "location": "Chymische Hochzeit; seven-day allegorical journey, trials, marriage, death and rebirth",
+      "claim_type": "DEATH",
+      "claim": "Muerte, descuartizamiento, resurrección y renovación forman parte de la imaginería iniciática del relato.",
+      "motifs": [
+        "M19",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "26"
+    },
+    {
+      "global_claim_id": "G26-S213-K06",
+      "claim_id": "K06",
+      "source_id": "S213",
+      "corpus_id": "C194",
+      "location": "Chymische Hochzeit; seven-day allegorical journey, trials, marriage, death and rebirth",
+      "claim_type": "STATE",
+      "claim": "El protagonista atraviesa estados sucesivos de incertidumbre, prueba, conocimiento y reconocimiento.",
+      "motifs": [
+        "M07",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "26"
+    },
+    {
+      "global_claim_id": "G26-S213-K07",
+      "claim_id": "K07",
+      "source_id": "S213",
+      "corpus_id": "C194",
+      "location": "Chymische Hochzeit; seven-day allegorical journey, trials, marriage, death and rebirth",
+      "claim_type": "PRACTICE",
+      "claim": "El aprendizaje ocurre mediante observación, obediencia, participación en ceremonias y resolución de pruebas simbólicas.",
+      "motifs": [
+        "M24",
+        "M25"
+      ],
+      "provenance": "P2*",
+      "batch": "26"
+    },
+    {
+      "global_claim_id": "G26-S213-K08",
+      "claim_id": "K08",
+      "source_id": "S213",
+      "corpus_id": "C194",
+      "location": "Chymische Hochzeit; seven-day allegorical journey, trials, marriage, death and rebirth",
+      "claim_type": "EMBODIMENT",
+      "claim": "Procesos corporales y materiales se usan para representar transformaciones espirituales y alquímicas.",
+      "motifs": [
+        "M08",
+        "M18"
+      ],
+      "provenance": "P2*",
+      "batch": "26"
+    },
+    {
+      "global_claim_id": "G26-S213-K09",
+      "claim_id": "K09",
+      "source_id": "S213",
+      "corpus_id": "C194",
+      "location": "Chymische Hochzeit; seven-day allegorical journey, trials, marriage, death and rebirth",
+      "claim_type": "VALENCE",
+      "claim": "Pureza, fidelidad, discernimiento y capacidad de transformación condicionan el avance del protagonista.",
+      "motifs": [
+        "M10",
+        "M12"
+      ],
+      "provenance": "P2*",
+      "batch": "26"
+    },
+    {
+      "global_claim_id": "G26-S213-K10",
+      "claim_id": "K10",
+      "source_id": "S213",
+      "corpus_id": "C194",
+      "location": "Chymische Hochzeit; seven-day allegorical journey, trials, marriage, death and rebirth",
+      "claim_type": "CORRESPONDENCE",
+      "claim": "Símbolos bíblicos, alquímicos y cosmológicos se superponen en una red de correspondencias.",
+      "motifs": [
+        "M18",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "26"
+    },
+    {
+      "global_claim_id": "G26-S213-K11",
+      "claim_id": "K11",
+      "source_id": "S213",
+      "corpus_id": "C194",
+      "location": "Chymische Hochzeit; seven-day allegorical journey, trials, marriage, death and rebirth",
+      "claim_type": "REFLEXIVITY",
+      "claim": "El relato obliga al protagonista a reinterpretar repetidamente lo que cree conocer sobre el viaje y sus objetivos.",
+      "motifs": [
+        "M02",
+        "M06",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "26"
+    },
+    {
+      "global_claim_id": "G26-S213-K12",
+      "claim_id": "K12",
+      "source_id": "S213",
+      "corpus_id": "C194",
+      "location": "Chymische Hochzeit; seven-day allegorical journey, trials, marriage, death and rebirth",
+      "claim_type": "INEFFABILITY",
+      "claim": "La forma alegórica mantiene abierto el significado y evita reducir el proceso a una única interpretación literal.",
+      "motifs": [
+        "M14",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "26"
+    },
+    {
+      "global_claim_id": "G26-S213-K13",
+      "claim_id": "K13",
+      "source_id": "S213",
+      "corpus_id": "C194",
+      "location": "Chymische Hochzeit; seven-day allegorical journey, trials, marriage, death and rebirth",
+      "claim_type": "META",
+      "claim": "Chymische Hochzeit se publicó en 1616 como romance/allegoría rosacruz; sus elementos de muerte y renacimiento pertenecen a una poética simbólica, no a un protocolo empírico.",
+      "motifs": [
+        "M14",
+        "M17",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "26"
+    },
+    {
+      "global_claim_id": "G26-S214-K01",
+      "claim_id": "K01",
+      "source_id": "S214",
+      "corpus_id": "C195",
+      "location": "Michael Maier; fifty emblem/fugue pairs, myth, alchemy, transformation and symbolic music",
+      "claim_type": "CORRESPONDENCE",
+      "claim": "Cada emblema combina imagen, lema y discurso para relacionar mito con procesos alquímicos.",
+      "motifs": [
+        "M18",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "26"
+    },
+    {
+      "global_claim_id": "G26-S214-K02",
+      "claim_id": "K02",
+      "source_id": "S214",
+      "corpus_id": "C195",
+      "location": "Michael Maier; fifty emblem/fugue pairs, myth, alchemy, transformation and symbolic music",
+      "claim_type": "PRACTICE",
+      "claim": "La obra presenta el trabajo alquímico como disciplina que requiere lectura, observación y operación.",
+      "motifs": [
+        "M24",
+        "M25"
+      ],
+      "provenance": "P2*",
+      "batch": "26"
+    },
+    {
+      "global_claim_id": "G26-S214-K03",
+      "claim_id": "K03",
+      "source_id": "S214",
+      "corpus_id": "C195",
+      "location": "Michael Maier; fifty emblem/fugue pairs, myth, alchemy, transformation and symbolic music",
+      "claim_type": "TRANSFORMATION",
+      "claim": "La persecución de Atalanta y el motivo de la fruta dorada funcionan como modelos de cambio y captura de una forma difícil de alcanzar.",
+      "motifs": [
+        "M12",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "26"
+    },
+    {
+      "global_claim_id": "G26-S214-K04",
+      "claim_id": "K04",
+      "source_id": "S214",
+      "corpus_id": "C195",
+      "location": "Michael Maier; fifty emblem/fugue pairs, myth, alchemy, transformation and symbolic music",
+      "claim_type": "DYNAMICS",
+      "claim": "La estructura de fuga musical convierte repetición y variación en parte del significado simbólico.",
+      "motifs": [
+        "M09",
+        "M18"
+      ],
+      "provenance": "P2*",
+      "batch": "26"
+    },
+    {
+      "global_claim_id": "G26-S214-K05",
+      "claim_id": "K05",
+      "source_id": "S214",
+      "corpus_id": "C195",
+      "location": "Michael Maier; fifty emblem/fugue pairs, myth, alchemy, transformation and symbolic music",
+      "claim_type": "ATTENTION",
+      "claim": "La combinación de imagen, texto y música requiere atención simultánea a varios canales.",
+      "motifs": [
+        "M06",
+        "M24"
+      ],
+      "provenance": "P2*",
+      "batch": "26"
+    },
+    {
+      "global_claim_id": "G26-S214-K06",
+      "claim_id": "K06",
+      "source_id": "S214",
+      "corpus_id": "C195",
+      "location": "Michael Maier; fifty emblem/fugue pairs, myth, alchemy, transformation and symbolic music",
+      "claim_type": "UNITY",
+      "claim": "Arte, música, mito y alquimia se reúnen en una obra única de correspondencias.",
+      "motifs": [
+        "M03",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "26"
+    },
+    {
+      "global_claim_id": "G26-S214-K07",
+      "claim_id": "K07",
+      "source_id": "S214",
+      "corpus_id": "C195",
+      "location": "Michael Maier; fifty emblem/fugue pairs, myth, alchemy, transformation and symbolic music",
+      "claim_type": "EMBODIMENT",
+      "claim": "Procesos materiales y corporales aparecen como imágenes para operaciones y transformaciones interiores.",
+      "motifs": [
+        "M08",
+        "M18"
+      ],
+      "provenance": "P2*",
+      "batch": "26"
+    },
+    {
+      "global_claim_id": "G26-S214-K08",
+      "claim_id": "K08",
+      "source_id": "S214",
+      "corpus_id": "C195",
+      "location": "Michael Maier; fifty emblem/fugue pairs, myth, alchemy, transformation and symbolic music",
+      "claim_type": "STATE",
+      "claim": "El adepto es representado como sujeto que pasa por diferentes condiciones de ignorancia, búsqueda y realización.",
+      "motifs": [
+        "M07",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "26"
+    },
+    {
+      "global_claim_id": "G26-S214-K09",
+      "claim_id": "K09",
+      "source_id": "S214",
+      "corpus_id": "C195",
+      "location": "Michael Maier; fifty emblem/fugue pairs, myth, alchemy, transformation and symbolic music",
+      "claim_type": "VALENCE",
+      "claim": "Perseverancia, discernimiento y adecuada relación con las fuerzas naturales se presentan como cualidades valiosas.",
+      "motifs": [
+        "M10",
+        "M12"
+      ],
+      "provenance": "P2*",
+      "batch": "26"
+    },
+    {
+      "global_claim_id": "G26-S214-K10",
+      "claim_id": "K10",
+      "source_id": "S214",
+      "corpus_id": "C195",
+      "location": "Michael Maier; fifty emblem/fugue pairs, myth, alchemy, transformation and symbolic music",
+      "claim_type": "REFLEXIVITY",
+      "claim": "El lector debe revisar sus propias interpretaciones al confrontar imágenes y textos que no se agotan en una lectura literal.",
+      "motifs": [
+        "M02",
+        "M06",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "26"
+    },
+    {
+      "global_claim_id": "G26-S214-K11",
+      "claim_id": "K11",
+      "source_id": "S214",
+      "corpus_id": "C195",
+      "location": "Michael Maier; fifty emblem/fugue pairs, myth, alchemy, transformation and symbolic music",
+      "claim_type": "COSMO",
+      "claim": "Los elementos, cuerpos celestes, plantas y metales se conectan dentro de un imaginario cosmológico.",
+      "motifs": [
+        "M15",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "26"
+    },
+    {
+      "global_claim_id": "G26-S214-K12",
+      "claim_id": "K12",
+      "source_id": "S214",
+      "corpus_id": "C195",
+      "location": "Michael Maier; fifty emblem/fugue pairs, myth, alchemy, transformation and symbolic music",
+      "claim_type": "META",
+      "claim": "Atalanta Fugiens pertenece al simbolismo alquímico europeo y su valor para el corpus es histórico y fenomenológico, no evidencia de causalidades químicas ocultas.",
+      "motifs": [
+        "M14",
+        "M17",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "26"
+    },
+    {
+      "global_claim_id": "G26-S214-K13",
+      "claim_id": "K13",
+      "source_id": "S214",
+      "corpus_id": "C195",
+      "location": "Michael Maier; fifty emblem/fugue pairs, myth, alchemy, transformation and symbolic music",
+      "claim_type": "TEMPORAL",
+      "claim": "La secuencia de cincuenta emblemas y su orden musical transforma la obra en un recorrido acumulativo.",
+      "motifs": [
+        "M11",
+        "M12"
+      ],
+      "provenance": "P2*",
+      "batch": "26"
+    },
+    {
+      "global_claim_id": "G26-S215-K01",
+      "claim_id": "K01",
+      "source_id": "S215",
+      "corpus_id": "C196",
+      "location": "Mutus Liber; engraved alchemical sequence, prayer, reading, laboratory work and visual instruction",
+      "claim_type": "VISUAL",
+      "claim": "El Mutus Liber transmite una secuencia de operaciones principalmente mediante imágenes en lugar de instrucciones textuales extensas.",
+      "motifs": [
+        "M06",
+        "M24"
+      ],
+      "provenance": "P2*",
+      "batch": "26"
+    },
+    {
+      "global_claim_id": "G26-S215-K02",
+      "claim_id": "K02",
+      "source_id": "S215",
+      "corpus_id": "C196",
+      "location": "Mutus Liber; engraved alchemical sequence, prayer, reading, laboratory work and visual instruction",
+      "claim_type": "PRACTICE",
+      "claim": "La obra vincula oración, lectura/relectura y trabajo como componentes del proceso alquímico.",
+      "motifs": [
+        "M24",
+        "M25"
+      ],
+      "provenance": "P2*",
+      "batch": "26"
+    },
+    {
+      "global_claim_id": "G26-S215-K03",
+      "claim_id": "K03",
+      "source_id": "S215",
+      "corpus_id": "C196",
+      "location": "Mutus Liber; engraved alchemical sequence, prayer, reading, laboratory work and visual instruction",
+      "claim_type": "TRANSFORMATION",
+      "claim": "Las imágenes presentan una secuencia orientada hacia la obtención o transformación de una materia alquímica final.",
+      "motifs": [
+        "M12",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "26"
+    },
+    {
+      "global_claim_id": "G26-S215-K04",
+      "claim_id": "K04",
+      "source_id": "S215",
+      "corpus_id": "C196",
+      "location": "Mutus Liber; engraved alchemical sequence, prayer, reading, laboratory work and visual instruction",
+      "claim_type": "EMBODIMENT",
+      "claim": "Herramientas, materiales, cuerpos y operaciones físicas forman parte central de la pedagogía visual.",
+      "motifs": [
+        "M08",
+        "M18"
+      ],
+      "provenance": "P2*",
+      "batch": "26"
+    },
+    {
+      "global_claim_id": "G26-S215-K05",
+      "claim_id": "K05",
+      "source_id": "S215",
+      "corpus_id": "C196",
+      "location": "Mutus Liber; engraved alchemical sequence, prayer, reading, laboratory work and visual instruction",
+      "claim_type": "CORRESPONDENCE",
+      "claim": "La iconografía conecta operaciones materiales con símbolos religiosos y cosmológicos.",
+      "motifs": [
+        "M18",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "26"
+    },
+    {
+      "global_claim_id": "G26-S215-K06",
+      "claim_id": "K06",
+      "source_id": "S215",
+      "corpus_id": "C196",
+      "location": "Mutus Liber; engraved alchemical sequence, prayer, reading, laboratory work and visual instruction",
+      "claim_type": "ATTENTION",
+      "claim": "La ausencia de una explicación verbal extensa hace de la observación detallada una condición de interpretación.",
+      "motifs": [
+        "M06",
+        "M24"
+      ],
+      "provenance": "P2*",
+      "batch": "26"
+    },
+    {
+      "global_claim_id": "G26-S215-K07",
+      "claim_id": "K07",
+      "source_id": "S215",
+      "corpus_id": "C196",
+      "location": "Mutus Liber; engraved alchemical sequence, prayer, reading, laboratory work and visual instruction",
+      "claim_type": "STATE",
+      "claim": "El operador aparece como sujeto que debe aprender a reconocer fases y condiciones diferentes de un proceso.",
+      "motifs": [
+        "M07",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "26"
+    },
+    {
+      "global_claim_id": "G26-S215-K08",
+      "claim_id": "K08",
+      "source_id": "S215",
+      "corpus_id": "C196",
+      "location": "Mutus Liber; engraved alchemical sequence, prayer, reading, laboratory work and visual instruction",
+      "claim_type": "UNITY",
+      "claim": "Oración y trabajo material son integrados dentro de una misma concepción de la obra.",
+      "motifs": [
+        "M03",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "26"
+    },
+    {
+      "global_claim_id": "G26-S215-K09",
+      "claim_id": "K09",
+      "source_id": "S215",
+      "corpus_id": "C196",
+      "location": "Mutus Liber; engraved alchemical sequence, prayer, reading, laboratory work and visual instruction",
+      "claim_type": "VALENCE",
+      "claim": "Paciencia, disciplina y perseverancia se vuelven requisitos prácticos del recorrido.",
+      "motifs": [
+        "M10",
+        "M25"
+      ],
+      "provenance": "P2*",
+      "batch": "26"
+    },
+    {
+      "global_claim_id": "G26-S215-K10",
+      "claim_id": "K10",
+      "source_id": "S215",
+      "corpus_id": "C196",
+      "location": "Mutus Liber; engraved alchemical sequence, prayer, reading, laboratory work and visual instruction",
+      "claim_type": "DYNAMICS",
+      "claim": "La sucesión de imágenes construye un proceso continuo de separación, manipulación y recombinación.",
+      "motifs": [
+        "M09",
+        "M12"
+      ],
+      "provenance": "P2*",
+      "batch": "26"
+    },
+    {
+      "global_claim_id": "G26-S215-K11",
+      "claim_id": "K11",
+      "source_id": "S215",
+      "corpus_id": "C196",
+      "location": "Mutus Liber; engraved alchemical sequence, prayer, reading, laboratory work and visual instruction",
+      "claim_type": "REFLEXIVITY",
+      "claim": "El lector debe completar inferencias y revisar su interpretación a partir de signos visuales parciales.",
+      "motifs": [
+        "M02",
+        "M06",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "26"
+    },
+    {
+      "global_claim_id": "G26-S215-K12",
+      "claim_id": "K12",
+      "source_id": "S215",
+      "corpus_id": "C196",
+      "location": "Mutus Liber; engraved alchemical sequence, prayer, reading, laboratory work and visual instruction",
+      "claim_type": "META",
+      "claim": "Mutus Liber es un texto/imaginario alquímico de transmisión histórica compleja; no debe tratarse como manual moderno reproducible sin reconstrucción contextual.",
+      "motifs": [
+        "M14",
+        "M17",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "26"
+    },
+    {
+      "global_claim_id": "G26-S215-K13",
+      "claim_id": "K13",
+      "source_id": "S215",
+      "corpus_id": "C196",
+      "location": "Mutus Liber; engraved alchemical sequence, prayer, reading, laboratory work and visual instruction",
+      "claim_type": "DEATH",
+      "claim": "Los motivos de separación, descomposición y recombinación pueden leerse como imágenes alquímicas de muerte y renovación.",
+      "motifs": [
+        "M19",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "26"
+    },
+    {
+      "global_claim_id": "G26-S216-K01",
+      "claim_id": "K01",
+      "source_id": "S216",
+      "corpus_id": "C197",
+      "location": "Illuminated alchemical manuscript; 22 miniatures, transmutation, death/rebirth, Sun/Moon and symbolic stages",
+      "claim_type": "CORRESPONDENCE",
+      "claim": "Las miniaturas relacionan símbolos mitológicos, planetarios, animales, realeza y procesos alquímicos.",
+      "motifs": [
+        "M18",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "26"
+    },
+    {
+      "global_claim_id": "G26-S216-K02",
+      "claim_id": "K02",
+      "source_id": "S216",
+      "corpus_id": "C197",
+      "location": "Illuminated alchemical manuscript; 22 miniatures, transmutation, death/rebirth, Sun/Moon and symbolic stages",
+      "claim_type": "VISUAL",
+      "claim": "La imagen funciona como portadora de teoría simbólica, no sólo como decoración de un texto alquímico.",
+      "motifs": [
+        "M06",
+        "M18"
+      ],
+      "provenance": "P2*",
+      "batch": "26"
+    },
+    {
+      "global_claim_id": "G26-S216-K03",
+      "claim_id": "K03",
+      "source_id": "S216",
+      "corpus_id": "C197",
+      "location": "Illuminated alchemical manuscript; 22 miniatures, transmutation, death/rebirth, Sun/Moon and symbolic stages",
+      "claim_type": "TRANSFORMATION",
+      "claim": "La secuencia representa transformaciones de estados, incluyendo muerte y renovación de figuras regias.",
+      "motifs": [
+        "M12",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "26"
+    },
+    {
+      "global_claim_id": "G26-S216-K04",
+      "claim_id": "K04",
+      "source_id": "S216",
+      "corpus_id": "C197",
+      "location": "Illuminated alchemical manuscript; 22 miniatures, transmutation, death/rebirth, Sun/Moon and symbolic stages",
+      "claim_type": "DEATH",
+      "claim": "Imágenes de decapitación, dismemberment, cocción y rejuvenecimiento dramatizan muerte y regeneración.",
+      "motifs": [
+        "M19",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "26"
+    },
+    {
+      "global_claim_id": "G26-S216-K05",
+      "claim_id": "K05",
+      "source_id": "S216",
+      "corpus_id": "C197",
+      "location": "Illuminated alchemical manuscript; 22 miniatures, transmutation, death/rebirth, Sun/Moon and symbolic stages",
+      "claim_type": "UNITY",
+      "claim": "Sol y Luna, rey y reina, agua y tierra aparecen en relaciones de complementariedad y reunificación.",
+      "motifs": [
+        "M03",
+        "M04",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "26"
+    },
+    {
+      "global_claim_id": "G26-S216-K06",
+      "claim_id": "K06",
+      "source_id": "S216",
+      "corpus_id": "C197",
+      "location": "Illuminated alchemical manuscript; 22 miniatures, transmutation, death/rebirth, Sun/Moon and symbolic stages",
+      "claim_type": "COSMO",
+      "claim": "Los planetas y elementos aparecen como marcos simbólicos para interpretar las operaciones alquímicas.",
+      "motifs": [
+        "M15",
+        "M18"
+      ],
+      "provenance": "P2*",
+      "batch": "26"
+    },
+    {
+      "global_claim_id": "G26-S216-K07",
+      "claim_id": "K07",
+      "source_id": "S216",
+      "corpus_id": "C197",
+      "location": "Illuminated alchemical manuscript; 22 miniatures, transmutation, death/rebirth, Sun/Moon and symbolic stages",
+      "claim_type": "EMBODIMENT",
+      "claim": "La transformación se formula mediante cuerpos, sustancias, recipientes y procesos materiales.",
+      "motifs": [
+        "M08",
+        "M18"
+      ],
+      "provenance": "P2*",
+      "batch": "26"
+    },
+    {
+      "global_claim_id": "G26-S216-K08",
+      "claim_id": "K08",
+      "source_id": "S216",
+      "corpus_id": "C197",
+      "location": "Illuminated alchemical manuscript; 22 miniatures, transmutation, death/rebirth, Sun/Moon and symbolic stages",
+      "claim_type": "STATE",
+      "claim": "Las escenas visuales codifican diferentes fases dentro de un proceso acumulativo.",
+      "motifs": [
+        "M07",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "26"
+    },
+    {
+      "global_claim_id": "G26-S216-K09",
+      "claim_id": "K09",
+      "source_id": "S216",
+      "corpus_id": "C197",
+      "location": "Illuminated alchemical manuscript; 22 miniatures, transmutation, death/rebirth, Sun/Moon and symbolic stages",
+      "claim_type": "ATTENTION",
+      "claim": "La interpretación requiere observar detalles visuales, inscripciones y relaciones entre imágenes.",
+      "motifs": [
+        "M06",
+        "M24"
+      ],
+      "provenance": "P2*",
+      "batch": "26"
+    },
+    {
+      "global_claim_id": "G26-S216-K10",
+      "claim_id": "K10",
+      "source_id": "S216",
+      "corpus_id": "C197",
+      "location": "Illuminated alchemical manuscript; 22 miniatures, transmutation, death/rebirth, Sun/Moon and symbolic stages",
+      "claim_type": "PRACTICE",
+      "claim": "La obra representa al alquimista como operador que trabaja con sustancias en continuidad con la naturaleza.",
+      "motifs": [
+        "M24",
+        "M25"
+      ],
+      "provenance": "P2*",
+      "batch": "26"
+    },
+    {
+      "global_claim_id": "G26-S216-K11",
+      "claim_id": "K11",
+      "source_id": "S216",
+      "corpus_id": "C197",
+      "location": "Illuminated alchemical manuscript; 22 miniatures, transmutation, death/rebirth, Sun/Moon and symbolic stages",
+      "claim_type": "REFLEXIVITY",
+      "claim": "El espectador debe pasar de la imagen literal a una lectura simbólica de su propio significado.",
+      "motifs": [
+        "M02",
+        "M06",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "26"
+    },
+    {
+      "global_claim_id": "G26-S216-K12",
+      "claim_id": "K12",
+      "source_id": "S216",
+      "corpus_id": "C197",
+      "location": "Illuminated alchemical manuscript; 22 miniatures, transmutation, death/rebirth, Sun/Moon and symbolic stages",
+      "claim_type": "META",
+      "claim": "La tradición de Splendor Solis es un manuscrito alquímico del siglo XVI de autoría tradicionalmente atribuida pero no firmemente establecida; las imágenes son evidencia histórica de simbolismo, no de transmutación científicamente demostrada.",
+      "motifs": [
+        "M14",
+        "M17",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "26"
+    },
+    {
+      "global_claim_id": "G26-S216-K13",
+      "claim_id": "K13",
+      "source_id": "S216",
+      "corpus_id": "C197",
+      "location": "Illuminated alchemical manuscript; 22 miniatures, transmutation, death/rebirth, Sun/Moon and symbolic stages",
+      "claim_type": "TEMPORAL",
+      "claim": "Las 22 miniaturas y su secuencia crean una temporalidad visual de procesos y metamorfosis.",
+      "motifs": [
+        "M11",
+        "M12"
+      ],
+      "provenance": "P2*",
+      "batch": "26"
+    },
+    {
+      "global_claim_id": "G26-S217-K01",
+      "claim_id": "K01",
+      "source_id": "S217",
+      "corpus_id": "C198",
+      "location": "Emerald Tablet; unity, correspondence, ascent/descent, separation and recombination",
+      "claim_type": "UNITY",
+      "claim": "La Tabla de Esmeralda presenta una 'una cosa' como origen o principio organizador de procesos múltiples.",
+      "motifs": [
+        "M03",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "26"
+    },
+    {
+      "global_claim_id": "G26-S217-K02",
+      "claim_id": "K02",
+      "source_id": "S217",
+      "corpus_id": "C198",
+      "location": "Emerald Tablet; unity, correspondence, ascent/descent, separation and recombination",
+      "claim_type": "CORRESPONDENCE",
+      "claim": "La relación entre lo superior y lo inferior se usa como principio de correspondencia dentro de la obra.",
+      "motifs": [
+        "M18",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "26"
+    },
+    {
+      "global_claim_id": "G26-S217-K03",
+      "claim_id": "K03",
+      "source_id": "S217",
+      "corpus_id": "C198",
+      "location": "Emerald Tablet; unity, correspondence, ascent/descent, separation and recombination",
+      "claim_type": "DYNAMICS",
+      "claim": "El texto describe un movimiento de ascenso desde la tierra hacia el cielo y un retorno posterior hacia la tierra.",
+      "motifs": [
+        "M09",
+        "M15"
+      ],
+      "provenance": "P2*",
+      "batch": "26"
+    },
+    {
+      "global_claim_id": "G26-S217-K04",
+      "claim_id": "K04",
+      "source_id": "S217",
+      "corpus_id": "C198",
+      "location": "Emerald Tablet; unity, correspondence, ascent/descent, separation and recombination",
+      "claim_type": "TRANSFORMATION",
+      "claim": "La operación implica separar lo sutil de lo grueso y recomponer o adaptar la realidad.",
+      "motifs": [
+        "M12",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "26"
+    },
+    {
+      "global_claim_id": "G26-S217-K05",
+      "claim_id": "K05",
+      "source_id": "S217",
+      "corpus_id": "C198",
+      "location": "Emerald Tablet; unity, correspondence, ascent/descent, separation and recombination",
+      "claim_type": "COSMO",
+      "claim": "Sol, Luna, viento y tierra se integran como agentes o imágenes dentro de una cosmología de generación.",
+      "motifs": [
+        "M15",
+        "M18"
+      ],
+      "provenance": "P2*",
+      "batch": "26"
+    },
+    {
+      "global_claim_id": "G26-S217-K06",
+      "claim_id": "K06",
+      "source_id": "S217",
+      "corpus_id": "C198",
+      "location": "Emerald Tablet; unity, correspondence, ascent/descent, separation and recombination",
+      "claim_type": "PRACTICE",
+      "claim": "La operación se describe como una acción que exige habilidad, cuidado y 'gran industria'.",
+      "motifs": [
+        "M24",
+        "M25"
+      ],
+      "provenance": "P2*",
+      "batch": "26"
+    },
+    {
+      "global_claim_id": "G26-S217-K07",
+      "claim_id": "K07",
+      "source_id": "S217",
+      "corpus_id": "C198",
+      "location": "Emerald Tablet; unity, correspondence, ascent/descent, separation and recombination",
+      "claim_type": "ATTENTION",
+      "claim": "La lectura de los movimientos y correspondencias es necesaria para comprender la secuencia operativa.",
+      "motifs": [
+        "M06",
+        "M18"
+      ],
+      "provenance": "P2*",
+      "batch": "26"
+    },
+    {
+      "global_claim_id": "G26-S217-K08",
+      "claim_id": "K08",
+      "source_id": "S217",
+      "corpus_id": "C198",
+      "location": "Emerald Tablet; unity, correspondence, ascent/descent, separation and recombination",
+      "claim_type": "RELATION",
+      "claim": "La mediación aparece como principio mediante el cual muchas cosas proceden de una fuente unificada.",
+      "motifs": [
+        "M05",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "26"
+    },
+    {
+      "global_claim_id": "G26-S217-K09",
+      "claim_id": "K09",
+      "source_id": "S217",
+      "corpus_id": "C198",
+      "location": "Emerald Tablet; unity, correspondence, ascent/descent, separation and recombination",
+      "claim_type": "STATE",
+      "claim": "El resultado se formula como aumento de poder o claridad dentro del propio esquema alquímico del texto.",
+      "motifs": [
+        "M07",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "26"
+    },
+    {
+      "global_claim_id": "G26-S217-K10",
+      "claim_id": "K10",
+      "source_id": "S217",
+      "corpus_id": "C198",
+      "location": "Emerald Tablet; unity, correspondence, ascent/descent, separation and recombination",
+      "claim_type": "REFLEXIVITY",
+      "claim": "La obra invita a pensar cómo una operación sobre materia también funciona como modelo para comprender orden y transformación.",
+      "motifs": [
+        "M02",
+        "M06",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "26"
+    },
+    {
+      "global_claim_id": "G26-S217-K11",
+      "claim_id": "K11",
+      "source_id": "S217",
+      "corpus_id": "C198",
+      "location": "Emerald Tablet; unity, correspondence, ascent/descent, separation and recombination",
+      "claim_type": "UNITY",
+      "claim": "Superior e inferior son diferenciados pero articulados, no planteados como dominios completamente aislados.",
+      "motifs": [
+        "M03",
+        "M04",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "26"
+    },
+    {
+      "global_claim_id": "G26-S217-K12",
+      "claim_id": "K12",
+      "source_id": "S217",
+      "corpus_id": "C198",
+      "location": "Emerald Tablet; unity, correspondence, ascent/descent, separation and recombination",
+      "claim_type": "META",
+      "claim": "La tradición textual de la Tabla procede de una historia árabe y latina compleja; su máxima de correspondencia debe distinguirse de usos modernos simplificados.",
+      "motifs": [
+        "M14",
+        "M17",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "26"
+    },
+    {
+      "global_claim_id": "G26-S217-K13",
+      "claim_id": "K13",
+      "source_id": "S217",
+      "corpus_id": "C198",
+      "location": "Emerald Tablet; unity, correspondence, ascent/descent, separation and recombination",
+      "claim_type": "DEATH",
+      "claim": "La separación de sustancias y su posterior recomposición permite leer un ciclo de desintegración y renovación dentro del imaginario alquímico.",
+      "motifs": [
+        "M19",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "26"
+    }
+  ]
+}
