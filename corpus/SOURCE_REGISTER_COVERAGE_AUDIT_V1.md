@@ -5,18 +5,18 @@
 **Ledger:** `corpus/CLAIMS/claim_ledger_v1.json` + registered append deltas  
 **Audit rule:** an entry counts as represented only if its exact `corpus_id` occurs in at least one ledger record. This does **not** mean all claims are source-verified.
 
-## Reconciled totals after batch v33
+## Reconciled totals after batch v34
 
 - Register entries parsed: **325** (325 unique IDs).
-- Entries represented in effective corpus ledger: **284**.
-- Entries not yet represented: **41**.
-- Effective ledger records: **3782** (**2482** core ledger + **130** each in v24–v33 append deltas).
+- Entries represented in effective corpus ledger: **294**.
+- Entries not yet represented: **31**.
+- Effective ledger records: **3912** (**2482** core ledger + **130** each in v24–v34 append deltas).
 - Core ledger records in `claim_ledger_v1.json`: **2482**.
-- Unique source IDs in effective ledger: **287**.
-- Sources with exactly 13 effective ledger records: **214**.
+- Unique source IDs in effective ledger: **297**.
+- Sources with exactly 13 effective ledger records: **224**.
 - Represented but under 13: **40**.
 - Represented above 13: **30**.
-- **Storage note:** v24–v33 are stored as append-only deltas because the current GitHub contents connector cannot safely rewrite the now-large core JSON blob.
+- **Storage note:** v24–v34 are stored as append-only deltas because the current GitHub contents connector cannot safely rewrite the now-large core JSON blob.
 - **Quality caveat:** “represented” is a coverage flag only. P2* claims and generic locators remain verification-pending.
 
 ## Status table
@@ -304,16 +304,16 @@
 | C279 | The Rediscovery of the Mind — Ciencia/IA; foco: conciencia, persona, realidad, transformación. | Represented — exactly 13 | 13 | S285 |
 | C280 | Phenomenal concepts corpus — Ciencia/IA; foco: conciencia, persona, realidad, transformación. | Represented — exactly 13 | 13 | S286 |
 | C281 | Russellian monism / panpsychism corpus — Ciencia/IA; foco: conciencia, persona, realidad, transformación. | Represented — exactly 13 | 13 | S287 |
-| C282 | Can only meat machines be conscious? — Ciencia/IA; foco: conciencia, persona, realidad, transformación. | Missing | 0 | — |
-| C283 | AI Consciousness: A Centrist Manifesto — Ciencia/IA; foco: conciencia, persona, realidad, transformación. | Missing | 0 | — |
-| C284 | Attribution of consciousness to non-human animals — Ciencia/IA; foco: conciencia, persona, realidad, transformación. | Missing | 0 | — |
-| C285 | Sleuthing subjectivity — Ciencia/IA; foco: conciencia, persona, realidad, transformación. | Missing | 0 | — |
-| C286 | IIT/GNWT adversarial collaboration — Ciencia/IA; foco: mecanismos, métricas, predicciones. | Missing | 0 | — |
-| C287 | 2026 integrative consciousness theory review — Ciencia/IA; foco: conciencia, persona, realidad, transformación. | Missing | 0 | — |
-| C288 | Syntergic Theory — Heterodoxo/extendido; foco: conciencia, persona, realidad, transformación. | Missing | 0 | — |
-| C289 | Dancing Wu Li Masters — Heterodoxo/extendido; foco: conciencia, persona, realidad, transformación. | Missing | 0 | — |
-| C290 | Stalking the Wild Pendulum — Heterodoxo/extendido; foco: conciencia, persona, realidad, transformación. | Missing | 0 | — |
-| C291 | The Holographic Universe — Heterodoxo/extendido; foco: conciencia, persona, realidad, transformación. | Missing | 0 | — |
+| C282 | Can only meat machines be conscious? — Ciencia/IA; foco: conciencia, persona, realidad, transformación. | Represented — exactly 13 | 13 | S288 |
+| C283 | AI Consciousness: A Centrist Manifesto — Ciencia/IA; foco: conciencia, persona, realidad, transformación. | Represented — exactly 13 | 13 | S289 |
+| C284 | Attribution of consciousness to non-human animals — Ciencia/IA; foco: conciencia, persona, realidad, transformación. | Represented — exactly 13 | 13 | S290 |
+| C285 | Sleuthing subjectivity — Ciencia/IA; foco: conciencia, persona, realidad, transformación. | Represented — exactly 13 | 13 | S291 |
+| C286 | IIT/GNWT adversarial collaboration — Ciencia/IA; foco: mecanismos, métricas, predicciones. | Represented — exactly 13 | 13 | S292 |
+| C287 | 2026 integrative consciousness theory review — Ciencia/IA; foco: conciencia, persona, realidad, transformación. | Represented — exactly 13 | 13 | S293 |
+| C288 | Syntergic Theory — Heterodoxo/extendido; foco: conciencia, persona, realidad, transformación. | Represented — exactly 13 | 13 | S294 |
+| C289 | Dancing Wu Li Masters — Heterodoxo/extendido; foco: conciencia, persona, realidad, transformación. | Represented — exactly 13 | 13 | S295 |
+| C290 | Stalking the Wild Pendulum — Heterodoxo/extendido; foco: conciencia, persona, realidad, transformación. | Represented — exactly 13 | 13 | S296 |
+| C291 | The Holographic Universe — Heterodoxo/extendido; foco: conciencia, persona, realidad, transformación. | Represented — exactly 13 | 13 | S297 |
 | C292 | Morphic Resonance corpus — Heterodoxo/extendido; foco: psyche, nous, contemplación. | Missing | 0 | — |
 | C293 | Wholeness and the Implicate Order — Heterodoxo/extendido; foco: conciencia, persona, realidad, transformación. | Missing | 0 | — |
 | C294 | Bohm consciousness interview corpus — Heterodoxo/extendido; foco: campo, resonancia, transpersonalidad. | Missing | 0 | — |
@@ -454,3 +454,12 @@
 - Core ledger: 2482 records / 187 source IDs.
 - Current register coverage: 284/325 represented; 41/325 still missing.
 - Exact-13 represented sources: 214.
+
+## Batch v34 checkpoint
+
+- Newly represented register entries: C282, C283, C284, C285, C286, C287, C288, C289, C290, C291.
+- Added claims: 130 (10 × 13), stored as append-only delta.
+- Effective ledger: 3912 records / 297 source IDs.
+- Current register coverage: 294/325 represented; 31/325 still missing.
+- Exact-13 represented sources: 224.
+- Verification note: C282–C287 were externally checked against current bibliographic records; C288–C291 remain explicitly heterodox/extended and are not treated as established scientific findings.
