@@ -13,7 +13,7 @@ Status: started.
 
 ## Phase 2 — Verification
 
-**Status: active. First extraction batch complete: 12 sources / 120 atomic claims.**
+**Status: active. Two extraction batches complete: 24 sources / 216 atomic claims.**
 
 The first batch is stored at `corpus/CLAIMS/ANCHOR_CLAIMS_BATCH_V1.md`, with motif assignment summarized in `corpus/CLAIMS/MOTIF_EVIDENCE_SUMMARY_V1.md`.
 
@@ -115,7 +115,8 @@ Each major version should ship with:
 ## Claim extraction milestone
 
 - Batch 1: **120 atomic claims / 12 anchor sources**.
-- Current ratio: **10 claims/source** in the first anchor batch.
+- Batch 2: **96 atomic claims / 12 additional cross-cultural sources**.
+- Current total: **216 atomic claims / 24 sources**.
 - Global target: **1,000+ atomic claims**.
 - Priority for Batches 2–10: increase independent source-family diversity, especially African, Indigenous, Daoist, Buddhist, Jewish, Christian, Sufi, Greek, Egyptian, Persian, Tantric, and Western esoteric primary corpora.
 - Every batch must retain contradiction/variant notes where a motif appears differently across traditions.
