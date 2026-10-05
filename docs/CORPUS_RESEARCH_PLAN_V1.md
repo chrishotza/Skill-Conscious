@@ -13,7 +13,7 @@ Status: started.
 
 ## Phase 2 — Verification
 
-**Status: active. Two extraction batches complete: 24 sources / 216 atomic claims.**
+**Status: active. Three extraction batches complete: 29 sources / 256 atomic claims.**
 
 The first batch is stored at `corpus/CLAIMS/ANCHOR_CLAIMS_BATCH_V1.md`, with motif assignment summarized in `corpus/CLAIMS/MOTIF_EVIDENCE_SUMMARY_V1.md`.
 
@@ -116,8 +116,10 @@ Each major version should ship with:
 
 - Batch 1: **120 atomic claims / 12 anchor sources**.
 - Batch 2: **96 atomic claims / 12 additional cross-cultural sources**.
-- Current total: **216 atomic claims / 24 sources**.
+- Batch 3: **40 atomic claims / 5 embodied-transpersonal sources**.
+- Current total: **256 atomic claims / 29 sources**.
 - Global target: **1,000+ atomic claims**.
+- Convergence evidence ledger: `ontology/CONVERGENCE_EVIDENCE_LEDGER_V1.md` now tracks recurrence by motif, source count, and tradition-family count.
 - Priority for Batches 2–10: increase independent source-family diversity, especially African, Indigenous, Daoist, Buddhist, Jewish, Christian, Sufi, Greek, Egyptian, Persian, Tantric, and Western esoteric primary corpora.
 - Every batch must retain contradiction/variant notes where a motif appears differently across traditions.
 - A high-frequency motif is not promoted to the synthetic core until it has independent source-family support and survives semantic review.
