@@ -59,3 +59,11 @@ The next extraction stage should systematically traverse the remaining register 
 - Current ledger: 1715 records / 128 source IDs.
 - Current register coverage: 125/325 represented; 200/325 still missing.
 - Strict 13-per-source normalization remains a later reconciliation step because earlier batches contain both under- and over-represented sources.
+
+## Batch v18 checkpoint
+
+- Newly represented register entries: C076, C077, C079, C081, C082, C086, C087, C088, C089, C090.
+- Added claims: 130.
+- Current ledger: 1845 records / 138 source IDs.
+- Current register coverage: 135/325 represented; 190/325 missing.
+- Exact-13 represented sources: 65.
