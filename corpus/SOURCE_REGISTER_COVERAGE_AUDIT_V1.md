@@ -5,18 +5,18 @@
 **Ledger:** `corpus/CLAIMS/claim_ledger_v1.json` + registered append deltas  
 **Audit rule:** an entry counts as represented only if its exact `corpus_id` occurs in at least one ledger record. This does **not** mean all claims are source-verified.
 
-## Reconciled totals after batch v27
+## Reconciled totals after batch v28
 
 - Register entries parsed: **325** (325 unique IDs).
-- Entries represented in effective corpus ledger: **224**.
-- Entries not yet represented: **101**.
-- Effective ledger records: **3002** (**2482** core ledger + **130** v24 + **130** v25 + **130** v26 + **130** v27 append).
+- Entries represented in effective corpus ledger: **234**.
+- Entries not yet represented: **91**.
+- Effective ledger records: **3132** (**2482** core ledger + **130** each in v24, v25, v26, v27 and v28 append deltas).
 - Core ledger records in `claim_ledger_v1.json`: **2482**.
-- Unique source IDs in effective ledger: **227**.
-- Sources with exactly 13 effective ledger records: **154**.
+- Unique source IDs in effective ledger: **237**.
+- Sources with exactly 13 effective ledger records: **164**.
 - Represented but under 13: **40**.
 - Represented above 13: **30**.
-- **Storage note:** v24–v27 are stored as append-only deltas because the current GitHub contents connector cannot safely rewrite the now-large core JSON blob.
+- **Storage note:** v24–v28 are stored as append-only deltas because the current GitHub contents connector cannot safely rewrite the now-large core JSON blob.
 - **Quality caveat:** “represented” is a coverage flag only. P2* claims and generic locators remain verification-pending.
 
 ## Status table
@@ -232,19 +232,19 @@
 | C207 | The Mystical Qabalah — Esoterismo occidental; foco: conciencia, persona, realidad, transformación. | Represented — exactly 13 | 13 | S226 |
 | C208 | Knowledge of the Higher Worlds — Contemplativo/transpersonal; foco: conciencia, persona, realidad, transformación. | Represented — under 13 | 8 | S029 |
 | C209 | Occult Science — Contemplativo/transpersonal; foco: conciencia, persona, realidad, transformación. | Represented — exactly 13 | 13 | S227 |
-| C210 | Steiner lecture corpus — Contemplativo/transpersonal; foco: práctica, estados, autopercepción. | Missing | 0 | — |
+| C210 | Steiner lecture corpus — Contemplativo/transpersonal; foco: práctica, estados, autopercepción. | Represented — exactly 13 | 13 | S228 |
 | C211 | In Search of the Miraculous — Contemplativo/transpersonal; foco: conciencia, persona, realidad, transformación. | Represented — under 13 | 8 | S023 |
-| C212 | Fragments of an Unknown Teaching — Contemplativo/transpersonal; foco: práctica, estados, autopercepción. | Missing | 0 | — |
-| C213 | Beelzebub's Tales to His Grandson — Contemplativo/transpersonal; foco: práctica, estados, autopercepción. | Missing | 0 | — |
-| C214 | Gurdjieff tradition texts — Contemplativo/transpersonal; foco: práctica, estados, autopercepción. | Missing | 0 | — |
-| C215 | I Am That — Contemplativo/transpersonal; foco: conciencia, persona, realidad, transformación. | Missing | 0 | — |
-| C216 | Talks with Sri Ramana Maharshi — Contemplativo/transpersonal; foco: práctica, estados, autopercepción. | Missing | 0 | — |
+| C212 | Fragments of an Unknown Teaching — Contemplativo/transpersonal; foco: práctica, estados, autopercepción. | Represented — exactly 13 | 13 | S229 |
+| C213 | Beelzebub's Tales to His Grandson — Contemplativo/transpersonal; foco: práctica, estados, autopercepción. | Represented — exactly 13 | 13 | S230 |
+| C214 | Gurdjieff tradition texts — Contemplativo/transpersonal; foco: práctica, estados, autopercepción. | Represented — exactly 13 | 13 | S231 |
+| C215 | I Am That — Contemplativo/transpersonal; foco: conciencia, persona, realidad, transformación. | Represented — exactly 13 | 13 | S232 |
+| C216 | Talks with Sri Ramana Maharshi — Contemplativo/transpersonal; foco: práctica, estados, autopercepción. | Represented — exactly 13 | 13 | S233 |
 | C217 | Be As You Are — Contemplativo/transpersonal; foco: conciencia, persona, realidad, transformación. | Represented — under 13 | 10 | S011 |
-| C218 | The Gospel of Sri Ramakrishna — Contemplativo/transpersonal; foco: gnosis, Nous, ascenso. | Missing | 0 | — |
+| C218 | The Gospel of Sri Ramakrishna — Contemplativo/transpersonal; foco: gnosis, Nous, ascenso. | Represented — exactly 13 | 13 | S234 |
 | C219 | The Life Divine — Contemplativo/transpersonal; foco: conciencia, persona, realidad, transformación. | Represented — under 13 | 10 | S012 |
-| C220 | Letters on Yoga — Contemplativo/transpersonal; foco: conciencia, persona, realidad, transformación. | Missing | 0 | — |
-| C221 | The Synthesis of Yoga — Contemplativo/transpersonal; foco: conciencia, persona, realidad, transformación. | Missing | 0 | — |
-| C222 | The Phenomenon of Man — Contemplativo/transpersonal; foco: conciencia, persona, realidad, transformación. | Missing | 0 | — |
+| C220 | Letters on Yoga — Contemplativo/transpersonal; foco: conciencia, persona, realidad, transformación. | Represented — exactly 13 | 13 | S235 |
+| C221 | The Synthesis of Yoga — Contemplativo/transpersonal; foco: conciencia, persona, realidad, transformación. | Represented — exactly 13 | 13 | S236 |
+| C222 | The Phenomenon of Man — Contemplativo/transpersonal; foco: conciencia, persona, realidad, transformación. | Represented — exactly 13 | 13 | S237 |
 | C223 | Man's Search for Meaning — Contemplativo/transpersonal; foco: conciencia, persona, realidad, transformación. | Missing | 0 | — |
 | C224 | The Perennial Philosophy — Contemplativo/transpersonal; foco: conciencia, persona, realidad, transformación. | Missing | 0 | — |
 | C225 | The Varieties of Religious Experience — Contemplativo/transpersonal; foco: conciencia, persona, realidad, transformación. | Missing | 0 | — |
@@ -400,3 +400,12 @@
 - Core ledger: 2482 records / 187 source IDs.
 - Current register coverage: 224/325 represented; 101/325 still missing.
 - Exact-13 represented sources: 154.
+
+## Batch v28 checkpoint
+
+- Newly represented register entries: C210, C212, C213, C214, C215, C216, C218, C220, C221, C222.
+- Added claims: 130 (10 × 13), stored as append-only delta.
+- Effective ledger: 3132 records / 237 source IDs.
+- Core ledger: 2482 records / 187 source IDs.
+- Current register coverage: 234/325 represented; 91/325 still missing.
+- Exact-13 represented sources: 164.
