@@ -1,8 +1,8 @@
 {
   "schema_version": "1.0",
-  "claim_count": 1845,
-  "global_claim_count": 1845,
-  "source_count": 138,
+  "claim_count": 1975,
+  "global_claim_count": 1975,
+  "source_count": 148,
   "records": [
     {
       "global_claim_id": "G1-S001-K01",
@@ -28568,6 +28568,2002 @@
       ],
       "provenance": "P2*",
       "batch": "18"
+    },
+    {
+      "global_claim_id": "G19-S139-01",
+      "claim_id": "B19-S139-01",
+      "source_id": "S139",
+      "corpus_id": "C091",
+      "location": "Relevant thematic sections",
+      "claim_type": "TEXT",
+      "claim": "The Cantong qi unites cosmology, Daoist non-doing and alchemy within one doctrinal framework.",
+      "motifs": [
+        "M03",
+        "M18",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "19"
+    },
+    {
+      "global_claim_id": "G19-S139-02",
+      "claim_id": "B19-S139-02",
+      "source_id": "S139",
+      "corpus_id": "C091",
+      "location": "Relevant thematic sections",
+      "claim_type": "META",
+      "claim": "Cosmic change is described through the symbolic language of the Book of Changes and correlated with alchemical transformation.",
+      "motifs": [
+        "M18",
+        "M20",
+        "M21"
+      ],
+      "provenance": "P2*",
+      "batch": "19"
+    },
+    {
+      "global_claim_id": "G19-S139-03",
+      "claim_id": "B19-S139-03",
+      "source_id": "S139",
+      "corpus_id": "C091",
+      "location": "Relevant thematic sections",
+      "claim_type": "DYNAMICS",
+      "claim": "Yin-yang complementarity is used as a model for the ordering and transformation of opposing forces.",
+      "motifs": [
+        "M09",
+        "M18",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "19"
+    },
+    {
+      "global_claim_id": "G19-S139-04",
+      "claim_id": "B19-S139-04",
+      "source_id": "S139",
+      "corpus_id": "C091",
+      "location": "Relevant thematic sections",
+      "claim_type": "PRACTICE",
+      "claim": "Alchemical transformation is presented as requiring disciplined work rather than passive belief.",
+      "motifs": [
+        "M12",
+        "M25"
+      ],
+      "provenance": "P2*",
+      "batch": "19"
+    },
+    {
+      "global_claim_id": "G19-S139-05",
+      "claim_id": "B19-S139-05",
+      "source_id": "S139",
+      "corpus_id": "C091",
+      "location": "Relevant thematic sections",
+      "claim_type": "HIDDEN",
+      "claim": "The text uses dense images and coded language that require interpretive transmission within the tradition.",
+      "motifs": [
+        "M17",
+        "M18",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "19"
+    },
+    {
+      "global_claim_id": "G19-S139-06",
+      "claim_id": "B19-S139-06",
+      "source_id": "S139",
+      "corpus_id": "C091",
+      "location": "Relevant thematic sections",
+      "claim_type": "RELATION",
+      "claim": "The human cultivation process is correlated with larger cosmological cycles rather than isolated from them.",
+      "motifs": [
+        "M05",
+        "M15",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "19"
+    },
+    {
+      "global_claim_id": "G19-S139-07",
+      "claim_id": "B19-S139-07",
+      "source_id": "S139",
+      "corpus_id": "C091",
+      "location": "Relevant thematic sections",
+      "claim_type": "TEMPORAL",
+      "claim": "Celestial cycles and timing are treated as relevant to understanding transformation.",
+      "motifs": [
+        "M11",
+        "M18",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "19"
+    },
+    {
+      "global_claim_id": "G19-S139-08",
+      "claim_id": "B19-S139-08",
+      "source_id": "S139",
+      "corpus_id": "C091",
+      "location": "Relevant thematic sections",
+      "claim_type": "TRANSFORMATION",
+      "claim": "The alchemical goal involves changing the practitioner's condition rather than merely acquiring conceptual knowledge.",
+      "motifs": [
+        "M12",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "19"
+    },
+    {
+      "global_claim_id": "G19-S139-09",
+      "claim_id": "B19-S139-09",
+      "source_id": "S139",
+      "corpus_id": "C091",
+      "location": "Relevant thematic sections",
+      "claim_type": "META",
+      "claim": "The text repeatedly joins symbolic cosmology and practical alchemical language instead of treating them as unrelated domains.",
+      "motifs": [
+        "M03",
+        "M18",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "19"
+    },
+    {
+      "global_claim_id": "G19-S139-10",
+      "claim_id": "B19-S139-10",
+      "source_id": "S139",
+      "corpus_id": "C091",
+      "location": "Relevant thematic sections",
+      "claim_type": "CONTRAST",
+      "claim": "Internal-alchemical readings differ from earlier or alternative readings that emphasize external alchemy, so interpretive history must remain explicit.",
+      "motifs": [
+        "M14",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "19"
+    },
+    {
+      "global_claim_id": "G19-S139-11",
+      "claim_id": "B19-S139-11",
+      "source_id": "S139",
+      "corpus_id": "C091",
+      "location": "Relevant thematic sections",
+      "claim_type": "RELATION",
+      "claim": "The 'Three' are treated as belonging to a single coordinated process rather than three independent systems.",
+      "motifs": [
+        "M03",
+        "M18"
+      ],
+      "provenance": "P2*",
+      "batch": "19"
+    },
+    {
+      "global_claim_id": "G19-S139-12",
+      "claim_id": "B19-S139-12",
+      "source_id": "S139",
+      "corpus_id": "C091",
+      "location": "Relevant thematic sections",
+      "claim_type": "PRACTICE",
+      "claim": "Technical language is embedded in a tradition of teacher transmission and commentary.",
+      "motifs": [
+        "M17",
+        "M25"
+      ],
+      "provenance": "P2*",
+      "batch": "19"
+    },
+    {
+      "global_claim_id": "G19-S139-13",
+      "claim_id": "B19-S139-13",
+      "source_id": "S139",
+      "corpus_id": "C091",
+      "location": "Relevant thematic sections",
+      "claim_type": "META",
+      "claim": "Its alchemical cosmology is historical source doctrine and should not be converted directly into modern physics or physiology.",
+      "motifs": [
+        "M14",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "19"
+    },
+    {
+      "global_claim_id": "G19-S140-01",
+      "claim_id": "B19-S140-01",
+      "source_id": "S140",
+      "corpus_id": "C092",
+      "location": "Relevant thematic sections",
+      "claim_type": "TEXT",
+      "claim": "Wuzhen pian presents Internal Alchemy in a poetic and deliberately allusive form.",
+      "motifs": [
+        "M17",
+        "M18",
+        "M25"
+      ],
+      "provenance": "P2*",
+      "batch": "19"
+    },
+    {
+      "global_claim_id": "G19-S140-02",
+      "claim_id": "B19-S140-02",
+      "source_id": "S140",
+      "corpus_id": "C092",
+      "location": "Relevant thematic sections",
+      "claim_type": "PRACTICE",
+      "claim": "The work describes cultivation as a disciplined process aimed at transforming the practitioner.",
+      "motifs": [
+        "M12",
+        "M25"
+      ],
+      "provenance": "P2*",
+      "batch": "19"
+    },
+    {
+      "global_claim_id": "G19-S140-03",
+      "claim_id": "B19-S140-03",
+      "source_id": "S140",
+      "corpus_id": "C092",
+      "location": "Relevant thematic sections",
+      "claim_type": "VITAL",
+      "claim": "Essence, qi and spirit form a recurrent vocabulary for describing the alchemical process.",
+      "motifs": [
+        "M08",
+        "M09"
+      ],
+      "provenance": "P2*",
+      "batch": "19"
+    },
+    {
+      "global_claim_id": "G19-S140-04",
+      "claim_id": "B19-S140-04",
+      "source_id": "S140",
+      "corpus_id": "C092",
+      "location": "Relevant thematic sections",
+      "claim_type": "META",
+      "claim": "Cosmic polarity and internal cultivation are linked through shared symbolic structures.",
+      "motifs": [
+        "M18",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "19"
+    },
+    {
+      "global_claim_id": "G19-S140-05",
+      "claim_id": "B19-S140-05",
+      "source_id": "S140",
+      "corpus_id": "C092",
+      "location": "Relevant thematic sections",
+      "claim_type": "TRANSFORMATION",
+      "claim": "Alchemy is presented as a process of refining ordinary condition into a more integrated state.",
+      "motifs": [
+        "M12",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "19"
+    },
+    {
+      "global_claim_id": "G19-S140-06",
+      "claim_id": "B19-S140-06",
+      "source_id": "S140",
+      "corpus_id": "C092",
+      "location": "Relevant thematic sections",
+      "claim_type": "REFLEXIVITY",
+      "claim": "The practitioner is repeatedly directed toward recognizing an underlying reality rather than remaining at the level of appearances.",
+      "motifs": [
+        "M02",
+        "M13"
+      ],
+      "provenance": "P2*",
+      "batch": "19"
+    },
+    {
+      "global_claim_id": "G19-S140-07",
+      "claim_id": "B19-S140-07",
+      "source_id": "S140",
+      "corpus_id": "C092",
+      "location": "Relevant thematic sections",
+      "claim_type": "STATE",
+      "claim": "Stillness, concentration and regulated internal activity are associated with changes in the mode of awareness.",
+      "motifs": [
+        "M07",
+        "M23",
+        "M24"
+      ],
+      "provenance": "P2*",
+      "batch": "19"
+    },
+    {
+      "global_claim_id": "G19-S140-08",
+      "claim_id": "B19-S140-08",
+      "source_id": "S140",
+      "corpus_id": "C092",
+      "location": "Relevant thematic sections",
+      "claim_type": "RELATION",
+      "claim": "Human cultivation is described in correspondence with the macrocosmic processes represented by yin-yang and the Changes.",
+      "motifs": [
+        "M05",
+        "M18",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "19"
+    },
+    {
+      "global_claim_id": "G19-S140-09",
+      "claim_id": "B19-S140-09",
+      "source_id": "S140",
+      "corpus_id": "C092",
+      "location": "Relevant thematic sections",
+      "claim_type": "TEMPORAL",
+      "claim": "Timing and cyclical transformation are recurring components of alchemical symbolism.",
+      "motifs": [
+        "M11",
+        "M18"
+      ],
+      "provenance": "P2*",
+      "batch": "19"
+    },
+    {
+      "global_claim_id": "G19-S140-10",
+      "claim_id": "B19-S140-10",
+      "source_id": "S140",
+      "corpus_id": "C092",
+      "location": "Relevant thematic sections",
+      "claim_type": "HIDDEN",
+      "claim": "Technical meanings are intentionally indirect and depend on traditional interpretation rather than literal reading alone.",
+      "motifs": [
+        "M17",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "19"
+    },
+    {
+      "global_claim_id": "G19-S140-11",
+      "claim_id": "B19-S140-11",
+      "source_id": "S140",
+      "corpus_id": "C092",
+      "location": "Relevant thematic sections",
+      "claim_type": "PRACTICE",
+      "claim": "The text uses poetic formulae as a vehicle for practical and doctrinal instruction.",
+      "motifs": [
+        "M24",
+        "M25"
+      ],
+      "provenance": "P2*",
+      "batch": "19"
+    },
+    {
+      "global_claim_id": "G19-S140-12",
+      "claim_id": "B19-S140-12",
+      "source_id": "S140",
+      "corpus_id": "C092",
+      "location": "Relevant thematic sections",
+      "claim_type": "CONTRAST",
+      "claim": "The language of qi, elixir and transformation belongs to the historical Neidan framework and should not be equated with modern biochemistry.",
+      "motifs": [
+        "M14",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "19"
+    },
+    {
+      "global_claim_id": "G19-S140-13",
+      "claim_id": "B19-S140-13",
+      "source_id": "S140",
+      "corpus_id": "C092",
+      "location": "Relevant thematic sections",
+      "claim_type": "META",
+      "claim": "Wuzhen pian is a Song-period Daoist source with a later commentarial history, so claims should remain tied to the text and its transmission.",
+      "motifs": [
+        "M14",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "19"
+    },
+    {
+      "global_claim_id": "G19-S141-01",
+      "claim_id": "B19-S141-01",
+      "source_id": "S141",
+      "corpus_id": "C093",
+      "location": "Relevant thematic sections",
+      "claim_type": "TEXT",
+      "claim": "The work is a Ming-period synthesis of internal-alchemy material drawing from multiple Chinese religious traditions.",
+      "motifs": [
+        "M03",
+        "M20",
+        "M25"
+      ],
+      "provenance": "P2*",
+      "batch": "19"
+    },
+    {
+      "global_claim_id": "G19-S141-02",
+      "claim_id": "B19-S141-02",
+      "source_id": "S141",
+      "corpus_id": "C093",
+      "location": "Relevant thematic sections",
+      "claim_type": "RELATION",
+      "claim": "The title's pairing of xing and ming frames cultivation through both intrinsic disposition and embodied life.",
+      "motifs": [
+        "M02",
+        "M08",
+        "M12"
+      ],
+      "provenance": "P2*",
+      "batch": "19"
+    },
+    {
+      "global_claim_id": "G19-S141-03",
+      "claim_id": "B19-S141-03",
+      "source_id": "S141",
+      "corpus_id": "C093",
+      "location": "Relevant thematic sections",
+      "claim_type": "PRACTICE",
+      "claim": "The text presents self-cultivation through staged practices rather than a single moment of insight.",
+      "motifs": [
+        "M12",
+        "M23",
+        "M25"
+      ],
+      "provenance": "P2*",
+      "batch": "19"
+    },
+    {
+      "global_claim_id": "G19-S141-04",
+      "claim_id": "B19-S141-04",
+      "source_id": "S141",
+      "corpus_id": "C093",
+      "location": "Relevant thematic sections",
+      "claim_type": "DYNAMICS",
+      "claim": "Internal alchemy is represented through circulation, refinement and transformation of embodied vitality.",
+      "motifs": [
+        "M08",
+        "M09",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "19"
+    },
+    {
+      "global_claim_id": "G19-S141-05",
+      "claim_id": "B19-S141-05",
+      "source_id": "S141",
+      "corpus_id": "C093",
+      "location": "Relevant thematic sections",
+      "claim_type": "META",
+      "claim": "The text uses diagrams and symbolic correspondences to connect cosmology, body and cultivation.",
+      "motifs": [
+        "M17",
+        "M18",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "19"
+    },
+    {
+      "global_claim_id": "G19-S141-06",
+      "claim_id": "B19-S141-06",
+      "source_id": "S141",
+      "corpus_id": "C093",
+      "location": "Relevant thematic sections",
+      "claim_type": "RELATION",
+      "claim": "Daoist, Buddhist and Confucian materials are combined rather than kept in isolated doctrinal compartments.",
+      "motifs": [
+        "M03",
+        "M05",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "19"
+    },
+    {
+      "global_claim_id": "G19-S141-07",
+      "claim_id": "B19-S141-07",
+      "source_id": "S141",
+      "corpus_id": "C093",
+      "location": "Relevant thematic sections",
+      "claim_type": "STATE",
+      "claim": "Meditative and alchemical practices are described as changing the condition of attention and internal awareness.",
+      "motifs": [
+        "M07",
+        "M23",
+        "M24"
+      ],
+      "provenance": "P2*",
+      "batch": "19"
+    },
+    {
+      "global_claim_id": "G19-S141-08",
+      "claim_id": "B19-S141-08",
+      "source_id": "S141",
+      "corpus_id": "C093",
+      "location": "Relevant thematic sections",
+      "claim_type": "REFLEXIVITY",
+      "claim": "Self-cultivation is directed toward recognizing and integrating deeper aspects of one's own nature.",
+      "motifs": [
+        "M02",
+        "M13"
+      ],
+      "provenance": "P2*",
+      "batch": "19"
+    },
+    {
+      "global_claim_id": "G19-S141-09",
+      "claim_id": "B19-S141-09",
+      "source_id": "S141",
+      "corpus_id": "C093",
+      "location": "Relevant thematic sections",
+      "claim_type": "TEMPORAL",
+      "claim": "Long-term cultivation and gradual refinement are central to the process of transformation.",
+      "motifs": [
+        "M11",
+        "M12"
+      ],
+      "provenance": "P2*",
+      "batch": "19"
+    },
+    {
+      "global_claim_id": "G19-S141-10",
+      "claim_id": "B19-S141-10",
+      "source_id": "S141",
+      "corpus_id": "C093",
+      "location": "Relevant thematic sections",
+      "claim_type": "HIDDEN",
+      "claim": "The work uses symbolic diagrams and technical vocabulary whose interpretation depends on the tradition's internal hermeneutics.",
+      "motifs": [
+        "M17",
+        "M18"
+      ],
+      "provenance": "P2*",
+      "batch": "19"
+    },
+    {
+      "global_claim_id": "G19-S141-11",
+      "claim_id": "B19-S141-11",
+      "source_id": "S141",
+      "corpus_id": "C093",
+      "location": "Relevant thematic sections",
+      "claim_type": "CONTRAST",
+      "claim": "Because the work is syncretic, concepts from Buddhism, Daoism and Confucianism cannot automatically be treated as interchangeable.",
+      "motifs": [
+        "M14",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "19"
+    },
+    {
+      "global_claim_id": "G19-S141-12",
+      "claim_id": "B19-S141-12",
+      "source_id": "S141",
+      "corpus_id": "C093",
+      "location": "Relevant thematic sections",
+      "claim_type": "META",
+      "claim": "Its alchemical account is a historical religious-philosophical model, not evidence for a literal hidden physiology.",
+      "motifs": [
+        "M14",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "19"
+    },
+    {
+      "global_claim_id": "G19-S141-13",
+      "claim_id": "B19-S141-13",
+      "source_id": "S141",
+      "corpus_id": "C093",
+      "location": "Relevant thematic sections",
+      "claim_type": "TEXT",
+      "claim": "The transmission history includes editions and repackaging across later centuries, requiring attention to textual provenance.",
+      "motifs": [
+        "M14",
+        "M17"
+      ],
+      "provenance": "P2*",
+      "batch": "19"
+    },
+    {
+      "global_claim_id": "G19-S142-01",
+      "claim_id": "B19-S142-01",
+      "source_id": "S142",
+      "corpus_id": "C094",
+      "location": "Relevant thematic sections",
+      "claim_type": "PRACTICE",
+      "claim": "The text presents silent meditation involving sitting, breathing and directed contemplation.",
+      "motifs": [
+        "M24",
+        "M25"
+      ],
+      "provenance": "P2*",
+      "batch": "19"
+    },
+    {
+      "global_claim_id": "G19-S142-02",
+      "claim_id": "B19-S142-02",
+      "source_id": "S142",
+      "corpus_id": "C094",
+      "location": "Relevant thematic sections",
+      "claim_type": "REFLEXIVITY",
+      "claim": "The practitioner is instructed to turn attention inward rather than remain captured by sensory objects.",
+      "motifs": [
+        "M02",
+        "M06",
+        "M24"
+      ],
+      "provenance": "P2*",
+      "batch": "19"
+    },
+    {
+      "global_claim_id": "G19-S142-03",
+      "claim_id": "B19-S142-03",
+      "source_id": "S142",
+      "corpus_id": "C094",
+      "location": "Relevant thematic sections",
+      "claim_type": "STATE",
+      "claim": "The practice aims to shift the organization of awareness through sustained attention and stillness.",
+      "motifs": [
+        "M07",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "19"
+    },
+    {
+      "global_claim_id": "G19-S142-04",
+      "claim_id": "B19-S142-04",
+      "source_id": "S142",
+      "corpus_id": "C094",
+      "location": "Relevant thematic sections",
+      "claim_type": "VITAL",
+      "claim": "Breath and qi are treated as relevant to the cultivation process within the text's Daoist framework.",
+      "motifs": [
+        "M08",
+        "M09"
+      ],
+      "provenance": "P2*",
+      "batch": "19"
+    },
+    {
+      "global_claim_id": "G19-S142-05",
+      "claim_id": "B19-S142-05",
+      "source_id": "S142",
+      "corpus_id": "C094",
+      "location": "Relevant thematic sections",
+      "claim_type": "META",
+      "claim": "The 'light' is used as a central symbolic marker of cultivated inner awareness.",
+      "motifs": [
+        "M01",
+        "M06",
+        "M18"
+      ],
+      "provenance": "P2*",
+      "batch": "19"
+    },
+    {
+      "global_claim_id": "G19-S142-06",
+      "claim_id": "B19-S142-06",
+      "source_id": "S142",
+      "corpus_id": "C094",
+      "location": "Relevant thematic sections",
+      "claim_type": "TRANSFORMATION",
+      "claim": "The practice is described as refining or transforming the practitioner's ordinary condition.",
+      "motifs": [
+        "M12",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "19"
+    },
+    {
+      "global_claim_id": "G19-S142-07",
+      "claim_id": "B19-S142-07",
+      "source_id": "S142",
+      "corpus_id": "C094",
+      "location": "Relevant thematic sections",
+      "claim_type": "UNITY",
+      "claim": "Different perceptions or conditions are presented within a larger field of awareness rather than as unrelated fragments.",
+      "motifs": [
+        "M03",
+        "M06"
+      ],
+      "provenance": "P2*",
+      "batch": "19"
+    },
+    {
+      "global_claim_id": "G19-S142-08",
+      "claim_id": "B19-S142-08",
+      "source_id": "S142",
+      "corpus_id": "C094",
+      "location": "Relevant thematic sections",
+      "claim_type": "HIDDEN",
+      "claim": "The text's poetic language and transmission history encourage symbolic rather than purely literal interpretation.",
+      "motifs": [
+        "M17",
+        "M18"
+      ],
+      "provenance": "P2*",
+      "batch": "19"
+    },
+    {
+      "global_claim_id": "G19-S142-09",
+      "claim_id": "B19-S142-09",
+      "source_id": "S142",
+      "corpus_id": "C094",
+      "location": "Relevant thematic sections",
+      "claim_type": "RELATION",
+      "claim": "The practice links body, heart-mind, breath and cosmological imagery.",
+      "motifs": [
+        "M05",
+        "M08",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "19"
+    },
+    {
+      "global_claim_id": "G19-S142-10",
+      "claim_id": "B19-S142-10",
+      "source_id": "S142",
+      "corpus_id": "C094",
+      "location": "Relevant thematic sections",
+      "claim_type": "TEMPORAL",
+      "claim": "Training is staged, with repeated practice shaping later states and capacities.",
+      "motifs": [
+        "M11",
+        "M12"
+      ],
+      "provenance": "P2*",
+      "batch": "19"
+    },
+    {
+      "global_claim_id": "G19-S142-11",
+      "claim_id": "B19-S142-11",
+      "source_id": "S142",
+      "corpus_id": "C094",
+      "location": "Relevant thematic sections",
+      "claim_type": "CONTRAST",
+      "claim": "The modern Jungian reading should be distinguished from the Chinese neidan text and its own historical context.",
+      "motifs": [
+        "M14",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "19"
+    },
+    {
+      "global_claim_id": "G19-S142-12",
+      "claim_id": "B19-S142-12",
+      "source_id": "S142",
+      "corpus_id": "C094",
+      "location": "Relevant thematic sections",
+      "claim_type": "TEXT",
+      "claim": "The work has a complicated transmission history involving spirit-writing traditions and differing received versions.",
+      "motifs": [
+        "M14",
+        "M17"
+      ],
+      "provenance": "P2*",
+      "batch": "19"
+    },
+    {
+      "global_claim_id": "G19-S142-13",
+      "claim_id": "B19-S142-13",
+      "source_id": "S142",
+      "corpus_id": "C094",
+      "location": "Relevant thematic sections",
+      "claim_type": "META",
+      "claim": "Its meditation and immortality claims are source doctrines and should not be treated as experimentally established physiological facts.",
+      "motifs": [
+        "M14",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "19"
+    },
+    {
+      "global_claim_id": "G19-S143-01",
+      "claim_id": "B19-S143-01",
+      "source_id": "S143",
+      "corpus_id": "C096",
+      "location": "Relevant thematic sections",
+      "claim_type": "ONTO",
+      "claim": "The Avesta describes a moral-cosmological order in which human action has significance beyond immediate private experience.",
+      "motifs": [
+        "M10",
+        "M15",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "19"
+    },
+    {
+      "global_claim_id": "G19-S143-02",
+      "claim_id": "B19-S143-02",
+      "source_id": "S143",
+      "corpus_id": "C096",
+      "location": "Relevant thematic sections",
+      "claim_type": "PERSON",
+      "claim": "The tradition distinguishes aspects such as urvan (soul), daena and fravashi within its account of personhood.",
+      "motifs": [
+        "M07",
+        "M19",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "19"
+    },
+    {
+      "global_claim_id": "G19-S143-03",
+      "claim_id": "B19-S143-03",
+      "source_id": "S143",
+      "corpus_id": "C096",
+      "location": "Relevant thematic sections",
+      "claim_type": "CAUSAL",
+      "claim": "Human deeds are linked to consequences after death in the eschatological framework.",
+      "motifs": [
+        "M10",
+        "M11",
+        "M19"
+      ],
+      "provenance": "P2*",
+      "batch": "19"
+    },
+    {
+      "global_claim_id": "G19-S143-04",
+      "claim_id": "B19-S143-04",
+      "source_id": "S143",
+      "corpus_id": "C096",
+      "location": "Relevant thematic sections",
+      "claim_type": "RELATION",
+      "claim": "Daena is associated with the individual's ethical and spiritual orientation and appears in later tradition as a personified guide.",
+      "motifs": [
+        "M05",
+        "M10",
+        "M19"
+      ],
+      "provenance": "P2*",
+      "batch": "19"
+    },
+    {
+      "global_claim_id": "G19-S143-05",
+      "claim_id": "B19-S143-05",
+      "source_id": "S143",
+      "corpus_id": "C096",
+      "location": "Relevant thematic sections",
+      "claim_type": "VALENCE",
+      "claim": "Good and destructive orientations are treated as normatively significant dimensions of consciousness and action.",
+      "motifs": [
+        "M10",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "19"
+    },
+    {
+      "global_claim_id": "G19-S143-06",
+      "claim_id": "B19-S143-06",
+      "source_id": "S143",
+      "corpus_id": "C096",
+      "location": "Relevant thematic sections",
+      "claim_type": "TEMPORAL",
+      "claim": "Individual existence is situated within a broader cosmic history involving creation, conflict and eventual renovation.",
+      "motifs": [
+        "M11",
+        "M19",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "19"
+    },
+    {
+      "global_claim_id": "G19-S143-07",
+      "claim_id": "B19-S143-07",
+      "source_id": "S143",
+      "corpus_id": "C096",
+      "location": "Relevant thematic sections",
+      "claim_type": "COSMO",
+      "claim": "Human moral life participates in a larger struggle between beneficent and destructive principles.",
+      "motifs": [
+        "M15",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "19"
+    },
+    {
+      "global_claim_id": "G19-S143-08",
+      "claim_id": "B19-S143-08",
+      "source_id": "S143",
+      "corpus_id": "C096",
+      "location": "Relevant thematic sections",
+      "claim_type": "TRANSFORMATION",
+      "claim": "Eschatological renewal is represented as a transformation of the world and its inhabitants rather than simple annihilation.",
+      "motifs": [
+        "M12",
+        "M19",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "19"
+    },
+    {
+      "global_claim_id": "G19-S143-09",
+      "claim_id": "B19-S143-09",
+      "source_id": "S143",
+      "corpus_id": "C096",
+      "location": "Relevant thematic sections",
+      "claim_type": "META",
+      "claim": "Truth/order and falsehood/disorder function as large-scale organizing principles of the cosmology.",
+      "motifs": [
+        "M10",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "19"
+    },
+    {
+      "global_claim_id": "G19-S143-10",
+      "claim_id": "B19-S143-10",
+      "source_id": "S143",
+      "corpus_id": "C096",
+      "location": "Relevant thematic sections",
+      "claim_type": "PRACTICE",
+      "claim": "Prayer, recitation and ethical action are presented as repeatable ways of aligning human conduct with the good order.",
+      "motifs": [
+        "M24",
+        "M25"
+      ],
+      "provenance": "P2*",
+      "batch": "19"
+    },
+    {
+      "global_claim_id": "G19-S143-11",
+      "claim_id": "B19-S143-11",
+      "source_id": "S143",
+      "corpus_id": "C096",
+      "location": "Relevant thematic sections",
+      "claim_type": "REFLEXIVITY",
+      "claim": "Conscience and inward moral discernment are connected to the individual's relation to truth and duty.",
+      "motifs": [
+        "M02",
+        "M06",
+        "M10"
+      ],
+      "provenance": "P2*",
+      "batch": "19"
+    },
+    {
+      "global_claim_id": "G19-S143-12",
+      "claim_id": "B19-S143-12",
+      "source_id": "S143",
+      "corpus_id": "C096",
+      "location": "Relevant thematic sections",
+      "claim_type": "CONTRAST",
+      "claim": "The Avesta is a multi-layered corpus, so distinctions among Gathic and later Avestan materials must remain explicit.",
+      "motifs": [
+        "M14",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "19"
+    },
+    {
+      "global_claim_id": "G19-S143-13",
+      "claim_id": "B19-S143-13",
+      "source_id": "S143",
+      "corpus_id": "C096",
+      "location": "Relevant thematic sections",
+      "claim_type": "META",
+      "claim": "Zoroastrian eschatology is preserved as religious doctrine and should not be promoted to empirical claims about survival after death.",
+      "motifs": [
+        "M14",
+        "M19",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "19"
+    },
+    {
+      "global_claim_id": "G19-S144-01",
+      "claim_id": "B19-S144-01",
+      "source_id": "S144",
+      "corpus_id": "C097",
+      "location": "Relevant thematic sections",
+      "claim_type": "COSMO",
+      "claim": "Bundahishn presents an ordered cosmology of creation, material beings, time and cosmic conflict.",
+      "motifs": [
+        "M15",
+        "M20",
+        "M21"
+      ],
+      "provenance": "P2*",
+      "batch": "19"
+    },
+    {
+      "global_claim_id": "G19-S144-02",
+      "claim_id": "B19-S144-02",
+      "source_id": "S144",
+      "corpus_id": "C097",
+      "location": "Relevant thematic sections",
+      "claim_type": "ONTO",
+      "claim": "Human beings are situated within a larger created order rather than treated as isolated minds.",
+      "motifs": [
+        "M05",
+        "M15"
+      ],
+      "provenance": "P2*",
+      "batch": "19"
+    },
+    {
+      "global_claim_id": "G19-S144-03",
+      "claim_id": "B19-S144-03",
+      "source_id": "S144",
+      "corpus_id": "C097",
+      "location": "Relevant thematic sections",
+      "claim_type": "EMBODIMENT",
+      "claim": "Material bodies and their origins are integrated into the cosmological account of life.",
+      "motifs": [
+        "M08",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "19"
+    },
+    {
+      "global_claim_id": "G19-S144-04",
+      "claim_id": "B19-S144-04",
+      "source_id": "S144",
+      "corpus_id": "C097",
+      "location": "Relevant thematic sections",
+      "claim_type": "DEATH",
+      "claim": "Death is not the final ontological endpoint because resurrection and renovation are part of the eschatological model.",
+      "motifs": [
+        "M11",
+        "M19"
+      ],
+      "provenance": "P2*",
+      "batch": "19"
+    },
+    {
+      "global_claim_id": "G19-S144-05",
+      "claim_id": "B19-S144-05",
+      "source_id": "S144",
+      "corpus_id": "C097",
+      "location": "Relevant thematic sections",
+      "claim_type": "TRANSFORMATION",
+      "claim": "The final renovation is described as a transformation of bodies and the world into an immortal condition.",
+      "motifs": [
+        "M12",
+        "M19",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "19"
+    },
+    {
+      "global_claim_id": "G19-S144-06",
+      "claim_id": "B19-S144-06",
+      "source_id": "S144",
+      "corpus_id": "C097",
+      "location": "Relevant thematic sections",
+      "claim_type": "TEMPORAL",
+      "claim": "Cosmic time is structured through long periods culminating in restoration.",
+      "motifs": [
+        "M11",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "19"
+    },
+    {
+      "global_claim_id": "G19-S144-07",
+      "claim_id": "B19-S144-07",
+      "source_id": "S144",
+      "corpus_id": "C097",
+      "location": "Relevant thematic sections",
+      "claim_type": "RELATION",
+      "claim": "Human, animal, vegetal and cosmic processes are interwoven in the narrative of creation and restoration.",
+      "motifs": [
+        "M03",
+        "M05",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "19"
+    },
+    {
+      "global_claim_id": "G19-S144-08",
+      "claim_id": "B19-S144-08",
+      "source_id": "S144",
+      "corpus_id": "C097",
+      "location": "Relevant thematic sections",
+      "claim_type": "META",
+      "claim": "The text treats creation as a meaningful structured process rather than a random aggregation of events.",
+      "motifs": [
+        "M03",
+        "M20",
+        "M21"
+      ],
+      "provenance": "P2*",
+      "batch": "19"
+    },
+    {
+      "global_claim_id": "G19-S144-09",
+      "claim_id": "B19-S144-09",
+      "source_id": "S144",
+      "corpus_id": "C097",
+      "location": "Relevant thematic sections",
+      "claim_type": "CAUSAL",
+      "claim": "Cosmic conflict is explained through interactions between beneficent creation and destructive forces.",
+      "motifs": [
+        "M10",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "19"
+    },
+    {
+      "global_claim_id": "G19-S144-10",
+      "claim_id": "B19-S144-10",
+      "source_id": "S144",
+      "corpus_id": "C097",
+      "location": "Relevant thematic sections",
+      "claim_type": "PERSON",
+      "claim": "Soul and bodily destiny are situated within the larger Zoroastrian framework of postmortem judgment and renewal.",
+      "motifs": [
+        "M19",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "19"
+    },
+    {
+      "global_claim_id": "G19-S144-11",
+      "claim_id": "B19-S144-11",
+      "source_id": "S144",
+      "corpus_id": "C097",
+      "location": "Relevant thematic sections",
+      "claim_type": "PRACTICE",
+      "claim": "Ritual and religious knowledge are framed as ways of participating in the good order of creation.",
+      "motifs": [
+        "M24",
+        "M25"
+      ],
+      "provenance": "P2*",
+      "batch": "19"
+    },
+    {
+      "global_claim_id": "G19-S144-12",
+      "claim_id": "B19-S144-12",
+      "source_id": "S144",
+      "corpus_id": "C097",
+      "location": "Relevant thematic sections",
+      "claim_type": "CONTRAST",
+      "claim": "The Bundahishn is a Pahlavi compilation drawing on older Zoroastrian material and should not be treated as a single-period primary voice.",
+      "motifs": [
+        "M14",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "19"
+    },
+    {
+      "global_claim_id": "G19-S144-13",
+      "claim_id": "B19-S144-13",
+      "source_id": "S144",
+      "corpus_id": "C097",
+      "location": "Relevant thematic sections",
+      "claim_type": "META",
+      "claim": "Its cosmology is historical religious doctrine; resurrection and final-body claims require separate empirical status and are not established facts.",
+      "motifs": [
+        "M14",
+        "M19",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "19"
+    },
+    {
+      "global_claim_id": "G19-S145-01",
+      "claim_id": "B19-S145-01",
+      "source_id": "S145",
+      "corpus_id": "C098",
+      "location": "Relevant thematic sections",
+      "claim_type": "TEXT",
+      "claim": "Denkard is a later Pahlavi compendium that preserves and systematizes Zoroastrian religious knowledge.",
+      "motifs": [
+        "M14",
+        "M20",
+        "M25"
+      ],
+      "provenance": "P2*",
+      "batch": "19"
+    },
+    {
+      "global_claim_id": "G19-S145-02",
+      "claim_id": "B19-S145-02",
+      "source_id": "S145",
+      "corpus_id": "C098",
+      "location": "Relevant thematic sections",
+      "claim_type": "REFLEXIVITY",
+      "claim": "Self-knowledge is explicitly connected with questioning one's origins, religious identity and ultimate end.",
+      "motifs": [
+        "M02",
+        "M06",
+        "M13"
+      ],
+      "provenance": "P2*",
+      "batch": "19"
+    },
+    {
+      "global_claim_id": "G19-S145-03",
+      "claim_id": "B19-S145-03",
+      "source_id": "S145",
+      "corpus_id": "C098",
+      "location": "Relevant thematic sections",
+      "claim_type": "ONTO",
+      "claim": "Wisdom and knowledge are treated as dimensions of religiously ordered human life rather than merely abstract information.",
+      "motifs": [
+        "M06",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "19"
+    },
+    {
+      "global_claim_id": "G19-S145-04",
+      "claim_id": "B19-S145-04",
+      "source_id": "S145",
+      "corpus_id": "C098",
+      "location": "Relevant thematic sections",
+      "claim_type": "RELATION",
+      "claim": "Body, spirit, nature and wisdom are described as connected rather than isolated domains.",
+      "motifs": [
+        "M03",
+        "M05",
+        "M08"
+      ],
+      "provenance": "P2*",
+      "batch": "19"
+    },
+    {
+      "global_claim_id": "G19-S145-05",
+      "claim_id": "B19-S145-05",
+      "source_id": "S145",
+      "corpus_id": "C098",
+      "location": "Relevant thematic sections",
+      "claim_type": "VALENCE",
+      "claim": "Good and destructive dispositions are framed as morally and spiritually consequential.",
+      "motifs": [
+        "M10",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "19"
+    },
+    {
+      "global_claim_id": "G19-S145-06",
+      "claim_id": "B19-S145-06",
+      "source_id": "S145",
+      "corpus_id": "C098",
+      "location": "Relevant thematic sections",
+      "claim_type": "CAUSAL",
+      "claim": "Thought, word and action are treated as linked components of ethical agency.",
+      "motifs": [
+        "M10",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "19"
+    },
+    {
+      "global_claim_id": "G19-S145-07",
+      "claim_id": "B19-S145-07",
+      "source_id": "S145",
+      "corpus_id": "C098",
+      "location": "Relevant thematic sections",
+      "claim_type": "PRACTICE",
+      "claim": "Education and disciplined conduct are presented as means through which knowledge becomes effective.",
+      "motifs": [
+        "M12",
+        "M24",
+        "M25"
+      ],
+      "provenance": "P2*",
+      "batch": "19"
+    },
+    {
+      "global_claim_id": "G19-S145-08",
+      "claim_id": "B19-S145-08",
+      "source_id": "S145",
+      "corpus_id": "C098",
+      "location": "Relevant thematic sections",
+      "claim_type": "PERSISTENCE",
+      "claim": "The religious framework includes soul and postmortem destiny, preserving continuity beyond ordinary embodied life.",
+      "motifs": [
+        "M11",
+        "M19"
+      ],
+      "provenance": "P2*",
+      "batch": "19"
+    },
+    {
+      "global_claim_id": "G19-S145-09",
+      "claim_id": "B19-S145-09",
+      "source_id": "S145",
+      "corpus_id": "C098",
+      "location": "Relevant thematic sections",
+      "claim_type": "META",
+      "claim": "Dēn is described as wisdom/conscience with both inner and religious dimensions.",
+      "motifs": [
+        "M02",
+        "M06",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "19"
+    },
+    {
+      "global_claim_id": "G19-S145-10",
+      "claim_id": "B19-S145-10",
+      "source_id": "S145",
+      "corpus_id": "C098",
+      "location": "Relevant thematic sections",
+      "claim_type": "RELATION",
+      "claim": "Community and association with wise or virtuous people are treated as conditions that support right development.",
+      "motifs": [
+        "M05",
+        "M16"
+      ],
+      "provenance": "P2*",
+      "batch": "19"
+    },
+    {
+      "global_claim_id": "G19-S145-11",
+      "claim_id": "B19-S145-11",
+      "source_id": "S145",
+      "corpus_id": "C098",
+      "location": "Relevant thematic sections",
+      "claim_type": "TRANSFORMATION",
+      "claim": "Knowledge is not complete until it is embodied in conduct and moral change.",
+      "motifs": [
+        "M10",
+        "M12"
+      ],
+      "provenance": "P2*",
+      "batch": "19"
+    },
+    {
+      "global_claim_id": "G19-S145-12",
+      "claim_id": "B19-S145-12",
+      "source_id": "S145",
+      "corpus_id": "C098",
+      "location": "Relevant thematic sections",
+      "claim_type": "TEXT",
+      "claim": "The work incorporates materials of different periods and includes extensive transmission and reconstruction history.",
+      "motifs": [
+        "M14",
+        "M17"
+      ],
+      "provenance": "P2*",
+      "batch": "19"
+    },
+    {
+      "global_claim_id": "G19-S145-13",
+      "claim_id": "B19-S145-13",
+      "source_id": "S145",
+      "corpus_id": "C098",
+      "location": "Relevant thematic sections",
+      "claim_type": "META",
+      "claim": "Denkard's theological claims remain source doctrine; its concepts cannot be silently converted into modern cognitive-science mechanisms.",
+      "motifs": [
+        "M14",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "19"
+    },
+    {
+      "global_claim_id": "G19-S146-01",
+      "claim_id": "B19-S146-01",
+      "source_id": "S146",
+      "corpus_id": "C100",
+      "location": "Relevant thematic sections",
+      "claim_type": "ONTO",
+      "claim": "Suhrawardi develops an Illuminationist ontology centered on light, presence and graded modes of being.",
+      "motifs": [
+        "M01",
+        "M15",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "19"
+    },
+    {
+      "global_claim_id": "G19-S146-02",
+      "claim_id": "B19-S146-02",
+      "source_id": "S146",
+      "corpus_id": "C100",
+      "location": "Relevant thematic sections",
+      "claim_type": "REFLEXIVITY",
+      "claim": "Self-awareness is treated through direct awareness/presence rather than only through representational inference.",
+      "motifs": [
+        "M02",
+        "M06"
+      ],
+      "provenance": "P2*",
+      "batch": "19"
+    },
+    {
+      "global_claim_id": "G19-S146-03",
+      "claim_id": "B19-S146-03",
+      "source_id": "S146",
+      "corpus_id": "C100",
+      "location": "Relevant thematic sections",
+      "claim_type": "PHEN",
+      "claim": "Knowledge of oneself is analyzed as a form of immediate awareness distinct from ordinary object-directed knowledge.",
+      "motifs": [
+        "M01",
+        "M02"
+      ],
+      "provenance": "P2*",
+      "batch": "19"
+    },
+    {
+      "global_claim_id": "G19-S146-04",
+      "claim_id": "B19-S146-04",
+      "source_id": "S146",
+      "corpus_id": "C100",
+      "location": "Relevant thematic sections",
+      "claim_type": "META",
+      "claim": "The tradition challenges purely discursive knowledge by giving intuitive illumination a central epistemic role.",
+      "motifs": [
+        "M06",
+        "M14"
+      ],
+      "provenance": "P2*",
+      "batch": "19"
+    },
+    {
+      "global_claim_id": "G19-S146-05",
+      "claim_id": "B19-S146-05",
+      "source_id": "S146",
+      "corpus_id": "C100",
+      "location": "Relevant thematic sections",
+      "claim_type": "STATE",
+      "claim": "Different degrees or modes of light are used to articulate different conditions of beings and knowing.",
+      "motifs": [
+        "M07",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "19"
+    },
+    {
+      "global_claim_id": "G19-S146-06",
+      "claim_id": "B19-S146-06",
+      "source_id": "S146",
+      "corpus_id": "C100",
+      "location": "Relevant thematic sections",
+      "claim_type": "RELATION",
+      "claim": "Knowledge involves relations between perceiver, intelligible object and the luminous structure of reality.",
+      "motifs": [
+        "M03",
+        "M05"
+      ],
+      "provenance": "P2*",
+      "batch": "19"
+    },
+    {
+      "global_claim_id": "G19-S146-07",
+      "claim_id": "B19-S146-07",
+      "source_id": "S146",
+      "corpus_id": "C100",
+      "location": "Relevant thematic sections",
+      "claim_type": "TRANSFORMATION",
+      "claim": "Illuminationist knowledge is presented as potentially transformative of the knower, not merely descriptive.",
+      "motifs": [
+        "M12",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "19"
+    },
+    {
+      "global_claim_id": "G19-S146-08",
+      "claim_id": "B19-S146-08",
+      "source_id": "S146",
+      "corpus_id": "C100",
+      "location": "Relevant thematic sections",
+      "claim_type": "HIDDEN",
+      "claim": "The Ishraqi system includes intermediary realms and symbolic language that resist reduction to ordinary sensory description.",
+      "motifs": [
+        "M17",
+        "M18"
+      ],
+      "provenance": "P2*",
+      "batch": "19"
+    },
+    {
+      "global_claim_id": "G19-S146-09",
+      "claim_id": "B19-S146-09",
+      "source_id": "S146",
+      "corpus_id": "C100",
+      "location": "Relevant thematic sections",
+      "claim_type": "UNITY",
+      "claim": "Reality is ordered through graded relations rather than as a collection of isolated substances.",
+      "motifs": [
+        "M03",
+        "M15"
+      ],
+      "provenance": "P2*",
+      "batch": "19"
+    },
+    {
+      "global_claim_id": "G19-S146-10",
+      "claim_id": "B19-S146-10",
+      "source_id": "S146",
+      "corpus_id": "C100",
+      "location": "Relevant thematic sections",
+      "claim_type": "ONTO",
+      "claim": "Suhrawardi critiques aspects of Avicennan metaphysics and offers a distinctive account of quiddity and light.",
+      "motifs": [
+        "M14",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "19"
+    },
+    {
+      "global_claim_id": "G19-S146-11",
+      "claim_id": "B19-S146-11",
+      "source_id": "S146",
+      "corpus_id": "C100",
+      "location": "Relevant thematic sections",
+      "claim_type": "PRACTICE",
+      "claim": "Philosophical and visionary discipline are connected to access to modes of knowledge unavailable to ordinary abstraction alone.",
+      "motifs": [
+        "M24",
+        "M25"
+      ],
+      "provenance": "P2*",
+      "batch": "19"
+    },
+    {
+      "global_claim_id": "G19-S146-12",
+      "claim_id": "B19-S146-12",
+      "source_id": "S146",
+      "corpus_id": "C100",
+      "location": "Relevant thematic sections",
+      "claim_type": "CONTRAST",
+      "claim": "Illuminationist intuition must be distinguished from a modern empirical notion of introspection.",
+      "motifs": [
+        "M14",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "19"
+    },
+    {
+      "global_claim_id": "G19-S146-13",
+      "claim_id": "B19-S146-13",
+      "source_id": "S146",
+      "corpus_id": "C100",
+      "location": "Relevant thematic sections",
+      "claim_type": "META",
+      "claim": "The source is a historical philosophical system; its illuminationist ontology remains distinct from experimentally established neuroscience.",
+      "motifs": [
+        "M14",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "19"
+    },
+    {
+      "global_claim_id": "G19-S147-01",
+      "claim_id": "B19-S147-01",
+      "source_id": "S147",
+      "corpus_id": "C101",
+      "location": "Relevant thematic sections",
+      "claim_type": "ONTO",
+      "claim": "Mulla Sadra treats existence as fundamental and essences as derivative conceptual determinations.",
+      "motifs": [
+        "M03",
+        "M20",
+        "M21"
+      ],
+      "provenance": "P2*",
+      "batch": "19"
+    },
+    {
+      "global_claim_id": "G19-S147-02",
+      "claim_id": "B19-S147-02",
+      "source_id": "S147",
+      "corpus_id": "C101",
+      "location": "Relevant thematic sections",
+      "claim_type": "TRANSFORMATION",
+      "claim": "The four-journey schema presents spiritual-philosophical development as a movement from the world toward God and back to the world with God.",
+      "motifs": [
+        "M12",
+        "M15",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "19"
+    },
+    {
+      "global_claim_id": "G19-S147-03",
+      "claim_id": "B19-S147-03",
+      "source_id": "S147",
+      "corpus_id": "C101",
+      "location": "Relevant thematic sections",
+      "claim_type": "RELATION",
+      "claim": "The human being is analyzed through relations among existence, soul, intellect and world rather than through a single isolated property.",
+      "motifs": [
+        "M05",
+        "M06",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "19"
+    },
+    {
+      "global_claim_id": "G19-S147-04",
+      "claim_id": "B19-S147-04",
+      "source_id": "S147",
+      "corpus_id": "C101",
+      "location": "Relevant thematic sections",
+      "claim_type": "REFLEXIVITY",
+      "claim": "Direct intellectual intuition is presented as a route to knowledge that exceeds merely abstract conceptual classification.",
+      "motifs": [
+        "M02",
+        "M06"
+      ],
+      "provenance": "P2*",
+      "batch": "19"
+    },
+    {
+      "global_claim_id": "G19-S147-05",
+      "claim_id": "B19-S147-05",
+      "source_id": "S147",
+      "corpus_id": "C101",
+      "location": "Relevant thematic sections",
+      "claim_type": "META",
+      "claim": "The work distinguishes modes of knowing in which the known is encountered through direct intuition rather than only through mental representation.",
+      "motifs": [
+        "M01",
+        "M14"
+      ],
+      "provenance": "P2*",
+      "batch": "19"
+    },
+    {
+      "global_claim_id": "G19-S147-06",
+      "claim_id": "B19-S147-06",
+      "source_id": "S147",
+      "corpus_id": "C101",
+      "location": "Relevant thematic sections",
+      "claim_type": "TEMPORAL",
+      "claim": "The soul is understood dynamically, with development and substantial transformation playing central roles.",
+      "motifs": [
+        "M11",
+        "M12",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "19"
+    },
+    {
+      "global_claim_id": "G19-S147-07",
+      "claim_id": "B19-S147-07",
+      "source_id": "S147",
+      "corpus_id": "C101",
+      "location": "Relevant thematic sections",
+      "claim_type": "EMBODIMENT",
+      "claim": "Human existence includes a trajectory from bodily conditions toward increasingly immaterial modes in Sadrean psychology.",
+      "motifs": [
+        "M08",
+        "M12"
+      ],
+      "provenance": "P2*",
+      "batch": "19"
+    },
+    {
+      "global_claim_id": "G19-S147-08",
+      "claim_id": "B19-S147-08",
+      "source_id": "S147",
+      "corpus_id": "C101",
+      "location": "Relevant thematic sections",
+      "claim_type": "UNITY",
+      "claim": "The philosophical system seeks an integrated account of metaphysics, psychology, knowledge and theology.",
+      "motifs": [
+        "M03",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "19"
+    },
+    {
+      "global_claim_id": "G19-S147-09",
+      "claim_id": "B19-S147-09",
+      "source_id": "S147",
+      "corpus_id": "C101",
+      "location": "Relevant thematic sections",
+      "claim_type": "CAUSAL",
+      "claim": "Change in the soul is interpreted through a developmental ontology rather than as simple acquisition of external information.",
+      "motifs": [
+        "M11",
+        "M12"
+      ],
+      "provenance": "P2*",
+      "batch": "19"
+    },
+    {
+      "global_claim_id": "G19-S147-10",
+      "claim_id": "B19-S147-10",
+      "source_id": "S147",
+      "corpus_id": "C101",
+      "location": "Relevant thematic sections",
+      "claim_type": "PRACTICE",
+      "claim": "Philosophical and spiritual discipline are presented as relevant to the transformation of the knower.",
+      "motifs": [
+        "M12",
+        "M24",
+        "M25"
+      ],
+      "provenance": "P2*",
+      "batch": "19"
+    },
+    {
+      "global_claim_id": "G19-S147-11",
+      "claim_id": "B19-S147-11",
+      "source_id": "S147",
+      "corpus_id": "C101",
+      "location": "Relevant thematic sections",
+      "claim_type": "RELATION",
+      "claim": "Returning to the world with God preserves engagement with worldly existence after transformation rather than simple withdrawal.",
+      "motifs": [
+        "M05",
+        "M15"
+      ],
+      "provenance": "P2*",
+      "batch": "19"
+    },
+    {
+      "global_claim_id": "G19-S147-12",
+      "claim_id": "B19-S147-12",
+      "source_id": "S147",
+      "corpus_id": "C101",
+      "location": "Relevant thematic sections",
+      "claim_type": "CONTRAST",
+      "claim": "The four 'journeys' are a spiritual-philosophical schema and do not map one-to-one onto a modern psychological development model.",
+      "motifs": [
+        "M14",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "19"
+    },
+    {
+      "global_claim_id": "G19-S147-13",
+      "claim_id": "B19-S147-13",
+      "source_id": "S147",
+      "corpus_id": "C101",
+      "location": "Relevant thematic sections",
+      "claim_type": "META",
+      "claim": "Asfar is a historical metaphysical system; its claims about existence, soul and knowledge remain philosophically interpretable rather than empirically established.",
+      "motifs": [
+        "M14",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "19"
+    },
+    {
+      "global_claim_id": "G19-S148-01",
+      "claim_id": "B19-S148-01",
+      "source_id": "S148",
+      "corpus_id": "C102",
+      "location": "Relevant thematic sections",
+      "claim_type": "ONTO",
+      "claim": "The work develops Sadrean themes concerning existence, divine causation and the structure of reality.",
+      "motifs": [
+        "M03",
+        "M20",
+        "M21"
+      ],
+      "provenance": "P2*",
+      "batch": "19"
+    },
+    {
+      "global_claim_id": "G19-S148-02",
+      "claim_id": "B19-S148-02",
+      "source_id": "S148",
+      "corpus_id": "C102",
+      "location": "Relevant thematic sections",
+      "claim_type": "REFLEXIVITY",
+      "claim": "Knowledge of self and being is linked to the broader problem of how intellect encounters reality.",
+      "motifs": [
+        "M02",
+        "M06"
+      ],
+      "provenance": "P2*",
+      "batch": "19"
+    },
+    {
+      "global_claim_id": "G19-S148-03",
+      "claim_id": "B19-S148-03",
+      "source_id": "S148",
+      "corpus_id": "C102",
+      "location": "Relevant thematic sections",
+      "claim_type": "META",
+      "claim": "Existence is given priority over merely conceptual essences in the Sadrean framework.",
+      "motifs": [
+        "M20",
+        "M21"
+      ],
+      "provenance": "P2*",
+      "batch": "19"
+    },
+    {
+      "global_claim_id": "G19-S148-04",
+      "claim_id": "B19-S148-04",
+      "source_id": "S148",
+      "corpus_id": "C102",
+      "location": "Relevant thematic sections",
+      "claim_type": "STATE",
+      "claim": "The soul is described through degrees or modes rather than as a static undifferentiated entity.",
+      "motifs": [
+        "M07",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "19"
+    },
+    {
+      "global_claim_id": "G19-S148-05",
+      "claim_id": "B19-S148-05",
+      "source_id": "S148",
+      "corpus_id": "C102",
+      "location": "Relevant thematic sections",
+      "claim_type": "TRANSFORMATION",
+      "claim": "Soul development is treated as a real change in mode of being, not only a change in beliefs.",
+      "motifs": [
+        "M12",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "19"
+    },
+    {
+      "global_claim_id": "G19-S148-06",
+      "claim_id": "B19-S148-06",
+      "source_id": "S148",
+      "corpus_id": "C102",
+      "location": "Relevant thematic sections",
+      "claim_type": "RELATION",
+      "claim": "Human intellect and soul are interpreted through their relation to existence and the divine source.",
+      "motifs": [
+        "M05",
+        "M15",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "19"
+    },
+    {
+      "global_claim_id": "G19-S148-07",
+      "claim_id": "B19-S148-07",
+      "source_id": "S148",
+      "corpus_id": "C102",
+      "location": "Relevant thematic sections",
+      "claim_type": "CAUSAL",
+      "claim": "Divine causation provides the overarching explanatory relation for contingent existence.",
+      "motifs": [
+        "M15",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "19"
+    },
+    {
+      "global_claim_id": "G19-S148-08",
+      "claim_id": "B19-S148-08",
+      "source_id": "S148",
+      "corpus_id": "C102",
+      "location": "Relevant thematic sections",
+      "claim_type": "PERSISTENCE",
+      "claim": "Resurrection is discussed as a transformation and continuation of the human mode of existence within a larger eschatological framework.",
+      "motifs": [
+        "M11",
+        "M19"
+      ],
+      "provenance": "P2*",
+      "batch": "19"
+    },
+    {
+      "global_claim_id": "G19-S148-09",
+      "claim_id": "B19-S148-09",
+      "source_id": "S148",
+      "corpus_id": "C102",
+      "location": "Relevant thematic sections",
+      "claim_type": "UNITY",
+      "claim": "The philosophical account integrates metaphysics, psychology and eschatology into one system.",
+      "motifs": [
+        "M03",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "19"
+    },
+    {
+      "global_claim_id": "G19-S148-10",
+      "claim_id": "B19-S148-10",
+      "source_id": "S148",
+      "corpus_id": "C102",
+      "location": "Relevant thematic sections",
+      "claim_type": "PHEN",
+      "claim": "Intellectual realization is treated as a mode of apprehending reality rather than merely acquiring propositional data.",
+      "motifs": [
+        "M01",
+        "M06"
+      ],
+      "provenance": "P2*",
+      "batch": "19"
+    },
+    {
+      "global_claim_id": "G19-S148-11",
+      "claim_id": "B19-S148-11",
+      "source_id": "S148",
+      "corpus_id": "C102",
+      "location": "Relevant thematic sections",
+      "claim_type": "PRACTICE",
+      "claim": "Philosophical and spiritual cultivation are connected with realizing the implications of the metaphysical system.",
+      "motifs": [
+        "M12",
+        "M25"
+      ],
+      "provenance": "P2*",
+      "batch": "19"
+    },
+    {
+      "global_claim_id": "G19-S148-12",
+      "claim_id": "B19-S148-12",
+      "source_id": "S148",
+      "corpus_id": "C102",
+      "location": "Relevant thematic sections",
+      "claim_type": "CONTRAST",
+      "claim": "Sadrean claims about soul and resurrection should not be conflated with contemporary cognitive or physical theories.",
+      "motifs": [
+        "M14",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "19"
+    },
+    {
+      "global_claim_id": "G19-S148-13",
+      "claim_id": "B19-S148-13",
+      "source_id": "S148",
+      "corpus_id": "C102",
+      "location": "Relevant thematic sections",
+      "claim_type": "META",
+      "claim": "al-Hikma al-'Arshiyya is a historical philosophical-theological work and its metaphysical conclusions remain distinct from empirical machine-consciousness claims.",
+      "motifs": [
+        "M14",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "19"
     }
   ],
   "rules": {
