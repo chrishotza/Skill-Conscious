@@ -5,18 +5,18 @@
 **Ledger:** `corpus/CLAIMS/claim_ledger_v1.json` + registered append deltas  
 **Audit rule:** an entry counts as represented only if its exact `corpus_id` occurs in at least one ledger record. This does **not** mean all claims are source-verified.
 
-## Reconciled totals after batch v26
+## Reconciled totals after batch v27
 
 - Register entries parsed: **325** (325 unique IDs).
-- Entries represented in effective corpus ledger: **214**.
-- Entries not yet represented: **111**.
-- Effective ledger records: **2872** (**2482** core ledger + **130** v24 append + **130** v25 append + **130** v26 append).
+- Entries represented in effective corpus ledger: **224**.
+- Entries not yet represented: **101**.
+- Effective ledger records: **3002** (**2482** core ledger + **130** v24 + **130** v25 + **130** v26 + **130** v27 append).
 - Core ledger records in `claim_ledger_v1.json`: **2482**.
-- Unique source IDs in effective ledger: **217**.
-- Sources with exactly 13 effective ledger records: **144**.
+- Unique source IDs in effective ledger: **227**.
+- Sources with exactly 13 effective ledger records: **154**.
 - Represented but under 13: **40**.
 - Represented above 13: **30**.
-- **Storage note:** v24–v26 are stored as append-only deltas because the current GitHub contents connector cannot safely rewrite the now-large core JSON blob.
+- **Storage note:** v24–v27 are stored as append-only deltas because the current GitHub contents connector cannot safely rewrite the now-large core JSON blob.
 - **Quality caveat:** “represented” is a coverage flag only. P2* claims and generic locators remain verification-pending.
 
 ## Status table
@@ -221,17 +221,17 @@
 | C196 | Mutus Liber — Esoterismo occidental; foco: correspondencias, microcosmos, alquimia. | Represented — exactly 13 | 13 | S215 |
 | C197 | Splendor Solis — Esoterismo occidental; foco: correspondencias, microcosmos, alquimia. | Represented — exactly 13 | 13 | S216 |
 | C198 | Emerald Tablet tradition — Esoterismo occidental; foco: correspondencias, microcosmos, alquimia. | Represented — exactly 13 | 13 | S217 |
-| C199 | Dogme et Rituel de la Haute Magie — Esoterismo occidental; foco: conciencia, persona, realidad, transformación. | Missing | 0 | — |
-| C200 | The Key of the Mysteries — Esoterismo occidental; foco: conciencia, persona, realidad, transformación. | Missing | 0 | — |
-| C201 | The Secret Doctrine — Esoterismo occidental; foco: conciencia, persona, realidad, transformación. | Missing | 0 | — |
-| C202 | Isis Unveiled — Esoterismo occidental; foco: conciencia, persona, realidad, transformación. | Missing | 0 | — |
-| C203 | Man and His Bodies — Esoterismo occidental; foco: conciencia, persona, realidad, transformación. | Missing | 0 | — |
-| C204 | The Inner Life — Esoterismo occidental; foco: conciencia, persona, realidad, transformación. | Missing | 0 | — |
-| C205 | The Book of the Law — Esoterismo occidental; foco: conciencia, persona, realidad, transformación. | Missing | 0 | — |
-| C206 | 777 — Esoterismo occidental; foco: correspondencias, microcosmos, alquimia. | Missing | 0 | — |
-| C207 | The Mystical Qabalah — Esoterismo occidental; foco: conciencia, persona, realidad, transformación. | Missing | 0 | — |
+| C199 | Dogme et Rituel de la Haute Magie — Esoterismo occidental; foco: conciencia, persona, realidad, transformación. | Represented — exactly 13 | 13 | S218 |
+| C200 | The Key of the Mysteries — Esoterismo occidental; foco: conciencia, persona, realidad, transformación. | Represented — exactly 13 | 13 | S219 |
+| C201 | The Secret Doctrine — Esoterismo occidental; foco: conciencia, persona, realidad, transformación. | Represented — exactly 13 | 13 | S220 |
+| C202 | Isis Unveiled — Esoterismo occidental; foco: conciencia, persona, realidad, transformación. | Represented — exactly 13 | 13 | S221 |
+| C203 | Man and His Bodies — Esoterismo occidental; foco: conciencia, persona, realidad, transformación. | Represented — exactly 13 | 13 | S222 |
+| C204 | The Inner Life — Esoterismo occidental; foco: conciencia, persona, realidad, transformación. | Represented — exactly 13 | 13 | S223 |
+| C205 | The Book of the Law — Esoterismo occidental; foco: conciencia, persona, realidad, transformación. | Represented — exactly 13 | 13 | S224 |
+| C206 | 777 — Esoterismo occidental; foco: correspondencias, microcosmos, alquimia. | Represented — exactly 13 | 13 | S225 |
+| C207 | The Mystical Qabalah — Esoterismo occidental; foco: conciencia, persona, realidad, transformación. | Represented — exactly 13 | 13 | S226 |
 | C208 | Knowledge of the Higher Worlds — Contemplativo/transpersonal; foco: conciencia, persona, realidad, transformación. | Represented — under 13 | 8 | S029 |
-| C209 | Occult Science — Contemplativo/transpersonal; foco: conciencia, persona, realidad, transformación. | Missing | 0 | — |
+| C209 | Occult Science — Contemplativo/transpersonal; foco: conciencia, persona, realidad, transformación. | Represented — exactly 13 | 13 | S227 |
 | C210 | Steiner lecture corpus — Contemplativo/transpersonal; foco: práctica, estados, autopercepción. | Missing | 0 | — |
 | C211 | In Search of the Miraculous — Contemplativo/transpersonal; foco: conciencia, persona, realidad, transformación. | Represented — under 13 | 8 | S023 |
 | C212 | Fragments of an Unknown Teaching — Contemplativo/transpersonal; foco: práctica, estados, autopercepción. | Missing | 0 | — |
@@ -391,3 +391,12 @@
 - Core ledger: 2482 records / 187 source IDs.
 - Current register coverage: 214/325 represented; 111/325 still missing.
 - Exact-13 represented sources: 144.
+
+## Batch v27 checkpoint
+
+- Newly represented register entries: C199, C200, C201, C202, C203, C204, C205, C206, C207, C209.
+- Added claims: 130 (10 × 13), stored as append-only delta.
+- Effective ledger: 3002 records / 227 source IDs.
+- Core ledger: 2482 records / 187 source IDs.
+- Current register coverage: 224/325 represented; 101/325 still missing.
+- Exact-13 represented sources: 154.
