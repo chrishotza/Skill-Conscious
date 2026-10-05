@@ -13,7 +13,7 @@ Status: started.
 
 ## Phase 2 — Verification
 
-**Status: active. Six extraction batches complete: 53 sources / 598 atomic claims.**
+**Status: active. Eight extraction batches complete: 63 sources / 748 atomic claims.**
 
 The first batch is stored at `corpus/CLAIMS/ANCHOR_CLAIMS_BATCH_V1.md`, with motif assignment summarized in `corpus/CLAIMS/MOTIF_EVIDENCE_SUMMARY_V1.md`.
 
@@ -120,7 +120,9 @@ Each major version should ship with:
 - Batch 4: **96 atomic claims / 8 core-metaphysics sources**.
 - Batch 5: **150 atomic claims / 10 Self/no-self/nonduality sources**.
 - Batch 6: **96 atomic claims / 6 Jain/Sikh/Zoroastrian/Christian contemplative sources**.
-- Current total: **598 atomic claims / 53 sources**.
+- Batch 7: **100 atomic claims / 5 presence-relational sources**.
+- Batch 8: **50 atomic claims / 5 Mahāyāna/Kabbalah/Sufi sources**.
+- Current total: **748 atomic claims / 63 sources**.
 - Global target: **1,000+ atomic claims**.
 - Provenance control: `corpus/CLAIMS/VERIFICATION_QUEUE_V1.md` holds S1 claims at half-weight until primary verification.
 - Quantitative matrix: `ontology/CONVERGENCE_MATRIX_V2.md` now reports raw and provenance-weighted recurrence.
