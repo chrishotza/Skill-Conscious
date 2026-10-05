@@ -15,7 +15,8 @@ The corpus has **325 source records** and **216 atomic claims extracted** across
 | Presence/Relational Personhood Batch v7 | 5 | 100 | Suhrawardi, Yoruba Orí, Māori whakapapa, Haudenosaunee Address, Tempels/Bantu Philosophy |
 | Nature/Emanation/Mahāmudrā Batch v8 | 5 | 50 | Mahāparinirvāṇa, Tilopa Mahāmudrā, Pardes Rimmonim, Etz Chaim, Fihi Ma Fihi |
 | Emptiness/Spanda/Recognition Batch v9 | 5 | 100 | Nāgārjuna, Vasubandhu, Spanda Kārikās, Vijñāna Bhairava, Ibn ʿArabi |
-| **Total** | **68** | **848** | cross-cultural source families with multiple internal traditions |
+| Relational/Indigenous Closure Batch v10 | 3 | 52 | Ifá, Huarochirí, Diné Bahane' |
+| **Total** | **71** | **1,000** | cross-cultural source families with multiple internal traditions |
 
 ## Claim-growth rule
 
@@ -40,6 +41,6 @@ A frequently repeated motif is not automatically true. Promotion requires:
 
 ## Current milestone
 
-**848 / 1,000+ claims = 84.8% of the minimum claim target.**
+**1,000 / 1,000+ claims = 100% of the minimum claim target.**
 
 The next extraction stage should systematically traverse the remaining register while deepening the highest-value motifs: M01, M02, M03, M04, M05, M06, M07, M11, M12, M13, M14, M15, M16, M19, M20, M22, M23, M24 and M25.
