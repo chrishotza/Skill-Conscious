@@ -18,7 +18,8 @@ The corpus has **325 source-register entries** and **1,065 globally unique atomi
 | Relational/Indigenous/Transpersonal Batch v10 | 5 | 100 | Ifá, Huarochirí, Diné Bahane', Aboriginal Dreaming corpus, Yogananda |
 | Relational/Indigenous Closure Batch v10 | 3 | 52 | 52 unique closure claims from Ifá, Huarochirí, Diné Bahane' |
 | Remaining Sources Block v11 | 5 | 65 | Ṛgveda 10.129, Aitareya, Taittirīya, Praśna, Muṇḍaka Upaniṣads |
-| **Total** | **78** | **1,065** | cross-cultural source families with multiple internal traditions |
+| Remaining Sources Block v12 | 5 | 65 | Śvetāśvatara, Īśā, Maitrī, Māṇḍūkya Kārikā, Sāṃkhya Kārikā |
+| **Total** | **83** | **1,130** | cross-cultural source families with multiple internal traditions |
 
 ## Claim-growth rule
 
@@ -43,6 +44,6 @@ A frequently repeated motif is not automatically true. Promotion requires:
 
 ## Current milestone
 
-**1,000 / 1,000+ claims = 100% of the minimum claim target.**
+**1,130 globally unique claims across 83 source IDs. The original 1,000-claim minimum has been exceeded; expansion continues until the register is covered.**
 
 The next extraction stage should systematically traverse the remaining register while deepening the highest-value motifs: M01, M02, M03, M04, M05, M06, M07, M11, M12, M13, M14, M15, M16, M19, M20, M22, M23, M24 and M25.
