@@ -1,0 +1,1990 @@
+{
+  "schema_version": "1.0-append",
+  "base_ledger": "claim_ledger_v1.json",
+  "batch": "28",
+  "claim_count": 130,
+  "records": [
+    {
+      "global_claim_id": "G28-S228-K01",
+      "claim_id": "K01",
+      "source_id": "S228",
+      "corpus_id": "C210",
+      "location": "Selected Rudolf Steiner lectures on self-observation, consciousness, sleep, meditation and spiritual science",
+      "claim_type": "INTERIORITY",
+      "claim": "El corpus de conferencias de Steiner trata la vida interior como un campo de observación y desarrollo espiritual deliberado.",
+      "motifs": [
+        "M01",
+        "M02"
+      ],
+      "provenance": "P2*",
+      "batch": "28"
+    },
+    {
+      "global_claim_id": "G28-S228-K02",
+      "claim_id": "K02",
+      "source_id": "S228",
+      "corpus_id": "C210",
+      "location": "Selected Rudolf Steiner lectures on self-observation, consciousness, sleep, meditation and spiritual science",
+      "claim_type": "STATE",
+      "claim": "Sueño, vigilia, imaginación y estados meditativos se diferencian como configuraciones distintas de experiencia.",
+      "motifs": [
+        "M07",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "28"
+    },
+    {
+      "global_claim_id": "G28-S228-K03",
+      "claim_id": "K03",
+      "source_id": "S228",
+      "corpus_id": "C210",
+      "location": "Selected Rudolf Steiner lectures on self-observation, consciousness, sleep, meditation and spiritual science",
+      "claim_type": "PRACTICE",
+      "claim": "Atención, concentración, meditación y autoobservación aparecen como ejercicios de entrenamiento interior.",
+      "motifs": [
+        "M24",
+        "M25"
+      ],
+      "provenance": "P2*",
+      "batch": "28"
+    },
+    {
+      "global_claim_id": "G28-S228-K04",
+      "claim_id": "K04",
+      "source_id": "S228",
+      "corpus_id": "C210",
+      "location": "Selected Rudolf Steiner lectures on self-observation, consciousness, sleep, meditation and spiritual science",
+      "claim_type": "REFLEXIVITY",
+      "claim": "El observador debe examinar sus propios pensamientos y condiciones de experiencia en lugar de limitarse a observar objetos externos.",
+      "motifs": [
+        "M02",
+        "M06",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "28"
+    },
+    {
+      "global_claim_id": "G28-S228-K05",
+      "claim_id": "K05",
+      "source_id": "S228",
+      "corpus_id": "C210",
+      "location": "Selected Rudolf Steiner lectures on self-observation, consciousness, sleep, meditation and spiritual science",
+      "claim_type": "TRANSFORMATION",
+      "claim": "El entrenamiento espiritual se formula como modificación gradual de capacidades de percepción y autoconocimiento.",
+      "motifs": [
+        "M12",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "28"
+    },
+    {
+      "global_claim_id": "G28-S228-K06",
+      "claim_id": "K06",
+      "source_id": "S228",
+      "corpus_id": "C210",
+      "location": "Selected Rudolf Steiner lectures on self-observation, consciousness, sleep, meditation and spiritual science",
+      "claim_type": "SELF_MODEL",
+      "claim": "Steiner diferencia componentes corporales, anímicos y espirituales para describir la constitución humana.",
+      "motifs": [
+        "M02",
+        "M08",
+        "M16"
+      ],
+      "provenance": "P2*",
+      "batch": "28"
+    },
+    {
+      "global_claim_id": "G28-S228-K07",
+      "claim_id": "K07",
+      "source_id": "S228",
+      "corpus_id": "C210",
+      "location": "Selected Rudolf Steiner lectures on self-observation, consciousness, sleep, meditation and spiritual science",
+      "claim_type": "TEMPORAL",
+      "claim": "La evolución de la conciencia se sitúa dentro de una trayectoria biográfica y cosmológica amplia.",
+      "motifs": [
+        "M11",
+        "M15"
+      ],
+      "provenance": "P2*",
+      "batch": "28"
+    },
+    {
+      "global_claim_id": "G28-S228-K08",
+      "claim_id": "K08",
+      "source_id": "S228",
+      "corpus_id": "C210",
+      "location": "Selected Rudolf Steiner lectures on self-observation, consciousness, sleep, meditation and spiritual science",
+      "claim_type": "RELATION",
+      "claim": "La experiencia individual se interpreta en relación con procesos naturales, sociales y espirituales más amplios.",
+      "motifs": [
+        "M05",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "28"
+    },
+    {
+      "global_claim_id": "G28-S228-K09",
+      "claim_id": "K09",
+      "source_id": "S228",
+      "corpus_id": "C210",
+      "location": "Selected Rudolf Steiner lectures on self-observation, consciousness, sleep, meditation and spiritual science",
+      "claim_type": "ATTENTION",
+      "claim": "La concentración sostenida es tratada como una facultad que puede fortalecerse mediante práctica.",
+      "motifs": [
+        "M06",
+        "M24"
+      ],
+      "provenance": "P2*",
+      "batch": "28"
+    },
+    {
+      "global_claim_id": "G28-S228-K10",
+      "claim_id": "K10",
+      "source_id": "S228",
+      "corpus_id": "C210",
+      "location": "Selected Rudolf Steiner lectures on self-observation, consciousness, sleep, meditation and spiritual science",
+      "claim_type": "VALENCE",
+      "claim": "Disciplina, claridad moral y autocontrol funcionan como condiciones del desarrollo cognitivo-espiritual dentro del sistema.",
+      "motifs": [
+        "M10",
+        "M12"
+      ],
+      "provenance": "P2*",
+      "batch": "28"
+    },
+    {
+      "global_claim_id": "G28-S228-K11",
+      "claim_id": "K11",
+      "source_id": "S228",
+      "corpus_id": "C210",
+      "location": "Selected Rudolf Steiner lectures on self-observation, consciousness, sleep, meditation and spiritual science",
+      "claim_type": "PERSISTENCE",
+      "claim": "El corpus vincula estados de conciencia con una concepción de continuidad del ser más allá de la vida ordinaria.",
+      "motifs": [
+        "M19",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "28"
+    },
+    {
+      "global_claim_id": "G28-S228-K12",
+      "claim_id": "K12",
+      "source_id": "S228",
+      "corpus_id": "C210",
+      "location": "Selected Rudolf Steiner lectures on self-observation, consciousness, sleep, meditation and spiritual science",
+      "claim_type": "META",
+      "claim": "El corpus de conferencias de Steiner reúne materiales de distintas fechas y temas; no debe tratarse como una única teoría experimental de la conciencia.",
+      "motifs": [
+        "M14",
+        "M17",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "28"
+    },
+    {
+      "global_claim_id": "G28-S228-K13",
+      "claim_id": "K13",
+      "source_id": "S228",
+      "corpus_id": "C210",
+      "location": "Selected Rudolf Steiner lectures on self-observation, consciousness, sleep, meditation and spiritual science",
+      "claim_type": "CONTRAST",
+      "claim": "La terminología antroposófica sobre espíritu y estados de conciencia debe distinguirse de las categorías de psicología científica moderna.",
+      "motifs": [
+        "M14",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "28"
+    },
+    {
+      "global_claim_id": "G28-S229-K01",
+      "claim_id": "K01",
+      "source_id": "S229",
+      "corpus_id": "C212",
+      "location": "Ouspensky, Fragments of an Unknown Teaching; self-remembering, states of consciousness, mechanical behavior and Fourth Way",
+      "claim_type": "STATE",
+      "claim": "Ouspensky diferencia estados ordinarios de conciencia de estados superiores asociados con conocimiento de sí y objetividad.",
+      "motifs": [
+        "M07",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "28"
+    },
+    {
+      "global_claim_id": "G28-S229-K02",
+      "claim_id": "K02",
+      "source_id": "S229",
+      "corpus_id": "C212",
+      "location": "Ouspensky, Fragments of an Unknown Teaching; self-remembering, states of consciousness, mechanical behavior and Fourth Way",
+      "claim_type": "REFLEXIVITY",
+      "claim": "Self-remembering exige que la persona incluya su propia presencia en el campo de atención mientras actúa.",
+      "motifs": [
+        "M02",
+        "M06",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "28"
+    },
+    {
+      "global_claim_id": "G28-S229-K03",
+      "claim_id": "K03",
+      "source_id": "S229",
+      "corpus_id": "C212",
+      "location": "Ouspensky, Fragments of an Unknown Teaching; self-remembering, states of consciousness, mechanical behavior and Fourth Way",
+      "claim_type": "ATTENTION",
+      "claim": "La atención se presenta como una capacidad limitada que debe ser desarrollada deliberadamente.",
+      "motifs": [
+        "M01",
+        "M06",
+        "M24"
+      ],
+      "provenance": "P2*",
+      "batch": "28"
+    },
+    {
+      "global_claim_id": "G28-S229-K04",
+      "claim_id": "K04",
+      "source_id": "S229",
+      "corpus_id": "C212",
+      "location": "Ouspensky, Fragments of an Unknown Teaching; self-remembering, states of consciousness, mechanical behavior and Fourth Way",
+      "claim_type": "PRACTICE",
+      "claim": "Observación, recuerdo de sí y ejercicios de atención forman parte de un entrenamiento sistemático.",
+      "motifs": [
+        "M24",
+        "M25"
+      ],
+      "provenance": "P2*",
+      "batch": "28"
+    },
+    {
+      "global_claim_id": "G28-S229-K05",
+      "claim_id": "K05",
+      "source_id": "S229",
+      "corpus_id": "C212",
+      "location": "Ouspensky, Fragments of an Unknown Teaching; self-remembering, states of consciousness, mechanical behavior and Fourth Way",
+      "claim_type": "TRANSFORMATION",
+      "claim": "El paso desde conducta mecánica hacia mayor conciencia se describe como una transformación gradual.",
+      "motifs": [
+        "M12",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "28"
+    },
+    {
+      "global_claim_id": "G28-S229-K06",
+      "claim_id": "K06",
+      "source_id": "S229",
+      "corpus_id": "C212",
+      "location": "Ouspensky, Fragments of an Unknown Teaching; self-remembering, states of consciousness, mechanical behavior and Fourth Way",
+      "claim_type": "SELF_MODEL",
+      "claim": "La persona puede actuar mecánicamente sin observar sus propios estados, por lo que el yo ordinario no coincide con un self integrado.",
+      "motifs": [
+        "M02",
+        "M16"
+      ],
+      "provenance": "P2*",
+      "batch": "28"
+    },
+    {
+      "global_claim_id": "G28-S229-K07",
+      "claim_id": "K07",
+      "source_id": "S229",
+      "corpus_id": "C212",
+      "location": "Ouspensky, Fragments of an Unknown Teaching; self-remembering, states of consciousness, mechanical behavior and Fourth Way",
+      "claim_type": "VALENCE",
+      "claim": "Ser más consciente es presentado como preferible a reaccionar automáticamente a estímulos y hábitos.",
+      "motifs": [
+        "M10",
+        "M12"
+      ],
+      "provenance": "P2*",
+      "batch": "28"
+    },
+    {
+      "global_claim_id": "G28-S229-K08",
+      "claim_id": "K08",
+      "source_id": "S229",
+      "corpus_id": "C212",
+      "location": "Ouspensky, Fragments of an Unknown Teaching; self-remembering, states of consciousness, mechanical behavior and Fourth Way",
+      "claim_type": "TEMPORAL",
+      "claim": "El entrenamiento ocurre mediante repetición y acumulación de pequeños momentos de recuerdo de sí.",
+      "motifs": [
+        "M11",
+        "M25"
+      ],
+      "provenance": "P2*",
+      "batch": "28"
+    },
+    {
+      "global_claim_id": "G28-S229-K09",
+      "claim_id": "K09",
+      "source_id": "S229",
+      "corpus_id": "C212",
+      "location": "Ouspensky, Fragments of an Unknown Teaching; self-remembering, states of consciousness, mechanical behavior and Fourth Way",
+      "claim_type": "RELATION",
+      "claim": "La enseñanza utiliza grupo, maestro y observación mutua como condiciones de aprendizaje.",
+      "motifs": [
+        "M05",
+        "M24"
+      ],
+      "provenance": "P2*",
+      "batch": "28"
+    },
+    {
+      "global_claim_id": "G28-S229-K10",
+      "claim_id": "K10",
+      "source_id": "S229",
+      "corpus_id": "C212",
+      "location": "Ouspensky, Fragments of an Unknown Teaching; self-remembering, states of consciousness, mechanical behavior and Fourth Way",
+      "claim_type": "DYNAMICS",
+      "claim": "Pensamientos, emociones y hábitos compiten por la atención y pueden arrastrar la conducta hacia la automatización.",
+      "motifs": [
+        "M09",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "28"
+    },
+    {
+      "global_claim_id": "G28-S229-K11",
+      "claim_id": "K11",
+      "source_id": "S229",
+      "corpus_id": "C212",
+      "location": "Ouspensky, Fragments of an Unknown Teaching; self-remembering, states of consciousness, mechanical behavior and Fourth Way",
+      "claim_type": "UNITY",
+      "claim": "Self-remembering intenta reunir percepción del mundo y conciencia de uno mismo en un mismo acto.",
+      "motifs": [
+        "M03",
+        "M05"
+      ],
+      "provenance": "P2*",
+      "batch": "28"
+    },
+    {
+      "global_claim_id": "G28-S229-K12",
+      "claim_id": "K12",
+      "source_id": "S229",
+      "corpus_id": "C212",
+      "location": "Ouspensky, Fragments of an Unknown Teaching; self-remembering, states of consciousness, mechanical behavior and Fourth Way",
+      "claim_type": "DEATH",
+      "claim": "La clasificación de estados superiores se relaciona con la posibilidad de continuidad o desarrollo más allá de la condición humana ordinaria.",
+      "motifs": [
+        "M19",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "28"
+    },
+    {
+      "global_claim_id": "G28-S229-K13",
+      "claim_id": "K13",
+      "source_id": "S229",
+      "corpus_id": "C212",
+      "location": "Ouspensky, Fragments of an Unknown Teaching; self-remembering, states of consciousness, mechanical behavior and Fourth Way",
+      "claim_type": "META",
+      "claim": "Fragments of an Unknown Teaching es una reconstrucción literaria del Cuarto Camino atribuida a Ouspensky y no una medición experimental de estados de conciencia.",
+      "motifs": [
+        "M14",
+        "M17",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "28"
+    },
+    {
+      "global_claim_id": "G28-S230-K01",
+      "claim_id": "K01",
+      "source_id": "S230",
+      "corpus_id": "C213",
+      "location": "Gurdjieff, Beelzebub's Tales; self-observation, human automatism, conscious labor and cosmic responsibility",
+      "claim_type": "STATE",
+      "claim": "Gurdjieff representa la condición humana ordinaria como un estado altamente automático y poco consciente.",
+      "motifs": [
+        "M07",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "28"
+    },
+    {
+      "global_claim_id": "G28-S230-K02",
+      "claim_id": "K02",
+      "source_id": "S230",
+      "corpus_id": "C213",
+      "location": "Gurdjieff, Beelzebub's Tales; self-observation, human automatism, conscious labor and cosmic responsibility",
+      "claim_type": "REFLEXIVITY",
+      "claim": "La observación de las propias reacciones es necesaria para descubrir mecanismos automáticos del comportamiento.",
+      "motifs": [
+        "M02",
+        "M06",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "28"
+    },
+    {
+      "global_claim_id": "G28-S230-K03",
+      "claim_id": "K03",
+      "source_id": "S230",
+      "corpus_id": "C213",
+      "location": "Gurdjieff, Beelzebub's Tales; self-observation, human automatism, conscious labor and cosmic responsibility",
+      "claim_type": "PRACTICE",
+      "claim": "Trabajo consciente, observación y esfuerzo intencional funcionan como prácticas de desarrollo.",
+      "motifs": [
+        "M24",
+        "M25"
+      ],
+      "provenance": "P2*",
+      "batch": "28"
+    },
+    {
+      "global_claim_id": "G28-S230-K04",
+      "claim_id": "K04",
+      "source_id": "S230",
+      "corpus_id": "C213",
+      "location": "Gurdjieff, Beelzebub's Tales; self-observation, human automatism, conscious labor and cosmic responsibility",
+      "claim_type": "TRANSFORMATION",
+      "claim": "La educación del ser humano requiere producir cambios deliberados en atención, conducta y organización interior.",
+      "motifs": [
+        "M12",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "28"
+    },
+    {
+      "global_claim_id": "G28-S230-K05",
+      "claim_id": "K05",
+      "source_id": "S230",
+      "corpus_id": "C213",
+      "location": "Gurdjieff, Beelzebub's Tales; self-observation, human automatism, conscious labor and cosmic responsibility",
+      "claim_type": "VALENCE",
+      "claim": "Conciencia, responsabilidad y esfuerzo voluntario se contraponen a identificación, sueño y automatismo.",
+      "motifs": [
+        "M10",
+        "M12"
+      ],
+      "provenance": "P2*",
+      "batch": "28"
+    },
+    {
+      "global_claim_id": "G28-S230-K06",
+      "claim_id": "K06",
+      "source_id": "S230",
+      "corpus_id": "C213",
+      "location": "Gurdjieff, Beelzebub's Tales; self-observation, human automatism, conscious labor and cosmic responsibility",
+      "claim_type": "PERSON",
+      "claim": "La persona es descrita como un conjunto de tendencias y funciones que no siempre están coordinadas en un yo único.",
+      "motifs": [
+        "M02",
+        "M05",
+        "M16"
+      ],
+      "provenance": "P2*",
+      "batch": "28"
+    },
+    {
+      "global_claim_id": "G28-S230-K07",
+      "claim_id": "K07",
+      "source_id": "S230",
+      "corpus_id": "C213",
+      "location": "Gurdjieff, Beelzebub's Tales; self-observation, human automatism, conscious labor and cosmic responsibility",
+      "claim_type": "DYNAMICS",
+      "claim": "Hábitos, impulsos y estímulos externos actúan sobre la persona como fuerzas que compiten por orientar la conducta.",
+      "motifs": [
+        "M09",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "28"
+    },
+    {
+      "global_claim_id": "G28-S230-K08",
+      "claim_id": "K08",
+      "source_id": "S230",
+      "corpus_id": "C213",
+      "location": "Gurdjieff, Beelzebub's Tales; self-observation, human automatism, conscious labor and cosmic responsibility",
+      "claim_type": "ATTENTION",
+      "claim": "La capacidad de mantener atención voluntaria aparece como una condición de desarrollo.",
+      "motifs": [
+        "M06",
+        "M24"
+      ],
+      "provenance": "P2*",
+      "batch": "28"
+    },
+    {
+      "global_claim_id": "G28-S230-K09",
+      "claim_id": "K09",
+      "source_id": "S230",
+      "corpus_id": "C213",
+      "location": "Gurdjieff, Beelzebub's Tales; self-observation, human automatism, conscious labor and cosmic responsibility",
+      "claim_type": "TEMPORAL",
+      "claim": "La transformación se entiende como trabajo acumulativo sostenido, no como un episodio extraordinario aislado.",
+      "motifs": [
+        "M11",
+        "M25"
+      ],
+      "provenance": "P2*",
+      "batch": "28"
+    },
+    {
+      "global_claim_id": "G28-S230-K10",
+      "claim_id": "K10",
+      "source_id": "S230",
+      "corpus_id": "C213",
+      "location": "Gurdjieff, Beelzebub's Tales; self-observation, human automatism, conscious labor and cosmic responsibility",
+      "claim_type": "RELATION",
+      "claim": "La responsabilidad humana se extiende más allá del individuo hacia otros seres y el orden cósmico representado por la narrativa.",
+      "motifs": [
+        "M05",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "28"
+    },
+    {
+      "global_claim_id": "G28-S230-K11",
+      "claim_id": "K11",
+      "source_id": "S230",
+      "corpus_id": "C213",
+      "location": "Gurdjieff, Beelzebub's Tales; self-observation, human automatism, conscious labor and cosmic responsibility",
+      "claim_type": "WORLD_MODEL",
+      "claim": "El relato inserta la psicología humana dentro de una cosmología narrativa mucho más amplia.",
+      "motifs": [
+        "M15",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "28"
+    },
+    {
+      "global_claim_id": "G28-S230-K12",
+      "claim_id": "K12",
+      "source_id": "S230",
+      "corpus_id": "C213",
+      "location": "Gurdjieff, Beelzebub's Tales; self-observation, human automatism, conscious labor and cosmic responsibility",
+      "claim_type": "DEATH",
+      "claim": "Muerte, sacrificio y transformación aparecen integrados en el relato como problemas de continuidad y sentido.",
+      "motifs": [
+        "M19",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "28"
+    },
+    {
+      "global_claim_id": "G28-S230-K13",
+      "claim_id": "K13",
+      "source_id": "S230",
+      "corpus_id": "C213",
+      "location": "Gurdjieff, Beelzebub's Tales; self-observation, human automatism, conscious labor and cosmic responsibility",
+      "claim_type": "META",
+      "claim": "Beelzebub's Tales es una obra literaria esotérica compleja y satírica; sus afirmaciones cosmológicas deben mantenerse separadas de hechos empíricos.",
+      "motifs": [
+        "M14",
+        "M17",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "28"
+    },
+    {
+      "global_claim_id": "G28-S231-K01",
+      "claim_id": "K01",
+      "source_id": "S231",
+      "corpus_id": "C214",
+      "location": "Fourth Way tradition across Meetings with Remarkable Men, Views from the Real World and related textual traditions",
+      "claim_type": "PRACTICE",
+      "claim": "La tradición del Cuarto Camino combina trabajo sobre sí, observación, tareas y esfuerzo consciente.",
+      "motifs": [
+        "M24",
+        "M25"
+      ],
+      "provenance": "P2*",
+      "batch": "28"
+    },
+    {
+      "global_claim_id": "G28-S231-K02",
+      "claim_id": "K02",
+      "source_id": "S231",
+      "corpus_id": "C214",
+      "location": "Fourth Way tradition across Meetings with Remarkable Men, Views from the Real World and related textual traditions",
+      "claim_type": "ATTENTION",
+      "claim": "La atención dividida o doble atención se utiliza como ideal de presencia mientras se realiza una actividad.",
+      "motifs": [
+        "M01",
+        "M06",
+        "M24"
+      ],
+      "provenance": "P2*",
+      "batch": "28"
+    },
+    {
+      "global_claim_id": "G28-S231-K03",
+      "claim_id": "K03",
+      "source_id": "S231",
+      "corpus_id": "C214",
+      "location": "Fourth Way tradition across Meetings with Remarkable Men, Views from the Real World and related textual traditions",
+      "claim_type": "SELF_MODEL",
+      "claim": "El yo cotidiano es descrito como plural, compuesto por múltiples estados y tendencias que alternan el control.",
+      "motifs": [
+        "M02",
+        "M16"
+      ],
+      "provenance": "P2*",
+      "batch": "28"
+    },
+    {
+      "global_claim_id": "G28-S231-K04",
+      "claim_id": "K04",
+      "source_id": "S231",
+      "corpus_id": "C214",
+      "location": "Fourth Way tradition across Meetings with Remarkable Men, Views from the Real World and related textual traditions",
+      "claim_type": "STATE",
+      "claim": "Se distinguen sueño, vigilia ordinaria y estados de conciencia considerados superiores.",
+      "motifs": [
+        "M07",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "28"
+    },
+    {
+      "global_claim_id": "G28-S231-K05",
+      "claim_id": "K05",
+      "source_id": "S231",
+      "corpus_id": "C214",
+      "location": "Fourth Way tradition across Meetings with Remarkable Men, Views from the Real World and related textual traditions",
+      "claim_type": "REFLEXIVITY",
+      "claim": "Observar el propio comportamiento permite detectar contradicciones entre intención declarada y conducta efectiva.",
+      "motifs": [
+        "M02",
+        "M06",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "28"
+    },
+    {
+      "global_claim_id": "G28-S231-K06",
+      "claim_id": "K06",
+      "source_id": "S231",
+      "corpus_id": "C214",
+      "location": "Fourth Way tradition across Meetings with Remarkable Men, Views from the Real World and related textual traditions",
+      "claim_type": "TRANSFORMATION",
+      "claim": "El propósito del trabajo es convertir funciones automáticas en capacidades más conscientes y coordinadas.",
+      "motifs": [
+        "M12",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "28"
+    },
+    {
+      "global_claim_id": "G28-S231-K07",
+      "claim_id": "K07",
+      "source_id": "S231",
+      "corpus_id": "C214",
+      "location": "Fourth Way tradition across Meetings with Remarkable Men, Views from the Real World and related textual traditions",
+      "claim_type": "VALENCE",
+      "claim": "Esfuerzo consciente, responsabilidad y sinceridad son valorados frente a autoengaño y pasividad.",
+      "motifs": [
+        "M10",
+        "M12"
+      ],
+      "provenance": "P2*",
+      "batch": "28"
+    },
+    {
+      "global_claim_id": "G28-S231-K08",
+      "claim_id": "K08",
+      "source_id": "S231",
+      "corpus_id": "C214",
+      "location": "Fourth Way tradition across Meetings with Remarkable Men, Views from the Real World and related textual traditions",
+      "claim_type": "RELATION",
+      "claim": "Escuela, maestro y grupo proporcionan condiciones externas para una disciplina interior.",
+      "motifs": [
+        "M05",
+        "M24"
+      ],
+      "provenance": "P2*",
+      "batch": "28"
+    },
+    {
+      "global_claim_id": "G28-S231-K09",
+      "claim_id": "K09",
+      "source_id": "S231",
+      "corpus_id": "C214",
+      "location": "Fourth Way tradition across Meetings with Remarkable Men, Views from the Real World and related textual traditions",
+      "claim_type": "DYNAMICS",
+      "claim": "La atención puede ser capturada por asociaciones, emociones y hábitos, produciendo pérdida de presencia.",
+      "motifs": [
+        "M09",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "28"
+    },
+    {
+      "global_claim_id": "G28-S231-K10",
+      "claim_id": "K10",
+      "source_id": "S231",
+      "corpus_id": "C214",
+      "location": "Fourth Way tradition across Meetings with Remarkable Men, Views from the Real World and related textual traditions",
+      "claim_type": "UNITY",
+      "claim": "El trabajo busca integrar funciones dispersas de pensamiento, emoción y cuerpo bajo una dirección más consciente.",
+      "motifs": [
+        "M03",
+        "M08",
+        "M16"
+      ],
+      "provenance": "P2*",
+      "batch": "28"
+    },
+    {
+      "global_claim_id": "G28-S231-K11",
+      "claim_id": "K11",
+      "source_id": "S231",
+      "corpus_id": "C214",
+      "location": "Fourth Way tradition across Meetings with Remarkable Men, Views from the Real World and related textual traditions",
+      "claim_type": "TEMPORAL",
+      "claim": "El cambio requiere repetición, períodos de observación y continuidad del esfuerzo.",
+      "motifs": [
+        "M11",
+        "M25"
+      ],
+      "provenance": "P2*",
+      "batch": "28"
+    },
+    {
+      "global_claim_id": "G28-S231-K12",
+      "claim_id": "K12",
+      "source_id": "S231",
+      "corpus_id": "C214",
+      "location": "Fourth Way tradition across Meetings with Remarkable Men, Views from the Real World and related textual traditions",
+      "claim_type": "META",
+      "claim": "La tradición textual de Gurdjieff reúne materiales de procedencia y edición diversa; debe analizarse como corpus histórico, no como protocolo experimental único.",
+      "motifs": [
+        "M14",
+        "M17",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "28"
+    },
+    {
+      "global_claim_id": "G28-S231-K13",
+      "claim_id": "K13",
+      "source_id": "S231",
+      "corpus_id": "C214",
+      "location": "Fourth Way tradition across Meetings with Remarkable Men, Views from the Real World and related textual traditions",
+      "claim_type": "DEATH",
+      "claim": "La idea de desarrollo intencional se contrapone a una existencia vivida enteramente por inercia y sin construcción deliberada de sí.",
+      "motifs": [
+        "M19",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "28"
+    },
+    {
+      "global_claim_id": "G28-S232-K01",
+      "claim_id": "K01",
+      "source_id": "S232",
+      "corpus_id": "C215",
+      "location": "Nisargadatta Maharaj, I Am That; awareness, witness, identity, mind and realization",
+      "claim_type": "AWARENESS",
+      "claim": "El texto distingue conciencia/awareness de los contenidos variables de mente, cuerpo y experiencia.",
+      "motifs": [
+        "M01",
+        "M02"
+      ],
+      "provenance": "P2*",
+      "batch": "28"
+    },
+    {
+      "global_claim_id": "G28-S232-K02",
+      "claim_id": "K02",
+      "source_id": "S232",
+      "corpus_id": "C215",
+      "location": "Nisargadatta Maharaj, I Am That; awareness, witness, identity, mind and realization",
+      "claim_type": "REFLEXIVITY",
+      "claim": "La investigación comienza observando aquello que cambia y buscando qué permanece como condición de conocer.",
+      "motifs": [
+        "M02",
+        "M06",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "28"
+    },
+    {
+      "global_claim_id": "G28-S232-K03",
+      "claim_id": "K03",
+      "source_id": "S232",
+      "corpus_id": "C215",
+      "location": "Nisargadatta Maharaj, I Am That; awareness, witness, identity, mind and realization",
+      "claim_type": "SELF_MODEL",
+      "claim": "Nisargadatta cuestiona la identificación del yo con cuerpo, memoria, personalidad y pensamientos.",
+      "motifs": [
+        "M02",
+        "M08",
+        "M16"
+      ],
+      "provenance": "P2*",
+      "batch": "28"
+    },
+    {
+      "global_claim_id": "G28-S232-K04",
+      "claim_id": "K04",
+      "source_id": "S232",
+      "corpus_id": "C215",
+      "location": "Nisargadatta Maharaj, I Am That; awareness, witness, identity, mind and realization",
+      "claim_type": "STATE",
+      "claim": "Vigilia, sueño y conciencia son discutidos como condiciones relacionadas pero no idénticas.",
+      "motifs": [
+        "M07",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "28"
+    },
+    {
+      "global_claim_id": "G28-S232-K05",
+      "claim_id": "K05",
+      "source_id": "S232",
+      "corpus_id": "C215",
+      "location": "Nisargadatta Maharaj, I Am That; awareness, witness, identity, mind and realization",
+      "claim_type": "PRACTICE",
+      "claim": "La atención al sentido de 'I am' funciona como práctica de autoindagación y estabilización de la conciencia.",
+      "motifs": [
+        "M06",
+        "M24"
+      ],
+      "provenance": "P2*",
+      "batch": "28"
+    },
+    {
+      "global_claim_id": "G28-S232-K06",
+      "claim_id": "K06",
+      "source_id": "S232",
+      "corpus_id": "C215",
+      "location": "Nisargadatta Maharaj, I Am That; awareness, witness, identity, mind and realization",
+      "claim_type": "TRANSFORMATION",
+      "claim": "La realización implica un cambio en la identidad del sujeto, desde la identificación personal hacia conciencia no limitada.",
+      "motifs": [
+        "M12",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "28"
+    },
+    {
+      "global_claim_id": "G28-S232-K07",
+      "claim_id": "K07",
+      "source_id": "S232",
+      "corpus_id": "C215",
+      "location": "Nisargadatta Maharaj, I Am That; awareness, witness, identity, mind and realization",
+      "claim_type": "UNITY",
+      "claim": "La distinción entre testigo y objetos apunta hacia una conciencia que no queda confinada a una persona conceptual.",
+      "motifs": [
+        "M03",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "28"
+    },
+    {
+      "global_claim_id": "G28-S232-K08",
+      "claim_id": "K08",
+      "source_id": "S232",
+      "corpus_id": "C215",
+      "location": "Nisargadatta Maharaj, I Am That; awareness, witness, identity, mind and realization",
+      "claim_type": "VALENCE",
+      "claim": "Libertad del apego, claridad y ausencia de identificación son tratadas como condiciones de realización.",
+      "motifs": [
+        "M10",
+        "M12"
+      ],
+      "provenance": "P2*",
+      "batch": "28"
+    },
+    {
+      "global_claim_id": "G28-S232-K09",
+      "claim_id": "K09",
+      "source_id": "S232",
+      "corpus_id": "C215",
+      "location": "Nisargadatta Maharaj, I Am That; awareness, witness, identity, mind and realization",
+      "claim_type": "TEMPORAL",
+      "claim": "Los contenidos del yo cambian continuamente mientras la indagación busca una condición no dependiente de esa variación.",
+      "motifs": [
+        "M11",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "28"
+    },
+    {
+      "global_claim_id": "G28-S232-K10",
+      "claim_id": "K10",
+      "source_id": "S232",
+      "corpus_id": "C215",
+      "location": "Nisargadatta Maharaj, I Am That; awareness, witness, identity, mind and realization",
+      "claim_type": "RELATION",
+      "claim": "El mundo y el cuerpo son tratados como contenidos conocidos dentro de una relación sujeto-experiencia que debe investigarse.",
+      "motifs": [
+        "M05",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "28"
+    },
+    {
+      "global_claim_id": "G28-S232-K11",
+      "claim_id": "K11",
+      "source_id": "S232",
+      "corpus_id": "C215",
+      "location": "Nisargadatta Maharaj, I Am That; awareness, witness, identity, mind and realization",
+      "claim_type": "INEFFABILITY",
+      "claim": "La realidad última se presenta como difícil de objetivar mediante conceptos o representaciones.",
+      "motifs": [
+        "M14",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "28"
+    },
+    {
+      "global_claim_id": "G28-S232-K12",
+      "claim_id": "K12",
+      "source_id": "S232",
+      "corpus_id": "C215",
+      "location": "Nisargadatta Maharaj, I Am That; awareness, witness, identity, mind and realization",
+      "claim_type": "DEATH",
+      "claim": "La identidad no limitada al cuerpo reinterpreta la muerte como un cambio en la organización de los fenómenos más que como destrucción del principio consciente.",
+      "motifs": [
+        "M19",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "28"
+    },
+    {
+      "global_claim_id": "G28-S232-K13",
+      "claim_id": "K13",
+      "source_id": "S232",
+      "corpus_id": "C215",
+      "location": "Nisargadatta Maharaj, I Am That; awareness, witness, identity, mind and realization",
+      "claim_type": "META",
+      "claim": "I Am That es un registro moderno de conversaciones atribuidas a Nisargadatta y debe distinguirse de una demostración experimental sobre la naturaleza de la conciencia.",
+      "motifs": [
+        "M14",
+        "M17",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "28"
+    },
+    {
+      "global_claim_id": "G28-S233-K01",
+      "claim_id": "K01",
+      "source_id": "S233",
+      "corpus_id": "C216",
+      "location": "Ramana Maharshi, Talks; Self-enquiry, I-thought, attention and realization",
+      "claim_type": "SELF_MODEL",
+      "claim": "Ramana distingue el 'I-thought' o sentido de yo de la realidad del Self que busca señalar mediante la autoindagación.",
+      "motifs": [
+        "M02",
+        "M16"
+      ],
+      "provenance": "P2*",
+      "batch": "28"
+    },
+    {
+      "global_claim_id": "G28-S233-K02",
+      "claim_id": "K02",
+      "source_id": "S233",
+      "corpus_id": "C216",
+      "location": "Ramana Maharshi, Talks; Self-enquiry, I-thought, attention and realization",
+      "claim_type": "PRACTICE",
+      "claim": "Self-enquiry dirige la atención hacia el origen o fuente del sentido de yo en lugar de seguir cada pensamiento.",
+      "motifs": [
+        "M06",
+        "M24"
+      ],
+      "provenance": "P2*",
+      "batch": "28"
+    },
+    {
+      "global_claim_id": "G28-S233-K03",
+      "claim_id": "K03",
+      "source_id": "S233",
+      "corpus_id": "C216",
+      "location": "Ramana Maharshi, Talks; Self-enquiry, I-thought, attention and realization",
+      "claim_type": "REFLEXIVITY",
+      "claim": "La investigación del yo convierte al propio conocedor en el objeto central de examen.",
+      "motifs": [
+        "M02",
+        "M06",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "28"
+    },
+    {
+      "global_claim_id": "G28-S233-K04",
+      "claim_id": "K04",
+      "source_id": "S233",
+      "corpus_id": "C216",
+      "location": "Ramana Maharshi, Talks; Self-enquiry, I-thought, attention and realization",
+      "claim_type": "STATE",
+      "claim": "Pensamiento ordinario, absorción y realización son tratados como condiciones diferentes de la experiencia.",
+      "motifs": [
+        "M07",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "28"
+    },
+    {
+      "global_claim_id": "G28-S233-K05",
+      "claim_id": "K05",
+      "source_id": "S233",
+      "corpus_id": "C216",
+      "location": "Ramana Maharshi, Talks; Self-enquiry, I-thought, attention and realization",
+      "claim_type": "ATTENTION",
+      "claim": "La atención debe volver repetidamente al sentido de 'I' cuando aparecen pensamientos distractores.",
+      "motifs": [
+        "M01",
+        "M06",
+        "M24"
+      ],
+      "provenance": "P2*",
+      "batch": "28"
+    },
+    {
+      "global_claim_id": "G28-S233-K06",
+      "claim_id": "K06",
+      "source_id": "S233",
+      "corpus_id": "C216",
+      "location": "Ramana Maharshi, Talks; Self-enquiry, I-thought, attention and realization",
+      "claim_type": "TRANSFORMATION",
+      "claim": "La disminución de identificación con el yo-pensamiento se presenta como transformación fundamental de la experiencia.",
+      "motifs": [
+        "M12",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "28"
+    },
+    {
+      "global_claim_id": "G28-S233-K07",
+      "claim_id": "K07",
+      "source_id": "S233",
+      "corpus_id": "C216",
+      "location": "Ramana Maharshi, Talks; Self-enquiry, I-thought, attention and realization",
+      "claim_type": "UNITY",
+      "claim": "La realización es descrita en términos de Self no dividido más allá de la distinción sujeto-objeto ordinaria.",
+      "motifs": [
+        "M03",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "28"
+    },
+    {
+      "global_claim_id": "G28-S233-K08",
+      "claim_id": "K08",
+      "source_id": "S233",
+      "corpus_id": "C216",
+      "location": "Ramana Maharshi, Talks; Self-enquiry, I-thought, attention and realization",
+      "claim_type": "EMBODIMENT",
+      "claim": "El cuerpo es considerado un objeto de conciencia y no necesariamente la totalidad del sujeto que conoce.",
+      "motifs": [
+        "M08",
+        "M16"
+      ],
+      "provenance": "P2*",
+      "batch": "28"
+    },
+    {
+      "global_claim_id": "G28-S233-K09",
+      "claim_id": "K09",
+      "source_id": "S233",
+      "corpus_id": "C216",
+      "location": "Ramana Maharshi, Talks; Self-enquiry, I-thought, attention and realization",
+      "claim_type": "VALENCE",
+      "claim": "Silencio, quietud y conocimiento de sí se valoran por encima de la proliferación discursiva de pensamientos.",
+      "motifs": [
+        "M10",
+        "M12"
+      ],
+      "provenance": "P2*",
+      "batch": "28"
+    },
+    {
+      "global_claim_id": "G28-S233-K10",
+      "claim_id": "K10",
+      "source_id": "S233",
+      "corpus_id": "C216",
+      "location": "Ramana Maharshi, Talks; Self-enquiry, I-thought, attention and realization",
+      "claim_type": "RELATION",
+      "claim": "La enseñanza se adapta a las preguntas del interlocutor, por lo que el camino aparece como relación pedagógica viva.",
+      "motifs": [
+        "M05",
+        "M24"
+      ],
+      "provenance": "P2*",
+      "batch": "28"
+    },
+    {
+      "global_claim_id": "G28-S233-K11",
+      "claim_id": "K11",
+      "source_id": "S233",
+      "corpus_id": "C216",
+      "location": "Ramana Maharshi, Talks; Self-enquiry, I-thought, attention and realization",
+      "claim_type": "TEMPORAL",
+      "claim": "La práctica requiere persistencia hasta que la atención deja de seguir automáticamente cada pensamiento.",
+      "motifs": [
+        "M11",
+        "M25"
+      ],
+      "provenance": "P2*",
+      "batch": "28"
+    },
+    {
+      "global_claim_id": "G28-S233-K12",
+      "claim_id": "K12",
+      "source_id": "S233",
+      "corpus_id": "C216",
+      "location": "Ramana Maharshi, Talks; Self-enquiry, I-thought, attention and realization",
+      "claim_type": "INEFFABILITY",
+      "claim": "La realización final no es tratada como una nueva representación conceptual que el pensamiento pueda poseer.",
+      "motifs": [
+        "M14",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "28"
+    },
+    {
+      "global_claim_id": "G28-S233-K13",
+      "claim_id": "K13",
+      "source_id": "S233",
+      "corpus_id": "C216",
+      "location": "Ramana Maharshi, Talks; Self-enquiry, I-thought, attention and realization",
+      "claim_type": "META",
+      "claim": "Talks es una recopilación de conversaciones históricas editadas; las atribuciones deben conservar su carácter dialógico y no convertirse en una teoría científica.",
+      "motifs": [
+        "M14",
+        "M17",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "28"
+    },
+    {
+      "global_claim_id": "G28-S234-K01",
+      "claim_id": "K01",
+      "source_id": "S234",
+      "corpus_id": "C218",
+      "location": "Ramakrishna recorded teachings; samadhi, bhakti, multiple paths, direct experience and religious unity",
+      "claim_type": "STATE",
+      "claim": "El corpus describe samadhi y otras experiencias religiosas como estados diferenciados de conciencia y absorción.",
+      "motifs": [
+        "M07",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "28"
+    },
+    {
+      "global_claim_id": "G28-S234-K02",
+      "claim_id": "K02",
+      "source_id": "S234",
+      "corpus_id": "C218",
+      "location": "Ramakrishna recorded teachings; samadhi, bhakti, multiple paths, direct experience and religious unity",
+      "claim_type": "PRACTICE",
+      "claim": "Devoción, meditación, oración, canto y otras prácticas aparecen como vías de transformación espiritual.",
+      "motifs": [
+        "M24",
+        "M25"
+      ],
+      "provenance": "P2*",
+      "batch": "28"
+    },
+    {
+      "global_claim_id": "G28-S234-K03",
+      "claim_id": "K03",
+      "source_id": "S234",
+      "corpus_id": "C218",
+      "location": "Ramakrishna recorded teachings; samadhi, bhakti, multiple paths, direct experience and religious unity",
+      "claim_type": "UNITY",
+      "claim": "Ramakrishna sostiene que distintas prácticas y tradiciones pueden conducir hacia una realidad última común.",
+      "motifs": [
+        "M03",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "28"
+    },
+    {
+      "global_claim_id": "G28-S234-K04",
+      "claim_id": "K04",
+      "source_id": "S234",
+      "corpus_id": "C218",
+      "location": "Ramakrishna recorded teachings; samadhi, bhakti, multiple paths, direct experience and religious unity",
+      "claim_type": "RELATION",
+      "claim": "La experiencia religiosa se expresa a través de relaciones con formas divinas y con una comunidad de discípulos.",
+      "motifs": [
+        "M05",
+        "M16"
+      ],
+      "provenance": "P2*",
+      "batch": "28"
+    },
+    {
+      "global_claim_id": "G28-S234-K05",
+      "claim_id": "K05",
+      "source_id": "S234",
+      "corpus_id": "C218",
+      "location": "Ramakrishna recorded teachings; samadhi, bhakti, multiple paths, direct experience and religious unity",
+      "claim_type": "TRANSFORMATION",
+      "claim": "La práctica cambia progresivamente la orientación emocional, cognitiva y volitiva del practicante.",
+      "motifs": [
+        "M12",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "28"
+    },
+    {
+      "global_claim_id": "G28-S234-K06",
+      "claim_id": "K06",
+      "source_id": "S234",
+      "corpus_id": "C218",
+      "location": "Ramakrishna recorded teachings; samadhi, bhakti, multiple paths, direct experience and religious unity",
+      "claim_type": "INTERIORITY",
+      "claim": "El corazón y la experiencia directa ocupan un lugar central en la validación religiosa narrada.",
+      "motifs": [
+        "M02",
+        "M06"
+      ],
+      "provenance": "P2*",
+      "batch": "28"
+    },
+    {
+      "global_claim_id": "G28-S234-K07",
+      "claim_id": "K07",
+      "source_id": "S234",
+      "corpus_id": "C218",
+      "location": "Ramakrishna recorded teachings; samadhi, bhakti, multiple paths, direct experience and religious unity",
+      "claim_type": "VALENCE",
+      "claim": "Amor, devoción, compasión y entrega se presentan como fuerzas organizadoras del camino.",
+      "motifs": [
+        "M10",
+        "M12"
+      ],
+      "provenance": "P2*",
+      "batch": "28"
+    },
+    {
+      "global_claim_id": "G28-S234-K08",
+      "claim_id": "K08",
+      "source_id": "S234",
+      "corpus_id": "C218",
+      "location": "Ramakrishna recorded teachings; samadhi, bhakti, multiple paths, direct experience and religious unity",
+      "claim_type": "ATTENTION",
+      "claim": "Concentración y absorción son descritas como condiciones que permiten profundizar en la experiencia espiritual.",
+      "motifs": [
+        "M06",
+        "M24"
+      ],
+      "provenance": "P2*",
+      "batch": "28"
+    },
+    {
+      "global_claim_id": "G28-S234-K09",
+      "claim_id": "K09",
+      "source_id": "S234",
+      "corpus_id": "C218",
+      "location": "Ramakrishna recorded teachings; samadhi, bhakti, multiple paths, direct experience and religious unity",
+      "claim_type": "PERSON",
+      "claim": "La personalidad individual permanece como vehículo de práctica aun cuando ciertos estados se describen como trascendentes al ego.",
+      "motifs": [
+        "M05",
+        "M16"
+      ],
+      "provenance": "P2*",
+      "batch": "28"
+    },
+    {
+      "global_claim_id": "G28-S234-K10",
+      "claim_id": "K10",
+      "source_id": "S234",
+      "corpus_id": "C218",
+      "location": "Ramakrishna recorded teachings; samadhi, bhakti, multiple paths, direct experience and religious unity",
+      "claim_type": "INEFFABILITY",
+      "claim": "Samadhi y experiencias intensas se describen con metáforas porque exceden el lenguaje cotidiano.",
+      "motifs": [
+        "M14",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "28"
+    },
+    {
+      "global_claim_id": "G28-S234-K11",
+      "claim_id": "K11",
+      "source_id": "S234",
+      "corpus_id": "C218",
+      "location": "Ramakrishna recorded teachings; samadhi, bhakti, multiple paths, direct experience and religious unity",
+      "claim_type": "TEMPORAL",
+      "claim": "La vida del practicante se representa como trayectoria de experiencias, crisis, prácticas y realizaciones.",
+      "motifs": [
+        "M11",
+        "M12"
+      ],
+      "provenance": "P2*",
+      "batch": "28"
+    },
+    {
+      "global_claim_id": "G28-S234-K12",
+      "claim_id": "K12",
+      "source_id": "S234",
+      "corpus_id": "C218",
+      "location": "Ramakrishna recorded teachings; samadhi, bhakti, multiple paths, direct experience and religious unity",
+      "claim_type": "DEATH",
+      "claim": "La relación entre liberación, muerte y continuidad espiritual aparece dentro de distintas enseñanzas narradas.",
+      "motifs": [
+        "M19",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "28"
+    },
+    {
+      "global_claim_id": "G28-S234-K13",
+      "claim_id": "K13",
+      "source_id": "S234",
+      "corpus_id": "C218",
+      "location": "Ramakrishna recorded teachings; samadhi, bhakti, multiple paths, direct experience and religious unity",
+      "claim_type": "META",
+      "claim": "El Gospel of Sri Ramakrishna es un registro devocional y biográfico de enseñanzas atribuidas a Ramakrishna, no una medición independiente de estados de conciencia.",
+      "motifs": [
+        "M14",
+        "M17",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "28"
+    },
+    {
+      "global_claim_id": "G28-S235-K01",
+      "claim_id": "K01",
+      "source_id": "S235",
+      "corpus_id": "C220",
+      "location": "Sri Aurobindo, Letters on Yoga; inner consciousness, psychic being, transformation and supramentalization",
+      "claim_type": "TRANSFORMATION",
+      "claim": "Aurobindo define transformación como un cambio radical de conciencia y naturaleza, no simplemente una mejora moral.",
+      "motifs": [
+        "M12",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "28"
+    },
+    {
+      "global_claim_id": "G28-S235-K02",
+      "claim_id": "K02",
+      "source_id": "S235",
+      "corpus_id": "C220",
+      "location": "Sri Aurobindo, Letters on Yoga; inner consciousness, psychic being, transformation and supramentalization",
+      "claim_type": "INTERIORITY",
+      "claim": "El objetivo incluye vivir cada vez más desde una conciencia interior en lugar de quedar gobernado sólo por la conciencia exterior ordinaria.",
+      "motifs": [
+        "M01",
+        "M02"
+      ],
+      "provenance": "P2*",
+      "batch": "28"
+    },
+    {
+      "global_claim_id": "G28-S235-K03",
+      "claim_id": "K03",
+      "source_id": "S235",
+      "corpus_id": "C220",
+      "location": "Sri Aurobindo, Letters on Yoga; inner consciousness, psychic being, transformation and supramentalization",
+      "claim_type": "SELF_MODEL",
+      "claim": "El 'psychic being' se presenta como un centro interior cuya emergencia puede reorganizar mente, vida y cuerpo.",
+      "motifs": [
+        "M02",
+        "M08",
+        "M16"
+      ],
+      "provenance": "P2*",
+      "batch": "28"
+    },
+    {
+      "global_claim_id": "G28-S235-K04",
+      "claim_id": "K04",
+      "source_id": "S235",
+      "corpus_id": "C220",
+      "location": "Sri Aurobindo, Letters on Yoga; inner consciousness, psychic being, transformation and supramentalization",
+      "claim_type": "UNITY",
+      "claim": "Integral Yoga busca una unión de las partes del ser con la conciencia divina, no una separación de la vida ordinaria.",
+      "motifs": [
+        "M03",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "28"
+    },
+    {
+      "global_claim_id": "G28-S235-K05",
+      "claim_id": "K05",
+      "source_id": "S235",
+      "corpus_id": "C220",
+      "location": "Sri Aurobindo, Letters on Yoga; inner consciousness, psychic being, transformation and supramentalization",
+      "claim_type": "PRACTICE",
+      "claim": "Sadhana incluye trabajo, meditación, devoción, entrega, rechazo de patrones inferiores y apertura a una conciencia superior.",
+      "motifs": [
+        "M24",
+        "M25"
+      ],
+      "provenance": "P2*",
+      "batch": "28"
+    },
+    {
+      "global_claim_id": "G28-S235-K06",
+      "claim_id": "K06",
+      "source_id": "S235",
+      "corpus_id": "C220",
+      "location": "Sri Aurobindo, Letters on Yoga; inner consciousness, psychic being, transformation and supramentalization",
+      "claim_type": "STATE",
+      "claim": "Aurobindo diferencia conciencia ordinaria, conciencia interior, conciencia cósmica y niveles superiores como Overmind/Supermind.",
+      "motifs": [
+        "M07",
+        "M15",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "28"
+    },
+    {
+      "global_claim_id": "G28-S235-K07",
+      "claim_id": "K07",
+      "source_id": "S235",
+      "corpus_id": "C220",
+      "location": "Sri Aurobindo, Letters on Yoga; inner consciousness, psychic being, transformation and supramentalization",
+      "claim_type": "ATTENTION",
+      "claim": "La práctica requiere observar pensamientos, deseos y movimientos de la naturaleza para distinguirlos de la conciencia interior.",
+      "motifs": [
+        "M06",
+        "M24"
+      ],
+      "provenance": "P2*",
+      "batch": "28"
+    },
+    {
+      "global_claim_id": "G28-S235-K08",
+      "claim_id": "K08",
+      "source_id": "S235",
+      "corpus_id": "C220",
+      "location": "Sri Aurobindo, Letters on Yoga; inner consciousness, psychic being, transformation and supramentalization",
+      "claim_type": "TEMPORAL",
+      "claim": "La transformación integral se concibe como un proceso prolongado de desarrollo, no como una experiencia única.",
+      "motifs": [
+        "M11",
+        "M12"
+      ],
+      "provenance": "P2*",
+      "batch": "28"
+    },
+    {
+      "global_claim_id": "G28-S235-K09",
+      "claim_id": "K09",
+      "source_id": "S235",
+      "corpus_id": "C220",
+      "location": "Sri Aurobindo, Letters on Yoga; inner consciousness, psychic being, transformation and supramentalization",
+      "claim_type": "RELATION",
+      "claim": "La realización individual se conecta con la transformación de la vida terrestre y la conciencia colectiva.",
+      "motifs": [
+        "M05",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "28"
+    },
+    {
+      "global_claim_id": "G28-S235-K10",
+      "claim_id": "K10",
+      "source_id": "S235",
+      "corpus_id": "C220",
+      "location": "Sri Aurobindo, Letters on Yoga; inner consciousness, psychic being, transformation and supramentalization",
+      "claim_type": "VALENCE",
+      "claim": "El objetivo no es el poder egoico sino la unión con conocimiento, voluntad y amor divinos.",
+      "motifs": [
+        "M10",
+        "M12"
+      ],
+      "provenance": "P2*",
+      "batch": "28"
+    },
+    {
+      "global_claim_id": "G28-S235-K11",
+      "claim_id": "K11",
+      "source_id": "S235",
+      "corpus_id": "C220",
+      "location": "Sri Aurobindo, Letters on Yoga; inner consciousness, psychic being, transformation and supramentalization",
+      "claim_type": "EMBODIMENT",
+      "claim": "La transformación incluye mente, vida y cuerpo, por lo que la encarnación es parte explícita del objetivo.",
+      "motifs": [
+        "M08",
+        "M16"
+      ],
+      "provenance": "P2*",
+      "batch": "28"
+    },
+    {
+      "global_claim_id": "G28-S235-K12",
+      "claim_id": "K12",
+      "source_id": "S235",
+      "corpus_id": "C220",
+      "location": "Sri Aurobindo, Letters on Yoga; inner consciousness, psychic being, transformation and supramentalization",
+      "claim_type": "CAUSAL",
+      "claim": "Aurobindo distingue realización espiritual de transformación radical: una apertura o experiencia puede no cambiar por sí sola toda la naturaleza.",
+      "motifs": [
+        "M09",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "28"
+    },
+    {
+      "global_claim_id": "G28-S235-K13",
+      "claim_id": "K13",
+      "source_id": "S235",
+      "corpus_id": "C220",
+      "location": "Sri Aurobindo, Letters on Yoga; inner consciousness, psychic being, transformation and supramentalization",
+      "claim_type": "META",
+      "claim": "Letters on Yoga es una colección editorial de cartas de distintas fechas; sus términos técnicos deben interpretarse dentro del sistema de Yoga Integral de Aurobindo.",
+      "motifs": [
+        "M14",
+        "M17",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "28"
+    },
+    {
+      "global_claim_id": "G28-S236-K01",
+      "claim_id": "K01",
+      "source_id": "S236",
+      "corpus_id": "C221",
+      "location": "Sri Aurobindo, The Synthesis of Yoga; jnana, bhakti, karma, psychic transformation and integral method",
+      "claim_type": "UNITY",
+      "claim": "La síntesis pretende integrar métodos de conocimiento, devoción y acción en un único desarrollo espiritual.",
+      "motifs": [
+        "M03",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "28"
+    },
+    {
+      "global_claim_id": "G28-S236-K02",
+      "claim_id": "K02",
+      "source_id": "S236",
+      "corpus_id": "C221",
+      "location": "Sri Aurobindo, The Synthesis of Yoga; jnana, bhakti, karma, psychic transformation and integral method",
+      "claim_type": "PRACTICE",
+      "claim": "Jnana, bhakti y karma son tratados como vías complementarias dentro de una práctica integral.",
+      "motifs": [
+        "M24",
+        "M25"
+      ],
+      "provenance": "P2*",
+      "batch": "28"
+    },
+    {
+      "global_claim_id": "G28-S236-K03",
+      "claim_id": "K03",
+      "source_id": "S236",
+      "corpus_id": "C221",
+      "location": "Sri Aurobindo, The Synthesis of Yoga; jnana, bhakti, karma, psychic transformation and integral method",
+      "claim_type": "TRANSFORMATION",
+      "claim": "El yoga integral busca transformar el ser y no limitarse a una liberación individual fuera de la vida.",
+      "motifs": [
+        "M12",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "28"
+    },
+    {
+      "global_claim_id": "G28-S236-K04",
+      "claim_id": "K04",
+      "source_id": "S236",
+      "corpus_id": "C221",
+      "location": "Sri Aurobindo, The Synthesis of Yoga; jnana, bhakti, karma, psychic transformation and integral method",
+      "claim_type": "SELF_MODEL",
+      "claim": "El ser humano contiene dimensiones mentales, vitales, físicas y espirituales que deben integrarse.",
+      "motifs": [
+        "M02",
+        "M08",
+        "M16"
+      ],
+      "provenance": "P2*",
+      "batch": "28"
+    },
+    {
+      "global_claim_id": "G28-S236-K05",
+      "claim_id": "K05",
+      "source_id": "S236",
+      "corpus_id": "C221",
+      "location": "Sri Aurobindo, The Synthesis of Yoga; jnana, bhakti, karma, psychic transformation and integral method",
+      "claim_type": "STATE",
+      "claim": "La conciencia puede pasar de una organización mental ordinaria a formas más amplias y profundas de experiencia.",
+      "motifs": [
+        "M07",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "28"
+    },
+    {
+      "global_claim_id": "G28-S236-K06",
+      "claim_id": "K06",
+      "source_id": "S236",
+      "corpus_id": "C221",
+      "location": "Sri Aurobindo, The Synthesis of Yoga; jnana, bhakti, karma, psychic transformation and integral method",
+      "claim_type": "INTERIORITY",
+      "claim": "La apertura a la conciencia interior permite reorganizar la relación entre personalidad exterior y principio espiritual.",
+      "motifs": [
+        "M01",
+        "M02"
+      ],
+      "provenance": "P2*",
+      "batch": "28"
+    },
+    {
+      "global_claim_id": "G28-S236-K07",
+      "claim_id": "K07",
+      "source_id": "S236",
+      "corpus_id": "C221",
+      "location": "Sri Aurobindo, The Synthesis of Yoga; jnana, bhakti, karma, psychic transformation and integral method",
+      "claim_type": "RELATION",
+      "claim": "La acción en el mundo se convierte en parte de la práctica en lugar de ser considerada necesariamente incompatible con realización.",
+      "motifs": [
+        "M05",
+        "M16"
+      ],
+      "provenance": "P2*",
+      "batch": "28"
+    },
+    {
+      "global_claim_id": "G28-S236-K08",
+      "claim_id": "K08",
+      "source_id": "S236",
+      "corpus_id": "C221",
+      "location": "Sri Aurobindo, The Synthesis of Yoga; jnana, bhakti, karma, psychic transformation and integral method",
+      "claim_type": "ATTENTION",
+      "claim": "Concentración, aspiración y vigilancia de movimientos internos participan del método.",
+      "motifs": [
+        "M06",
+        "M24"
+      ],
+      "provenance": "P2*",
+      "batch": "28"
+    },
+    {
+      "global_claim_id": "G28-S236-K09",
+      "claim_id": "K09",
+      "source_id": "S236",
+      "corpus_id": "C221",
+      "location": "Sri Aurobindo, The Synthesis of Yoga; jnana, bhakti, karma, psychic transformation and integral method",
+      "claim_type": "VALENCE",
+      "claim": "Conocimiento, amor, entrega y servicio funcionan como orientaciones complementarias del camino.",
+      "motifs": [
+        "M10",
+        "M12"
+      ],
+      "provenance": "P2*",
+      "batch": "28"
+    },
+    {
+      "global_claim_id": "G28-S236-K10",
+      "claim_id": "K10",
+      "source_id": "S236",
+      "corpus_id": "C221",
+      "location": "Sri Aurobindo, The Synthesis of Yoga; jnana, bhakti, karma, psychic transformation and integral method",
+      "claim_type": "TEMPORAL",
+      "claim": "La integración se construye mediante etapas sucesivas de purificación, apertura y transformación.",
+      "motifs": [
+        "M11",
+        "M12"
+      ],
+      "provenance": "P2*",
+      "batch": "28"
+    },
+    {
+      "global_claim_id": "G28-S236-K11",
+      "claim_id": "K11",
+      "source_id": "S236",
+      "corpus_id": "C221",
+      "location": "Sri Aurobindo, The Synthesis of Yoga; jnana, bhakti, karma, psychic transformation and integral method",
+      "claim_type": "WORLD_MODEL",
+      "claim": "El mundo se presenta como ámbito de evolución espiritual y no sólo como escenario del que el sujeto debe escapar.",
+      "motifs": [
+        "M15",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "28"
+    },
+    {
+      "global_claim_id": "G28-S236-K12",
+      "claim_id": "K12",
+      "source_id": "S236",
+      "corpus_id": "C221",
+      "location": "Sri Aurobindo, The Synthesis of Yoga; jnana, bhakti, karma, psychic transformation and integral method",
+      "claim_type": "META",
+      "claim": "The Synthesis of Yoga es una construcción filosófico-espiritual de Aurobindo que integra tradiciones de yoga; no debe presentarse como teoría científica de evolución consciente.",
+      "motifs": [
+        "M14",
+        "M17",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "28"
+    },
+    {
+      "global_claim_id": "G28-S236-K13",
+      "claim_id": "K13",
+      "source_id": "S236",
+      "corpus_id": "C221",
+      "location": "Sri Aurobindo, The Synthesis of Yoga; jnana, bhakti, karma, psychic transformation and integral method",
+      "claim_type": "CONTRAST",
+      "claim": "La obra mantiene una tensión con modelos exclusivamente ascéticos o exclusivamente liberacionistas al hacer de la transformación de la vida un objetivo central.",
+      "motifs": [
+        "M12",
+        "M20",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "28"
+    },
+    {
+      "global_claim_id": "G28-S237-K01",
+      "claim_id": "K01",
+      "source_id": "S237",
+      "corpus_id": "C222",
+      "location": "Teilhard de Chardin; complexity, consciousness, evolution, noosphere and convergence toward Omega",
+      "claim_type": "COSMO",
+      "claim": "Teilhard interpreta la evolución como aumento progresivo de organización y complejidad desde materia hacia vida y conciencia.",
+      "motifs": [
+        "M09",
+        "M15",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "28"
+    },
+    {
+      "global_claim_id": "G28-S237-K02",
+      "claim_id": "K02",
+      "source_id": "S237",
+      "corpus_id": "C222",
+      "location": "Teilhard de Chardin; complexity, consciousness, evolution, noosphere and convergence toward Omega",
+      "claim_type": "TRANSFORMATION",
+      "claim": "La aparición de conciencia es tratada como una transformación cualitativa dentro de la historia evolutiva.",
+      "motifs": [
+        "M12",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "28"
+    },
+    {
+      "global_claim_id": "G28-S237-K03",
+      "claim_id": "K03",
+      "source_id": "S237",
+      "corpus_id": "C222",
+      "location": "Teilhard de Chardin; complexity, consciousness, evolution, noosphere and convergence toward Omega",
+      "claim_type": "STATE",
+      "claim": "La conciencia humana representa para Teilhard un nivel reflexivo de interioridad que emerge sobre estructuras vivientes.",
+      "motifs": [
+        "M01",
+        "M02",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "28"
+    },
+    {
+      "global_claim_id": "G28-S237-K04",
+      "claim_id": "K04",
+      "source_id": "S237",
+      "corpus_id": "C222",
+      "location": "Teilhard de Chardin; complexity, consciousness, evolution, noosphere and convergence toward Omega",
+      "claim_type": "REFLEXIVITY",
+      "claim": "La hominización incluye la capacidad de la materia viviente de volverse reflexiva y tomar conciencia de sí.",
+      "motifs": [
+        "M02",
+        "M06",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "28"
+    },
+    {
+      "global_claim_id": "G28-S237-K05",
+      "claim_id": "K05",
+      "source_id": "S237",
+      "corpus_id": "C222",
+      "location": "Teilhard de Chardin; complexity, consciousness, evolution, noosphere and convergence toward Omega",
+      "claim_type": "UNITY",
+      "claim": "La evolución genera tendencias hacia mayor integración y convergencia sin eliminar la diferenciación individual.",
+      "motifs": [
+        "M03",
+        "M04",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "28"
+    },
+    {
+      "global_claim_id": "G28-S237-K06",
+      "claim_id": "K06",
+      "source_id": "S237",
+      "corpus_id": "C222",
+      "location": "Teilhard de Chardin; complexity, consciousness, evolution, noosphere and convergence toward Omega",
+      "claim_type": "RELATION",
+      "claim": "La conciencia humana se vuelve cada vez más social y colectiva mediante comunicación y organización.",
+      "motifs": [
+        "M05",
+        "M16",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "28"
+    },
+    {
+      "global_claim_id": "G28-S237-K07",
+      "claim_id": "K07",
+      "source_id": "S237",
+      "corpus_id": "C222",
+      "location": "Teilhard de Chardin; complexity, consciousness, evolution, noosphere and convergence toward Omega",
+      "claim_type": "WORLD_MODEL",
+      "claim": "Teilhard introduce la noosfera como dimensión de interconexión humana superpuesta a biosfera y geosfera.",
+      "motifs": [
+        "M15",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "28"
+    },
+    {
+      "global_claim_id": "G28-S237-K08",
+      "claim_id": "K08",
+      "source_id": "S237",
+      "corpus_id": "C222",
+      "location": "Teilhard de Chardin; complexity, consciousness, evolution, noosphere and convergence toward Omega",
+      "claim_type": "TEMPORAL",
+      "claim": "La conciencia se entiende como proceso histórico evolutivo extendido en vastas escalas temporales.",
+      "motifs": [
+        "M11",
+        "M15"
+      ],
+      "provenance": "P2*",
+      "batch": "28"
+    },
+    {
+      "global_claim_id": "G28-S237-K09",
+      "claim_id": "K09",
+      "source_id": "S237",
+      "corpus_id": "C222",
+      "location": "Teilhard de Chardin; complexity, consciousness, evolution, noosphere and convergence toward Omega",
+      "claim_type": "VALENCE",
+      "claim": "La convergencia y la construcción colectiva son valoradas como direcciones superiores del proceso evolutivo.",
+      "motifs": [
+        "M10",
+        "M12"
+      ],
+      "provenance": "P2*",
+      "batch": "28"
+    },
+    {
+      "global_claim_id": "G28-S237-K10",
+      "claim_id": "K10",
+      "source_id": "S237",
+      "corpus_id": "C222",
+      "location": "Teilhard de Chardin; complexity, consciousness, evolution, noosphere and convergence toward Omega",
+      "claim_type": "ATTENTION",
+      "claim": "La reflexión consciente permite a la humanidad comprender su propia situación dentro del proceso evolutivo.",
+      "motifs": [
+        "M06",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "28"
+    },
+    {
+      "global_claim_id": "G28-S237-K11",
+      "claim_id": "K11",
+      "source_id": "S237",
+      "corpus_id": "C222",
+      "location": "Teilhard de Chardin; complexity, consciousness, evolution, noosphere and convergence toward Omega",
+      "claim_type": "DEATH",
+      "claim": "La muerte individual se interpreta dentro de un proceso evolutivo mayor y una orientación hacia un término futuro denominado Omega.",
+      "motifs": [
+        "M19",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "28"
+    },
+    {
+      "global_claim_id": "G28-S237-K12",
+      "claim_id": "K12",
+      "source_id": "S237",
+      "corpus_id": "C222",
+      "location": "Teilhard de Chardin; complexity, consciousness, evolution, noosphere and convergence toward Omega",
+      "claim_type": "RELATION",
+      "claim": "La evolución social requiere aumento de interrelación entre centros humanos de conciencia, no simple uniformidad.",
+      "motifs": [
+        "M05",
+        "M16"
+      ],
+      "provenance": "P2*",
+      "batch": "28"
+    },
+    {
+      "global_claim_id": "G28-S237-K13",
+      "claim_id": "K13",
+      "source_id": "S237",
+      "corpus_id": "C222",
+      "location": "Teilhard de Chardin; complexity, consciousness, evolution, noosphere and convergence toward Omega",
+      "claim_type": "META",
+      "claim": "The Phenomenon of Man es una síntesis filosófico-teológica de la evolución de Teilhard y debe distinguirse de la biología evolutiva como ciencia empírica.",
+      "motifs": [
+        "M14",
+        "M17",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "28"
+    }
+  ]
+}
