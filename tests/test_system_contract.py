@@ -2,13 +2,11 @@ from __future__ import annotations
 
 from pathlib import Path
 
-import pytest
-
 from skill_conscious import ConsciousRuntime, ConsciousSystem, ConsciousHostLoop
 
 
-def test_system_contract_is_canonical() -> None:
-    runtime = ConsciousRuntime("test-system", state_path=Path("tmp-system-state.json"))
+def test_system_contract_is_canonical(tmp_path) -> None:
+    runtime = ConsciousRuntime("test-system", state_path=tmp_path / "state.json")
     system = ConsciousSystem(runtime)
 
     topology = system.topology()
