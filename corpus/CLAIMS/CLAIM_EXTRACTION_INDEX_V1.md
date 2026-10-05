@@ -234,3 +234,12 @@ The next extraction stage should systematically traverse the remaining register 
 - Current register coverage: 314/325 represented; 11/325 still missing.
 - Exact-13 represented sources: 244.
 - v36 consists of heterodox/extended sources: psi/parapsychology, global coherence, altered states, transpersonal psychology, Monroe Focus levels and yogic spirituality. Claims remain source-attributed and provisional.
+
+## Batch v37 checkpoint
+
+- Newly represented register entries: C314, C315, C316, C317, C318, C319, C320, C321, C322, C323, C325.
+- Added claims: 143.
+- Effective ledger: 4315 records / 328 source IDs (2482 core + 14 append batches: v24–v37, with v37 containing 143 records).
+- Current register coverage: **325/325 represented; 0/325 still missing**.
+- Exact-13 represented sources: 255.
+- **Register closure:** the 325-entry SOURCE_REGISTER_V1 is fully represented in the effective ledger. No C326–C350 entries are inferred or invented.
