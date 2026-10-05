@@ -5,18 +5,18 @@
 **Ledger:** `corpus/CLAIMS/claim_ledger_v1.json` + registered append deltas  
 **Audit rule:** an entry counts as represented only if its exact `corpus_id` occurs in at least one ledger record. This does **not** mean all claims are source-verified.
 
-## Reconciled totals after batch v29
+## Reconciled totals after batch v30
 
 - Register entries parsed: **325** (325 unique IDs).
-- Entries represented in effective corpus ledger: **244**.
-- Entries not yet represented: **81**.
-- Effective ledger records: **3262** (**2482** core ledger + **130** each in v24–v29 append deltas).
+- Entries represented in effective corpus ledger: **254**.
+- Entries not yet represented: **71**.
+- Effective ledger records: **3392** (**2482** core ledger + **130** each in v24–v30 append deltas).
 - Core ledger records in `claim_ledger_v1.json`: **2482**.
-- Unique source IDs in effective ledger: **247**.
-- Sources with exactly 13 effective ledger records: **174**.
+- Unique source IDs in effective ledger: **257**.
+- Sources with exactly 13 effective ledger records: **184**.
 - Represented but under 13: **40**.
 - Represented above 13: **30**.
-- **Storage note:** v24–v29 are stored as append-only deltas because the current GitHub contents connector cannot safely rewrite the now-large core JSON blob.
+- **Storage note:** v24–v30 are stored as append-only deltas because the current GitHub contents connector cannot safely rewrite the now-large core JSON blob.
 - **Quality caveat:** “represented” is a coverage flag only. P2* claims and generic locators remain verification-pending.
 
 ## Status table
@@ -263,16 +263,16 @@
 | C238 | Ainu kamuy traditions — Indígena/relacional; foco: persona relacional, territorio, sueño. | Represented — exactly 13 | 13 | S246 |
 | C239 | Siberian shamanic source collections — Indígena/relacional; foco: persona relacional, territorio, sueño. | Represented — exactly 13 | 13 | S247 |
 | C240 | Meditations on First Philosophy — Filosofía/fenomenología; foco: conciencia, persona, realidad, transformación. | Represented — over 13 | 15 | S047 |
-| C241 | Ethics — Filosofía/fenomenología; foco: conciencia, persona, realidad, transformación. | Missing | 0 | — |
-| C242 | Monadology — Filosofía/fenomenología; foco: conciencia, persona, realidad, transformación. | Missing | 0 | — |
-| C243 | Critique of Pure Reason — Filosofía/fenomenología; foco: conciencia, persona, realidad, transformación. | Missing | 0 | — |
-| C244 | Matter and Memory — Filosofía/fenomenología; foco: conciencia, persona, realidad, transformación. | Missing | 0 | — |
-| C245 | Creative Evolution — Filosofía/fenomenología; foco: conciencia, persona, realidad, transformación. | Missing | 0 | — |
-| C246 | Principles of Psychology — Filosofía/fenomenología; foco: conciencia, persona, realidad, transformación. | Missing | 0 | — |
-| C247 | Ideas I — Filosofía/fenomenología; foco: conciencia, persona, realidad, transformación. | Missing | 0 | — |
-| C248 | Cartesian Meditations — Filosofía/fenomenología; foco: conciencia, persona, realidad, transformación. | Missing | 0 | — |
-| C249 | Being and Time — Filosofía/fenomenología; foco: conciencia, persona, realidad, transformación. | Missing | 0 | — |
-| C250 | Phenomenology of Perception — Filosofía/fenomenología; foco: conciencia, persona, realidad, transformación. | Missing | 0 | — |
+| C241 | Ethics — Filosofía/fenomenología; foco: conciencia, persona, realidad, transformación. | Represented — exactly 13 | 13 | S248 |
+| C242 | Monadology — Filosofía/fenomenología; foco: conciencia, persona, realidad, transformación. | Represented — exactly 13 | 13 | S249 |
+| C243 | Critique of Pure Reason — Filosofía/fenomenología; foco: conciencia, persona, realidad, transformación. | Represented — exactly 13 | 13 | S250 |
+| C244 | Matter and Memory — Filosofía/fenomenología; foco: conciencia, persona, realidad, transformación. | Represented — exactly 13 | 13 | S251 |
+| C245 | Creative Evolution — Filosofía/fenomenología; foco: conciencia, persona, realidad, transformación. | Represented — exactly 13 | 13 | S252 |
+| C246 | Principles of Psychology — Filosofía/fenomenología; foco: conciencia, persona, realidad, transformación. | Represented — exactly 13 | 13 | S253 |
+| C247 | Ideas I — Filosofía/fenomenología; foco: conciencia, persona, realidad, transformación. | Represented — exactly 13 | 13 | S254 |
+| C248 | Cartesian Meditations — Filosofía/fenomenología; foco: conciencia, persona, realidad, transformación. | Represented — exactly 13 | 13 | S255 |
+| C249 | Being and Time — Filosofía/fenomenología; foco: conciencia, persona, realidad, transformación. | Represented — exactly 13 | 13 | S256 |
+| C250 | Phenomenology of Perception — Filosofía/fenomenología; foco: conciencia, persona, realidad, transformación. | Represented — exactly 13 | 13 | S257 |
 | C251 | Phenomenology of Mind — Filosofía/fenomenología; foco: conciencia, persona, realidad, transformación. | Missing | 0 | — |
 | C252 | Being and Nothingness — Filosofía/fenomenología; foco: conciencia, persona, realidad, transformación. | Missing | 0 | — |
 | C253 | Concept of Anxiety — Filosofía/fenomenología; foco: conciencia, persona, realidad, transformación. | Missing | 0 | — |
@@ -418,3 +418,12 @@
 - Core ledger: 2482 records / 187 source IDs.
 - Current register coverage: 244/325 represented; 81/325 still missing.
 - Exact-13 represented sources: 174.
+
+## Batch v30 checkpoint
+
+- Newly represented register entries: C241, C242, C243, C244, C245, C246, C247, C248, C249, C250.
+- Added claims: 130 (10 × 13), stored as append-only delta.
+- Effective ledger: 3392 records / 257 source IDs.
+- Core ledger: 2482 records / 187 source IDs.
+- Current register coverage: 254/325 represented; 71/325 still missing.
+- Exact-13 represented sources: 184.
