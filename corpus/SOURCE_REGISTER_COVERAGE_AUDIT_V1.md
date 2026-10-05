@@ -5,18 +5,18 @@
 **Ledger:** `corpus/CLAIMS/claim_ledger_v1.json` + registered append deltas  
 **Audit rule:** an entry counts as represented only if its exact `corpus_id` occurs in at least one ledger record. This does **not** mean all claims are source-verified.
 
-## Reconciled totals after batch v24
+## Reconciled totals after batch v25
 
 - Register entries parsed: **325** (325 unique IDs).
-- Entries represented in effective corpus ledger: **194**.
-- Entries not yet represented: **131**.
-- Effective ledger records: **2612** (**2482** core ledger + **130** v24 append records).
+- Entries represented in effective corpus ledger: **204**.
+- Entries not yet represented: **121**.
+- Effective ledger records: **2742** (**2482** core ledger + **130** v24 append + **130** v25 append).
 - Core ledger records in `claim_ledger_v1.json`: **2482**.
-- Unique source IDs in effective ledger: **197**.
-- Sources with exactly 13 effective ledger records: **124**.
+- Unique source IDs in effective ledger: **207**.
+- Sources with exactly 13 effective ledger records: **134**.
 - Represented but under 13: **40**.
 - Represented above 13: **30**.
-- **Storage note:** Batch v24 is stored in `claim_ledger_v1_append_v24.json` as an append-only delta because the current GitHub contents connector cannot rewrite the now-large core JSON blob without truncation.
+- **Storage note:** v24 and v25 are stored as append-only deltas because the current GitHub contents connector cannot rewrite the now-large core JSON blob without truncation.
 - **Quality caveat:** “represented” is a coverage flag only. P2* claims and generic locators remain verification-pending.
 
 ## Status table
@@ -196,21 +196,21 @@
 | C171 | Heaven and Hell — Mística cristiana; foco: conciencia, persona, realidad, transformación. | Represented — exactly 13 | 13 | S195 |
 | C172 | Qur'an — Islam/Sufismo; foco: nafs, qalb, rūḥ, maʿrifa. | Represented — exactly 13 | 13 | S196 |
 | C173 | Hadith Qudsi corpus — Islam/Sufismo; foco: nafs, qalb, rūḥ, maʿrifa. | Represented — exactly 13 | 13 | S197 |
-| C174 | Risala — Islam/Sufismo; foco: conciencia, persona, realidad, transformación. | Missing | 0 | — |
-| C175 | Kashf al-Mahjub — Islam/Sufismo; foco: conciencia, persona, realidad, transformación. | Missing | 0 | — |
+| C174 | Risala — Islam/Sufismo; foco: conciencia, persona, realidad, transformación. | Represented — exactly 13 | 13 | S198 |
+| C175 | Kashf al-Mahjub — Islam/Sufismo; foco: conciencia, persona, realidad, transformación. | Represented — exactly 13 | 13 | S199 |
 | C176 | Ihya Ulum al-Din — Islam/Sufismo; foco: conciencia, persona, realidad, transformación. | Represented — under 13 | 8 | S020 |
-| C177 | Mishkat al-Anwar — Islam/Sufismo; foco: conciencia, persona, realidad, transformación. | Missing | 0 | — |
-| C178 | Conference of the Birds — Islam/Sufismo; foco: conciencia, persona, realidad, transformación. | Missing | 0 | — |
+| C177 | Mishkat al-Anwar — Islam/Sufismo; foco: conciencia, persona, realidad, transformación. | Represented — exactly 13 | 13 | S200 |
+| C178 | Conference of the Birds — Islam/Sufismo; foco: conciencia, persona, realidad, transformación. | Represented — exactly 13 | 13 | S201 |
 | C179 | Masnavi — Islam/Sufismo; foco: conciencia, persona, realidad, transformación. | Represented — under 13 | 8 | S021 |
 | C180 | Fihi Ma Fih — Islam/Sufismo; foco: conciencia, persona, realidad, transformación. | Represented — under 13 | 10 | S063 |
 | C181 | Fusus al-Hikam — Islam/Sufismo; foco: nafs, qalb, rūḥ, maʿrifa. | Represented — over 13 | 20 | S068 |
 | C182 | Futuhat al-Makkiyya — Islam/Sufismo; foco: nafs, qalb, rūḥ, maʿrifa. | Represented — under 13 | 10 | S010 |
-| C183 | Bezels of Wisdom commentarial tradition — Islam/Sufismo; foco: conciencia, persona, realidad, transformación. | Missing | 0 | — |
-| C184 | Sufi aphoristic corpus — Islam/Sufismo; foco: conciencia, persona, realidad, transformación. | Missing | 0 | — |
-| C185 | Imam Ali wisdom corpus — Islam/Sufismo; foco: nafs, qalb, rūḥ, maʿrifa. | Missing | 0 | — |
-| C186 | Hayy ibn Yaqzan — Islam/Sufismo; foco: conciencia, persona, realidad, transformación. | Missing | 0 | — |
-| C187 | Picatrix — Esoterismo occidental; foco: correspondencias, microcosmos, alquimia. | Missing | 0 | — |
-| C188 | Three Books of Occult Philosophy — Esoterismo occidental; foco: conciencia, persona, realidad, transformación. | Missing | 0 | — |
+| C183 | Bezels of Wisdom commentarial tradition — Islam/Sufismo; foco: conciencia, persona, realidad, transformación. | Represented — exactly 13 | 13 | S202 |
+| C184 | Sufi aphoristic corpus — Islam/Sufismo; foco: conciencia, persona, realidad, transformación. | Represented — exactly 13 | 13 | S203 |
+| C185 | Imam Ali wisdom corpus — Islam/Sufismo; foco: nafs, qalb, rūḥ, maʿrifa. | Represented — exactly 13 | 13 | S204 |
+| C186 | Hayy ibn Yaqzan — Islam/Sufismo; foco: conciencia, persona, realidad, transformación. | Represented — exactly 13 | 13 | S205 |
+| C187 | Picatrix — Esoterismo occidental; foco: correspondencias, microcosmos, alquimia. | Represented — exactly 13 | 13 | S206 |
+| C188 | Three Books of Occult Philosophy — Esoterismo occidental; foco: conciencia, persona, realidad, transformación. | Represented — exactly 13 | 13 | S207 |
 | C189 | Heptameron — Esoterismo occidental; foco: correspondencias, microcosmos, alquimia. | Missing | 0 | — |
 | C190 | Arbatel of Magic — Esoterismo occidental; foco: correspondencias, microcosmos, alquimia. | Missing | 0 | — |
 | C191 | Monas Hieroglyphica — Esoterismo occidental; foco: conciencia, persona, realidad, transformación. | Missing | 0 | — |
@@ -373,3 +373,12 @@
 - Core ledger: 2482 records / 187 source IDs.
 - Current register coverage: 194/325 represented; 131/325 still missing.
 - Exact-13 represented sources: 124.
+
+## Batch v25 checkpoint
+
+- Newly represented register entries: C174, C175, C177, C178, C183, C184, C185, C186, C187, C188.
+- Added claims: 130 (10 × 13), stored as append-only delta.
+- Effective ledger: 2742 records / 207 source IDs.
+- Core ledger: 2482 records / 187 source IDs.
+- Current register coverage: 204/325 represented; 121/325 still missing.
+- Exact-13 represented sources: 134.
