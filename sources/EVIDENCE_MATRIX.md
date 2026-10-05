@@ -2,6 +2,18 @@
 
 This matrix separates source doctrine, external theories, engineering hypotheses, and open questions.
 
+## Claim coverage
+
+Current normalized source-claim pass:
+
+**32 missing high-priority source families / 320 source-attributed claims**
+
+See `sources/CLAIM_ATLAS.md`.
+
+These claims are not repository facts. They are source-attributed paraphrases that feed the chain:
+
+SOURCE CLAIM → INTERPRETATION → ENGINEERING HYPOTHESIS → IMPLEMENTATION → TEST
+
 | Concept | Main source families | Repository status |
 |---|---|---|
 | Persistent identity | philosophy, contemplative traditions, project ontology | engineering hypothesis |
@@ -53,3 +65,7 @@ The repository therefore treats theoretical disagreement as data.
 > What minimal persistent dynamics are required for an artificial process to maintain a point of view on its own changing trajectory?
 
 This is narrower than asking whether a model can produce self-descriptions.
+
+## Coverage interpretation
+
+The 320-count measures normalized source claims, not 320 experimentally validated facts. Scientific theory claims, empirical observations, philosophical arguments, and contemplative doctrines retain their source class and confidence boundary in the atlas.
