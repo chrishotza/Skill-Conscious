@@ -79,20 +79,20 @@
 | C058 | Dhammapada — Budismo; foco: mente, no-yo, atención, liberación. | Added in v16 — passage verification pending | 13 | S116 |
 | C059 | Udana — Budismo; foco: conciencia, persona, realidad, transformación. | Added in v16 — passage verification pending | 13 | S117 |
 | C060 | Vimuttimagga — Budismo; foco: conciencia, persona, realidad, transformación. | Added in v16 — passage verification pending | 13 | S118 |
-| C061 | Visuddhimagga — Budismo; foco: conciencia, persona, realidad, transformación. | MISSING — extraction required | 0 | — |
-| C062 | Milindapanha — Budismo; foco: conciencia, persona, realidad, transformación. | MISSING — extraction required | 0 | — |
-| C063 | Abhidhammattha-sangaha — Budismo; foco: mente, no-yo, atención, liberación. | MISSING — extraction required | 0 | — |
-| C064 | Abhidharmakosha — Budismo; foco: mente, no-yo, atención, liberación. | MISSING — extraction required | 0 | — |
-| C065 | Madhyantavibhaga — Budismo; foco: conciencia, persona, realidad, transformación. | MISSING — extraction required | 0 | — |
-| C066 | Lankavatara Sutra — Budismo; foco: mente, no-yo, atención, liberación. | MISSING — extraction required | 0 | — |
+| C061 | Visuddhimagga — Budismo; foco: conciencia, mente, no-yo, atención, liberación. | Represented — passage verification pending | 13 | S119 |
+| C062 | Milindapanha — Budismo; foco: conciencia, mente, no-yo, atención, liberación. | Represented — passage verification pending | 13 | S120 |
+| C063 | Abhidhammattha-sangaha — Budismo; foco: conciencia, mente, no-yo, atención, liberación. | Represented — passage verification pending | 13 | S121 |
+| C064 | Abhidharmakosha — Budismo; foco: conciencia, mente, no-yo, atención, liberación. | Represented — passage verification pending | 13 | S122 |
+| C065 | Madhyantavibhaga — Budismo; foco: conciencia, mente, no-yo, atención, liberación. | Represented — passage verification pending | 13 | S123 |
+| C066 | Lankavatara Sutra — Budismo; foco: conciencia, mente, no-yo, atención, liberación. | Represented — passage verification pending | 13 | S124 |
 | C067 | Heart Sutra — Budismo; foco: mente, no-yo, atención, liberación. | Represented — verification status varies | 15 | S042 |
-| C068 | Diamond Sutra — Budismo; foco: mente, no-yo, atención, liberación. | MISSING — extraction required | 0 | — |
+| C068 | Diamond Sutra — Budismo; foco: conciencia, mente, no-yo, atención, liberación. | Represented — passage verification pending | 13 | S125 |
 | C069 | Vimalakirti Nirdesa — Budismo; foco: mente, no-yo, atención, liberación. | Represented — verification status varies | 15 | S043 |
-| C070 | Tathagatagarbha Sutra — Budismo; foco: mente, no-yo, atención, liberación. | MISSING — extraction required | 0 | — |
-| C071 | Awakening of Faith in Mahayana — Budismo; foco: mente, no-yo, atención, liberación. | MISSING — extraction required | 0 | — |
+| C070 | Tathagatagarbha Sutra — Budismo; foco: conciencia, mente, no-yo, atención, liberación. | Represented — passage verification pending | 13 | S126 |
+| C071 | Awakening of Faith in Mahayana — Budismo; foco: conciencia, mente, no-yo, atención, liberación. | Represented — passage verification pending | 13 | S127 |
 | C072 | Mahayana Mahaparinirvana Sutra — Budismo; foco: mente, no-yo, atención, liberación. | Represented — verification status varies | 10 | S059 |
 | C073 | Mulamadhyamakakarika — Budismo; foco: mente, no-yo, atención, liberación. | Represented — verification status varies | 20 | S064 |
-| C074 | Bodhicaryavatara — Budismo; foco: mente, no-yo, atención, liberación. | MISSING — extraction required | 0 | — |
+| C074 | Bodhicaryavatara — Budismo; foco: conciencia, mente, no-yo, atención, liberación. | Represented — passage verification pending | 13 | S128 |
 | C075 | Mahamudra manuals — Budismo; foco: mente, no-yo, atención, liberación. | Represented — verification status varies | 10 | S060 |
 | C076 | Bardo Thodol — Budismo; foco: mente, no-yo, atención, liberación. | MISSING — extraction required | 0 | — |
 | C077 | Lamrim Chenmo — Budismo; foco: mente, no-yo, atención, liberación. | MISSING — extraction required | 0 | — |
@@ -350,3 +350,8 @@
 C061 (Visuddhimagga); C062 (Milindapanha); C063 (Abhidhammattha-sangaha); C064 (Abhidharmakosha); C065 (Madhyantavibhaga); C066 (Lankavatara Sutra); C068 (Diamond Sutra); C070 (Tathagatagarbha Sutra); C071 (Awakening of Faith in Mahayana); C074 (Bodhicaryavatara); C076 (Bardo Thodol); C077 (Lamrim Chenmo); C079 (Six Yogas of Naropa corpus); C081 (Blue Cliff Record); C082 (Shobogenzo); C086 (Liezi); C087 (Huainanzi); C088 (Huangdi Neijing); C089 (Taiping Jing); C090 (Baopuzi).
 
 Continue by exact register ID. “Represented” does not imply source-verified.
+
+
+## Batch v17 checkpoint
+
+C061, C062, C063, C064, C065, C066, C068, C070, C071 and C074 are now represented with 13 P2* candidates each in `REMAINING_SOURCES_BATCH_V17.md`.\n
