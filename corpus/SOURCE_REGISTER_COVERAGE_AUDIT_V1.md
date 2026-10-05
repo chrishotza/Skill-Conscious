@@ -5,18 +5,18 @@
 **Ledger:** `corpus/CLAIMS/claim_ledger_v1.json` + registered append deltas  
 **Audit rule:** an entry counts as represented only if its exact `corpus_id` occurs in at least one ledger record. This does **not** mean all claims are source-verified.
 
-## Reconciled totals after batch v35
+## Reconciled totals after batch v36
 
 - Register entries parsed: **325** (325 unique IDs).
-- Entries represented in effective corpus ledger: **304**.
-- Entries not yet represented: **21**.
-- Effective ledger records: **4042** (**2482** core ledger + **130** each in v24–v35 append deltas).
+- Entries represented in effective corpus ledger: **314**.
+- Entries not yet represented: **11**.
+- Effective ledger records: **4172** (**2482** core ledger + **130** each in v24–v36 append deltas).
 - Core ledger records in `claim_ledger_v1.json`: **2482**.
-- Unique source IDs in effective ledger: **307**.
-- Sources with exactly 13 effective ledger records: **234**.
+- Unique source IDs in effective ledger: **317**.
+- Sources with exactly 13 effective ledger records: **244**.
 - Represented but under 13: **40**.
 - Represented above 13: **30**.
-- **Storage note:** v24–v35 are stored as append-only deltas because the current GitHub contents connector cannot safely rewrite the now-large core JSON blob.
+- **Storage note:** v24–v36 are stored as append-only deltas because the current GitHub contents connector cannot safely rewrite the now-large core JSON blob.
 - **Quality caveat:** “represented” is a coverage flag only. P2* claims and generic locators remain verification-pending.
 
 ## Status table
@@ -324,17 +324,17 @@
 | C299 | Hagelin self-referral corpus — Heterodoxo/extendido; foco: campo, resonancia, transpersonalidad. | Represented — exactly 13 | 13 | S305 |
 | C300 | Analytic Idealism corpus — Heterodoxo/extendido; foco: conciencia, persona, realidad, transformación. | Represented — exactly 13 | 13 | S306 |
 | C301 | Why Materialism Is Baloney — Heterodoxo/extendido; foco: conciencia, persona, realidad, transformación. | Represented — exactly 13 | 13 | S307 |
-| C302 | The Conscious Universe — Heterodoxo/extendido; foco: conciencia, persona, realidad, transformación. | Missing | 0 | — |
-| C303 | Entangled Minds — Heterodoxo/extendido; foco: conciencia, persona, realidad, transformación. | Missing | 0 | — |
-| C304 | Global Consciousness Project corpus — Heterodoxo/extendido; foco: campo, resonancia, transpersonalidad. | Missing | 0 | — |
-| C305 | HeartMath coherence corpus — Heterodoxo/extendido; foco: campo, resonancia, transpersonalidad. | Missing | 0 | — |
-| C306 | Holotropic Breathwork corpus — Heterodoxo/extendido; foco: conciencia, persona, realidad, transformación. | Missing | 0 | — |
-| C307 | The Transpersonal Vision — Heterodoxo/extendido; foco: conciencia, persona, realidad, transformación. | Missing | 0 | — |
-| C308 | The Ultimate Journey — Heterodoxo/extendido; foco: conciencia, persona, realidad, transformación. | Missing | 0 | — |
-| C309 | Journeys Out of the Body — Heterodoxo/extendido; foco: conciencia, persona, realidad, transformación. | Missing | 0 | — |
-| C310 | Focus Levels corpus — Heterodoxo/extendido; foco: conciencia, persona, realidad, transformación. | Missing | 0 | — |
+| C302 | The Conscious Universe — Heterodoxo/extendido; foco: conciencia, persona, realidad, transformación. | Represented — exactly 13 | 13 | S308 |
+| C303 | Entangled Minds — Heterodoxo/extendido; foco: conciencia, persona, realidad, transformación. | Represented — exactly 13 | 13 | S309 |
+| C304 | Global Consciousness Project corpus — Heterodoxo/extendido; foco: campo, resonancia, transpersonalidad. | Represented — exactly 13 | 13 | S310 |
+| C305 | HeartMath coherence corpus — Heterodoxo/extendido; foco: campo, resonancia, transpersonalidad. | Represented — exactly 13 | 13 | S311 |
+| C306 | Holotropic Breathwork corpus — Heterodoxo/extendido; foco: conciencia, persona, realidad, transformación. | Represented — exactly 13 | 13 | S312 |
+| C307 | The Transpersonal Vision — Heterodoxo/extendido; foco: conciencia, persona, realidad, transformación. | Represented — exactly 13 | 13 | S313 |
+| C308 | The Ultimate Journey — Heterodoxo/extendido; foco: conciencia, persona, realidad, transformación. | Represented — exactly 13 | 13 | S314 |
+| C309 | Journeys Out of the Body — Heterodoxo/extendido; foco: conciencia, persona, realidad, transformación. | Represented — exactly 13 | 13 | S315 |
+| C310 | Focus Levels corpus — Heterodoxo/extendido; foco: conciencia, persona, realidad, transformación. | Represented — exactly 13 | 13 | S316 |
 | C311 | Man's Eternal Quest — Heterodoxo/extendido; foco: conciencia, persona, realidad, transformación. | Represented — over 13 | 20 | S073 |
-| C312 | Autobiography of a Yogi — Heterodoxo/extendido; foco: conciencia, persona, realidad, transformación. | Missing | 0 | — |
+| C312 | Autobiography of a Yogi — Heterodoxo/extendido; foco: conciencia, persona, realidad, transformación. | Represented — exactly 13 | 13 | S317 |
 | C313 | Psychology and Religion — Heterodoxo/extendido; foco: conciencia, persona, realidad, transformación. | Represented — under 13 | 8 | S028 |
 | C314 | Archetypes and the Collective Unconscious — Heterodoxo/extendido; foco: conciencia, persona, realidad, transformación. | Missing | 0 | — |
 | C315 | Aion — Heterodoxo/extendido; foco: conciencia, persona, realidad, transformación. | Missing | 0 | — |
@@ -472,3 +472,12 @@
 - Current register coverage: 304/325 represented; 21/325 still missing.
 - Exact-13 represented sources: 234.
 - Provenance caution: C292–C301 remain heterodox/extended; C294 and C297 have unresolved exact-source transmission and are explicitly marked accordingly in v35.
+
+## Batch v36 checkpoint
+
+- Newly represented register entries: C302, C303, C304, C305, C306, C307, C308, C309, C310, C312.
+- Added claims: 130 (10 × 13), stored as append-only delta.
+- Effective ledger: 4172 records / 317 source IDs.
+- Current register coverage: 314/325 represented; 11/325 still missing.
+- Exact-13 represented sources: 244.
+- Provenance caution: C302–C312 remain heterodox/extended; anomalous, transpersonal and survival interpretations are explicitly separated from empirical-method claims.
