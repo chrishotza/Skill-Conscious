@@ -1,35 +1,35 @@
-# Convergence Matrix v2 — Recalculated at 748 Claims
+# Convergence Matrix v2 — Recalculated at 848 Claims
 
-**Status:** quantitative recurrence map with provenance weighting. S1 claims count at half-weight until primary-source verification.
+S1 claims receive half-weight until their primary passages or critical editions are verified. This is a research-control weight, not a probability of truth.
 
 | Motif | Claims | Weighted | Sources | Families | Regions | P1/P2 families | Status |
 |---|---:|---:|---:|---:|---:|---:|---|
-| M25 | 124 | 108.5 | 56 | 37 | 7 | 27 | strong verified recurrence candidate |
-| M07 | 126 | 111.5 | 53 | 36 | 7 | 27 | strong verified recurrence candidate |
-| M12 | 126 | 108.0 | 53 | 35 | 6 | 27 | strong verified recurrence candidate |
-| M01 | 71 | 67.5 | 42 | 29 | 6 | 26 | strong verified recurrence candidate |
-| M20 | 131 | 109.0 | 45 | 35 | 7 | 25 | strong verified recurrence candidate |
-| M05 | 106 | 87.0 | 45 | 33 | 7 | 24 | strong verified recurrence candidate |
-| M24 | 108 | 93.0 | 45 | 32 | 6 | 24 | strong verified recurrence candidate |
-| M23 | 118 | 105.5 | 47 | 30 | 5 | 24 | strong verified recurrence candidate |
-| M15 | 119 | 102.0 | 45 | 33 | 6 | 23 | strong verified recurrence candidate |
-| M06 | 105 | 95.0 | 43 | 27 | 7 | 22 | strong verified recurrence candidate |
-| M22 | 62 | 59.5 | 34 | 26 | 6 | 22 | strong verified recurrence candidate |
-| M04 | 83 | 79.0 | 33 | 25 | 5 | 22 | strong verified recurrence candidate |
-| M03 | 86 | 76.5 | 39 | 29 | 6 | 21 | strong verified recurrence candidate |
-| M02 | 67 | 61.5 | 37 | 27 | 6 | 21 | strong verified recurrence candidate |
-| M14 | 96 | 90.5 | 35 | 23 | 4 | 20 | strong verified recurrence candidate |
-| M10 | 74 | 64.0 | 36 | 26 | 6 | 18 | strong verified recurrence candidate |
-| M11 | 56 | 49.5 | 31 | 23 | 6 | 17 | strong verified recurrence candidate |
-| M21 | 41 | 39.0 | 22 | 16 | 5 | 14 | strong verified recurrence candidate |
-| M08 | 52 | 44.0 | 23 | 19 | 6 | 13 | strong verified recurrence candidate |
-| M09 | 40 | 38.0 | 18 | 15 | 5 | 13 | strong verified recurrence candidate |
+| M25 | 137 | 121.5 | 61 | 42 | 7 | 32 | strong verified recurrence candidate |
+| M07 | 144 | 129.5 | 58 | 41 | 7 | 32 | strong verified recurrence candidate |
+| M12 | 140 | 122.0 | 57 | 39 | 6 | 31 | strong verified recurrence candidate |
+| M20 | 149 | 127.0 | 50 | 40 | 7 | 30 | strong verified recurrence candidate |
+| M01 | 78 | 74.5 | 46 | 33 | 6 | 30 | strong verified recurrence candidate |
+| M05 | 128 | 109.0 | 50 | 38 | 7 | 29 | strong verified recurrence candidate |
+| M24 | 124 | 109.0 | 50 | 37 | 6 | 29 | strong verified recurrence candidate |
+| M15 | 133 | 116.0 | 50 | 38 | 7 | 28 | strong verified recurrence candidate |
+| M23 | 131 | 118.5 | 51 | 34 | 6 | 28 | strong verified recurrence candidate |
+| M03 | 110 | 100.5 | 44 | 34 | 6 | 26 | strong verified recurrence candidate |
+| M02 | 84 | 78.5 | 42 | 32 | 6 | 26 | strong verified recurrence candidate |
+| M22 | 76 | 73.5 | 38 | 30 | 6 | 26 | strong verified recurrence candidate |
+| M04 | 102 | 98.0 | 37 | 29 | 5 | 26 | strong verified recurrence candidate |
+| M06 | 114 | 104.0 | 46 | 30 | 7 | 25 | strong verified recurrence candidate |
+| M14 | 123 | 117.5 | 40 | 28 | 5 | 25 | strong verified recurrence candidate |
+| M11 | 66 | 59.5 | 34 | 26 | 7 | 20 | strong verified recurrence candidate |
+| M10 | 75 | 65.0 | 37 | 27 | 7 | 19 | strong verified recurrence candidate |
+| M21 | 48 | 46.0 | 25 | 19 | 5 | 17 | strong verified recurrence candidate |
+| M09 | 44 | 42.0 | 20 | 17 | 5 | 15 | strong verified recurrence candidate |
+| M13 | 33 | 31.5 | 22 | 17 | 6 | 15 | strong verified recurrence candidate |
+| M08 | 56 | 48.0 | 24 | 20 | 7 | 14 | strong verified recurrence candidate |
 | M19 | 50 | 43.0 | 21 | 16 | 6 | 12 | strong verified recurrence candidate |
-| M13 | 27 | 25.5 | 19 | 14 | 6 | 12 | strong verified recurrence candidate |
-| M17 | 33 | 25.5 | 18 | 15 | 6 | 7 | strong verified recurrence candidate |
+| M17 | 36 | 28.5 | 19 | 16 | 6 | 8 | strong verified recurrence candidate |
 | M16 | 31 | 20.0 | 10 | 10 | 4 | 7 | strong verified recurrence candidate |
-| M18 | 12 | 11.5 | 6 | 5 | 4 | 4 | verified recurrence candidate |
+| M18 | 13 | 12.5 | 7 | 6 | 4 | 5 | strong verified recurrence candidate |
 
-## Current synthesis pressure
+## Interpretation
 
-The recurring cluster is increasingly organized around interiority/presence, multiple modes, transformation, attention/practice, subject-world relation, reflexivity, and cosmological participation. The major counter-pressure remains the incompatibility between substantial-Self interpretations and processual/non-self/emptiness interpretations.
+At 848 claims, the recurrence cluster is stable around interiority/presence, multiple modes, transformation, practice/attention, subject-world relation, reflexivity, and cosmological participation. The major adversarial divide remains substantial Self versus non-self/emptiness/process.
