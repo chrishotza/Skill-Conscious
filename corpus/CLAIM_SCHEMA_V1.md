@@ -59,6 +59,23 @@ A claim about consciousness being fundamentally relational or participatory.
 ### CAUSAL
 A claim that consciousness, intention, attention, ritual, thought, or state produces a downstream effect.
 
+## Extended analytic claim tags
+
+The primary claim types above remain the canonical semantic classes. The extraction ledger may also use narrower analytic tags when a claim deserves finer labeling:
+
+- **REFLEXIVITY** — self-reference or recursive self-relation.
+- **TEMPORAL** — explicit time, persistence, recurrence, or moment-to-moment continuity.
+- **TRANSFORMATION** — change in organization, identity, state, or mode of being.
+- **EMBODIMENT** — body/vehicle as constitutive or explanatory.
+- **VALENCE** — value, attraction, aversion, suffering, joy, significance.
+- **INTERIORITY** — first-person/interior dimension as distinguished from public description.
+- **UNITY** — explicit wholeness/integration/unification claim.
+- **INEFFABILITY** — explicit limitation or transcendence of ordinary conceptual representation.
+- **RELATIONAL** — refined tag for claims in which person/subject/world are constituted through relation.
+- **DYNAMICS** — process, pulsation, flow, activity, or generativity.
+
+These tags do not replace the primary claim type and must not be interpreted as additional evidence.
+
 ## Provenance classes
 
 P1 — direct primary text.
