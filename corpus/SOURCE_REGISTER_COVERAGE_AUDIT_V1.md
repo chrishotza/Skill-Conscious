@@ -2,20 +2,21 @@
 
 **Branch:** `corpus-v1`  
 **Register:** `corpus/SOURCE_REGISTER_V1.md`  
-**Ledger:** `corpus/CLAIMS/claim_ledger_v1.json`  
+**Ledger:** `corpus/CLAIMS/claim_ledger_v1.json` + registered append deltas  
 **Audit rule:** an entry counts as represented only if its exact `corpus_id` occurs in at least one ledger record. This does **not** mean all claims are source-verified.
 
-## Reconciled totals after batch v23
+## Reconciled totals after batch v24
 
 - Register entries parsed: **325** (325 unique IDs).
-- Entries represented in ledger: **184**.
-- Entries not yet represented: **141**.
-- Ledger records: **2482**.
-- Unique global claim IDs: **2482**.
-- Unique source IDs in ledger: **187**.
-- Sources with exactly 13 ledger records: **114**.
+- Entries represented in effective corpus ledger: **194**.
+- Entries not yet represented: **131**.
+- Effective ledger records: **2612** (**2482** core ledger + **130** v24 append records).
+- Core ledger records in `claim_ledger_v1.json`: **2482**.
+- Unique source IDs in effective ledger: **197**.
+- Sources with exactly 13 effective ledger records: **124**.
 - Represented but under 13: **40**.
 - Represented above 13: **30**.
+- **Storage note:** Batch v24 is stored in `claim_ledger_v1_append_v24.json` as an append-only delta because the current GitHub contents connector cannot rewrite the now-large core JSON blob without truncation.
 - **Quality caveat:** “represented” is a coverage flag only. P2* claims and generic locators remain verification-pending.
 
 ## Status table
@@ -185,16 +186,16 @@
 | C161 | Philokalia — Mística cristiana; foco: apofatismo, unión, transformación. | Represented — over 13 | 16 | S052 |
 | C162 | The Ladder of Divine Ascent — Mística cristiana; foco: apofatismo, unión, transformación. | Represented — over 13 | 16 | S053 |
 | C163 | The Way of a Pilgrim — Mística cristiana; foco: apofatismo, unión, transformación. | Represented — under 13 | 8 | S027 |
-| C164 | Interior Castle — Mística cristiana; foco: apofatismo, unión, transformación. | Missing | 0 | — |
-| C165 | Dark Night of the Soul — Mística cristiana; foco: apofatismo, unión, transformación. | Missing | 0 | — |
-| C166 | Spiritual Canticle — Mística cristiana; foco: apofatismo, unión, transformación. | Missing | 0 | — |
-| C167 | Aurora — Mística cristiana; foco: conciencia, persona, realidad, transformación. | Missing | 0 | — |
-| C168 | De Signatura Rerum — Mística cristiana; foco: conciencia, persona, realidad, transformación. | Missing | 0 | — |
-| C169 | The Idea of the Holy — Mística cristiana; foco: apofatismo, unión, transformación. | Missing | 0 | — |
-| C170 | Arcana Coelestia — Mística cristiana; foco: conciencia, persona, realidad, transformación. | Missing | 0 | — |
-| C171 | Heaven and Hell — Mística cristiana; foco: conciencia, persona, realidad, transformación. | Missing | 0 | — |
-| C172 | Qur'an — Islam/Sufismo; foco: nafs, qalb, rūḥ, maʿrifa. | Missing | 0 | — |
-| C173 | Hadith Qudsi corpus — Islam/Sufismo; foco: nafs, qalb, rūḥ, maʿrifa. | Missing | 0 | — |
+| C164 | Interior Castle — Mística cristiana; foco: apofatismo, unión, transformación. | Represented — exactly 13 | 13 | S188 |
+| C165 | Dark Night of the Soul — Mística cristiana; foco: apofatismo, unión, transformación. | Represented — exactly 13 | 13 | S189 |
+| C166 | Spiritual Canticle — Mística cristiana; foco: apofatismo, unión, transformación. | Represented — exactly 13 | 13 | S190 |
+| C167 | Aurora — Mística cristiana; foco: conciencia, persona, realidad, transformación. | Represented — exactly 13 | 13 | S191 |
+| C168 | De Signatura Rerum — Mística cristiana; foco: conciencia, persona, realidad, transformación. | Represented — exactly 13 | 13 | S192 |
+| C169 | The Idea of the Holy — Mística cristiana; foco: apofatismo, unión, transformación. | Represented — exactly 13 | 13 | S193 |
+| C170 | Arcana Coelestia — Mística cristiana; foco: conciencia, persona, realidad, transformación. | Represented — exactly 13 | 13 | S194 |
+| C171 | Heaven and Hell — Mística cristiana; foco: conciencia, persona, realidad, transformación. | Represented — exactly 13 | 13 | S195 |
+| C172 | Qur'an — Islam/Sufismo; foco: nafs, qalb, rūḥ, maʿrifa. | Represented — exactly 13 | 13 | S196 |
+| C173 | Hadith Qudsi corpus — Islam/Sufismo; foco: nafs, qalb, rūḥ, maʿrifa. | Represented — exactly 13 | 13 | S197 |
 | C174 | Risala — Islam/Sufismo; foco: conciencia, persona, realidad, transformación. | Missing | 0 | — |
 | C175 | Kashf al-Mahjub — Islam/Sufismo; foco: conciencia, persona, realidad, transformación. | Missing | 0 | — |
 | C176 | Ihya Ulum al-Din — Islam/Sufismo; foco: conciencia, persona, realidad, transformación. | Represented — under 13 | 8 | S020 |
@@ -363,3 +364,12 @@
 - Current ledger: 2482 records / 187 source IDs.
 - Current register coverage: 184/325 represented; 141/325 still missing.
 - Exact-13 represented sources: 114.
+
+## Batch v24 checkpoint
+
+- Newly represented register entries: C164, C165, C166, C167, C168, C169, C170, C171, C172, C173.
+- Added claims: 130 (10 × 13), stored as append-only delta.
+- Effective ledger: 2612 records / 197 source IDs.
+- Core ledger: 2482 records / 187 source IDs.
+- Current register coverage: 194/325 represented; 131/325 still missing.
+- Exact-13 represented sources: 124.
