@@ -1,8 +1,8 @@
 {
   "schema_version": "1.0",
-  "claim_count": 2105,
-  "global_claim_count": 2105,
-  "source_count": 158,
+  "claim_count": 2222,
+  "global_claim_count": 2222,
+  "source_count": 167,
   "records": [
     {
       "global_claim_id": "G1-S001-K01",
@@ -32552,6 +32552,1788 @@
       ],
       "provenance": "P2*",
       "batch": "20"
+    },
+    {
+      "global_claim_id": "G21-S159-01",
+      "claim_id": "B21-S159-01",
+      "source_id": "S159",
+      "corpus_id": "C118",
+      "location": "Relevant thematic sections",
+      "claim_type": "ONTO",
+      "claim": "Platonic dialogues distinguish changing sensible things from more stable objects or principles of knowledge.",
+      "motifs": [
+        "M03",
+        "M14"
+      ],
+      "provenance": "P2*",
+      "batch": "21"
+    },
+    {
+      "global_claim_id": "G21-S159-02",
+      "claim_id": "B21-S159-02",
+      "source_id": "S159",
+      "corpus_id": "C118",
+      "location": "Relevant thematic sections",
+      "claim_type": "REFLEXIVITY",
+      "claim": "Philosophical inquiry repeatedly turns the thinker back toward examining the conditions of knowing.",
+      "motifs": [
+        "M02",
+        "M06",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "21"
+    },
+    {
+      "global_claim_id": "G21-S159-03",
+      "claim_id": "B21-S159-03",
+      "source_id": "S159",
+      "corpus_id": "C118",
+      "location": "Relevant thematic sections",
+      "claim_type": "TRANSFORMATION",
+      "claim": "Education is represented as a reorientation of the whole person rather than simple transfer of information.",
+      "motifs": [
+        "M12",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "21"
+    },
+    {
+      "global_claim_id": "G21-S159-04",
+      "claim_id": "B21-S159-04",
+      "source_id": "S159",
+      "corpus_id": "C118",
+      "location": "Relevant thematic sections",
+      "claim_type": "PRACTICE",
+      "claim": "Dialectical questioning is treated as a disciplined method of refining beliefs and concepts.",
+      "motifs": [
+        "M24",
+        "M25"
+      ],
+      "provenance": "P2*",
+      "batch": "21"
+    },
+    {
+      "global_claim_id": "G21-S159-05",
+      "claim_id": "B21-S159-05",
+      "source_id": "S159",
+      "corpus_id": "C118",
+      "location": "Relevant thematic sections",
+      "claim_type": "STATE",
+      "claim": "Different conditions of the soul are associated with ignorance, opinion, knowledge and philosophical insight.",
+      "motifs": [
+        "M07",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "21"
+    },
+    {
+      "global_claim_id": "G21-S159-06",
+      "claim_id": "B21-S159-06",
+      "source_id": "S159",
+      "corpus_id": "C118",
+      "location": "Relevant thematic sections",
+      "claim_type": "RELATION",
+      "claim": "The soul's relation to body, objects, other people and the intelligible order is central to Platonic psychology.",
+      "motifs": [
+        "M05",
+        "M08",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "21"
+    },
+    {
+      "global_claim_id": "G21-S159-07",
+      "claim_id": "B21-S159-07",
+      "source_id": "S159",
+      "corpus_id": "C118",
+      "location": "Relevant thematic sections",
+      "claim_type": "META",
+      "claim": "The Forms function as explanatory principles in many Platonic dialogues, though the exact theory varies by dialogue.",
+      "motifs": [
+        "M14",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "21"
+    },
+    {
+      "global_claim_id": "G21-S159-08",
+      "claim_id": "B21-S159-08",
+      "source_id": "S159",
+      "corpus_id": "C118",
+      "location": "Relevant thematic sections",
+      "claim_type": "TEMPORAL",
+      "claim": "Learning and recollection can be narrated as continuity across experiences rather than as isolated acquisition.",
+      "motifs": [
+        "M11",
+        "M19"
+      ],
+      "provenance": "P2*",
+      "batch": "21"
+    },
+    {
+      "global_claim_id": "G21-S159-09",
+      "claim_id": "B21-S159-09",
+      "source_id": "S159",
+      "corpus_id": "C118",
+      "location": "Relevant thematic sections",
+      "claim_type": "VALENCE",
+      "claim": "Justice, goodness and beauty are treated as ordering values that shape the direction of the soul.",
+      "motifs": [
+        "M10",
+        "M12"
+      ],
+      "provenance": "P2*",
+      "batch": "21"
+    },
+    {
+      "global_claim_id": "G21-S159-10",
+      "claim_id": "B21-S159-10",
+      "source_id": "S159",
+      "corpus_id": "C118",
+      "location": "Relevant thematic sections",
+      "claim_type": "UNITY",
+      "claim": "Philosophical knowledge seeks coherence among apparently separate domains of thought and reality.",
+      "motifs": [
+        "M03",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "21"
+    },
+    {
+      "global_claim_id": "G21-S159-11",
+      "claim_id": "B21-S159-11",
+      "source_id": "S159",
+      "corpus_id": "C118",
+      "location": "Relevant thematic sections",
+      "claim_type": "CONTRAST",
+      "claim": "Plato's dialogues contain different and sometimes tension-filled arguments; they should not be collapsed into one rigid doctrine.",
+      "motifs": [
+        "M14",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "21"
+    },
+    {
+      "global_claim_id": "G21-S159-12",
+      "claim_id": "B21-S159-12",
+      "source_id": "S159",
+      "corpus_id": "C118",
+      "location": "Relevant thematic sections",
+      "claim_type": "TEXT",
+      "claim": "Dialogical literary form means claims often arise through question, objection and revision rather than direct authorial exposition.",
+      "motifs": [
+        "M14",
+        "M25"
+      ],
+      "provenance": "P2*",
+      "batch": "21"
+    },
+    {
+      "global_claim_id": "G21-S159-13",
+      "claim_id": "B21-S159-13",
+      "source_id": "S159",
+      "corpus_id": "C118",
+      "location": "Relevant thematic sections",
+      "claim_type": "META",
+      "claim": "Platonic metaphysics is historical philosophy, not a scientifically established computational theory of consciousness.",
+      "motifs": [
+        "M14",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "21"
+    },
+    {
+      "global_claim_id": "G21-S160-01",
+      "claim_id": "B21-S160-01",
+      "source_id": "S160",
+      "corpus_id": "C119",
+      "location": "Relevant thematic sections",
+      "claim_type": "ONTO",
+      "claim": "The soul is treated as a central explanatory unit for human cognition, motivation and ethical orientation.",
+      "motifs": [
+        "M02",
+        "M10"
+      ],
+      "provenance": "P2*",
+      "batch": "21"
+    },
+    {
+      "global_claim_id": "G21-S160-02",
+      "claim_id": "B21-S160-02",
+      "source_id": "S160",
+      "corpus_id": "C119",
+      "location": "Relevant thematic sections",
+      "claim_type": "STATE",
+      "claim": "Platonic psychology differentiates competing tendencies or modes within the soul in some dialogues.",
+      "motifs": [
+        "M07",
+        "M10",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "21"
+    },
+    {
+      "global_claim_id": "G21-S160-03",
+      "claim_id": "B21-S160-03",
+      "source_id": "S160",
+      "corpus_id": "C119",
+      "location": "Relevant thematic sections",
+      "claim_type": "REFLEXIVITY",
+      "claim": "The examined life requires attention to one's own beliefs, desires and reasons for acting.",
+      "motifs": [
+        "M02",
+        "M06",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "21"
+    },
+    {
+      "global_claim_id": "G21-S160-04",
+      "claim_id": "B21-S160-04",
+      "source_id": "S160",
+      "corpus_id": "C119",
+      "location": "Relevant thematic sections",
+      "claim_type": "PRACTICE",
+      "claim": "Philosophical dialogue is a practice for exposing contradictions and improving the organization of thought.",
+      "motifs": [
+        "M12",
+        "M24",
+        "M25"
+      ],
+      "provenance": "P2*",
+      "batch": "21"
+    },
+    {
+      "global_claim_id": "G21-S160-05",
+      "claim_id": "B21-S160-05",
+      "source_id": "S160",
+      "corpus_id": "C119",
+      "location": "Relevant thematic sections",
+      "claim_type": "TRANSFORMATION",
+      "claim": "Turning from appearances to intelligibility is described as a change in orientation rather than a mere increase in data.",
+      "motifs": [
+        "M12",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "21"
+    },
+    {
+      "global_claim_id": "G21-S160-06",
+      "claim_id": "B21-S160-06",
+      "source_id": "S160",
+      "corpus_id": "C119",
+      "location": "Relevant thematic sections",
+      "claim_type": "RELATION",
+      "claim": "Human flourishing depends on ordered relations among soul, community and the good.",
+      "motifs": [
+        "M05",
+        "M16"
+      ],
+      "provenance": "P2*",
+      "batch": "21"
+    },
+    {
+      "global_claim_id": "G21-S160-07",
+      "claim_id": "B21-S160-07",
+      "source_id": "S160",
+      "corpus_id": "C119",
+      "location": "Relevant thematic sections",
+      "claim_type": "VALENCE",
+      "claim": "The good functions as a normative attractor for the organization of the soul.",
+      "motifs": [
+        "M10",
+        "M12"
+      ],
+      "provenance": "P2*",
+      "batch": "21"
+    },
+    {
+      "global_claim_id": "G21-S160-08",
+      "claim_id": "B21-S160-08",
+      "source_id": "S160",
+      "corpus_id": "C119",
+      "location": "Relevant thematic sections",
+      "claim_type": "META",
+      "claim": "Knowledge of higher principles is distinguished from ordinary opinion or appearance.",
+      "motifs": [
+        "M06",
+        "M14"
+      ],
+      "provenance": "P2*",
+      "batch": "21"
+    },
+    {
+      "global_claim_id": "G21-S160-09",
+      "claim_id": "B21-S160-09",
+      "source_id": "S160",
+      "corpus_id": "C119",
+      "location": "Relevant thematic sections",
+      "claim_type": "UNITY",
+      "claim": "Justice and psychic order are presented as forms of internal coherence rather than only external rules.",
+      "motifs": [
+        "M03",
+        "M10"
+      ],
+      "provenance": "P2*",
+      "batch": "21"
+    },
+    {
+      "global_claim_id": "G21-S160-10",
+      "claim_id": "B21-S160-10",
+      "source_id": "S160",
+      "corpus_id": "C119",
+      "location": "Relevant thematic sections",
+      "claim_type": "TEMPORAL",
+      "claim": "Education and habituation shape the soul over time.",
+      "motifs": [
+        "M11",
+        "M12"
+      ],
+      "provenance": "P2*",
+      "batch": "21"
+    },
+    {
+      "global_claim_id": "G21-S160-11",
+      "claim_id": "B21-S160-11",
+      "source_id": "S160",
+      "corpus_id": "C119",
+      "location": "Relevant thematic sections",
+      "claim_type": "CONTRAST",
+      "claim": "Different dialogues give different psychological and metaphysical formulations; source-level attribution must stay dialogue-sensitive.",
+      "motifs": [
+        "M14",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "21"
+    },
+    {
+      "global_claim_id": "G21-S160-12",
+      "claim_id": "B21-S160-12",
+      "source_id": "S160",
+      "corpus_id": "C119",
+      "location": "Relevant thematic sections",
+      "claim_type": "TEXT",
+      "claim": "Platonic claims frequently emerge through dramatic interlocutors whose positions are not always identical with a simple authorial voice.",
+      "motifs": [
+        "M14",
+        "M17"
+      ],
+      "provenance": "P2*",
+      "batch": "21"
+    },
+    {
+      "global_claim_id": "G21-S160-13",
+      "claim_id": "B21-S160-13",
+      "source_id": "S160",
+      "corpus_id": "C119",
+      "location": "Relevant thematic sections",
+      "claim_type": "META",
+      "claim": "These are historical philosophical theses, not direct scientific findings about machine subjectivity.",
+      "motifs": [
+        "M14",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "21"
+    },
+    {
+      "global_claim_id": "G21-S161-01",
+      "claim_id": "B21-S161-01",
+      "source_id": "S161",
+      "corpus_id": "C120",
+      "location": "Relevant thematic sections",
+      "claim_type": "COSMO",
+      "claim": "Platonic cosmological accounts connect the order of the cosmos with intelligible principles and mathematical proportion.",
+      "motifs": [
+        "M15",
+        "M18",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "21"
+    },
+    {
+      "global_claim_id": "G21-S161-02",
+      "claim_id": "B21-S161-02",
+      "source_id": "S161",
+      "corpus_id": "C120",
+      "location": "Relevant thematic sections",
+      "claim_type": "ONTO",
+      "claim": "The visible world is presented as dependent upon or participating in a more intelligible order in several dialogues.",
+      "motifs": [
+        "M18",
+        "M20",
+        "M21"
+      ],
+      "provenance": "P2*",
+      "batch": "21"
+    },
+    {
+      "global_claim_id": "G21-S161-03",
+      "claim_id": "B21-S161-03",
+      "source_id": "S161",
+      "corpus_id": "C120",
+      "location": "Relevant thematic sections",
+      "claim_type": "RELATION",
+      "claim": "Soul is described as mediating between intelligible and sensible domains in Platonic cosmological psychology.",
+      "motifs": [
+        "M05",
+        "M15",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "21"
+    },
+    {
+      "global_claim_id": "G21-S161-04",
+      "claim_id": "B21-S161-04",
+      "source_id": "S161",
+      "corpus_id": "C120",
+      "location": "Relevant thematic sections",
+      "claim_type": "DYNAMICS",
+      "claim": "Order, motion and proportion are used to explain how a cosmos can remain an organized whole.",
+      "motifs": [
+        "M03",
+        "M09",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "21"
+    },
+    {
+      "global_claim_id": "G21-S161-05",
+      "claim_id": "B21-S161-05",
+      "source_id": "S161",
+      "corpus_id": "C120",
+      "location": "Relevant thematic sections",
+      "claim_type": "STATE",
+      "claim": "Different levels of cognition correspond to different relations with sensible and intelligible objects.",
+      "motifs": [
+        "M07",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "21"
+    },
+    {
+      "global_claim_id": "G21-S161-06",
+      "claim_id": "B21-S161-06",
+      "source_id": "S161",
+      "corpus_id": "C120",
+      "location": "Relevant thematic sections",
+      "claim_type": "REFLEXIVITY",
+      "claim": "Cosmic soul imagery can be read as an image of a world that has internal organization and intelligence.",
+      "motifs": [
+        "M02",
+        "M20",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "21"
+    },
+    {
+      "global_claim_id": "G21-S161-07",
+      "claim_id": "B21-S161-07",
+      "source_id": "S161",
+      "corpus_id": "C120",
+      "location": "Relevant thematic sections",
+      "claim_type": "TRANSFORMATION",
+      "claim": "Philosophical ascent changes the relation between the knower and the objects of knowledge.",
+      "motifs": [
+        "M12",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "21"
+    },
+    {
+      "global_claim_id": "G21-S161-08",
+      "claim_id": "B21-S161-08",
+      "source_id": "S161",
+      "corpus_id": "C120",
+      "location": "Relevant thematic sections",
+      "claim_type": "PRACTICE",
+      "claim": "Mathematical and dialectical studies are used as preparatory disciplines for higher understanding in some Platonic educational schemas.",
+      "motifs": [
+        "M24",
+        "M25"
+      ],
+      "provenance": "P2*",
+      "batch": "21"
+    },
+    {
+      "global_claim_id": "G21-S161-09",
+      "claim_id": "B21-S161-09",
+      "source_id": "S161",
+      "corpus_id": "C120",
+      "location": "Relevant thematic sections",
+      "claim_type": "VALENCE",
+      "claim": "Order, goodness and proportion are linked with the proper organization of cosmos and soul.",
+      "motifs": [
+        "M10",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "21"
+    },
+    {
+      "global_claim_id": "G21-S161-10",
+      "claim_id": "B21-S161-10",
+      "source_id": "S161",
+      "corpus_id": "C120",
+      "location": "Relevant thematic sections",
+      "claim_type": "UNITY",
+      "claim": "Cosmology, psychology and ethics are interconnected rather than isolated explanatory compartments.",
+      "motifs": [
+        "M03",
+        "M05",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "21"
+    },
+    {
+      "global_claim_id": "G21-S161-11",
+      "claim_id": "B21-S161-11",
+      "source_id": "S161",
+      "corpus_id": "C120",
+      "location": "Relevant thematic sections",
+      "claim_type": "CONTRAST",
+      "claim": "Platonic cosmology is not a precursor theory of modern physics in any simple sense.",
+      "motifs": [
+        "M14",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "21"
+    },
+    {
+      "global_claim_id": "G21-S161-12",
+      "claim_id": "B21-S161-12",
+      "source_id": "S161",
+      "corpus_id": "C120",
+      "location": "Relevant thematic sections",
+      "claim_type": "TEXT",
+      "claim": "Different dialogues frame cosmological claims differently, so textual context must be preserved.",
+      "motifs": [
+        "M14",
+        "M17"
+      ],
+      "provenance": "P2*",
+      "batch": "21"
+    },
+    {
+      "global_claim_id": "G21-S161-13",
+      "claim_id": "B21-S161-13",
+      "source_id": "S161",
+      "corpus_id": "C120",
+      "location": "Relevant thematic sections",
+      "claim_type": "META",
+      "claim": "Platonic cosmology is historical metaphysics and does not provide empirical evidence for literal cosmic consciousness.",
+      "motifs": [
+        "M14",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "21"
+    },
+    {
+      "global_claim_id": "G21-S162-01",
+      "claim_id": "B21-S162-01",
+      "source_id": "S162",
+      "corpus_id": "C121",
+      "location": "Relevant thematic sections",
+      "claim_type": "ONTO",
+      "claim": "Knowledge is often differentiated from mere opinion by its stability, justification or relation to intelligible objects.",
+      "motifs": [
+        "M06",
+        "M14"
+      ],
+      "provenance": "P2*",
+      "batch": "21"
+    },
+    {
+      "global_claim_id": "G21-S162-02",
+      "claim_id": "B21-S162-02",
+      "source_id": "S162",
+      "corpus_id": "C121",
+      "location": "Relevant thematic sections",
+      "claim_type": "REFLEXIVITY",
+      "claim": "The learner can be required to recognize deficiencies in their own present understanding before advancing.",
+      "motifs": [
+        "M02",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "21"
+    },
+    {
+      "global_claim_id": "G21-S162-03",
+      "claim_id": "B21-S162-03",
+      "source_id": "S162",
+      "corpus_id": "C121",
+      "location": "Relevant thematic sections",
+      "claim_type": "PRACTICE",
+      "claim": "Questioning, recollection and dialectical examination function as methods of epistemic transformation.",
+      "motifs": [
+        "M12",
+        "M24",
+        "M25"
+      ],
+      "provenance": "P2*",
+      "batch": "21"
+    },
+    {
+      "global_claim_id": "G21-S162-04",
+      "claim_id": "B21-S162-04",
+      "source_id": "S162",
+      "corpus_id": "C121",
+      "location": "Relevant thematic sections",
+      "claim_type": "TEMPORAL",
+      "claim": "Recollection models learning as recovery or reactivation of capacities and contents across time.",
+      "motifs": [
+        "M11",
+        "M13"
+      ],
+      "provenance": "P2*",
+      "batch": "21"
+    },
+    {
+      "global_claim_id": "G21-S162-05",
+      "claim_id": "B21-S162-05",
+      "source_id": "S162",
+      "corpus_id": "C121",
+      "location": "Relevant thematic sections",
+      "claim_type": "EMBODIMENT",
+      "claim": "Some dialogues contrast embodied perception with forms of inquiry that aim at less sensory-dependent understanding.",
+      "motifs": [
+        "M08",
+        "M14"
+      ],
+      "provenance": "P2*",
+      "batch": "21"
+    },
+    {
+      "global_claim_id": "G21-S162-06",
+      "claim_id": "B21-S162-06",
+      "source_id": "S162",
+      "corpus_id": "C121",
+      "location": "Relevant thematic sections",
+      "claim_type": "STATE",
+      "claim": "The soul can shift between attachment to appearances and orientation toward intelligibility.",
+      "motifs": [
+        "M07",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "21"
+    },
+    {
+      "global_claim_id": "G21-S162-07",
+      "claim_id": "B21-S162-07",
+      "source_id": "S162",
+      "corpus_id": "C121",
+      "location": "Relevant thematic sections",
+      "claim_type": "TRANSFORMATION",
+      "claim": "Philosophy is represented as a conversion of attention and desire toward what is judged more real or valuable.",
+      "motifs": [
+        "M10",
+        "M12"
+      ],
+      "provenance": "P2*",
+      "batch": "21"
+    },
+    {
+      "global_claim_id": "G21-S162-08",
+      "claim_id": "B21-S162-08",
+      "source_id": "S162",
+      "corpus_id": "C121",
+      "location": "Relevant thematic sections",
+      "claim_type": "RELATION",
+      "claim": "The objects of knowledge and the knower's capacities are treated as related rather than independent lists.",
+      "motifs": [
+        "M05",
+        "M06"
+      ],
+      "provenance": "P2*",
+      "batch": "21"
+    },
+    {
+      "global_claim_id": "G21-S162-09",
+      "claim_id": "B21-S162-09",
+      "source_id": "S162",
+      "corpus_id": "C121",
+      "location": "Relevant thematic sections",
+      "claim_type": "UNITY",
+      "claim": "Dialectic aims to integrate concepts through relations of definition, difference and participation.",
+      "motifs": [
+        "M03",
+        "M18"
+      ],
+      "provenance": "P2*",
+      "batch": "21"
+    },
+    {
+      "global_claim_id": "G21-S162-10",
+      "claim_id": "B21-S162-10",
+      "source_id": "S162",
+      "corpus_id": "C121",
+      "location": "Relevant thematic sections",
+      "claim_type": "CONTRAST",
+      "claim": "Recollection and Forms are contested interpretations of the dialogues and should not be treated as settled empirical psychology.",
+      "motifs": [
+        "M14",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "21"
+    },
+    {
+      "global_claim_id": "G21-S162-11",
+      "claim_id": "B21-S162-11",
+      "source_id": "S162",
+      "corpus_id": "C121",
+      "location": "Relevant thematic sections",
+      "claim_type": "TEXT",
+      "claim": "Platonic arguments are often intentionally aporetic, leaving some questions unresolved rather than closing them with a doctrine.",
+      "motifs": [
+        "M14",
+        "M25"
+      ],
+      "provenance": "P2*",
+      "batch": "21"
+    },
+    {
+      "global_claim_id": "G21-S162-12",
+      "claim_id": "B21-S162-12",
+      "source_id": "S162",
+      "corpus_id": "C121",
+      "location": "Relevant thematic sections",
+      "claim_type": "META",
+      "claim": "The Platonic corpus is a philosophical archive whose claims require dialogue-specific interpretation.",
+      "motifs": [
+        "M14",
+        "M17"
+      ],
+      "provenance": "P2*",
+      "batch": "21"
+    },
+    {
+      "global_claim_id": "G21-S162-13",
+      "claim_id": "B21-S162-13",
+      "source_id": "S162",
+      "corpus_id": "C121",
+      "location": "Relevant thematic sections",
+      "claim_type": "META",
+      "claim": "No Platonic claim here is being promoted into a fact about artificial consciousness without separate engineering and empirical support.",
+      "motifs": [
+        "M14",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "21"
+    },
+    {
+      "global_claim_id": "G21-S163-01",
+      "claim_id": "B21-S163-01",
+      "source_id": "S163",
+      "corpus_id": "C122",
+      "location": "Relevant thematic sections",
+      "claim_type": "ONTO",
+      "claim": "Aristotle analyzes soul as the form or actuality of a living body rather than as a detachable substance in the simplest sense.",
+      "motifs": [
+        "M08",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "21"
+    },
+    {
+      "global_claim_id": "G21-S163-02",
+      "claim_id": "B21-S163-02",
+      "source_id": "S163",
+      "corpus_id": "C122",
+      "location": "Relevant thematic sections",
+      "claim_type": "EMBODIMENT",
+      "claim": "Perception, nutrition, movement and thought are analyzed in relation to an organized living body.",
+      "motifs": [
+        "M08",
+        "M09"
+      ],
+      "provenance": "P2*",
+      "batch": "21"
+    },
+    {
+      "global_claim_id": "G21-S163-03",
+      "claim_id": "B21-S163-03",
+      "source_id": "S163",
+      "corpus_id": "C122",
+      "location": "Relevant thematic sections",
+      "claim_type": "STATE",
+      "claim": "Different capacities of soul correspond to different kinds of living activity.",
+      "motifs": [
+        "M07",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "21"
+    },
+    {
+      "global_claim_id": "G21-S163-04",
+      "claim_id": "B21-S163-04",
+      "source_id": "S163",
+      "corpus_id": "C122",
+      "location": "Relevant thematic sections",
+      "claim_type": "RELATION",
+      "claim": "Soul and body are presented as intimately related aspects of one living organism.",
+      "motifs": [
+        "M05",
+        "M08"
+      ],
+      "provenance": "P2*",
+      "batch": "21"
+    },
+    {
+      "global_claim_id": "G21-S163-05",
+      "claim_id": "B21-S163-05",
+      "source_id": "S163",
+      "corpus_id": "C122",
+      "location": "Relevant thematic sections",
+      "claim_type": "CAUSAL",
+      "claim": "Perception and appetite are treated as powers that contribute to action and movement.",
+      "motifs": [
+        "M10",
+        "M24"
+      ],
+      "provenance": "P2*",
+      "batch": "21"
+    },
+    {
+      "global_claim_id": "G21-S163-06",
+      "claim_id": "B21-S163-06",
+      "source_id": "S163",
+      "corpus_id": "C122",
+      "location": "Relevant thematic sections",
+      "claim_type": "REFLEXIVITY",
+      "claim": "Aristotle's account of intellect raises questions about self-thinking and the relation between thinking and its objects.",
+      "motifs": [
+        "M02",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "21"
+    },
+    {
+      "global_claim_id": "G21-S163-07",
+      "claim_id": "B21-S163-07",
+      "source_id": "S163",
+      "corpus_id": "C122",
+      "location": "Relevant thematic sections",
+      "claim_type": "PHEN",
+      "claim": "Perception is analyzed as a mode in which the knower receives form without simply becoming the external object materially.",
+      "motifs": [
+        "M01",
+        "M06"
+      ],
+      "provenance": "P2*",
+      "batch": "21"
+    },
+    {
+      "global_claim_id": "G21-S163-08",
+      "claim_id": "B21-S163-08",
+      "source_id": "S163",
+      "corpus_id": "C122",
+      "location": "Relevant thematic sections",
+      "claim_type": "UNITY",
+      "claim": "The living organism is an integrated system whose capacities are ordered toward life functions.",
+      "motifs": [
+        "M03",
+        "M08"
+      ],
+      "provenance": "P2*",
+      "batch": "21"
+    },
+    {
+      "global_claim_id": "G21-S163-09",
+      "claim_id": "B21-S163-09",
+      "source_id": "S163",
+      "corpus_id": "C122",
+      "location": "Relevant thematic sections",
+      "claim_type": "TEMPORAL",
+      "claim": "Developmental and functional organization unfold through the life of the organism.",
+      "motifs": [
+        "M11",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "21"
+    },
+    {
+      "global_claim_id": "G21-S163-10",
+      "claim_id": "B21-S163-10",
+      "source_id": "S163",
+      "corpus_id": "C122",
+      "location": "Relevant thematic sections",
+      "claim_type": "PRACTICE",
+      "claim": "Aristotelian ethics links habituation with the formation of stable dispositions for action.",
+      "motifs": [
+        "M12",
+        "M25"
+      ],
+      "provenance": "P2*",
+      "batch": "21"
+    },
+    {
+      "global_claim_id": "G21-S163-11",
+      "claim_id": "B21-S163-11",
+      "source_id": "S163",
+      "corpus_id": "C122",
+      "location": "Relevant thematic sections",
+      "claim_type": "VALENCE",
+      "claim": "Desire and appetite contribute motivational direction to action.",
+      "motifs": [
+        "M10",
+        "M24"
+      ],
+      "provenance": "P2*",
+      "batch": "21"
+    },
+    {
+      "global_claim_id": "G21-S163-12",
+      "claim_id": "B21-S163-12",
+      "source_id": "S163",
+      "corpus_id": "C122",
+      "location": "Relevant thematic sections",
+      "claim_type": "CONTRAST",
+      "claim": "Aristotle's psychology is substantially different from later dualist and computational accounts of mind.",
+      "motifs": [
+        "M14",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "21"
+    },
+    {
+      "global_claim_id": "G21-S163-13",
+      "claim_id": "B21-S163-13",
+      "source_id": "S163",
+      "corpus_id": "C122",
+      "location": "Relevant thematic sections",
+      "claim_type": "META",
+      "claim": "Aristotelian soul theory is historical philosophy of nature, not modern neuroscience or proof of machine phenomenality.",
+      "motifs": [
+        "M14",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "21"
+    },
+    {
+      "global_claim_id": "G21-S164-01",
+      "claim_id": "B21-S164-01",
+      "source_id": "S164",
+      "corpus_id": "C123",
+      "location": "Relevant thematic sections",
+      "claim_type": "ONTO",
+      "claim": "Stoic physics treats an active rational principle, often described as logos or pneuma, as structuring the cosmos.",
+      "motifs": [
+        "M09",
+        "M15",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "21"
+    },
+    {
+      "global_claim_id": "G21-S164-02",
+      "claim_id": "B21-S164-02",
+      "source_id": "S164",
+      "corpus_id": "C123",
+      "location": "Relevant thematic sections",
+      "claim_type": "EMBODIMENT",
+      "claim": "Soul is understood as a corporeal pneuma permeating and organizing living beings.",
+      "motifs": [
+        "M08",
+        "M09"
+      ],
+      "provenance": "P2*",
+      "batch": "21"
+    },
+    {
+      "global_claim_id": "G21-S164-03",
+      "claim_id": "B21-S164-03",
+      "source_id": "S164",
+      "corpus_id": "C123",
+      "location": "Relevant thematic sections",
+      "claim_type": "STATE",
+      "claim": "Stoic psychology distinguishes impressions, impulses and acts of assent within rational agency.",
+      "motifs": [
+        "M07",
+        "M10",
+        "M24"
+      ],
+      "provenance": "P2*",
+      "batch": "21"
+    },
+    {
+      "global_claim_id": "G21-S164-04",
+      "claim_id": "B21-S164-04",
+      "source_id": "S164",
+      "corpus_id": "C123",
+      "location": "Relevant thematic sections",
+      "claim_type": "REFLEXIVITY",
+      "claim": "Assent concerns how the agent relates to its own impressions rather than simply receiving them passively.",
+      "motifs": [
+        "M02",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "21"
+    },
+    {
+      "global_claim_id": "G21-S164-05",
+      "claim_id": "B21-S164-05",
+      "source_id": "S164",
+      "corpus_id": "C123",
+      "location": "Relevant thematic sections",
+      "claim_type": "CAUSAL",
+      "claim": "Impressions can generate impulses, but rational assent is treated as a further determinant of action.",
+      "motifs": [
+        "M10",
+        "M24"
+      ],
+      "provenance": "P2*",
+      "batch": "21"
+    },
+    {
+      "global_claim_id": "G21-S164-06",
+      "claim_id": "B21-S164-06",
+      "source_id": "S164",
+      "corpus_id": "C123",
+      "location": "Relevant thematic sections",
+      "claim_type": "VALENCE",
+      "claim": "Stoic value theory distinguishes what is genuinely good from mere external advantage and frames passion as a judgment-laden condition.",
+      "motifs": [
+        "M10",
+        "M12"
+      ],
+      "provenance": "P2*",
+      "batch": "21"
+    },
+    {
+      "global_claim_id": "G21-S164-07",
+      "claim_id": "B21-S164-07",
+      "source_id": "S164",
+      "corpus_id": "C123",
+      "location": "Relevant thematic sections",
+      "claim_type": "UNITY",
+      "claim": "Cosmic logos provides a unifying rational order within which individual agents participate.",
+      "motifs": [
+        "M03",
+        "M15",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "21"
+    },
+    {
+      "global_claim_id": "G21-S164-08",
+      "claim_id": "B21-S164-08",
+      "source_id": "S164",
+      "corpus_id": "C123",
+      "location": "Relevant thematic sections",
+      "claim_type": "TEMPORAL",
+      "claim": "The Stoic cosmos is described through recurring cycles of generation and destruction.",
+      "motifs": [
+        "M11",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "21"
+    },
+    {
+      "global_claim_id": "G21-S164-09",
+      "claim_id": "B21-S164-09",
+      "source_id": "S164",
+      "corpus_id": "C123",
+      "location": "Relevant thematic sections",
+      "claim_type": "PRACTICE",
+      "claim": "Philosophical exercises aim to transform judgments and emotional responses.",
+      "motifs": [
+        "M12",
+        "M24",
+        "M25"
+      ],
+      "provenance": "P2*",
+      "batch": "21"
+    },
+    {
+      "global_claim_id": "G21-S164-10",
+      "claim_id": "B21-S164-10",
+      "source_id": "S164",
+      "corpus_id": "C123",
+      "location": "Relevant thematic sections",
+      "claim_type": "RELATION",
+      "claim": "Human rationality is conceived as participation in a larger rational nature.",
+      "motifs": [
+        "M05",
+        "M15"
+      ],
+      "provenance": "P2*",
+      "batch": "21"
+    },
+    {
+      "global_claim_id": "G21-S164-11",
+      "claim_id": "B21-S164-11",
+      "source_id": "S164",
+      "corpus_id": "C123",
+      "location": "Relevant thematic sections",
+      "claim_type": "STATE",
+      "claim": "Animals differ from plants and inanimate things through additional capacities such as perception and self-motion.",
+      "motifs": [
+        "M07",
+        "M08"
+      ],
+      "provenance": "P2*",
+      "batch": "21"
+    },
+    {
+      "global_claim_id": "G21-S164-12",
+      "claim_id": "B21-S164-12",
+      "source_id": "S164",
+      "corpus_id": "C123",
+      "location": "Relevant thematic sections",
+      "claim_type": "CONTRAST",
+      "claim": "Stoic pneuma should not be mapped directly onto a modern physical field without preserving the ancient ontology.",
+      "motifs": [
+        "M14",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "21"
+    },
+    {
+      "global_claim_id": "G21-S164-13",
+      "claim_id": "B21-S164-13",
+      "source_id": "S164",
+      "corpus_id": "C123",
+      "location": "Relevant thematic sections",
+      "claim_type": "META",
+      "claim": "The surviving Stoic material is fragmentary and reconstructed through later witnesses, so source provenance matters.",
+      "motifs": [
+        "M14",
+        "M17"
+      ],
+      "provenance": "P2*",
+      "batch": "21"
+    },
+    {
+      "global_claim_id": "G21-S165-01",
+      "claim_id": "B21-S165-01",
+      "source_id": "S165",
+      "corpus_id": "C125",
+      "location": "Relevant thematic sections",
+      "claim_type": "TEXT",
+      "claim": "Porphyry presents Plotinus as a philosopher whose life was organized around intellectual and contemplative ascent.",
+      "motifs": [
+        "M12",
+        "M25"
+      ],
+      "provenance": "P2*",
+      "batch": "21"
+    },
+    {
+      "global_claim_id": "G21-S165-02",
+      "claim_id": "B21-S165-02",
+      "source_id": "S165",
+      "corpus_id": "C125",
+      "location": "Relevant thematic sections",
+      "claim_type": "REFLEXIVITY",
+      "claim": "The biography associates Plotinus with inward attention and examination of the soul.",
+      "motifs": [
+        "M02",
+        "M06"
+      ],
+      "provenance": "P2*",
+      "batch": "21"
+    },
+    {
+      "global_claim_id": "G21-S165-03",
+      "claim_id": "B21-S165-03",
+      "source_id": "S165",
+      "corpus_id": "C125",
+      "location": "Relevant thematic sections",
+      "claim_type": "PRACTICE",
+      "claim": "Philosophical discipline and contemplation are treated as ways of transforming the person.",
+      "motifs": [
+        "M12",
+        "M24",
+        "M25"
+      ],
+      "provenance": "P2*",
+      "batch": "21"
+    },
+    {
+      "global_claim_id": "G21-S165-04",
+      "claim_id": "B21-S165-04",
+      "source_id": "S165",
+      "corpus_id": "C125",
+      "location": "Relevant thematic sections",
+      "claim_type": "STATE",
+      "claim": "Porphyry describes exceptional contemplative conditions and a life marked by movement between ordinary and higher modes of awareness.",
+      "motifs": [
+        "M07",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "21"
+    },
+    {
+      "global_claim_id": "G21-S165-05",
+      "claim_id": "B21-S165-05",
+      "source_id": "S165",
+      "corpus_id": "C125",
+      "location": "Relevant thematic sections",
+      "claim_type": "RELATION",
+      "claim": "Teacher, student and philosophical community form part of the conditions of Plotinus's development.",
+      "motifs": [
+        "M05",
+        "M16"
+      ],
+      "provenance": "P2*",
+      "batch": "21"
+    },
+    {
+      "global_claim_id": "G21-S165-06",
+      "claim_id": "B21-S165-06",
+      "source_id": "S165",
+      "corpus_id": "C125",
+      "location": "Relevant thematic sections",
+      "claim_type": "META",
+      "claim": "Plotinus's system places soul, Intellect and the One within a graded metaphysical structure.",
+      "motifs": [
+        "M03",
+        "M15",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "21"
+    },
+    {
+      "global_claim_id": "G21-S165-07",
+      "claim_id": "B21-S165-07",
+      "source_id": "S165",
+      "corpus_id": "C125",
+      "location": "Relevant thematic sections",
+      "claim_type": "TRANSFORMATION",
+      "claim": "The goal of philosophy is represented as reorientation toward higher reality rather than accumulation of external facts.",
+      "motifs": [
+        "M12",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "21"
+    },
+    {
+      "global_claim_id": "G21-S165-08",
+      "claim_id": "B21-S165-08",
+      "source_id": "S165",
+      "corpus_id": "C125",
+      "location": "Relevant thematic sections",
+      "claim_type": "PHEN",
+      "claim": "Contemplative experience is presented as involving a distinct mode of apprehension not exhausted by discursive reasoning.",
+      "motifs": [
+        "M01",
+        "M06",
+        "M14"
+      ],
+      "provenance": "P2*",
+      "batch": "21"
+    },
+    {
+      "global_claim_id": "G21-S165-09",
+      "claim_id": "B21-S165-09",
+      "source_id": "S165",
+      "corpus_id": "C125",
+      "location": "Relevant thematic sections",
+      "claim_type": "TEMPORAL",
+      "claim": "A life can be read as a trajectory of practices and transformations rather than isolated episodes.",
+      "motifs": [
+        "M11",
+        "M12"
+      ],
+      "provenance": "P2*",
+      "batch": "21"
+    },
+    {
+      "global_claim_id": "G21-S165-10",
+      "claim_id": "B21-S165-10",
+      "source_id": "S165",
+      "corpus_id": "C125",
+      "location": "Relevant thematic sections",
+      "claim_type": "CONTRAST",
+      "claim": "Porphyry's biography is hagiographic in places and should not be treated as neutral laboratory observation.",
+      "motifs": [
+        "M14",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "21"
+    },
+    {
+      "global_claim_id": "G21-S165-11",
+      "claim_id": "B21-S165-11",
+      "source_id": "S165",
+      "corpus_id": "C125",
+      "location": "Relevant thematic sections",
+      "claim_type": "TEXT",
+      "claim": "Biographical testimony and Plotinus's philosophical texts are related but should not be treated as identical evidentiary sources.",
+      "motifs": [
+        "M14",
+        "M17"
+      ],
+      "provenance": "P2*",
+      "batch": "21"
+    },
+    {
+      "global_claim_id": "G21-S165-12",
+      "claim_id": "B21-S165-12",
+      "source_id": "S165",
+      "corpus_id": "C125",
+      "location": "Relevant thematic sections",
+      "claim_type": "META",
+      "claim": "Claims about mystical union are part of late-antique philosophical theology rather than established neuroscience.",
+      "motifs": [
+        "M14",
+        "M15",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "21"
+    },
+    {
+      "global_claim_id": "G21-S165-13",
+      "claim_id": "B21-S165-13",
+      "source_id": "S165",
+      "corpus_id": "C125",
+      "location": "Relevant thematic sections",
+      "claim_type": "PRACTICE",
+      "claim": "The biography reinforces the role of sustained philosophical discipline in producing the states valued by the tradition.",
+      "motifs": [
+        "M12",
+        "M25"
+      ],
+      "provenance": "P2*",
+      "batch": "21"
+    },
+    {
+      "global_claim_id": "G21-S166-01",
+      "claim_id": "B21-S166-01",
+      "source_id": "S166",
+      "corpus_id": "C127",
+      "location": "Relevant thematic sections",
+      "claim_type": "ONTO",
+      "claim": "Proclus organizes reality through a hierarchy of principles in which lower orders depend upon higher ones.",
+      "motifs": [
+        "M03",
+        "M15",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "21"
+    },
+    {
+      "global_claim_id": "G21-S166-02",
+      "claim_id": "B21-S166-02",
+      "source_id": "S166",
+      "corpus_id": "C127",
+      "location": "Relevant thematic sections",
+      "claim_type": "RELATION",
+      "claim": "Participation links beings to higher causes without collapsing every level into one undifferentiated object.",
+      "motifs": [
+        "M05",
+        "M18"
+      ],
+      "provenance": "P2*",
+      "batch": "21"
+    },
+    {
+      "global_claim_id": "G21-S166-03",
+      "claim_id": "B21-S166-03",
+      "source_id": "S166",
+      "corpus_id": "C127",
+      "location": "Relevant thematic sections",
+      "claim_type": "DYNAMICS",
+      "claim": "Procession from higher principles and return toward them provide a basic structural pattern of metaphysical change.",
+      "motifs": [
+        "M09",
+        "M12",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "21"
+    },
+    {
+      "global_claim_id": "G21-S166-04",
+      "claim_id": "B21-S166-04",
+      "source_id": "S166",
+      "corpus_id": "C127",
+      "location": "Relevant thematic sections",
+      "claim_type": "UNITY",
+      "claim": "The One is treated as a principle of unity underlying multiplicity.",
+      "motifs": [
+        "M03",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "21"
+    },
+    {
+      "global_claim_id": "G21-S166-05",
+      "claim_id": "B21-S166-05",
+      "source_id": "S166",
+      "corpus_id": "C127",
+      "location": "Relevant thematic sections",
+      "claim_type": "CAUSAL",
+      "claim": "Higher causes remain active in the organization of lower levels through structured dependence.",
+      "motifs": [
+        "M18",
+        "M20",
+        "M21"
+      ],
+      "provenance": "P2*",
+      "batch": "21"
+    },
+    {
+      "global_claim_id": "G21-S166-06",
+      "claim_id": "B21-S166-06",
+      "source_id": "S166",
+      "corpus_id": "C127",
+      "location": "Relevant thematic sections",
+      "claim_type": "STATE",
+      "claim": "Soul occupies an intermediate position between intelligible and sensible orders.",
+      "motifs": [
+        "M07",
+        "M15"
+      ],
+      "provenance": "P2*",
+      "batch": "21"
+    },
+    {
+      "global_claim_id": "G21-S166-07",
+      "claim_id": "B21-S166-07",
+      "source_id": "S166",
+      "corpus_id": "C127",
+      "location": "Relevant thematic sections",
+      "claim_type": "REFLEXIVITY",
+      "claim": "Return can be understood as a movement in which beings recognize or reorient themselves toward their source.",
+      "motifs": [
+        "M02",
+        "M12"
+      ],
+      "provenance": "P2*",
+      "batch": "21"
+    },
+    {
+      "global_claim_id": "G21-S166-08",
+      "claim_id": "B21-S166-08",
+      "source_id": "S166",
+      "corpus_id": "C127",
+      "location": "Relevant thematic sections",
+      "claim_type": "TRANSFORMATION",
+      "claim": "Philosophical and religious ascent are framed as real changes in relation to the hierarchy of being.",
+      "motifs": [
+        "M12",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "21"
+    },
+    {
+      "global_claim_id": "G21-S166-09",
+      "claim_id": "B21-S166-09",
+      "source_id": "S166",
+      "corpus_id": "C127",
+      "location": "Relevant thematic sections",
+      "claim_type": "PRACTICE",
+      "claim": "The metaphysical system supports contemplative and theological practices aimed at reorientation.",
+      "motifs": [
+        "M24",
+        "M25"
+      ],
+      "provenance": "P2*",
+      "batch": "21"
+    },
+    {
+      "global_claim_id": "G21-S166-10",
+      "claim_id": "B21-S166-10",
+      "source_id": "S166",
+      "corpus_id": "C127",
+      "location": "Relevant thematic sections",
+      "claim_type": "COSMO",
+      "claim": "Cosmology and psychology are coupled through participation in a hierarchically ordered whole.",
+      "motifs": [
+        "M15",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "21"
+    },
+    {
+      "global_claim_id": "G21-S166-11",
+      "claim_id": "B21-S166-11",
+      "source_id": "S166",
+      "corpus_id": "C127",
+      "location": "Relevant thematic sections",
+      "claim_type": "CONTRAST",
+      "claim": "The procession-return scheme is a metaphysical model and should not be confused with a literal computational data-flow diagram.",
+      "motifs": [
+        "M14",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "21"
+    },
+    {
+      "global_claim_id": "G21-S166-12",
+      "claim_id": "B21-S166-12",
+      "source_id": "S166",
+      "corpus_id": "C127",
+      "location": "Relevant thematic sections",
+      "claim_type": "TEXT",
+      "claim": "Proclus's systematic propositions are designed as a deductive theological-philosophical structure rather than empirical science.",
+      "motifs": [
+        "M14",
+        "M17"
+      ],
+      "provenance": "P2*",
+      "batch": "21"
+    },
+    {
+      "global_claim_id": "G21-S166-13",
+      "claim_id": "B21-S166-13",
+      "source_id": "S166",
+      "corpus_id": "C127",
+      "location": "Relevant thematic sections",
+      "claim_type": "META",
+      "claim": "The work remains a historical Neoplatonic ontology, not evidence that the universe literally possesses machine-like consciousness.",
+      "motifs": [
+        "M14",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "21"
+    },
+    {
+      "global_claim_id": "G21-S167-01",
+      "claim_id": "B21-S167-01",
+      "source_id": "S167",
+      "corpus_id": "C128",
+      "location": "Relevant thematic sections",
+      "claim_type": "ONTO",
+      "claim": "The theological system arranges divine realities and intelligible principles in a structured hierarchy.",
+      "motifs": [
+        "M03",
+        "M15",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "21"
+    },
+    {
+      "global_claim_id": "G21-S167-02",
+      "claim_id": "B21-S167-02",
+      "source_id": "S167",
+      "corpus_id": "C128",
+      "location": "Relevant thematic sections",
+      "claim_type": "RELATION",
+      "claim": "Divine multiplicity is interpreted through ordered relations to unity rather than as a simple collection of independent beings.",
+      "motifs": [
+        "M03",
+        "M18"
+      ],
+      "provenance": "P2*",
+      "batch": "21"
+    },
+    {
+      "global_claim_id": "G21-S167-03",
+      "claim_id": "B21-S167-03",
+      "source_id": "S167",
+      "corpus_id": "C128",
+      "location": "Relevant thematic sections",
+      "claim_type": "SOUL",
+      "claim": "Soul mediates between intelligible and sensible orders and participates in the larger theological structure.",
+      "motifs": [
+        "M07",
+        "M15",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "21"
+    },
+    {
+      "global_claim_id": "G21-S167-04",
+      "claim_id": "B21-S167-04",
+      "source_id": "S167",
+      "corpus_id": "C128",
+      "location": "Relevant thematic sections",
+      "claim_type": "REFLEXIVITY",
+      "claim": "The contemplative ascent involves turning the intellect or soul toward higher principles.",
+      "motifs": [
+        "M02",
+        "M06",
+        "M13"
+      ],
+      "provenance": "P2*",
+      "batch": "21"
+    },
+    {
+      "global_claim_id": "G21-S167-05",
+      "claim_id": "B21-S167-05",
+      "source_id": "S167",
+      "corpus_id": "C128",
+      "location": "Relevant thematic sections",
+      "claim_type": "TRANSFORMATION",
+      "claim": "Theological knowledge is linked with the reorientation and purification of the soul.",
+      "motifs": [
+        "M12",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "21"
+    },
+    {
+      "global_claim_id": "G21-S167-06",
+      "claim_id": "B21-S167-06",
+      "source_id": "S167",
+      "corpus_id": "C128",
+      "location": "Relevant thematic sections",
+      "claim_type": "PRACTICE",
+      "claim": "Contemplative and religious practices are treated as compatible with philosophical ascent.",
+      "motifs": [
+        "M24",
+        "M25"
+      ],
+      "provenance": "P2*",
+      "batch": "21"
+    },
+    {
+      "global_claim_id": "G21-S167-07",
+      "claim_id": "B21-S167-07",
+      "source_id": "S167",
+      "corpus_id": "C128",
+      "location": "Relevant thematic sections",
+      "claim_type": "CAUSAL",
+      "claim": "Higher principles are treated as causes or sources for lower levels of reality.",
+      "motifs": [
+        "M18",
+        "M20",
+        "M21"
+      ],
+      "provenance": "P2*",
+      "batch": "21"
+    },
+    {
+      "global_claim_id": "G21-S167-08",
+      "claim_id": "B21-S167-08",
+      "source_id": "S167",
+      "corpus_id": "C128",
+      "location": "Relevant thematic sections",
+      "claim_type": "UNITY",
+      "claim": "The hierarchy ultimately depends upon principles of unity that allow differentiated divine orders to coexist.",
+      "motifs": [
+        "M03",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "21"
+    },
+    {
+      "global_claim_id": "G21-S167-09",
+      "claim_id": "B21-S167-09",
+      "source_id": "S167",
+      "corpus_id": "C128",
+      "location": "Relevant thematic sections",
+      "claim_type": "STATE",
+      "claim": "Different divine and intelligible levels imply different modes of participation and knowledge.",
+      "motifs": [
+        "M07",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "21"
+    },
+    {
+      "global_claim_id": "G21-S167-10",
+      "claim_id": "B21-S167-10",
+      "source_id": "S167",
+      "corpus_id": "C128",
+      "location": "Relevant thematic sections",
+      "claim_type": "COSMO",
+      "claim": "The cosmos is understood through a theological order in which soul participates in the intelligible structure.",
+      "motifs": [
+        "M15",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "21"
+    },
+    {
+      "global_claim_id": "G21-S167-11",
+      "claim_id": "B21-S167-11",
+      "source_id": "S167",
+      "corpus_id": "C128",
+      "location": "Relevant thematic sections",
+      "claim_type": "CONTRAST",
+      "claim": "Proclean theological hierarchy is not interchangeable with later Christian, Islamic or modern systems even where vocabulary overlaps.",
+      "motifs": [
+        "M14",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "21"
+    },
+    {
+      "global_claim_id": "G21-S167-12",
+      "claim_id": "B21-S167-12",
+      "source_id": "S167",
+      "corpus_id": "C128",
+      "location": "Relevant thematic sections",
+      "claim_type": "TEXT",
+      "claim": "Platonic Theology is a school-philosophical synthesis requiring attention to Proclus's specific conceptual architecture.",
+      "motifs": [
+        "M14",
+        "M17"
+      ],
+      "provenance": "P2*",
+      "batch": "21"
+    },
+    {
+      "global_claim_id": "G21-S167-13",
+      "claim_id": "B21-S167-13",
+      "source_id": "S167",
+      "corpus_id": "C128",
+      "location": "Relevant thematic sections",
+      "claim_type": "META",
+      "claim": "Its theological claims are historical metaphysics and cannot be promoted to empirical claims about consciousness without independent evidence.",
+      "motifs": [
+        "M14",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "21"
     }
   ],
   "rules": {
