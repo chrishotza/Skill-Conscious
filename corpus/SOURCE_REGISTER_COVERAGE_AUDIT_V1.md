@@ -5,18 +5,18 @@
 **Ledger:** `corpus/CLAIMS/claim_ledger_v1.json` + registered append deltas  
 **Audit rule:** an entry counts as represented only if its exact `corpus_id` occurs in at least one ledger record. This does **not** mean all claims are source-verified.
 
-## Reconciled totals after batch v28
+## Reconciled totals after batch v29
 
 - Register entries parsed: **325** (325 unique IDs).
-- Entries represented in effective corpus ledger: **234**.
-- Entries not yet represented: **91**.
-- Effective ledger records: **3132** (**2482** core ledger + **130** each in v24, v25, v26, v27 and v28 append deltas).
+- Entries represented in effective corpus ledger: **244**.
+- Entries not yet represented: **81**.
+- Effective ledger records: **3262** (**2482** core ledger + **130** each in v24–v29 append deltas).
 - Core ledger records in `claim_ledger_v1.json`: **2482**.
-- Unique source IDs in effective ledger: **237**.
-- Sources with exactly 13 effective ledger records: **164**.
+- Unique source IDs in effective ledger: **247**.
+- Sources with exactly 13 effective ledger records: **174**.
 - Represented but under 13: **40**.
 - Represented above 13: **30**.
-- **Storage note:** v24–v28 are stored as append-only deltas because the current GitHub contents connector cannot safely rewrite the now-large core JSON blob.
+- **Storage note:** v24–v29 are stored as append-only deltas because the current GitHub contents connector cannot safely rewrite the now-large core JSON blob.
 - **Quality caveat:** “represented” is a coverage flag only. P2* claims and generic locators remain verification-pending.
 
 ## Status table
@@ -245,23 +245,23 @@
 | C220 | Letters on Yoga — Contemplativo/transpersonal; foco: conciencia, persona, realidad, transformación. | Represented — exactly 13 | 13 | S235 |
 | C221 | The Synthesis of Yoga — Contemplativo/transpersonal; foco: conciencia, persona, realidad, transformación. | Represented — exactly 13 | 13 | S236 |
 | C222 | The Phenomenon of Man — Contemplativo/transpersonal; foco: conciencia, persona, realidad, transformación. | Represented — exactly 13 | 13 | S237 |
-| C223 | Man's Search for Meaning — Contemplativo/transpersonal; foco: conciencia, persona, realidad, transformación. | Missing | 0 | — |
-| C224 | The Perennial Philosophy — Contemplativo/transpersonal; foco: conciencia, persona, realidad, transformación. | Missing | 0 | — |
-| C225 | The Varieties of Religious Experience — Contemplativo/transpersonal; foco: conciencia, persona, realidad, transformación. | Missing | 0 | — |
-| C226 | The Doors of Perception — Contemplativo/transpersonal; foco: conciencia, persona, realidad, transformación. | Missing | 0 | — |
+| C223 | Man's Search for Meaning — Contemplativo/transpersonal; foco: conciencia, persona, realidad, transformación. | Represented — exactly 13 | 13 | S238 |
+| C224 | The Perennial Philosophy — Contemplativo/transpersonal; foco: conciencia, persona, realidad, transformación. | Represented — exactly 13 | 13 | S239 |
+| C225 | The Varieties of Religious Experience — Contemplativo/transpersonal; foco: conciencia, persona, realidad, transformación. | Represented — exactly 13 | 13 | S240 |
+| C226 | The Doors of Perception — Contemplativo/transpersonal; foco: conciencia, persona, realidad, transformación. | Represented — exactly 13 | 13 | S241 |
 | C227 | Popol Vuh — Indígena/relacional; foco: persona relacional, territorio, sueño. | Represented — under 13 | 8 | S025 |
 | C228 | Huarochiri Manuscript — Indígena/relacional; foco: persona relacional, territorio, sueño. | Represented — over 13 | 37 | S070 |
-| C229 | Chilam Balam of Chumayel — Indígena/relacional; foco: persona relacional, territorio, sueño. | Missing | 0 | — |
+| C229 | Chilam Balam of Chumayel — Indígena/relacional; foco: persona relacional, territorio, sueño. | Represented — exactly 13 | 13 | S242 |
 | C230 | Yoruba Odu Ifa corpus — Indígena/relacional; foco: persona relacional, territorio, sueño. | Represented — over 13 | 58 | S069 |
-| C231 | Dagara cosmological traditions — Indígena/relacional; foco: persona relacional, territorio, sueño. | Missing | 0 | — |
-| C232 | Lakota sacred narrative corpus — Indígena/relacional; foco: persona relacional, territorio, sueño. | Missing | 0 | — |
+| C231 | Dagara cosmological traditions — Indígena/relacional; foco: persona relacional, territorio, sueño. | Represented — exactly 13 | 13 | S243 |
+| C232 | Lakota sacred narrative corpus — Indígena/relacional; foco: persona relacional, territorio, sueño. | Represented — exactly 13 | 13 | S244 |
 | C233 | Haudenosaunee Thanksgiving Address — Indígena/relacional; foco: persona relacional, territorio, sueño. | Represented — over 13 | 20 | S057 |
 | C234 | Dine Bahane' — Indígena/relacional; foco: persona relacional, territorio, sueño. | Represented — over 13 | 37 | S071 |
 | C235 | Australian Aboriginal Dreaming traditions — Indígena/relacional; foco: persona relacional, territorio, sueño. | Represented — over 13 | 20 | S072 |
 | C236 | Maori cosmological traditions — Indígena/relacional; foco: persona relacional, territorio, sueño. | Represented — over 13 | 20 | S056 |
-| C237 | Polynesian mana traditions — Indígena/relacional; foco: persona relacional, territorio, sueño. | Missing | 0 | — |
-| C238 | Ainu kamuy traditions — Indígena/relacional; foco: persona relacional, territorio, sueño. | Missing | 0 | — |
-| C239 | Siberian shamanic source collections — Indígena/relacional; foco: persona relacional, territorio, sueño. | Missing | 0 | — |
+| C237 | Polynesian mana traditions — Indígena/relacional; foco: persona relacional, territorio, sueño. | Represented — exactly 13 | 13 | S245 |
+| C238 | Ainu kamuy traditions — Indígena/relacional; foco: persona relacional, territorio, sueño. | Represented — exactly 13 | 13 | S246 |
+| C239 | Siberian shamanic source collections — Indígena/relacional; foco: persona relacional, territorio, sueño. | Represented — exactly 13 | 13 | S247 |
 | C240 | Meditations on First Philosophy — Filosofía/fenomenología; foco: conciencia, persona, realidad, transformación. | Represented — over 13 | 15 | S047 |
 | C241 | Ethics — Filosofía/fenomenología; foco: conciencia, persona, realidad, transformación. | Missing | 0 | — |
 | C242 | Monadology — Filosofía/fenomenología; foco: conciencia, persona, realidad, transformación. | Missing | 0 | — |
@@ -409,3 +409,12 @@
 - Core ledger: 2482 records / 187 source IDs.
 - Current register coverage: 234/325 represented; 91/325 still missing.
 - Exact-13 represented sources: 164.
+
+## Batch v29 checkpoint
+
+- Newly represented register entries: C223, C224, C225, C226, C229, C231, C232, C237, C238, C239.
+- Added claims: 130 (10 × 13), stored as append-only delta.
+- Effective ledger: 3262 records / 247 source IDs.
+- Core ledger: 2482 records / 187 source IDs.
+- Current register coverage: 244/325 represented; 81/325 still missing.
+- Exact-13 represented sources: 174.
