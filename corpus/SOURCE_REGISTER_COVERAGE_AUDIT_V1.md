@@ -5,15 +5,15 @@
 **Ledger:** `corpus/CLAIMS/claim_ledger_v1.json`  
 **Audit rule:** an entry counts as represented only if its exact `corpus_id` occurs in at least one ledger record. This does **not** mean all claims are source-verified.
 
-## Reconciled totals after batch v22
+## Reconciled totals after batch v23
 
 - Register entries parsed: **325** (325 unique IDs).
-- Entries represented in ledger: **174**.
-- Entries not yet represented: **151**.
-- Ledger records: **2352**.
-- Unique global claim IDs: **2352**.
-- Unique source IDs in ledger: **177**.
-- Sources with exactly 13 ledger records: **104**.
+- Entries represented in ledger: **184**.
+- Entries not yet represented: **141**.
+- Ledger records: **2482**.
+- Unique global claim IDs: **2482**.
+- Unique source IDs in ledger: **187**.
+- Sources with exactly 13 ledger records: **114**.
 - Represented but under 13: **40**.
 - Represented above 13: **30**.
 - **Quality caveat:** “represented” is a coverage flag only. P2* claims and generic locators remain verification-pending.
@@ -165,23 +165,23 @@
 | C141 | Zostrianos — Hermetismo/gnosis; foco: gnosis, Nous, ascenso. | Represented — exactly 13 | 13 | S176 |
 | C142 | Tripartite Tractate — Hermetismo/gnosis; foco: gnosis, Nous, ascenso. | Represented — exactly 13 | 13 | S177 |
 | C143 | Sefer Yetzirah — Mística judía; foco: alma, emanación, sefirot, visión. | Represented — under 13 | 10 | S008 |
-| C144 | Sefer ha-Bahir — Mística judía; foco: alma, emanación, sefirot, visión. | Missing | 0 | — |
+| C144 | Sefer ha-Bahir — Mística judía; foco: alma, emanación, sefirot, visión. | Represented — exactly 13 | 13 | S178 |
 | C145 | Zohar — Mística judía; foco: alma, emanación, sefirot, visión. | Represented — under 13 | 8 | S018 |
 | C146 | Hekhalot Rabbati — Mística judía; foco: alma, emanación, sefirot, visión. | Represented — under 13 | 8 | S019 |
-| C147 | Merkavah / Hekhalot corpus — Mística judía; foco: alma, emanación, sefirot, visión. | Missing | 0 | — |
-| C148 | 3 Enoch — Mística judía; foco: alma, emanación, sefirot, visión. | Missing | 0 | — |
-| C149 | Sefer Raziel HaMalakh — Mística judía; foco: alma, emanación, sefirot, visión. | Missing | 0 | — |
+| C147 | Merkavah / Hekhalot corpus — Mística judía; foco: alma, emanación, sefirot, visión. | Represented — exactly 13 | 13 | S179 |
+| C148 | 3 Enoch — Mística judía; foco: alma, emanación, sefirot, visión. | Represented — exactly 13 | 13 | S180 |
+| C149 | Sefer Raziel HaMalakh — Mística judía; foco: alma, emanación, sefirot, visión. | Represented — exactly 13 | 13 | S181 |
 | C150 | Pardes Rimmonim — Mística judía; foco: alma, emanación, sefirot, visión. | Represented — under 13 | 10 | S061 |
 | C151 | Etz Chaim — Mística judía; foco: alma, emanación, sefirot, visión. | Represented — under 13 | 10 | S062 |
-| C152 | Tanya — Mística judía; foco: alma, emanación, sefirot, visión. | Missing | 0 | — |
-| C153 | Apophatic / Dionysian Corpus — Mística cristiana; foco: apofatismo, unión, transformación. | Missing | 0 | — |
+| C152 | Tanya — Mística judía; foco: alma, emanación, sefirot, visión. | Represented — exactly 13 | 13 | S182 |
+| C153 | Apophatic / Dionysian Corpus — Mística cristiana; foco: apofatismo, unión, transformación. | Represented — exactly 13 | 13 | S183 |
 | C154 | The Mystical Theology — Mística cristiana; foco: apofatismo, unión, transformación. | Represented — under 13 | 10 | S009 |
-| C155 | The Divine Names — Mística cristiana; foco: apofatismo, unión, transformación. | Missing | 0 | — |
+| C155 | The Divine Names — Mística cristiana; foco: apofatismo, unión, transformación. | Represented — exactly 13 | 13 | S184 |
 | C156 | Cloud of Unknowing — Mística cristiana; foco: apofatismo, unión, transformación. | Represented — under 13 | 12 | S036 |
 | C157 | Meister Eckhart — Mística cristiana; foco: apofatismo, unión, transformación. | Represented — over 13 | 16 | S051 |
-| C158 | Theologia Germanica — Mística cristiana; foco: apofatismo, unión, transformación. | Missing | 0 | — |
-| C159 | Evagrius — Mística cristiana; foco: apofatismo, unión, transformación. | Missing | 0 | — |
-| C160 | Maximus — Mística cristiana; foco: apofatismo, unión, transformación. | Missing | 0 | — |
+| C158 | Theologia Germanica — Mística cristiana; foco: apofatismo, unión, transformación. | Represented — exactly 13 | 13 | S185 |
+| C159 | Evagrius — Mística cristiana; foco: apofatismo, unión, transformación. | Represented — exactly 13 | 13 | S186 |
+| C160 | Maximus — Mística cristiana; foco: apofatismo, unión, transformación. | Represented — exactly 13 | 13 | S187 |
 | C161 | Philokalia — Mística cristiana; foco: apofatismo, unión, transformación. | Represented — over 13 | 16 | S052 |
 | C162 | The Ladder of Divine Ascent — Mística cristiana; foco: apofatismo, unión, transformación. | Represented — over 13 | 16 | S053 |
 | C163 | The Way of a Pilgrim — Mística cristiana; foco: apofatismo, unión, transformación. | Represented — under 13 | 8 | S027 |
@@ -355,3 +355,11 @@
 - Current ledger: 2352 records / 177 source IDs.
 - Current register coverage: 174/325 represented; 151/325 still missing.
 - Exact-13 represented sources: 104.
+
+## Batch v23 checkpoint
+
+- Newly represented register entries: C144, C147, C148, C149, C152, C153, C155, C158, C159, C160.
+- Added claims: 130 (10 × 13).
+- Current ledger: 2482 records / 187 source IDs.
+- Current register coverage: 184/325 represented; 141/325 still missing.
+- Exact-13 represented sources: 114.
