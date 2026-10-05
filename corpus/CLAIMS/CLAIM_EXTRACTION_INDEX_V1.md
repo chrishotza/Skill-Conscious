@@ -117,3 +117,12 @@ The next extraction stage should systematically traverse the remaining register 
 - Current register coverage: 194/325 represented; 131/325 still missing.
 - Exact-13 represented sources: 124.
 - Storage note: v24 is preserved in `corpus/CLAIMS/claim_ledger_v1_append_v24.json` because the core ledger blob is now too large for the current connector to rewrite safely.
+
+## Batch v25 checkpoint
+
+- Newly represented register entries: C174, C175, C177, C178, C183, C184, C185, C186, C187, C188.
+- Added claims: 130.
+- Effective ledger: 2742 records / 207 source IDs (2482 core + 130 v24 append + 130 v25 append).
+- Current register coverage: 204/325 represented; 121/325 still missing.
+- Exact-13 represented sources: 134.
+- Storage note: v24 and v25 are preserved as append-only ledger deltas because the core ledger blob is now too large for safe full-file rewriting through the current connector.
