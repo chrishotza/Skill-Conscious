@@ -57,4 +57,6 @@
 
 ## Interpretation boundary
 
+**Provenance note for S024:** `S1` applies to the source record, not to claim type. The claims below are semantically typed while retaining specialist-source provenance.
+
 The batch does not assume that indigenous cosmology, Dzogchen rigpa, hesychast prayer, Jungian Self, and Steinerian spiritual cognition refer to the same entity. Their recurrence is evidence for comparison; semantic identity remains to be demonstrated.
