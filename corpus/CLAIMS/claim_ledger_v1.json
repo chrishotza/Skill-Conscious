@@ -1,8 +1,8 @@
 {
   "schema_version": "1.0",
-  "claim_count": 1715,
-  "global_claim_count": 1715,
-  "source_count": 128,
+  "claim_count": 1845,
+  "global_claim_count": 1845,
+  "source_count": 138,
   "records": [
     {
       "global_claim_id": "G1-S001-K01",
@@ -26573,6 +26573,2001 @@
       ],
       "provenance": "P2*",
       "batch": "17"
+    },
+    {
+      "global_claim_id": "G18-S129-01",
+      "claim_id": "B18-S129-01",
+      "source_id": "S129",
+      "corpus_id": "C076",
+      "location": "Relevant thematic sections",
+      "claim_type": "STATE",
+      "claim": "The text organizes post-death experience through intermediate states with distinct conditions and opportunities for recognition.",
+      "motifs": [
+        "M07",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "18"
+    },
+    {
+      "global_claim_id": "G18-S129-02",
+      "claim_id": "B18-S129-02",
+      "source_id": "S129",
+      "corpus_id": "C076",
+      "location": "Relevant thematic sections",
+      "claim_type": "PRACTICE",
+      "claim": "Liberation by hearing is presented as a method intended to be applied during an intermediate state.",
+      "motifs": [
+        "M12",
+        "M24",
+        "M25"
+      ],
+      "provenance": "P2*",
+      "batch": "18"
+    },
+    {
+      "global_claim_id": "G18-S129-03",
+      "claim_id": "B18-S129-03",
+      "source_id": "S129",
+      "corpus_id": "C076",
+      "location": "Relevant thematic sections",
+      "claim_type": "REFLEXIVITY",
+      "claim": "Recognition of the nature of mind is treated as a decisive opportunity for liberation.",
+      "motifs": [
+        "M02",
+        "M13"
+      ],
+      "provenance": "P2*",
+      "batch": "18"
+    },
+    {
+      "global_claim_id": "G18-S129-04",
+      "claim_id": "B18-S129-04",
+      "source_id": "S129",
+      "corpus_id": "C076",
+      "location": "Relevant thematic sections",
+      "claim_type": "META",
+      "claim": "The text describes a reality of luminous and symbolic appearances that must not automatically be confused with ordinary external objects.",
+      "motifs": [
+        "M01",
+        "M14",
+        "M17"
+      ],
+      "provenance": "P2*",
+      "batch": "18"
+    },
+    {
+      "global_claim_id": "G18-S129-05",
+      "claim_id": "B18-S129-05",
+      "source_id": "S129",
+      "corpus_id": "C076",
+      "location": "Relevant thematic sections",
+      "claim_type": "DEATH",
+      "claim": "Death is treated as a transition through identifiable stages rather than as an instantaneous endpoint of the person.",
+      "motifs": [
+        "M11",
+        "M19",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "18"
+    },
+    {
+      "global_claim_id": "G18-S129-06",
+      "claim_id": "B18-S129-06",
+      "source_id": "S129",
+      "corpus_id": "C076",
+      "location": "Relevant thematic sections",
+      "claim_type": "TEMPORAL",
+      "claim": "The sequence of bardos gives a temporal structure to dying, immediate post-death experience and rebirth-oriented processes.",
+      "motifs": [
+        "M11",
+        "M19"
+      ],
+      "provenance": "P2*",
+      "batch": "18"
+    },
+    {
+      "global_claim_id": "G18-S129-07",
+      "claim_id": "B18-S129-07",
+      "source_id": "S129",
+      "corpus_id": "C076",
+      "location": "Relevant thematic sections",
+      "claim_type": "PRACTICE",
+      "claim": "Guidance repeatedly emphasizes attention, recognition and non-clinging in response to appearances.",
+      "motifs": [
+        "M24",
+        "M25"
+      ],
+      "provenance": "P2*",
+      "batch": "18"
+    },
+    {
+      "global_claim_id": "G18-S129-08",
+      "claim_id": "B18-S129-08",
+      "source_id": "S129",
+      "corpus_id": "C076",
+      "location": "Relevant thematic sections",
+      "claim_type": "STATE",
+      "claim": "Peaceful and wrathful appearances are described as changing experiential configurations through which recognition may occur.",
+      "motifs": [
+        "M07",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "18"
+    },
+    {
+      "global_claim_id": "G18-S129-09",
+      "claim_id": "B18-S129-09",
+      "source_id": "S129",
+      "corpus_id": "C076",
+      "location": "Relevant thematic sections",
+      "claim_type": "CAUSAL",
+      "claim": "Habitual tendencies and karmic conditioning are used to explain why beings respond differently to intermediate-state appearances.",
+      "motifs": [
+        "M10",
+        "M11"
+      ],
+      "provenance": "P2*",
+      "batch": "18"
+    },
+    {
+      "global_claim_id": "G18-S129-10",
+      "claim_id": "B18-S129-10",
+      "source_id": "S129",
+      "corpus_id": "C076",
+      "location": "Relevant thematic sections",
+      "claim_type": "TRANSFORMATION",
+      "claim": "Correct recognition is portrayed as capable of changing the trajectory that would otherwise lead toward further cyclic existence.",
+      "motifs": [
+        "M12",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "18"
+    },
+    {
+      "global_claim_id": "G18-S129-11",
+      "claim_id": "B18-S129-11",
+      "source_id": "S129",
+      "corpus_id": "C076",
+      "location": "Relevant thematic sections",
+      "claim_type": "RELATION",
+      "claim": "The text links instruction, practitioner, guide and deceased person through a structured ritual relationship.",
+      "motifs": [
+        "M05",
+        "M16",
+        "M25"
+      ],
+      "provenance": "P2*",
+      "batch": "18"
+    },
+    {
+      "global_claim_id": "G18-S129-12",
+      "claim_id": "B18-S129-12",
+      "source_id": "S129",
+      "corpus_id": "C076",
+      "location": "Relevant thematic sections",
+      "claim_type": "META",
+      "claim": "The death-and-rebirth framework is a Tibetan Buddhist doctrinal claim preserved as source material, not an empirical finding about postmortem consciousness.",
+      "motifs": [
+        "M14",
+        "M19",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "18"
+    },
+    {
+      "global_claim_id": "G18-S129-13",
+      "claim_id": "B18-S129-13",
+      "source_id": "S129",
+      "corpus_id": "C076",
+      "location": "Relevant thematic sections",
+      "claim_type": "PRACTICE",
+      "claim": "The text places value on preparation and repeated familiarity before death, not only on improvisation at the moment of dying.",
+      "motifs": [
+        "M12",
+        "M24",
+        "M25"
+      ],
+      "provenance": "P2*",
+      "batch": "18"
+    },
+    {
+      "global_claim_id": "G18-S130-01",
+      "claim_id": "B18-S130-01",
+      "source_id": "S130",
+      "corpus_id": "C077",
+      "location": "Relevant thematic sections",
+      "claim_type": "TEXT",
+      "claim": "The treatise organizes Buddhist practice as a graded path rather than as a single technique.",
+      "motifs": [
+        "M12",
+        "M23",
+        "M25"
+      ],
+      "provenance": "P2*",
+      "batch": "18"
+    },
+    {
+      "global_claim_id": "G18-S130-02",
+      "claim_id": "B18-S130-02",
+      "source_id": "S130",
+      "corpus_id": "C077",
+      "location": "Relevant thematic sections",
+      "claim_type": "PRACTICE",
+      "claim": "It distinguishes practitioners of different capacities while placing them within one structured path.",
+      "motifs": [
+        "M07",
+        "M12"
+      ],
+      "provenance": "P2*",
+      "batch": "18"
+    },
+    {
+      "global_claim_id": "G18-S130-03",
+      "claim_id": "B18-S130-03",
+      "source_id": "S130",
+      "corpus_id": "C077",
+      "location": "Relevant thematic sections",
+      "claim_type": "REFLEXIVITY",
+      "claim": "Reliance on a qualified teacher is treated as part of the conditions for transforming understanding.",
+      "motifs": [
+        "M05",
+        "M25"
+      ],
+      "provenance": "P2*",
+      "batch": "18"
+    },
+    {
+      "global_claim_id": "G18-S130-04",
+      "claim_id": "B18-S130-04",
+      "source_id": "S130",
+      "corpus_id": "C077",
+      "location": "Relevant thematic sections",
+      "claim_type": "DEATH",
+      "claim": "Mindfulness of death is used to alter priorities and motivate practice.",
+      "motifs": [
+        "M10",
+        "M11",
+        "M25"
+      ],
+      "provenance": "P2*",
+      "batch": "18"
+    },
+    {
+      "global_claim_id": "G18-S130-05",
+      "claim_id": "B18-S130-05",
+      "source_id": "S130",
+      "corpus_id": "C077",
+      "location": "Relevant thematic sections",
+      "claim_type": "CAUSAL",
+      "claim": "Karma is described through actions and consequences rather than through arbitrary fate.",
+      "motifs": [
+        "M10",
+        "M11"
+      ],
+      "provenance": "P2*",
+      "batch": "18"
+    },
+    {
+      "global_claim_id": "G18-S130-06",
+      "claim_id": "B18-S130-06",
+      "source_id": "S130",
+      "corpus_id": "C077",
+      "location": "Relevant thematic sections",
+      "claim_type": "PHEN",
+      "claim": "Suffering is analyzed as a lived condition that can motivate a change in orientation.",
+      "motifs": [
+        "M10",
+        "M12"
+      ],
+      "provenance": "P2*",
+      "batch": "18"
+    },
+    {
+      "global_claim_id": "G18-S130-07",
+      "claim_id": "B18-S130-07",
+      "source_id": "S130",
+      "corpus_id": "C077",
+      "location": "Relevant thematic sections",
+      "claim_type": "CAUSAL",
+      "claim": "Dependent origination is presented as a framework for understanding how conditioned experience arises.",
+      "motifs": [
+        "M05",
+        "M11"
+      ],
+      "provenance": "P2*",
+      "batch": "18"
+    },
+    {
+      "global_claim_id": "G18-S130-08",
+      "claim_id": "B18-S130-08",
+      "source_id": "S130",
+      "corpus_id": "C077",
+      "location": "Relevant thematic sections",
+      "claim_type": "PRACTICE",
+      "claim": "The three trainings provide a structured distinction among ethical discipline, meditative stabilization and wisdom.",
+      "motifs": [
+        "M12",
+        "M24",
+        "M25"
+      ],
+      "provenance": "P2*",
+      "batch": "18"
+    },
+    {
+      "global_claim_id": "G18-S130-09",
+      "claim_id": "B18-S130-09",
+      "source_id": "S130",
+      "corpus_id": "C077",
+      "location": "Relevant thematic sections",
+      "claim_type": "RELATION",
+      "claim": "Bodhicitta shifts the practitioner's orientation from isolated liberation toward the welfare of all sentient beings.",
+      "motifs": [
+        "M10",
+        "M16"
+      ],
+      "provenance": "P2*",
+      "batch": "18"
+    },
+    {
+      "global_claim_id": "G18-S130-10",
+      "claim_id": "B18-S130-10",
+      "source_id": "S130",
+      "corpus_id": "C077",
+      "location": "Relevant thematic sections",
+      "claim_type": "PRACTICE",
+      "claim": "The second volume organizes bodhisattva training through the six perfections, including generosity, ethics, patience, effort, concentration and wisdom.",
+      "motifs": [
+        "M10",
+        "M24",
+        "M25"
+      ],
+      "provenance": "P2*",
+      "batch": "18"
+    },
+    {
+      "global_claim_id": "G18-S130-11",
+      "claim_id": "B18-S130-11",
+      "source_id": "S130",
+      "corpus_id": "C077",
+      "location": "Relevant thematic sections",
+      "claim_type": "ONTO",
+      "claim": "Wisdom practices analyze the lack of inherent existence rather than merely suppressing unwanted states.",
+      "motifs": [
+        "M02",
+        "M14"
+      ],
+      "provenance": "P2*",
+      "batch": "18"
+    },
+    {
+      "global_claim_id": "G18-S130-12",
+      "claim_id": "B18-S130-12",
+      "source_id": "S130",
+      "corpus_id": "C077",
+      "location": "Relevant thematic sections",
+      "claim_type": "TRANSFORMATION",
+      "claim": "The path is cumulative: repeated practices alter dispositions, priorities and understanding over time.",
+      "motifs": [
+        "M11",
+        "M12"
+      ],
+      "provenance": "P2*",
+      "batch": "18"
+    },
+    {
+      "global_claim_id": "G18-S130-13",
+      "claim_id": "B18-S130-13",
+      "source_id": "S130",
+      "corpus_id": "C077",
+      "location": "Relevant thematic sections",
+      "claim_type": "META",
+      "claim": "The lamrim is a Tibetan Buddhist scholastic synthesis; its liberation claims remain doctrinal and soteriological rather than experimentally demonstrated.",
+      "motifs": [
+        "M14",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "18"
+    },
+    {
+      "global_claim_id": "G18-S131-01",
+      "claim_id": "B18-S131-01",
+      "source_id": "S131",
+      "corpus_id": "C079",
+      "location": "Relevant thematic sections",
+      "claim_type": "PRACTICE",
+      "claim": "The corpus presents a set of advanced yogic practices transmitted within a tantric lineage.",
+      "motifs": [
+        "M17",
+        "M25"
+      ],
+      "provenance": "P2*",
+      "batch": "18"
+    },
+    {
+      "global_claim_id": "G18-S131-02",
+      "claim_id": "B18-S131-02",
+      "source_id": "S131",
+      "corpus_id": "C079",
+      "location": "Relevant thematic sections",
+      "claim_type": "EMBODIMENT",
+      "claim": "Subtle channels, winds and bodily processes are treated as part of the contemplative method.",
+      "motifs": [
+        "M08",
+        "M09",
+        "M24"
+      ],
+      "provenance": "P2*",
+      "batch": "18"
+    },
+    {
+      "global_claim_id": "G18-S131-03",
+      "claim_id": "B18-S131-03",
+      "source_id": "S131",
+      "corpus_id": "C079",
+      "location": "Relevant thematic sections",
+      "claim_type": "STATE",
+      "claim": "Tummo is described as a practice for transforming the relationship between body, breath, heat and awareness.",
+      "motifs": [
+        "M08",
+        "M09",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "18"
+    },
+    {
+      "global_claim_id": "G18-S131-04",
+      "claim_id": "B18-S131-04",
+      "source_id": "S131",
+      "corpus_id": "C079",
+      "location": "Relevant thematic sections",
+      "claim_type": "STATE",
+      "claim": "Dream yoga treats dreaming as a domain in which lucidity and recognition can be trained.",
+      "motifs": [
+        "M01",
+        "M23",
+        "M24"
+      ],
+      "provenance": "P2*",
+      "batch": "18"
+    },
+    {
+      "global_claim_id": "G18-S131-05",
+      "claim_id": "B18-S131-05",
+      "source_id": "S131",
+      "corpus_id": "C079",
+      "location": "Relevant thematic sections",
+      "claim_type": "REFLEXIVITY",
+      "claim": "Dream practice aims at recognizing dream appearances as dream-like rather than taking them as ordinary reality.",
+      "motifs": [
+        "M02",
+        "M13"
+      ],
+      "provenance": "P2*",
+      "batch": "18"
+    },
+    {
+      "global_claim_id": "G18-S131-06",
+      "claim_id": "B18-S131-06",
+      "source_id": "S131",
+      "corpus_id": "C079",
+      "location": "Relevant thematic sections",
+      "claim_type": "STATE",
+      "claim": "Clear-light practices describe a distinctive condition of awareness associated with reduced ordinary conceptual activity.",
+      "motifs": [
+        "M01",
+        "M14",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "18"
+    },
+    {
+      "global_claim_id": "G18-S131-07",
+      "claim_id": "B18-S131-07",
+      "source_id": "S131",
+      "corpus_id": "C079",
+      "location": "Relevant thematic sections",
+      "claim_type": "DEATH",
+      "claim": "Bardo practices extend yogic recognition to intermediate states associated with dying and rebirth.",
+      "motifs": [
+        "M11",
+        "M19",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "18"
+    },
+    {
+      "global_claim_id": "G18-S131-08",
+      "claim_id": "B18-S131-08",
+      "source_id": "S131",
+      "corpus_id": "C079",
+      "location": "Relevant thematic sections",
+      "claim_type": "PRACTICE",
+      "claim": "Phowa is framed as a disciplined method concerning the transition at death within its tantric framework.",
+      "motifs": [
+        "M11",
+        "M19",
+        "M25"
+      ],
+      "provenance": "P2*",
+      "batch": "18"
+    },
+    {
+      "global_claim_id": "G18-S131-09",
+      "claim_id": "B18-S131-09",
+      "source_id": "S131",
+      "corpus_id": "C079",
+      "location": "Relevant thematic sections",
+      "claim_type": "TRANSFORMATION",
+      "claim": "The practices are intended to transform ordinary experience into a path rather than simply produce unusual sensations.",
+      "motifs": [
+        "M12",
+        "M17",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "18"
+    },
+    {
+      "global_claim_id": "G18-S131-10",
+      "claim_id": "B18-S131-10",
+      "source_id": "S131",
+      "corpus_id": "C079",
+      "location": "Relevant thematic sections",
+      "claim_type": "RELATION",
+      "claim": "Teacher, empowerment and lineage are treated as conditions for correctly applying these practices.",
+      "motifs": [
+        "M05",
+        "M17",
+        "M25"
+      ],
+      "provenance": "P2*",
+      "batch": "18"
+    },
+    {
+      "global_claim_id": "G18-S131-11",
+      "claim_id": "B18-S131-11",
+      "source_id": "S131",
+      "corpus_id": "C079",
+      "location": "Relevant thematic sections",
+      "claim_type": "META",
+      "claim": "The subtle-body vocabulary encodes a tradition-specific metaphysics and should not be silently mapped onto modern physiology.",
+      "motifs": [
+        "M08",
+        "M14",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "18"
+    },
+    {
+      "global_claim_id": "G18-S131-12",
+      "claim_id": "B18-S131-12",
+      "source_id": "S131",
+      "corpus_id": "C079",
+      "location": "Relevant thematic sections",
+      "claim_type": "TEMPORAL",
+      "claim": "Training across waking, dreaming, dying and post-death contexts creates a continuity of practice across changing regimes.",
+      "motifs": [
+        "M07",
+        "M11",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "18"
+    },
+    {
+      "global_claim_id": "G18-S131-13",
+      "claim_id": "B18-S131-13",
+      "source_id": "S131",
+      "corpus_id": "C079",
+      "location": "Relevant thematic sections",
+      "claim_type": "META",
+      "claim": "The Six Yogas are esoteric Tibetan Buddhist instructions; claims about extraordinary outcomes require separate historical and empirical evaluation.",
+      "motifs": [
+        "M14",
+        "M17",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "18"
+    },
+    {
+      "global_claim_id": "G18-S132-01",
+      "claim_id": "B18-S132-01",
+      "source_id": "S132",
+      "corpus_id": "C081",
+      "location": "Relevant thematic sections",
+      "claim_type": "PRACTICE",
+      "claim": "The collection uses encounter cases and koan-like exchanges as instruments for training and transformation.",
+      "motifs": [
+        "M12",
+        "M24",
+        "M25"
+      ],
+      "provenance": "P2*",
+      "batch": "18"
+    },
+    {
+      "global_claim_id": "G18-S132-02",
+      "claim_id": "B18-S132-02",
+      "source_id": "S132",
+      "corpus_id": "C081",
+      "location": "Relevant thematic sections",
+      "claim_type": "REFLEXIVITY",
+      "claim": "Many cases disrupt the practitioner's habitual conceptual framing rather than supplying a new theory to memorize.",
+      "motifs": [
+        "M02",
+        "M14",
+        "M25"
+      ],
+      "provenance": "P2*",
+      "batch": "18"
+    },
+    {
+      "global_claim_id": "G18-S132-03",
+      "claim_id": "B18-S132-03",
+      "source_id": "S132",
+      "corpus_id": "C081",
+      "location": "Relevant thematic sections",
+      "claim_type": "META",
+      "claim": "Language is often used in deliberately paradoxical or indirect ways to undermine fixed conceptual distinctions.",
+      "motifs": [
+        "M14",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "18"
+    },
+    {
+      "global_claim_id": "G18-S132-04",
+      "claim_id": "B18-S132-04",
+      "source_id": "S132",
+      "corpus_id": "C081",
+      "location": "Relevant thematic sections",
+      "claim_type": "STATE",
+      "claim": "A sudden shift in seeing is repeatedly represented as a change in the practitioner's mode of apprehension.",
+      "motifs": [
+        "M01",
+        "M13",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "18"
+    },
+    {
+      "global_claim_id": "G18-S132-05",
+      "claim_id": "B18-S132-05",
+      "source_id": "S132",
+      "corpus_id": "C081",
+      "location": "Relevant thematic sections",
+      "claim_type": "RELATION",
+      "claim": "Teacher-student encounters are integral to the presentation of many cases.",
+      "motifs": [
+        "M05",
+        "M16",
+        "M25"
+      ],
+      "provenance": "P2*",
+      "batch": "18"
+    },
+    {
+      "global_claim_id": "G18-S132-06",
+      "claim_id": "B18-S132-06",
+      "source_id": "S132",
+      "corpus_id": "C081",
+      "location": "Relevant thematic sections",
+      "claim_type": "UNITY",
+      "claim": "Several cases challenge rigid subject-object distinctions through ordinary acts, gestures, or speech.",
+      "motifs": [
+        "M03",
+        "M04"
+      ],
+      "provenance": "P2*",
+      "batch": "18"
+    },
+    {
+      "global_claim_id": "G18-S132-07",
+      "claim_id": "B18-S132-07",
+      "source_id": "S132",
+      "corpus_id": "C081",
+      "location": "Relevant thematic sections",
+      "claim_type": "PRACTICE",
+      "claim": "The koan form treats lived encounter and disciplined attention as important parts of realization.",
+      "motifs": [
+        "M24",
+        "M25"
+      ],
+      "provenance": "P2*",
+      "batch": "18"
+    },
+    {
+      "global_claim_id": "G18-S132-08",
+      "claim_id": "B18-S132-08",
+      "source_id": "S132",
+      "corpus_id": "C081",
+      "location": "Relevant thematic sections",
+      "claim_type": "TRANSFORMATION",
+      "claim": "Insight is represented as changing how the practitioner responds to situations, not only what propositions they can repeat.",
+      "motifs": [
+        "M12",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "18"
+    },
+    {
+      "global_claim_id": "G18-S132-09",
+      "claim_id": "B18-S132-09",
+      "source_id": "S132",
+      "corpus_id": "C081",
+      "location": "Relevant thematic sections",
+      "claim_type": "VALENCE",
+      "claim": "Frustration, doubt, surprise and release can function as part of the training dynamic rather than as incidental emotions.",
+      "motifs": [
+        "M10",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "18"
+    },
+    {
+      "global_claim_id": "G18-S132-10",
+      "claim_id": "B18-S132-10",
+      "source_id": "S132",
+      "corpus_id": "C081",
+      "location": "Relevant thematic sections",
+      "claim_type": "TEXT",
+      "claim": "The work is a literary compilation whose cases include source stories, comments, verses and editorial framing.",
+      "motifs": [
+        "M14",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "18"
+    },
+    {
+      "global_claim_id": "G18-S132-11",
+      "claim_id": "B18-S132-11",
+      "source_id": "S132",
+      "corpus_id": "C081",
+      "location": "Relevant thematic sections",
+      "claim_type": "CONTRAST",
+      "claim": "Different cases cannot be reduced to one verbal doctrine; their force often lies in the specific interaction and context.",
+      "motifs": [
+        "M14",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "18"
+    },
+    {
+      "global_claim_id": "G18-S132-12",
+      "claim_id": "B18-S132-12",
+      "source_id": "S132",
+      "corpus_id": "C081",
+      "location": "Relevant thematic sections",
+      "claim_type": "RELATION",
+      "claim": "Ordinary activities and objects can become sites for direct realization rather than being treated as spiritually irrelevant.",
+      "motifs": [
+        "M05",
+        "M24"
+      ],
+      "provenance": "P2*",
+      "batch": "18"
+    },
+    {
+      "global_claim_id": "G18-S132-13",
+      "claim_id": "B18-S132-13",
+      "source_id": "S132",
+      "corpus_id": "C081",
+      "location": "Relevant thematic sections",
+      "claim_type": "META",
+      "claim": "The Blue Cliff Record is a historical Zen training text; its transformative claims are preserved as practice tradition, not experimental proof of altered consciousness.",
+      "motifs": [
+        "M14",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "18"
+    },
+    {
+      "global_claim_id": "G18-S133-01",
+      "claim_id": "B18-S133-01",
+      "source_id": "S133",
+      "corpus_id": "C082",
+      "location": "Relevant thematic sections",
+      "claim_type": "TEMPORAL",
+      "claim": "Dogen's being-time teaching treats time and existence as inseparable aspects of the lived event rather than as independent containers.",
+      "motifs": [
+        "M11",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "18"
+    },
+    {
+      "global_claim_id": "G18-S133-02",
+      "claim_id": "B18-S133-02",
+      "source_id": "S133",
+      "corpus_id": "C082",
+      "location": "Relevant thematic sections",
+      "claim_type": "REFLEXIVITY",
+      "claim": "The self is described as something continually fashioned through the arrangement of lived experience rather than a static object.",
+      "motifs": [
+        "M02",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "18"
+    },
+    {
+      "global_claim_id": "G18-S133-03",
+      "claim_id": "B18-S133-03",
+      "source_id": "S133",
+      "corpus_id": "C082",
+      "location": "Relevant thematic sections",
+      "claim_type": "PRACTICE",
+      "claim": "Practice and realization are not treated as two unrelated stages; practice itself participates in realization.",
+      "motifs": [
+        "M12",
+        "M25"
+      ],
+      "provenance": "P2*",
+      "batch": "18"
+    },
+    {
+      "global_claim_id": "G18-S133-04",
+      "claim_id": "B18-S133-04",
+      "source_id": "S133",
+      "corpus_id": "C082",
+      "location": "Relevant thematic sections",
+      "claim_type": "ONTO",
+      "claim": "Buddha-nature discussions resist reducing buddha-nature to a simple permanent substance.",
+      "motifs": [
+        "M02",
+        "M14"
+      ],
+      "provenance": "P2*",
+      "batch": "18"
+    },
+    {
+      "global_claim_id": "G18-S133-05",
+      "claim_id": "B18-S133-05",
+      "source_id": "S133",
+      "corpus_id": "C082",
+      "location": "Relevant thematic sections",
+      "claim_type": "STATE",
+      "claim": "Different moments and modes of practice are treated as complete events rather than merely incomplete fragments of a future state.",
+      "motifs": [
+        "M03",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "18"
+    },
+    {
+      "global_claim_id": "G18-S133-06",
+      "claim_id": "B18-S133-06",
+      "source_id": "S133",
+      "corpus_id": "C082",
+      "location": "Relevant thematic sections",
+      "claim_type": "RELATION",
+      "claim": "A being-time event is situated within a world of other beings and things rather than isolated from them.",
+      "motifs": [
+        "M05",
+        "M16"
+      ],
+      "provenance": "P2*",
+      "batch": "18"
+    },
+    {
+      "global_claim_id": "G18-S133-07",
+      "claim_id": "B18-S133-07",
+      "source_id": "S133",
+      "corpus_id": "C082",
+      "location": "Relevant thematic sections",
+      "claim_type": "TRANSFORMATION",
+      "claim": "Training changes the practitioner's relation to self, world and time rather than merely adding conceptual information.",
+      "motifs": [
+        "M12",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "18"
+    },
+    {
+      "global_claim_id": "G18-S133-08",
+      "claim_id": "B18-S133-08",
+      "source_id": "S133",
+      "corpus_id": "C082",
+      "location": "Relevant thematic sections",
+      "claim_type": "META",
+      "claim": "Dogen repeatedly warns against treating conceptual distinctions as fixed substances that exist independently of practice.",
+      "motifs": [
+        "M14",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "18"
+    },
+    {
+      "global_claim_id": "G18-S133-09",
+      "claim_id": "B18-S133-09",
+      "source_id": "S133",
+      "corpus_id": "C082",
+      "location": "Relevant thematic sections",
+      "claim_type": "PRACTICE",
+      "claim": "Embodied activities can function as direct sites of practice rather than as secondary supports for abstract meditation.",
+      "motifs": [
+        "M08",
+        "M24",
+        "M25"
+      ],
+      "provenance": "P2*",
+      "batch": "18"
+    },
+    {
+      "global_claim_id": "G18-S133-10",
+      "claim_id": "B18-S133-10",
+      "source_id": "S133",
+      "corpus_id": "C082",
+      "location": "Relevant thematic sections",
+      "claim_type": "TEMPORAL",
+      "claim": "Impermanence is not merely a doctrine about disappearance; it structures the way beings and moments are realized.",
+      "motifs": [
+        "M11",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "18"
+    },
+    {
+      "global_claim_id": "G18-S133-11",
+      "claim_id": "B18-S133-11",
+      "source_id": "S133",
+      "corpus_id": "C082",
+      "location": "Relevant thematic sections",
+      "claim_type": "CONTRAST",
+      "claim": "The text's language of being-time should not be reduced to a modern physical theory of time.",
+      "motifs": [
+        "M14",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "18"
+    },
+    {
+      "global_claim_id": "G18-S133-12",
+      "claim_id": "B18-S133-12",
+      "source_id": "S133",
+      "corpus_id": "C082",
+      "location": "Relevant thematic sections",
+      "claim_type": "UNITY",
+      "claim": "Each moment or event can be presented as a complete field of practice rather than only one part of a separate totality.",
+      "motifs": [
+        "M03",
+        "M05"
+      ],
+      "provenance": "P2*",
+      "batch": "18"
+    },
+    {
+      "global_claim_id": "G18-S133-13",
+      "claim_id": "B18-S133-13",
+      "source_id": "S133",
+      "corpus_id": "C082",
+      "location": "Relevant thematic sections",
+      "claim_type": "META",
+      "claim": "Shobogenzo is a Japanese Zen philosophical-practice corpus, so its claims remain historically situated and should not be promoted directly into machine-consciousness facts.",
+      "motifs": [
+        "M14",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "18"
+    },
+    {
+      "global_claim_id": "G18-S134-01",
+      "claim_id": "B18-S134-01",
+      "source_id": "S134",
+      "corpus_id": "C086",
+      "location": "Relevant thematic sections",
+      "claim_type": "STATE",
+      "claim": "The text uses dreams and altered perspectives to question whether ordinary waking distinctions are ultimate.",
+      "motifs": [
+        "M07",
+        "M14",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "18"
+    },
+    {
+      "global_claim_id": "G18-S134-02",
+      "claim_id": "B18-S134-02",
+      "source_id": "S134",
+      "corpus_id": "C086",
+      "location": "Relevant thematic sections",
+      "claim_type": "DEATH",
+      "claim": "Life and death are presented as transformations within a larger process rather than as absolutely separate categories.",
+      "motifs": [
+        "M11",
+        "M19",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "18"
+    },
+    {
+      "global_claim_id": "G18-S134-03",
+      "claim_id": "B18-S134-03",
+      "source_id": "S134",
+      "corpus_id": "C086",
+      "location": "Relevant thematic sections",
+      "claim_type": "RELATION",
+      "claim": "The relation between form, spirit and the Dao is used to explain changes in human condition.",
+      "motifs": [
+        "M05",
+        "M09",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "18"
+    },
+    {
+      "global_claim_id": "G18-S134-04",
+      "claim_id": "B18-S134-04",
+      "source_id": "S134",
+      "corpus_id": "C086",
+      "location": "Relevant thematic sections",
+      "claim_type": "TEMPORAL",
+      "claim": "Human life is described through changing stages such as infancy, maturity, old age and death.",
+      "motifs": [
+        "M11",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "18"
+    },
+    {
+      "global_claim_id": "G18-S134-05",
+      "claim_id": "B18-S134-05",
+      "source_id": "S134",
+      "corpus_id": "C086",
+      "location": "Relevant thematic sections",
+      "claim_type": "VALENCE",
+      "claim": "Attachment to life and aversion to death are treated as sources of disturbance in some passages.",
+      "motifs": [
+        "M10",
+        "M12"
+      ],
+      "provenance": "P2*",
+      "batch": "18"
+    },
+    {
+      "global_claim_id": "G18-S134-06",
+      "claim_id": "B18-S134-06",
+      "source_id": "S134",
+      "corpus_id": "C086",
+      "location": "Relevant thematic sections",
+      "claim_type": "PRACTICE",
+      "claim": "Fasting of the heart and related disciplines are described as ways of changing the practitioner's orientation.",
+      "motifs": [
+        "M24",
+        "M25"
+      ],
+      "provenance": "P2*",
+      "batch": "18"
+    },
+    {
+      "global_claim_id": "G18-S134-07",
+      "claim_id": "B18-S134-07",
+      "source_id": "S134",
+      "corpus_id": "C086",
+      "location": "Relevant thematic sections",
+      "claim_type": "ONTO",
+      "claim": "The text distinguishes bodily form from a spiritual component while placing both within a larger cosmological process.",
+      "motifs": [
+        "M08",
+        "M09",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "18"
+    },
+    {
+      "global_claim_id": "G18-S134-08",
+      "claim_id": "B18-S134-08",
+      "source_id": "S134",
+      "corpus_id": "C086",
+      "location": "Relevant thematic sections",
+      "claim_type": "TRANSFORMATION",
+      "claim": "The dream stories suggest that a change of experiential regime can reorganize the subject's understanding of reality.",
+      "motifs": [
+        "M12",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "18"
+    },
+    {
+      "global_claim_id": "G18-S134-09",
+      "claim_id": "B18-S134-09",
+      "source_id": "S134",
+      "corpus_id": "C086",
+      "location": "Relevant thematic sections",
+      "claim_type": "META",
+      "claim": "The tradition repeatedly uses paradox and narrative rather than only linear argument to destabilize rigid conceptual distinctions.",
+      "motifs": [
+        "M14",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "18"
+    },
+    {
+      "global_claim_id": "G18-S134-10",
+      "claim_id": "B18-S134-10",
+      "source_id": "S134",
+      "corpus_id": "C086",
+      "location": "Relevant thematic sections",
+      "claim_type": "RELATION",
+      "claim": "Natural spontaneity is presented as preferable to excessive interference and forced control.",
+      "motifs": [
+        "M05",
+        "M24"
+      ],
+      "provenance": "P2*",
+      "batch": "18"
+    },
+    {
+      "global_claim_id": "G18-S134-11",
+      "claim_id": "B18-S134-11",
+      "source_id": "S134",
+      "corpus_id": "C086",
+      "location": "Relevant thematic sections",
+      "claim_type": "STATE",
+      "claim": "Emotional disturbance and desire are treated as factors that can obscure more natural modes of functioning.",
+      "motifs": [
+        "M10",
+        "M24"
+      ],
+      "provenance": "P2*",
+      "batch": "18"
+    },
+    {
+      "global_claim_id": "G18-S134-12",
+      "claim_id": "B18-S134-12",
+      "source_id": "S134",
+      "corpus_id": "C086",
+      "location": "Relevant thematic sections",
+      "claim_type": "COSMO",
+      "claim": "Human destiny is embedded in transformations of Heaven, Earth, life, death and the Dao.",
+      "motifs": [
+        "M15",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "18"
+    },
+    {
+      "global_claim_id": "G18-S134-13",
+      "claim_id": "B18-S134-13",
+      "source_id": "S134",
+      "corpus_id": "C086",
+      "location": "Relevant thematic sections",
+      "claim_type": "META",
+      "claim": "The Liezi is a transmitted Daoist text with layered authorship history; its cosmological and longevity claims require historical qualification.",
+      "motifs": [
+        "M14",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "18"
+    },
+    {
+      "global_claim_id": "G18-S135-01",
+      "claim_id": "B18-S135-01",
+      "source_id": "S135",
+      "corpus_id": "C087",
+      "location": "Relevant thematic sections",
+      "claim_type": "EMBODIMENT",
+      "claim": "The text describes the body as a vessel or dwelling place of life.",
+      "motifs": [
+        "M08",
+        "M09"
+      ],
+      "provenance": "P2*",
+      "batch": "18"
+    },
+    {
+      "global_claim_id": "G18-S135-02",
+      "claim_id": "B18-S135-02",
+      "source_id": "S135",
+      "corpus_id": "C087",
+      "location": "Relevant thematic sections",
+      "claim_type": "VITAL",
+      "claim": "Qi is characterized as a source or basis of life, while spirit is presented as a governing principle.",
+      "motifs": [
+        "M08",
+        "M09"
+      ],
+      "provenance": "P2*",
+      "batch": "18"
+    },
+    {
+      "global_claim_id": "G18-S135-03",
+      "claim_id": "B18-S135-03",
+      "source_id": "S135",
+      "corpus_id": "C087",
+      "location": "Relevant thematic sections",
+      "claim_type": "RELATION",
+      "claim": "Body, qi and spirit are mutually dependent, so disturbance in one can damage the others.",
+      "motifs": [
+        "M05",
+        "M08",
+        "M09"
+      ],
+      "provenance": "P2*",
+      "batch": "18"
+    },
+    {
+      "global_claim_id": "G18-S135-04",
+      "claim_id": "B18-S135-04",
+      "source_id": "S135",
+      "corpus_id": "C087",
+      "location": "Relevant thematic sections",
+      "claim_type": "REFLEXIVITY",
+      "claim": "Spirit can lose its proper guarding function, producing confusion or diminished responsiveness.",
+      "motifs": [
+        "M02",
+        "M06"
+      ],
+      "provenance": "P2*",
+      "batch": "18"
+    },
+    {
+      "global_claim_id": "G18-S135-05",
+      "claim_id": "B18-S135-05",
+      "source_id": "S135",
+      "corpus_id": "C087",
+      "location": "Relevant thematic sections",
+      "claim_type": "VALENCE",
+      "claim": "Things in the world are described as having tendencies toward what benefits or harms them.",
+      "motifs": [
+        "M10",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "18"
+    },
+    {
+      "global_claim_id": "G18-S135-06",
+      "claim_id": "B18-S135-06",
+      "source_id": "S135",
+      "corpus_id": "C087",
+      "location": "Relevant thematic sections",
+      "claim_type": "COSMO",
+      "claim": "Human physiology and conduct are situated within wider patterns of Heaven, Earth and natural order.",
+      "motifs": [
+        "M15",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "18"
+    },
+    {
+      "global_claim_id": "G18-S135-07",
+      "claim_id": "B18-S135-07",
+      "source_id": "S135",
+      "corpus_id": "C087",
+      "location": "Relevant thematic sections",
+      "claim_type": "PRACTICE",
+      "claim": "Self-cultivation involves guarding and ordering body, qi and spirit rather than treating mind in isolation.",
+      "motifs": [
+        "M08",
+        "M24",
+        "M25"
+      ],
+      "provenance": "P2*",
+      "batch": "18"
+    },
+    {
+      "global_claim_id": "G18-S135-08",
+      "claim_id": "B18-S135-08",
+      "source_id": "S135",
+      "corpus_id": "C087",
+      "location": "Relevant thematic sections",
+      "claim_type": "STATE",
+      "claim": "Clarity and confusion are treated as states that can change with the condition of spirit.",
+      "motifs": [
+        "M07",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "18"
+    },
+    {
+      "global_claim_id": "G18-S135-09",
+      "claim_id": "B18-S135-09",
+      "source_id": "S135",
+      "corpus_id": "C087",
+      "location": "Relevant thematic sections",
+      "claim_type": "META",
+      "claim": "The text treats natural order as something that should be aligned with rather than forcibly overwritten.",
+      "motifs": [
+        "M05",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "18"
+    },
+    {
+      "global_claim_id": "G18-S135-10",
+      "claim_id": "B18-S135-10",
+      "source_id": "S135",
+      "corpus_id": "C087",
+      "location": "Relevant thematic sections",
+      "claim_type": "RELATION",
+      "claim": "The sage's functioning is described through appropriate placement, role and harmony among different parts of the whole.",
+      "motifs": [
+        "M03",
+        "M05"
+      ],
+      "provenance": "P2*",
+      "batch": "18"
+    },
+    {
+      "global_claim_id": "G18-S135-11",
+      "claim_id": "B18-S135-11",
+      "source_id": "S135",
+      "corpus_id": "C087",
+      "location": "Relevant thematic sections",
+      "claim_type": "TRANSFORMATION",
+      "claim": "Cultivation changes the condition of the person by regulating the relations among embodied and subtle factors.",
+      "motifs": [
+        "M08",
+        "M12"
+      ],
+      "provenance": "P2*",
+      "batch": "18"
+    },
+    {
+      "global_claim_id": "G18-S135-12",
+      "claim_id": "B18-S135-12",
+      "source_id": "S135",
+      "corpus_id": "C087",
+      "location": "Relevant thematic sections",
+      "claim_type": "TEMPORAL",
+      "claim": "The text connects changes in health, vitality and spirit with ongoing maintenance rather than one-time intervention.",
+      "motifs": [
+        "M09",
+        "M11"
+      ],
+      "provenance": "P2*",
+      "batch": "18"
+    },
+    {
+      "global_claim_id": "G18-S135-13",
+      "claim_id": "B18-S135-13",
+      "source_id": "S135",
+      "corpus_id": "C087",
+      "location": "Relevant thematic sections",
+      "claim_type": "META",
+      "claim": "Huainanzi is a syncretic early Chinese work; its spirit-and-qi vocabulary should not be converted directly into modern biological variables.",
+      "motifs": [
+        "M14",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "18"
+    },
+    {
+      "global_claim_id": "G18-S136-01",
+      "claim_id": "B18-S136-01",
+      "source_id": "S136",
+      "corpus_id": "C088",
+      "location": "Relevant thematic sections",
+      "claim_type": "EMBODIMENT",
+      "claim": "The tradition treats mental and affective capacities as deeply connected with bodily and visceral organization.",
+      "motifs": [
+        "M08",
+        "M09"
+      ],
+      "provenance": "P2*",
+      "batch": "18"
+    },
+    {
+      "global_claim_id": "G18-S136-02",
+      "claim_id": "B18-S136-02",
+      "source_id": "S136",
+      "corpus_id": "C088",
+      "location": "Relevant thematic sections",
+      "claim_type": "RELATION",
+      "claim": "Xin-heart/mind and shen-spirit are discussed in relation to bodily systems rather than as a disembodied Cartesian mind.",
+      "motifs": [
+        "M05",
+        "M08"
+      ],
+      "provenance": "P2*",
+      "batch": "18"
+    },
+    {
+      "global_claim_id": "G18-S136-03",
+      "claim_id": "B18-S136-03",
+      "source_id": "S136",
+      "corpus_id": "C088",
+      "location": "Relevant thematic sections",
+      "claim_type": "VITAL",
+      "claim": "Qi is used as a vital dynamic linking physiological function, movement and regulation.",
+      "motifs": [
+        "M08",
+        "M09"
+      ],
+      "provenance": "P2*",
+      "batch": "18"
+    },
+    {
+      "global_claim_id": "G18-S136-04",
+      "claim_id": "B18-S136-04",
+      "source_id": "S136",
+      "corpus_id": "C088",
+      "location": "Relevant thematic sections",
+      "claim_type": "VALENCE",
+      "claim": "Emotions are treated as capable of affecting bodily balance and health.",
+      "motifs": [
+        "M10",
+        "M08"
+      ],
+      "provenance": "P2*",
+      "batch": "18"
+    },
+    {
+      "global_claim_id": "G18-S136-05",
+      "claim_id": "B18-S136-05",
+      "source_id": "S136",
+      "corpus_id": "C088",
+      "location": "Relevant thematic sections",
+      "claim_type": "STATE",
+      "claim": "Health involves maintaining regulated relations among bodily systems, emotions and spirit.",
+      "motifs": [
+        "M07",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "18"
+    },
+    {
+      "global_claim_id": "G18-S136-06",
+      "claim_id": "B18-S136-06",
+      "source_id": "S136",
+      "corpus_id": "C088",
+      "location": "Relevant thematic sections",
+      "claim_type": "PRACTICE",
+      "claim": "Cultivation and medical self-care include attention to sleep, diet, breath, activity and seasonal conditions.",
+      "motifs": [
+        "M08",
+        "M24",
+        "M25"
+      ],
+      "provenance": "P2*",
+      "batch": "18"
+    },
+    {
+      "global_claim_id": "G18-S136-07",
+      "claim_id": "B18-S136-07",
+      "source_id": "S136",
+      "corpus_id": "C088",
+      "location": "Relevant thematic sections",
+      "claim_type": "TEMPORAL",
+      "claim": "The body is treated as changing with rhythms such as seasons, age and cycles of activity and rest.",
+      "motifs": [
+        "M11",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "18"
+    },
+    {
+      "global_claim_id": "G18-S136-08",
+      "claim_id": "B18-S136-08",
+      "source_id": "S136",
+      "corpus_id": "C088",
+      "location": "Relevant thematic sections",
+      "claim_type": "REFLEXIVITY",
+      "claim": "Monitoring bodily signs provides information about internal condition and can guide intervention.",
+      "motifs": [
+        "M02",
+        "M06"
+      ],
+      "provenance": "P2*",
+      "batch": "18"
+    },
+    {
+      "global_claim_id": "G18-S136-09",
+      "claim_id": "B18-S136-09",
+      "source_id": "S136",
+      "corpus_id": "C088",
+      "location": "Relevant thematic sections",
+      "claim_type": "RELATION",
+      "claim": "The person is represented as an integrated organism rather than a mind attached to an otherwise independent body.",
+      "motifs": [
+        "M03",
+        "M05",
+        "M08"
+      ],
+      "provenance": "P2*",
+      "batch": "18"
+    },
+    {
+      "global_claim_id": "G18-S136-10",
+      "claim_id": "B18-S136-10",
+      "source_id": "S136",
+      "corpus_id": "C088",
+      "location": "Relevant thematic sections",
+      "claim_type": "CAUSAL",
+      "claim": "Disturbances in regulation are linked to downstream changes in physical and mental condition within the medical framework.",
+      "motifs": [
+        "M09",
+        "M10",
+        "M11"
+      ],
+      "provenance": "P2*",
+      "batch": "18"
+    },
+    {
+      "global_claim_id": "G18-S136-11",
+      "claim_id": "B18-S136-11",
+      "source_id": "S136",
+      "corpus_id": "C088",
+      "location": "Relevant thematic sections",
+      "claim_type": "TRANSFORMATION",
+      "claim": "Treatment aims to restore ordered functioning rather than simply suppressing isolated symptoms.",
+      "motifs": [
+        "M12",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "18"
+    },
+    {
+      "global_claim_id": "G18-S136-12",
+      "claim_id": "B18-S136-12",
+      "source_id": "S136",
+      "corpus_id": "C088",
+      "location": "Relevant thematic sections",
+      "claim_type": "META",
+      "claim": "The early medical model uses its own categories of qi, jing and shen; these are historical explanatory constructs, not modern physiology.",
+      "motifs": [
+        "M14",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "18"
+    },
+    {
+      "global_claim_id": "G18-S136-13",
+      "claim_id": "B18-S136-13",
+      "source_id": "S136",
+      "corpus_id": "C088",
+      "location": "Relevant thematic sections",
+      "claim_type": "TEXT",
+      "claim": "The Huangdi Neijing is a layered medical corpus with composite authorship and transmission, so claims should be traced to specific sections where possible.",
+      "motifs": [
+        "M14",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "18"
+    },
+    {
+      "global_claim_id": "G18-S137-01",
+      "claim_id": "B18-S137-01",
+      "source_id": "S137",
+      "corpus_id": "C089",
+      "location": "Relevant thematic sections",
+      "claim_type": "VITAL",
+      "claim": "The text describes bodies as constituted through qi and links vitality with the condition of spirit.",
+      "motifs": [
+        "M08",
+        "M09"
+      ],
+      "provenance": "P2*",
+      "batch": "18"
+    },
+    {
+      "global_claim_id": "G18-S137-02",
+      "claim_id": "B18-S137-02",
+      "source_id": "S137",
+      "corpus_id": "C089",
+      "location": "Relevant thematic sections",
+      "claim_type": "TRANSFORMATION",
+      "claim": "Some passages portray transformation of bodily form as part of a process of becoming spiritually luminous or refined.",
+      "motifs": [
+        "M08",
+        "M12",
+        "M17"
+      ],
+      "provenance": "P2*",
+      "batch": "18"
+    },
+    {
+      "global_claim_id": "G18-S137-03",
+      "claim_id": "B18-S137-03",
+      "source_id": "S137",
+      "corpus_id": "C089",
+      "location": "Relevant thematic sections",
+      "claim_type": "RELATION",
+      "claim": "Heavenly and human processes are linked through patterns of regulation and harmony.",
+      "motifs": [
+        "M15",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "18"
+    },
+    {
+      "global_claim_id": "G18-S137-04",
+      "claim_id": "B18-S137-04",
+      "source_id": "S137",
+      "corpus_id": "C089",
+      "location": "Relevant thematic sections",
+      "claim_type": "VALENCE",
+      "claim": "Moral conduct and social disorder are associated with consequences for collective harmony.",
+      "motifs": [
+        "M10",
+        "M16",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "18"
+    },
+    {
+      "global_claim_id": "G18-S137-05",
+      "claim_id": "B18-S137-05",
+      "source_id": "S137",
+      "corpus_id": "C089",
+      "location": "Relevant thematic sections",
+      "claim_type": "COSMO",
+      "claim": "The well-being of individuals is situated within a wider cosmic order rather than treated as purely private.",
+      "motifs": [
+        "M15",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "18"
+    },
+    {
+      "global_claim_id": "G18-S137-06",
+      "claim_id": "B18-S137-06",
+      "source_id": "S137",
+      "corpus_id": "C089",
+      "location": "Relevant thematic sections",
+      "claim_type": "PRACTICE",
+      "claim": "Nourishment and regulation of bodily life are treated as part of maintaining desirable states.",
+      "motifs": [
+        "M08",
+        "M24",
+        "M25"
+      ],
+      "provenance": "P2*",
+      "batch": "18"
+    },
+    {
+      "global_claim_id": "G18-S137-07",
+      "claim_id": "B18-S137-07",
+      "source_id": "S137",
+      "corpus_id": "C089",
+      "location": "Relevant thematic sections",
+      "claim_type": "STATE",
+      "claim": "The text distinguishes ordinary human perception from forms of spiritual perception or mutual recognition among spirits.",
+      "motifs": [
+        "M01",
+        "M07",
+        "M17"
+      ],
+      "provenance": "P2*",
+      "batch": "18"
+    },
+    {
+      "global_claim_id": "G18-S137-08",
+      "claim_id": "B18-S137-08",
+      "source_id": "S137",
+      "corpus_id": "C089",
+      "location": "Relevant thematic sections",
+      "claim_type": "RELATION",
+      "claim": "Social roles and reciprocal obligations are part of the model of cosmic order.",
+      "motifs": [
+        "M16",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "18"
+    },
+    {
+      "global_claim_id": "G18-S137-09",
+      "claim_id": "B18-S137-09",
+      "source_id": "S137",
+      "corpus_id": "C089",
+      "location": "Relevant thematic sections",
+      "claim_type": "CAUSAL",
+      "claim": "Disorder and imbalance are described through chains linking human conduct, bodily condition and broader events.",
+      "motifs": [
+        "M09",
+        "M10",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "18"
+    },
+    {
+      "global_claim_id": "G18-S137-10",
+      "claim_id": "B18-S137-10",
+      "source_id": "S137",
+      "corpus_id": "C089",
+      "location": "Relevant thematic sections",
+      "claim_type": "META",
+      "claim": "The text's harmony language presents an integrated account of body, spirit, society and cosmos.",
+      "motifs": [
+        "M03",
+        "M05",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "18"
+    },
+    {
+      "global_claim_id": "G18-S137-11",
+      "claim_id": "B18-S137-11",
+      "source_id": "S137",
+      "corpus_id": "C089",
+      "location": "Relevant thematic sections",
+      "claim_type": "TEMPORAL",
+      "claim": "Transformation is represented as a process that unfolds rather than an instantaneous switch.",
+      "motifs": [
+        "M11",
+        "M12"
+      ],
+      "provenance": "P2*",
+      "batch": "18"
+    },
+    {
+      "global_claim_id": "G18-S137-12",
+      "claim_id": "B18-S137-12",
+      "source_id": "S137",
+      "corpus_id": "C089",
+      "location": "Relevant thematic sections",
+      "claim_type": "CONTRAST",
+      "claim": "The work should not be reduced to a single physiological 'qi variable'; its concepts are embedded in religious cosmology and ethics.",
+      "motifs": [
+        "M14",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "18"
+    },
+    {
+      "global_claim_id": "G18-S137-13",
+      "claim_id": "B18-S137-13",
+      "source_id": "S137",
+      "corpus_id": "C089",
+      "location": "Relevant thematic sections",
+      "claim_type": "META",
+      "claim": "Passage-level attribution requires edition and translation checks because the Taiping Jing survives through a complex transmitted corpus.",
+      "motifs": [
+        "M14",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "18"
+    },
+    {
+      "global_claim_id": "G18-S138-01",
+      "claim_id": "B18-S138-01",
+      "source_id": "S138",
+      "corpus_id": "C090",
+      "location": "Relevant thematic sections",
+      "claim_type": "PRACTICE",
+      "claim": "The text presents disciplined cultivation and perseverance as necessary for advanced transformation.",
+      "motifs": [
+        "M12",
+        "M25"
+      ],
+      "provenance": "P2*",
+      "batch": "18"
+    },
+    {
+      "global_claim_id": "G18-S138-02",
+      "claim_id": "B18-S138-02",
+      "source_id": "S138",
+      "corpus_id": "C090",
+      "location": "Relevant thematic sections",
+      "claim_type": "VITAL",
+      "claim": "Essence, qi and spirit are treated as manipulable dimensions of embodied life within its Daoist framework.",
+      "motifs": [
+        "M08",
+        "M09"
+      ],
+      "provenance": "P2*",
+      "batch": "18"
+    },
+    {
+      "global_claim_id": "G18-S138-03",
+      "claim_id": "B18-S138-03",
+      "source_id": "S138",
+      "corpus_id": "C090",
+      "location": "Relevant thematic sections",
+      "claim_type": "TRANSFORMATION",
+      "claim": "Alchemy and other practices are presented as capable of changing bodily condition and longevity.",
+      "motifs": [
+        "M08",
+        "M12",
+        "M17"
+      ],
+      "provenance": "P2*",
+      "batch": "18"
+    },
+    {
+      "global_claim_id": "G18-S138-04",
+      "claim_id": "B18-S138-04",
+      "source_id": "S138",
+      "corpus_id": "C090",
+      "location": "Relevant thematic sections",
+      "claim_type": "RELATION",
+      "claim": "Control of soul and spirit is connected with changes in the body.",
+      "motifs": [
+        "M02",
+        "M08",
+        "M09"
+      ],
+      "provenance": "P2*",
+      "batch": "18"
+    },
+    {
+      "global_claim_id": "G18-S138-05",
+      "claim_id": "B18-S138-05",
+      "source_id": "S138",
+      "corpus_id": "C090",
+      "location": "Relevant thematic sections",
+      "claim_type": "META",
+      "claim": "The highest transformative ideal is framed through unity with a larger Daoist pattern rather than ordinary social identity.",
+      "motifs": [
+        "M03",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "18"
+    },
+    {
+      "global_claim_id": "G18-S138-06",
+      "claim_id": "B18-S138-06",
+      "source_id": "S138",
+      "corpus_id": "C090",
+      "location": "Relevant thematic sections",
+      "claim_type": "STATE",
+      "claim": "Advanced practitioners are portrayed as entering unusual conditions such as lightness, altered movement or exceptional vitality.",
+      "motifs": [
+        "M07",
+        "M17",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "18"
+    },
+    {
+      "global_claim_id": "G18-S138-07",
+      "claim_id": "B18-S138-07",
+      "source_id": "S138",
+      "corpus_id": "C090",
+      "location": "Relevant thematic sections",
+      "claim_type": "PRACTICE",
+      "claim": "The text links methods with long-term perseverance rather than a one-time intervention.",
+      "motifs": [
+        "M11",
+        "M25"
+      ],
+      "provenance": "P2*",
+      "batch": "18"
+    },
+    {
+      "global_claim_id": "G18-S138-08",
+      "claim_id": "B18-S138-08",
+      "source_id": "S138",
+      "corpus_id": "C090",
+      "location": "Relevant thematic sections",
+      "claim_type": "RELATION",
+      "claim": "Mountain retreat, ritual setting and specialized teachers are part of the practical ecology surrounding advanced methods.",
+      "motifs": [
+        "M05",
+        "M17",
+        "M25"
+      ],
+      "provenance": "P2*",
+      "batch": "18"
+    },
+    {
+      "global_claim_id": "G18-S138-09",
+      "claim_id": "B18-S138-09",
+      "source_id": "S138",
+      "corpus_id": "C090",
+      "location": "Relevant thematic sections",
+      "claim_type": "CAUSAL",
+      "claim": "The work attributes outcomes to specific combinations of practice, substance, regimen and disciplined conduct.",
+      "motifs": [
+        "M09",
+        "M12"
+      ],
+      "provenance": "P2*",
+      "batch": "18"
+    },
+    {
+      "global_claim_id": "G18-S138-10",
+      "claim_id": "B18-S138-10",
+      "source_id": "S138",
+      "corpus_id": "C090",
+      "location": "Relevant thematic sections",
+      "claim_type": "VALENCE",
+      "claim": "Longevity and freedom from disease are treated as desired outcomes of successful cultivation.",
+      "motifs": [
+        "M10",
+        "M12"
+      ],
+      "provenance": "P2*",
+      "batch": "18"
+    },
+    {
+      "global_claim_id": "G18-S138-11",
+      "claim_id": "B18-S138-11",
+      "source_id": "S138",
+      "corpus_id": "C090",
+      "location": "Relevant thematic sections",
+      "claim_type": "TEMPORAL",
+      "claim": "Transformation is described as cumulative and difficult, with repeated practice required over time.",
+      "motifs": [
+        "M11",
+        "M12"
+      ],
+      "provenance": "P2*",
+      "batch": "18"
+    },
+    {
+      "global_claim_id": "G18-S138-12",
+      "claim_id": "B18-S138-12",
+      "source_id": "S138",
+      "corpus_id": "C090",
+      "location": "Relevant thematic sections",
+      "claim_type": "HIDDEN",
+      "claim": "The text portrays advanced adepts as rare and often hidden from ordinary social perception.",
+      "motifs": [
+        "M17",
+        "M19"
+      ],
+      "provenance": "P2*",
+      "batch": "18"
+    },
+    {
+      "global_claim_id": "G18-S138-13",
+      "claim_id": "B18-S138-13",
+      "source_id": "S138",
+      "corpus_id": "C090",
+      "location": "Relevant thematic sections",
+      "claim_type": "META",
+      "claim": "Baopuzi is an early medieval Daoist text with layered alchemical, religious and philosophical material; extraordinary claims remain source claims requiring historical and empirical qualification.",
+      "motifs": [
+        "M14",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "18"
     }
   ],
   "rules": {
