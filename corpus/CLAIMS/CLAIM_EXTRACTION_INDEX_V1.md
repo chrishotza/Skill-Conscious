@@ -2,7 +2,7 @@
 
 ## Current state
 
-The corpus has **325 source-register entries** and **2352 globally unique atomic claim records**. The coverage audit counts exact register IDs: **174 of 325 entries represented; 151 not yet represented**. “Represented” does not mean passage-level verified.
+The corpus has **325 source-register entries** and **2482 globally unique atomic claim records**. The coverage audit counts exact register IDs: **184 of 325 entries represented; 141 not yet represented**. “Represented” does not mean passage-level verified.
 
 | Batch | Sources | Claims | Scope |
 |---|---:|---:|---|
@@ -48,7 +48,7 @@ A frequently repeated motif is not automatically true. Promotion requires:
 
 ## Current milestone
 
-**2352 globally unique claims across 177 source IDs; 174/325 register entries represented (151 still missing).** The original 1,000-claim minimum has been exceeded; expansion continues until the register is covered.**
+**2482 globally unique claims across 187 source IDs; 184/325 register entries represented (141 still missing).** The original 1,000-claim minimum has been exceeded; expansion continues until the register is covered.**
 
 The next extraction stage should systematically traverse the remaining register while deepening the highest-value motifs: M01, M02, M03, M04, M05, M06, M07, M11, M12, M13, M14, M15, M16, M19, M20, M22, M23, M24 and M25.
 
@@ -99,3 +99,11 @@ The next extraction stage should systematically traverse the remaining register 
 - Current ledger: 2352 records / 177 source IDs.
 - Current register coverage: 174/325 represented; 151/325 still missing.
 - Exact-13 represented sources: 104.
+
+## Batch v23 checkpoint
+
+- Newly represented register entries: C144, C147, C148, C149, C152, C153, C155, C158, C159, C160.
+- Added claims: 130.
+- Current ledger: 2482 records / 187 source IDs.
+- Current register coverage: 184/325 represented; 141/325 still missing.
+- Exact-13 represented sources: 114.
