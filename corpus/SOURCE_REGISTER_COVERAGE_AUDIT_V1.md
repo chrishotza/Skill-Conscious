@@ -121,18 +121,18 @@
 | C100 | The Intimations — source register entry. | Represented — passage verification pending | 13 | S146 |
 | C101 | Asfar al-Arba'a — source register entry. | Represented — passage verification pending | 13 | S147 |
 | C102 | al-Hikma al-'Arshiyya — source register entry. | Represented — passage verification pending | 13 | S148 |
-| C103 | Haqq al-Yaqin — Persa/iraní; foco: conciencia, persona, realidad, transformación. | MISSING — extraction required | 0 | — |
-| C104 | Pyramid Texts — Egipto antiguo; foco: alma multipartita, corazón, muerte. | MISSING — extraction required | 0 | — |
-| C105 | Coffin Texts — Egipto antiguo; foco: alma multipartita, corazón, muerte. | MISSING — extraction required | 0 | — |
+| C103 | Haqq al-Yaqin — source register entry. | Represented — passage verification pending | 13 | S149 |
+| C104 | Pyramid Texts — source register entry. | Represented — passage verification pending | 13 | S150 |
+| C105 | Coffin Texts — source register entry. | Represented — passage verification pending | 13 | S151 |
 | C106 | Book of the Dead — Egipto antiguo; foco: alma multipartita, corazón, muerte. | Represented — verification status varies | 12 | S037 |
-| C107 | Book of Amduat — Egipto antiguo; foco: alma multipartita, corazón, muerte. | MISSING — extraction required | 0 | — |
-| C108 | Book of Gates — Egipto antiguo; foco: alma multipartita, corazón, muerte. | MISSING — extraction required | 0 | — |
-| C109 | Instructions of Ptahhotep — Egipto antiguo; foco: alma multipartita, corazón, muerte. | MISSING — extraction required | 0 | — |
-| C110 | Shabaka Stone / Memphite Theology — Egipto antiguo; foco: alma multipartita, corazón, muerte. | MISSING — extraction required | 0 | — |
+| C107 | Book of Amduat — source register entry. | Represented — passage verification pending | 13 | S152 |
+| C108 | Book of Gates — source register entry. | Represented — passage verification pending | 13 | S153 |
+| C109 | Instructions of Ptahhotep — source register entry. | Represented — passage verification pending | 13 | S154 |
+| C110 | Shabaka Stone / Memphite Theology — source register entry. | Represented — passage verification pending | 13 | S155 |
 | C111 | Orphic Gold Tablets — Grecia/platonismo; foco: psyche, nous, contemplación. | Represented — verification status varies | 8 | S015 |
-| C112 | Homeric Hymn to Demeter — Grecia/platonismo; foco: conciencia, persona, realidad, transformación. | MISSING — extraction required | 0 | — |
-| C113 | Heraclitus fragments — Grecia/platonismo; foco: psyche, nous, contemplación. | MISSING — extraction required | 0 | — |
-| C114 | Parmenides poem — Grecia/platonismo; foco: psyche, nous, contemplación. | MISSING — extraction required | 0 | — |
+| C112 | Homeric Hymn to Demeter — source register entry. | Represented — passage verification pending | 13 | S156 |
+| C113 | Heraclitus fragments — source register entry. | Represented — passage verification pending | 13 | S157 |
+| C114 | Parmenides poem — source register entry. | Represented — passage verification pending | 13 | S158 |
 | C115 | Pythagorean Golden Verses — Grecia/platonismo; foco: psyche, nous, contemplación. | Represented — verification status varies | 8 | S016 |
 | C116 | Plato — Grecia/platonismo; foco: psyche, nous, contemplación. | Represented — verification status varies | 12 | S033 |
 | C117 | Plato — Grecia/platonismo; foco: psyche, nous, contemplación. | Represented — verification status varies | 12 | S034 |
@@ -364,3 +364,8 @@ C076, C077, C079, C081, C082, C086, C087, C088, C089 and C090 are now represente
 ## Batch v19 checkpoint
 
 C091, C092, C093, C094, C096, C097, C098, C100, C101 and C102 are now represented with 13 P2* candidates each in `REMAINING_SOURCES_BATCH_V19.md`.
+
+
+## Batch v20 checkpoint
+
+C103, C104, C105, C107, C108, C109, C110, C112, C113 and C114 are now represented with 13 P2* candidates each in REMAINING_SOURCES_BATCH_V20.md.
