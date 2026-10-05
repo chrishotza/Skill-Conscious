@@ -2,7 +2,7 @@
 
 ## Current state
 
-The corpus has **325 source-register entries** and **1325 globally unique atomic claim records**. The coverage audit now counts exact register IDs rather than source IDs: **95 of 325 entries represented; 230 not yet represented**. “Represented” does not mean passage-level verified.
+The corpus has **325 source-register entries** and **1455 globally unique atomic claim records**. The coverage audit now counts exact register IDs rather than source IDs: **105 of 325 entries represented; 220 not yet represented**. “Represented” does not mean passage-level verified.
 
 | Batch | Sources | Claims | Scope |
 |---|---:|---:|---|
@@ -21,7 +21,8 @@ The corpus has **325 source-register entries** and **1325 globally unique atomic
 | Remaining Sources Block v12 | 5 | 65 | Śvetāśvatara, Īśā, Maitrī, Māṇḍūkya Kārikā, Sāṃkhya Kārikā |
 | Remaining Sources Block v13 | 5 | 65 | Aṣṭāvakra Gītā, Avadhūta Gītā, Vivekacūḍāmaṇi, Pañcadaśī, Aparokṣānubhūti |
 | Remaining Sources Block v14 | 10 | 130 | Haṭha Yoga Pradīpikā, Śiva Saṃhitā, Gheraṇḍa Saṃhitā, Yoga Vāsiṣṭha, Tripurā Rahasya, Ribhu Gītā, Śiva Sūtras, Pratyabhijñāhṛdayam, Śivadṛṣṭi, Pratyabhijñāvimarśinī |
-| **Total** | **98** | **1325** | cross-cultural source families with multiple internal traditions |
+| Remaining Sources Block v15 | 10 | 130 | Tantrāloka, Tantrasāra, Parātriśikāvivaraṇa, Mālinīvijayottara Tantra, Netra Tantra, Kubjikā Tantra corpus, Devīmāhātmya, Saundaryalaharī, Lalitopākhyāna/Lalitā tradition, Ācārāṅga Sūtra |
+| **Total** | **108** | **1455** | cross-cultural source families with multiple internal traditions |
 
 ## Claim-growth rule
 
@@ -46,6 +47,6 @@ A frequently repeated motif is not automatically true. Promotion requires:
 
 ## Current milestone
 
-**1325 globally unique claims across 98 source IDs; 95/325 register entries represented (230 still missing). The original 1,000-claim minimum has been exceeded; expansion continues until the register is covered.**
+**1455 globally unique claims across 108 source IDs; 105/325 register entries represented (220 still missing). The original 1,000-claim minimum has been exceeded; expansion continues until the register is covered.**
 
 The next extraction stage should systematically traverse the remaining register while deepening the highest-value motifs: M01, M02, M03, M04, M05, M06, M07, M11, M12, M13, M14, M15, M16, M19, M20, M22, M23, M24 and M25.
