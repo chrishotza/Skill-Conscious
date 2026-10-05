@@ -1,8 +1,8 @@
 {
   "schema_version": "1.0",
-  "claim_count": 1195,
-  "global_claim_count": 1195,
-  "source_count": 88,
+  "claim_count": 1325,
+  "global_claim_count": 1325,
+  "source_count": 98,
   "records": [
     {
       "global_claim_id": "G1-S001-K01",
@@ -18665,6 +18665,2039 @@
       ],
       "provenance": "P2*",
       "batch": "13"
+    },
+    {
+      "global_claim_id": "G14-S089-01",
+      "claim_id": "B14-S089-01",
+      "source_id": "S089",
+      "corpus_id": "C023",
+      "location": "I.1–I.3",
+      "claim_type": "PRACTICE",
+      "claim": "The text frames haṭha yoga as a disciplined path associated with the attainment of rāja yoga.",
+      "motifs": [
+        "M24",
+        "M25"
+      ],
+      "provenance": "P2*",
+      "batch": "14"
+    },
+    {
+      "global_claim_id": "G14-S089-02",
+      "claim_id": "B14-S089-02",
+      "source_id": "S089",
+      "corpus_id": "C023",
+      "location": "I.4–I.9",
+      "claim_type": "RELATION",
+      "claim": "The work situates its teaching in a lineage of teachers and practitioners.",
+      "motifs": [
+        "M05",
+        "M25"
+      ],
+      "provenance": "P2*",
+      "batch": "14"
+    },
+    {
+      "global_claim_id": "G14-S089-03",
+      "claim_id": "B14-S089-03",
+      "source_id": "S089",
+      "corpus_id": "C023",
+      "location": "I.10–I.16",
+      "claim_type": "PRACTICE",
+      "claim": "A suitable place, conduct, and sustained practice are treated as conditions for yoga.",
+      "motifs": [
+        "M08",
+        "M24",
+        "M25"
+      ],
+      "provenance": "P2*",
+      "batch": "14"
+    },
+    {
+      "global_claim_id": "G14-S089-04",
+      "claim_id": "B14-S089-04",
+      "source_id": "S089",
+      "corpus_id": "C023",
+      "location": "I.17–I.18",
+      "claim_type": "EMBODIMENT",
+      "claim": "Posture is presented as a practical means of stabilizing the body for yogic discipline.",
+      "motifs": [
+        "M08",
+        "M25"
+      ],
+      "provenance": "P2*",
+      "batch": "14"
+    },
+    {
+      "global_claim_id": "G14-S089-05",
+      "claim_id": "B14-S089-05",
+      "source_id": "S089",
+      "corpus_id": "C023",
+      "location": "II.1–II.5",
+      "claim_type": "DYNAMICS",
+      "claim": "Breath regulation is linked to the movement and restraint of vital processes.",
+      "motifs": [
+        "M08",
+        "M09",
+        "M24"
+      ],
+      "provenance": "P2*",
+      "batch": "14"
+    },
+    {
+      "global_claim_id": "G14-S089-06",
+      "claim_id": "B14-S089-06",
+      "source_id": "S089",
+      "corpus_id": "C023",
+      "location": "II.10–II.18",
+      "claim_type": "PRACTICE",
+      "claim": "Breath practices are described as requiring gradual training rather than uncontrolled exertion.",
+      "motifs": [
+        "M09",
+        "M24",
+        "M25"
+      ],
+      "provenance": "P2*",
+      "batch": "14"
+    },
+    {
+      "global_claim_id": "G14-S089-07",
+      "claim_id": "B14-S089-07",
+      "source_id": "S089",
+      "corpus_id": "C023",
+      "location": "II.39–II.45",
+      "claim_type": "DYNAMICS",
+      "claim": "The text relates breath, mind, and vital activity within its yogic model.",
+      "motifs": [
+        "M01",
+        "M09",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "14"
+    },
+    {
+      "global_claim_id": "G14-S089-08",
+      "claim_id": "B14-S089-08",
+      "source_id": "S089",
+      "corpus_id": "C023",
+      "location": "III.1–III.5",
+      "claim_type": "PRACTICE",
+      "claim": "Mudrās are introduced as techniques intended to redirect or conserve vital force.",
+      "motifs": [
+        "M09",
+        "M23",
+        "M25"
+      ],
+      "provenance": "P2*",
+      "batch": "14"
+    },
+    {
+      "global_claim_id": "G14-S089-09",
+      "claim_id": "B14-S089-09",
+      "source_id": "S089",
+      "corpus_id": "C023",
+      "location": "III.100–III.110",
+      "claim_type": "ONTO",
+      "claim": "The text associates certain advanced practices with changes in ordinary bodily and experiential limits.",
+      "motifs": [
+        "M07",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "14"
+    },
+    {
+      "global_claim_id": "G14-S089-10",
+      "claim_id": "B14-S089-10",
+      "source_id": "S089",
+      "corpus_id": "C023",
+      "location": "IV.1–IV.5",
+      "claim_type": "PHEN",
+      "claim": "Samādhi is described as a central culmination of the yogic path.",
+      "motifs": [
+        "M01",
+        "M07",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "14"
+    },
+    {
+      "global_claim_id": "G14-S089-11",
+      "claim_id": "B14-S089-11",
+      "source_id": "S089",
+      "corpus_id": "C023",
+      "location": "IV.10–IV.15",
+      "claim_type": "REFLEXIVITY",
+      "claim": "The relation between mind, breath, and absorption is used to describe altered experiential organization.",
+      "motifs": [
+        "M01",
+        "M09",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "14"
+    },
+    {
+      "global_claim_id": "G14-S089-12",
+      "claim_id": "B14-S089-12",
+      "source_id": "S089",
+      "corpus_id": "C023",
+      "location": "IV.29–IV.34",
+      "claim_type": "META",
+      "claim": "The text uses sound and inner absorption as contemplative frames, not as modern laboratory measurements.",
+      "motifs": [
+        "M01",
+        "M14",
+        "M25"
+      ],
+      "provenance": "P2*",
+      "batch": "14"
+    },
+    {
+      "global_claim_id": "G14-S089-13",
+      "claim_id": "B14-S089-13",
+      "source_id": "S089",
+      "corpus_id": "C023",
+      "location": "IV.76–IV.80",
+      "claim_type": "TRANSFORMATION",
+      "claim": "Liberation is associated with a transformed relation to mental activity and dualistic perception.",
+      "motifs": [
+        "M12",
+        "M13",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "14"
+    },
+    {
+      "global_claim_id": "G14-S090-01",
+      "claim_id": "B14-S090-01",
+      "source_id": "S090",
+      "corpus_id": "C024",
+      "location": "I.1–I.5",
+      "claim_type": "COSMO",
+      "claim": "The opening places yogic instruction within a broad account of reality and its manifestation.",
+      "motifs": [
+        "M20",
+        "M21"
+      ],
+      "provenance": "P2*",
+      "batch": "14"
+    },
+    {
+      "global_claim_id": "G14-S090-02",
+      "claim_id": "B14-S090-02",
+      "source_id": "S090",
+      "corpus_id": "C024",
+      "location": "I.6–I.20",
+      "claim_type": "META",
+      "claim": "The text distinguishes competing views of reality while presenting its own yogic framework.",
+      "motifs": [
+        "M14",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "14"
+    },
+    {
+      "global_claim_id": "G14-S090-03",
+      "claim_id": "B14-S090-03",
+      "source_id": "S090",
+      "corpus_id": "C024",
+      "location": "I.21–I.35",
+      "claim_type": "ONTO",
+      "claim": "The Self is treated as central to understanding bondage and liberation.",
+      "motifs": [
+        "M02",
+        "M06"
+      ],
+      "provenance": "P2*",
+      "batch": "14"
+    },
+    {
+      "global_claim_id": "G14-S090-04",
+      "claim_id": "B14-S090-04",
+      "source_id": "S090",
+      "corpus_id": "C024",
+      "location": "II.1–II.10",
+      "claim_type": "EMBODIMENT",
+      "claim": "The body is analyzed as a structured vehicle for yogic practice.",
+      "motifs": [
+        "M07",
+        "M08"
+      ],
+      "provenance": "P2*",
+      "batch": "14"
+    },
+    {
+      "global_claim_id": "G14-S090-05",
+      "claim_id": "B14-S090-05",
+      "source_id": "S090",
+      "corpus_id": "C024",
+      "location": "II.11–II.20",
+      "claim_type": "DYNAMICS",
+      "claim": "The subtle channels and vital forces are described as elements of the text's traditional physiology.",
+      "motifs": [
+        "M08",
+        "M09"
+      ],
+      "provenance": "P2*",
+      "batch": "14"
+    },
+    {
+      "global_claim_id": "G14-S090-06",
+      "claim_id": "B14-S090-06",
+      "source_id": "S090",
+      "corpus_id": "C024",
+      "location": "III.1–III.10",
+      "claim_type": "PRACTICE",
+      "claim": "Posture and preparatory discipline are presented as supports for further yogic work.",
+      "motifs": [
+        "M08",
+        "M25"
+      ],
+      "provenance": "P2*",
+      "batch": "14"
+    },
+    {
+      "global_claim_id": "G14-S090-07",
+      "claim_id": "B14-S090-07",
+      "source_id": "S090",
+      "corpus_id": "C024",
+      "location": "III.11–III.25",
+      "claim_type": "PRACTICE",
+      "claim": "Breath control is treated as a regulated practice with progressive stages.",
+      "motifs": [
+        "M09",
+        "M24",
+        "M25"
+      ],
+      "provenance": "P2*",
+      "batch": "14"
+    },
+    {
+      "global_claim_id": "G14-S090-08",
+      "claim_id": "B14-S090-08",
+      "source_id": "S090",
+      "corpus_id": "C024",
+      "location": "III.26–III.40",
+      "claim_type": "DYNAMICS",
+      "claim": "The text links the regulation of vital force with changes in mind and attention.",
+      "motifs": [
+        "M01",
+        "M09",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "14"
+    },
+    {
+      "global_claim_id": "G14-S090-09",
+      "claim_id": "B14-S090-09",
+      "source_id": "S090",
+      "corpus_id": "C024",
+      "location": "IV.1–IV.10",
+      "claim_type": "PHEN",
+      "claim": "Meditative absorption is described as a change in the practitioner's mode of experience.",
+      "motifs": [
+        "M01",
+        "M07",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "14"
+    },
+    {
+      "global_claim_id": "G14-S090-10",
+      "claim_id": "B14-S090-10",
+      "source_id": "S090",
+      "corpus_id": "C024",
+      "location": "IV.11–IV.20",
+      "claim_type": "REFLEXIVITY",
+      "claim": "The account connects self-knowledge with discernment of the Self from changing phenomena.",
+      "motifs": [
+        "M02",
+        "M13",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "14"
+    },
+    {
+      "global_claim_id": "G14-S090-11",
+      "claim_id": "B14-S090-11",
+      "source_id": "S090",
+      "corpus_id": "C024",
+      "location": "V.1–V.10",
+      "claim_type": "PRACTICE",
+      "claim": "The work describes methods intended to stabilize attention and realization.",
+      "motifs": [
+        "M24",
+        "M25"
+      ],
+      "provenance": "P2*",
+      "batch": "14"
+    },
+    {
+      "global_claim_id": "G14-S090-12",
+      "claim_id": "B14-S090-12",
+      "source_id": "S090",
+      "corpus_id": "C024",
+      "location": "V.11–V.20",
+      "claim_type": "ONTO",
+      "claim": "Liberation is framed through knowledge of the Self within the text's metaphysical commitments.",
+      "motifs": [
+        "M02",
+        "M12",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "14"
+    },
+    {
+      "global_claim_id": "G14-S090-13",
+      "claim_id": "B14-S090-13",
+      "source_id": "S090",
+      "corpus_id": "C024",
+      "location": "V.21–end",
+      "claim_type": "META",
+      "claim": "Claims about subtle physiology and liberation remain descriptions of the source's system, not independently verified scientific findings.",
+      "motifs": [
+        "M14",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "14"
+    },
+    {
+      "global_claim_id": "G14-S091-01",
+      "claim_id": "B14-S091-01",
+      "source_id": "S091",
+      "corpus_id": "C025",
+      "location": "I.1–I.10",
+      "claim_type": "PRACTICE",
+      "claim": "The teaching frames yoga as a staged discipline for transforming the practitioner's condition.",
+      "motifs": [
+        "M12",
+        "M24",
+        "M25"
+      ],
+      "provenance": "P2*",
+      "batch": "14"
+    },
+    {
+      "global_claim_id": "G14-S091-02",
+      "claim_id": "B14-S091-02",
+      "source_id": "S091",
+      "corpus_id": "C025",
+      "location": "I.11–I.60",
+      "claim_type": "EMBODIMENT",
+      "claim": "Purification practices are presented as preparations of the body for subsequent yogic methods.",
+      "motifs": [
+        "M08",
+        "M12",
+        "M25"
+      ],
+      "provenance": "P2*",
+      "batch": "14"
+    },
+    {
+      "global_claim_id": "G14-S091-03",
+      "claim_id": "B14-S091-03",
+      "source_id": "S091",
+      "corpus_id": "C025",
+      "location": "II.1–II.10",
+      "claim_type": "PRACTICE",
+      "claim": "Posture is one of the enumerated disciplines in the text's multi-stage system.",
+      "motifs": [
+        "M08",
+        "M25"
+      ],
+      "provenance": "P2*",
+      "batch": "14"
+    },
+    {
+      "global_claim_id": "G14-S091-04",
+      "claim_id": "B14-S091-04",
+      "source_id": "S091",
+      "corpus_id": "C025",
+      "location": "III.1–III.5",
+      "claim_type": "DYNAMICS",
+      "claim": "Mudrā practices are assigned a role in directing bodily and vital processes.",
+      "motifs": [
+        "M08",
+        "M09",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "14"
+    },
+    {
+      "global_claim_id": "G14-S091-05",
+      "claim_id": "B14-S091-05",
+      "source_id": "S091",
+      "corpus_id": "C025",
+      "location": "IV.1–IV.10",
+      "claim_type": "DYNAMICS",
+      "claim": "The text describes breath regulation as a distinct stage of disciplined practice.",
+      "motifs": [
+        "M09",
+        "M24",
+        "M25"
+      ],
+      "provenance": "P2*",
+      "batch": "14"
+    },
+    {
+      "global_claim_id": "G14-S091-06",
+      "claim_id": "B14-S091-06",
+      "source_id": "S091",
+      "corpus_id": "C025",
+      "location": "V.1–V.10",
+      "claim_type": "PRACTICE",
+      "claim": "Pratyāhāra is presented as the restraint or reorientation of sensory engagement.",
+      "motifs": [
+        "M07",
+        "M24",
+        "M25"
+      ],
+      "provenance": "P2*",
+      "batch": "14"
+    },
+    {
+      "global_claim_id": "G14-S091-07",
+      "claim_id": "B14-S091-07",
+      "source_id": "S091",
+      "corpus_id": "C025",
+      "location": "VI.1–VI.5",
+      "claim_type": "PRACTICE",
+      "claim": "Dhyāna is treated as a further stage involving sustained contemplative attention.",
+      "motifs": [
+        "M01",
+        "M24",
+        "M25"
+      ],
+      "provenance": "P2*",
+      "batch": "14"
+    },
+    {
+      "global_claim_id": "G14-S091-08",
+      "claim_id": "B14-S091-08",
+      "source_id": "S091",
+      "corpus_id": "C025",
+      "location": "VI.6–VI.20",
+      "claim_type": "PHEN",
+      "claim": "Contemplative states are described as modes of experience that differ from ordinary distraction.",
+      "motifs": [
+        "M01",
+        "M07",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "14"
+    },
+    {
+      "global_claim_id": "G14-S091-09",
+      "claim_id": "B14-S091-09",
+      "source_id": "S091",
+      "corpus_id": "C025",
+      "location": "VII.1–VII.5",
+      "claim_type": "PHEN",
+      "claim": "Samādhi is presented as the culmination of the text's sevenfold path.",
+      "motifs": [
+        "M01",
+        "M07",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "14"
+    },
+    {
+      "global_claim_id": "G14-S091-10",
+      "claim_id": "B14-S091-10",
+      "source_id": "S091",
+      "corpus_id": "C025",
+      "location": "VII.6–VII.10",
+      "claim_type": "TRANSFORMATION",
+      "claim": "The path associates realization with a transformed condition of the practitioner.",
+      "motifs": [
+        "M12",
+        "M13",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "14"
+    },
+    {
+      "global_claim_id": "G14-S091-11",
+      "claim_id": "B14-S091-11",
+      "source_id": "S091",
+      "corpus_id": "C025",
+      "location": "I–VII",
+      "claim_type": "META",
+      "claim": "The sevenfold organization is a textual model of practice, not a universal taxonomy established for all traditions.",
+      "motifs": [
+        "M07",
+        "M14"
+      ],
+      "provenance": "P2*",
+      "batch": "14"
+    },
+    {
+      "global_claim_id": "G14-S091-12",
+      "claim_id": "B14-S091-12",
+      "source_id": "S091",
+      "corpus_id": "C025",
+      "location": "I–VII",
+      "claim_type": "RELATION",
+      "claim": "Instruction is framed as transmitted through a teacher-student relation.",
+      "motifs": [
+        "M05",
+        "M25"
+      ],
+      "provenance": "P2*",
+      "batch": "14"
+    },
+    {
+      "global_claim_id": "G14-S091-13",
+      "claim_id": "B14-S091-13",
+      "source_id": "S091",
+      "corpus_id": "C025",
+      "location": "I–VII",
+      "claim_type": "META",
+      "claim": "The claims require comparison with Mallinson's Sanskrit-and-English edition before exact passage-level provenance is promoted.",
+      "motifs": [
+        "M14",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "14"
+    },
+    {
+      "global_claim_id": "G14-S092-01",
+      "claim_id": "B14-S092-01",
+      "source_id": "S092",
+      "corpus_id": "C026",
+      "location": "Vairāgya Prakaraṇa",
+      "claim_type": "PHEN",
+      "claim": "The narrative uses Rāma's disquiet to open an inquiry into suffering, desire, and the instability of ordinary aims.",
+      "motifs": [
+        "M10",
+        "M12",
+        "M24"
+      ],
+      "provenance": "P2*",
+      "batch": "14"
+    },
+    {
+      "global_claim_id": "G14-S092-02",
+      "claim_id": "B14-S092-02",
+      "source_id": "S092",
+      "corpus_id": "C026",
+      "location": "Mumukṣu-vyavahāra Prakaraṇa",
+      "claim_type": "PRACTICE",
+      "claim": "The aspirant's preparation and discernment are presented as important conditions for liberation.",
+      "motifs": [
+        "M24",
+        "M25"
+      ],
+      "provenance": "P2*",
+      "batch": "14"
+    },
+    {
+      "global_claim_id": "G14-S092-03",
+      "claim_id": "B14-S092-03",
+      "source_id": "S092",
+      "corpus_id": "C026",
+      "location": "Utpatti Prakaraṇa",
+      "claim_type": "COSMO",
+      "claim": "The account explores world-manifestation through mind, perception, and cosmological narrative.",
+      "motifs": [
+        "M05",
+        "M20",
+        "M21"
+      ],
+      "provenance": "P2*",
+      "batch": "14"
+    },
+    {
+      "global_claim_id": "G14-S092-04",
+      "claim_id": "B14-S092-04",
+      "source_id": "S092",
+      "corpus_id": "C026",
+      "location": "Utpatti Prakaraṇa",
+      "claim_type": "ONTO",
+      "claim": "World-appearance is interpreted through the text's philosophical account of mind and reality.",
+      "motifs": [
+        "M03",
+        "M05",
+        "M14"
+      ],
+      "provenance": "P2*",
+      "batch": "14"
+    },
+    {
+      "global_claim_id": "G14-S092-05",
+      "claim_id": "B14-S092-05",
+      "source_id": "S092",
+      "corpus_id": "C026",
+      "location": "Sthiti Prakaraṇa",
+      "claim_type": "TEMPORAL",
+      "claim": "Continuity and change are examined through narratives about worlds, minds, and experience.",
+      "motifs": [
+        "M07",
+        "M11",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "14"
+    },
+    {
+      "global_claim_id": "G14-S092-06",
+      "claim_id": "B14-S092-06",
+      "source_id": "S092",
+      "corpus_id": "C026",
+      "location": "Upaśama Prakaraṇa",
+      "claim_type": "TRANSFORMATION",
+      "claim": "Quiescence is presented as a change in the relation to mental constructions and attachment.",
+      "motifs": [
+        "M12",
+        "M23",
+        "M25"
+      ],
+      "provenance": "P2*",
+      "batch": "14"
+    },
+    {
+      "global_claim_id": "G14-S092-07",
+      "claim_id": "B14-S092-07",
+      "source_id": "S092",
+      "corpus_id": "C026",
+      "location": "Nirvāṇa Prakaraṇa",
+      "claim_type": "META",
+      "claim": "Liberation is framed through knowledge that loosens ordinary assumptions about independent reality.",
+      "motifs": [
+        "M13",
+        "M14",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "14"
+    },
+    {
+      "global_claim_id": "G14-S092-08",
+      "claim_id": "B14-S092-08",
+      "source_id": "S092",
+      "corpus_id": "C026",
+      "location": "Selected dialogue",
+      "claim_type": "REFLEXIVITY",
+      "claim": "The text repeatedly turns inquiry toward the mind that constructs or interprets its experienced world.",
+      "motifs": [
+        "M02",
+        "M22",
+        "M24"
+      ],
+      "provenance": "P2*",
+      "batch": "14"
+    },
+    {
+      "global_claim_id": "G14-S092-09",
+      "claim_id": "B14-S092-09",
+      "source_id": "S092",
+      "corpus_id": "C026",
+      "location": "Selected dialogue",
+      "claim_type": "PHEN",
+      "claim": "Dream and waking are compared to examine the status of experienced worlds.",
+      "motifs": [
+        "M07",
+        "M11",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "14"
+    },
+    {
+      "global_claim_id": "G14-S092-10",
+      "claim_id": "B14-S092-10",
+      "source_id": "S092",
+      "corpus_id": "C026",
+      "location": "Selected dialogue",
+      "claim_type": "ONTO",
+      "claim": "The distinction between appearance and ultimate status is developed within a nondual philosophical framework.",
+      "motifs": [
+        "M03",
+        "M05",
+        "M15"
+      ],
+      "provenance": "P2*",
+      "batch": "14"
+    },
+    {
+      "global_claim_id": "G14-S092-11",
+      "claim_id": "B14-S092-11",
+      "source_id": "S092",
+      "corpus_id": "C026",
+      "location": "Selected dialogue",
+      "claim_type": "DYNAMICS",
+      "claim": "Desire and mental projection are treated as factors shaping the experienced world.",
+      "motifs": [
+        "M10",
+        "M21",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "14"
+    },
+    {
+      "global_claim_id": "G14-S092-12",
+      "claim_id": "B14-S092-12",
+      "source_id": "S092",
+      "corpus_id": "C026",
+      "location": "Selected dialogue",
+      "claim_type": "PRACTICE",
+      "claim": "Reasoning, instruction, and contemplative insight are presented as routes toward freedom.",
+      "motifs": [
+        "M13",
+        "M24",
+        "M25"
+      ],
+      "provenance": "P2*",
+      "batch": "14"
+    },
+    {
+      "global_claim_id": "G14-S092-13",
+      "claim_id": "B14-S092-13",
+      "source_id": "S092",
+      "corpus_id": "C026",
+      "location": "Whole work",
+      "claim_type": "META",
+      "claim": "The Yoga Vāsiṣṭha has multiple recensions and abridgements; these thematic locators must be tied to a declared edition before precise claims are considered verified.",
+      "motifs": [
+        "M14",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "14"
+    },
+    {
+      "global_claim_id": "G14-S093-01",
+      "claim_id": "B14-S093-01",
+      "source_id": "S093",
+      "corpus_id": "C027",
+      "location": "Jñāna-khaṇḍa, opening",
+      "claim_type": "RELATION",
+      "claim": "The dialogue form presents instruction as a relation through which inquiry is guided.",
+      "motifs": [
+        "M05",
+        "M24",
+        "M25"
+      ],
+      "provenance": "P2*",
+      "batch": "14"
+    },
+    {
+      "global_claim_id": "G14-S093-02",
+      "claim_id": "B14-S093-02",
+      "source_id": "S093",
+      "corpus_id": "C027",
+      "location": "Jñāna-khaṇḍa, selected dialogues",
+      "claim_type": "META",
+      "claim": "The work privileges direct knowledge of reality over merely external or verbal description.",
+      "motifs": [
+        "M13",
+        "M14",
+        "M24"
+      ],
+      "provenance": "P2*",
+      "batch": "14"
+    },
+    {
+      "global_claim_id": "G14-S093-03",
+      "claim_id": "B14-S093-03",
+      "source_id": "S093",
+      "corpus_id": "C027",
+      "location": "Selected dialogues",
+      "claim_type": "REFLEXIVITY",
+      "claim": "Inquiry is directed toward the awareness in which thoughts and perceptions are known.",
+      "motifs": [
+        "M01",
+        "M02",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "14"
+    },
+    {
+      "global_claim_id": "G14-S093-04",
+      "claim_id": "B14-S093-04",
+      "source_id": "S093",
+      "corpus_id": "C027",
+      "location": "Selected dialogues",
+      "claim_type": "ONTO",
+      "claim": "Awareness is treated as more fundamental than particular objects appearing to it.",
+      "motifs": [
+        "M01",
+        "M02",
+        "M06"
+      ],
+      "provenance": "P2*",
+      "batch": "14"
+    },
+    {
+      "global_claim_id": "G14-S093-05",
+      "claim_id": "B14-S093-05",
+      "source_id": "S093",
+      "corpus_id": "C027",
+      "location": "Selected dialogues",
+      "claim_type": "PHEN",
+      "claim": "Changing mental contents are used to distinguish experience from the knowing principle discussed by the text.",
+      "motifs": [
+        "M01",
+        "M07",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "14"
+    },
+    {
+      "global_claim_id": "G14-S093-06",
+      "claim_id": "B14-S093-06",
+      "source_id": "S093",
+      "corpus_id": "C027",
+      "location": "Selected dialogues",
+      "claim_type": "COSMO",
+      "claim": "Manifestation is discussed in relation to consciousness and the appearance of multiplicity.",
+      "motifs": [
+        "M03",
+        "M20",
+        "M21"
+      ],
+      "provenance": "P2*",
+      "batch": "14"
+    },
+    {
+      "global_claim_id": "G14-S093-07",
+      "claim_id": "B14-S093-07",
+      "source_id": "S093",
+      "corpus_id": "C027",
+      "location": "Selected dialogues",
+      "claim_type": "META",
+      "claim": "The work's metaphysical claims belong to a nondual Śākta/Advaita interpretive setting and should not be generalized to all schools.",
+      "motifs": [
+        "M03",
+        "M14",
+        "M15"
+      ],
+      "provenance": "P2*",
+      "batch": "14"
+    },
+    {
+      "global_claim_id": "G14-S093-08",
+      "claim_id": "B14-S093-08",
+      "source_id": "S093",
+      "corpus_id": "C027",
+      "location": "Selected dialogues",
+      "claim_type": "PRACTICE",
+      "claim": "Self-inquiry and discernment are presented as methods for correcting mistaken identification.",
+      "motifs": [
+        "M13",
+        "M24",
+        "M25"
+      ],
+      "provenance": "P2*",
+      "batch": "14"
+    },
+    {
+      "global_claim_id": "G14-S093-09",
+      "claim_id": "B14-S093-09",
+      "source_id": "S093",
+      "corpus_id": "C027",
+      "location": "Selected dialogues",
+      "claim_type": "TRANSFORMATION",
+      "claim": "Liberation is represented as a transformation of understanding rather than the production of a new Self.",
+      "motifs": [
+        "M12",
+        "M13",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "14"
+    },
+    {
+      "global_claim_id": "G14-S093-10",
+      "claim_id": "B14-S093-10",
+      "source_id": "S093",
+      "corpus_id": "C027",
+      "location": "Selected dialogues",
+      "claim_type": "TEMPORAL",
+      "claim": "Dream-like and imagined worlds are used to question assumptions about ordinary reality and continuity.",
+      "motifs": [
+        "M07",
+        "M11",
+        "M14"
+      ],
+      "provenance": "P2*",
+      "batch": "14"
+    },
+    {
+      "global_claim_id": "G14-S093-11",
+      "claim_id": "B14-S093-11",
+      "source_id": "S093",
+      "corpus_id": "C027",
+      "location": "Selected dialogues",
+      "claim_type": "VALENCE",
+      "claim": "Attachment and desire are described as contributing to bondage or misapprehension.",
+      "motifs": [
+        "M10",
+        "M12",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "14"
+    },
+    {
+      "global_claim_id": "G14-S093-12",
+      "claim_id": "B14-S093-12",
+      "source_id": "S093",
+      "corpus_id": "C027",
+      "location": "Selected dialogues",
+      "claim_type": "RELATION",
+      "claim": "Teacher-student dialogue functions as a device for progressive clarification.",
+      "motifs": [
+        "M05",
+        "M24"
+      ],
+      "provenance": "P2*",
+      "batch": "14"
+    },
+    {
+      "global_claim_id": "G14-S093-13",
+      "claim_id": "B14-S093-13",
+      "source_id": "S093",
+      "corpus_id": "C027",
+      "location": "Whole work",
+      "claim_type": "META",
+      "claim": "Edition-specific section and verse locators remain to be established before these paraphrases receive stronger provenance.",
+      "motifs": [
+        "M14",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "14"
+    },
+    {
+      "global_claim_id": "G14-S094-01",
+      "claim_id": "B14-S094-01",
+      "source_id": "S094",
+      "corpus_id": "C028",
+      "location": "Selected chapters",
+      "claim_type": "ONTO",
+      "claim": "The text repeatedly identifies the Self with nondual reality rather than a finite personal attribute.",
+      "motifs": [
+        "M02",
+        "M03",
+        "M15"
+      ],
+      "provenance": "P2*",
+      "batch": "14"
+    },
+    {
+      "global_claim_id": "G14-S094-02",
+      "claim_id": "B14-S094-02",
+      "source_id": "S094",
+      "corpus_id": "C028",
+      "location": "Selected chapters",
+      "claim_type": "META",
+      "claim": "Negation is used to loosen identification with body, mind, and other limited descriptions.",
+      "motifs": [
+        "M06",
+        "M14"
+      ],
+      "provenance": "P2*",
+      "batch": "14"
+    },
+    {
+      "global_claim_id": "G14-S094-03",
+      "claim_id": "B14-S094-03",
+      "source_id": "S094",
+      "corpus_id": "C028",
+      "location": "Selected chapters",
+      "claim_type": "REFLEXIVITY",
+      "claim": "The seeker is directed to investigate the awareness in which bodily and mental states appear.",
+      "motifs": [
+        "M01",
+        "M02",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "14"
+    },
+    {
+      "global_claim_id": "G14-S094-04",
+      "claim_id": "B14-S094-04",
+      "source_id": "S094",
+      "corpus_id": "C028",
+      "location": "Selected chapters",
+      "claim_type": "PRACTICE",
+      "claim": "Repeated contemplation of the teaching is presented as a discipline of realization.",
+      "motifs": [
+        "M24",
+        "M25"
+      ],
+      "provenance": "P2*",
+      "batch": "14"
+    },
+    {
+      "global_claim_id": "G14-S094-05",
+      "claim_id": "B14-S094-05",
+      "source_id": "S094",
+      "corpus_id": "C028",
+      "location": "Selected chapters",
+      "claim_type": "TRANSFORMATION",
+      "claim": "Liberation is described as recognition of an identity obscured by ignorance.",
+      "motifs": [
+        "M12",
+        "M13",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "14"
+    },
+    {
+      "global_claim_id": "G14-S094-06",
+      "claim_id": "B14-S094-06",
+      "source_id": "S094",
+      "corpus_id": "C028",
+      "location": "Selected chapters",
+      "claim_type": "ONTO",
+      "claim": "Ordinary subject-object divisions are challenged within the text's nondual framework.",
+      "motifs": [
+        "M03",
+        "M04",
+        "M15"
+      ],
+      "provenance": "P2*",
+      "batch": "14"
+    },
+    {
+      "global_claim_id": "G14-S094-07",
+      "claim_id": "B14-S094-07",
+      "source_id": "S094",
+      "corpus_id": "C028",
+      "location": "Selected chapters",
+      "claim_type": "META",
+      "claim": "The text treats conceptual assertions as limited when mistaken for realization itself.",
+      "motifs": [
+        "M14",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "14"
+    },
+    {
+      "global_claim_id": "G14-S094-08",
+      "claim_id": "B14-S094-08",
+      "source_id": "S094",
+      "corpus_id": "C028",
+      "location": "Selected chapters",
+      "claim_type": "VALENCE",
+      "claim": "Attachment to finite identity is represented as sustaining suffering or bondage.",
+      "motifs": [
+        "M10",
+        "M12",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "14"
+    },
+    {
+      "global_claim_id": "G14-S094-09",
+      "claim_id": "B14-S094-09",
+      "source_id": "S094",
+      "corpus_id": "C028",
+      "location": "Selected chapters",
+      "claim_type": "PHEN",
+      "claim": "The discourse distinguishes changing experiences from the awareness claimed to know them.",
+      "motifs": [
+        "M01",
+        "M02",
+        "M11"
+      ],
+      "provenance": "P2*",
+      "batch": "14"
+    },
+    {
+      "global_claim_id": "G14-S094-10",
+      "claim_id": "B14-S094-10",
+      "source_id": "S094",
+      "corpus_id": "C028",
+      "location": "Selected chapters",
+      "claim_type": "PRACTICE",
+      "claim": "Renunciation and contemplative steadiness are presented as supports for discernment.",
+      "motifs": [
+        "M24",
+        "M25"
+      ],
+      "provenance": "P2*",
+      "batch": "14"
+    },
+    {
+      "global_claim_id": "G14-S094-11",
+      "claim_id": "B14-S094-11",
+      "source_id": "S094",
+      "corpus_id": "C028",
+      "location": "Selected chapters",
+      "claim_type": "COSMO",
+      "claim": "The world is interpreted as non-separate from the ultimate reality affirmed by the text.",
+      "motifs": [
+        "M03",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "14"
+    },
+    {
+      "global_claim_id": "G14-S094-12",
+      "claim_id": "B14-S094-12",
+      "source_id": "S094",
+      "corpus_id": "C028",
+      "location": "Selected chapters",
+      "claim_type": "META",
+      "claim": "Its strong nondual assertions are tradition-specific doctrinal claims, not neutral empirical findings.",
+      "motifs": [
+        "M14",
+        "M15"
+      ],
+      "provenance": "P2*",
+      "batch": "14"
+    },
+    {
+      "global_claim_id": "G14-S094-13",
+      "claim_id": "B14-S094-13",
+      "source_id": "S094",
+      "corpus_id": "C028",
+      "location": "Whole work",
+      "claim_type": "META",
+      "claim": "Exact chapter and verse locators must be verified against a declared edition before claim-level confidence is raised.",
+      "motifs": [
+        "M14",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "14"
+    },
+    {
+      "global_claim_id": "G14-S095-01",
+      "claim_id": "B14-S095-01",
+      "source_id": "S095",
+      "corpus_id": "C029",
+      "location": "I.1–I.5",
+      "claim_type": "ONTO",
+      "claim": "The first section frames consciousness as foundational within the text's Śaiva metaphysics.",
+      "motifs": [
+        "M01",
+        "M02",
+        "M06"
+      ],
+      "provenance": "P2*",
+      "batch": "14"
+    },
+    {
+      "global_claim_id": "G14-S095-02",
+      "claim_id": "B14-S095-02",
+      "source_id": "S095",
+      "corpus_id": "C029",
+      "location": "I.1–I.5",
+      "claim_type": "META",
+      "claim": "The aphorisms use compressed formulations that require commentary to establish their intended scope.",
+      "motifs": [
+        "M14",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "14"
+    },
+    {
+      "global_claim_id": "G14-S095-03",
+      "claim_id": "B14-S095-03",
+      "source_id": "S095",
+      "corpus_id": "C029",
+      "location": "I.6–I.10",
+      "claim_type": "ONTO",
+      "claim": "The text describes limitation and ordinary cognition through its account of the individual subject.",
+      "motifs": [
+        "M04",
+        "M07",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "14"
+    },
+    {
+      "global_claim_id": "G14-S095-04",
+      "claim_id": "B14-S095-04",
+      "source_id": "S095",
+      "corpus_id": "C029",
+      "location": "I.11–I.15",
+      "claim_type": "TRANSFORMATION",
+      "claim": "Liberation is associated with recognition or expansion beyond restricted identification.",
+      "motifs": [
+        "M12",
+        "M13",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "14"
+    },
+    {
+      "global_claim_id": "G14-S095-05",
+      "claim_id": "B14-S095-05",
+      "source_id": "S095",
+      "corpus_id": "C029",
+      "location": "II.1–II.5",
+      "claim_type": "PRACTICE",
+      "claim": "Mantra and contemplative methods are presented as means of transforming awareness and attention.",
+      "motifs": [
+        "M01",
+        "M24",
+        "M25"
+      ],
+      "provenance": "P2*",
+      "batch": "14"
+    },
+    {
+      "global_claim_id": "G14-S095-06",
+      "claim_id": "B14-S095-06",
+      "source_id": "S095",
+      "corpus_id": "C029",
+      "location": "II.6–II.10",
+      "claim_type": "DYNAMICS",
+      "claim": "The text relates mental activity and disciplined practice to shifts in the subject's condition.",
+      "motifs": [
+        "M09",
+        "M12",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "14"
+    },
+    {
+      "global_claim_id": "G14-S095-07",
+      "claim_id": "B14-S095-07",
+      "source_id": "S095",
+      "corpus_id": "C029",
+      "location": "II.11–II.15",
+      "claim_type": "REFLEXIVITY",
+      "claim": "The path includes recognition of the subject's own awareness rather than only external objects.",
+      "motifs": [
+        "M02",
+        "M13",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "14"
+    },
+    {
+      "global_claim_id": "G14-S095-08",
+      "claim_id": "B14-S095-08",
+      "source_id": "S095",
+      "corpus_id": "C029",
+      "location": "III.1–III.5",
+      "claim_type": "ONTO",
+      "claim": "The third section discusses conditions of embodied limitation within the system's metaphysics.",
+      "motifs": [
+        "M04",
+        "M08",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "14"
+    },
+    {
+      "global_claim_id": "G14-S095-09",
+      "claim_id": "B14-S095-09",
+      "source_id": "S095",
+      "corpus_id": "C029",
+      "location": "III.6–III.10",
+      "claim_type": "PRACTICE",
+      "claim": "Practice is described as altering the practitioner's relation to cognition and constraint.",
+      "motifs": [
+        "M12",
+        "M24",
+        "M25"
+      ],
+      "provenance": "P2*",
+      "batch": "14"
+    },
+    {
+      "global_claim_id": "G14-S095-10",
+      "claim_id": "B14-S095-10",
+      "source_id": "S095",
+      "corpus_id": "C029",
+      "location": "III.11–III.15",
+      "claim_type": "TRANSFORMATION",
+      "claim": "The text presents spiritual realization as a change in how the subject inhabits experience.",
+      "motifs": [
+        "M12",
+        "M13",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "14"
+    },
+    {
+      "global_claim_id": "G14-S095-11",
+      "claim_id": "B14-S095-11",
+      "source_id": "S095",
+      "corpus_id": "C029",
+      "location": "I–III",
+      "claim_type": "META",
+      "claim": "The sutras must be interpreted alongside specific commentaries rather than treated as self-explanatory technical propositions.",
+      "motifs": [
+        "M14",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "14"
+    },
+    {
+      "global_claim_id": "G14-S095-12",
+      "claim_id": "B14-S095-12",
+      "source_id": "S095",
+      "corpus_id": "C029",
+      "location": "I–III",
+      "claim_type": "RELATION",
+      "claim": "Transmission and interpretive lineage matter for understanding the aphorisms' compressed language.",
+      "motifs": [
+        "M05",
+        "M25"
+      ],
+      "provenance": "P2*",
+      "batch": "14"
+    },
+    {
+      "global_claim_id": "G14-S095-13",
+      "claim_id": "B14-S095-13",
+      "source_id": "S095",
+      "corpus_id": "C029",
+      "location": "Whole work",
+      "claim_type": "META",
+      "claim": "Verse-level mapping and commentary selection remain to be declared for passage-specific verification.",
+      "motifs": [
+        "M14",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "14"
+    },
+    {
+      "global_claim_id": "G14-S096-01",
+      "claim_id": "B14-S096-01",
+      "source_id": "S096",
+      "corpus_id": "C032",
+      "location": "Sūtra 1",
+      "claim_type": "ONTO",
+      "claim": "The text presents universal consciousness as the ground from which the experienced universe unfolds.",
+      "motifs": [
+        "M01",
+        "M20",
+        "M21"
+      ],
+      "provenance": "P2*",
+      "batch": "14"
+    },
+    {
+      "global_claim_id": "G14-S096-02",
+      "claim_id": "B14-S096-02",
+      "source_id": "S096",
+      "corpus_id": "C032",
+      "location": "Sūtra 2",
+      "claim_type": "DYNAMICS",
+      "claim": "Manifestation is described through the activity or dynamic freedom of consciousness.",
+      "motifs": [
+        "M09",
+        "M21",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "14"
+    },
+    {
+      "global_claim_id": "G14-S096-03",
+      "claim_id": "B14-S096-03",
+      "source_id": "S096",
+      "corpus_id": "C032",
+      "location": "Sūtra 3",
+      "claim_type": "ONTO",
+      "claim": "The individual subject is explained through a contraction or limitation of a more expansive consciousness.",
+      "motifs": [
+        "M04",
+        "M06",
+        "M15"
+      ],
+      "provenance": "P2*",
+      "batch": "14"
+    },
+    {
+      "global_claim_id": "G14-S096-04",
+      "claim_id": "B14-S096-04",
+      "source_id": "S096",
+      "corpus_id": "C032",
+      "location": "Sūtra 4",
+      "claim_type": "META",
+      "claim": "The account distinguishes universal awareness from the restricted perspective of the embodied individual.",
+      "motifs": [
+        "M04",
+        "M07",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "14"
+    },
+    {
+      "global_claim_id": "G14-S096-05",
+      "claim_id": "B14-S096-05",
+      "source_id": "S096",
+      "corpus_id": "C032",
+      "location": "Sūtra 5",
+      "claim_type": "TRANSFORMATION",
+      "claim": "Recognition is framed as recovery of an identity obscured by limitation.",
+      "motifs": [
+        "M12",
+        "M13",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "14"
+    },
+    {
+      "global_claim_id": "G14-S096-06",
+      "claim_id": "B14-S096-06",
+      "source_id": "S096",
+      "corpus_id": "C032",
+      "location": "Sūtra 6",
+      "claim_type": "ONTO",
+      "claim": "The text uses the relation between consciousness and its powers to explain differentiated experience.",
+      "motifs": [
+        "M05",
+        "M07",
+        "M21"
+      ],
+      "provenance": "P2*",
+      "batch": "14"
+    },
+    {
+      "global_claim_id": "G14-S096-07",
+      "claim_id": "B14-S096-07",
+      "source_id": "S096",
+      "corpus_id": "C032",
+      "location": "Sūtra 7",
+      "claim_type": "REFLEXIVITY",
+      "claim": "Self-recognition is central to the text's account of liberation.",
+      "motifs": [
+        "M02",
+        "M13",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "14"
+    },
+    {
+      "global_claim_id": "G14-S096-08",
+      "claim_id": "B14-S096-08",
+      "source_id": "S096",
+      "corpus_id": "C032",
+      "location": "Sūtra 8",
+      "claim_type": "PHEN",
+      "claim": "Experience is interpreted through the activity of consciousness rather than as wholly independent of it.",
+      "motifs": [
+        "M01",
+        "M05",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "14"
+    },
+    {
+      "global_claim_id": "G14-S096-09",
+      "claim_id": "B14-S096-09",
+      "source_id": "S096",
+      "corpus_id": "C032",
+      "location": "Sūtra 9",
+      "claim_type": "DYNAMICS",
+      "claim": "The world is presented as an expression of consciousness's activity within the text's metaphysics.",
+      "motifs": [
+        "M09",
+        "M20",
+        "M21"
+      ],
+      "provenance": "P2*",
+      "batch": "14"
+    },
+    {
+      "global_claim_id": "G14-S096-10",
+      "claim_id": "B14-S096-10",
+      "source_id": "S096",
+      "corpus_id": "C032",
+      "location": "Sūtra 10",
+      "claim_type": "META",
+      "claim": "The work's concise aphorisms depend on commentary for precise doctrinal interpretation.",
+      "motifs": [
+        "M14",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "14"
+    },
+    {
+      "global_claim_id": "G14-S096-11",
+      "claim_id": "B14-S096-11",
+      "source_id": "S096",
+      "corpus_id": "C032",
+      "location": "Sūtra 11",
+      "claim_type": "TRANSFORMATION",
+      "claim": "Liberation is described as recognizing one's nature rather than acquiring an external object.",
+      "motifs": [
+        "M12",
+        "M13",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "14"
+    },
+    {
+      "global_claim_id": "G14-S096-12",
+      "claim_id": "B14-S096-12",
+      "source_id": "S096",
+      "corpus_id": "C032",
+      "location": "Sūtra 12",
+      "claim_type": "ONTO",
+      "claim": "The individual and universal are related through a Śaiva nondual account, not simply equated across all traditions.",
+      "motifs": [
+        "M03",
+        "M04",
+        "M15"
+      ],
+      "provenance": "P2*",
+      "batch": "14"
+    },
+    {
+      "global_claim_id": "G14-S096-13",
+      "claim_id": "B14-S096-13",
+      "source_id": "S096",
+      "corpus_id": "C032",
+      "location": "Whole work",
+      "claim_type": "META",
+      "claim": "Sūtra numbering and interpretation should be checked against the selected Sanskrit edition and commentary.",
+      "motifs": [
+        "M14",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "14"
+    },
+    {
+      "global_claim_id": "G14-S097-01",
+      "claim_id": "B14-S097-01",
+      "source_id": "S097",
+      "corpus_id": "C033",
+      "location": "Selected kārikās",
+      "claim_type": "ONTO",
+      "claim": "The work develops a Śaiva account of reality in which consciousness and divine agency are central.",
+      "motifs": [
+        "M01",
+        "M09",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "14"
+    },
+    {
+      "global_claim_id": "G14-S097-02",
+      "claim_id": "B14-S097-02",
+      "source_id": "S097",
+      "corpus_id": "C033",
+      "location": "Selected kārikās",
+      "claim_type": "META",
+      "claim": "Its arguments respond to rival philosophical accounts rather than presenting a neutral inventory of views.",
+      "motifs": [
+        "M14",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "14"
+    },
+    {
+      "global_claim_id": "G14-S097-03",
+      "claim_id": "B14-S097-03",
+      "source_id": "S097",
+      "corpus_id": "C033",
+      "location": "Selected kārikās",
+      "claim_type": "ONTO",
+      "claim": "Multiplicity is interpreted within a framework of divine agency and manifestation.",
+      "motifs": [
+        "M03",
+        "M04",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "14"
+    },
+    {
+      "global_claim_id": "G14-S097-04",
+      "claim_id": "B14-S097-04",
+      "source_id": "S097",
+      "corpus_id": "C033",
+      "location": "Selected kārikās",
+      "claim_type": "REFLEXIVITY",
+      "claim": "The status of the knowing subject is part of the philosophical analysis of consciousness.",
+      "motifs": [
+        "M02",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "14"
+    },
+    {
+      "global_claim_id": "G14-S097-05",
+      "claim_id": "B14-S097-05",
+      "source_id": "S097",
+      "corpus_id": "C033",
+      "location": "Selected kārikās",
+      "claim_type": "DYNAMICS",
+      "claim": "Agency and manifestation are treated as active principles within the text's metaphysics.",
+      "motifs": [
+        "M09",
+        "M21"
+      ],
+      "provenance": "P2*",
+      "batch": "14"
+    },
+    {
+      "global_claim_id": "G14-S097-06",
+      "claim_id": "B14-S097-06",
+      "source_id": "S097",
+      "corpus_id": "C033",
+      "location": "Selected kārikās",
+      "claim_type": "RELATION",
+      "claim": "The text's positions emerge through debate with other Indian philosophical schools.",
+      "motifs": [
+        "M05",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "14"
+    },
+    {
+      "global_claim_id": "G14-S097-07",
+      "claim_id": "B14-S097-07",
+      "source_id": "S097",
+      "corpus_id": "C033",
+      "location": "Selected kārikās",
+      "claim_type": "META",
+      "claim": "The system should be compared with, but not collapsed into, later Pratyabhijñā formulations.",
+      "motifs": [
+        "M14",
+        "M15"
+      ],
+      "provenance": "P2*",
+      "batch": "14"
+    },
+    {
+      "global_claim_id": "G14-S097-08",
+      "claim_id": "B14-S097-08",
+      "source_id": "S097",
+      "corpus_id": "C033",
+      "location": "Selected kārikās",
+      "claim_type": "ONTO",
+      "claim": "The account resists reducing the world to an independently existing reality unrelated to consciousness.",
+      "motifs": [
+        "M03",
+        "M05",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "14"
+    },
+    {
+      "global_claim_id": "G14-S097-09",
+      "claim_id": "B14-S097-09",
+      "source_id": "S097",
+      "corpus_id": "C033",
+      "location": "Selected kārikās",
+      "claim_type": "TRANSFORMATION",
+      "claim": "Recognition and liberation are interpreted through the tradition's account of the subject and its powers.",
+      "motifs": [
+        "M12",
+        "M13",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "14"
+    },
+    {
+      "global_claim_id": "G14-S097-10",
+      "claim_id": "B14-S097-10",
+      "source_id": "S097",
+      "corpus_id": "C033",
+      "location": "Selected kārikās",
+      "claim_type": "META",
+      "claim": "The exact argumentative sequence must be established from a reliable edition and specialist study.",
+      "motifs": [
+        "M14",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "14"
+    },
+    {
+      "global_claim_id": "G14-S097-11",
+      "claim_id": "B14-S097-11",
+      "source_id": "S097",
+      "corpus_id": "C033",
+      "location": "Selected kārikās",
+      "claim_type": "ONTO",
+      "claim": "The text advances a distinctive theological-metaphysical position that must be represented on its own terms.",
+      "motifs": [
+        "M03",
+        "M15",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "14"
+    },
+    {
+      "global_claim_id": "G14-S097-12",
+      "claim_id": "B14-S097-12",
+      "source_id": "S097",
+      "corpus_id": "C033",
+      "location": "Selected kārikās",
+      "claim_type": "RELATION",
+      "claim": "Doctrinal disagreement is evidence of historical plurality, not a reason to force consensus.",
+      "motifs": [
+        "M05",
+        "M14"
+      ],
+      "provenance": "P2*",
+      "batch": "14"
+    },
+    {
+      "global_claim_id": "G14-S097-13",
+      "claim_id": "B14-S097-13",
+      "source_id": "S097",
+      "corpus_id": "C033",
+      "location": "Whole work",
+      "claim_type": "META",
+      "claim": "Passage-level locators and translation checks remain outstanding for these paraphrase candidates.",
+      "motifs": [
+        "M14",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "14"
+    },
+    {
+      "global_claim_id": "G14-S098-01",
+      "claim_id": "B14-S098-01",
+      "source_id": "S098",
+      "corpus_id": "C034",
+      "location": "Commentary on Śiva Sūtra/Īśvarapratyabhijñā material",
+      "claim_type": "META",
+      "claim": "The commentary tradition clarifies technical terms that are compressed or ambiguous in root texts.",
+      "motifs": [
+        "M14",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "14"
+    },
+    {
+      "global_claim_id": "G14-S098-02",
+      "claim_id": "B14-S098-02",
+      "source_id": "S098",
+      "corpus_id": "C034",
+      "location": "Selected commentary passages",
+      "claim_type": "ONTO",
+      "claim": "Recognition is interpreted as central to understanding the relation between individual subjectivity and universal consciousness.",
+      "motifs": [
+        "M02",
+        "M13",
+        "M15"
+      ],
+      "provenance": "P2*",
+      "batch": "14"
+    },
+    {
+      "global_claim_id": "G14-S098-03",
+      "claim_id": "B14-S098-03",
+      "source_id": "S098",
+      "corpus_id": "C034",
+      "location": "Selected commentary passages",
+      "claim_type": "REFLEXIVITY",
+      "claim": "The analysis treats consciousness as capable of manifesting and recognizing its own activity within the system.",
+      "motifs": [
+        "M01",
+        "M02",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "14"
+    },
+    {
+      "global_claim_id": "G14-S098-04",
+      "claim_id": "B14-S098-04",
+      "source_id": "S098",
+      "corpus_id": "C034",
+      "location": "Selected commentary passages",
+      "claim_type": "DYNAMICS",
+      "claim": "Manifestation is explained through the activity and freedom attributed to consciousness.",
+      "motifs": [
+        "M09",
+        "M21",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "14"
+    },
+    {
+      "global_claim_id": "G14-S098-05",
+      "claim_id": "B14-S098-05",
+      "source_id": "S098",
+      "corpus_id": "C034",
+      "location": "Selected commentary passages",
+      "claim_type": "ONTO",
+      "claim": "The relation between subject and object is explained within a nondual Śaiva framework.",
+      "motifs": [
+        "M03",
+        "M04",
+        "M05"
+      ],
+      "provenance": "P2*",
+      "batch": "14"
+    },
+    {
+      "global_claim_id": "G14-S098-06",
+      "claim_id": "B14-S098-06",
+      "source_id": "S098",
+      "corpus_id": "C034",
+      "location": "Selected commentary passages",
+      "claim_type": "META",
+      "claim": "Commentarial claims must be separated from the wording of the root text they interpret.",
+      "motifs": [
+        "M14",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "14"
+    },
+    {
+      "global_claim_id": "G14-S098-07",
+      "claim_id": "B14-S098-07",
+      "source_id": "S098",
+      "corpus_id": "C034",
+      "location": "Selected commentary passages",
+      "claim_type": "TRANSFORMATION",
+      "claim": "Liberation is discussed as recognition that changes the subject's understanding of its own condition.",
+      "motifs": [
+        "M12",
+        "M13",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "14"
+    },
+    {
+      "global_claim_id": "G14-S098-08",
+      "claim_id": "B14-S098-08",
+      "source_id": "S098",
+      "corpus_id": "C034",
+      "location": "Selected commentary passages",
+      "claim_type": "RELATION",
+      "claim": "Philosophical exposition proceeds through interpretation, distinction, and response to rival positions.",
+      "motifs": [
+        "M05",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "14"
+    },
+    {
+      "global_claim_id": "G14-S098-09",
+      "claim_id": "B14-S098-09",
+      "source_id": "S098",
+      "corpus_id": "C034",
+      "location": "Selected commentary passages",
+      "claim_type": "PHEN",
+      "claim": "The account distinguishes consciousness from the particular contents it manifests.",
+      "motifs": [
+        "M01",
+        "M02",
+        "M07"
+      ],
+      "provenance": "P2*",
+      "batch": "14"
+    },
+    {
+      "global_claim_id": "G14-S098-10",
+      "claim_id": "B14-S098-10",
+      "source_id": "S098",
+      "corpus_id": "C034",
+      "location": "Selected commentary passages",
+      "claim_type": "META",
+      "claim": "Doctrinal interpretation depends on the chosen recension, commentary passage, and translation.",
+      "motifs": [
+        "M14",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "14"
+    },
+    {
+      "global_claim_id": "G14-S098-11",
+      "claim_id": "B14-S098-11",
+      "source_id": "S098",
+      "corpus_id": "C034",
+      "location": "Selected commentary passages",
+      "claim_type": "ONTO",
+      "claim": "The text articulates a historically situated metaphysical system rather than an experimentally confirmed consciousness theory.",
+      "motifs": [
+        "M14",
+        "M15"
+      ],
+      "provenance": "P2*",
+      "batch": "14"
+    },
+    {
+      "global_claim_id": "G14-S098-12",
+      "claim_id": "B14-S098-12",
+      "source_id": "S098",
+      "corpus_id": "C034",
+      "location": "Selected commentary passages",
+      "claim_type": "REFLEXIVITY",
+      "claim": "Self-recognition is a structural theme in the Pratyabhijñā tradition's account of liberation.",
+      "motifs": [
+        "M02",
+        "M13",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "14"
+    },
+    {
+      "global_claim_id": "G14-S098-13",
+      "claim_id": "B14-S098-13",
+      "source_id": "S098",
+      "corpus_id": "C034",
+      "location": "Whole work",
+      "claim_type": "META",
+      "claim": "The exact relation of this register label to specific commentarial works needs bibliographic disambiguation before precise claims can be assigned.",
+      "motifs": [
+        "M14",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "14"
     }
   ],
   "rules": {
