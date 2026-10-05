@@ -67,3 +67,11 @@ The next extraction stage should systematically traverse the remaining register 
 - Current ledger: 1845 records / 138 source IDs.
 - Current register coverage: 135/325 represented; 190/325 missing.
 - Exact-13 represented sources: 65.
+
+## Batch v19 checkpoint
+
+- Newly represented register entries: C091, C092, C093, C094, C096, C097, C098, C100, C101, C102.
+- Added claims: 130.
+- Current ledger: 1975 records / 148 source IDs.
+- Current register coverage: 145/325 represented; 180/325 missing.
+- Exact-13 represented sources: 75.
