@@ -1,0 +1,86 @@
+{
+  "schema_version": "1.0",
+  "corpus": {
+    "claims": 4315,
+    "register_entries": 325,
+    "source_ids": 328
+  },
+  "classification": {
+    "fundamental_strong": {
+      "records": 605,
+      "register_entries": 238,
+      "source_ids": 241,
+      "pct_records": 0.1402,
+      "motifs": [
+        "M15",
+        "M20",
+        "M21"
+      ],
+      "types": [
+        "META",
+        "ONTO",
+        "COSMO",
+        "UNITY",
+        "RELATION"
+      ]
+    },
+    "individual_strong": {
+      "records": 1419,
+      "register_entries": 305,
+      "source_ids": 308,
+      "pct_records": 0.3289,
+      "motifs": [
+        "M01",
+        "M02",
+        "M04",
+        "M05",
+        "M06",
+        "M07",
+        "M10",
+        "M11",
+        "M22"
+      ]
+    },
+    "individual_expanded": {
+      "records": 1664,
+      "register_entries": 315,
+      "source_ids": 318,
+      "motifs": [
+        "M01",
+        "M02",
+        "M04",
+        "M05",
+        "M06",
+        "M07",
+        "M08",
+        "M09",
+        "M10",
+        "M11",
+        "M12",
+        "M22",
+        "M23",
+        "M24",
+        "M25"
+      ]
+    },
+    "bridge": {
+      "records": 564,
+      "register_entries": 225,
+      "source_ids": 228,
+      "pct_records": 0.1307,
+      "criterion": "at least one fundamental motif and at least one individual motif"
+    }
+  },
+  "definitions": {
+    "fundamental_hypothesis": "Consciousness, at the fundamental scale, is the putative primordial or encompassing dimension within which differentiated subject, object, world, and experience arise.",
+    "individual_definition": "Individual consciousness is a temporally unfolding, interiorly present and unified-yet-differentiated point of view in which a world is encountered, the process can be related to its own changing condition, and differences can acquire significance.",
+    "bridge_hypothesis": "Individual consciousness may be a localized, differentiated, embodied, or otherwise constrained mode of a more fundamental consciousness."
+  },
+  "epistemic_status": {
+    "fundamental": "cross-source metaphysical hypothesis; recurring but not established fact",
+    "individual": "canonical research definition candidate",
+    "bridge": "synthetic hypothesis derived from bridge-claim pattern"
+  },
+  "engineering_target": "individual/experiential consciousness, not fundamental/universal consciousness",
+  "next_gate": "adversarial claim-level review across all 4,315 records, prioritizing bridge claims and counterclaims"
+}
