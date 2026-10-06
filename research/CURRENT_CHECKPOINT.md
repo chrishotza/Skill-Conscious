@@ -76,6 +76,16 @@ Static code integrity was partially checked; this does not count as experiment e
 - Corrected relational probe.
 - Execution log documenting the first blocked run.
 
+## Bridge execution state
+
+B2 Relational→Individual probe: implemented.
+
+B3 Individual→Relational probe: implemented.
+
+B1 Fundamental→Relational: blocked by lack of a specified discriminating physical model.
+
+B4 Relational/Individual→Fundamental: reserved for model comparison after B1 candidates exist.
+
 ## Next step
 
 1. Execute the exact P008 assay in an environment with repository/runtime access.
