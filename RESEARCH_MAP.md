@@ -117,7 +117,6 @@ A claim that cannot produce a measurable construct is tagged as **interpretive/o
 
 | ID | Purpose | Status |
 |---|---|---|
-| P000 | Corpus methodology and auditability | methodological foundation |
 | P001 | Relational ontology for artificial consciousness | working draft |
 | P002 | Causal self-reference and trajectory selection | planned empirical core |
 | P003 | Topological continuity and artificial identity | planned |
@@ -195,7 +194,7 @@ The CI workflow `research-sync-contract.yml` enforces the presence and navigatio
 
 ## 10. Immediate research move
 
-Start with P000: audit the corpus as a scientific object before using its strongest claims as central evidence. Do not write 4,315 disconnected mini-papers.
+Run the active corpus study protocol before any new paper is declared publication-ready. Do not call a protocol a paper, and do not write 4,315 disconnected mini-papers.
 
 Cluster the corpus into **claim families** that support or contradict the same testable mechanism. A paper should normally combine:
 
