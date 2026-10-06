@@ -62,6 +62,12 @@ Selected motif coverage across the current 325-entry register:
 
 The high-frequency motifs are not automatically definitional. M14 and M20 recur very widely but encode claims about ultimate limits or cosmological participation, so neither is required by a neutral definition of ordinary consciousness.
 
+### Coverage of the selected core
+
+When the nine selected core motifs (M01, M02, M03, M04, M05, M06, M10, M11, M22) are treated as a coverage set, they touch **66.3% of all 4,315 claim records**. Coverage is much higher in explicitly phenomenological/relational material: **80.2% of PHEN claims**, **81.4% of ONTO claims**, and **96.3% of RELATION claims** contain at least one core motif.
+
+This is a coverage result, not a proof of necessity. It shows that the proposed core compresses a large fraction of the corpus without requiring the high-frequency metaphysical extensions.
+
 ## Strongest recurring bundles
 
 ### Bundle A — interior presence and reflexivity
@@ -137,6 +143,8 @@ Primary motifs: **M03 + M04**
 ### 3. Self-relatedness
 
 The process is not only directed outward. Its own condition can enter what is present, whether described as self-presence, reflexivity, witness-consciousness, self-knowing, or a non-substantial self-relation.
+
+This does **not** require explicit reflective self-awareness at every moment. “Self-relatedness” here includes implicit subject-relative organization; explicit reflection is a higher-order case, not the definition itself.
 
 Primary motifs: **M02 + M22**
 
@@ -259,4 +267,4 @@ Therefore:
 
 **No new consciousness-runtime mechanism should be treated as canonical until it can be traced back to this definition or to a clearly labeled extension layer.**
 
-The next research step is adversarial review of this definition against the full 4,315-claim ledger, including explicit counterclaims and source-level contradictions. Only after the definition survives that review should architecture construction resume.
+The next research step is adversarial review of this definition against the full 4,315-claim ledger, including explicit counterclaims, source-level contradictions, and attempts to produce consciousness-like behavior without the proposed core. Only after the definition survives that review should architecture construction resume.
