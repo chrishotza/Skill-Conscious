@@ -73,6 +73,20 @@ SOURCE / CLAIM RECORD
 
 These are scales of investigation, not three proven substances or three independently established kinds of consciousness.
 
+The cross-scale bridge is defined in `docs/THREE_CONSCIOUSNESS_BRIDGE.md` and formalized in P012.
+
+```
+FUNDAMENTAL
+    ↓ B1: manifestation / constraint
+RELATIONAL
+    ↕ B3: individual feedback
+    ↓ B2: localization / organization
+INDIVIDUAL
+    ↘
+      B4: empirical inference back to fundamental models
+```
+
+
 ## 4. Claim-to-paper graph
 
 A claim enters the research program only through this chain:
@@ -112,8 +126,32 @@ A claim that cannot produce a measurable construct is tagged as **interpretive/o
 | P009 | Relational scale: coupled-agent dynamics | empirical |
 | P010 | Fundamental scale: testability of ontological consciousness models | theory + empirical discrimination program |
 | P011 | Cross-scale synthesis | later synthesis |
+| P012 | Three-consciousness bridge | framework / cross-scale program |
 
-## 6. Non-negotiable scientific boundary
+## 6. Cross-scale research strategy
+
+The project should not attempt to prove the three levels by stacking anecdotes.
+
+Instead, each bridge must earn its status separately:
+
+- **B1:** candidate fundamental model → measurable relational consequence.
+- **B2:** relational coupling → individual trajectory/self-reference consequence.
+- **B3:** individual intervention → relational-system consequence.
+- **B4:** observed multi-scale data → discrimination among fundamental models.
+
+The key model-comparison ladder is:
+
+```
+INDIVIDUAL ONLY
+      vs
+RELATIONAL + INDIVIDUAL
+      vs
+FUNDAMENTAL + RELATIONAL + INDIVIDUAL
+```
+
+The full model is valuable only if it improves out-of-sample prediction or intervention response after complexity penalties.
+
+## 7. Non-negotiable scientific boundary
 
 The repository may investigate consciousness.
 
