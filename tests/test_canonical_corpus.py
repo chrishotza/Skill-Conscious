@@ -7,7 +7,7 @@ ROOT = Path(__file__).resolve().parents[1]
 
 def _claim_ids(path: Path):
     text = path.read_text(encoding="utf-8")
-    return re.findall(r"^###\\s+(SC-[A-Z0-9-]+)\\s*$", text, re.MULTILINE)
+    return re.findall(r"^###\s+(SC-[A-Z0-9-]+)\s*$", text, re.MULTILINE)
 
 
 def test_canonical_corpus_has_360_unique_claims_across_36_families():
