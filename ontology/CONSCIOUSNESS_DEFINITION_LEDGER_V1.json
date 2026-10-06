@@ -1,0 +1,162 @@
+{
+  "schema_version": "1.0",
+  "status": "canonical_research_definition_candidate",
+  "corpus": {
+    "effective_claims": 4315,
+    "current_register_entries": 325,
+    "effective_source_ids": 328,
+    "historical_reported_count": 350,
+    "unresolved": "C326-C350 and S329-S350 are absent from the current repository snapshot and must not be invented."
+  },
+  "definition": {
+    "preferred": "Consciousness is a temporally unfolding organization of interior presence that unifies and differentiates experience, relates the process to itself and to a world, and allows differences in that field to acquire significance for the point of view from which they occur.",
+    "phenomenal_neutral": "Consciousness is a temporally extended, unified and differentiated field of interior presence in which contents and the world are present from a point of view, and in which the process can be related to its own changing condition."
+  },
+  "core_motifs": [
+    {
+      "motif": "M01",
+      "name": "Awareness / Presence",
+      "entries": 173,
+      "coverage": 0.5323,
+      "role": "core"
+    },
+    {
+      "motif": "M02",
+      "name": "Self-Presence / Self-Knowing",
+      "entries": 246,
+      "coverage": 0.7569,
+      "role": "core"
+    },
+    {
+      "motif": "M03",
+      "name": "Unity / Wholeness",
+      "entries": 236,
+      "coverage": 0.7262,
+      "role": "core"
+    },
+    {
+      "motif": "M04",
+      "name": "Differentiation",
+      "entries": 147,
+      "coverage": 0.4523,
+      "role": "core"
+    },
+    {
+      "motif": "M05",
+      "name": "Subject–World Relation",
+      "entries": 262,
+      "coverage": 0.8062,
+      "role": "core"
+    },
+    {
+      "motif": "M06",
+      "name": "Interior Dimension",
+      "entries": 216,
+      "coverage": 0.6646,
+      "role": "core"
+    },
+    {
+      "motif": "M10",
+      "name": "Valence / Significance",
+      "entries": 200,
+      "coverage": 0.6154,
+      "role": "candidate-constitutive"
+    },
+    {
+      "motif": "M11",
+      "name": "Temporality / Continuity",
+      "entries": 202,
+      "coverage": 0.6215,
+      "role": "core"
+    },
+    {
+      "motif": "M22",
+      "name": "Self-Reference / Reflexivity",
+      "entries": 273,
+      "coverage": 0.84,
+      "role": "core"
+    }
+  ],
+  "convergence_bundles": [
+    {
+      "id": "A",
+      "motifs": [
+        "M01",
+        "M02",
+        "M06",
+        "M22"
+      ],
+      "cooccurrences": {
+        "M02+M06+M22": 83,
+        "M01+M02+M22": 13,
+        "M01+M02+M06": 11,
+        "M02+M22": 184,
+        "M02+M06": 145,
+        "M06+M22": 111
+      }
+    },
+    {
+      "id": "B",
+      "motifs": [
+        "M03",
+        "M04",
+        "M05"
+      ],
+      "cooccurrences": {
+        "M03+M04+M05": 10,
+        "M03+M04": 52,
+        "M03+M05": 59
+      }
+    },
+    {
+      "id": "C",
+      "motifs": [
+        "M10",
+        "M11",
+        "M12",
+        "M23",
+        "M24"
+      ],
+      "cooccurrences": {
+        "M12+M23": 256,
+        "M10+M12": 170,
+        "M11+M23": 77,
+        "M11+M12": 53,
+        "M12+M24": 74,
+        "M10+M12+M23": 21,
+        "M12+M24+M25": 49
+      }
+    }
+  ],
+  "extension_roles": {
+    "M07": "common-dynamics",
+    "M08": "common-constraint",
+    "M09": "theory-dependent",
+    "M12": "common-dynamics",
+    "M13": "state-or-realization",
+    "M14": "state-or-limit",
+    "M15": "metaphysical-extension",
+    "M16": "relational-extension",
+    "M17": "interpretive-extension",
+    "M18": "metaphysical-extension",
+    "M19": "metaphysical-extension",
+    "M20": "metaphysical-extension",
+    "M21": "metaphysical-extension",
+    "M23": "common-dynamics",
+    "M24": "common-dynamics",
+    "M25": "investigative-method"
+  },
+  "stress_tests": [
+    "language not necessary",
+    "intelligence not necessary",
+    "memory not necessary",
+    "attention not necessary",
+    "deliberate agency not necessary",
+    "human biology not necessary",
+    "permanent ego not necessary",
+    "specific metaphysics not necessary",
+    "external report not sufficient",
+    "self-description not sufficient"
+  ],
+  "next_gate": "Adversarial review against all 4,315 claims, including explicit counterclaims and contradictions, before runtime redesign."
+}
