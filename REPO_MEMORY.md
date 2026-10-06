@@ -8,14 +8,15 @@ Read in this order:
 1. RESEARCH_MAP.md
 2. README.md
 3. REPO_MEMORY.md (this file)
-4. research/README.md and research/CLAIM_FAMILY_TRIAGE.md
-5. research/CURRENT_CHECKPOINT.md
+4. docs/RESEARCH_METHOD_NORTH.md
+5. research/README.md and research/CLAIM_FAMILY_TRIAGE.md
+6. research/CURRENT_CHECKPOINT.md
 6. research/CLAIM_FAMILY_REGISTRY.md
-7. papers/README.md
+8. papers/README.md
 8. sources/README.md, sources/EVIDENCE_MATRIX.md, sources/HARVEST_ROADMAP.md, sources/CONSCIOUSNESS_MAP.md
-7. sources/manifesto/MANIFIESTO_DEL_SER.md
-8. the active paper and experiment documents referenced by the current checkpoint
-9. implementation and experiment files only as needed
+9. sources/manifesto/MANIFIESTO_DEL_SER.md
+10. the active paper and experiment documents referenced by the current checkpoint
+11. implementation and experiment files only as needed
 
 Do not read the whole repository blindly. Use this map to reconstruct context, then expand only when a dependency requires it.
 
@@ -76,6 +77,8 @@ P012 defines the explicit bridge architecture among Fundamental, Relational and 
 
 `docs/CLAIM_TO_PAPER_PROTOCOL.md` defines the publication gate.
 
+P000 is now the methodological foundation of the paper program. `docs/RESEARCH_METHOD_NORTH.md` is the canonical methodological direction and `research/P000_CORPUS_AUDIT_PROTOCOL.md` is the active audit protocol.
+
 Current paper state: P001 and P007 are working drafts; P008–P010 are empirical/theoretical protocols; P012 is a framework draft defining the cross-scale bridge. No paper is treated as an empirical result until the repository contains the corresponding measured evidence.
 
 ## 6. Existing research surface
@@ -125,14 +128,14 @@ At minimum, memory must update CURRENT_STATE, LAST_COMPLETED, ACTIVE_PAPER, ACTI
 Do not store ephemeral chat dialogue here. Store durable project state and decisions.
 
 ## 10. Current checkpoint
-CURRENT_STATE = claim-to-paper research operating system with three-scale program
-LAST_COMPLETED = P008 evidence map v1 + Claim Family 01 self-model causality + runtime-connected causal assay established; canonical checkpoint/navigation synchronization enforced for pull requests
-ACTIVE_PAPER = P008 — Individual Consciousness: Causal Self-Reference and Continuity
-ACTIVE_HYPOTHESIS = intervention on a persistent self-model changes future trajectory under otherwise controlled conditions
-EVIDENCE_STATUS = 325 registered corpus sources / 4,315 effective claims verified at ledger-coverage level; P008 has a 120-record priority triage and 10 anchor claims; passage-level verification remains separate
-EXPERIMENT_STATUS = P008 runtime assay exists; execution attempt is blocked by local GitHub DNS/network access; static code integrity was checked; no assay output is promoted to empirical result
-NEXT_STEP = execute `experiments/p008_self_model_causal_runtime.py` in an accessible runtime environment; then execute/validate B2 and B3 bridge probes; keep B1 blocked until a concrete fundamental model yields a discriminating observable
-BLOCKERS = P009 needs broader validation; P010 lacks a concrete discriminating physical model; 52 provenance values require source review
+CURRENT_STATE = claim corpus has entered a formal methodology/audit phase before downstream empirical papers
+LAST_COMPLETED = Established P000 methodological foundation, research-method north star, evidence-maturity ladder and corpus audit protocol
+ACTIVE_PAPER = P000 — A Machine-Readable Cross-Cultural Corpus of Consciousness Claims: Provenance, Phenomenology, Ontology and Testability
+ACTIVE_HYPOTHESIS = a machine-readable corpus can transform heterogeneous consciousness claims into auditable constructs and falsifiable research hypotheses without conflating source claims with empirical facts
+EVIDENCE_STATUS = 325 registered corpus sources / 4,315 effective claims / 328 effective source IDs at ledger-coverage level; passage-level verification and dependency auditing are not complete
+EXPERIMENT_STATUS = P000 is methodological; no empirical result is claimed. P008 runtime assay remains unexecuted because of local GitHub DNS/network access constraints
+NEXT_STEP = execute P000 WP1–WP6: source verification, provenance review, dependency graph, claim adjudication, construct extraction and paper-eligibility audit; then resume P008/P009/P010 with the audited evidence set
+BLOCKERS = 52 provenance values require source review; P010 lacks a concrete discriminating physical model; P008 runtime needs an accessible execution environment
 LAST_UPDATE = 2026-10-06
 
 ## 11. Navigation rule
