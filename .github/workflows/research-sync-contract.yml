@@ -27,6 +27,19 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+      - name: Identify changed files
+        id: changed
+        shell: bash
+        run: |
+          set -euo pipefail
+          if [[ "${GITHUB_EVENT_NAME}" == "pull_request" ]]; then
+            git fetch origin "${GITHUB_BASE_REF}" --depth=1
+            git diff --name-only "origin/${GITHUB_BASE_REF}...HEAD" > changed.txt
+          else
+            git diff --name-only "${GITHUB_EVENT_BEFORE}" "${GITHUB_SHA}" > changed.txt
+          fi
+          cat changed.txt
+
       - name: Verify canonical research state files
         shell: bash
         run: |
@@ -37,6 +50,16 @@ jobs:
           test -f research/CLAIM_FAMILY_REGISTRY.md
           test -f docs/CLAIM_TO_PAPER_PROTOCOL.md
           test -f papers/README.md
+
+      - name: Verify state synchronization on research changes
+        shell: bash
+        run: |
+          set -euo pipefail
+          if grep -Eq '^(research/|papers/|experiments/|docs/|sources/|README.md$)' changed.txt; then
+            grep -qx 'RESEARCH_MAP.md' changed.txt
+            grep -qx 'REPO_MEMORY.md' changed.txt
+            grep -qx 'research/CURRENT_CHECKPOINT.md' changed.txt
+          fi
 
       - name: Verify navigation contract
         shell: bash
