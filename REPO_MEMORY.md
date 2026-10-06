@@ -129,7 +129,7 @@ Do not store ephemeral chat dialogue here. Store durable project state and decis
 
 ## 10. Current checkpoint
 CURRENT_STATE = claim corpus has entered a formal methodology/audit phase before downstream empirical papers
-LAST_COMPLETED = Established research-method north star; completed anchor calibration; froze S01 protocol, data manifest, pilot report, reproducible code, Colab T4 runner and preregistered branch
+LAST_COMPLETED = Established research-method north star; completed anchor calibration; froze S01 protocol, data manifest, pilot report, reproducible code, Colab T4 runner and preregistered branch; optimized the secondary null implementation without changing the analysis definition
 ACTIVE_PAPER = NONE — no new paper is declared active until the first substantive study has real results
 ACTIVE_HYPOTHESIS = the corpus contains recurrent structures that can survive source-family controls; S01 tests this with coded motif recurrence and independent raw-text semantic recurrence
 EVIDENCE_STATUS = 325 registered corpus sources / 4,315 effective claims / 328 effective source IDs; S01 uses all 4,315 effective claims at the corpus-unit level; passage-level verification remains incomplete; A01–A09 calibration: 3 narrow strong, 3 partial, 3 provisional
