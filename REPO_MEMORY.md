@@ -77,7 +77,7 @@ P012 defines the explicit bridge architecture among Fundamental, Relational and 
 
 `docs/CLAIM_TO_PAPER_PROTOCOL.md` defines the publication gate.
 
-P000 is now the methodological foundation of the paper program. `docs/RESEARCH_METHOD_NORTH.md` is the canonical methodological direction and `research/P000_CORPUS_AUDIT_PROTOCOL.md` is the active audit protocol.
+The corpus audit is an active research study, not a paper. `docs/RESEARCH_METHOD_NORTH.md` is the canonical methodological direction and `research/P000_CORPUS_AUDIT_PROTOCOL.md` is its protocol.
 
 Current paper state: P001 and P007 are working drafts; P008–P010 are empirical/theoretical protocols; P012 is a framework draft defining the cross-scale bridge. No paper is treated as an empirical result until the repository contains the corresponding measured evidence.
 
@@ -129,9 +129,9 @@ Do not store ephemeral chat dialogue here. Store durable project state and decis
 
 ## 10. Current checkpoint
 CURRENT_STATE = claim corpus has entered a formal methodology/audit phase before downstream empirical papers
-LAST_COMPLETED = Established P000 methodological foundation, research-method north star, evidence-maturity ladder and corpus audit protocol; completed initial external anchor calibration A01–A09
-ACTIVE_PAPER = P000 — A Machine-Readable Cross-Cultural Corpus of Consciousness Claims: Provenance, Phenomenology, Ontology and Testability
-ACTIVE_HYPOTHESIS = a machine-readable corpus can transform heterogeneous consciousness claims into auditable constructs and falsifiable research hypotheses without conflating source claims with empirical facts
+LAST_COMPLETED = Established research-method north star and corpus-audit protocol; completed initial external anchor calibration A01–A09; removed non-empirical P000 draft from paper series
+ACTIVE_PAPER = NONE — no new paper is declared active until the first substantive study has real results
+ACTIVE_HYPOTHESIS = the corpus contains recurrent structures that can be identified after source-level verification and dependency control; this is a research hypothesis, not yet a result
 EVIDENCE_STATUS = 325 registered corpus sources / 4,315 effective claims / 328 effective source IDs at ledger-coverage level; passage-level verification and dependency auditing are not complete; A01–A09 calibration: 3 narrow strong, 3 partial, 3 provisional
 EXPERIMENT_STATUS = P000 is methodological; no empirical result is claimed. P008 runtime assay remains unexecuted because of local GitHub DNS/network access constraints
 NEXT_STEP = execute P000 WP1–WP6: source verification, provenance review, dependency graph, claim adjudication, construct extraction and paper-eligibility audit; then resume P008/P009/P010 with the audited evidence set
