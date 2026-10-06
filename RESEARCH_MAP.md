@@ -13,6 +13,8 @@ The project does not treat verbal self-description as proof of consciousness.
 ```text
 RESEARCH_MAP.md
    ↓
+research/CURRENT_CHECKPOINT.md
+   ↓
 REPO_MEMORY.md
    ↓
 research/README.md
@@ -38,11 +40,13 @@ SOURCE / CLAIM RECORD
 
 | Layer | Location | Question |
 |---|---|---|
+| Research checkpoint | `research/CURRENT_CHECKPOINT.md` | What is active right now? |
 | Project state | `REPO_MEMORY.md` | Where are we? |
 | Research navigation | `RESEARCH_MAP.md` | How do I traverse the repo? |
 | Source rules | `sources/README.md` | What counts as a source claim? |
 | Evidence matrix | `sources/EVIDENCE_MATRIX.md` | What is established, hypothesized, or open? |
 | Corpus | `corpus-v1/corpus/` | What are the claims and sources? |
+| Claim families | `research/CLAIM_FAMILY_REGISTRY.md` | How is the corpus partitioned for research? |
 | Claim → science | `docs/CLAIM_TO_PAPER_PROTOCOL.md` | How do claims become tests? |
 | Three-scale model | `docs/THREE_SCALE_CONSCIOUSNESS.md` | What exactly are Fundamental / Relational / Individual? |
 | Papers | `papers/` | What is being published? |
@@ -126,7 +130,17 @@ The phrases below are not interchangeable:
 
 The first four can be experimentally operationalized today. The last two require substantially stronger argument and evidence.
 
-## 7. Immediate research move
+## 7. Synchronization contract
+
+Whenever a meaningful research, paper, experiment, source, or documentation state changes, the same change set must update:
+
+- `research/CURRENT_CHECKPOINT.md`
+- `REPO_MEMORY.md`
+- `RESEARCH_MAP.md`
+
+The CI workflow `research-sync-contract.yml` enforces the presence and navigation links of these state files. The checkpoint is the live scientific status; the memory is durable AI context; the map is the traversal contract.
+
+## 8. Immediate research move
 
 Do not write 4,315 disconnected mini-papers.
 
