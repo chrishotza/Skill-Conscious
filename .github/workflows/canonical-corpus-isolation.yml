@@ -1,0 +1,21 @@
+name: canonical-corpus-isolation
+
+on:
+  push:
+    branches:
+      - system-canonicalization-v2
+
+jobs:
+  corpus-integrity:
+    runs-on: ubuntu-latest
+    env:
+      PYTHONPATH: src
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Install test dependencies
+        run: python -m pip install --upgrade pip pytest
+      - name: Validate full corpus ledger
+        run: python -m pytest -q tests/test_corpus_integrity.py
