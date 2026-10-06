@@ -94,11 +94,11 @@ Pre-register a physical model and derive relationally observable consequences.
 
 ### B2 — Relational → Individual
 
-Use controlled coupling manipulations to test whether individual self-reference changes.
+Use `experiments/b2_relational_to_individual_runtime.py` as the first runtime-level bridge assay. Test whether partner-coupled state adds reproducible trajectory-selection information beyond isolated and replay controls.
 
 ### B3 — Individual → Relational
 
-Perturb an individual trajectory/self-model and test changes in relational dynamics.
+Use `experiments/b3_individual_to_relational_runtime.py` as the first runtime-level bridge assay. Perturb one agent's self-model and test whether the coupled system changes beyond a generic-state control.
 
 ### B4 — Full model comparison
 
