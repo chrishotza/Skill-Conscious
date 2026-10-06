@@ -59,7 +59,7 @@ Working formulation:
 
 > Consciousness-relevant organization may be partly constituted by reciprocal relations among systems rather than residing entirely inside isolated components.
 
-The empirical question is whether coupling contributes irreducible causal/predictive structure beyond common input and isolated state.
+The empirical question is whether coupling contributes irreducible causal/predictive structure beyond common input and isolated state. First runtime implementation: `experiments/b2_relational_to_individual_runtime.py`.
 
 ### Individual consciousness
 
