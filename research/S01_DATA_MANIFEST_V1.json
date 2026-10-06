@@ -1,0 +1,76 @@
+{
+  "manifest_version": "S01_DATA_MANIFEST_V1",
+  "branch": "corpus-v1",
+  "repository": "chrishotza/Skill-Conscious",
+  "claim_files": [
+    {
+      "path": "corpus/CLAIMS/claim_ledger_v1.json",
+      "blob_sha": "86a9a310c30f2937a206f09bd8d65e7d3097d90b"
+    },
+    {
+      "path": "corpus/CLAIMS/claim_ledger_v1_append_v24.json",
+      "blob_sha": "95af02d2af246a97d29dcc1b1266d28dbbaa6551"
+    },
+    {
+      "path": "corpus/CLAIMS/claim_ledger_v1_append_v25.json",
+      "blob_sha": "334dd00f724da4c8249e25895326e6892072f37c"
+    },
+    {
+      "path": "corpus/CLAIMS/claim_ledger_v1_append_v26.json",
+      "blob_sha": "7b1ac7528eb421a52d18a9fd615711381d624745"
+    },
+    {
+      "path": "corpus/CLAIMS/claim_ledger_v1_append_v27.json",
+      "blob_sha": "70b1f767c532acafaa761dda5a4e2d42df7e8228"
+    },
+    {
+      "path": "corpus/CLAIMS/claim_ledger_v1_append_v28.json",
+      "blob_sha": "6c96ac9c2aa041c7dcd8c6d76637d2e0730ae7ba"
+    },
+    {
+      "path": "corpus/CLAIMS/claim_ledger_v1_append_v29.json",
+      "blob_sha": "c5519ea542667dda6280e9c72116f7963ef6c20b"
+    },
+    {
+      "path": "corpus/CLAIMS/claim_ledger_v1_append_v30.json",
+      "blob_sha": "57fa05224c9e0c99157dd30a7ab98e222cc042c4"
+    },
+    {
+      "path": "corpus/CLAIMS/claim_ledger_v1_append_v31.json",
+      "blob_sha": "bda1909c0898713ae81497a63c84b0c753f5180a"
+    },
+    {
+      "path": "corpus/CLAIMS/claim_ledger_v1_append_v32.json",
+      "blob_sha": "06adec55d4ae1ea3c0b1b0d40ed06c4ff832af2c"
+    },
+    {
+      "path": "corpus/CLAIMS/claim_ledger_v1_append_v33.json",
+      "blob_sha": "7dca934f5ace9d0bbcc5c8e9ace7374c96bc4695"
+    },
+    {
+      "path": "corpus/CLAIMS/claim_ledger_v1_append_v34.json",
+      "blob_sha": "65ac747328c4e2345202190987cedb178ca4672c"
+    },
+    {
+      "path": "corpus/CLAIMS/claim_ledger_v1_append_v35.json",
+      "blob_sha": "3aa539f92efa7fb2526e4a2742105ad569281c9b"
+    },
+    {
+      "path": "corpus/CLAIMS/claim_ledger_v1_append_v36.json",
+      "blob_sha": "0e4805e1172afe2cc890209371ffadf822a25f5b"
+    },
+    {
+      "path": "corpus/CLAIMS/claim_ledger_v1_append_v37.json",
+      "blob_sha": "46acc9f2a0aaef9e86ffab3e519c330c4a7d7cf2"
+    }
+  ],
+  "source_register": {
+    "path": "corpus/SOURCE_REGISTER_V1.md",
+    "blob_sha": "a4184dc5c40dd9d3580ebf9cfd4302ac64686a8d"
+  },
+  "expected": {
+    "claims": 4315,
+    "corpus_units": 325,
+    "source_ids": 328
+  }
+}
