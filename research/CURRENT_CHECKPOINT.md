@@ -109,7 +109,7 @@ Initial external anchor calibration is complete for A01–A09: A03, A05 and A09 
 
 Current methodological finding: repository-level 'verified' must not be treated as publication-grade verification without edition, passage, translation and dependency audit.
 
-S01 preregistration freeze branch: `s01-preregistered-v1` at commit `280ee6dec9ad7bc32cb1193e4c01b0d2a2975112` before confirmatory outcome inspection.
+S01 preregistration freeze branch: `s01-preregistered-v1` at commit `4fdea2f26ef2449e32ab74b67c2c19904bb3270c` before confirmatory outcome inspection. The only post-initial-freeze change was an implementation optimization of the degree-preserving null; the analysis definition is unchanged.
 
 ## Known blockers
 
