@@ -67,7 +67,7 @@ The computational protocol can later be mapped to hyperscanning experiments in w
 
 Relevant empirical literature includes work on inter-brain dynamics, interactivity, and social closeness.
 
-## 7. Falsification
+## 8. Falsification
 
 The relational hypothesis is weakened if:
 
@@ -76,7 +76,7 @@ The relational hypothesis is weakened if:
 - apparent interaction effects vanish under sham/replay control;
 - effects are entirely attributable to extra communication bandwidth.
 
-## 8. Next implementation
+## 9. Next implementation
 
 Create a deterministic coupled-agent probe that logs:
 
@@ -84,6 +84,6 @@ Create a deterministic coupled-agent probe that logs:
 
 and computes pre-registered relational metrics.
 
-## 9. Publication path
+## 10. Publication path
 
 Protocol → preregistration → simulation benchmark → replication across seeds/models → statistical analysis → adversarial interpretation → empirical paper.
