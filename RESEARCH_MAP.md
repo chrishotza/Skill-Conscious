@@ -194,7 +194,7 @@ The CI workflow `research-sync-contract.yml` enforces the presence and navigatio
 
 ## 10. Immediate research move
 
-Run **S01 — Cross-Cultural Consciousness Claim Recurrence Analysis** before any new paper is declared publication-ready. S01 is frozen on branch `s01-preregistered-v1`; it has an exploratory motif pilot and now requires the confirmatory raw-text semantic T4 run. Do not call a protocol a paper, and do not write 4,315 disconnected mini-papers.
+Run **S01 — Cross-Cultural Consciousness Claim Recurrence Analysis** before any new paper is declared publication-ready. S01 is frozen on branch `s01-preregistered-v1` at the preregistered code/data snapshot; it has an exploratory motif pilot and now requires the confirmatory raw-text semantic T4 run. Do not call a protocol a paper, and do not write 4,315 disconnected mini-papers.
 
 Start with the full 4,315-claim corpus, then cluster into **claim families** that support or contradict the same testable mechanism. A paper should normally combine:
 
