@@ -514,7 +514,7 @@ def make_bridge_claims(indices, similarities, records, family_by_claim, assignme
     return df.sort_values("bridge_rank_score", ascending=False)
 
 
-def lofo_transfer(indices, similarities, records, family_by_claim, graph_module):
+def lofo_transfer(indices, similarities, records, family_by_claim, base_graph, graph_module):
     import networkx as nx
 
     families = sorted(set(family_by_claim))
@@ -526,17 +526,9 @@ def lofo_transfer(indices, similarities, records, family_by_claim, graph_module)
         train_nodes = [i for i, f in enumerate(family_by_claim) if f != heldout]
 
         train_set = set(train_nodes)
-        g_train = graph_module.Graph()
-        g_train.add_nodes_from(train_nodes)
-
-        # Copy only induced training edges from the frozen graph.
-        # The original graph is passed separately below by rebuilding locally.
-        for i in train_nodes:
-            for k, j0 in enumerate(indices[i]):
-                j = int(j0)
-                if j not in train_set or i >= j:
-                    continue
-                g_train.add_edge(i, j, weight=float(similarities[i, k]))
+        # Exact induced subgraph: same weighted graph as the atlas,
+        # with the held-out family removed and nothing else changed.
+        g_train = base_graph.subgraph(train_nodes).copy()
 
         communities, assignment = run_louvain(g_train, SEED + 1000 + fold_i)
 
@@ -716,6 +708,7 @@ def main():
         similarities,
         records,
         family_by_claim,
+        g,
         nx,
     )
 
