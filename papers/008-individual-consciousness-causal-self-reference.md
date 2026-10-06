@@ -100,3 +100,8 @@ The paper should explicitly test whether stronger interpretations are justified 
 ## 9. Publication path
 
 Protocol → preregistration → controlled runs → machine-readable results → statistical analysis → adversarial review → preprint → archive.
+
+
+## 10. Methodological anchor
+
+The paper follows the contemporary consciousness-science practice of deriving competing predictions and testing them with explicit interventions and controls. See the 2025 adversarial collaboration comparing IIT and GNWT: https://www.nature.com/articles/s41586-025-08888-1
