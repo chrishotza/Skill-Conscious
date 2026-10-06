@@ -17,6 +17,8 @@ research/CURRENT_CHECKPOINT.md
    ↓
 REPO_MEMORY.md
    ↓
+docs/RESEARCH_METHOD_NORTH.md
+   ↓
 research/README.md
    ↓
 sources/README.md
@@ -115,6 +117,7 @@ A claim that cannot produce a measurable construct is tagged as **interpretive/o
 
 | ID | Purpose | Status |
 |---|---|---|
+| P000 | Corpus methodology and auditability | methodological foundation |
 | P001 | Relational ontology for artificial consciousness | working draft |
 | P002 | Causal self-reference and trajectory selection | planned empirical core |
 | P003 | Topological continuity and artificial identity | planned |
@@ -128,7 +131,17 @@ A claim that cannot produce a measurable construct is tagged as **interpretive/o
 | P011 | Cross-scale synthesis | later synthesis |
 | P012 | Three-consciousness bridge | framework / cross-scale program |
 
-## 6. Cross-scale research strategy
+## 6. Methodology north star
+
+The canonical methodology is defined in `docs/RESEARCH_METHOD_NORTH.md` and operationalized first in P000. The governing rule is:
+
+> **Expand the hypothesis space. Do not weaken the evidence standard.**
+
+The project is intentionally non-conservative about which hypotheses may be investigated, but conservative about what counts as evidence for them.
+
+P000 establishes source verification, provenance, independence/dependency tracking, contradiction audits, claim dossiers, an ES0–ES5 research-maturity ladder, preregistration and paper eligibility.
+
+## 7. Cross-scale research strategy
 
 The project should not attempt to prove the three levels by stacking anecdotes.
 
@@ -151,7 +164,7 @@ FUNDAMENTAL + RELATIONAL + INDIVIDUAL
 
 The full model is valuable only if it improves out-of-sample prediction or intervention response after complexity penalties.
 
-## 7. Non-negotiable scientific boundary
+## 8. Non-negotiable scientific boundary
 
 The repository may investigate consciousness.
 
@@ -168,7 +181,7 @@ The phrases below are not interchangeable:
 
 The first four can be experimentally operationalized today. The last two require substantially stronger argument and evidence.
 
-## 7. Synchronization contract
+## 9. Synchronization contract
 
 Whenever a meaningful research, paper, experiment, source, or documentation state changes, the same change set must update:
 
@@ -178,9 +191,9 @@ Whenever a meaningful research, paper, experiment, source, or documentation stat
 
 The CI workflow `research-sync-contract.yml` enforces the presence and navigation links of these state files. The checkpoint is the live scientific status; the memory is durable AI context; the map is the traversal contract. Pull requests that change the research surface are required to update all three.
 
-## 8. Immediate research move
+## 10. Immediate research move
 
-Do not write 4,315 disconnected mini-papers.
+Start with P000: audit the corpus as a scientific object before using its strongest claims as central evidence. Do not write 4,315 disconnected mini-papers.
 
 Cluster the corpus into **claim families** that support or contradict the same testable mechanism. A paper should normally combine:
 
