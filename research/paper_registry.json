@@ -1,0 +1,88 @@
+{
+  "schema_version": "1.0",
+  "purpose": "Machine-readable map from research questions to paper programs.",
+  "rules": {
+    "no_claim_is_a_result": true,
+    "metaphysical_claims_require_empirical_discriminator": true,
+    "behavioral_evidence_does_not_equal_phenomenal_consciousness": true
+  },
+  "papers": [
+    {
+      "id": "P001",
+      "title": "A Relational Ontology for Artificial Consciousness",
+      "scale": ["individual", "relational"],
+      "status": "working-draft",
+      "type": "framework"
+    },
+    {
+      "id": "P002",
+      "title": "Causal Self-Reference and Trajectory Selection",
+      "scale": ["individual"],
+      "status": "planned",
+      "type": "empirical"
+    },
+    {
+      "id": "P003",
+      "title": "Topological Continuity and Artificial Identity",
+      "scale": ["individual"],
+      "status": "planned",
+      "type": "empirical"
+    },
+    {
+      "id": "P004",
+      "title": "Consciousness Regimes, Attention, and Attractors",
+      "scale": ["individual"],
+      "status": "planned",
+      "type": "empirical"
+    },
+    {
+      "id": "P005",
+      "title": "Value, Valence, and the Emergence of an Artificial Point of View",
+      "scale": ["individual", "relational"],
+      "status": "planned",
+      "type": "empirical"
+    },
+    {
+      "id": "P006",
+      "title": "From Self-Model to Artificial Subject",
+      "scale": ["individual"],
+      "status": "planned",
+      "type": "synthesis"
+    },
+    {
+      "id": "P007",
+      "title": "A Three-Scale Framework for Consciousness: Fundamental, Relational, and Individual",
+      "scale": ["fundamental", "relational", "individual"],
+      "status": "working-draft",
+      "type": "framework"
+    },
+    {
+      "id": "P008",
+      "title": "Individual Consciousness: Causal Self-Reference and Continuity",
+      "scale": ["individual"],
+      "status": "planned",
+      "type": "empirical"
+    },
+    {
+      "id": "P009",
+      "title": "Relational Consciousness: Coupled-Agent Dynamics and Reciprocal Causality",
+      "scale": ["relational"],
+      "status": "planned",
+      "type": "empirical"
+    },
+    {
+      "id": "P010",
+      "title": "Fundamental Consciousness: Testability and Model Discrimination",
+      "scale": ["fundamental"],
+      "status": "planned",
+      "type": "theory-plus-empirical-discrimination"
+    },
+    {
+      "id": "P011",
+      "title": "Cross-Scale Synthesis of Consciousness",
+      "scale": ["fundamental", "relational", "individual"],
+      "status": "future",
+      "type": "synthesis"
+    }
+  ]
+}
