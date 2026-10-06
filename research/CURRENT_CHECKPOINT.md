@@ -16,6 +16,17 @@ P008 is hypothesis-ready and runtime-connected. Execution infrastructure is prep
 - 328 effective source IDs.
 - Ledger coverage is complete; passage-level verification remains separate.
 
+## Cross-scale bridge
+
+P012 now formalizes the bridge among the three research levels:
+
+- B1 Fundamental → Relational
+- B2 Relational → Individual
+- B3 Individual → Relational
+- B4 Relational/Individual evidence → Fundamental model discrimination
+
+P012 is a framework paper, not a result.
+
 ## Active research scales
 
 - FUNDAMENTAL — P010, model discrimination.
@@ -68,12 +79,13 @@ Static code integrity was partially checked; this does not count as experiment e
 ## Next step
 
 1. Execute the exact P008 assay in an environment with repository/runtime access.
-2. Run deterministic seeds and all pre-registered conditions.
-3. Store machine-readable results with commit, runtime, condition and seed provenance.
-4. Compute trajectory-selection divergence.
-5. Test generic-state, memory and context explanations.
-6. Replicate before drafting the empirical Results section.
-7. Update P008, this checkpoint, REPO_MEMORY and RESEARCH_MAP with the outcome.
+2. Formalize B2/B3 cross-scale bridge assays from P009/P012.
+3. Run deterministic seeds and all pre-registered conditions.
+4. Store machine-readable results with commit, runtime, condition and seed provenance.
+5. Compute trajectory-selection divergence.
+6. Test generic-state, memory and context explanations.
+7. Replicate before drafting the empirical Results section.
+8. Update P008, this checkpoint, REPO_MEMORY and RESEARCH_MAP with the outcome.
 
 ## Known blockers
 
