@@ -143,6 +143,16 @@ This paper adopts the same methodological lesson:
 
 > competing explanations must generate separable predictions before evidence can adjudicate them.
 
+Key methodological anchors:
+
+- Seth & Bayne, *Theories of consciousness*, Nature Reviews Neuroscience (2022): https://www.nature.com/articles/s41583-022-00587-4
+- Cogitate Consortium, adversarial testing of IIT and GNWT, Nature (2025): https://www.nature.com/articles/s41586-025-08888-1
+- *An integrative, multiscale view on neural theories of consciousness*, Neuron (2024): https://doi.org/10.1016/j.neuron.2024.02.004
+- De Felice et al., *Relational neuroscience: Insights from hyperscanning research*, Neuroscience & Biobehavioral Reviews (2025): https://doi.org/10.1016/j.neubiorev.2024.105979
+- Zhao et al., hyperscanning systematic review/meta-analysis (2024): https://doi.org/10.1016/j.neubiorev.2024.105565
+- Methodological framework for quantifying empirical support for consciousness theories (2024): https://doi.org/10.3389/fpsyg.2024.1341430
+- SEP, cosmopsychism / panpsychism discussion (Fall 2024): https://plato.stanford.edu/archives/fall2024/entries/panpsychism/supplement.html
+
 ## 8. Planned downstream papers
 
 P008 tests the individual-scale causal loop.
