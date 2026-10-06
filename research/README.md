@@ -32,15 +32,17 @@ A claim never becomes a scientific fact merely because it appears in the corpus.
 
 ## Canonical navigation
 
-1. `REPO_MEMORY.md` — current project state and anti-drift rules.
-2. `RESEARCH_MAP.md` — one-page map for humans and AI agents.
-3. `sources/README.md` — source-layer rules.
-4. `docs/CLAIM_TO_PAPER_PROTOCOL.md` — conversion protocol.
-5. `docs/THREE_SCALE_CONSCIOUSNESS.md` — the three-scale research hypothesis.
-6. `research/CLAIM_FAMILY_TRIAGE.md` — current 4,315-claim paper triage.
-7. `papers/README.md` — publication dependency graph.
-8. `experiments/` — executable tests.
-9. `corpus-v1/corpus/` — verified corpus branch containing the machine-readable claim ledger.
+1. `RESEARCH_MAP.md` — repository traversal contract.
+2. `research/CURRENT_CHECKPOINT.md` — live research state.
+3. `REPO_MEMORY.md` — durable project state and anti-drift rules.
+4. `research/CLAIM_FAMILY_REGISTRY.md` — current claim-family map.
+5. `sources/README.md` — source-layer rules.
+6. `docs/CLAIM_TO_PAPER_PROTOCOL.md` — conversion protocol.
+7. `docs/THREE_SCALE_CONSCIOUSNESS.md` — the three-scale research hypothesis.
+8. `research/CLAIM_FAMILY_TRIAGE.md` — current 4,315-claim paper triage.
+9. `papers/README.md` — publication dependency graph.
+10. `experiments/` — executable tests.
+11. `corpus-v1/corpus/` — verified corpus branch containing the machine-readable claim ledger.
 
 ## Research status language
 
@@ -97,3 +99,7 @@ Papers must:
 - make the strongest claim no stronger than the data permit.
 
 Current consciousness science remains theoretically plural and actively adversarial; the project should treat that disagreement as a methodological feature, not as a problem to hide.
+
+## State synchronization
+
+A meaningful research change must update `RESEARCH_MAP.md`, `research/CURRENT_CHECKPOINT.md`, and `REPO_MEMORY.md` together. CI enforces the state-file contract.
