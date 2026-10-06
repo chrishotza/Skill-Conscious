@@ -9,9 +9,7 @@ on:
       - "tests/**"
       - "experiments/consciousness_case_benchmark.py"
       - "sources/**"
-      - "docs/CANONICAL_SYSTEM.md"
-      - "docs/CONSCIOUSNESS_CASE_BENCHMARK.md"
-      - "docs/CONSCIOUSNESS_CANONICAL_CONTEXT.md"
+      - "docs/**"
       - "pyproject.toml"
 
 jobs:
@@ -35,5 +33,13 @@ jobs:
           tests/test_core.py
           tests/test_consciousness_case_benchmark.py
           tests/test_canonical_corpus.py
+          tests/test_claim_ledger.py
       - name: Execute operational benchmark
         run: python -m experiments.consciousness_case_benchmark
+      - name: Write benchmark JSON
+        run: python -m experiments.consciousness_case_benchmark --json > consciousness_case_v1_result.json
+      - name: Upload benchmark result
+        uses: actions/upload-artifact@v4
+        with:
+          name: consciousness-case-v1-result
+          path: consciousness_case_v1_result.json
