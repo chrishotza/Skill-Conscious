@@ -88,6 +88,8 @@ B4 Relational/Individual→Fundamental: reserved for model comparison after B1 c
 
 ## P000 audit program
 
+Initial external anchor calibration is complete for A01–A09: A03, A05 and A09 are strong enough for narrow source-level use; A01, A02 and A07 remain partial; A04, A06 and A08 remain provisional. See `research/P000_ANCHOR_AUDIT_V1.md`.
+
 1. Verify the source records behind all central P008/P009/P010/P012 evidence.
 2. Review and normalize provenance, preserving noncanonical labels and rationale.
 3. Build the source-dependency / independence graph.
@@ -97,6 +99,8 @@ B4 Relational/Individual→Fundamental: reserved for model comparison after B1 c
 7. Freeze a reproducible stratified corpus-quality sample.
 8. Generate machine-readable audit artifacts before interpreting findings.
 9. Then return to P008/P009/P010 execution with the audited evidence set.
+
+Current methodological finding: repository-level 'verified' must not be treated as publication-grade verification without edition, passage, translation and dependency audit.
 
 ## Known blockers
 
