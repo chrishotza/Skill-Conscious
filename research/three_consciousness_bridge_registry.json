@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.0",
+  "paper": "P012",
+  "framework": "three-consciousness-bridge",
+  "status": "framework",
+  "levels": ["fundamental","relational","individual"],
+  "operators": {
+    "B1": "fundamental_to_relational",
+    "B2": "relational_to_individual",
+    "B3": "individual_to_relational",
+    "B4": "relational_to_fundamental_inference"
+  },
+  "central_hypothesis": "A successful multi-scale model provides cross-level predictive or causal information not recoverable from isolated-level models after complexity correction.",
+  "models": [
+    "individual_only",
+    "relational_plus_individual",
+    "full_three_scale"
+  ],
+  "experiments": ["B1_fundamental_relational","B2_relational_individual","B3_individual_relational","B4_full_model_comparison"],
+  "interpretation_boundary": "Fundamental consciousness/God remains a metaphysical hypothesis until a formal model produces a discriminating empirical consequence."
+}
