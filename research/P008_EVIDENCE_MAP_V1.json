@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.0",
+  "paper": "P008",
+  "status": "triage",
+  "hypothesis": "A persistent self-model becomes functionally self-referential when intervention on that model changes future trajectory selection under otherwise controlled conditions.",
+  "corpus": {
+    "branch": "corpus-v1",
+    "effective_claims": 4315,
+    "individual_first_pass": 1311,
+    "semantic_candidates": 1371,
+    "priority_review_set": 120
+  },
+  "anchor_claims": [
+    {"global_claim_id":"G31-S267-K01","corpus_id":"C260","source_id":"S267","claim_type":"SELF_MODEL","provenance":"P2*","role":"self-model construct"},
+    {"global_claim_id":"G31-S267-K07","corpus_id":"C260","source_id":"S267","claim_type":"TRANSFORMATION","provenance":"P2*","role":"self-model intervention consequence"},
+    {"global_claim_id":"G31-S265-K02","corpus_id":"C258","source_id":"S265","claim_type":"REFLEXIVITY","provenance":"P2*","role":"pre-reflective self-awareness"},
+    {"global_claim_id":"G31-S265-K03","corpus_id":"C258","source_id":"S265","claim_type":"REFLEXIVITY","provenance":"P2*","role":"reflection distinction"},
+    {"global_claim_id":"G31-S265-K09","corpus_id":"C258","source_id":"S265","claim_type":"TRANSFORMATION","provenance":"P2*","role":"self-description transformation"},
+    {"global_claim_id":"G33-S278-K11","corpus_id":"C272","source_id":"S278","claim_type":"CAUSAL","provenance":"P2*","role":"recurrent processing causal candidate"},
+    {"global_claim_id":"G33-S285-K03","corpus_id":"C279","source_id":"S285","claim_type":"CAUSAL","provenance":"P2*","role":"causal consciousness debate"},
+    {"global_claim_id":"G33-S285-K13","corpus_id":"C279","source_id":"S285","claim_type":"REFLEXIVITY","provenance":"P2*","role":"first-person knowledge boundary"},
+    {"global_claim_id":"G33-S287-K10","corpus_id":"C281","source_id":"S287","claim_type":"CAUSAL","provenance":"P2*","role":"physical causal requirements"},
+    {"global_claim_id":"G34-S288-K12","corpus_id":"C282","source_id":"S288","claim_type":"CAUSAL","provenance":"P2*","role":"substrate/implementation boundary"}
+  ],
+  "primary_prediction": "Targeted self-model intervention changes trajectory selection relative to matched control.",
+  "null": "After matching memory, compute, inputs and candidate futures, self-model intervention has no specific effect.",
+  "interpretation_boundary": "Functional causal self-reference is not itself evidence of phenomenal consciousness."
+}
