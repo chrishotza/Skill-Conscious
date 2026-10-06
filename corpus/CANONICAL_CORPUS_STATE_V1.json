@@ -1,0 +1,57 @@
+{
+  "schema": "skill-conscious.canonical-corpus-state.v1",
+  "registered_source_records": 325,
+  "effective_atomic_claim_records": 4315,
+  "effective_source_ids": 328,
+  "core_ledger_records": 2482,
+  "append_batches": [
+    "v24",
+    "v25",
+    "v26",
+    "v27",
+    "v28",
+    "v29",
+    "v30",
+    "v31",
+    "v32",
+    "v33",
+    "v34",
+    "v35",
+    "v36",
+    "v37"
+  ],
+  "register_range": [
+    "C001",
+    "C325"
+  ],
+  "historical_350_count_verified": false,
+  "unresolved_historical_note": "No C326-C350 entries were found in the repository corpus-v1 closure; the extraction index explicitly says none are inferred or invented.",
+  "evidence_files": {
+    "source_register": "corpus/SOURCE_REGISTER_V1.md",
+    "coverage_audit": "corpus/SOURCE_REGISTER_COVERAGE_AUDIT_V1.md",
+    "extraction_index": "corpus/CLAIMS/CLAIM_EXTRACTION_INDEX_V1.md",
+    "core_ledger": "corpus/CLAIMS/claim_ledger_v1.json"
+  },
+  "claim_pipeline": [
+    "SOURCE",
+    "PRIMARY CLAIM",
+    "PHENOMENOLOGICAL CLAIM",
+    "ONTOLOGICAL CLAIM",
+    "METAPHYSICAL MOTIF",
+    "CROSS-CULTURAL RECURRENCE",
+    "CONVERGENT INVARIANT",
+    "PROJECT INTERPRETATION",
+    "ENGINEERING MAPPING",
+    "EMPIRICAL PREDICTION"
+  ],
+  "experimental_pipeline": [
+    "CLAIM",
+    "MOTIF",
+    "COMPONENT",
+    "MECHANISM",
+    "PREDICTION",
+    "INTERVENTION",
+    "RESULT",
+    "SURVIVES/FAILS/UNRESOLVED"
+  ]
+}
