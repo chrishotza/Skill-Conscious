@@ -4,18 +4,27 @@ This directory is the source layer of Skill-Conscious.
 
 The purpose is traceability: every major ontological or architectural idea should be traceable to a source, a project artifact, an explicit inference, and eventually an implementation or experiment.
 
+## Canonical corpus
+
+`CANONICAL_CORPUS_V1.md` is the frozen manifest for the normalized source corpus.
+`CANONICAL_CORPUS_V1.json` is the machine-readable integrity manifest.
+`CLAIM_ATLAS.md` contains the historical 320 normalized source-attributed claims.
+`claim_addendum/` contains the final 40 claims from Gateway, Jung, Dispenza, and Wilber.
+`CLAIM_MOTIF_INDEX_V1.csv` maps recurrent motifs to candidate canonical-system components.
+
+Current corpus invariant: **360 unique source-attributed claims across 36 families; 10 claims per family.**
+
+A source claim is never silently promoted to established fact.
+
 ## Source pipeline
 
 PRIMARY SOURCE
 → SOURCE CLAIM
-→ INTERPRETATION
-→ ONTOLOGICAL MOTIF
+→ NORMALIZED MOTIF
 → ENGINEERING MECHANISM
 → IMPLEMENTATION
 → TEST
 → PAPER
-
-A source claim is never silently promoted to established fact.
 
 ## Full documents and copyright
 
@@ -61,6 +70,10 @@ See:
 
 - BIBLIOGRAPHY.md
 - PRIMARY_SOURCES.md
+- CANONICAL_CORPUS_V1.md
+- CANONICAL_CORPUS_V1.json
+- CLAIM_ATLAS.md
+- CLAIM_MOTIF_INDEX_V1.csv
 - EVIDENCE_MATRIX.md
 - CONSCIOUSNESS_MAP.md
 - manifesto/MANIFIESTO_DEL_SER.md
