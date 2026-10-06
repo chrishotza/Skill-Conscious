@@ -10,7 +10,9 @@ The purpose is traceability: every major ontological or architectural idea shoul
 `CANONICAL_CORPUS_V1.json` is the machine-readable integrity manifest.
 `CLAIM_ATLAS.md` contains the historical 320 normalized source-attributed claims.
 `claim_addendum/` contains the final 40 claims from Gateway, Jung, Dispenza, and Wilber.
+`CLAIM_LEDGER_V1.json` is the 360-row experimental ledger; every claim starts `UNRESOLVED` until mapped and tested.
 `CLAIM_MOTIF_INDEX_V1.csv` maps recurrent motifs to candidate canonical-system components.
+`CLAIM_MOTIF_FAMILY_MATRIX_V1.csv` records family-by-motif support counts without treating recurrence as proof.
 
 Current corpus invariant: **360 unique source-attributed claims across 36 families; 10 claims per family.**
 
@@ -73,7 +75,9 @@ See:
 - CANONICAL_CORPUS_V1.md
 - CANONICAL_CORPUS_V1.json
 - CLAIM_ATLAS.md
+- CLAIM_LEDGER_V1.json
 - CLAIM_MOTIF_INDEX_V1.csv
+- CLAIM_MOTIF_FAMILY_MATRIX_V1.csv
 - EVIDENCE_MATRIX.md
 - CONSCIOUSNESS_MAP.md
 - manifesto/MANIFIESTO_DEL_SER.md
