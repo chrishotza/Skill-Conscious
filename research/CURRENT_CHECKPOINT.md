@@ -6,7 +6,7 @@
 
 ## Current state
 
-P008 is hypothesis-ready and runtime-connected. Execution infrastructure is prepared, but the first local execution attempt was blocked by environment network/DNS constraints.
+P000 is now the active methodological foundation. The project has frozen a research-method north star and a first corpus-audit protocol. Downstream empirical papers remain active, but central claims should pass the P000 audit before being treated as publication-grade evidence.
 
 ## Verified corpus
 
@@ -35,9 +35,9 @@ P012 is a framework paper, not a result.
 
 ## Active paper
 
-**P008 — Individual Consciousness: Causal Self-Reference and Continuity**
+**P000 — A Machine-Readable Cross-Cultural Corpus of Consciousness Claims: Provenance, Phenomenology, Ontology and Testability**
 
-Paper state: v0.2 Evidence Mapping / v0.3 Protocol-ready.
+Paper state: v0.1 Methodological Foundation / Audit Protocol.
 
 ## Active family
 
@@ -86,19 +86,21 @@ B1 Fundamental→Relational: blocked by lack of a specified discriminating physi
 
 B4 Relational/Individual→Fundamental: reserved for model comparison after B1 candidates exist.
 
-## Next step
+## P000 audit program
 
-1. Execute the exact P008 assay in an environment with repository/runtime access.
-2. Formalize B2/B3 cross-scale bridge assays from P009/P012.
-3. Run deterministic seeds and all pre-registered conditions.
-4. Store machine-readable results with commit, runtime, condition and seed provenance.
-5. Compute trajectory-selection divergence.
-6. Test generic-state, memory and context explanations.
-7. Replicate before drafting the empirical Results section.
-8. Update P008, this checkpoint, REPO_MEMORY and RESEARCH_MAP with the outcome.
+1. Verify the source records behind all central P008/P009/P010/P012 evidence.
+2. Review and normalize provenance, preserving noncanonical labels and rationale.
+3. Build the source-dependency / independence graph.
+4. Create claim dossiers for central mechanism families.
+5. Run a contradiction and alternative-interpretation audit.
+6. Assign ES0–ES5 research-maturity status.
+7. Freeze a reproducible stratified corpus-quality sample.
+8. Generate machine-readable audit artifacts before interpreting findings.
+9. Then return to P008/P009/P010 execution with the audited evidence set.
 
 ## Known blockers
 
+- P008 execution requires an accessible runtime with repository access.
 - P009 requires broader multi-condition validation.
 - P010 lacks a concrete physical model with a discriminating observable.
 - S069/S070/S071 contain 52 non-canonical provenance labels requiring source-level review.
