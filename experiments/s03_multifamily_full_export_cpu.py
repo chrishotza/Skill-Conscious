@@ -13,14 +13,18 @@ import pandas as pd
 
 ROOT = Path("/content/drive/MyDrive/Skill-Conscious")
 IN = ROOT / "results/s03/S03_CANDIDATE_ADJUDICATION_CPU_V1/all_adjudication_candidates.csv"
+PRIORITY = ROOT / "results/s03/S03_CANDIDATE_ADJUDICATION_CPU_V1/priority_review_queue.csv"
 OUT = ROOT / "results/s03/S03_MULTIFAMILY_FULL_EXPORT_CPU_V1"
 OUT.mkdir(parents=True, exist_ok=True)
 
 def main():
     if not IN.exists():
         raise FileNotFoundError(IN)
+    if not PRIORITY.exists():
+        raise FileNotFoundError(PRIORITY)
 
     df = pd.read_csv(IN)
+    priority_df = pd.read_csv(PRIORITY)
     required = {
         "claim_index",
         "global_claim_id",
@@ -41,30 +45,23 @@ def main():
         raise RuntimeError(f"Missing columns: {sorted(missing)}")
 
     multi = df[df["seed_family_coverage"] >= 2].copy()
-    priority = (
-        multi.sort_values(
-            ["seed_family_coverage", "best_seed_similarity", "seed_connection_count"],
-            ascending=[False, False, False],
-        )
-        .head(31)
-    )
-
-    reviewed_ids = set(priority["global_claim_id"].astype(str))
+    multi = df[df["seed_family_coverage"] >= 2].copy()
+    reviewed_ids = set(priority_df["global_claim_id"].astype(str))
 
     multi["priority_31_reviewed"] = (
         multi["global_claim_id"].astype(str).isin(reviewed_ids)
     )
 
     multi["review_order_full67"] = range(1, len(multi) + 1)
+    multi["review_batch"] = multi["priority_31_reviewed"].map(
+        {True: "already_reviewed_priority31", False: "remaining36"}
+    )
 
     multi = multi.sort_values(
         ["priority_31_reviewed", "seed_family_coverage", "best_seed_similarity", "seed_connection_count"],
         ascending=[False, False, False, False],
     ).reset_index(drop=True)
 
-    multi["review_batch"] = multi["priority_31_reviewed"].map(
-        {True: "already_reviewed_priority31", False: "remaining36"}
-    )
 
     cols = [
         "review_order_full67",
