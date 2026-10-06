@@ -1,0 +1,27 @@
+name: native-dynamic-isolation
+
+on:
+  push:
+    branches:
+      - system-canonicalization-v1
+
+jobs:
+  test-file:
+    strategy:
+      fail-fast: false
+      max-parallel: 6
+      matrix:
+        test: ["test_adversarial_battery.py","test_attractor.py","test_canonical_corpus.py","test_case_standard.py","test_causal_dynamic_probe.py","test_causal_internal_probe.py","test_causal_organization.py","test_claim_ledger.py","test_consciousness_case_benchmark.py","test_core.py","test_coupled_ablation.py","test_dynamics.py","test_endogenous_organization.py","test_experience_field.py","test_homeostatic_regulation.py","test_host_dynamic_cycle.py","test_latent_self.py","test_metacognition.py","test_metacognitive_causal_probe.py","test_metacognitive_prediction.py","test_native_dynamic_core.py","test_reentry.py","test_runtime_bridge.py","test_self_causality.py","test_self_development.py","test_self_development_ablation.py","test_self_dissonance_selection.py","test_self_observation.py","test_sensor_affect.py","test_system_contract.py"]
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    env:
+      PYTHONPATH: src
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Install test dependencies
+        run: python -m pip install --upgrade pip pytest
+      - name: Run isolated test file
+        run: python -m pytest -vv --durations=20 "tests/${{ matrix.test }}"
