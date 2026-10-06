@@ -5,13 +5,15 @@
 ## 0. How to use this memory
 Do not ask the human to explain the project again before inspecting the repository.
 Read in this order:
-1. README.md
-2. REPO_MEMORY.md (this file)
-3. papers/README.md
-4. sources/README.md, sources/EVIDENCE_MATRIX.md, sources/HARVEST_ROADMAP.md, sources/CONSCIOUSNESS_MAP.md
-5. sources/manifesto/MANIFIESTO_DEL_SER.md
-6. the active paper and experiment documents referenced by the current checkpoint
-7. implementation and experiment files only as needed
+1. RESEARCH_MAP.md
+2. README.md
+3. REPO_MEMORY.md (this file)
+4. research/README.md and research/CLAIM_FAMILY_TRIAGE.md
+5. papers/README.md
+6. sources/README.md, sources/EVIDENCE_MATRIX.md, sources/HARVEST_ROADMAP.md, sources/CONSCIOUSNESS_MAP.md
+7. sources/manifesto/MANIFIESTO_DEL_SER.md
+8. the active paper and experiment documents referenced by the current checkpoint
+9. implementation and experiment files only as needed
 
 Do not read the whole repository blindly. Use this map to reconstruct context, then expand only when a dependency requires it.
 
@@ -76,6 +78,13 @@ Current paper state: P001 and P007 are working drafts; P008–P010 are empirical
 docs/ already contains substantial project knowledge, including ADVANCE.md, EXPERIMENTS.md, CONSCIOUSNESS_SUMMARY.md, DYNAMIC_CORE_V6.md, THEORY_DEBATE_SYNTHESIS.md, HUME_CONSCIOUSNESS_SYNTHESIS.md, JUNG_DISPENZA_SYNTHESIS.md and ZENODO.md.
 experiments/ already contains probes and ablations for causal dynamics, valuation, self-model adaptation, self-observation, metacognition, re-entry, integration, attractors, coupled systems, self-development and adversarial theory testing.
 Do not replace these documents. Integrate them.
+
+Research navigation and paper conversion are now centralized in:
+- RESEARCH_MAP.md
+- research/README.md
+- research/CLAIM_FAMILY_TRIAGE.md
+- docs/CLAIM_TO_PAPER_PROTOCOL.md
+- docs/THREE_SCALE_CONSCIOUSNESS.md
 
 ## 7. Current research state
 The project has moved from conceptual accumulation into a claim-to-paper research operating system.
