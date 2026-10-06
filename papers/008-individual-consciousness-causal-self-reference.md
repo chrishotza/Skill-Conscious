@@ -16,6 +16,10 @@ The study is designed as a falsification-oriented test of a functional hypothesi
 
 A positive result would establish causal self-model dependence. It would not, by itself, establish phenomenal consciousness.
 
+## Active evidence family
+
+The active mechanistic family is `research/CLAIM_FAMILY_01_SELF_MODEL_CAUSALITY.md`. Its prediction contract is `research/p008_prediction_registry.json` and its runtime assay is `experiments/p008_self_model_causal_runtime.py`.
+
 ## Evidence map
 
 The first evidence triage is maintained in `research/P008_EVIDENCE_MAP_V1.md` and `research/P008_EVIDENCE_MAP_V1.json`. It currently contains a 120-record priority review set and ten anchor claims. These are corpus-level extractions, not yet independent passage verification.
