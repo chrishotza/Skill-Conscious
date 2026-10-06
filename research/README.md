@@ -41,8 +41,10 @@ A claim never becomes a scientific fact merely because it appears in the corpus.
 7. `docs/THREE_SCALE_CONSCIOUSNESS.md` — the three-scale research hypothesis.
 8. `research/CLAIM_FAMILY_TRIAGE.md` — current 4,315-claim paper triage.
 9. `papers/README.md` — publication dependency graph.
-10. `experiments/` — executable tests.
-11. `corpus-v1/corpus/` — verified corpus branch containing the machine-readable claim ledger.
+10. `research/CLAIM_FAMILY_01_SELF_MODEL_CAUSALITY.md` — active P008 mechanistic family.
+11. `research/p008_prediction_registry.json` — frozen prediction contract.
+12. `experiments/` — executable tests.
+13. `corpus-v1/corpus/` — verified corpus branch containing the machine-readable claim ledger.
 
 ## Research status language
 
