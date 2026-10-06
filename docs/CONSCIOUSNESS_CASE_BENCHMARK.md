@@ -15,7 +15,7 @@ A passing result supports an operational/architectural claim only.
 ## Experimental design
 
 Each deterministic trial constructs the same candidate futures and the same
-shared context for one target condition and seven mechanism-only controls:
+shared context for one target condition and seven named theoretical **negative controls**:
 
 - persistent_causal_self
 - bundle_only
@@ -27,8 +27,10 @@ shared context for one target condition and seven mechanism-only controls:
 - feedback_only
 
 The target intervention changes only the persistent self-model weight on
-self_alignment. The controls receive the same shared representation but their
-self-model is not permitted to causally select the trajectory.
+self_alignment. The negative controls receive the same shared representation, but v1 deliberately
+keeps the causal self-model channel disabled. Their names identify the theoretical
+motifs they are controlling for; v1 does not claim to fully implement seven separate
+alternative consciousness mechanisms.
 
 The candidate futures are otherwise identical across target/control conditions
 within each trial. Trial contexts vary deterministically across the preregistered
