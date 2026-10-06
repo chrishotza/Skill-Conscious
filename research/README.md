@@ -37,9 +37,10 @@ A claim never becomes a scientific fact merely because it appears in the corpus.
 3. `sources/README.md` — source-layer rules.
 4. `docs/CLAIM_TO_PAPER_PROTOCOL.md` — conversion protocol.
 5. `docs/THREE_SCALE_CONSCIOUSNESS.md` — the three-scale research hypothesis.
-6. `papers/README.md` — publication dependency graph.
-7. `experiments/` — executable tests.
-8. `corpus-v1/corpus/` — verified corpus branch containing the machine-readable claim ledger.
+6. `research/CLAIM_FAMILY_TRIAGE.md` — current 4,315-claim paper triage.
+7. `papers/README.md` — publication dependency graph.
+8. `experiments/` — executable tests.
+9. `corpus-v1/corpus/` — verified corpus branch containing the machine-readable claim ledger.
 
 ## Research status language
 
