@@ -6,7 +6,7 @@
 
 ## Current state
 
-P008 has moved from evidence mapping to a runtime-connected, hypothesis-ready empirical protocol.
+P008 is hypothesis-ready and runtime-connected. Execution infrastructure is prepared, but the first local execution attempt was blocked by environment network/DNS constraints.
 
 ## Verified corpus
 
@@ -22,13 +22,11 @@ P008 has moved from evidence mapping to a runtime-connected, hypothesis-ready em
 - RELATIONAL — P009, reciprocal coupling.
 - INDIVIDUAL — P008, causal self-reference and continuity.
 
-These are research levels/hypotheses, not established facts.
-
 ## Active paper
 
 **P008 — Individual Consciousness: Causal Self-Reference and Continuity**
 
-Paper state: **v0.2 Evidence Mapping / v0.3 Protocol-ready**.
+Paper state: v0.2 Evidence Mapping / v0.3 Protocol-ready.
 
 ## Active family
 
@@ -38,53 +36,44 @@ Core hypothesis:
 
 > A persistent self-model has functional causal influence when intervention on the self-model changes future trajectory selection under otherwise matched conditions.
 
+## Execution state
+
+Target assay:
+
+`experiments/p008_self_model_causal_runtime.py`
+
+Execution attempt: **blocked**.
+
+Reason: local environment could not resolve github.com while attempting to clone the canonical repository.
+
+Scientific consequence:
+
+**NO EMPIRICAL RESULT HAS BEEN PRODUCED.**
+
+Static code integrity was partially checked; this does not count as experiment execution.
+
 ## Completed
 
 - Canonical research navigation.
 - Live checkpoint and durable AI memory.
-- CI synchronization contract for research pull requests.
+- Pull-request synchronization contract.
 - Claim-family registry.
 - P008 evidence map v1.
 - CF01 hypothesis specification.
 - P008 prediction registry.
-- Runtime-connected assay: `experiments/p008_self_model_causal_runtime.py`.
-- Relational assay: `experiments/relational_coupling_probe_v3.py`.
-
-## Evidence state
-
-P008 begins from:
-
-- 1,311 first-pass individual candidates;
-- 1,371 semantic/type candidates;
-- 120 priority records;
-- 10 anchor claims;
-- 8 CF01 source-claim anchors.
-
-The corpus extraction remains hypothesis-generating until source-level verification is completed.
-
-## Experiment state
-
-**Protocol, not result.**
-
-The runtime assay uses the actual `ConsciousRuntime` trajectory scorer. The self-model trajectory weights are consumed by the runtime's scoring path; changing those weights is therefore an explicit internal intervention.
-
-Required conditions:
-
-- baseline;
-- neutral/disconnected self-model;
-- self-model preserve intervention;
-- self-model explore intervention;
-- matched generic-state control.
+- Runtime-connected P008 assay.
+- Corrected relational probe.
+- Execution log documenting the first blocked run.
 
 ## Next step
 
-1. Freeze prediction registry.
-2. Execute the runtime assay across deterministic seeds.
-3. Save one machine-readable result per seed/condition.
+1. Execute the exact P008 assay in an environment with repository/runtime access.
+2. Run deterministic seeds and all pre-registered conditions.
+3. Store machine-readable results with commit, runtime, condition and seed provenance.
 4. Compute trajectory-selection divergence.
-5. Test memory/context and generic-state explanations.
-6. Replicate before writing an empirical Results section.
-7. Update P008, checkpoint, memory and map with the actual outcome.
+5. Test generic-state, memory and context explanations.
+6. Replicate before drafting the empirical Results section.
+7. Update P008, this checkpoint, REPO_MEMORY and RESEARCH_MAP with the outcome.
 
 ## Known blockers
 
