@@ -98,6 +98,8 @@ EXPECTED_CLAIMS = {
 
 MODEL_NAME = "sentence-transformers/paraphrase-multilingual-mpnet-base-v2"
 MODEL_REVISION = "ef15aed8b328d308d7237b9bf15269f2cd19e268"
+SOURCE_REGISTER_PATH = "corpus/SOURCE_REGISTER_V1.md"
+SOURCE_REGISTER_SHA = "a4184dc5c40dd9d3580ebf9cfd4302ac64686a8d"
 
 SEED = 20261006
 LOUVAIN_RESOLUTION = 1.0
@@ -185,6 +187,23 @@ def load_claims(output_dir: Path) -> tuple[list[dict[str, Any]], dict[str, str]]
         raise RuntimeError("global_claim_id is not unique")
 
     return records, sha_map
+
+
+def parse_source_families(text: str) -> dict[str, str]:
+    families: dict[str, str] = {}
+    for line in text.splitlines():
+        if not line.startswith("| C"):
+            continue
+        parts = line.split("|")
+        if len(parts) < 4:
+            continue
+        cid = parts[1].strip()
+        descriptor = parts[2].strip()
+        if cid.startswith("C") and "—" in descriptor and ";" in descriptor:
+            families[cid] = descriptor.split("—", 1)[1].split(";", 1)[0].strip()
+    if len(families) != 325:
+        raise RuntimeError(f"Expected 325 source families, got {len(families)}")
+    return families
 
 
 def detect_phenomenological_metadata(records: list[dict[str, Any]]) -> dict[str, Any]:
@@ -509,8 +528,6 @@ def lofo_transfer(indices, similarities, records, family_by_claim, graph_module)
         train_set = set(train_nodes)
         g_train = graph_module.Graph()
         g_train.add_nodes_from(train_nodes)
-        for u, v, d in graph_module.Graph.subgraph(graph_module.Graph(), []).__class__().edges(data=True):
-            pass
 
         # Copy only induced training edges from the frozen graph.
         # The original graph is passed separately below by rebuilding locally.
@@ -636,6 +653,8 @@ def main():
     print(f"Semantic graph: {semantic_path}")
 
     records, ledger_shas = load_claims(output_dir)
+    register_bytes = fetch_verified(SOURCE_REGISTER_PATH, SOURCE_REGISTER_SHA, output_dir / "data_cache")
+    families = parse_source_families(register_bytes.decode("utf-8"))
     phenom_meta = detect_phenomenological_metadata(records)
 
     indices, similarities = load_semantic_graph(semantic_path)
@@ -643,23 +662,7 @@ def main():
     print(f"Semantic edges: {indices.shape[0] * indices.shape[1]}")
     print(f"Phenomenological metadata mode: {phenom_meta['mode']}")
 
-    family_by_claim = []
-    for r in records:
-        fam = r.get("family")
-        if fam is None:
-            fam = r.get("source_family")
-        if fam is None:
-            # S01 derives family from SOURCE_REGISTER; fall back to corpus_id map
-            # if the ledger itself carries no family field.
-            fam = ""
-        family_by_claim.append(str(fam))
-
-    if not any(family_by_claim):
-        source_register_path = output_dir / "data_cache/source_register_fallback.txt"
-        raise RuntimeError(
-            "Claim ledger does not contain family/source_family. "
-            "This runner intentionally refuses to silently infer family labels."
-        )
+    family_by_claim = [families[r["corpus_id"]] for r in records]
 
     if len(set(family_by_claim)) != 19:
         raise RuntimeError(
@@ -789,6 +792,7 @@ def main():
             "semantic_neighbors_sha256": sha256_bytes(semantic_bytes),
             "ledger_branch": BRANCH,
             "ledger_shas": ledger_shas,
+            "source_register_sha": SOURCE_REGISTER_SHA,
             "model_name_reference": MODEL_NAME,
             "model_revision_reference": MODEL_REVISION,
             "new_embeddings": False,
@@ -867,6 +871,7 @@ def main():
                 "semantic_neighbors_sha256": sha256_bytes(semantic_bytes),
                 "ledger_branch": BRANCH,
                 "ledger_blob_sha": ledger_shas,
+                "source_register_sha": SOURCE_REGISTER_SHA,
                 "new_embeddings": False,
                 "gpu_used": False,
                 "python": platform.python_version(),
