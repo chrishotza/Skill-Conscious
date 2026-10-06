@@ -135,18 +135,26 @@ def main():
         pair_lines.append("#" * 90)
 
         # Deduplicate because one candidate can occur in multiple pair rows.
+        # candidate_family_pairs.csv does not carry all identity fields, so
+        # recover them from the authoritative all-candidates table by claim_index.
         seen = set()
         for _, r in subset.iterrows():
             cid = int(r["claim_index"])
             if cid in seen:
                 continue
             seen.add(cid)
+
+            identity = all_candidates[all_candidates["claim_index"] == cid]
+            if identity.empty:
+                raise RuntimeError(f"Candidate claim_index {cid} missing from all_candidates")
+
+            ident = identity.iloc[0]
             pair_lines.append("")
             pair_lines.append(
-                f"{r['global_claim_id']} | {r['corpus_id']} | "
-                f"candidate_family={r['candidate_family']}"
+                f"{ident['global_claim_id']} | {ident['corpus_id']} | "
+                f"candidate_family={ident['candidate_family']}"
             )
-            pair_lines.append(f"claim: {r['claim']}")
+            pair_lines.append(f"claim: {ident['candidate_claim']}")
             pair_lines.append(
                 f"similarity={float(r['best_seed_similarity']):.6f} | "
                 f"seed_connections={int(r['seed_connection_count'])}"
