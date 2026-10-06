@@ -57,7 +57,7 @@ judgments from the claim text and are not source-provided ground truth.
 
 ## Preliminary result
 
-Strict P1 direct phenomenological claims: **8 / 31**.
+Strict P1 direct phenomenological claims: **9 / 31**.
 
 P1 families represented:
 
