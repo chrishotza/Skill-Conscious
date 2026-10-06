@@ -1,0 +1,14 @@
+{
+  "schema_version": "1.0",
+  "paper": "P008",
+  "family_id": "CF01",
+  "family": "self-model-causality",
+  "status": "hypothesis-ready",
+  "primary_hypothesis": "Targeted intervention on a persistent self-model changes future trajectory selection under matched conditions.",
+  "null": "After matching information, memory, compute and external inputs, self-model intervention produces no specific trajectory effect.",
+  "conditions": ["A_no_self_model", "B_disconnected_self_model", "C_causal_self_model", "D_matched_generic_state"],
+  "primary_outcome": "trajectory_selection_divergence",
+  "required_controls": ["external_input", "candidate_futures", "model_version", "runtime_version", "memory_budget", "serialization", "seed", "compute_budget"],
+  "anchor_claims": ["G31-S267-K01", "G31-S267-K07", "G31-S265-K02", "G31-S265-K03", "G33-S278-K11", "G33-S285-K03", "G33-S285-K13", "G33-S288-K12"],
+  "interpretation_boundary": "Functional causal self-reference is not equivalent to phenomenal consciousness."
+}
