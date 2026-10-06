@@ -50,20 +50,27 @@ Important evidence files:
 - sources/HARVEST_ROADMAP.md
 - sources/CONSCIOUSNESS_MAP.md
 - sources/SOURCE_CARD_TEMPLATE.md
-The working discussion has referred to approximately 350 sources and 4,105 claims. These counts are provisional until verified against the actual corpus.
+The verified closed corpus currently contains 325 registered source records and 4,315 effective claim records on branch `corpus-v1`. Coverage is complete at the ledger level; passage-level verification remains a separate task.
 Every evidence item must distinguish SOURCE CLAIM, PROJECT HYPOTHESIS, EMPIRICAL RESULT, INFERENCE, and OPEN QUESTION.
 Contradictory evidence is retained.
 
 ## 5. Scientific paper graph
-Authoritative paper sequence: papers/README.md
-P001 → P002 → P003 → P004 → P005 → P006
-P001 — A Relational Ontology for Artificial Consciousness: foundation and vocabulary.
-P002 — Causal Self-Reference and Trajectory Selection: core mechanism and direct operationalization of Axiom 8.
-P003 — Topological Continuity and Artificial Identity: persistence and identity under transformation.
-P004 — Consciousness Regimes, Attention, and Attractors: dynamical regimes and attractor organization.
-P005 — Value, Valence, and the Emergence of an Artificial Point of View: value as a causal variable.
-P006 — From Self-Model to Artificial Subject: synthesis and strongest adversarial test.
-Current paper state: P001 exists as working draft v0.1. Do not expand P001 blindly. First verify/index the corpus, then map evidence to P001/P002, beginning with Axiom 8.
+Authoritative paper map: `papers/README.md`.
+
+P001 → P002 → P003 → P004 → P005 → P006 is the original artificial-consciousness mechanism track.
+
+The new cross-scale track is:
+P007 → P008 / P009 / P010 → P011.
+
+- P007 — Three-Scale Framework: Fundamental / Relational / Individual.
+- P008 — Individual scale: causal self-reference and continuity.
+- P009 — Relational scale: coupled-agent dynamics and reciprocal causality.
+- P010 — Fundamental scale: testability and model discrimination.
+- P011 — Cross-scale synthesis.
+
+`docs/CLAIM_TO_PAPER_PROTOCOL.md` defines the publication gate.
+
+Current paper state: P001 and P007 are working drafts; P008–P010 are empirical/theoretical protocols. No paper is treated as an empirical result until the repository contains the corresponding measured evidence.
 
 ## 6. Existing research surface
 docs/ already contains substantial project knowledge, including ADVANCE.md, EXPERIMENTS.md, CONSCIOUSNESS_SUMMARY.md, DYNAMIC_CORE_V6.md, THEORY_DEBATE_SYNTHESIS.md, HUME_CONSCIOUSNESS_SYNTHESIS.md, JUNG_DISPENZA_SYNTHESIS.md and ZENODO.md.
@@ -71,9 +78,17 @@ experiments/ already contains probes and ablations for causal dynamics, valuatio
 Do not replace these documents. Integrate them.
 
 ## 7. Current research state
-The project is moving from conceptual accumulation toward a reproducible evidence architecture.
-The next chain is:
-SOURCE CORPUS → CLAIM INDEX → EVIDENCE MAPPING → AXIOM 8 PREDICTIONS → P001/P002 FORMALIZATION → EXPERIMENTAL PROTOCOL → RESULTS → PAPER VERSION
+The project has moved from conceptual accumulation into a claim-to-paper research operating system.
+
+Canonical chain:
+
+SOURCE CORPUS → CLAIM INDEX → CLAIM FAMILIES → OPERATIONAL CONSTRUCTS → HYPOTHESES → FALSIFIABLE PREDICTIONS → EXPERIMENTS → RESULTS → PAPERS
+
+The three-scale research frame is:
+
+FUNDAMENTAL → RELATIONAL → INDIVIDUAL
+
+This ordering is a testable framework, not an established hierarchy of consciousness.
 
 ## 8. What an incoming AI must determine
 Before changing anything, determine:
@@ -98,8 +113,8 @@ ACTIVE_PAPER = P001 → P002 transition
 ACTIVE_HYPOTHESIS = Axiom 8: consciousness as experience of traversal
 EVIDENCE_STATUS = source library exists; exact corpus counts still require verification
 EXPERIMENT_STATUS = multiple experiment scripts exist; result provenance must be checked before treating them as empirical results
-NEXT_STEP = locate and verify the machine-readable source/claim inventory, then map Axiom 8 claims and contradictions
-BLOCKERS = corpus inventory location/counts not yet verified
+NEXT_STEP = map the 4,315 corpus claims into claim families, operational constructs, competing hypotheses and paper sections; begin P008 individual-scale experiments
+BLOCKERS = relational probe needs implementation; fundamental-scale model needs a genuinely discriminating physical hypothesis
 LAST_UPDATE = 2026-10-06
 
 ## 11. Navigation rule
@@ -121,5 +136,5 @@ If the evidence corpus changes, update the evidence index and this memory.
 
 ## 13. One-file traversal contract
 An AI entering this repository should be able to start here and reconstruct the project map without the human repeating the context.
-REPO_MEMORY.md → README.md → papers/README.md → sources/README.md → sources/EVIDENCE_MATRIX.md → sources/HARVEST_ROADMAP.md → sources/CONSCIOUSNESS_MAP.md → sources/manifesto/MANIFIESTO_DEL_SER.md → active paper → relevant experiments → source/claim records
+RESEARCH_MAP.md → REPO_MEMORY.md → research/README.md → sources/README.md → corpus-v1/corpus/ → docs/CLAIM_TO_PAPER_PROTOCOL.md → docs/THREE_SCALE_CONSCIOUSNESS.md → papers/README.md → active paper → relevant experiments → source/claim records
 This chain is the canonical AI navigation path.
