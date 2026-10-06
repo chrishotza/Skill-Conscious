@@ -6,7 +6,7 @@
 
 ## Current state
 
-The repository is operating as a reproducible claim-to-paper research system with a live synchronized checkpoint.
+P008 has moved from evidence mapping to a runtime-connected, hypothesis-ready empirical protocol.
 
 ## Verified corpus
 
@@ -16,11 +16,11 @@ The repository is operating as a reproducible claim-to-paper research system wit
 - 328 effective source IDs.
 - Ledger coverage is complete; passage-level verification remains separate.
 
-## Active three-scale program
+## Active research scales
 
-- FUNDAMENTAL — P010: model discrimination.
-- RELATIONAL — P009: reciprocal coupling.
-- INDIVIDUAL — P008: causal self-reference and continuity.
+- FUNDAMENTAL — P010, model discrimination.
+- RELATIONAL — P009, reciprocal coupling.
+- INDIVIDUAL — P008, causal self-reference and continuity.
 
 These are research levels/hypotheses, not established facts.
 
@@ -28,65 +28,66 @@ These are research levels/hypotheses, not established facts.
 
 **P008 — Individual Consciousness: Causal Self-Reference and Continuity**
 
-Paper state: **v0.2 Evidence Mapping**.
+Paper state: **v0.2 Evidence Mapping / v0.3 Protocol-ready**.
 
-## Active hypothesis
+## Active family
 
-> A persistent self-model becomes functionally self-referential when intervention on that model changes future trajectory selection under otherwise controlled conditions.
+**CF01 — Self-Model Causality**
 
-## Completed this checkpoint
+Core hypothesis:
 
-- Canonical `RESEARCH_MAP.md`.
-- Canonical `REPO_MEMORY.md`.
-- Live `research/CURRENT_CHECKPOINT.md`.
+> A persistent self-model has functional causal influence when intervention on the self-model changes future trajectory selection under otherwise matched conditions.
+
+## Completed
+
+- Canonical research navigation.
+- Live checkpoint and durable AI memory.
+- CI synchronization contract for research pull requests.
 - Claim-family registry.
-- Claim → Paper protocol.
-- Three-scale framework.
-- P007 framework paper.
-- P008/P009/P010 research programs.
-- Focused individual causal assay.
-- Corrected relational probe.
 - P008 evidence map v1.
-- Machine-readable P008 evidence map.
+- CF01 hypothesis specification.
+- P008 prediction registry.
+- Runtime-connected assay: `experiments/p008_self_model_causal_runtime.py`.
+- Relational assay: `experiments/relational_coupling_probe_v3.py`.
 
-## P008 evidence state
+## Evidence state
 
-First-pass individual reservoir: 1,311 claims.
+P008 begins from:
 
-Semantic/type candidate set: 1,371 claims.
+- 1,311 first-pass individual candidates;
+- 1,371 semantic/type candidates;
+- 120 priority records;
+- 10 anchor claims;
+- 8 CF01 source-claim anchors.
 
-Priority review set: 120 claims.
+The corpus extraction remains hypothesis-generating until source-level verification is completed.
 
-Ten anchor claims currently identified:
+## Experiment state
 
-- G31-S267-K01
-- G31-S267-K07
-- G31-S265-K02
-- G31-S265-K03
-- G31-S265-K09
-- G33-S278-K11
-- G33-S285-K03
-- G33-S285-K13
-- G33-S287-K10
-- G34-S288-K12
+**Protocol, not result.**
 
-These are corpus-level extractions and remain subject to source verification.
+The runtime assay uses the actual `ConsciousRuntime` trajectory scorer. The self-model trajectory weights are consumed by the runtime's scoring path; changing those weights is therefore an explicit internal intervention.
+
+Required conditions:
+
+- baseline;
+- neutral/disconnected self-model;
+- self-model preserve intervention;
+- self-model explore intervention;
+- matched generic-state control.
 
 ## Next step
 
-Create **Claim Family 01 — Self-Model Causality** from the P008 priority set.
-
-Then:
-
-1. freeze primary prediction and null;
-2. run the focused intervention assay across controlled seeds/conditions;
-3. save machine-readable raw results;
-4. analyze trajectory-selection divergence and controls;
-5. adversarially test memory/context explanations;
-6. update P008 + this checkpoint + REPO_MEMORY + RESEARCH_MAP together.
+1. Freeze prediction registry.
+2. Execute the runtime assay across deterministic seeds.
+3. Save one machine-readable result per seed/condition.
+4. Compute trajectory-selection divergence.
+5. Test memory/context and generic-state explanations.
+6. Replicate before writing an empirical Results section.
+7. Update P008, checkpoint, memory and map with the actual outcome.
 
 ## Known blockers
 
 - P009 requires broader multi-condition validation.
 - P010 lacks a concrete physical model with a discriminating observable.
-- S069/S070/S071 contain 52 non-canonical provenance labels requiring source-level normalization review.
+- S069/S070/S071 contain 52 non-canonical provenance labels requiring source-level review.
