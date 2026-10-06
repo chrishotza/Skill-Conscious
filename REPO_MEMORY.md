@@ -9,8 +9,10 @@ Read in this order:
 2. README.md
 3. REPO_MEMORY.md (this file)
 4. research/README.md and research/CLAIM_FAMILY_TRIAGE.md
-5. papers/README.md
-6. sources/README.md, sources/EVIDENCE_MATRIX.md, sources/HARVEST_ROADMAP.md, sources/CONSCIOUSNESS_MAP.md
+5. research/CURRENT_CHECKPOINT.md
+6. research/CLAIM_FAMILY_REGISTRY.md
+7. papers/README.md
+8. sources/README.md, sources/EVIDENCE_MATRIX.md, sources/HARVEST_ROADMAP.md, sources/CONSCIOUSNESS_MAP.md
 7. sources/manifesto/MANIFIESTO_DEL_SER.md
 8. the active paper and experiment documents referenced by the current checkpoint
 9. implementation and experiment files only as needed
@@ -112,18 +114,23 @@ Before changing anything, determine:
 Never infer completion merely because a file exists.
 
 ## 9. Durable memory update protocol
-When a meaningful milestone occurs, update this file with CURRENT_STATE, LAST_COMPLETED, ACTIVE_PAPER, ACTIVE_HYPOTHESIS, EVIDENCE_STATUS, EXPERIMENT_STATUS, NEXT_STEP, BLOCKERS, and LAST_UPDATE.
+When a meaningful milestone occurs, update **all three state artifacts in the same change set**:
+1. `research/CURRENT_CHECKPOINT.md` — live scientific status;
+2. `REPO_MEMORY.md` — durable AI context;
+3. `RESEARCH_MAP.md` — navigation and entry contract.
+
+At minimum, memory must update CURRENT_STATE, LAST_COMPLETED, ACTIVE_PAPER, ACTIVE_HYPOTHESIS, EVIDENCE_STATUS, EXPERIMENT_STATUS, NEXT_STEP, BLOCKERS, and LAST_UPDATE.
 Do not store ephemeral chat dialogue here. Store durable project state and decisions.
 
 ## 10. Current checkpoint
-CURRENT_STATE = evidence architecture / paper-program organization
-LAST_COMPLETED = paper dependency graph formalized in papers/README.md
-ACTIVE_PAPER = P001 → P002 transition
-ACTIVE_HYPOTHESIS = Axiom 8: consciousness as experience of traversal
-EVIDENCE_STATUS = source library exists; exact corpus counts still require verification
-EXPERIMENT_STATUS = multiple experiment scripts exist; result provenance must be checked before treating them as empirical results
-NEXT_STEP = map the 4,315 corpus claims into claim families, operational constructs, competing hypotheses and paper sections; begin P008 individual-scale experiments
-BLOCKERS = relational probe needs implementation; fundamental-scale model needs a genuinely discriminating physical hypothesis
+CURRENT_STATE = claim-to-paper research operating system with three-scale program
+LAST_COMPLETED = canonical navigation, claim-family triage, three-scale papers, and focused P008/P009 assays established
+ACTIVE_PAPER = P008 — Individual Consciousness: Causal Self-Reference and Continuity
+ACTIVE_HYPOTHESIS = intervention on a persistent self-model changes future trajectory under otherwise controlled conditions
+EVIDENCE_STATUS = 325 registered corpus sources / 4,315 effective claims verified at ledger-coverage level; passage-level verification remains separate
+EXPERIMENT_STATUS = focused individual and corrected relational protocols exist; no assay output is yet promoted to empirical result without execution and analysis
+NEXT_STEP = build the first machine-readable P008 claim-family evidence map, freeze predictions/nulls, execute deterministic multi-condition runs, and store result artifacts
+BLOCKERS = P009 needs broader validation; P010 lacks a concrete discriminating physical model; 52 provenance values require source review
 LAST_UPDATE = 2026-10-06
 
 ## 11. Navigation rule
@@ -145,5 +152,5 @@ If the evidence corpus changes, update the evidence index and this memory.
 
 ## 13. One-file traversal contract
 An AI entering this repository should be able to start here and reconstruct the project map without the human repeating the context.
-RESEARCH_MAP.md → REPO_MEMORY.md → research/README.md → sources/README.md → corpus-v1/corpus/ → docs/CLAIM_TO_PAPER_PROTOCOL.md → docs/THREE_SCALE_CONSCIOUSNESS.md → papers/README.md → active paper → relevant experiments → source/claim records
+RESEARCH_MAP.md → research/CURRENT_CHECKPOINT.md → REPO_MEMORY.md → research/CLAIM_FAMILY_REGISTRY.md → research/README.md → sources/README.md → corpus-v1/corpus/ → docs/CLAIM_TO_PAPER_PROTOCOL.md → docs/THREE_SCALE_CONSCIOUSNESS.md → papers/README.md → active paper → relevant experiments → source/claim records
 This chain is the canonical AI navigation path.
