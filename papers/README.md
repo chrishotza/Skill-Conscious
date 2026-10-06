@@ -8,14 +8,6 @@ Papers form a dependency graph: later papers inherit definitions, evidence, impl
 
 ## Canonical paper map
 
-### P000 — A Machine-Readable Cross-Cultural Corpus of Consciousness Claims
-**Path:** `papers/000-corpus-methodology.md`  
-**Role:** methodological foundation and corpus-audit program.
-
-Defines source verification, provenance, dependency/independence, contradiction handling, claim dossiers, evidence maturity and claim-to-hypothesis conversion.
-
-**Status:** working paper v0.1 — audit protocol.
-
 ### P001 — A Relational Ontology for Artificial Consciousness
 **Path:** `papers/001-relational-ontology-for-artificial-consciousness.md`  
 **Role:** foundation and vocabulary.
