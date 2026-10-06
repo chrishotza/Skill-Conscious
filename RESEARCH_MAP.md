@@ -132,13 +132,13 @@ A claim that cannot produce a measurable construct is tagged as **interpretive/o
 
 ## 6. Methodology north star
 
-The canonical methodology is defined in `docs/RESEARCH_METHOD_NORTH.md` and operationalized first in P000. The governing rule is:
+The canonical methodology is defined in `docs/RESEARCH_METHOD_NORTH.md` and the final public-facing architecture is defined in `docs/RESEARCH_PROGRAM_NORTH_STAR.md`. The governing rule is:
 
 > **Expand the hypothesis space. Do not weaken the evidence standard.**
 
 The project is intentionally non-conservative about which hypotheses may be investigated, but conservative about what counts as evidence for them.
 
-P000 establishes source verification, provenance, independence/dependency tracking, contradiction audits, claim dossiers, an ES0–ES5 research-maturity ladder, preregistration and paper eligibility.
+The corpus research protocol establishes source verification, provenance, independence/dependency tracking, contradiction audits, claim dossiers, an ES0–ES5 research-maturity ladder, preregistration and paper eligibility.
 
 Initial anchor calibration (A01–A09) already shows why this layer is necessary: some repository 'verified' anchors still require stronger primary-text or edition control before central paper use.
 
@@ -194,9 +194,9 @@ The CI workflow `research-sync-contract.yml` enforces the presence and navigatio
 
 ## 10. Immediate research move
 
-Run the active corpus study protocol before any new paper is declared publication-ready. Do not call a protocol a paper, and do not write 4,315 disconnected mini-papers.
+Run the active substantive corpus study before any new paper is declared publication-ready. Do not call a protocol a paper, and do not write 4,315 disconnected mini-papers.
 
-Cluster the corpus into **claim families** that support or contradict the same testable mechanism. A paper should normally combine:
+Start with the full 4,315-claim corpus, then cluster into **claim families** that support or contradict the same testable mechanism. A paper should normally combine:
 
 - a narrow research question;
 - a traceable claim set;
