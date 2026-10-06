@@ -147,7 +147,9 @@ That stronger conclusion requires an additional bridge argument and independent 
 
 ## Existing implementation
 
-Primary assay: experiments/self_model_causal_intervention.py
+Primary runtime assay: experiments/p008_self_model_causal_runtime.py
+
+The earlier `experiments/self_model_causal_intervention.py` remains as a toy selector control, not the primary evidence assay.
 
 Relevant existing longitudinal experiments:
 
