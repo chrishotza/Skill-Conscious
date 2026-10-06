@@ -1,0 +1,19 @@
+motif,candidate_layer,canonical_component,candidate_mechanism,status
+BOUNDARY / SELF-WORLD DISTINCTION,boundary,relation_topology,self/world differentiation is explicit and auditable,CORE CONVERGENCE
+TEMPORAL CONTINUITY,temporal_state,history + temporal_state,state persists through ordered revisions,CORE CONVERGENCE
+INTEGRATED PRESENT,present,workspace,shared present mediates downstream modules,CORE CONVERGENCE
+SELF-ACCESS / SELF-MODEL,self_model,self access + self_observation,own modeled state is runtime-readable,CORE CONVERGENCE
+RECURRENCE / RE-ENTRY,reentry,consequence → state → self_model,prior outputs re-enter causally,STRONG CONVERGENCE
+ATTENTION / SALIENCE,attention,attention + salience,selection is stateful rather than raw-input only,CORE CONVERGENCE
+GENERATION / PREDICTION / ERROR,prediction_error,metacognition,predictions are separated from observations,STRONG CONVERGENCE
+VALUE / AFFECT / HOMEOSTASIS,value,valuation + affective/interoceptive state,internal condition affects selection,STRONG CONVERGENCE
+AGENCY / INTENTION / ACTION,agency,intention + trajectory + host action,future policy crosses host boundary,CORE CONVERGENCE
+MEMORY / AUTOBIOGRAPHICAL CONTINUITY,memory,memories + history,past alters present/future,CORE CONVERGENCE
+EMBODIED / INTERNAL CONDITION,interoception,interoceptive_state,internal telemetry is causally available,CORE CONVERGENCE
+PERSPECTIVE / PHENOMENAL CHARACTER,phenomenal_hypothesis,perspectives + evidence separation,first-person claims stay a separate layer,UNRESOLVED PHENOMENAL
+STATE / REGIME TRANSITION,regime,regime + temporal_state,identity is separated from mode,STRONG CONVERGENCE
+TRANSFORMATION / SELF-UPDATE,transformation,self_model adaptation + transformation_log,the process changes its own organization,CORE CONVERGENCE
+CAUSAL SELF-RELEVANCE,causal_self_reference,self_model → selection,internal self-state does causal work,CORE CONVERGENCE
+ANTI-HOMUNCULUS / DISTRIBUTED SELF,distributed_self,modular runtime + distributed state,no central observer is assumed,ADVERSARIAL CONSTRAINT
+COLLECTIVE / FIELD EXTENSION,collective_extension,perspectives / multi-agent hooks,kept outside minimal core,CONTESTED
+METAPHYSICAL / NONLOCAL EXTENSION,metaphysical_extension,speculative evidence channel,not promoted into runtime fact,SPECULATIVE
