@@ -1,0 +1,29 @@
+{
+  "study_id": "S01",
+  "title": "Cross-Cultural Consciousness Claim Recurrence Analysis",
+  "status": "preregistered_protocol_v1",
+  "created": "2026-10-06",
+  "scientific_role": "first substantive corpus study; not yet a paper",
+  "question": "Which recurrent consciousness-related structures survive source-family control, contradiction accounting, and independent text-level semantic analysis?",
+  "primary_unit": "corpus_id",
+  "primary_corpus_size": 325,
+  "effective_claims": 4315,
+  "effective_source_ids": 328,
+  "motif_schema": "M01-M25",
+  "primary_coded_endpoint": "cross_family_minus_within_family_source_motif_jaccard",
+  "primary_coded_null": "random permutation of source-family labels preserving family sizes",
+  "secondary_coded_null": "degree-preserving bipartite rewiring of source-by-motif incidence matrix",
+  "primary_semantic_endpoint": "mean cosine similarity of top-10 cross-family semantic neighbors minus family-label permutation null",
+  "semantic_model": {
+    "name": "sentence-transformers/paraphrase-multilingual-mpnet-base-v2",
+    "revision": "ef15aed8b328d308d7237b9bf15269f2cd19e268",
+    "source": "https://huggingface.co/sentence-transformers/paraphrase-multilingual-mpnet-base-v2"
+  },
+  "seed": 20261006,
+  "coded_null_repetitions": 5000,
+  "semantic_null_repetitions": 5000,
+  "rewire_null_repetitions": 1000,
+  "semantic_k": 10,
+  "status_rule": "exploratory pilot results are never substituted for preregistered confirmatory results",
+  "publication_rule": "no paper until the confirmatory run, robustness analysis, and full result provenance are complete"
+}
