@@ -87,6 +87,14 @@ Defines the minimum requirements for turning a fundamental-consciousness proposa
 
 **Status:** working paper v0.1 — no physical model claimed yet.
 
+### P012 — The Three-Consciousness Bridge: Fundamental, Relational, and Individual Organization
+**Path:** `papers/012-three-consciousness-bridge.md`  
+**Role:** cross-scale bridge framework.
+
+Defines bridge operators B1–B4 and the model-comparison strategy linking the three research levels.
+
+**Status:** working paper v0.1.
+
 ### P011 — Cross-Scale Synthesis of Consciousness
 **Role:** later synthesis.
 
@@ -109,7 +117,7 @@ P007
        └── P011
 ```
 
-P007 is the framework bridge between the broad corpus and the three empirical/theoretical programs.
+P007 is the initial three-scale framework. P012 is the explicit bridge architecture connecting the three scales and defining cross-level experiments.
 
 ## Paper lifecycle
 
