@@ -217,8 +217,8 @@ def degree_preserving_null(
         for m in units[cid]["motifs"]:
             base[i, mindex[m]] = 1
 
-    edges0 = np.argwhere(base == 1)
-    if edges0.size == 0:
+    edges0 = [tuple(x) for x in np.argwhere(base == 1)]
+    if not edges0:
         return np.zeros(reps, dtype=float)
 
     ii, jj = np.triu_indices(len(ids), 1)
@@ -227,22 +227,40 @@ def degree_preserving_null(
 
     for r in range(reps):
         mat = base.copy()
-        edges = edges0.copy()
+        edges = list(edges0)
+        edge_set = set(edges)
         swaps = swaps_factor * len(edges)
+
         for _ in range(swaps):
-            e1 = edges[rng.integers(len(edges))]
-            e2 = edges[rng.integers(len(edges))]
-            i, a = int(e1[0]), int(e1[1])
-            j, b = int(e2[0]), int(e2[1])
+            p = int(rng.integers(len(edges)))
+            q = int(rng.integers(len(edges)))
+            if p == q:
+                continue
+
+            i, a = edges[p]
+            j, b = edges[q]
             if i == j or a == b:
                 continue
-            if mat[i, b] or mat[j, a]:
+
+            e_new_1 = (i, b)
+            e_new_2 = (j, a)
+            if e_new_1 in edge_set or e_new_2 in edge_set:
                 continue
+
+            e_old_1 = edges[p]
+            e_old_2 = edges[q]
+            edge_set.remove(e_old_1)
+            edge_set.remove(e_old_2)
+            edge_set.add(e_new_1)
+            edge_set.add(e_new_2)
+
+            edges[p] = e_new_1
+            edges[q] = e_new_2
+
             mat[i, a] = 0
             mat[j, b] = 0
             mat[i, b] = 1
             mat[j, a] = 1
-            edges = np.argwhere(mat == 1)
 
         sim = np.zeros(ii.size, dtype=np.float32)
         for k, (i, j) in enumerate(zip(ii, jj)):
