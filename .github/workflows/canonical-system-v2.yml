@@ -1,0 +1,40 @@
+name: canonical-system-v2
+
+on:
+  push:
+    branches:
+      - system-canonicalization-v2
+  pull_request:
+    branches:
+      - main
+    paths:
+      - "src/skill_conscious/**"
+      - "tests/**"
+      - "experiments/consciousness_case_benchmark.py"
+      - "docs/**"
+      - "corpus/**"
+      - "sources/**"
+      - "skills/skill-conscious/**"
+
+jobs:
+  canonical:
+    runs-on: ubuntu-latest
+    env:
+      PYTHONPATH: src
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Install test dependencies
+        run: python -m pip install --upgrade pip pytest
+      - name: Run canonical system and corpus tests
+        run: >-
+          python -m pytest -q
+          tests/test_system_contract.py
+          tests/test_case_standard.py
+          tests/test_adversarial_battery.py
+          tests/test_consciousness_case_benchmark.py
+          tests/test_corpus_integrity.py
+      - name: Execute operational consciousness benchmark
+        run: python -m experiments.consciousness_case_benchmark
