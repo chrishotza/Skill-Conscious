@@ -6,6 +6,41 @@ This directory is the scientific publication track of Skill-Conscious.
 
 Papers form a dependency graph: later papers inherit definitions, evidence, implementations, experiments, and unresolved questions from earlier papers.
 
+## Program north star
+
+The full research architecture is defined in `docs/RESEARCH_PROGRAM_NORTH_STAR.md`.
+
+The project has two layers:
+
+- **Research layer:** exhaustive, technical, adversarial, reproducible.
+- **Public layer:** a small number of reader-facing claims whose wording is earned by the research.
+
+The intended public narrative is:
+
+1. What do we mean by consciousness?
+2. What makes a local point of view persistent?
+3. What role does relation play?
+4. Is consciousness fundamental?
+5. What, if anything, connects the three?
+
+> **Hide complexity, never hide evidence.**
+
+No paper is promoted to the public model until it contains actual analyzed evidence. Protocols and frameworks remain research artifacts.
+
+## First substantive study
+
+The first real paper target is not a methodology essay.
+
+It is an empirical corpus analysis:
+
+**Cross-Cultural Consciousness Claim Analysis**
+
+Research question:
+
+> **What recurrent structures actually survive source verification, dependency correction, contradiction auditing and selection controls across the 4,315-claim corpus?**
+
+The resulting paper will be created only after the analysis has produced measured results.
+
 ## Canonical paper map
 
 ### P001 — A Relational Ontology for Artificial Consciousness
