@@ -78,7 +78,9 @@ The relational hypothesis is weakened if:
 
 ## 9. Next implementation
 
-Create a deterministic coupled-agent probe that logs:
+The repository now contains three generations of the probe. The first versions exposed design confounds; the current controlled assay is `experiments/relational_coupling_probe_v3.py`, which uses independent deterministic disturbances and a permuted replay control.
+
+Create/extend the probe so that it logs:
 
 `state_A(t), state_B(t), message(t), intervention(t), state_A(t+1), state_B(t+1)`
 
