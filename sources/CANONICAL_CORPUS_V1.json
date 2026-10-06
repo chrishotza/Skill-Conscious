@@ -1,0 +1,104 @@
+{
+  "schema": "skill-conscious.canonical-corpus.v1",
+  "corpus": {
+    "claims": 360,
+    "families": 35,
+    "claims_per_family": {
+      "AFFECT": 10,
+      "AGENCY": 10,
+      "AIF": 10,
+      "AST": 10,
+      "ATTN": 10,
+      "BUDDHISM": 10,
+      "CHALMERS": 10,
+      "DENNETT": 10,
+      "DISPENZA": 10,
+      "DIT": 10,
+      "DOC": 10,
+      "EMBODIED": 10,
+      "GATEWAY": 10,
+      "GNWT": 10,
+      "HOT": 10,
+      "HUME": 10,
+      "HUSSERL": 10,
+      "IIT": 10,
+      "INTERO": 10,
+      "IWMT": 10,
+      "JAMES": 10,
+      "JUNG": 10,
+      "KANT": 10,
+      "MERLEAU": 10,
+      "METACOG": 10,
+      "MTOC": 10,
+      "NAGEL": 10,
+      "PP": 10,
+      "PSM": 10,
+      "RPT": 10,
+      "SLEEP": 10,
+      "UNKNOWN": 20,
+      "UPANISHADS": 10,
+      "WILBER": 10,
+      "WM": 10
+    }
+  },
+  "primary_layers": {
+    "historical_normalized_atlas": {
+      "claims": 320,
+      "families": 32,
+      "path": "sources/CLAIM_ATLAS.md",
+      "source_commit": "d5fcefe34311db23ec058fc4ec2e81a90bf2e9ea"
+    },
+    "final_addendum": {
+      "claims": 40,
+      "families": 4,
+      "paths": [
+        "sources/claim_addendum/GATEWAY.md",
+        "sources/claim_addendum/JUNG.md",
+        "sources/claim_addendum/DISPENZA.md",
+        "sources/claim_addendum/WILBER.md"
+      ]
+    }
+  },
+  "existing_context": {
+    "hume": {
+      "claim_ids": [
+        "SC-HUME-001..010"
+      ],
+      "path": "sources/hume/SOURCE_CARD.md",
+      "duplicated": false
+    },
+    "interoception": {
+      "claim_ids": [
+        "SC-INTERO-001..010"
+      ],
+      "path": "sources/interoception/SOURCE_CARD.md",
+      "duplicated": false
+    }
+  },
+  "integrity_checks": {
+    "parsed_ids": 360,
+    "unique_ids": 360,
+    "duplicate_ids": 0,
+    "exact_360_structure": false
+  },
+  "pipeline": [
+    "SOURCE CLAIM",
+    "NORMALIZED MOTIF",
+    "SYSTEM COMPONENT",
+    "MECHANISM",
+    "PREDICTION",
+    "INTERVENTION",
+    "RESULT",
+    "SURVIVES/FAILS/UNRESOLVED"
+  ],
+  "epistemic_classes": [
+    "EMPIRICAL",
+    "THEORY",
+    "PHILOSOPHY",
+    "PHENOMENOLOGY",
+    "CONTEMPLATIVE/TRADITION",
+    "SPECULATIVE",
+    "PROJECT",
+    "BOUNDARY"
+  ]
+}
