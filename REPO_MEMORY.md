@@ -124,12 +124,12 @@ Do not store ephemeral chat dialogue here. Store durable project state and decis
 
 ## 10. Current checkpoint
 CURRENT_STATE = claim-to-paper research operating system with three-scale program
-LAST_COMPLETED = canonical navigation, claim-family triage, three-scale papers, and focused P008/P009 assays established
+LAST_COMPLETED = P008 evidence map v1 created from the 4,315-claim corpus; canonical checkpoint/navigation synchronization enforced for pull requests
 ACTIVE_PAPER = P008 — Individual Consciousness: Causal Self-Reference and Continuity
 ACTIVE_HYPOTHESIS = intervention on a persistent self-model changes future trajectory under otherwise controlled conditions
-EVIDENCE_STATUS = 325 registered corpus sources / 4,315 effective claims verified at ledger-coverage level; passage-level verification remains separate
-EXPERIMENT_STATUS = focused individual and corrected relational protocols exist; no assay output is yet promoted to empirical result without execution and analysis
-NEXT_STEP = build the first machine-readable P008 claim-family evidence map, freeze predictions/nulls, execute deterministic multi-condition runs, and store result artifacts
+EVIDENCE_STATUS = 325 registered corpus sources / 4,315 effective claims verified at ledger-coverage level; P008 has a 120-record priority triage and 10 anchor claims; passage-level verification remains separate
+EXPERIMENT_STATUS = focused individual and corrected relational protocols exist; no assay output is promoted to empirical result without execution and analysis
+NEXT_STEP = reduce P008 priority claims into Claim Family 01: self-model causality, freeze predictions/nulls, then execute deterministic multi-condition runs and store result artifacts
 BLOCKERS = P009 needs broader validation; P010 lacks a concrete discriminating physical model; 52 provenance values require source review
 LAST_UPDATE = 2026-10-06
 
