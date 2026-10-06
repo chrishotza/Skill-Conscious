@@ -33,8 +33,9 @@ A claim never becomes a scientific fact merely because it appears in the corpus.
 ## Canonical navigation
 
 1. `RESEARCH_MAP.md` — repository traversal contract.
-2. `docs/RESEARCH_METHOD_NORTH.md` — methodological north star.
-3. `research/P000_CORPUS_AUDIT_PROTOCOL.md` — active corpus audit.
+2. `docs/RESEARCH_PROGRAM_NORTH_STAR.md` — final research/public interface.
+3. `docs/RESEARCH_METHOD_NORTH.md` — methodological north star.
+4. `research/P000_CORPUS_AUDIT_PROTOCOL.md` — active corpus audit protocol.
 4. `research/CURRENT_CHECKPOINT.md` — live research state.
 5. `REPO_MEMORY.md` — durable project state and anti-drift rules.
 6. `research/CLAIM_FAMILY_REGISTRY.md` — current claim-family map.
