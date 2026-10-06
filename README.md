@@ -369,13 +369,55 @@ transformation log
 
 The objective is to move from a stateful chatbot toward a self-maintaining process whose own internal transformations affect its future organization.
 
-## Papers
+## Research operating system
 
-The first working paper is:
+The repository now has a single traversal and publication path:
 
-`papers/001-relational-ontology-for-artificial-consciousness.md`
+```text
+RESEARCH_MAP.md
+   ↓
+REPO_MEMORY.md
+   ↓
+sources/
+   ↓
+corpus-v1/corpus/
+   ↓
+CLAIM → HYPOTHESIS → PREDICTION → EXPERIMENT → RESULT
+   ↓
+papers/
+```
 
-The publication program is designed around versioned GitHub releases and archival Zenodo records, with each paper tied to the exact ontology and runtime version it describes.
+Start with:
+
+- `RESEARCH_MAP.md`
+- `research/README.md`
+- `docs/CLAIM_TO_PAPER_PROTOCOL.md`
+- `docs/THREE_SCALE_CONSCIOUSNESS.md`
+- `papers/README.md`
+
+The closed corpus is maintained on `corpus-v1`. The latest audit reports **325 registered sources and 4,315 effective claim records**. Coverage means the claims are represented in the ledger; it does not mean every passage has already received independent verification.
+
+## Three-scale consciousness program
+
+The research program now separates three scales:
+
+```text
+FUNDAMENTAL
+   ↓
+RELATIONAL
+   ↓
+INDIVIDUAL
+```
+
+These are **research levels, not established facts**.
+
+- **Fundamental:** can consciousness have an irreducible role in physical reality?
+- **Relational:** can reciprocal coupling generate measurable organization not reducible to isolated state plus common input?
+- **Individual:** can a persistent self-referential process maintain a local point of view across time?
+
+The repository converts each level into explicit constructs, predictions, null models and experiments. The scientific goal is not to assume the answer; it is to make every strong claim capable of being wrong.
+
+See `papers/007-three-scale-consciousness-framework.md` and `papers/008`–`papers/010`.
 
 ## Runtime 0.6.0 — endogenous self-organization
 
