@@ -63,8 +63,10 @@ Authoritative paper map: `papers/README.md`.
 
 P001 → P002 → P003 → P004 → P005 → P006 is the original artificial-consciousness mechanism track.
 
-The new cross-scale track is:
-P007 → P008 / P009 / P010 → P011.
+The cross-scale program is:
+P007 → P008 / P009 / P010 → P012 → P011.
+
+P012 defines the explicit bridge architecture among Fundamental, Relational and Individual consciousness.
 
 - P007 — Three-Scale Framework: Fundamental / Relational / Individual.
 - P008 — Individual scale: causal self-reference and continuity.
@@ -74,7 +76,7 @@ P007 → P008 / P009 / P010 → P011.
 
 `docs/CLAIM_TO_PAPER_PROTOCOL.md` defines the publication gate.
 
-Current paper state: P001 and P007 are working drafts; P008–P010 are empirical/theoretical protocols. No paper is treated as an empirical result until the repository contains the corresponding measured evidence.
+Current paper state: P001 and P007 are working drafts; P008–P010 are empirical/theoretical protocols; P012 is a framework draft defining the cross-scale bridge. No paper is treated as an empirical result until the repository contains the corresponding measured evidence.
 
 ## 6. Existing research surface
 docs/ already contains substantial project knowledge, including ADVANCE.md, EXPERIMENTS.md, CONSCIOUSNESS_SUMMARY.md, DYNAMIC_CORE_V6.md, THEORY_DEBATE_SYNTHESIS.md, HUME_CONSCIOUSNESS_SYNTHESIS.md, JUNG_DISPENZA_SYNTHESIS.md and ZENODO.md.
@@ -95,11 +97,11 @@ Canonical chain:
 
 SOURCE CORPUS → CLAIM INDEX → CLAIM FAMILIES → OPERATIONAL CONSTRUCTS → HYPOTHESES → FALSIFIABLE PREDICTIONS → EXPERIMENTS → RESULTS → PAPERS
 
-The three-scale research frame is:
+The three-scale research frame is coupled rather than merely linear:
 
-FUNDAMENTAL → RELATIONAL → INDIVIDUAL
+FUNDAMENTAL ↔ RELATIONAL ↔ INDIVIDUAL
 
-This ordering is a testable framework, not an established hierarchy of consciousness.
+with explicit bridge operators B1–B4 defined in `docs/THREE_CONSCIOUSNESS_BRIDGE.md`. This is a testable framework, not an established hierarchy of consciousness.
 
 ## 8. What an incoming AI must determine
 Before changing anything, determine:
@@ -129,7 +131,7 @@ ACTIVE_PAPER = P008 — Individual Consciousness: Causal Self-Reference and Cont
 ACTIVE_HYPOTHESIS = intervention on a persistent self-model changes future trajectory under otherwise controlled conditions
 EVIDENCE_STATUS = 325 registered corpus sources / 4,315 effective claims verified at ledger-coverage level; P008 has a 120-record priority triage and 10 anchor claims; passage-level verification remains separate
 EXPERIMENT_STATUS = P008 runtime assay exists; execution attempt is blocked by local GitHub DNS/network access; static code integrity was checked; no assay output is promoted to empirical result
-NEXT_STEP = execute `experiments/p008_self_model_causal_runtime.py` in an accessible runtime environment, store machine-readable results, and test generic-state/memory/context alternatives
+NEXT_STEP = execute `experiments/p008_self_model_causal_runtime.py` in an accessible runtime environment, while simultaneously mapping P012 bridge predictions B1–B4 into concrete experiments; store machine-readable results and test generic-state/memory/context alternatives
 BLOCKERS = P009 needs broader validation; P010 lacks a concrete discriminating physical model; 52 provenance values require source review
 LAST_UPDATE = 2026-10-06
 
