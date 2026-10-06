@@ -2,7 +2,7 @@
 
 ## Status
 
-Working paper v0.1 — empirical protocol.
+Working paper v0.2 — evidence mapping + empirical protocol.
 
 No phenomenal-consciousness claim is made at this stage.
 
@@ -15,6 +15,10 @@ The study is designed as a falsification-oriented test of a functional hypothesi
 > A self-model is causally self-referential when intervention on that model changes the subsequent state trajectory under otherwise controlled conditions.
 
 A positive result would establish causal self-model dependence. It would not, by itself, establish phenomenal consciousness.
+
+## Evidence map
+
+The first evidence triage is maintained in `research/P008_EVIDENCE_MAP_V1.md` and `research/P008_EVIDENCE_MAP_V1.json`. It currently contains a 120-record priority review set and ten anchor claims. These are corpus-level extractions, not yet independent passage verification.
 
 ## 1. Hypotheses
 
