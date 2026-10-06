@@ -41,6 +41,7 @@ OUT = ROOT / "results/s03/S03_PHENOMENOLOGY_SEED_EXPANSION_CPU_V1"
 OUT.mkdir(parents=True, exist_ok=True)
 
 TAGGED = S03 / "all_tagged_phenomenological_claims.csv"
+ALL_CLAIMS = ROOT / "results/s03/S03_PHENOMENOLOGICAL_ATLAS_CPU_V1/cluster_assignments.csv"
 NEIGHBORS = S01 / "semantic_neighbors.npz"
 
 def main():
@@ -48,8 +49,11 @@ def main():
         raise FileNotFoundError(TAGGED)
     if not NEIGHBORS.exists():
         raise FileNotFoundError(NEIGHBORS)
+    if not ALL_CLAIMS.exists():
+        raise FileNotFoundError(ALL_CLAIMS)
 
     tagged = pd.read_csv(TAGGED)
+    all_claims = pd.read_csv(ALL_CLAIMS).set_index("claim_index")
     data = np.load(NEIGHBORS)
     indices = data["indices"].astype(np.int32)
     sims = data["similarities"].astype(np.float32)
@@ -99,16 +103,15 @@ def main():
         best_seed, best_sim, direction = edges[best_pos]
 
         families = sorted({seed_family[s] for s, _, _ in edges})
-        candidate_family = str(tagged[tagged["claim_index"] == candidate]["family"].iloc[0]) \
-            if candidate in set(tagged["claim_index"].astype(int)) else None
+        candidate_row = all_claims.loc[int(candidate)]
 
-        # Candidate family must come from the S03 seed inventory only if it is
-        # present there; otherwise we recover it from the accompanying S03
-        # inventory's full source-family mapping via the S01/S03 claim index
-        # relation stored in tagged data is unavailable. Therefore leave it
-        # unknown here rather than inventing it.
         rows.append({
             "claim_index": int(candidate),
+            "global_claim_id": str(candidate_row["global_claim_id"]),
+            "corpus_id": str(candidate_row["corpus_id"]),
+            "candidate_family": str(candidate_row["family"]),
+            "candidate_cluster": int(candidate_row["cluster"]),
+            "candidate_claim": str(candidate_row["claim"]),
             "best_seed_index": int(best_seed),
             "best_seed_global_claim_id": seed_id[best_seed],
             "best_seed_family": seed_family[best_seed],
@@ -152,6 +155,7 @@ def main():
         "study": "S03.5_PHENOMENOLOGY_SEED_EXPANSION_CPU_V1",
         "claims": 4315,
         "seed_claims": int(len(seed_indices)),
+        "all_claim_source": str(ALL_CLAIMS),
         "seed_families": int(tagged["family"].nunique()),
         "candidate_claims_with_seed_connection": int(len(ranked)),
         "multifamily_seed_candidate_claims": int((ranked["seed_family_coverage"] >= 2).sum()),
