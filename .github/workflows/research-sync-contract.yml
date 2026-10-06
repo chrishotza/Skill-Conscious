@@ -1,0 +1,48 @@
+name: research-sync-contract
+
+on:
+  pull_request:
+    paths:
+      - 'research/**'
+      - 'papers/**'
+      - 'experiments/**'
+      - 'docs/**'
+      - 'sources/**'
+      - 'README.md'
+      - 'REPO_MEMORY.md'
+      - 'RESEARCH_MAP.md'
+  push:
+    paths:
+      - 'research/**'
+      - 'papers/**'
+      - 'experiments/**'
+      - 'docs/**'
+      - 'sources/**'
+      - 'README.md'
+      - 'REPO_MEMORY.md'
+      - 'RESEARCH_MAP.md'
+
+jobs:
+  research-state:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Verify canonical research state files
+        shell: bash
+        run: |
+          set -euo pipefail
+          test -f RESEARCH_MAP.md
+          test -f REPO_MEMORY.md
+          test -f research/CURRENT_CHECKPOINT.md
+          test -f research/CLAIM_FAMILY_REGISTRY.md
+          test -f docs/CLAIM_TO_PAPER_PROTOCOL.md
+          test -f papers/README.md
+
+      - name: Verify navigation contract
+        shell: bash
+        run: |
+          set -euo pipefail
+          grep -q 'research/CURRENT_CHECKPOINT.md' RESEARCH_MAP.md
+          grep -q 'research/CLAIM_FAMILY_REGISTRY.md' RESEARCH_MAP.md
+          grep -q 'research/CURRENT_CHECKPOINT.md' REPO_MEMORY.md
+          grep -q 'research/CLAIM_FAMILY_REGISTRY.md' REPO_MEMORY.md
