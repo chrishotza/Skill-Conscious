@@ -65,11 +65,11 @@ Defines the three-scale research program and its asymmetric evidential burden.
 
 ### P008 — Individual Consciousness: Causal Self-Reference and Continuity
 **Path:** `papers/008-individual-consciousness-causal-self-reference.md`  
-**Role:** empirical protocol.
+**Role:** empirical protocol + evidence mapping.
 
 Tests whether intervention on a persistent self-model changes future trajectory under controlled conditions.
 
-**Status:** working paper v0.1 — protocol.
+**Status:** working paper v0.2 — evidence mapping + protocol.
 
 ### P009 — Relational Consciousness: Coupled-Agent Dynamics and Reciprocal Causality
 **Path:** `papers/009-relational-consciousness-coupled-agent-dynamics.md`  
