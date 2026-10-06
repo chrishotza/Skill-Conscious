@@ -6,84 +6,87 @@
 
 ## Current state
 
-The repository has moved from corpus accumulation to a reproducible claim-to-paper research operating system.
+The repository is operating as a reproducible claim-to-paper research system with a live synchronized checkpoint.
 
-## Verified corpus state
+## Verified corpus
 
 - 325 registered source records on `corpus-v1`.
 - 4,315 effective claim records.
 - 4,315 unique global claim IDs.
 - 328 effective source IDs.
-- Corpus coverage is complete at ledger level.
-- Passage-level verification is a separate task.
+- Ledger coverage is complete; passage-level verification remains separate.
 
-## Current research frame
+## Active three-scale program
 
-Three research scales are active:
+- FUNDAMENTAL — P010: model discrimination.
+- RELATIONAL — P009: reciprocal coupling.
+- INDIVIDUAL — P008: causal self-reference and continuity.
 
-1. FUNDAMENTAL — testability of consciousness as a possible physical-level property.
-2. RELATIONAL — coupling, reciprocity and irreducible interaction structure.
-3. INDIVIDUAL — persistent self-reference, continuity and causal self-model participation.
-
-These are hypotheses/research levels, not established facts.
-
-## Triage status
-
-First-pass explicit-type triage:
-
-- Individual candidates: 1,311
-- Relational candidates: 528
-- Fundamental candidates: 164
-- Unassigned/cross-cutting: 2,312
-
-These buckets are provisional and must be refined using source provenance, claim-family semantics, contradictions and operational relevance.
+These are research levels/hypotheses, not established facts.
 
 ## Active paper
 
 **P008 — Individual Consciousness: Causal Self-Reference and Continuity**
 
-Reason: the individual-scale hypothesis has the strongest currently operationalized experimental surface in the repository.
+Paper state: **v0.2 Evidence Mapping**.
 
 ## Active hypothesis
 
 > A persistent self-model becomes functionally self-referential when intervention on that model changes future trajectory selection under otherwise controlled conditions.
 
-## Existing experimental surface
+## Completed this checkpoint
 
-Relevant prior experiments:
+- Canonical `RESEARCH_MAP.md`.
+- Canonical `REPO_MEMORY.md`.
+- Live `research/CURRENT_CHECKPOINT.md`.
+- Claim-family registry.
+- Claim → Paper protocol.
+- Three-scale framework.
+- P007 framework paper.
+- P008/P009/P010 research programs.
+- Focused individual causal assay.
+- Corrected relational probe.
+- P008 evidence map v1.
+- Machine-readable P008 evidence map.
 
-- `experiments/causal_dynamic_probe.py`
-- `experiments/latent_self_ablation.py`
-- `experiments/self_model_adaptation.py`
-- `experiments/self_development_ablation.py`
+## P008 evidence state
 
-New focused assay:
+First-pass individual reservoir: 1,311 claims.
 
-- `experiments/self_model_causal_intervention.py`
+Semantic/type candidate set: 1,371 claims.
 
-Relational track:
+Priority review set: 120 claims.
 
-- `experiments/relational_coupling_probe_v3.py`
+Ten anchor claims currently identified:
 
-## Scientific status
+- G31-S267-K01
+- G31-S267-K07
+- G31-S265-K02
+- G31-S265-K03
+- G31-S265-K09
+- G33-S278-K11
+- G33-S285-K03
+- G33-S285-K13
+- G33-S287-K10
+- G34-S288-K12
 
-No new assay output is currently treated as an empirical result merely because the code exists.
-
-The next valid transition is:
-
-`PROTOCOL → EXECUTION → MACHINE-READABLE RESULT → ANALYSIS → ADVERSARIAL CHECK → PAPER`
+These are corpus-level extractions and remain subject to source verification.
 
 ## Next step
 
-1. Build the first machine-readable P008 evidence map from the 1,311 individual candidate claims.
-2. Select a narrow claim family around self-model causality, continuity and re-entry.
-3. Derive frozen predictions and null models.
-4. Execute the focused assay across multiple deterministic seeds/conditions.
-5. Store raw results and analysis artifacts.
-6. Update P008, RESEARCH_MAP.md and REPO_MEMORY.md in the same research commit.
+Create **Claim Family 01 — Self-Model Causality** from the P008 priority set.
+
+Then:
+
+1. freeze primary prediction and null;
+2. run the focused intervention assay across controlled seeds/conditions;
+3. save machine-readable raw results;
+4. analyze trajectory-selection divergence and controls;
+5. adversarially test memory/context explanations;
+6. update P008 + this checkpoint + REPO_MEMORY + RESEARCH_MAP together.
 
 ## Known blockers
 
-- P009 still requires broader multi-condition relational validation.
-- P010 lacks a concrete fundamental physical model with a discriminating observable.
-- The 52 non-canonical provenance labels in S069–S071 require source-level review.
+- P009 requires broader multi-condition validation.
+- P010 lacks a concrete physical model with a discriminating observable.
+- S069/S070/S071 contain 52 non-canonical provenance labels requiring source-level normalization review.
