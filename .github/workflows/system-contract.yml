@@ -8,8 +8,10 @@ on:
       - "src/skill_conscious/**"
       - "tests/**"
       - "experiments/consciousness_case_benchmark.py"
+      - "sources/**"
       - "docs/CANONICAL_SYSTEM.md"
       - "docs/CONSCIOUSNESS_CASE_BENCHMARK.md"
+      - "docs/CONSCIOUSNESS_CANONICAL_CONTEXT.md"
       - "pyproject.toml"
 
 jobs:
@@ -32,5 +34,6 @@ jobs:
           tests/test_adversarial_battery.py
           tests/test_core.py
           tests/test_consciousness_case_benchmark.py
+          tests/test_canonical_corpus.py
       - name: Execute operational benchmark
         run: python -m experiments.consciousness_case_benchmark
