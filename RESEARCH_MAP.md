@@ -141,6 +141,8 @@ The project is intentionally non-conservative about which hypotheses may be inve
 
 P000 establishes source verification, provenance, independence/dependency tracking, contradiction audits, claim dossiers, an ES0–ES5 research-maturity ladder, preregistration and paper eligibility.
 
+Initial anchor calibration (A01–A09) already shows why this layer is necessary: some repository 'verified' anchors still require stronger primary-text or edition control before central paper use.
+
 ## 7. Cross-scale research strategy
 
 The project should not attempt to prove the three levels by stacking anecdotes.
