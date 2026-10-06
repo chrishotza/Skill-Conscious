@@ -763,7 +763,7 @@ def main():
             "cluster",
             "bridge_rank_score",
             "cross_family_neighbor_fraction",
-            "cross_family_neighbor_mean_cosine",
+            "cross_family_mean_cosine",
             "cluster_family_coverage",
             "claim",
         ]
