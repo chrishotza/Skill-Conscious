@@ -80,3 +80,8 @@ P010 should not be promoted to a strong scientific conclusion until the reposito
 If that cannot be produced, the correct scientific result is a documented non-identifiability / underdetermination result.
 
 That outcome is scientifically useful.
+
+
+## 9. Philosophical boundary
+
+Panpsychism and cosmopsychism are live philosophical positions, but a philosophical taxonomy is not an empirical measurement model. See the Stanford Encyclopedia of Philosophy discussion of the subject-summing/decombination problems: https://plato.stanford.edu/archives/fall2024/entries/panpsychism/supplement.html
