@@ -6,7 +6,7 @@
 
 ## Current state
 
-No paper is active. The first substantive study is active: determine which consciousness-related structures actually recur in the 4,315-claim corpus after verification, dependency control and contradiction auditing; only then promote the study to a paper.
+No paper is active. **S01 — Cross-Cultural Consciousness Claim Recurrence Analysis** is the active substantive study. Protocol v1, exact data manifest, reproducible code and a frozen preregistered branch are in place; the exploratory pilot is archived and the confirmatory T4 semantic run is pending.
 
 ## Verified corpus
 
@@ -109,8 +109,11 @@ Initial external anchor calibration is complete for A01–A09: A03, A05 and A09 
 
 Current methodological finding: repository-level 'verified' must not be treated as publication-grade verification without edition, passage, translation and dependency audit.
 
+S01 preregistration freeze branch: `s01-preregistered-v1` at commit `280ee6dec9ad7bc32cb1193e4c01b0d2a2975112` before confirmatory outcome inspection.
+
 ## Known blockers
 
+- S01 confirmatory T4 execution requires an accessible Colab GPU/runtime.
 - P008 execution requires an accessible runtime with repository access.
 - P009 requires broader multi-condition validation.
 - P010 lacks a concrete physical model with a discriminating observable.
