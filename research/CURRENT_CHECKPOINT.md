@@ -6,7 +6,7 @@
 
 ## Current state
 
-No new paper is active. The project is in an active substantive research phase: audit the corpus, verify claims, model source dependence, analyze recurrence and only then promote the resulting study to a paper.
+No paper is active. The first substantive study is active: determine which consciousness-related structures actually recur in the 4,315-claim corpus after verification, dependency control and contradiction auditing; only then promote the study to a paper.
 
 ## Verified corpus
 
@@ -35,7 +35,13 @@ P012 is a framework paper, not a result.
 
 ## Active paper
 
-**NONE — paper generation is intentionally blocked until a substantive study has actual measured results.**.
+**NONE — paper generation is intentionally blocked until the first substantive corpus analysis has actual measured results.**
+
+## Active study
+
+**S01 — Cross-Cultural Consciousness Claim Analysis**
+
+Research question: What recurrent structures survive source verification, dependency correction, contradiction auditing and selection controls across the 4,315-claim corpus?
 
 ## Active family
 
@@ -84,11 +90,12 @@ B1 Fundamental→Relational: blocked by lack of a specified discriminating physi
 
 B4 Relational/Individual→Fundamental: reserved for model comparison after B1 candidates exist.
 
-## Active corpus research program
+## S01 corpus research program
 
 Initial external anchor calibration is complete for A01–A09: A03, A05 and A09 are strong enough for narrow source-level use; A01, A02 and A07 remain partial; A04, A06 and A08 remain provisional. See `research/P000_ANCHOR_AUDIT_V1.md`.
 
-1. Verify the source records behind all central P008/P009/P010/P012 evidence.
+1. Freeze the corpus snapshot, inclusion/exclusion rules and audit strata for S01.
+2. Verify the source records behind the highest-impact claim families.
 2. Review and normalize provenance, preserving noncanonical labels and rationale.
 3. Build the source-dependency / independence graph.
 4. Create claim dossiers for central mechanism families.
@@ -96,7 +103,9 @@ Initial external anchor calibration is complete for A01–A09: A03, A05 and A09 
 6. Assign ES0–ES5 research-maturity status.
 7. Freeze a reproducible stratified corpus-quality sample.
 8. Generate machine-readable audit artifacts before interpreting findings.
-9. Then return to P008/P009/P010 execution with the audited evidence set.
+9. Quantify recurrence after dependency and contradiction controls.
+10. Freeze the first substantive result set and only then draft the corresponding paper.
+11. Return to P008/P009/P010 execution using the audited evidence set.
 
 Current methodological finding: repository-level 'verified' must not be treated as publication-grade verification without edition, passage, translation and dependency audit.
 
