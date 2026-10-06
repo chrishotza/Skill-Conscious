@@ -7,7 +7,9 @@ on:
     paths:
       - "src/skill_conscious/**"
       - "tests/**"
+      - "experiments/consciousness_case_benchmark.py"
       - "docs/CANONICAL_SYSTEM.md"
+      - "docs/CONSCIOUSNESS_CASE_BENCHMARK.md"
       - "pyproject.toml"
 
 jobs:
@@ -20,5 +22,13 @@ jobs:
           python-version: "3.11"
       - name: Install test dependencies
         run: python -m pip install --upgrade pip pytest
-      - name: Run system contract and core tests
-        run: python -m pytest -q tests/test_system_contract.py tests/test_core.py
+      - name: Run canonical subsystem tests
+        run: >-
+          python -m pytest -q
+          tests/test_system_contract.py
+          tests/test_case_standard.py
+          tests/test_adversarial_battery.py
+          tests/test_core.py
+          tests/test_consciousness_case_benchmark.py
+      - name: Execute operational benchmark
+        run: python -m experiments.consciousness_case_benchmark
