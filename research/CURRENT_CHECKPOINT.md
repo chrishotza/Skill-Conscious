@@ -6,7 +6,7 @@
 
 ## Current state
 
-P000 is now the active methodological foundation. The project has frozen a research-method north star and a first corpus-audit protocol. Downstream empirical papers remain active, but central claims should pass the P000 audit before being treated as publication-grade evidence.
+No new paper is active. The project is in an active substantive research phase: audit the corpus, verify claims, model source dependence, analyze recurrence and only then promote the resulting study to a paper.
 
 ## Verified corpus
 
@@ -35,9 +35,7 @@ P012 is a framework paper, not a result.
 
 ## Active paper
 
-**P000 — A Machine-Readable Cross-Cultural Corpus of Consciousness Claims: Provenance, Phenomenology, Ontology and Testability**
-
-Paper state: v0.1 Methodological Foundation / Audit Protocol.
+**NONE — paper generation is intentionally blocked until a substantive study has actual measured results.**.
 
 ## Active family
 
@@ -86,7 +84,7 @@ B1 Fundamental→Relational: blocked by lack of a specified discriminating physi
 
 B4 Relational/Individual→Fundamental: reserved for model comparison after B1 candidates exist.
 
-## P000 audit program
+## Active corpus research program
 
 Initial external anchor calibration is complete for A01–A09: A03, A05 and A09 are strong enough for narrow source-level use; A01, A02 and A07 remain partial; A04, A06 and A08 remain provisional. See `research/P000_ANCHOR_AUDIT_V1.md`.
 
