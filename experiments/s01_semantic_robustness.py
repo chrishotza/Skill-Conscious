@@ -15,15 +15,11 @@ import random
 import sys
 import time
 from pathlib import Path
-from types import SimpleNamespace
-
 import numpy as np
 
 from s01_cross_cultural_recurrence import (
-    EXPECTED,
     MODEL_NAME,
     MODEL_REVISION,
-    RAW_BASE,
     SOURCE_REGISTER_PATH,
     SOURCE_REGISTER_SHA,
     collapse_units,
@@ -125,9 +121,6 @@ def semantic_condition(
 
     unit_index = {cid: i for i, cid in enumerate(unit_ids)}
     labels = np.array([units[cid]["family"] for cid in unit_ids], dtype=object)
-
-    record_ids = [r["global_claim_id"] for r in records]
-    original_index = {gid: i for i, gid in enumerate(record_ids)}
 
     candidate_pool = min(candidate_pool, len(records))
     nn = NearestNeighbors(
@@ -294,28 +287,25 @@ def main() -> None:
 
     families = parse_source_families(source_register)
     records = load_claims(cache)
+    if len(records) != 4315:
+        raise RuntimeError("Expected 4315 effective claims, got {}".format(len(records)))
+    if len({r["source_id"] for r in records}) != 328:
+        raise RuntimeError("Expected 328 effective source IDs")
     units = build_units(records, families)
+    if len(units) != 325:
+        raise RuntimeError("Expected 325 corpus units, got {}".format(len(units)))
 
     import torch
 
     if args.device == "cuda" and not torch.cuda.is_available():
         raise RuntimeError("CUDA requested but not available.")
 
-    model = None
-    embeddings = None
-
-    def ensure_embeddings(device: str):
-        nonlocal model, embeddings
-        model = None
-        model = load_model(device)[1]
-        embeddings = encode_claims(
-            model,
-            records,
-            args.embedding_batch_size,
-        )
-        return model, embeddings
-
-    ensure_embeddings(args.device)
+    _, model = load_model(args.device)
+    embeddings = encode_claims(
+        model,
+        records,
+        args.embedding_batch_size,
+    )
 
     specs = condition_specs(sorted(set(families.values())))
     results = {}
@@ -326,9 +316,11 @@ def main() -> None:
             units,
             spec,
         )
+        record_index = {
+            r["global_claim_id"]: i for i, r in enumerate(records)
+        }
         source_indices = np.array(
-            [next(i for i, r in enumerate(records) if r["global_claim_id"] == fr["global_claim_id"])
-             for fr in filtered_records],
+            [record_index[fr["global_claim_id"]] for fr in filtered_records],
             dtype=np.int32,
         )
         condition_embeddings = embeddings[source_indices]
