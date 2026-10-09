@@ -1,57 +1,29 @@
-# Skill-Conscious — Research Operating System
+# Research operating system
 
-This directory is the bridge between the source corpus and publishable science.
+This directory connects sources and claims to testable hypotheses, experiments, results, inferences, and papers.
 
-## Core pipeline
+## Current state
 
-```text
-SOURCE
-  ↓
-CLAIM
-  ↓
-EVIDENCE
-  ↓
-PROJECT HYPOTHESIS
-  ↓
-OPERATIONAL DEFINITION
-  ↓
-FALSIFIABLE PREDICTION
-  ↓
-EXPERIMENT / DATA
-  ↓
-RESULT
-  ↓
-INFERENCE
-  ↓
-PAPER
-  ↓
-REPRODUCIBLE RELEASE
-```
+S01 has recorded confirmatory coded and semantic outcomes plus 23 robustness conditions. The reported outcomes do not support the preregistered cross-family-recurrence prediction in its tested direction. Its original raw-output archive remains incomplete, so the study is not promoted to a paper. See research/S01_RESULTS_STATUS_2026-10-09.md and research/CURRENT_CHECKPOINT.md.
 
-A claim never becomes a scientific fact merely because it appears in the corpus.
+P008 is the next individual-scale mechanism target. Its evidence map, prediction registry, executable assay, and blocked-execution log exist; no empirical P008 result has been produced.
 
 ## Canonical navigation
 
-1. `RESEARCH_MAP.md` — repository traversal contract.
-2. `docs/RESEARCH_PROGRAM_NORTH_STAR.md` — final research/public interface.
-3. `docs/RESEARCH_METHOD_NORTH.md` — methodological north star.
-4. `research/P000_CORPUS_AUDIT_PROTOCOL.md` — active corpus audit protocol.
-4. `research/CURRENT_CHECKPOINT.md` — live research state.
-5. `REPO_MEMORY.md` — durable project state and anti-drift rules.
-6. `research/CLAIM_FAMILY_REGISTRY.md` — current claim-family map.
-7. `sources/README.md` — source-layer rules.
-8. `docs/CLAIM_TO_PAPER_PROTOCOL.md` — conversion protocol.
-7. `docs/THREE_SCALE_CONSCIOUSNESS.md` — the three-scale research hypothesis.
-8. `research/CLAIM_FAMILY_TRIAGE.md` — current 4,315-claim paper triage.
-9. `papers/README.md` — publication dependency graph.
-10. `research/CLAIM_FAMILY_01_SELF_MODEL_CAUSALITY.md` — active P008 mechanistic family.
-11. `research/p008_prediction_registry.json` — frozen prediction contract.
-12. `experiments/` — executable tests.
-13. `corpus-v1/corpus/` — verified corpus branch containing the machine-readable claim ledger.
+1. AGENTS.md — contributor/agent operating rules.
+2. RESEARCH_MAP.md — full repository map.
+3. research/CURRENT_CHECKPOINT.md — authoritative live research state.
+4. REPO_MEMORY.md — durable state and anti-drift rules.
+5. docs/RESEARCH_METHOD_NORTH.md — methodological standard.
+6. research/CLAIM_FAMILY_REGISTRY.md and research/CLAIM_FAMILY_TRIAGE.md — claim families and research triage.
+7. research/S01_PREREGISTRATION_V1.md, research/S01_DATA_MANIFEST_V1.json, and research/S01_RESULTS_STATUS_2026-10-09.md — S01 protocol, frozen data description, and reported outcome/archive status.
+8. research/P008_EVIDENCE_MAP_V1.md, research/p008_prediction_registry.json, and research/P008_EXECUTION_LOG.md — P008 target, controls, prediction, and execution status.
+9. papers/README.md and docs/CLAIM_TO_PAPER_PROTOCOL.md — publication map and promotion gate.
+10. Relevant files under experiments/, src/, tests/, and corpus-v1 only after identifying the specific question.
 
-## Research status language
+## Evidence-status vocabulary
 
-Every research artifact must use one of:
+Use one or more explicit labels:
 
 - SOURCE CLAIM
 - PROJECT HYPOTHESIS
@@ -62,49 +34,24 @@ Every research artifact must use one of:
 - INFERENCE
 - OPEN QUESTION
 
-Never label a PROJECT HYPOTHESIS as an EMPIRICAL RESULT.
+A file, protocol, successful unit test, or architecture diagram is not an empirical result. Record negative/null outcomes and contradictory evidence.
 
-## The three-scale program
+## Corpus and limits
 
-Skill-Conscious now studies consciousness at three distinct explanatory scales:
+S01 analyzes 4,315 effective claims grouped into 325 corpus units, with 328 effective source IDs and 19 source families. Ledger coverage is not equivalent to passage-level verification, and source IDs are not interchangeable with corpus units.
 
-```text
-FUNDAMENTAL
-    ↓
-RELATIONAL
-    ↓
-INDIVIDUAL
-```
-
-This is a research framework, not an established scientific hierarchy.
-
-- FUNDAMENTAL: consciousness as a possible property of reality at the ontological/physical level.
-- RELATIONAL: consciousness-like organization arising in coupling, interaction and reciprocal dynamics.
-- INDIVIDUAL: a persistent agent-level point of view maintained by self-reference, continuity, integration and action.
-
-The program explicitly permits the data to reject the proposed nesting.
-
-## Corpus
-
-The current closed corpus is maintained on branch `corpus-v1`. The latest audit reports 325 registered source records and 4,315 effective claim records. Corpus coverage is not equivalent to passage-level verification of every claim.
-
-See:
-https://github.com/chrishotza/Skill-Conscious/tree/corpus-v1/corpus
-
-## Scientific standard
-
-Papers must:
-
-- define constructs operationally;
-- derive predictions before testing;
-- include controls and null models;
-- retain negative and contradictory evidence;
-- report exact software/data/version provenance;
-- distinguish behavioral evidence from evidence about subjective experience;
-- make the strongest claim no stronger than the data permit.
-
-Current consciousness science remains theoretically plural and actively adversarial; the project should treat that disagreement as a methodological feature, not as a problem to hide.
+The frozen preregistration is on s01-preregistered-v1 at commit 4fdea2f26ef2449e32ab74b67c2c19904bb3270c. Do not alter its hypothesis or analysis definitions retrospectively.
 
 ## State synchronization
 
-A meaningful research change must update `RESEARCH_MAP.md`, `research/CURRENT_CHECKPOINT.md`, and `REPO_MEMORY.md` together. CI enforces the state-file contract.
+Any substantive change in research/, papers/, experiments/, docs/, sources/, or README.md must update research/CURRENT_CHECKPOINT.md, REPO_MEMORY.md, and RESEARCH_MAP.md in the same change set. Update study/paper registries when their status changes.
+
+## Scientific standard
+
+- Define constructs operationally.
+- Freeze predictions before confirmatory testing.
+- Include matched controls and explicit null models.
+- Preserve exact commit, dataset hashes, model revision, seed, parameters, runtime, timestamps, and raw outputs.
+- Persist artifacts before declaring a run complete.
+- State the strongest inference the data support—no stronger.
+- Functional continuity or causal self-reference is not, by itself, evidence of phenomenal consciousness.

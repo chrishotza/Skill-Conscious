@@ -1,120 +1,82 @@
 # Current Research Checkpoint
 
-**Updated:** 2026-10-06  
+**Updated:** 2026-10-09  
 **Canonical repository:** chrishotza/Skill-Conscious  
-**Canonical branch:** main
+**Canonical branch:** main (this cleanup is being prepared on a review branch)
 
 ## Current state
 
-No paper is active. **S01 — Cross-Cultural Consciousness Claim Recurrence Analysis** is the active substantive study. Protocol v1, exact data manifest, reproducible code and a frozen preregistered branch are in place; the exploratory pilot is archived and the confirmatory T4 semantic run is pending.
+The repository has a substantial experimental runtime and a structured research program. No paper is currently publication-ready. The immediate engineering task is documentation/state consolidation; the immediate scientific task after consolidation is to recover or formally account for S01 artifacts, then audit P008 before any new run.
 
-## Verified corpus
+## Corpus snapshot
 
-- 325 registered source records on `corpus-v1`.
-- 4,315 effective claim records.
-- 4,315 unique global claim IDs.
+- 4,315 effective claim records; 4,315 unique global claim IDs.
+- 325 analytic corpus units.
 - 328 effective source IDs.
-- Ledger coverage is complete; passage-level verification remains separate.
+- 19 source families in S01.
+- The ledger is structurally covered; passage-level verification, edition/translation control, and independence/dependency review remain separate tasks.
+- Frozen data manifest: research/S01_DATA_MANIFEST_V1.json; corpus branch: corpus-v1.
 
-## Cross-scale bridge
+## S01 — current result state
 
-P012 now formalizes the bridge among the three research levels:
+**Status: primary and robustness outcomes recorded; original raw-output archival incomplete.**
 
-- B1 Fundamental → Relational
-- B2 Relational → Individual
-- B3 Individual → Relational
-- B4 Relational/Individual evidence → Fundamental model discrimination
+Primary run S01_CONFIRMATORY_T4_V1 was recorded at 2026-10-09 02:59:42 UTC from preregistered commit 4fdea2f26ef2449e32ab74b67c2c19904bb3270c. Robustness run S01_ROBUSTNESS_T4_FAST_V1 was recorded at 04:23:54 UTC.
 
-P012 is a framework paper, not a result.
+- Coded DeltaJ = -0.0870408416; mean cross-family Jaccard = 0.5222007632, mean within-family Jaccard = 0.6092416048; directional upper-tail p = 1.0.
+- Semantic cross-family neighbor fraction = 0.7535341831 versus null mean 0.9400950452; upper-tail p = 1.0.
+- Observed semantic cosine = 0.6607122186 versus null mean 0.6642799840; upper-tail p = 1.0.
+- 23 robustness conditions were recorded; all had negative DeltaS and both reported upper-tail p-values equal to 1.0.
+- The CPU/GPU reproducibility record reports absolute differences of 5.78e-10 for DeltaS and 5.28e-09 for observed cosine.
 
-## Active research scales
+Interpretation: the tested analyses did not support the preregistered prediction of greater cross-family recurrence in the tested direction. This is not a universal disproof of recurrence or of a consciousness theory.
 
-- FUNDAMENTAL — P010, model discrimination.
-- RELATIONAL — P009, reciprocal coupling.
-- INDIVIDUAL — P008, causal self-reference and continuity.
+Canonical consolidated record: research/S01_RESULTS_STATUS_2026-10-09.md.
 
-## Active paper
+## S01 artifact integrity
 
-**NONE — paper generation is intentionally blocked until the first substantive corpus analysis has actual measured results.**
+The original primary and robustness run directories were not found in the disconnected Colab runtime, and repository searches did not locate the original output files in tracked GitHub paths. The Drive master backup at MyDrive/Skill-Conscious_PERSISTENT/S01_MASTER_BACKUP_20261009/ preserves the Git bundle, three branch archives, and a recovery snapshot. Its report verifies 11 inventoried files by SHA-256.
 
-## Active study
+This is not a complete raw-run archive. In particular, do not describe the original JSON/NPZ run artifacts as recovered unless the actual files are found and their hashes/contents are inspected. Do not reconstruct originals from summary values.
 
-**S01 — Cross-Cultural Consciousness Claim Analysis**
+## P008 — CF01 self-model causality
 
-Research question: What recurrent structures survive source verification, dependency correction, contradiction auditing and selection controls across the 4,315-claim corpus?
+Hypothesis: intervention on a persistent self-model changes future trajectory selection under otherwise matched conditions.
 
-## Active family
+- Evidence map: research/P008_EVIDENCE_MAP_V1.md and .json.
+- Prediction contract: research/p008_prediction_registry.json.
+- Target assay: experiments/p008_self_model_causal_runtime.py.
+- Execution log: research/P008_EXECUTION_LOG.md.
+- Recorded attempt on 2026-10-06 was blocked by inability to resolve github.com.
+- **No empirical P008 result has been produced.** Syntax/static integrity checks are not experiment execution.
 
-**CF01 — Self-Model Causality**
+Before running P008, audit the conditions/controls and verify that results, stdout/stderr, seeds, runtime details, and hashes will be persisted to a tested durable location.
 
-Core hypothesis:
+## P009 and P010
 
-> A persistent self-model has functional causal influence when intervention on the self-model changes future trajectory selection under otherwise matched conditions.
+- P009 relational probes B2/B3 are implemented; broader multi-condition validation remains open.
+- P010 has no specified physical model with an observable that discriminates it from plausible alternatives. B1 remains blocked; B4 follows only after candidate models exist.
+- The three-scale bridge is a research framework, not an established hierarchy or empirical finding.
 
-## Execution state
+## Completed / recorded
 
-Target assay:
+- Research method north star and claim-family operating system.
+- S01 protocol, manifest, frozen analysis snapshot, primary and robustness outcomes, and result-direction interpretation.
+- Optimization of the secondary null implementation without changing the declared analysis definition.
+- Drive master backup creation and SHA-256 verification for the 11 files in its manifest.
+- P008 evidence map, prediction registry, runtime assay source, and blocked-execution log.
 
-`experiments/p008_self_model_causal_runtime.py`
+## Blockers
 
-Execution attempt: **blocked**.
+- S01 original run-output directories and complete raw artifacts remain unrecovered.
+- P008 needs an audited execution environment and durable output persistence.
+- P009 needs broader validation.
+- P010 needs a concrete model-discrimination target.
+- 52 non-canonical provenance labels in S069/S070/S071 still require source-level review.
 
-Reason: local environment could not resolve github.com while attempting to clone the canonical repository.
+## Immediate sequence
 
-Scientific consequence:
-
-**NO EMPIRICAL RESULT HAS BEEN PRODUCED.**
-
-Static code integrity was partially checked; this does not count as experiment execution.
-
-## Completed
-
-- Canonical research navigation.
-- Live checkpoint and durable AI memory.
-- Pull-request synchronization contract.
-- Claim-family registry.
-- P008 evidence map v1.
-- CF01 hypothesis specification.
-- P008 prediction registry.
-- Runtime-connected P008 assay.
-- Corrected relational probe.
-- Execution log documenting the first blocked run.
-
-## Bridge execution state
-
-B2 Relational→Individual probe: implemented.
-
-B3 Individual→Relational probe: implemented.
-
-B1 Fundamental→Relational: blocked by lack of a specified discriminating physical model.
-
-B4 Relational/Individual→Fundamental: reserved for model comparison after B1 candidates exist.
-
-## S01 corpus research program
-
-Initial external anchor calibration is complete for A01–A09: A03, A05 and A09 are strong enough for narrow source-level use; A01, A02 and A07 remain partial; A04, A06 and A08 remain provisional. See `research/P000_ANCHOR_AUDIT_V1.md`.
-
-1. Freeze the corpus snapshot, inclusion/exclusion rules and audit strata for S01.
-2. Verify the source records behind the highest-impact claim families.
-2. Review and normalize provenance, preserving noncanonical labels and rationale.
-3. Build the source-dependency / independence graph.
-4. Create claim dossiers for central mechanism families.
-5. Run a contradiction and alternative-interpretation audit.
-6. Assign ES0–ES5 research-maturity status.
-7. Freeze a reproducible stratified corpus-quality sample.
-8. Generate machine-readable audit artifacts before interpreting findings.
-9. Quantify recurrence after dependency and contradiction controls.
-10. Freeze the first substantive result set and only then draft the corresponding paper.
-11. Return to P008/P009/P010 execution using the audited evidence set.
-
-Current methodological finding: repository-level 'verified' must not be treated as publication-grade verification without edition, passage, translation and dependency audit.
-
-S01 preregistration freeze branch: `s01-preregistered-v1` at commit `4fdea2f26ef2449e32ab74b67c2c19904bb3270c` before confirmatory outcome inspection. The only post-initial-freeze change was an implementation optimization of the degree-preserving null; the analysis definition is unchanged.
-
-## Known blockers
-
-- S01 confirmatory T4 execution requires an accessible Colab GPU/runtime.
-- P008 execution requires an accessible runtime with repository access.
-- P009 requires broader multi-condition validation.
-- P010 lacks a concrete physical model with a discriminating observable.
-- S069/S070/S071 contain 52 non-canonical provenance labels requiring source-level review.
+1. Merge the documentation/state consolidation only after CI and link/content checks pass.
+2. Verify the actual contents of the Drive recovery snapshot and maintain an explicit raw-artifact inventory.
+3. Audit P008's implementation, controls, deterministic seed behavior, and output contract without running an expensive experiment yet.
+4. Execute only after the persistent-output path has been tested and the run configuration is frozen.

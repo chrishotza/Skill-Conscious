@@ -29,17 +29,11 @@ No paper is promoted to the public model until it contains actual analyzed evide
 
 ## First substantive study
 
-The first real paper target is not a methodology essay.
+The first substantive study is S01 — Cross-Cultural Consciousness Claim Recurrence Analysis.
 
-It is an empirical corpus analysis:
+**Latest status (2026-10-09):** recorded confirmatory coded and semantic outcomes plus 23 robustness conditions did not support the preregistered cross-family-recurrence prediction in the tested direction. The original raw-output archive remains incomplete, so the study's exit condition and paper-promotion gate are not yet satisfied.
 
-**Cross-Cultural Consciousness Claim Analysis**
-
-Research question:
-
-> **What recurrent structures actually survive source verification, dependency correction, contradiction auditing and selection controls across the 4,315-claim corpus?**
-
-The resulting paper will be created only after the analysis has produced measured results.
+The consolidated figures, audit caveats, recovery location, and exact remaining archival gap are in research/S01_RESULTS_STATUS_2026-10-09.md. S01 remains a research study, not a published result paper. Its frozen preregistration must not be edited retrospectively.
 
 ## Canonical paper map
 

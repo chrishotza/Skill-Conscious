@@ -10,33 +10,27 @@ The project does not treat verbal self-description as proof of consciousness.
 
 ## 1. Read in this order
 
-```text
+~~~text
+AGENTS.md
+   ↓
 RESEARCH_MAP.md
    ↓
 research/CURRENT_CHECKPOINT.md
    ↓
 REPO_MEMORY.md
    ↓
-docs/RESEARCH_METHOD_NORTH.md
-   ↓
 research/README.md
    ↓
-sources/README.md
+ACTIVE STUDY / PAPER REGISTRY
    ↓
-sources/EVIDENCE_MATRIX.md
+PROTOCOL + DATA MANIFEST
    ↓
-docs/CLAIM_TO_PAPER_PROTOCOL.md
+RELEVANT IMPLEMENTATION + TESTS
    ↓
-docs/THREE_SCALE_CONSCIOUSNESS.md
-   ↓
-papers/README.md
-   ↓
-ACTIVE PAPER
-   ↓
-RELEVANT EXPERIMENT
-   ↓
-SOURCE / CLAIM RECORD
-```
+RESULT / ARTIFACT INVENTORY
+~~~
+
+Use the checkpoint as the live status, the memory as durable context, and this map as the traversal contract. Do not read the entire repository without a concrete dependency.
 
 ## 2. Where things live
 
@@ -115,20 +109,18 @@ A claim that cannot produce a measurable construct is tagged as **interpretive/o
 
 ## 5. Paper program
 
-| ID | Purpose | Status |
+| ID | Purpose | Current evidence/status |
 |---|---|---|
-| P001 | Relational ontology for artificial consciousness | working draft |
-| P002 | Causal self-reference and trajectory selection | planned empirical core |
-| P003 | Topological continuity and artificial identity | planned |
-| P004 | Regimes, attention and attractors | planned |
-| P005 | Value, valence and artificial point of view | planned |
-| P006 | From self-model to artificial subject | synthesis / adversarial |
-| P007 | Three-scale consciousness framework | new framework paper |
-| P008 | Individual scale: causal self-reference and continuity | empirical |
-| P009 | Relational scale: coupled-agent dynamics | empirical |
-| P010 | Fundamental scale: testability of ontological consciousness models | theory + empirical discrimination program |
-| P011 | Cross-scale synthesis | later synthesis |
-| P012 | Three-consciousness bridge | framework / cross-scale program |
+| P001 | Relational ontology for artificial consciousness | Working draft; framework, not an empirical result |
+| P002–P006 | Individual-scale mechanisms: self-reference, continuity, regimes, value, synthesis | Planned/working program; do not infer results from existing protocols |
+| P007 | Three-scale consciousness framework | Working framework; not an empirical result |
+| P008 | Individual-scale causal self-reference and continuity | Evidence map and executable assay exist; recorded run was blocked; no empirical result |
+| P009 | Relational coupling and reciprocal causality | Probes implemented; broader multi-condition validation remains |
+| P010 | Fundamental-scale testability and model discrimination | No specified physical model with a discriminating observable yet |
+| P012 | Three-consciousness bridge | Working framework connecting candidate research scales |
+| P011 | Cross-scale synthesis | Future; depends on separately earned evidence at each scale |
+
+S01 is a study, not a paper. Its recorded primary and robustness outcomes did not support the preregistered cross-family recurrence prediction in the tested direction. Its original raw-output archive is incomplete, so it has not been promoted to an empirical paper. See research/S01_RESULTS_STATUS_2026-10-09.md.
 
 ## 6. Methodology north star
 
@@ -194,16 +186,19 @@ The CI workflow `research-sync-contract.yml` enforces the presence and navigatio
 
 ## 10. Immediate research move
 
-Run **S01 — Cross-Cultural Consciousness Claim Recurrence Analysis** before any new paper is declared publication-ready. S01 is frozen on branch `s01-preregistered-v1` at the preregistered code/data snapshot; it has an exploratory motif pilot and now requires the confirmatory raw-text semantic T4 run. Do not call a protocol a paper, and do not write 4,315 disconnected mini-papers.
+1. Complete the state/navigation consolidation and pass the repository's synchronization checks.
+2. Keep S01's outcome and artifact limitation visible. Read research/S01_RESULTS_STATUS_2026-10-09.md; do not claim the original raw JSON/NPZ output directories were recovered.
+3. Verify the Drive recovery snapshot and maintain a file-level inventory. Do not reconstruct raw run files from summaries.
+4. Audit experiments/p008_self_model_causal_runtime.py against research/p008_prediction_registry.json and the matched-control requirements. This is a code/protocol audit first; the prior execution attempt produced no result.
+5. Before any new experiment, test durable output persistence and freeze commit, seed, model revision, configuration, and output path.
+6. Return to P009 only after P008's individual-scale controls are explicit. P010 remains blocked until a physical model supplies a discriminating observable.
 
-Start with the full 4,315-claim corpus, then cluster into **claim families** that support or contradict the same testable mechanism. A paper should normally combine:
+The project must keep the chain explicit:
 
-- a narrow research question;
-- a traceable claim set;
-- competing hypotheses;
-- preregistered predictions;
-- controlled experiments;
-- reproducible analysis;
-- adversarial interpretation.
+~~~text
+SOURCE → CLAIM → CONSTRUCT → HYPOTHESIS → PREDICTION
+      → PROTOCOL → EXECUTION → RAW ARTIFACTS → AUDIT
+      → RESULT → INFERENCE → PAPER
+~~~
 
-That is how the corpus becomes science.
+Do not skip a stage. A protocol, implementation, test pass, or summary is not interchangeable with the next stage.
