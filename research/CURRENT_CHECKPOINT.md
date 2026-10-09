@@ -2,7 +2,7 @@
 
 **Updated:** 2026-10-09  
 **Canonical repository:** chrishotza/Skill-Conscious  
-**Canonical branch:** main (this cleanup is being prepared on a review branch)
+**Canonical branch:** main
 
 ## Current state
 
