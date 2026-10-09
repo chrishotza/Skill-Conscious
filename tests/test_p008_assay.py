@@ -22,13 +22,17 @@ def _conditions(result: dict) -> dict[str, dict]:
 
 
 def test_assay_conditions_match_cf01_registry(assay_result: dict) -> None:
+    root = Path(__file__).resolve().parents[1]
+    registry = json.loads(
+        (root / "research" / "p008_prediction_registry.json").read_text(encoding="utf-8")
+    )
+    assert tuple(registry["conditions"]) == CONDITION_NAMES
     assert tuple(item["condition"] for item in assay_result["conditions"]) == CONDITION_NAMES
-    assert set(CONDITION_NAMES) == {
-        "A_no_self_model",
-        "B_disconnected_self_model",
-        "C_causal_self_model",
-        "D_matched_generic_state",
-    }
+    contract = registry["frozen_operational_contract"]["intervention"]
+    assert contract["target"] == "self_model.trajectory_weights.continuity"
+    assert contract["default_value"] == DEFAULT_CONTINUITY_WEIGHT
+    assert contract["intervention_value"] == INTERVENTION["continuity"]
+    assert contract["changed_parameters"] == 1
 
 
 def test_single_factor_intervention_changes_only_continuity(assay_result: dict) -> None:
@@ -42,6 +46,14 @@ def test_single_factor_intervention_changes_only_continuity(assay_result: dict) 
 def test_causal_condition_diverges_from_both_controls(assay_result: dict) -> None:
     conditions = _conditions(assay_result)
     primary = assay_result["primary_outcome"]
+    default_weights = conditions["A_no_self_model"]["effective_weights_before_cycle_1"]
+    active_weights = conditions["C_causal_self_model"]["effective_weights_before_cycle_1"]
+    assert active_weights["continuity"] == 0.0
+    assert {
+        key: value for key, value in active_weights.items() if key != "continuity"
+    } == {
+        key: value for key, value in default_weights.items() if key != "continuity"
+    }
 
     assert [cycle["selected_trajectory"] for cycle in conditions["A_no_self_model"]["cycles"]] == [
         "preserve",
