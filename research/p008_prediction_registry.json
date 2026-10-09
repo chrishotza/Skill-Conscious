@@ -50,8 +50,8 @@
       "recorded_seed": 0
     },
     "primary_metric_definition": "For each comparison, the fraction of two externally matched cycles whose selected trajectory differs. Compare C against B and D; record B-versus-D control disagreement separately.",
-    "predeclared_mechanism_criterion": "C differs from B and D in both cycles, B and D agree in both cycles, and all condition-state persistence checks pass after restart.",
-    "persistence_test": "Persist initial condition; integrate cycle 1; instantiate a new runtime from the same state file; record a fixed consequence; integrate cycle 2; verify the condition intervention survived reload.",
+    "predeclared_mechanism_criterion": "C differs from B and D in both cycles, B and D agree in both cycles, and all condition-state contract checks pass after restart.",
+    "persistence_test": "Persist each arm's expected initial state; integrate cycle 1; instantiate a new runtime from the same state file; verify intervention presence/value or intentional absence as specified; record a fixed consequence; integrate cycle 2.",
     "provenance_fields": [
       "experiment_id",
       "git_commit",
