@@ -1,0 +1,108 @@
+{
+  "schema_version": "1.0",
+  "paper": "P008",
+  "family_id": "CF01",
+  "protocol_id": "P008-BROAD-VALIDATION-V1",
+  "status": "preregistered-design-draft-no-result",
+  "interpretation_boundary": "Functional causal self-reference only; no phenomenal-consciousness inference.",
+  "layers": {
+    "broad_counterfactual": {
+      "conditions": [
+        "A_no_self_model",
+        "B_disconnected_self_model",
+        "C_causal_self_model",
+        "D_matched_generic_state"
+      ],
+      "primary_intervention": {
+        "target": "self_model.trajectory_weights.continuity",
+        "default": 1,
+        "confirmatory": 0
+      },
+      "dose_response_values": [
+        0,
+        0.5,
+        1,
+        1.5,
+        2
+      ],
+      "scenario_strata": [
+        "native_runtime",
+        "perturbed_native",
+        "holdout"
+      ],
+      "primary_metrics": [
+        "C_vs_B_selection_divergence_rate",
+        "C_vs_D_selection_divergence_rate",
+        "B_vs_D_control_disagreement_rate",
+        "A_vs_B_control_disagreement_rate",
+        "signed_selected_runner_up_margin_shift"
+      ],
+      "anti_cherry_picking": "freeze and hash all scenario corpora before condition outcome inspection"
+    },
+    "longitudinal_reentry": {
+      "conditions": [
+        "L0_frozen_self_model",
+        "L1_adaptation_disconnected",
+        "L2_causal_self_model_adaptation",
+        "L3_matched_generic_adaptation"
+      ],
+      "cycle": [
+        "integrate",
+        "select",
+        "begin_action",
+        "complete_action",
+        "persist",
+        "restart",
+        "reenter"
+      ],
+      "host_evidence": "frozen two-phase self_state outcome schedule with reversal",
+      "primary_metric": "first post-update matched cycle where L2 selection differs from L0/L1/L3 after a verified native self-model update",
+      "required_chain": [
+        "matched host evidence",
+        "native adaptation gate update",
+        "self-model state change",
+        "restart persistence",
+        "future decision or regime divergence",
+        "absence of matched-control divergence"
+      ]
+    }
+  },
+  "controls": [
+    "git_commit",
+    "python_version",
+    "runtime_version",
+    "identity",
+    "external_input",
+    "candidate_futures",
+    "host_outcome_schedule",
+    "memory_limit",
+    "history_limit",
+    "serialization",
+    "compute_budget",
+    "restart_points",
+    "action_consequence_order",
+    "perturbation_seeds"
+  ],
+  "required_hashes": [
+    "scenario_manifest_sha256",
+    "holdout_manifest_sha256",
+    "host_schedule_sha256",
+    "runtime_config_sha256",
+    "candidate_set_sha256",
+    "result_artifact_sha256"
+  ],
+  "exclusion_rules": [
+    "empty_candidate_set",
+    "duplicate_candidate_ids",
+    "non_finite_score",
+    "serialization_failure"
+  ],
+  "forbidden_exclusion_basis": "whether the causal condition differs from a control",
+  "outcome_labels": [
+    "MECHANISM_REPLICATED",
+    "LONGITUDINAL_SUPPORTED",
+    "PARTIAL",
+    "NULL",
+    "INVALID_RUN"
+  ]
+}
