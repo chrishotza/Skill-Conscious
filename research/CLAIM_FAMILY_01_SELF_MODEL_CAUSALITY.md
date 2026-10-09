@@ -176,3 +176,21 @@ Future executions should produce a machine-readable record containing:
 - timestamp
 
 No result should be promoted into P008 without this provenance.
+
+
+## Frozen P008 / CF01 implementation contract (2026-10-09)
+
+The executable contract is recorded in `research/p008_prediction_registry.json` schema 1.1. It defines the following arms before inspecting an assay result:
+
+- **A — no self-model weight participation:** no experiment-supplied `self_model.trajectory_weights` intervention; the scorer uses fixed default weights. This is an operational weight-participation ablation, not deletion of every internal self-model bookkeeping field.
+- **B — disconnected self-model:** persist the intervention value in `self_model.trajectory_weights`, but deliberately disconnect those values from the scorer, which uses fixed defaults.
+- **C — causal self-model:** use the native runtime scorer, with the intervention value stored in `self_model.trajectory_weights`.
+- **D — matched generic state:** persist the same one-value payload in a generic `self_state` field that the scorer does not consume; the scorer uses fixed defaults.
+
+The frozen intervention changes **one parameter only**: the self-model's `continuity` trajectory weight from its default of 1.0 to 0.0. Other weights remain unchanged. Candidate futures, external input, identity, runtime options, attractor input, valuation input and consequence policy are held fixed across arms. The fixture uses no random-number generator; seed 0 is recorded for the shared experiment metadata contract.
+
+The primary metric is the fraction of two externally matched cycles where C's selected trajectory differs from B or D. B-versus-D disagreement is reported as a control-integrity check. The assay starts each arm from separate state, integrates once, reloads state through a new runtime instance, records a fixed consequence without utility adaptation, and integrates again. Results include commit/runtime metadata, canonical candidate/input SHA-256 hashes, selections, scores, persistence checks and the interpretation boundary.
+
+The assay artifact is generated at `research/results/p008/` by default. The dedicated CPU GitHub Actions workflow also uploads a machine-readable JSON artifact with a 90-day retention period. CI success establishes implementation/test integrity; it does not turn this small deterministic fixture into broad empirical evidence. A result is not promoted into a paper solely because the mechanism criterion passes.
+
+**Interpretation boundary:** a positive result supports only functional causal influence over trajectory selection in this runtime configuration. It does not establish phenomenal consciousness.

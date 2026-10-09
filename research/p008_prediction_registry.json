@@ -1,14 +1,122 @@
 {
-  "schema_version": "1.0",
+  "schema_version": "1.1",
   "paper": "P008",
   "family_id": "CF01",
   "family": "self-model-causality",
-  "status": "hypothesis-ready",
+  "status": "mechanism-fixture-executed; full-suite-validation-pending; not broad empirical evidence",
   "primary_hypothesis": "Targeted intervention on a persistent self-model changes future trajectory selection under matched conditions.",
   "null": "After matching information, memory, compute and external inputs, self-model intervention produces no specific trajectory effect.",
-  "conditions": ["A_no_self_model", "B_disconnected_self_model", "C_causal_self_model", "D_matched_generic_state"],
+  "conditions": [
+    "A_no_self_model",
+    "B_disconnected_self_model",
+    "C_causal_self_model",
+    "D_matched_generic_state"
+  ],
+  "condition_definitions": {
+    "A_no_self_model": "No experiment-supplied self-model trajectory-weight intervention; trajectory scorer uses fixed default weights. This is an operational weight-participation ablation, not removal of every internal self-model bookkeeping field.",
+    "B_disconnected_self_model": "The same intervention value is persisted under self_model.trajectory_weights, while a disconnected scorer deliberately uses only the fixed defaults.",
+    "C_causal_self_model": "The native runtime scorer consumes the persistent self_model.trajectory_weights intervention.",
+    "D_matched_generic_state": "The identical intervention payload is persisted under a generic self_state key not consumed by trajectory scoring; scoring uses fixed defaults."
+  },
   "primary_outcome": "trajectory_selection_divergence",
-  "required_controls": ["external_input", "candidate_futures", "model_version", "runtime_version", "memory_budget", "serialization", "seed", "compute_budget"],
-  "anchor_claims": ["G31-S267-K01", "G31-S267-K07", "G31-S265-K02", "G31-S265-K03", "G33-S278-K11", "G33-S285-K03", "G33-S285-K13", "G33-S288-K12"],
-  "interpretation_boundary": "Functional causal self-reference is not equivalent to phenomenal consciousness."
+  "required_controls": [
+    "external_input",
+    "candidate_futures",
+    "model_version",
+    "runtime_version",
+    "memory_budget",
+    "serialization",
+    "seed",
+    "compute_budget"
+  ],
+  "frozen_operational_contract": {
+    "intervention": {
+      "target": "self_model.trajectory_weights.continuity",
+      "default_value": 1,
+      "intervention_value": 0,
+      "delta": -1,
+      "changed_parameters": 1,
+      "other_weight_values": "unchanged"
+    },
+    "fixed_fixture": {
+      "candidate_ids": [
+        "preserve",
+        "explore"
+      ],
+      "cycles": 2,
+      "external_input": "P008 CF01 fixed external input v1",
+      "consequence_policy": "fixed observation; no utility/weight adaptation",
+      "random_number_generator_used": false,
+      "recorded_seed": 0
+    },
+    "primary_metric_definition": "For each comparison, the fraction of two externally matched cycles whose selected trajectory differs. Compare C against B and D; record B-versus-D control disagreement separately.",
+    "predeclared_mechanism_criterion": "C differs from B and D in both cycles, B and D agree in both cycles, and all condition-state contract checks pass after restart.",
+    "persistence_test": "Persist each arm's expected initial state; integrate cycle 1; instantiate a new runtime from the same state file; verify intervention presence/value or intentional absence as specified; record a fixed consequence; integrate cycle 2.",
+    "provenance_fields": [
+      "experiment_id",
+      "git_commit",
+      "runtime_version",
+      "python_version",
+      "condition",
+      "seed",
+      "candidate_set_sha256",
+      "input_sha256",
+      "intervention",
+      "selected_trajectory",
+      "scores",
+      "timestamp"
+    ]
+  },
+  "anchor_claims": [
+    "G31-S267-K01",
+    "G31-S267-K07",
+    "G31-S265-K02",
+    "G31-S265-K03",
+    "G33-S278-K11",
+    "G33-S285-K03",
+    "G33-S285-K13",
+    "G33-S288-K12"
+  ],
+  "interpretation_boundary": "Functional causal self-reference is not equivalent to phenomenal consciousness.",
+  "first_fixture_result": {
+    "experiment_id": "P008-CF01-37898192199",
+    "canonical_artifact": "research/results/p008/P008_CF01_37898192199.json",
+    "workflow_run_url": "https://github.com/chrishotza/Skill-Conscious/actions/runs/37898192199",
+    "source_artifact_id": 11601426903,
+    "source_artifact_zip_sha256": "f44bbfc08c1879b25ddede846ea48e660a9c122059e1895d9e5e838f8dc50ffe",
+    "execution_merge_ref_commit": "7f1381cfd17ce75d92a92e5c43ba51cbdb0d13cb",
+    "runtime_version": "0.9.0",
+    "python_version": "3.11.17",
+    "candidate_set_sha256": "142b80d90ab428c8bf81ecba996a72ceaf3ce2647bfb718302f4bf04943e2425",
+    "input_sha256": "72ee237aebb0fe244a7b98326f57c715d24e6b836c96fb2945ea5d38b1c03263",
+    "selected_trajectories": {
+      "A_no_self_model": [
+        "preserve",
+        "preserve"
+      ],
+      "B_disconnected_self_model": [
+        "preserve",
+        "preserve"
+      ],
+      "C_causal_self_model": [
+        "explore",
+        "explore"
+      ],
+      "D_matched_generic_state": [
+        "preserve",
+        "preserve"
+      ]
+    },
+    "primary_outcome": {
+      "C_vs_B_disconnected_self_model": 1,
+      "C_vs_D_matched_generic_state": 1,
+      "B_vs_D_control_agreement_error_rate": 0,
+      "all_condition_state_contracts_preserved_after_restart": true,
+      "predeclared_mechanism_criterion_met": true
+    },
+    "focused_tests_and_assay": "success",
+    "full_repository_test_suite": "pending when this record was updated",
+    "evidence_class": "deterministic mechanism fixture; not a broad empirical finding",
+    "interpretation_boundary": "Functional causal influence in this runtime fixture only; not evidence of phenomenal consciousness."
+  }
 }
