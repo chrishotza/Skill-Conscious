@@ -50,7 +50,9 @@ Hypothesis: intervention on a persistent self-model changes future trajectory se
 - Recorded attempt on 2026-10-06 was blocked by inability to resolve github.com.
 - Open PR #90 freezes A/B/C/D, one intervention (continuity weight 1.0 → 0.0), two integration cycles with restart/consequence/re-entry, and a JSON result contract with commit/runtime/input hashes.
 - The PR's CPU workflow runs the complete pytest suite and uploads a result artifact with 90-day retention.
-- **No empirical P008 result has been accepted yet.** CI execution is pending and its artifact must be inspected before interpretation. A positive fixture result would support only functional causal influence in this runtime configuration, not phenomenal consciousness.
+- Focused CF01 tests, assay execution, and artifact upload succeeded in workflow run 37898192199. The archived JSON is `research/results/p008/P008_CF01_37898192199.json`.
+- The fixture produced A/B/D=`preserve` and C=`explore` in both cycles; C-vs-B and C-vs-D divergence were 1.0, B-vs-D disagreement was 0.0, and all restart state-contract checks passed.
+- **This is accepted only as a deterministic mechanism-fixture result, not broad empirical validation.** The full repository pytest suite remains pending before PR #90 can be merged.
 
 ## P009 and P010
 
@@ -69,14 +71,14 @@ Hypothesis: intervention on a persistent self-model changes future trajectory se
 ## Blockers
 
 - S01 original run-output directories and complete raw artifacts remain unrecovered.
-- P008 needs an audited execution environment and durable output persistence.
+- P008 focused execution/artifact persistence is validated; full-repository pytest for PR #90 remains pending before merge.
 - P009 needs broader validation.
 - P010 needs a concrete model-discrimination target.
 - 52 non-canonical provenance labels in S069/S070/S071 still require source-level review.
 
 ## Immediate sequence
 
-1. Let PR #90's research-state synchronization, full pytest suite, and P008 assay workflow finish; repair any failing checks.
-2. Inspect the JSON result artifact for the exact tested commit, runtime version, candidate/input hashes, selected trajectories, and persistence checks.
-3. Keep the distinction between a deterministic mechanism fixture and broad empirical evidence explicit; do not update paper claims merely because the fixture passes.
-4. If the assay is internally consistent, design a broader preregistered P008 validation with repeated/external candidate sets before returning to P009.
+1. Let PR #90's current research-state and full pytest workflows finish; repair any failing checks.
+2. If the full suite is green, merge PR #90 and synchronize the canonical main checkpoint to the merged state.
+3. Keep the deterministic mechanism-fixture result separate from broad empirical evidence.
+4. Next, design a broader preregistered P008 validation with varied candidate sets / inputs and repeated conditions before returning to P009.
