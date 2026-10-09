@@ -1,0 +1,64 @@
+name: P008 CF01 Causal Assay
+
+on:
+  pull_request:
+    paths:
+      - "experiments/p008_self_model_causal_runtime.py"
+      - "research/p008_prediction_registry.json"
+      - "research/CLAIM_FAMILY_01_SELF_MODEL_CAUSALITY.md"
+      - "tests/test_p008_assay.py"
+      - "src/skill_conscious/**"
+      - "pyproject.toml"
+      - ".github/workflows/p008-cf01-causal-assay.yml"
+  push:
+    branches: [main]
+    paths:
+      - "experiments/p008_self_model_causal_runtime.py"
+      - "research/p008_prediction_registry.json"
+      - "research/CLAIM_FAMILY_01_SELF_MODEL_CAUSALITY.md"
+      - "tests/test_p008_assay.py"
+      - "src/skill_conscious/**"
+      - "pyproject.toml"
+      - ".github/workflows/p008-cf01-causal-assay.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  p008-cf01:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - name: Checkout exact tested commit
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install project and test tools
+        run: python -m pip install --upgrade pip && python -m pip install -e ".[dev]"
+
+      - name: Run complete test suite
+        run: python -m pytest -q
+
+      - name: Run P008 fixed-input assay
+        if: always()
+        run: |
+          mkdir -p artifacts/p008
+          python experiments/p008_self_model_causal_runtime.py \
+            --output "artifacts/p008/P008_CF01_${GITHUB_RUN_ID}.json" \
+            --git-commit "${GITHUB_SHA}"
+
+      - name: Upload P008 result artifact
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: p008-cf01-${{ github.run_id }}
+          path: artifacts/p008/*.json
+          if-no-files-found: warn
+          retention-days: 90
