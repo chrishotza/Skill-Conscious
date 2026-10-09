@@ -1,0 +1,287 @@
+{
+  "artifact_path": "artifacts/p008/P008_CF01_37898192199.json",
+  "completed_at_utc": "2026-10-09T07:18:01.320535Z",
+  "conditions": [
+    {
+      "condition": "A_no_self_model",
+      "condition_state_contract_preserved_after_restart": true,
+      "cycles": [
+        {
+          "cycle": 1,
+          "revision": 1,
+          "score_difference_preserve_minus_explore": 0.3,
+          "scores": {
+            "explore": 2.8,
+            "preserve": 3.1
+          },
+          "selected_trajectory": "preserve"
+        },
+        {
+          "cycle": 2,
+          "revision": 2,
+          "score_difference_preserve_minus_explore": 0.3,
+          "scores": {
+            "explore": 2.8,
+            "preserve": 3.1
+          },
+          "selected_trajectory": "preserve"
+        }
+      ],
+      "effective_weights_before_cycle_1": {
+        "coherence": 1.0,
+        "continuity": 1.0,
+        "dissonance_resolution": 1.0,
+        "goal_fit": 1.0,
+        "homeostatic_fit": 0.75,
+        "latent_pattern": 0.5,
+        "learning": 0.5,
+        "risk": -1.0,
+        "salience": 0.25,
+        "self_alignment": 1.0,
+        "self_dissonance": -0.5,
+        "topology_integrity": 0.5,
+        "uncertainty": -0.5
+      },
+      "intervention": null,
+      "intervention_target": "none",
+      "persisted_generic_state_after_restart": null,
+      "persisted_model_weights_after_restart": {},
+      "state_sha256_after_restart": "feea6b7bb3a1b8584d8f2778dd6f74df94a830fff1cede39a52994f34639efc9"
+    },
+    {
+      "condition": "B_disconnected_self_model",
+      "condition_state_contract_preserved_after_restart": true,
+      "cycles": [
+        {
+          "cycle": 1,
+          "revision": 1,
+          "score_difference_preserve_minus_explore": 0.3,
+          "scores": {
+            "explore": 2.8,
+            "preserve": 3.1
+          },
+          "selected_trajectory": "preserve"
+        },
+        {
+          "cycle": 2,
+          "revision": 2,
+          "score_difference_preserve_minus_explore": 0.3,
+          "scores": {
+            "explore": 2.8,
+            "preserve": 3.1
+          },
+          "selected_trajectory": "preserve"
+        }
+      ],
+      "effective_weights_before_cycle_1": {
+        "coherence": 1.0,
+        "continuity": 1.0,
+        "dissonance_resolution": 1.0,
+        "goal_fit": 1.0,
+        "homeostatic_fit": 0.75,
+        "latent_pattern": 0.5,
+        "learning": 0.5,
+        "risk": -1.0,
+        "salience": 0.25,
+        "self_alignment": 1.0,
+        "self_dissonance": -0.5,
+        "topology_integrity": 0.5,
+        "uncertainty": -0.5
+      },
+      "intervention": {
+        "continuity": 0.0
+      },
+      "intervention_target": "self_model.trajectory_weights.continuity",
+      "persisted_generic_state_after_restart": null,
+      "persisted_model_weights_after_restart": {
+        "continuity": 0.0
+      },
+      "state_sha256_after_restart": "96166c99a4a1943f4b07fe3b33d6fc8dde38d3447b94741a41dba41f3de61c4c"
+    },
+    {
+      "condition": "C_causal_self_model",
+      "condition_state_contract_preserved_after_restart": true,
+      "cycles": [
+        {
+          "cycle": 1,
+          "revision": 1,
+          "score_difference_preserve_minus_explore": -0.5,
+          "scores": {
+            "explore": 2.6,
+            "preserve": 2.1
+          },
+          "selected_trajectory": "explore"
+        },
+        {
+          "cycle": 2,
+          "revision": 2,
+          "score_difference_preserve_minus_explore": -0.5,
+          "scores": {
+            "explore": 2.6,
+            "preserve": 2.1
+          },
+          "selected_trajectory": "explore"
+        }
+      ],
+      "effective_weights_before_cycle_1": {
+        "coherence": 1.0,
+        "continuity": 0.0,
+        "dissonance_resolution": 1.0,
+        "goal_fit": 1.0,
+        "homeostatic_fit": 0.75,
+        "latent_pattern": 0.5,
+        "learning": 0.5,
+        "risk": -1.0,
+        "salience": 0.25,
+        "self_alignment": 1.0,
+        "self_dissonance": -0.5,
+        "topology_integrity": 0.5,
+        "uncertainty": -0.5
+      },
+      "intervention": {
+        "continuity": 0.0
+      },
+      "intervention_target": "self_model.trajectory_weights.continuity",
+      "persisted_generic_state_after_restart": null,
+      "persisted_model_weights_after_restart": {
+        "continuity": 0.0
+      },
+      "state_sha256_after_restart": "eff13a4747365d7dbc3c96b3db6abbea2f225f877d028d71c658ab7ee1d25d7f"
+    },
+    {
+      "condition": "D_matched_generic_state",
+      "condition_state_contract_preserved_after_restart": true,
+      "cycles": [
+        {
+          "cycle": 1,
+          "revision": 1,
+          "score_difference_preserve_minus_explore": 0.3,
+          "scores": {
+            "explore": 2.8,
+            "preserve": 3.1
+          },
+          "selected_trajectory": "preserve"
+        },
+        {
+          "cycle": 2,
+          "revision": 2,
+          "score_difference_preserve_minus_explore": 0.3,
+          "scores": {
+            "explore": 2.8,
+            "preserve": 3.1
+          },
+          "selected_trajectory": "preserve"
+        }
+      ],
+      "effective_weights_before_cycle_1": {
+        "coherence": 1.0,
+        "continuity": 1.0,
+        "dissonance_resolution": 1.0,
+        "goal_fit": 1.0,
+        "homeostatic_fit": 0.75,
+        "latent_pattern": 0.5,
+        "learning": 0.5,
+        "risk": -1.0,
+        "salience": 0.25,
+        "self_alignment": 1.0,
+        "self_dissonance": -0.5,
+        "topology_integrity": 0.5,
+        "uncertainty": -0.5
+      },
+      "intervention": {
+        "continuity": 0.0
+      },
+      "intervention_target": "p008_generic_control_parameter",
+      "persisted_generic_state_after_restart": {
+        "continuity": 0.0
+      },
+      "persisted_model_weights_after_restart": {},
+      "state_sha256_after_restart": "a39790c1b20177d25299f567b2231b4d30c67ada6429043aaeeab06f4484bdb4"
+    }
+  ],
+  "experiment_id": "P008-CF01-37898192199",
+  "family_id": "CF01",
+  "limitations": [
+    "Two hand-specified candidate futures are a mechanism fixture, not a broad benchmark.",
+    "The same fixed inputs and two cycles do not estimate population-level or seed variability.",
+    "A positive result supports only functional causal influence in this runtime configuration.",
+    "A is an operational no-self-model-weight-participation control, not removal of every internal self-model bookkeeping field.",
+    "The generic-state control matches intervention payload content, not a claim of complete information-theoretic equivalence."
+  ],
+  "metadata": {
+    "candidate_set_sha256": "142b80d90ab428c8bf81ecba996a72ceaf3ce2647bfb718302f4bf04943e2425",
+    "fixed_input": {
+      "candidate_set_sha256": "142b80d90ab428c8bf81ecba996a72ceaf3ce2647bfb718302f4bf04943e2425",
+      "consequence_policy": "fixed observation; no utility/weight adaptation",
+      "cycle_count": 2,
+      "external_input": "P008 CF01 fixed external input v1",
+      "intervention": {
+        "continuity": 0.0
+      },
+      "seed": 0
+    },
+    "git_commit": "7f1381cfd17ce75d92a92e5c43ba51cbdb0d13cb",
+    "input_sha256": "72ee237aebb0fe244a7b98326f57c715d24e6b836c96fb2945ea5d38b1c03263",
+    "interpretation_boundary": "Functional causal influence on trajectory selection only; not evidence of phenomenal consciousness.",
+    "intervention": {
+      "continuity": 0.0
+    },
+    "intervention_delta_from_default": -1.0,
+    "python_version": "3.11.17",
+    "runtime_version": "0.9.0",
+    "seed": 0,
+    "seed_policy": "recorded fixed value; this fixture uses no random-number generator"
+  },
+  "paper": "P008",
+  "primary_outcome": {
+    "B_vs_D_control_agreement_error_rate": 0.0,
+    "C_vs_B_disconnected_self_model": 1.0,
+    "C_vs_D_matched_generic_state": 1.0,
+    "all_condition_state_contracts_preserved_after_restart": true,
+    "definition": "Fraction of the two matched cycles whose selected trajectory differs between the causally active condition and the named control.",
+    "name": "trajectory_selection_divergence",
+    "noncausal_controls_agree": true,
+    "predeclared_mechanism_criterion_met": true
+  },
+  "schema_version": "1.1",
+  "secondary_outcomes": {
+    "score_differences_preserve_minus_explore": {
+      "A_no_self_model": [
+        0.3,
+        0.3
+      ],
+      "B_disconnected_self_model": [
+        0.3,
+        0.3
+      ],
+      "C_causal_self_model": [
+        -0.5,
+        -0.5
+      ],
+      "D_matched_generic_state": [
+        0.3,
+        0.3
+      ]
+    },
+    "selected_trajectories_by_condition": {
+      "A_no_self_model": [
+        "preserve",
+        "preserve"
+      ],
+      "B_disconnected_self_model": [
+        "preserve",
+        "preserve"
+      ],
+      "C_causal_self_model": [
+        "explore",
+        "explore"
+      ],
+      "D_matched_generic_state": [
+        "preserve",
+        "preserve"
+      ]
+    }
+  },
+  "started_at_utc": "2026-10-09T07:18:01.266758Z"
+}
+
