@@ -114,7 +114,7 @@ A claim that cannot produce a measurable construct is tagged as **interpretive/o
 | P001 | Relational ontology for artificial consciousness | Working draft; framework, not an empirical result |
 | P002–P006 | Individual-scale mechanisms: self-reference, continuity, regimes, value, synthesis | Planned/working program; do not infer results from existing protocols |
 | P007 | Three-scale consciousness framework | Working framework; not an empirical result |
-| P008 | Individual-scale causal self-reference and continuity | Evidence map and executable assay exist; recorded run was blocked; no empirical result |
+| P008 | Individual-scale causal self-reference and continuity | PR #90 freezes A/B/C/D, a one-factor continuity intervention, restart checks and JSON artifact; CI pending; no empirical result |
 | P009 | Relational coupling and reciprocal causality | Probes implemented; broader multi-condition validation remains |
 | P010 | Fundamental-scale testability and model discrimination | No specified physical model with a discriminating observable yet |
 | P012 | Three-consciousness bridge | Working framework connecting candidate research scales |
@@ -189,9 +189,9 @@ The CI workflow `research-sync-contract.yml` enforces the presence and navigatio
 1. Complete the state/navigation consolidation and pass the repository's synchronization checks.
 2. Keep S01's outcome and artifact limitation visible. Read research/S01_RESULTS_STATUS_2026-10-09.md; do not claim the original raw JSON/NPZ output directories were recovered.
 3. Verify the Drive recovery snapshot and maintain a file-level inventory. Do not reconstruct raw run files from summaries.
-4. Audit experiments/p008_self_model_causal_runtime.py against research/p008_prediction_registry.json and the matched-control requirements. This is a code/protocol audit first; the prior execution attempt produced no result.
-5. Before any new experiment, test durable output persistence and freeze commit, seed, model revision, configuration, and output path.
-6. Return to P009 only after P008's individual-scale controls are explicit. P010 remains blocked until a physical model supplies a discriminating observable.
+4. Track PR #90: the P008 assay/registry controls and result-artifact contract are now specified in the proposed change; CI and the generated JSON artifact still need inspection.
+5. Do not call P008 an empirical finding until the workflow succeeds, the artifact is inspected, and the logged commit/runtime/hashes are verified.
+6. Return to P009 only after the P008 result and limitations are reviewed. P010 remains blocked until a physical model supplies a discriminating observable.
 
 The project must keep the chain explicit:
 
