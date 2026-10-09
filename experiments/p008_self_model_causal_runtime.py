@@ -11,6 +11,7 @@ import importlib.metadata
 import json
 import platform
 import subprocess
+import tempfile
 import os
 from datetime import datetime, timezone
 from pathlib import Path
@@ -245,7 +246,7 @@ def run(
     }
     input_hash = _sha256(fixed_input)
 
-    with __import__("tempfile").TemporaryDirectory(prefix="p008-cf01-") as directory:
+    with tempfile.TemporaryDirectory(prefix="p008-cf01-") as directory:
         root = Path(directory)
         results = [_run_condition(name, root) for name in CONDITION_NAMES]
 
@@ -339,6 +340,7 @@ def run(
             "Two hand-specified candidate futures are a mechanism fixture, not a broad benchmark.",
             "The same fixed inputs and two cycles do not estimate population-level or seed variability.",
             "A positive result supports only functional causal influence in this runtime configuration.",
+            "A is an operational no-self-model-weight-participation control, not removal of every internal self-model bookkeeping field.",
             "The generic-state control matches intervention payload content, not a claim of complete information-theoretic equivalence.",
         ],
     }
@@ -349,12 +351,12 @@ def run(
             f"{result['experiment_id']}.json"
         )
     destination = Path(output_path)
+    result["artifact_path"] = str(destination)
     destination.parent.mkdir(parents=True, exist_ok=True)
     destination.write_text(
         json.dumps(result, ensure_ascii=False, indent=2, sort_keys=True) + "\n",
         encoding="utf-8",
     )
-    result["artifact_path"] = str(destination)
     return result
 
 
