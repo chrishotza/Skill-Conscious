@@ -78,9 +78,9 @@ def test_causal_condition_diverges_from_both_controls(assay_result: dict) -> Non
     assert primary["predeclared_mechanism_criterion_met"] is True
 
 
-def test_self_model_or_generic_intervention_survives_restart(assay_result: dict) -> None:
+def test_condition_state_contract_survives_restart(assay_result: dict) -> None:
     conditions = _conditions(assay_result)
-    assert assay_result["primary_outcome"]["all_interventions_persist_after_restart"] is True
+    assert assay_result["primary_outcome"]["all_condition_state_contracts_preserved_after_restart"] is True
 
     assert conditions["B_disconnected_self_model"]["persisted_model_weights_after_restart"] == {
         "continuity": 0.0
