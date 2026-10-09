@@ -99,7 +99,7 @@ The project has a substantial software architecture and a structured research pr
 The confirmatory coded and semantic outcomes and 23 robustness conditions have been recorded. The observed metrics do not support the preregistered prediction of greater cross-family recurrence in the tested direction. The original raw-output directories were not recovered into the durable archive. The consolidated status and values are in research/S01_RESULTS_STATUS_2026-10-09.md.
 
 ### P008 / CF01 — Self-model causality
-The hypothesis, evidence map, prediction registry, and runtime-connected assay exist. The recorded 2026-10-06 execution was blocked by inability to resolve github.com. No empirical P008 result has been produced. Static checking is not experiment execution.
+The hypothesis, evidence map, and registry remain the research basis. Open PR #90 rebuilds the primary assay against registered A/B/C/D conditions, freezes a one-factor continuity-weight intervention, exercises reload/consequence/re-entry, and writes a provenance-bearing JSON artifact. The dedicated CPU workflow is running the full test suite and assay. **No empirical P008 result has been accepted yet**; inspect the workflow result and JSON artifact before interpreting or promoting it.
 
 ### Other scales
 P009's relational probes require broader multi-condition validation. P010 lacks a specified physical model with an observable that discriminates it from plausible alternatives. P012 is a framework, not empirical evidence.
@@ -136,9 +136,9 @@ ACTIVE_PAPER = NONE — S01 is not promoted to a paper while original-artifact p
 ACTIVE_STUDY = S01 archival/provenance reconciliation; the measured outcome is recorded but the original raw-output directories remain unrecovered.
 ACTIVE_HYPOTHESIS = S01 tested whether coded motif recurrence and raw-text semantic neighborhoods show cross-family recurrence beyond source-family-label nulls; the recorded results did not support the preregistered direction.
 EVIDENCE_STATUS = 4,315 effective claims / 325 corpus units / 328 effective source IDs / 19 source families; passage-level verification and source dependency review remain incomplete.
-EXPERIMENT_STATUS = S01 primary and robustness outcomes reported; 23 robustness conditions all retained negative DeltaS and upper-tail p=1.0; V10 metadata audit had 3 missing-count failures; raw output archive incomplete. P008 has code/protocol but no empirical result.
-NEXT_STEP = Complete documentation/state cleanup; verify the Drive S01 snapshot and file-level raw-artifact inventory; then audit P008 controls and output persistence before running it.
-BLOCKERS = S01 original run-output directories not recovered; P008 execution environment/output persistence not yet validated; P009 broader validation; P010 discriminating physical model; 52 non-canonical provenance labels await source review.
+EXPERIMENT_STATUS = S01 primary and robustness outcomes reported; 23 robustness conditions all retained negative DeltaS and upper-tail p=1.0; V10 metadata audit had 3 missing-count failures; raw output archive incomplete. P008 has an open implementation/validation PR (#90); no empirical result has been accepted.
+NEXT_STEP = Complete the PR #90 validation, inspect the persisted artifact and its provenance, then decide whether the mechanism criterion and limitations justify a broader preregistered P008 run.
+BLOCKERS = S01 original run-output directories not recovered; P008 full workflow/artifact review pending; P009 broader validation; P010 discriminating physical model; 52 non-canonical provenance labels await source review.
 LAST_UPDATE = 2026-10-09
 
 ## 11. Navigation rule
