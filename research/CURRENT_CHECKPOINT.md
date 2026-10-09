@@ -6,7 +6,7 @@
 
 ## Current state
 
-The repository has a substantial experimental runtime and a structured research program. No paper is currently publication-ready. The immediate engineering task is documentation/state consolidation; the immediate scientific task after consolidation is to recover or formally account for S01 artifacts, then audit P008 before any new run.
+The repository has a substantial experimental runtime and a structured research program. No paper is currently publication-ready. Canonical documentation/state consolidation is merged. The immediate scientific task is to validate the revised P008 / CF01 assay through open PR #90 and inspect its generated artifact; S01's raw-output gap remains documented and does not block that work.
 
 ## Corpus snapshot
 
@@ -48,9 +48,9 @@ Hypothesis: intervention on a persistent self-model changes future trajectory se
 - Target assay: experiments/p008_self_model_causal_runtime.py.
 - Execution log: research/P008_EXECUTION_LOG.md.
 - Recorded attempt on 2026-10-06 was blocked by inability to resolve github.com.
-- **No empirical P008 result has been produced.** Syntax/static integrity checks are not experiment execution.
-
-Before running P008, audit the conditions/controls and verify that results, stdout/stderr, seeds, runtime details, and hashes will be persisted to a tested durable location.
+- Open PR #90 freezes A/B/C/D, one intervention (continuity weight 1.0 → 0.0), two integration cycles with restart/consequence/re-entry, and a JSON result contract with commit/runtime/input hashes.
+- The PR's CPU workflow runs the complete pytest suite and uploads a result artifact with 90-day retention.
+- **No empirical P008 result has been accepted yet.** CI execution is pending and its artifact must be inspected before interpretation. A positive fixture result would support only functional causal influence in this runtime configuration, not phenomenal consciousness.
 
 ## P009 and P010
 
@@ -76,7 +76,7 @@ Before running P008, audit the conditions/controls and verify that results, stdo
 
 ## Immediate sequence
 
-1. Merge the documentation/state consolidation only after CI and link/content checks pass.
-2. Verify the actual contents of the Drive recovery snapshot and maintain an explicit raw-artifact inventory.
-3. Audit P008's implementation, controls, deterministic seed behavior, and output contract without running an expensive experiment yet.
-4. Execute only after the persistent-output path has been tested and the run configuration is frozen.
+1. Let PR #90's research-state synchronization, full pytest suite, and P008 assay workflow finish; repair any failing checks.
+2. Inspect the JSON result artifact for the exact tested commit, runtime version, candidate/input hashes, selected trajectories, and persistence checks.
+3. Keep the distinction between a deterministic mechanism fixture and broad empirical evidence explicit; do not update paper claims merely because the fixture passes.
+4. If the assay is internally consistent, design a broader preregistered P008 validation with repeated/external candidate sets before returning to P009.
