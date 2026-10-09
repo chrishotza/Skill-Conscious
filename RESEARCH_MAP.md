@@ -182,7 +182,7 @@ Whenever a meaningful research, paper, experiment, source, or documentation stat
 - `REPO_MEMORY.md`
 - `RESEARCH_MAP.md`
 
-The CI workflow `research-sync-contract.yml` enforces the presence and navigation links of these state files. The checkpoint is the live scientific status; the memory is durable AI context; the map is the traversal contract. Pull requests that change the research surface are required to update all three.
+The CI workflow `research-sync-contract.yml` enforces the presence and navigation links of these state files. The checkpoint is the live scientific status; the memory is durable AI context; the map is the traversal contract. Current synchronization: 2026-10-09, canonical branch main. Pull requests that change the research surface are required to update all three.
 
 ## 10. Immediate research move
 

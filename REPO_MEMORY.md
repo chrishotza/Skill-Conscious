@@ -130,7 +130,7 @@ Do not store ephemeral chat dialogue here. Store durable project state and decis
 
 ## 10. Current checkpoint
 
-CURRENT_STATE = S01 outcomes recorded; original raw-output archive incomplete; repository state/navigation consolidation underway.
+CURRENT_STATE = S01 outcomes recorded; original raw-output archive incomplete; state/navigation consolidation merged to main.
 LAST_COMPLETED = Frozen S01 protocol/data snapshot; recorded confirmatory coded and semantic outcomes; recorded 23 robustness conditions; created Drive master Git backup and SHA-256-verified its 11 inventoried files.
 ACTIVE_PAPER = NONE — S01 is not promoted to a paper while original-artifact provenance remains incomplete.
 ACTIVE_STUDY = S01 archival/provenance reconciliation; the measured outcome is recorded but the original raw-output directories remain unrecovered.
