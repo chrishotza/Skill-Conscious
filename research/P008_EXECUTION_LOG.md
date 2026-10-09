@@ -43,3 +43,12 @@ Run the exact repository commit containing the assay in an environment with:
 - output artifact persistence.
 
 Then store one machine-readable result artifact per seed/condition under the experiment-results layer, with commit SHA and runtime version.
+
+
+## 2026-10-09 — CF01 assay contract revision (implementation only)
+
+The primary assay source was revised on branch `research/p008-cf01-audit-assay` to match the four registered condition labels and to freeze a one-factor intervention: self-model `continuity` weight 1.0 → 0.0. The assay now executes two fixed-input integration cycles, reloads the persisted state between cycles, records a fixed consequence without utility/weight adaptation, and writes a provenance-bearing JSON result.
+
+A dedicated CPU GitHub Actions workflow runs the complete pytest suite, runs the assay, and uploads the result artifact with 90-day retention. Unit tests cover condition definitions, the expected selector mechanism, state persistence/restart, hashes, and artifact round-tripping.
+
+**Status at the time of this log entry: NO EMPIRICAL P008 RESULT CLAIMED.** The revised assay's outcome and the full test-suite verdict remain pending the workflow run. Even if the predeclared mechanism criterion passes, the result supports only functional causal influence in this fixed runtime fixture, not phenomenal consciousness.
