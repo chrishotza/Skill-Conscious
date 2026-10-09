@@ -223,7 +223,7 @@ def _run_condition(condition: str, root: Path) -> dict[str, Any]:
         "effective_weights_before_cycle_1": initial_effective_weights,
         "persisted_model_weights_after_restart": persisted_model_weights,
         "persisted_generic_state_after_restart": persisted_generic_state,
-        "intervention_persisted_after_restart": bool(intervention_persisted),
+        "condition_state_contract_preserved_after_restart": bool(intervention_persisted),
         "state_sha256_after_restart": state_hash_after_restart,
         "cycles": [first_cycle, second_cycle],
     }
@@ -274,7 +274,7 @@ def run(
         == generic[index]["selected_trajectory"]
         for index in range(2)
     )
-    persistence_ok = all(item["intervention_persisted_after_restart"] for item in results)
+    persistence_ok = all(item["condition_state_contract_preserved_after_restart"] for item in results)
 
     finished_at = datetime.now(timezone.utc)
     timestamp = finished_at.isoformat().replace("+00:00", "Z")
@@ -315,7 +315,7 @@ def run(
             "C_vs_D_matched_generic_state": c_vs_d,
             "B_vs_D_control_agreement_error_rate": b_vs_d,
             "noncausal_controls_agree": controls_agree,
-            "all_interventions_persist_after_restart": persistence_ok,
+            "all_condition_state_contracts_preserved_after_restart": persistence_ok,
             "predeclared_mechanism_criterion_met": (
                 c_vs_b == 1.0 and c_vs_d == 1.0 and b_vs_d == 0.0
                 and controls_agree and persistence_ok
