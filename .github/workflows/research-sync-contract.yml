@@ -17,12 +17,16 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          # The change detector compares HEAD with origin/<base> using a merge base.
+          # A shallow checkout can omit that ancestor and fail before the contract runs.
+          fetch-depth: 0
       - name: Identify changed files
         id: changed
         shell: bash
         run: |
           set -euo pipefail
-          git fetch origin "${GITHUB_BASE_REF}" --depth=1
+          git fetch origin "${GITHUB_BASE_REF}" --no-tags
           git diff --name-only "origin/${GITHUB_BASE_REF}...HEAD" > changed.txt
           cat changed.txt
 

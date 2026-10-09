@@ -3,22 +3,18 @@
 > Canonical entry point for an AI instance entering the repository. Read this file first.
 
 ## 0. How to use this memory
-Do not ask the human to explain the project again before inspecting the repository.
-Read in this order:
-1. RESEARCH_MAP.md
-2. README.md
-3. REPO_MEMORY.md (this file)
-4. docs/RESEARCH_METHOD_NORTH.md
-5. research/README.md and research/CLAIM_FAMILY_TRIAGE.md
-6. research/CURRENT_CHECKPOINT.md
-6. research/CLAIM_FAMILY_REGISTRY.md
-8. papers/README.md
-8. sources/README.md, sources/EVIDENCE_MATRIX.md, sources/HARVEST_ROADMAP.md, sources/CONSCIOUSNESS_MAP.md
-9. sources/manifesto/MANIFIESTO_DEL_SER.md
-10. the active paper and experiment documents referenced by the current checkpoint
-11. implementation and experiment files only as needed
 
-Do not read the whole repository blindly. Use this map to reconstruct context, then expand only when a dependency requires it.
+Do not ask the human to explain the project before inspecting the repository. Read in this order:
+
+1. AGENTS.md
+2. RESEARCH_MAP.md
+3. research/CURRENT_CHECKPOINT.md
+4. REPO_MEMORY.md (this file)
+5. research/README.md
+6. The active study registry and frozen protocol.
+7. The relevant evidence map, implementation, and tests only as needed.
+
+Do not read the entire repository blindly. The checkpoint is authoritative for live status; older handoff notes may be stale.
 
 ## 1. Project identity
 Canonical repository: chrishotza/Skill-Conscious
@@ -48,16 +44,18 @@ The manifesto contains 12 axioms. Axiom 8 is the current major research target:
 These are project axioms/hypotheses. Do not silently present them as established external scientific facts.
 
 ## 4. Evidence model
-Important evidence files:
+
+Canonical evidence files:
 - sources/BIBLIOGRAPHY.md
 - sources/PRIMARY_SOURCES.md
 - sources/EVIDENCE_MATRIX.md
 - sources/HARVEST_ROADMAP.md
 - sources/CONSCIOUSNESS_MAP.md
 - sources/SOURCE_CARD_TEMPLATE.md
-The verified closed corpus currently contains 325 registered source records and 4,315 effective claim records on branch `corpus-v1`. Coverage is complete at the ledger level; passage-level verification remains a separate task.
-Every evidence item must distinguish SOURCE CLAIM, PROJECT HYPOTHESIS, EMPIRICAL RESULT, INFERENCE, and OPEN QUESTION.
-Contradictory evidence is retained.
+
+S01 uses 4,315 effective claim records grouped into 325 analytic corpus units, with 328 effective source IDs and 19 source families. Do not conflate claims, corpus units, and source IDs. The corpus ledger is structurally covered, but passage-level verification, edition/translation review, source independence, and dependency analysis remain incomplete.
+
+Every evidence item must distinguish SOURCE CLAIM, PROJECT HYPOTHESIS, EMPIRICAL RESULT, INFERENCE, and OPEN QUESTION. Contradictory evidence is retained.
 
 ## 5. Scientific paper graph
 Authoritative paper map: `papers/README.md`.
@@ -94,17 +92,20 @@ Research navigation and paper conversion are now centralized in:
 - docs/THREE_SCALE_CONSCIOUSNESS.md
 
 ## 7. Current research state
-The project has moved from conceptual accumulation into a claim-to-paper research operating system.
+
+The project has a substantial software architecture and a structured research program, but no paper is currently publication-ready.
+
+### S01 — Cross-Cultural Consciousness Claim Recurrence Analysis
+The confirmatory coded and semantic outcomes and 23 robustness conditions have been recorded. The observed metrics do not support the preregistered prediction of greater cross-family recurrence in the tested direction. The original raw-output directories were not recovered into the durable archive. The consolidated status and values are in research/S01_RESULTS_STATUS_2026-10-09.md.
+
+### P008 / CF01 — Self-model causality
+The hypothesis, evidence map, prediction registry, and runtime-connected assay exist. The recorded 2026-10-06 execution was blocked by inability to resolve github.com. No empirical P008 result has been produced. Static checking is not experiment execution.
+
+### Other scales
+P009's relational probes require broader multi-condition validation. P010 lacks a specified physical model with an observable that discriminates it from plausible alternatives. P012 is a framework, not empirical evidence.
 
 Canonical chain:
-
-SOURCE CORPUS → CLAIM INDEX → CLAIM FAMILIES → OPERATIONAL CONSTRUCTS → HYPOTHESES → FALSIFIABLE PREDICTIONS → EXPERIMENTS → RESULTS → PAPERS
-
-The three-scale research frame is coupled rather than merely linear:
-
-FUNDAMENTAL ↔ RELATIONAL ↔ INDIVIDUAL
-
-with explicit bridge operators B1–B4 defined in `docs/THREE_CONSCIOUSNESS_BRIDGE.md`. This is a testable framework, not an established hierarchy of consciousness.
+SOURCE CORPUS → CLAIM INDEX → CLAIM FAMILIES → OPERATIONAL CONSTRUCTS → HYPOTHESES → PREDICTIONS → EXPERIMENTS → RAW ARTIFACTS → AUDIT → RESULTS → PAPERS.
 
 ## 8. What an incoming AI must determine
 Before changing anything, determine:
@@ -128,15 +129,17 @@ At minimum, memory must update CURRENT_STATE, LAST_COMPLETED, ACTIVE_PAPER, ACTI
 Do not store ephemeral chat dialogue here. Store durable project state and decisions.
 
 ## 10. Current checkpoint
-CURRENT_STATE = claim corpus has entered a formal methodology/audit phase before downstream empirical papers
-LAST_COMPLETED = Established research-method north star; completed anchor calibration; froze S01 protocol, data manifest, pilot report, reproducible code, Colab T4 runner and preregistered branch; optimized the secondary null implementation without changing the analysis definition
-ACTIVE_PAPER = NONE — no new paper is declared active until the first substantive study has real results
-ACTIVE_HYPOTHESIS = the corpus contains recurrent structures that can survive source-family controls; S01 tests this with coded motif recurrence and independent raw-text semantic recurrence
-EVIDENCE_STATUS = 325 registered corpus sources / 4,315 effective claims / 328 effective source IDs; S01 uses all 4,315 effective claims at the corpus-unit level; passage-level verification remains incomplete; A01–A09 calibration: 3 narrow strong, 3 partial, 3 provisional
-EXPERIMENT_STATUS = P000 is methodological; no empirical result is claimed. P008 runtime assay remains unexecuted because of local GitHub DNS/network access constraints
-NEXT_STEP = run the frozen S01 confirmatory T4 notebook; archive machine-readable outputs; then perform preregistered robustness checks and decide whether S01 earns paper status
-BLOCKERS = 52 provenance values require source review; P010 lacks a concrete discriminating physical model; P008 runtime needs an accessible execution environment
-LAST_UPDATE = 2026-10-06
+
+CURRENT_STATE = S01 outcomes recorded; original raw-output archive incomplete; repository state/navigation consolidation underway.
+LAST_COMPLETED = Frozen S01 protocol/data snapshot; recorded confirmatory coded and semantic outcomes; recorded 23 robustness conditions; created Drive master Git backup and SHA-256-verified its 11 inventoried files.
+ACTIVE_PAPER = NONE — S01 is not promoted to a paper while original-artifact provenance remains incomplete.
+ACTIVE_STUDY = S01 archival/provenance reconciliation; the measured outcome is recorded but the original raw-output directories remain unrecovered.
+ACTIVE_HYPOTHESIS = S01 tested whether coded motif recurrence and raw-text semantic neighborhoods show cross-family recurrence beyond source-family-label nulls; the recorded results did not support the preregistered direction.
+EVIDENCE_STATUS = 4,315 effective claims / 325 corpus units / 328 effective source IDs / 19 source families; passage-level verification and source dependency review remain incomplete.
+EXPERIMENT_STATUS = S01 primary and robustness outcomes reported; 23 robustness conditions all retained negative DeltaS and upper-tail p=1.0; V10 metadata audit had 3 missing-count failures; raw output archive incomplete. P008 has code/protocol but no empirical result.
+NEXT_STEP = Complete documentation/state cleanup; verify the Drive S01 snapshot and file-level raw-artifact inventory; then audit P008 controls and output persistence before running it.
+BLOCKERS = S01 original run-output directories not recovered; P008 execution environment/output persistence not yet validated; P009 broader validation; P010 discriminating physical model; 52 non-canonical provenance labels await source review.
+LAST_UPDATE = 2026-10-09
 
 ## 11. Navigation rule
 If asked where we are, use this memory and verify referenced files.

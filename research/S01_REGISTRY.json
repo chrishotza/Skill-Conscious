@@ -1,14 +1,21 @@
 {
   "study_id": "S01",
   "title": "Cross-Cultural Consciousness Claim Recurrence Analysis",
-  "status": "preregistered_protocol_v1",
+  "status": "analysis_complete_archive_incomplete",
+  "status_updated": "2026-10-09",
   "created": "2026-10-06",
   "scientific_role": "first substantive corpus study; not yet a paper",
   "question": "Which recurrent consciousness-related structures survive source-family control, contradiction accounting, and independent text-level semantic analysis?",
+  "preregistration": {
+    "branch": "s01-preregistered-v1",
+    "commit": "4fdea2f26ef2449e32ab74b67c2c19904bb3270c",
+    "status": "frozen; definitions unchanged"
+  },
   "primary_unit": "corpus_id",
   "primary_corpus_size": 325,
   "effective_claims": 4315,
   "effective_source_ids": 328,
+  "source_families": 19,
   "motif_schema": "M01-M25",
   "primary_coded_endpoint": "cross_family_minus_within_family_source_motif_jaccard",
   "primary_coded_null": "random permutation of source-family labels preserving family sizes",
@@ -24,6 +31,27 @@
   "semantic_null_repetitions": 5000,
   "rewire_null_repetitions": 1000,
   "semantic_k": 10,
+  "outcome_summary": {
+    "coded_delta_j": -0.08704084157943726,
+    "coded_cross_mean": 0.5222007632255554,
+    "coded_within_mean": 0.6092416048049927,
+    "coded_upper_tail_p": 1,
+    "semantic_observed_cross_neighbor_fraction": 0.7535341830822712,
+    "semantic_null_cross_neighbor_fraction_mean": 0.9400950451911937,
+    "semantic_upper_tail_p_fraction": 1,
+    "semantic_observed_mean_cosine": 0.6607122186100266,
+    "semantic_null_mean_cosine": 0.6642799840449317,
+    "semantic_upper_tail_p_cosine": 1,
+    "robustness_conditions": 23,
+    "robustness_delta_s_all_negative": true,
+    "robustness_p_values_all_upper_tail_one": true
+  },
+  "artifact_status": {
+    "original_run_output_directories_recovered": false,
+    "drive_recovery_root": "MyDrive/Skill-Conscious_PERSISTENT/S01_MASTER_BACKUP_20261009/",
+    "summary_status_file": "research/S01_RESULTS_STATUS_2026-10-09.md",
+    "warning": "Recovered snapshot and verified Git bundle do not equal a complete archive of the original primary/robustness output directories. Do not reconstruct missing originals from summaries."
+  },
   "status_rule": "exploratory pilot results are never substituted for preregistered confirmatory results",
-  "publication_rule": "no paper until the confirmatory run, robustness analysis, and full result provenance are complete"
+  "publication_rule": "no paper until the original artifact gap is resolved or explicitly adjudicated under the publication gate, and provenance is sufficient for independent review"
 }
