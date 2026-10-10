@@ -1,0 +1,1995 @@
+{
+  "schema_version": "1.0-append",
+  "base_ledger": "claim_ledger_v1.json",
+  "batch": "31",
+  "claim_count": 130,
+  "records": [
+    {
+      "global_claim_id": "G31-S258-K01",
+      "claim_id": "K01",
+      "source_id": "S258",
+      "corpus_id": "C251",
+      "location": "Phenomenology of Mind",
+      "claim_type": "STATE",
+      "claim": "Hegel organiza la conciencia como una secuencia de figuras o formas que cambian según cómo se relacionan sujeto y objeto.",
+      "motifs": [
+        "M07",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "31"
+    },
+    {
+      "global_claim_id": "G31-S258-K02",
+      "claim_id": "K02",
+      "source_id": "S258",
+      "corpus_id": "C251",
+      "location": "Phenomenology of Mind",
+      "claim_type": "REFLEXIVITY",
+      "claim": "La autoconciencia implica que la conciencia se convierte en objeto para sí misma.",
+      "motifs": [
+        "M02",
+        "M06",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "31"
+    },
+    {
+      "global_claim_id": "G31-S258-K03",
+      "claim_id": "K03",
+      "source_id": "S258",
+      "corpus_id": "C251",
+      "location": "Phenomenology of Mind",
+      "claim_type": "RELATION",
+      "claim": "El reconocimiento por otra autoconciencia participa en la constitución social de la autoconciencia.",
+      "motifs": [
+        "M05",
+        "M16"
+      ],
+      "provenance": "P2*",
+      "batch": "31"
+    },
+    {
+      "global_claim_id": "G31-S258-K04",
+      "claim_id": "K04",
+      "source_id": "S258",
+      "corpus_id": "C251",
+      "location": "Phenomenology of Mind",
+      "claim_type": "TRANSFORMATION",
+      "claim": "El desarrollo fenomenológico cambia las estructuras desde las que el sujeto comprende verdad, sí mismo y mundo.",
+      "motifs": [
+        "M12",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "31"
+    },
+    {
+      "global_claim_id": "G31-S258-K05",
+      "claim_id": "K05",
+      "source_id": "S258",
+      "corpus_id": "C251",
+      "location": "Phenomenology of Mind",
+      "claim_type": "UNITY",
+      "claim": "La experiencia se reconfigura buscando reconciliar oposiciones entre sujeto, objeto, individuo y comunidad.",
+      "motifs": [
+        "M03",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "31"
+    },
+    {
+      "global_claim_id": "G31-S258-K06",
+      "claim_id": "K06",
+      "source_id": "S258",
+      "corpus_id": "C251",
+      "location": "Phenomenology of Mind",
+      "claim_type": "CONTRAST",
+      "claim": "Hegel presenta conflictos y negaciones internas como motores del desarrollo conceptual, no como simples errores a eliminar.",
+      "motifs": [
+        "M04",
+        "M09"
+      ],
+      "provenance": "P2*",
+      "batch": "31"
+    },
+    {
+      "global_claim_id": "G31-S258-K07",
+      "claim_id": "K07",
+      "source_id": "S258",
+      "corpus_id": "C251",
+      "location": "Phenomenology of Mind",
+      "claim_type": "PERSON",
+      "claim": "La autoconciencia no aparece plenamente aislada: deseo, trabajo y reconocimiento relacionan al individuo con otros y con el mundo.",
+      "motifs": [
+        "M05",
+        "M16"
+      ],
+      "provenance": "P2*",
+      "batch": "31"
+    },
+    {
+      "global_claim_id": "G31-S258-K08",
+      "claim_id": "K08",
+      "source_id": "S258",
+      "corpus_id": "C251",
+      "location": "Phenomenology of Mind",
+      "claim_type": "ATTENTION",
+      "claim": "Cada figura de conciencia puede entenderse como una determinada forma de atender a lo que cuenta como objeto y conocimiento.",
+      "motifs": [
+        "M06",
+        "M24"
+      ],
+      "provenance": "P2*",
+      "batch": "31"
+    },
+    {
+      "global_claim_id": "G31-S258-K09",
+      "claim_id": "K09",
+      "source_id": "S258",
+      "corpus_id": "C251",
+      "location": "Phenomenology of Mind",
+      "claim_type": "TEMPORAL",
+      "claim": "El espíritu se despliega históricamente mediante transformaciones de sus formas de conciencia y vida social.",
+      "motifs": [
+        "M11",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "31"
+    },
+    {
+      "global_claim_id": "G31-S258-K10",
+      "claim_id": "K10",
+      "source_id": "S258",
+      "corpus_id": "C251",
+      "location": "Phenomenology of Mind",
+      "claim_type": "VALENCE",
+      "claim": "Libertad, reconocimiento y reconciliación adquieren valor dentro de la trayectoria del espíritu.",
+      "motifs": [
+        "M10",
+        "M12"
+      ],
+      "provenance": "P2*",
+      "batch": "31"
+    },
+    {
+      "global_claim_id": "G31-S258-K11",
+      "claim_id": "K11",
+      "source_id": "S258",
+      "corpus_id": "C251",
+      "location": "Phenomenology of Mind",
+      "claim_type": "WORLD_MODEL",
+      "claim": "La Fenomenología conecta estructuras de conciencia individual con instituciones y formas históricas de vida.",
+      "motifs": [
+        "M15",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "31"
+    },
+    {
+      "global_claim_id": "G31-S258-K12",
+      "claim_id": "K12",
+      "source_id": "S258",
+      "corpus_id": "C251",
+      "location": "Phenomenology of Mind",
+      "claim_type": "META",
+      "claim": "La Fenomenología de Hegel es una obra de filosofía especulativa e histórica, no una psicología experimental de estados mentales.",
+      "motifs": [
+        "M14",
+        "M17",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "31"
+    },
+    {
+      "global_claim_id": "G31-S258-K13",
+      "claim_id": "K13",
+      "source_id": "S258",
+      "corpus_id": "C251",
+      "location": "Phenomenology of Mind",
+      "claim_type": "CONTRAST",
+      "claim": "La autoconciencia no se reduce a introspección privada: en Hegel tiene una dimensión relacional y de reconocimiento.",
+      "motifs": [
+        "M04",
+        "M05",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "31"
+    },
+    {
+      "global_claim_id": "G31-S259-K01",
+      "claim_id": "K01",
+      "source_id": "S259",
+      "corpus_id": "C252",
+      "location": "Being and Nothingness",
+      "claim_type": "ONTO",
+      "claim": "Sartre distingue ser-en-sí de ser-para-sí para caracterizar la diferencia entre plenitud de objeto y conciencia que trasciende lo dado.",
+      "motifs": [
+        "M03",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "31"
+    },
+    {
+      "global_claim_id": "G31-S259-K02",
+      "claim_id": "K02",
+      "source_id": "S259",
+      "corpus_id": "C252",
+      "location": "Being and Nothingness",
+      "claim_type": "REFLEXIVITY",
+      "claim": "La conciencia puede tener conciencia prerreflexiva de sí sin convertirse necesariamente en un objeto interno separado.",
+      "motifs": [
+        "M01",
+        "M02",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "31"
+    },
+    {
+      "global_claim_id": "G31-S259-K03",
+      "claim_id": "K03",
+      "source_id": "S259",
+      "corpus_id": "C252",
+      "location": "Being and Nothingness",
+      "claim_type": "NOTHINGNESS",
+      "claim": "La negación y la nada forman parte de la estructura por la que la conciencia no coincide completamente con aquello que ya es.",
+      "motifs": [
+        "M04",
+        "M09"
+      ],
+      "provenance": "P2*",
+      "batch": "31"
+    },
+    {
+      "global_claim_id": "G31-S259-K04",
+      "claim_id": "K04",
+      "source_id": "S259",
+      "corpus_id": "C252",
+      "location": "Being and Nothingness",
+      "claim_type": "TRANSFORMATION",
+      "claim": "El sujeto puede trascender su facticidad mediante proyectos orientados al futuro.",
+      "motifs": [
+        "M12",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "31"
+    },
+    {
+      "global_claim_id": "G31-S259-K05",
+      "claim_id": "K05",
+      "source_id": "S259",
+      "corpus_id": "C252",
+      "location": "Being and Nothingness",
+      "claim_type": "SELF_MODEL",
+      "claim": "Sartre rechaza reducir la subjetividad a un Ego interno estable que explicaría toda conciencia.",
+      "motifs": [
+        "M02",
+        "M16"
+      ],
+      "provenance": "P2*",
+      "batch": "31"
+    },
+    {
+      "global_claim_id": "G31-S259-K06",
+      "claim_id": "K06",
+      "source_id": "S259",
+      "corpus_id": "C252",
+      "location": "Being and Nothingness",
+      "claim_type": "FREEDOM",
+      "claim": "La conciencia es descrita como libertad situada, condicionada por circunstancias pero no totalmente determinada por ellas.",
+      "motifs": [
+        "M10",
+        "M12"
+      ],
+      "provenance": "P2*",
+      "batch": "31"
+    },
+    {
+      "global_claim_id": "G31-S259-K07",
+      "claim_id": "K07",
+      "source_id": "S259",
+      "corpus_id": "C252",
+      "location": "Being and Nothingness",
+      "claim_type": "STATE",
+      "claim": "Angustia, mala fe y otras modalidades muestran diferentes maneras de relacionarse con la propia libertad y situación.",
+      "motifs": [
+        "M07",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "31"
+    },
+    {
+      "global_claim_id": "G31-S259-K08",
+      "claim_id": "K08",
+      "source_id": "S259",
+      "corpus_id": "C252",
+      "location": "Being and Nothingness",
+      "claim_type": "RELATION",
+      "claim": "El otro introduce una perspectiva que modifica cómo el sujeto se comprende y aparece ante sí mismo.",
+      "motifs": [
+        "M05",
+        "M16"
+      ],
+      "provenance": "P2*",
+      "batch": "31"
+    },
+    {
+      "global_claim_id": "G31-S259-K09",
+      "claim_id": "K09",
+      "source_id": "S259",
+      "corpus_id": "C252",
+      "location": "Being and Nothingness",
+      "claim_type": "EMBODIMENT",
+      "claim": "Cuerpo, acción y situación forman parte de la estructura concreta de la existencia para-sí.",
+      "motifs": [
+        "M08",
+        "M16"
+      ],
+      "provenance": "P2*",
+      "batch": "31"
+    },
+    {
+      "global_claim_id": "G31-S259-K10",
+      "claim_id": "K10",
+      "source_id": "S259",
+      "corpus_id": "C252",
+      "location": "Being and Nothingness",
+      "claim_type": "TEMPORAL",
+      "claim": "El para-sí se articula temporalmente entre facticidad pasada, presencia y proyectos futuros.",
+      "motifs": [
+        "M11",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "31"
+    },
+    {
+      "global_claim_id": "G31-S259-K11",
+      "claim_id": "K11",
+      "source_id": "S259",
+      "corpus_id": "C252",
+      "location": "Being and Nothingness",
+      "claim_type": "ATTENTION",
+      "claim": "La conciencia puede adoptar una actitud reflexiva o quedar absorbida en prácticas y roles dentro del mundo.",
+      "motifs": [
+        "M06",
+        "M24"
+      ],
+      "provenance": "P2*",
+      "batch": "31"
+    },
+    {
+      "global_claim_id": "G31-S259-K12",
+      "claim_id": "K12",
+      "source_id": "S259",
+      "corpus_id": "C252",
+      "location": "Being and Nothingness",
+      "claim_type": "META",
+      "claim": "Being and Nothingness es una ontología fenomenológica existencial; no constituye una teoría empírica completa sobre el cerebro.",
+      "motifs": [
+        "M14",
+        "M17",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "31"
+    },
+    {
+      "global_claim_id": "G31-S259-K13",
+      "claim_id": "K13",
+      "source_id": "S259",
+      "corpus_id": "C252",
+      "location": "Being and Nothingness",
+      "claim_type": "CONTRAST",
+      "claim": "La mala fe no se explica simplemente como una mentira interna producida por dos agentes separados dentro de la mente.",
+      "motifs": [
+        "M04",
+        "M02",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "31"
+    },
+    {
+      "global_claim_id": "G31-S260-K01",
+      "claim_id": "K01",
+      "source_id": "S260",
+      "corpus_id": "C253",
+      "location": "Concept of Anxiety",
+      "claim_type": "STATE",
+      "claim": "Kierkegaard trata la ansiedad como una condición existencial vinculada con la posibilidad y la libertad.",
+      "motifs": [
+        "M07",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "31"
+    },
+    {
+      "global_claim_id": "G31-S260-K02",
+      "claim_id": "K02",
+      "source_id": "S260",
+      "corpus_id": "C253",
+      "location": "Concept of Anxiety",
+      "claim_type": "REFLEXIVITY",
+      "claim": "La ansiedad surge cuando el individuo se enfrenta reflexivamente con sus propias posibilidades de actuar.",
+      "motifs": [
+        "M02",
+        "M06",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "31"
+    },
+    {
+      "global_claim_id": "G31-S260-K03",
+      "claim_id": "K03",
+      "source_id": "S260",
+      "corpus_id": "C253",
+      "location": "Concept of Anxiety",
+      "claim_type": "FREEDOM",
+      "claim": "La libertad no aparece sólo como elección tranquila, sino también como vértigo ante posibilidades abiertas.",
+      "motifs": [
+        "M10",
+        "M12"
+      ],
+      "provenance": "P2*",
+      "batch": "31"
+    },
+    {
+      "global_claim_id": "G31-S260-K04",
+      "claim_id": "K04",
+      "source_id": "S260",
+      "corpus_id": "C253",
+      "location": "Concept of Anxiety",
+      "claim_type": "TRANSFORMATION",
+      "claim": "Aprender a relacionarse adecuadamente con la ansiedad puede modificar la relación del individuo con libertad y responsabilidad.",
+      "motifs": [
+        "M12",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "31"
+    },
+    {
+      "global_claim_id": "G31-S260-K05",
+      "claim_id": "K05",
+      "source_id": "S260",
+      "corpus_id": "C253",
+      "location": "Concept of Anxiety",
+      "claim_type": "PERSON",
+      "claim": "El individuo se constituye mediante una relación dinámica entre cuerpo, psique y espíritu.",
+      "motifs": [
+        "M02",
+        "M08",
+        "M16"
+      ],
+      "provenance": "P2*",
+      "batch": "31"
+    },
+    {
+      "global_claim_id": "G31-S260-K06",
+      "claim_id": "K06",
+      "source_id": "S260",
+      "corpus_id": "C253",
+      "location": "Concept of Anxiety",
+      "claim_type": "TEMPORAL",
+      "claim": "La posibilidad futura afecta el presente al abrir cursos de acción aún no realizados.",
+      "motifs": [
+        "M11",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "31"
+    },
+    {
+      "global_claim_id": "G31-S260-K07",
+      "claim_id": "K07",
+      "source_id": "S260",
+      "corpus_id": "C253",
+      "location": "Concept of Anxiety",
+      "claim_type": "VALENCE",
+      "claim": "Ansiedad no es simplemente una patología: puede revelar una condición estructural de la existencia.",
+      "motifs": [
+        "M10",
+        "M14"
+      ],
+      "provenance": "P2*",
+      "batch": "31"
+    },
+    {
+      "global_claim_id": "G31-S260-K08",
+      "claim_id": "K08",
+      "source_id": "S260",
+      "corpus_id": "C253",
+      "location": "Concept of Anxiety",
+      "claim_type": "ATTENTION",
+      "claim": "La experiencia de ansiedad concentra la conciencia sobre posibilidades que normalmente permanecen implícitas.",
+      "motifs": [
+        "M06",
+        "M24"
+      ],
+      "provenance": "P2*",
+      "batch": "31"
+    },
+    {
+      "global_claim_id": "G31-S260-K09",
+      "claim_id": "K09",
+      "source_id": "S260",
+      "corpus_id": "C253",
+      "location": "Concept of Anxiety",
+      "claim_type": "RELATION",
+      "claim": "La libertad del individuo se encuentra situada frente a normas, pecado, responsabilidad y comunidad.",
+      "motifs": [
+        "M05",
+        "M16"
+      ],
+      "provenance": "P2*",
+      "batch": "31"
+    },
+    {
+      "global_claim_id": "G31-S260-K10",
+      "claim_id": "K10",
+      "source_id": "S260",
+      "corpus_id": "C253",
+      "location": "Concept of Anxiety",
+      "claim_type": "DYNAMICS",
+      "claim": "La ansiedad marca una tensión entre atracción y rechazo ante una posibilidad, no una simple reacción a un objeto determinado.",
+      "motifs": [
+        "M04",
+        "M09"
+      ],
+      "provenance": "P2*",
+      "batch": "31"
+    },
+    {
+      "global_claim_id": "G31-S260-K11",
+      "claim_id": "K11",
+      "source_id": "S260",
+      "corpus_id": "C253",
+      "location": "Concept of Anxiety",
+      "claim_type": "META",
+      "claim": "Concept of Anxiety es una investigación filosófico-teológica de la existencia y la libertad, no una definición clínica moderna de ansiedad.",
+      "motifs": [
+        "M14",
+        "M17",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "31"
+    },
+    {
+      "global_claim_id": "G31-S260-K12",
+      "claim_id": "K12",
+      "source_id": "S260",
+      "corpus_id": "C253",
+      "location": "Concept of Anxiety",
+      "claim_type": "PRACTICE",
+      "claim": "La obra no ofrece una técnica terapéutica neutral, sino una reflexión sobre cómo el individuo aprende a habitar su propia libertad.",
+      "motifs": [
+        "M24",
+        "M25"
+      ],
+      "provenance": "P2*",
+      "batch": "31"
+    },
+    {
+      "global_claim_id": "G31-S260-K13",
+      "claim_id": "K13",
+      "source_id": "S260",
+      "corpus_id": "C253",
+      "location": "Concept of Anxiety",
+      "claim_type": "CONTRAST",
+      "claim": "Kierkegaard distingue ansiedad existencial de una explicación puramente causal o médica del fenómeno.",
+      "motifs": [
+        "M04",
+        "M14",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "31"
+    },
+    {
+      "global_claim_id": "G31-S261-K01",
+      "claim_id": "K01",
+      "source_id": "S261",
+      "corpus_id": "C254",
+      "location": "Sickness Unto Death",
+      "claim_type": "SELF_MODEL",
+      "claim": "El self es descrito como una relación que se relaciona consigo misma, no simplemente como una cosa sustancial.",
+      "motifs": [
+        "M02",
+        "M16",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "31"
+    },
+    {
+      "global_claim_id": "G31-S261-K02",
+      "claim_id": "K02",
+      "source_id": "S261",
+      "corpus_id": "C254",
+      "location": "Sickness Unto Death",
+      "claim_type": "RELATION",
+      "claim": "El yo se comprende también por su relación con aquello que lo fundamenta, culminando en la relación con Dios dentro de la obra.",
+      "motifs": [
+        "M05",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "31"
+    },
+    {
+      "global_claim_id": "G31-S261-K03",
+      "claim_id": "K03",
+      "source_id": "S261",
+      "corpus_id": "C254",
+      "location": "Sickness Unto Death",
+      "claim_type": "STATE",
+      "claim": "Desesperación adopta formas diferentes según el sujeto no quiera ser sí mismo, no sepa que lo es o pretenda fundarse por sí mismo.",
+      "motifs": [
+        "M07",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "31"
+    },
+    {
+      "global_claim_id": "G31-S261-K04",
+      "claim_id": "K04",
+      "source_id": "S261",
+      "corpus_id": "C254",
+      "location": "Sickness Unto Death",
+      "claim_type": "REFLEXIVITY",
+      "claim": "La desesperación puede permanecer sin ser reconocida, de modo que autoconocimiento y conciencia del propio estado son centrales.",
+      "motifs": [
+        "M02",
+        "M06",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "31"
+    },
+    {
+      "global_claim_id": "G31-S261-K05",
+      "claim_id": "K05",
+      "source_id": "S261",
+      "corpus_id": "C254",
+      "location": "Sickness Unto Death",
+      "claim_type": "TRANSFORMATION",
+      "claim": "La resolución de la desesperación supone una modificación profunda de la relación con el propio self.",
+      "motifs": [
+        "M12",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "31"
+    },
+    {
+      "global_claim_id": "G31-S261-K06",
+      "claim_id": "K06",
+      "source_id": "S261",
+      "corpus_id": "C254",
+      "location": "Sickness Unto Death",
+      "claim_type": "UNITY",
+      "claim": "La persona es una síntesis de finitud/infinidad, temporalidad/eternidad y necesidad/posibilidad que requiere integración.",
+      "motifs": [
+        "M03",
+        "M04"
+      ],
+      "provenance": "P2*",
+      "batch": "31"
+    },
+    {
+      "global_claim_id": "G31-S261-K07",
+      "claim_id": "K07",
+      "source_id": "S261",
+      "corpus_id": "C254",
+      "location": "Sickness Unto Death",
+      "claim_type": "TEMPORAL",
+      "claim": "La relación entre posibilidad y necesidad estructura la existencia a través del tiempo.",
+      "motifs": [
+        "M11",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "31"
+    },
+    {
+      "global_claim_id": "G31-S261-K08",
+      "claim_id": "K08",
+      "source_id": "S261",
+      "corpus_id": "C254",
+      "location": "Sickness Unto Death",
+      "claim_type": "VALENCE",
+      "claim": "Ser un self equilibrado y orientado correctamente tiene valor existencial; desesperación expresa una relación defectuosa consigo.",
+      "motifs": [
+        "M10",
+        "M12"
+      ],
+      "provenance": "P2*",
+      "batch": "31"
+    },
+    {
+      "global_claim_id": "G31-S261-K09",
+      "claim_id": "K09",
+      "source_id": "S261",
+      "corpus_id": "C254",
+      "location": "Sickness Unto Death",
+      "claim_type": "PERSON",
+      "claim": "La singularidad del individuo es inseparable de su responsabilidad y tarea existencial.",
+      "motifs": [
+        "M05",
+        "M16"
+      ],
+      "provenance": "P2*",
+      "batch": "31"
+    },
+    {
+      "global_claim_id": "G31-S261-K10",
+      "claim_id": "K10",
+      "source_id": "S261",
+      "corpus_id": "C254",
+      "location": "Sickness Unto Death",
+      "claim_type": "ATTENTION",
+      "claim": "Reconocer formas de desesperación requiere atención a las propias actitudes y modos de querer ser.",
+      "motifs": [
+        "M06",
+        "M24"
+      ],
+      "provenance": "P2*",
+      "batch": "31"
+    },
+    {
+      "global_claim_id": "G31-S261-K11",
+      "claim_id": "K11",
+      "source_id": "S261",
+      "corpus_id": "C254",
+      "location": "Sickness Unto Death",
+      "claim_type": "META",
+      "claim": "Sickness Unto Death es una antropología teológica existencial, no una taxonomía psiquiátrica de depresión.",
+      "motifs": [
+        "M14",
+        "M17",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "31"
+    },
+    {
+      "global_claim_id": "G31-S261-K12",
+      "claim_id": "K12",
+      "source_id": "S261",
+      "corpus_id": "C254",
+      "location": "Sickness Unto Death",
+      "claim_type": "DEATH",
+      "claim": "La 'enfermedad hasta la muerte' utiliza muerte y desesperación como categorías existenciales, no como descripción literal de una enfermedad mortal.",
+      "motifs": [
+        "M19",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "31"
+    },
+    {
+      "global_claim_id": "G31-S261-K13",
+      "claim_id": "K13",
+      "source_id": "S261",
+      "corpus_id": "C254",
+      "location": "Sickness Unto Death",
+      "claim_type": "CONTRAST",
+      "claim": "Kierkegaard sostiene que la ausencia de desesperación aparente no garantiza que el self esté integrado o consciente de sí.",
+      "motifs": [
+        "M04",
+        "M02",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "31"
+    },
+    {
+      "global_claim_id": "G31-S262-K01",
+      "claim_id": "K01",
+      "source_id": "S262",
+      "corpus_id": "C255",
+      "location": "Process and Reality",
+      "claim_type": "ONTO",
+      "claim": "Whitehead reemplaza sustancias estáticas por ocasiones actuales como unidades básicas de un mundo procesual.",
+      "motifs": [
+        "M03",
+        "M09"
+      ],
+      "provenance": "P2*",
+      "batch": "31"
+    },
+    {
+      "global_claim_id": "G31-S262-K02",
+      "claim_id": "K02",
+      "source_id": "S262",
+      "corpus_id": "C255",
+      "location": "Process and Reality",
+      "claim_type": "PREHENSION",
+      "claim": "Una ocasión actual incorpora datos de otras ocasiones mediante prehensiones, formando una unidad nueva.",
+      "motifs": [
+        "M05",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "31"
+    },
+    {
+      "global_claim_id": "G31-S262-K03",
+      "claim_id": "K03",
+      "source_id": "S262",
+      "corpus_id": "C255",
+      "location": "Process and Reality",
+      "claim_type": "CONCRESCENCE",
+      "claim": "La concrescencia describe el proceso por el cual múltiples datos y sentimientos llegan a una unidad actual.",
+      "motifs": [
+        "M09",
+        "M12"
+      ],
+      "provenance": "P2*",
+      "batch": "31"
+    },
+    {
+      "global_claim_id": "G31-S262-K04",
+      "claim_id": "K04",
+      "source_id": "S262",
+      "corpus_id": "C255",
+      "location": "Process and Reality",
+      "claim_type": "EXPERIENCE",
+      "claim": "Whitehead atribuye una forma de experiencia a las ocasiones actuales, sin igualarla automáticamente con conciencia humana.",
+      "motifs": [
+        "M01",
+        "M07"
+      ],
+      "provenance": "P2*",
+      "batch": "31"
+    },
+    {
+      "global_claim_id": "G31-S262-K05",
+      "claim_id": "K05",
+      "source_id": "S262",
+      "corpus_id": "C255",
+      "location": "Process and Reality",
+      "claim_type": "TEMPORAL",
+      "claim": "Cada ocasión surge a partir de un pasado que condiciona su devenir y produce una nueva actualidad.",
+      "motifs": [
+        "M11",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "31"
+    },
+    {
+      "global_claim_id": "G31-S262-K06",
+      "claim_id": "K06",
+      "source_id": "S262",
+      "corpus_id": "C255",
+      "location": "Process and Reality",
+      "claim_type": "SELF_MODEL",
+      "claim": "La subjetividad de una ocasión incluye una forma de integración de cómo sus datos son sentidos y valorados.",
+      "motifs": [
+        "M02",
+        "M09"
+      ],
+      "provenance": "P2*",
+      "batch": "31"
+    },
+    {
+      "global_claim_id": "G31-S262-K07",
+      "claim_id": "K07",
+      "source_id": "S262",
+      "corpus_id": "C255",
+      "location": "Process and Reality",
+      "claim_type": "VALENCE",
+      "claim": "La forma subjetiva de una ocasión incluye valoración de alternativas y de cómo los datos son integrados.",
+      "motifs": [
+        "M10",
+        "M12"
+      ],
+      "provenance": "P2*",
+      "batch": "31"
+    },
+    {
+      "global_claim_id": "G31-S262-K08",
+      "claim_id": "K08",
+      "source_id": "S262",
+      "corpus_id": "C255",
+      "location": "Process and Reality",
+      "claim_type": "TRANSFORMATION",
+      "claim": "El devenir consiste en transformar muchos datos heredados en una nueva unidad con un carácter propio.",
+      "motifs": [
+        "M12",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "31"
+    },
+    {
+      "global_claim_id": "G31-S262-K09",
+      "claim_id": "K09",
+      "source_id": "S262",
+      "corpus_id": "C255",
+      "location": "Process and Reality",
+      "claim_type": "RELATION",
+      "claim": "Las entidades actuales son internamente relacionales: cada ocasión incorpora aspectos de su mundo antecedente.",
+      "motifs": [
+        "M05",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "31"
+    },
+    {
+      "global_claim_id": "G31-S262-K10",
+      "claim_id": "K10",
+      "source_id": "S262",
+      "corpus_id": "C255",
+      "location": "Process and Reality",
+      "claim_type": "CAUSAL",
+      "claim": "La causalidad incluye influencia del pasado y un componente de auto-determinación dentro del proceso de devenir.",
+      "motifs": [
+        "M09",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "31"
+    },
+    {
+      "global_claim_id": "G31-S262-K11",
+      "claim_id": "K11",
+      "source_id": "S262",
+      "corpus_id": "C255",
+      "location": "Process and Reality",
+      "claim_type": "UNITY",
+      "claim": "'Los muchos se convierten en uno' expresa la integración procesual de multiplicidad en nuevas entidades.",
+      "motifs": [
+        "M03",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "31"
+    },
+    {
+      "global_claim_id": "G31-S262-K12",
+      "claim_id": "K12",
+      "source_id": "S262",
+      "corpus_id": "C255",
+      "location": "Process and Reality",
+      "claim_type": "META",
+      "claim": "Process and Reality es una metafísica de procesos; sus nociones de experiencia y prehensión no deben tratarse como resultados experimentales directos.",
+      "motifs": [
+        "M14",
+        "M17",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "31"
+    },
+    {
+      "global_claim_id": "G31-S262-K13",
+      "claim_id": "K13",
+      "source_id": "S262",
+      "corpus_id": "C255",
+      "location": "Process and Reality",
+      "claim_type": "CONTRAST",
+      "claim": "Whitehead distingue experiencia de conciencia: la primera puede ser más fundamental, mientras la conciencia es una forma más desarrollada.",
+      "motifs": [
+        "M04",
+        "M01",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "31"
+    },
+    {
+      "global_claim_id": "G31-S263-K01",
+      "claim_id": "K01",
+      "source_id": "S263",
+      "corpus_id": "C256",
+      "location": "The Embodied Mind",
+      "claim_type": "EMBODIMENT",
+      "claim": "La cognición se presenta como inseparable de la actividad corporal y de la interacción con el entorno.",
+      "motifs": [
+        "M08",
+        "M16",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "31"
+    },
+    {
+      "global_claim_id": "G31-S263-K02",
+      "claim_id": "K02",
+      "source_id": "S263",
+      "corpus_id": "C256",
+      "location": "The Embodied Mind",
+      "claim_type": "ENACTION",
+      "claim": "El enfoque enactivo entiende el mundo cognitivo como algo que emerge en y mediante la acción del organismo.",
+      "motifs": [
+        "M03",
+        "M05",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "31"
+    },
+    {
+      "global_claim_id": "G31-S263-K03",
+      "claim_id": "K03",
+      "source_id": "S263",
+      "corpus_id": "C256",
+      "location": "The Embodied Mind",
+      "claim_type": "PERCEPTION",
+      "claim": "Percibir no equivale simplemente a construir una copia interna de un mundo externo independiente.",
+      "motifs": [
+        "M01",
+        "M05"
+      ],
+      "provenance": "P2*",
+      "batch": "31"
+    },
+    {
+      "global_claim_id": "G31-S263-K04",
+      "claim_id": "K04",
+      "source_id": "S263",
+      "corpus_id": "C256",
+      "location": "The Embodied Mind",
+      "claim_type": "STATE",
+      "claim": "La experiencia consciente puede estudiarse desde la primera persona y en relación con prácticas contemplativas.",
+      "motifs": [
+        "M07",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "31"
+    },
+    {
+      "global_claim_id": "G31-S263-K05",
+      "claim_id": "K05",
+      "source_id": "S263",
+      "corpus_id": "C256",
+      "location": "The Embodied Mind",
+      "claim_type": "PRACTICE",
+      "claim": "Prácticas budistas, especialmente mindfulness, se incorporan como recursos para investigar experiencia y mente.",
+      "motifs": [
+        "M24",
+        "M25"
+      ],
+      "provenance": "P2*",
+      "batch": "31"
+    },
+    {
+      "global_claim_id": "G31-S263-K06",
+      "claim_id": "K06",
+      "source_id": "S263",
+      "corpus_id": "C256",
+      "location": "The Embodied Mind",
+      "claim_type": "REFLEXIVITY",
+      "claim": "El conocimiento de la mente incluye examinar directamente la experiencia vivida y no sólo modelos de tercera persona.",
+      "motifs": [
+        "M02",
+        "M06",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "31"
+    },
+    {
+      "global_claim_id": "G31-S263-K07",
+      "claim_id": "K07",
+      "source_id": "S263",
+      "corpus_id": "C256",
+      "location": "The Embodied Mind",
+      "claim_type": "TRANSFORMATION",
+      "claim": "La ciencia cognitiva puede incluir posibilidades de transformación de la experiencia humana como parte de su objeto.",
+      "motifs": [
+        "M12",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "31"
+    },
+    {
+      "global_claim_id": "G31-S263-K08",
+      "claim_id": "K08",
+      "source_id": "S263",
+      "corpus_id": "C256",
+      "location": "The Embodied Mind",
+      "claim_type": "RELATION",
+      "claim": "Organismo y ambiente se co-determinan en un proceso cognitivo dinámico.",
+      "motifs": [
+        "M05",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "31"
+    },
+    {
+      "global_claim_id": "G31-S263-K09",
+      "claim_id": "K09",
+      "source_id": "S263",
+      "corpus_id": "C256",
+      "location": "The Embodied Mind",
+      "claim_type": "SELF_MODEL",
+      "claim": "El sentido de self puede entenderse como dependiente de procesos corporales, experienciales y relacionales, no como entidad aislada.",
+      "motifs": [
+        "M02",
+        "M08",
+        "M16"
+      ],
+      "provenance": "P2*",
+      "batch": "31"
+    },
+    {
+      "global_claim_id": "G31-S263-K10",
+      "claim_id": "K10",
+      "source_id": "S263",
+      "corpus_id": "C256",
+      "location": "The Embodied Mind",
+      "claim_type": "ATTENTION",
+      "claim": "La práctica contemplativa permite investigar cómo la atención organiza el campo de experiencia.",
+      "motifs": [
+        "M06",
+        "M24"
+      ],
+      "provenance": "P2*",
+      "batch": "31"
+    },
+    {
+      "global_claim_id": "G31-S263-K11",
+      "claim_id": "K11",
+      "source_id": "S263",
+      "corpus_id": "C256",
+      "location": "The Embodied Mind",
+      "claim_type": "UNITY",
+      "claim": "Fenomenología, ciencia cognitiva y práctica contemplativa se conectan dentro de una investigación interdisciplinaria.",
+      "motifs": [
+        "M03",
+        "M17",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "31"
+    },
+    {
+      "global_claim_id": "G31-S263-K12",
+      "claim_id": "K12",
+      "source_id": "S263",
+      "corpus_id": "C256",
+      "location": "The Embodied Mind",
+      "claim_type": "META",
+      "claim": "The Embodied Mind fue pionero del enfoque enactivo y del diálogo entre ciencia cognitiva y experiencia; no toda tesis del libro equivale a consenso científico contemporáneo.",
+      "motifs": [
+        "M14",
+        "M17",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "31"
+    },
+    {
+      "global_claim_id": "G31-S263-K13",
+      "claim_id": "K13",
+      "source_id": "S263",
+      "corpus_id": "C256",
+      "location": "The Embodied Mind",
+      "claim_type": "CONTRAST",
+      "claim": "El enactivismo evita reducir cognición a representación interna estática y tampoco identifica automáticamente experiencia con actividad cerebral aislada.",
+      "motifs": [
+        "M04",
+        "M05",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "31"
+    },
+    {
+      "global_claim_id": "G31-S264-K01",
+      "claim_id": "K01",
+      "source_id": "S264",
+      "corpus_id": "C257",
+      "location": "Mind in Life",
+      "claim_type": "ONTO",
+      "claim": "Thompson vincula vida y mente mediante la organización autónoma y la producción de sentido de los organismos.",
+      "motifs": [
+        "M03",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "31"
+    },
+    {
+      "global_claim_id": "G31-S264-K02",
+      "claim_id": "K02",
+      "source_id": "S264",
+      "corpus_id": "C257",
+      "location": "Mind in Life",
+      "claim_type": "AUTOPOIESIS",
+      "claim": "La autopoiesis describe sistemas vivos que mantienen y producen su propia organización mediante redes de procesos.",
+      "motifs": [
+        "M09",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "31"
+    },
+    {
+      "global_claim_id": "G31-S264-K03",
+      "claim_id": "K03",
+      "source_id": "S264",
+      "corpus_id": "C257",
+      "location": "Mind in Life",
+      "claim_type": "SENSE-MAKING",
+      "claim": "La cognición básica puede entenderse como capacidad de un organismo de distinguir y valorar aspectos del entorno según sus propias necesidades.",
+      "motifs": [
+        "M10",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "31"
+    },
+    {
+      "global_claim_id": "G31-S264-K04",
+      "claim_id": "K04",
+      "source_id": "S264",
+      "corpus_id": "C257",
+      "location": "Mind in Life",
+      "claim_type": "EMBODIMENT",
+      "claim": "La mente se interpreta desde la vida corporal y la regulación del organismo, no como proceso desencarnado.",
+      "motifs": [
+        "M08",
+        "M16"
+      ],
+      "provenance": "P2*",
+      "batch": "31"
+    },
+    {
+      "global_claim_id": "G31-S264-K05",
+      "claim_id": "K05",
+      "source_id": "S264",
+      "corpus_id": "C257",
+      "location": "Mind in Life",
+      "claim_type": "STATE",
+      "claim": "Diferentes grados de organización vital pueden sostener diferentes formas de cognición y experiencia.",
+      "motifs": [
+        "M07",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "31"
+    },
+    {
+      "global_claim_id": "G31-S264-K06",
+      "claim_id": "K06",
+      "source_id": "S264",
+      "corpus_id": "C257",
+      "location": "Mind in Life",
+      "claim_type": "TRANSFORMATION",
+      "claim": "El desarrollo de organismos implica cambios de organización y de relaciones de sentido con el entorno.",
+      "motifs": [
+        "M12",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "31"
+    },
+    {
+      "global_claim_id": "G31-S264-K07",
+      "claim_id": "K07",
+      "source_id": "S264",
+      "corpus_id": "C257",
+      "location": "Mind in Life",
+      "claim_type": "RELATION",
+      "claim": "Organismo y ambiente forman un sistema acoplado cuya dinámica influye en la cognición.",
+      "motifs": [
+        "M05",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "31"
+    },
+    {
+      "global_claim_id": "G31-S264-K08",
+      "claim_id": "K08",
+      "source_id": "S264",
+      "corpus_id": "C257",
+      "location": "Mind in Life",
+      "claim_type": "SELF_MODEL",
+      "claim": "La autonomía biológica proporciona una base para hablar de un sí mismo mínimo como sistema que se mantiene a sí mismo.",
+      "motifs": [
+        "M02",
+        "M16"
+      ],
+      "provenance": "P2*",
+      "batch": "31"
+    },
+    {
+      "global_claim_id": "G31-S264-K09",
+      "claim_id": "K09",
+      "source_id": "S264",
+      "corpus_id": "C257",
+      "location": "Mind in Life",
+      "claim_type": "VALENCE",
+      "claim": "El sense-making tiene una dimensión normativa porque ciertas condiciones cuentan como favorables o desfavorables para el organismo.",
+      "motifs": [
+        "M10",
+        "M12"
+      ],
+      "provenance": "P2*",
+      "batch": "31"
+    },
+    {
+      "global_claim_id": "G31-S264-K10",
+      "claim_id": "K10",
+      "source_id": "S264",
+      "corpus_id": "C257",
+      "location": "Mind in Life",
+      "claim_type": "TEMPORAL",
+      "claim": "La organización viviente se mantiene a través de procesos temporales continuos de regulación y metabolismo.",
+      "motifs": [
+        "M11",
+        "M09"
+      ],
+      "provenance": "P2*",
+      "batch": "31"
+    },
+    {
+      "global_claim_id": "G31-S264-K11",
+      "claim_id": "K11",
+      "source_id": "S264",
+      "corpus_id": "C257",
+      "location": "Mind in Life",
+      "claim_type": "ATTENTION",
+      "claim": "En organismos con sistemas nerviosos complejos, selección y regulación pueden ampliar las formas de orientación hacia el entorno.",
+      "motifs": [
+        "M06",
+        "M24"
+      ],
+      "provenance": "P2*",
+      "batch": "31"
+    },
+    {
+      "global_claim_id": "G31-S264-K12",
+      "claim_id": "K12",
+      "source_id": "S264",
+      "corpus_id": "C257",
+      "location": "Mind in Life",
+      "claim_type": "META",
+      "claim": "Mind in Life es una síntesis filosófica y científica sobre vida y mente; no afirma que toda forma de vida posea conciencia fenomenal humana.",
+      "motifs": [
+        "M14",
+        "M17",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "31"
+    },
+    {
+      "global_claim_id": "G31-S264-K13",
+      "claim_id": "K13",
+      "source_id": "S264",
+      "corpus_id": "C257",
+      "location": "Mind in Life",
+      "claim_type": "CONTRAST",
+      "claim": "Thompson distingue autopoiesis, cognición básica y conciencia, evitando identificar estos niveles sin argumentos adicionales.",
+      "motifs": [
+        "M04",
+        "M01",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "31"
+    },
+    {
+      "global_claim_id": "G31-S265-K01",
+      "claim_id": "K01",
+      "source_id": "S265",
+      "corpus_id": "C258",
+      "location": "Subjectivity and Selfhood",
+      "claim_type": "SELF_MODEL",
+      "claim": "Zahavi defiende una noción mínima de self ligada a la estructura en primera persona de la experiencia.",
+      "motifs": [
+        "M02",
+        "M16"
+      ],
+      "provenance": "P2*",
+      "batch": "31"
+    },
+    {
+      "global_claim_id": "G31-S265-K02",
+      "claim_id": "K02",
+      "source_id": "S265",
+      "corpus_id": "C258",
+      "location": "Subjectivity and Selfhood",
+      "claim_type": "AWARENESS",
+      "claim": "La conciencia de sí puede estar incorporada en la experiencia sin requerir una observación reflexiva posterior de uno mismo.",
+      "motifs": [
+        "M01",
+        "M02"
+      ],
+      "provenance": "P2*",
+      "batch": "31"
+    },
+    {
+      "global_claim_id": "G31-S265-K03",
+      "claim_id": "K03",
+      "source_id": "S265",
+      "corpus_id": "C258",
+      "location": "Subjectivity and Selfhood",
+      "claim_type": "REFLEXIVITY",
+      "claim": "Zahavi distingue autoconciencia prerreflexiva de reflexión explícita sobre la propia experiencia.",
+      "motifs": [
+        "M02",
+        "M06",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "31"
+    },
+    {
+      "global_claim_id": "G31-S265-K04",
+      "claim_id": "K04",
+      "source_id": "S265",
+      "corpus_id": "C258",
+      "location": "Subjectivity and Selfhood",
+      "claim_type": "STATE",
+      "claim": "Percepción, memoria y otros actos pueden poseer una dimensión de primera persona sin constituir necesariamente un yo narrativo completo.",
+      "motifs": [
+        "M07",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "31"
+    },
+    {
+      "global_claim_id": "G31-S265-K05",
+      "claim_id": "K05",
+      "source_id": "S265",
+      "corpus_id": "C258",
+      "location": "Subjectivity and Selfhood",
+      "claim_type": "RELATION",
+      "claim": "La experiencia propia se relaciona con alteridad y con otros sujetos dentro de una estructura intersubjetiva.",
+      "motifs": [
+        "M05",
+        "M16"
+      ],
+      "provenance": "P2*",
+      "batch": "31"
+    },
+    {
+      "global_claim_id": "G31-S265-K06",
+      "claim_id": "K06",
+      "source_id": "S265",
+      "corpus_id": "C258",
+      "location": "Subjectivity and Selfhood",
+      "claim_type": "EMBODIMENT",
+      "claim": "La experiencia subjetiva está situada y puede incluir una dimensión corporal pre-reflexiva.",
+      "motifs": [
+        "M08",
+        "M16"
+      ],
+      "provenance": "P2*",
+      "batch": "31"
+    },
+    {
+      "global_claim_id": "G31-S265-K07",
+      "claim_id": "K07",
+      "source_id": "S265",
+      "corpus_id": "C258",
+      "location": "Subjectivity and Selfhood",
+      "claim_type": "TEMPORAL",
+      "claim": "La conciencia conserva continuidad de perspectiva a través de una corriente temporal de experiencias.",
+      "motifs": [
+        "M11",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "31"
+    },
+    {
+      "global_claim_id": "G31-S265-K08",
+      "claim_id": "K08",
+      "source_id": "S265",
+      "corpus_id": "C258",
+      "location": "Subjectivity and Selfhood",
+      "claim_type": "UNITY",
+      "claim": "El self mínimo proporciona continuidad experiencial sin exigir una sustancia metafísica simple.",
+      "motifs": [
+        "M03",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "31"
+    },
+    {
+      "global_claim_id": "G31-S265-K09",
+      "claim_id": "K09",
+      "source_id": "S265",
+      "corpus_id": "C258",
+      "location": "Subjectivity and Selfhood",
+      "claim_type": "TRANSFORMATION",
+      "claim": "La reflexión puede cambiar la descripción que hacemos del self, pero no crea desde cero la dimensión de primera persona.",
+      "motifs": [
+        "M12",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "31"
+    },
+    {
+      "global_claim_id": "G31-S265-K10",
+      "claim_id": "K10",
+      "source_id": "S265",
+      "corpus_id": "C258",
+      "location": "Subjectivity and Selfhood",
+      "claim_type": "ATTENTION",
+      "claim": "La atención puede focalizar un contenido sin convertir automáticamente al sujeto de experiencia en objeto temático.",
+      "motifs": [
+        "M06",
+        "M24"
+      ],
+      "provenance": "P2*",
+      "batch": "31"
+    },
+    {
+      "global_claim_id": "G31-S265-K11",
+      "claim_id": "K11",
+      "source_id": "S265",
+      "corpus_id": "C258",
+      "location": "Subjectivity and Selfhood",
+      "claim_type": "META",
+      "claim": "Subjectivity and Selfhood es filosofía fenomenológica sobre el self y la primera persona, no una teoría neurocientífica exhaustiva.",
+      "motifs": [
+        "M14",
+        "M17",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "31"
+    },
+    {
+      "global_claim_id": "G31-S265-K12",
+      "claim_id": "K12",
+      "source_id": "S265",
+      "corpus_id": "C258",
+      "location": "Subjectivity and Selfhood",
+      "claim_type": "CONTRAST",
+      "claim": "Zahavi distingue self mínimo, self narrativo y concepciones objetivantes del self, evitando identificarlos como una sola entidad.",
+      "motifs": [
+        "M04",
+        "M02",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "31"
+    },
+    {
+      "global_claim_id": "G31-S265-K13",
+      "claim_id": "K13",
+      "source_id": "S265",
+      "corpus_id": "C258",
+      "location": "Subjectivity and Selfhood",
+      "claim_type": "PERSON",
+      "claim": "La noción de persona puede incluir continuidad primera-personal sin reducirse a una biografía narrativa completa.",
+      "motifs": [
+        "M05",
+        "M16"
+      ],
+      "provenance": "P2*",
+      "batch": "31"
+    },
+    {
+      "global_claim_id": "G31-S266-K01",
+      "claim_id": "K01",
+      "source_id": "S266",
+      "corpus_id": "C259",
+      "location": "The Ego Tunnel",
+      "claim_type": "SELF_MODEL",
+      "claim": "La experiencia de ser un yo puede explicarse mediante un modelo fenomenal del sistema que normalmente no aparece como modelo.",
+      "motifs": [
+        "M02",
+        "M16",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "31"
+    },
+    {
+      "global_claim_id": "G31-S266-K02",
+      "claim_id": "K02",
+      "source_id": "S266",
+      "corpus_id": "C259",
+      "location": "The Ego Tunnel",
+      "claim_type": "TRANSPARENCY",
+      "claim": "La transparencia del self-model hace que el sistema experimente el contenido representado como realidad inmediata en lugar de observar el modelo como tal.",
+      "motifs": [
+        "M01",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "31"
+    },
+    {
+      "global_claim_id": "G31-S266-K03",
+      "claim_id": "K03",
+      "source_id": "S266",
+      "corpus_id": "C259",
+      "location": "The Ego Tunnel",
+      "claim_type": "WORLD_MODEL",
+      "claim": "El self-model está integrado dentro de un modelo global del mundo que organiza la perspectiva consciente.",
+      "motifs": [
+        "M15",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "31"
+    },
+    {
+      "global_claim_id": "G31-S266-K04",
+      "claim_id": "K04",
+      "source_id": "S266",
+      "corpus_id": "C259",
+      "location": "The Ego Tunnel",
+      "claim_type": "ATTENTION",
+      "claim": "La atención influye en qué contenidos son integrados al modelo global accesible a la experiencia consciente.",
+      "motifs": [
+        "M06",
+        "M24"
+      ],
+      "provenance": "P2*",
+      "batch": "31"
+    },
+    {
+      "global_claim_id": "G31-S266-K05",
+      "claim_id": "K05",
+      "source_id": "S266",
+      "corpus_id": "C259",
+      "location": "The Ego Tunnel",
+      "claim_type": "EMBODIMENT",
+      "claim": "El self fenomenal incluye señales corporales multimodales que contribuyen a la sensación de ser un organismo situado.",
+      "motifs": [
+        "M08",
+        "M16"
+      ],
+      "provenance": "P2*",
+      "batch": "31"
+    },
+    {
+      "global_claim_id": "G31-S266-K06",
+      "claim_id": "K06",
+      "source_id": "S266",
+      "corpus_id": "C259",
+      "location": "The Ego Tunnel",
+      "claim_type": "STATE",
+      "claim": "Experiencias normales y alteradas pueden modificar componentes del modelo del yo y de la perspectiva.",
+      "motifs": [
+        "M07",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "31"
+    },
+    {
+      "global_claim_id": "G31-S266-K07",
+      "claim_id": "K07",
+      "source_id": "S266",
+      "corpus_id": "C259",
+      "location": "The Ego Tunnel",
+      "claim_type": "TRANSFORMATION",
+      "claim": "Cambios en la arquitectura representacional pueden producir cambios profundos en la experiencia de self y mundo.",
+      "motifs": [
+        "M12",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "31"
+    },
+    {
+      "global_claim_id": "G31-S266-K08",
+      "claim_id": "K08",
+      "source_id": "S266",
+      "corpus_id": "C259",
+      "location": "The Ego Tunnel",
+      "claim_type": "REFLEXIVITY",
+      "claim": "El sujeto puede investigar el hecho de que su propia experiencia contiene un modelo de sí mismo.",
+      "motifs": [
+        "M02",
+        "M06",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "31"
+    },
+    {
+      "global_claim_id": "G31-S266-K09",
+      "claim_id": "K09",
+      "source_id": "S266",
+      "corpus_id": "C259",
+      "location": "The Ego Tunnel",
+      "claim_type": "UNITY",
+      "claim": "La unidad aparente del self emerge de la integración de múltiples señales dentro de un modelo global.",
+      "motifs": [
+        "M03",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "31"
+    },
+    {
+      "global_claim_id": "G31-S266-K10",
+      "claim_id": "K10",
+      "source_id": "S266",
+      "corpus_id": "C259",
+      "location": "The Ego Tunnel",
+      "claim_type": "TEMPORAL",
+      "claim": "El self-model es dinámico y cambia con el flujo de procesamiento y experiencia.",
+      "motifs": [
+        "M11",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "31"
+    },
+    {
+      "global_claim_id": "G31-S266-K11",
+      "claim_id": "K11",
+      "source_id": "S266",
+      "corpus_id": "C259",
+      "location": "The Ego Tunnel",
+      "claim_type": "RELATION",
+      "claim": "La perspectiva en primera persona depende de cómo el sistema integra información sobre sí y sobre el entorno.",
+      "motifs": [
+        "M05",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "31"
+    },
+    {
+      "global_claim_id": "G31-S266-K12",
+      "claim_id": "K12",
+      "source_id": "S266",
+      "corpus_id": "C259",
+      "location": "The Ego Tunnel",
+      "claim_type": "META",
+      "claim": "The Ego Tunnel propone una explicación representacionalista y neurofilosófica del self fenomenal; no demuestra que la conciencia sea literalmente un túnel o una ilusión simple.",
+      "motifs": [
+        "M14",
+        "M17",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "31"
+    },
+    {
+      "global_claim_id": "G31-S266-K13",
+      "claim_id": "K13",
+      "source_id": "S266",
+      "corpus_id": "C259",
+      "location": "The Ego Tunnel",
+      "claim_type": "CONTRAST",
+      "claim": "El modelo del self no implica que exista una entidad sustancial separada detrás de las representaciones que constituyen la experiencia de ser alguien.",
+      "motifs": [
+        "M04",
+        "M02",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "31"
+    },
+    {
+      "global_claim_id": "G31-S267-K01",
+      "claim_id": "K01",
+      "source_id": "S267",
+      "corpus_id": "C260",
+      "location": "Being No One",
+      "claim_type": "SELF_MODEL",
+      "claim": "Metzinger sostiene que el self fenomenal puede analizarse como contenido de un self-model transparente en lugar de como una entidad independiente.",
+      "motifs": [
+        "M02",
+        "M16",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "31"
+    },
+    {
+      "global_claim_id": "G31-S267-K02",
+      "claim_id": "K02",
+      "source_id": "S267",
+      "corpus_id": "C260",
+      "location": "Being No One",
+      "claim_type": "SUBJECTIVITY",
+      "claim": "La primera persona se explica en términos de cómo un sistema integra una representación de sí dentro de un modelo global del mundo.",
+      "motifs": [
+        "M01",
+        "M02",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "31"
+    },
+    {
+      "global_claim_id": "G31-S267-K03",
+      "claim_id": "K03",
+      "source_id": "S267",
+      "corpus_id": "C260",
+      "location": "Being No One",
+      "claim_type": "TRANSPARENCY",
+      "claim": "La transparencia impide que el sistema experimente normalmente su self-model como una representación separada.",
+      "motifs": [
+        "M06",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "31"
+    },
+    {
+      "global_claim_id": "G31-S267-K04",
+      "claim_id": "K04",
+      "source_id": "S267",
+      "corpus_id": "C260",
+      "location": "Being No One",
+      "claim_type": "WORLD_MODEL",
+      "claim": "El contenido consciente incluye una representación global del mundo dentro de la cual aparece integrada la representación del propio organismo.",
+      "motifs": [
+        "M15",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "31"
+    },
+    {
+      "global_claim_id": "G31-S267-K05",
+      "claim_id": "K05",
+      "source_id": "S267",
+      "corpus_id": "C260",
+      "location": "Being No One",
+      "claim_type": "STATE",
+      "claim": "Pueden existir modelos de self conscientes e inconscientes, según su integración en estructuras globales de representación.",
+      "motifs": [
+        "M07",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "31"
+    },
+    {
+      "global_claim_id": "G31-S267-K06",
+      "claim_id": "K06",
+      "source_id": "S267",
+      "corpus_id": "C260",
+      "location": "Being No One",
+      "claim_type": "EMBODIMENT",
+      "claim": "El self-model fenomenal puede integrar información multimodal sobre el cuerpo y su posición en el espacio.",
+      "motifs": [
+        "M08",
+        "M16"
+      ],
+      "provenance": "P2*",
+      "batch": "31"
+    },
+    {
+      "global_claim_id": "G31-S267-K07",
+      "claim_id": "K07",
+      "source_id": "S267",
+      "corpus_id": "C260",
+      "location": "Being No One",
+      "claim_type": "TRANSFORMATION",
+      "claim": "Cambios en el self-model pueden alterar de forma sistemática la experiencia de ser alguien.",
+      "motifs": [
+        "M12",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "31"
+    },
+    {
+      "global_claim_id": "G31-S267-K08",
+      "claim_id": "K08",
+      "source_id": "S267",
+      "corpus_id": "C260",
+      "location": "Being No One",
+      "claim_type": "REFLEXIVITY",
+      "claim": "El sistema puede contener modelos sobre sus propios procesos y, en este sentido, realizar una forma de auto-modelado.",
+      "motifs": [
+        "M02",
+        "M06",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "31"
+    },
+    {
+      "global_claim_id": "G31-S267-K09",
+      "claim_id": "K09",
+      "source_id": "S267",
+      "corpus_id": "C260",
+      "location": "Being No One",
+      "claim_type": "UNITY",
+      "claim": "La experiencia unificada de ser un sujeto depende de la integración de múltiples propiedades del sistema en una estructura de representación.",
+      "motifs": [
+        "M03",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "31"
+    },
+    {
+      "global_claim_id": "G31-S267-K10",
+      "claim_id": "K10",
+      "source_id": "S267",
+      "corpus_id": "C260",
+      "location": "Being No One",
+      "claim_type": "TEMPORAL",
+      "claim": "El self fenomenal es un proceso dinámico, no una cosa idéntica e inmutable detrás de los estados mentales.",
+      "motifs": [
+        "M11",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "31"
+    },
+    {
+      "global_claim_id": "G31-S267-K11",
+      "claim_id": "K11",
+      "source_id": "S267",
+      "corpus_id": "C260",
+      "location": "Being No One",
+      "claim_type": "RELATION",
+      "claim": "La subjetividad emerge en relación con cómo el organismo representa tanto su propio estado como el entorno.",
+      "motifs": [
+        "M05",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "31"
+    },
+    {
+      "global_claim_id": "G31-S267-K12",
+      "claim_id": "K12",
+      "source_id": "S267",
+      "corpus_id": "C260",
+      "location": "Being No One",
+      "claim_type": "META",
+      "claim": "Being No One es una teoría filosófico-representacional apoyada en ciencia cognitiva y neurociencia; sus conclusiones metafísicas no deben presentarse como consenso científico.",
+      "motifs": [
+        "M14",
+        "M17",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "31"
+    },
+    {
+      "global_claim_id": "G31-S267-K13",
+      "claim_id": "K13",
+      "source_id": "S267",
+      "corpus_id": "C260",
+      "location": "Being No One",
+      "claim_type": "CONTRAST",
+      "claim": "La tesis de que no existe un self como entidad independiente no equivale a negar la realidad de la experiencia fenomenal de ser un sujeto.",
+      "motifs": [
+        "M04",
+        "M01",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "31"
+    }
+  ]
+}

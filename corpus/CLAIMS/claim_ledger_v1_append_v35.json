@@ -1,0 +1,1960 @@
+{
+  "schema_version": "1.0-append",
+  "base_ledger": "claim_ledger_v1.json",
+  "batch": "35",
+  "claim_count": 130,
+  "records": [
+    {
+      "global_claim_id": "G35-S298-K01",
+      "claim_id": "K01",
+      "source_id": "S298",
+      "corpus_id": "C292",
+      "location": "Morphic Resonance corpus",
+      "claim_type": "HYPOTHESIS",
+      "claim": "Sheldrake's morphic-resonance hypothesis proposes that present organisms can be influenced by patterns associated with previous similar organisms.",
+      "motifs": [
+        "M03",
+        "M15",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "35"
+    },
+    {
+      "global_claim_id": "G35-S298-K02",
+      "claim_id": "K02",
+      "source_id": "S298",
+      "corpus_id": "C292",
+      "location": "Morphic Resonance corpus",
+      "claim_type": "MEMORY",
+      "claim": "The hypothesis treats memory as potentially distributed through recurring natural patterns rather than confined to material storage in individual organisms.",
+      "motifs": [
+        "M07",
+        "M15"
+      ],
+      "provenance": "P2*",
+      "batch": "35"
+    },
+    {
+      "global_claim_id": "G35-S298-K03",
+      "claim_id": "K03",
+      "source_id": "S298",
+      "corpus_id": "C292",
+      "location": "Morphic Resonance corpus",
+      "claim_type": "COLLECTIVE",
+      "claim": "Morphic resonance is framed as a collective or species-level memory process linking similar organisms across space and time.",
+      "motifs": [
+        "M05",
+        "M15",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "35"
+    },
+    {
+      "global_claim_id": "G35-S298-K04",
+      "claim_id": "K04",
+      "source_id": "S298",
+      "corpus_id": "C292",
+      "location": "Morphic Resonance corpus",
+      "claim_type": "CAUSAL",
+      "claim": "The proposed mechanism is presented as a form of formative causation that supplements conventional local causal explanations.",
+      "motifs": [
+        "M09",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "35"
+    },
+    {
+      "global_claim_id": "G35-S298-K05",
+      "claim_id": "K05",
+      "source_id": "S298",
+      "corpus_id": "C292",
+      "location": "Morphic Resonance corpus",
+      "claim_type": "TRANSFORMATION",
+      "claim": "Newly established patterns are proposed to become easier to reproduce when similar systems encounter them later.",
+      "motifs": [
+        "M12",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "35"
+    },
+    {
+      "global_claim_id": "G35-S298-K06",
+      "claim_id": "K06",
+      "source_id": "S298",
+      "corpus_id": "C292",
+      "location": "Morphic Resonance corpus",
+      "claim_type": "LEARNING",
+      "claim": "The theory predicts that learning by one population should alter the subsequent ease with which comparable populations learn the same pattern.",
+      "motifs": [
+        "M12",
+        "M24"
+      ],
+      "provenance": "P2*",
+      "batch": "35"
+    },
+    {
+      "global_claim_id": "G35-S298-K07",
+      "claim_id": "K07",
+      "source_id": "S298",
+      "corpus_id": "C292",
+      "location": "Morphic Resonance corpus",
+      "claim_type": "BIOLOGY",
+      "claim": "The hypothesis is applied to biological development, instincts and behavioral regularities rather than only to conscious states.",
+      "motifs": [
+        "M08",
+        "M15"
+      ],
+      "provenance": "P2*",
+      "batch": "35"
+    },
+    {
+      "global_claim_id": "G35-S298-K08",
+      "claim_id": "K08",
+      "source_id": "S298",
+      "corpus_id": "C292",
+      "location": "Morphic Resonance corpus",
+      "claim_type": "NONLOCAL",
+      "claim": "The proposed influence is not described as ordinary local signal transmission between the systems involved.",
+      "motifs": [
+        "M05",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "35"
+    },
+    {
+      "global_claim_id": "G35-S298-K09",
+      "claim_id": "K09",
+      "source_id": "S298",
+      "corpus_id": "C292",
+      "location": "Morphic Resonance corpus",
+      "claim_type": "CONTRAST",
+      "claim": "Morphic resonance is distinct from ordinary genetic inheritance and ordinary learning mechanisms in the author's framework.",
+      "motifs": [
+        "M04",
+        "M14"
+      ],
+      "provenance": "P2*",
+      "batch": "35"
+    },
+    {
+      "global_claim_id": "G35-S298-K10",
+      "claim_id": "K10",
+      "source_id": "S298",
+      "corpus_id": "C292",
+      "location": "Morphic Resonance corpus",
+      "claim_type": "EXPERIMENT",
+      "claim": "Sheldrake has proposed experimental tests involving repeated learning and behavior across separated groups.",
+      "motifs": [
+        "M24",
+        "M25"
+      ],
+      "provenance": "P2*",
+      "batch": "35"
+    },
+    {
+      "global_claim_id": "G35-S298-K11",
+      "claim_id": "K11",
+      "source_id": "S298",
+      "corpus_id": "C292",
+      "location": "Morphic Resonance corpus",
+      "claim_type": "UNCERTAINTY",
+      "claim": "The framework remains a heterodox hypothesis and should not be coded as established biological mechanism.",
+      "motifs": [
+        "M14",
+        "M17"
+      ],
+      "provenance": "P2*",
+      "batch": "35"
+    },
+    {
+      "global_claim_id": "G35-S298-K12",
+      "claim_id": "K12",
+      "source_id": "S298",
+      "corpus_id": "C292",
+      "location": "Morphic Resonance corpus",
+      "claim_type": "CONSCIOUSNESS",
+      "claim": "The corpus can be used to examine implications for memory, self-organization and consciousness, but morphic resonance itself is not thereby demonstrated as a consciousness mechanism.",
+      "motifs": [
+        "M01",
+        "M17"
+      ],
+      "provenance": "P2*",
+      "batch": "35"
+    },
+    {
+      "global_claim_id": "G35-S298-K13",
+      "claim_id": "K13",
+      "source_id": "S298",
+      "corpus_id": "C292",
+      "location": "Morphic Resonance corpus",
+      "claim_type": "PRACTICE",
+      "claim": "Comparative analysis should keep the original formative-causation claims separate from later spiritual or transpersonal interpretations.",
+      "motifs": [
+        "M14",
+        "M25"
+      ],
+      "provenance": "P2*",
+      "batch": "35"
+    },
+    {
+      "global_claim_id": "G35-S299-K01",
+      "claim_id": "K01",
+      "source_id": "S299",
+      "corpus_id": "C293",
+      "location": "Wholeness and the Implicate Order",
+      "claim_type": "WHOLENESS",
+      "claim": "Bohm develops an account of reality emphasizing an undivided whole rather than treating independently existing parts as fundamental.",
+      "motifs": [
+        "M03",
+        "M15"
+      ],
+      "provenance": "P2*",
+      "batch": "35"
+    },
+    {
+      "global_claim_id": "G35-S299-K02",
+      "claim_id": "K02",
+      "source_id": "S299",
+      "corpus_id": "C293",
+      "location": "Wholeness and the Implicate Order",
+      "claim_type": "IMPLICATE",
+      "claim": "The implicate order is presented as a deeper order from which the explicate, apparently separated order can unfold.",
+      "motifs": [
+        "M03",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "35"
+    },
+    {
+      "global_claim_id": "G35-S299-K03",
+      "claim_id": "K03",
+      "source_id": "S299",
+      "corpus_id": "C293",
+      "location": "Wholeness and the Implicate Order",
+      "claim_type": "EXPLICATE",
+      "claim": "Ordinary objects and events are treated as manifestations within an explicate order rather than ultimate isolated substances.",
+      "motifs": [
+        "M15",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "35"
+    },
+    {
+      "global_claim_id": "G35-S299-K04",
+      "claim_id": "K04",
+      "source_id": "S299",
+      "corpus_id": "C293",
+      "location": "Wholeness and the Implicate Order",
+      "claim_type": "RELATION",
+      "claim": "Relations and movement are given conceptual priority over a picture of reality composed solely of static independent entities.",
+      "motifs": [
+        "M05",
+        "M11"
+      ],
+      "provenance": "P2*",
+      "batch": "35"
+    },
+    {
+      "global_claim_id": "G35-S299-K05",
+      "claim_id": "K05",
+      "source_id": "S299",
+      "corpus_id": "C293",
+      "location": "Wholeness and the Implicate Order",
+      "claim_type": "TRANSFORMATION",
+      "claim": "Bohm's rheomode experiments with a language emphasizing process and becoming rather than fixed nouns and substances.",
+      "motifs": [
+        "M12",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "35"
+    },
+    {
+      "global_claim_id": "G35-S299-K06",
+      "claim_id": "K06",
+      "source_id": "S299",
+      "corpus_id": "C293",
+      "location": "Wholeness and the Implicate Order",
+      "claim_type": "CONSCIOUSNESS",
+      "claim": "Bohm explicitly connects questions about reality's wholeness with questions about consciousness and thought.",
+      "motifs": [
+        "M01",
+        "M15"
+      ],
+      "provenance": "P2*",
+      "batch": "35"
+    },
+    {
+      "global_claim_id": "G35-S299-K07",
+      "claim_id": "K07",
+      "source_id": "S299",
+      "corpus_id": "C293",
+      "location": "Wholeness and the Implicate Order",
+      "claim_type": "THOUGHT",
+      "claim": "Thought is treated as a process that can generate fragmentation when it mistakes its own abstractions for independent reality.",
+      "motifs": [
+        "M06",
+        "M14"
+      ],
+      "provenance": "P2*",
+      "batch": "35"
+    },
+    {
+      "global_claim_id": "G35-S299-K08",
+      "claim_id": "K08",
+      "source_id": "S299",
+      "corpus_id": "C293",
+      "location": "Wholeness and the Implicate Order",
+      "claim_type": "SELF_MODEL",
+      "claim": "The analysis implies that human self-description can become part of the fragmentation it is trying to understand.",
+      "motifs": [
+        "M02",
+        "M16"
+      ],
+      "provenance": "P2*",
+      "batch": "35"
+    },
+    {
+      "global_claim_id": "G35-S299-K09",
+      "claim_id": "K09",
+      "source_id": "S299",
+      "corpus_id": "C293",
+      "location": "Wholeness and the Implicate Order",
+      "claim_type": "UNITY",
+      "claim": "The framework motivates a conception of unity in which distinctions remain real at one level without being ultimate separations.",
+      "motifs": [
+        "M05",
+        "M15"
+      ],
+      "provenance": "P2*",
+      "batch": "35"
+    },
+    {
+      "global_claim_id": "G35-S299-K10",
+      "claim_id": "K10",
+      "source_id": "S299",
+      "corpus_id": "C293",
+      "location": "Wholeness and the Implicate Order",
+      "claim_type": "COSMO",
+      "claim": "The theory extends beyond individual minds toward a general account of physical reality and order.",
+      "motifs": [
+        "M15",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "35"
+    },
+    {
+      "global_claim_id": "G35-S299-K11",
+      "claim_id": "K11",
+      "source_id": "S299",
+      "corpus_id": "C293",
+      "location": "Wholeness and the Implicate Order",
+      "claim_type": "META",
+      "claim": "Bohm's implicate-order framework is a philosophical/physical interpretation and should not be conflated with a confirmed quantum theory of consciousness.",
+      "motifs": [
+        "M14",
+        "M17"
+      ],
+      "provenance": "P2*",
+      "batch": "35"
+    },
+    {
+      "global_claim_id": "G35-S299-K12",
+      "claim_id": "K12",
+      "source_id": "S299",
+      "corpus_id": "C293",
+      "location": "Wholeness and the Implicate Order",
+      "claim_type": "CONTRAST",
+      "claim": "The distinction between implicate and explicate order is conceptually different from the claim that consciousness is simply a hidden physical substance.",
+      "motifs": [
+        "M04",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "35"
+    },
+    {
+      "global_claim_id": "G35-S299-K13",
+      "claim_id": "K13",
+      "source_id": "S299",
+      "corpus_id": "C293",
+      "location": "Wholeness and the Implicate Order",
+      "claim_type": "PRACTICE",
+      "claim": "The source is useful for coding wholeness, fragmentation, process and observer-related concepts while keeping metaphysical extensions explicitly marked.",
+      "motifs": [
+        "M24",
+        "M25"
+      ],
+      "provenance": "P2*",
+      "batch": "35"
+    },
+    {
+      "global_claim_id": "G35-S300-K01",
+      "claim_id": "K01",
+      "source_id": "S300",
+      "corpus_id": "C294",
+      "location": "Bohm consciousness interview corpus",
+      "claim_type": "CONSCIOUSNESS",
+      "claim": "The interview corpus presents consciousness as a topic that cannot be cleanly isolated from Bohm's broader account of thought, matter and wholeness.",
+      "motifs": [
+        "M01",
+        "M15"
+      ],
+      "provenance": "P2*",
+      "batch": "35"
+    },
+    {
+      "global_claim_id": "G35-S300-K02",
+      "claim_id": "K02",
+      "source_id": "S300",
+      "corpus_id": "C294",
+      "location": "Bohm consciousness interview corpus",
+      "claim_type": "THOUGHT",
+      "claim": "Bohm treats thought as an active process that participates in the fragmentation or clarification of experience.",
+      "motifs": [
+        "M06",
+        "M14"
+      ],
+      "provenance": "P2*",
+      "batch": "35"
+    },
+    {
+      "global_claim_id": "G35-S300-K03",
+      "claim_id": "K03",
+      "source_id": "S300",
+      "corpus_id": "C294",
+      "location": "Bohm consciousness interview corpus",
+      "claim_type": "WHOLENESS",
+      "claim": "Consciousness is discussed within a framework of undivided wholeness rather than as an isolated mental substance.",
+      "motifs": [
+        "M05",
+        "M15"
+      ],
+      "provenance": "P2*",
+      "batch": "35"
+    },
+    {
+      "global_claim_id": "G35-S300-K04",
+      "claim_id": "K04",
+      "source_id": "S300",
+      "corpus_id": "C294",
+      "location": "Bohm consciousness interview corpus",
+      "claim_type": "RELATION",
+      "claim": "Mind, matter and environment are discussed as dynamically related rather than absolutely separate domains.",
+      "motifs": [
+        "M05",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "35"
+    },
+    {
+      "global_claim_id": "G35-S300-K05",
+      "claim_id": "K05",
+      "source_id": "S300",
+      "corpus_id": "C294",
+      "location": "Bohm consciousness interview corpus",
+      "claim_type": "REFLEXIVITY",
+      "claim": "Thought can become aware of its own movement and thereby investigate the assumptions that shape perception.",
+      "motifs": [
+        "M02",
+        "M06"
+      ],
+      "provenance": "P2*",
+      "batch": "35"
+    },
+    {
+      "global_claim_id": "G35-S300-K06",
+      "claim_id": "K06",
+      "source_id": "S300",
+      "corpus_id": "C294",
+      "location": "Bohm consciousness interview corpus",
+      "claim_type": "FRAGMENTATION",
+      "claim": "A recurring problem is the tendency of conceptual thought to divide reality into independently existing pieces.",
+      "motifs": [
+        "M14",
+        "M15"
+      ],
+      "provenance": "P2*",
+      "batch": "35"
+    },
+    {
+      "global_claim_id": "G35-S300-K07",
+      "claim_id": "K07",
+      "source_id": "S300",
+      "corpus_id": "C294",
+      "location": "Bohm consciousness interview corpus",
+      "claim_type": "PROCESS",
+      "claim": "Reality is treated dynamically, with change and movement emphasized over static ontological categories.",
+      "motifs": [
+        "M11",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "35"
+    },
+    {
+      "global_claim_id": "G35-S300-K08",
+      "claim_id": "K08",
+      "source_id": "S300",
+      "corpus_id": "C294",
+      "location": "Bohm consciousness interview corpus",
+      "claim_type": "SELF",
+      "claim": "The individual self is discussed within a broader field of relationships rather than as an absolutely isolated entity.",
+      "motifs": [
+        "M02",
+        "M16"
+      ],
+      "provenance": "P2*",
+      "batch": "35"
+    },
+    {
+      "global_claim_id": "G35-S300-K09",
+      "claim_id": "K09",
+      "source_id": "S300",
+      "corpus_id": "C294",
+      "location": "Bohm consciousness interview corpus",
+      "claim_type": "TRANSPERSONAL",
+      "claim": "The corpus includes interpretations in which consciousness is not exhausted by a private individual perspective, but such extensions require careful provenance coding.",
+      "motifs": [
+        "M01",
+        "M17"
+      ],
+      "provenance": "P2*",
+      "batch": "35"
+    },
+    {
+      "global_claim_id": "G35-S300-K10",
+      "claim_id": "K10",
+      "source_id": "S300",
+      "corpus_id": "C294",
+      "location": "Bohm consciousness interview corpus",
+      "claim_type": "COSMO",
+      "claim": "Questions about consciousness are connected to a general conception of order in nature and the cosmos.",
+      "motifs": [
+        "M15",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "35"
+    },
+    {
+      "global_claim_id": "G35-S300-K11",
+      "claim_id": "K11",
+      "source_id": "S300",
+      "corpus_id": "C294",
+      "location": "Bohm consciousness interview corpus",
+      "claim_type": "UNCERTAINTY",
+      "claim": "Interview statements must be separated from later editorial interpretations and from stronger metaphysical claims attributed to Bohm by others.",
+      "motifs": [
+        "M14",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "35"
+    },
+    {
+      "global_claim_id": "G35-S300-K12",
+      "claim_id": "K12",
+      "source_id": "S300",
+      "corpus_id": "C294",
+      "location": "Bohm consciousness interview corpus",
+      "claim_type": "CONTRAST",
+      "claim": "Bohm's process language should not automatically be equated with contemporary predictive-processing or information-theoretic mechanisms.",
+      "motifs": [
+        "M04",
+        "M03"
+      ],
+      "provenance": "P2*",
+      "batch": "35"
+    },
+    {
+      "global_claim_id": "G35-S300-K13",
+      "claim_id": "K13",
+      "source_id": "S300",
+      "corpus_id": "C294",
+      "location": "Bohm consciousness interview corpus",
+      "claim_type": "PRACTICE",
+      "claim": "The corpus is best used comparatively, preserving exact interview provenance before turning broad statements into formal theoretical claims.",
+      "motifs": [
+        "M24",
+        "M25"
+      ],
+      "provenance": "P2*",
+      "batch": "35"
+    },
+    {
+      "global_claim_id": "G35-S301-K01",
+      "claim_id": "K01",
+      "source_id": "S301",
+      "corpus_id": "C295",
+      "location": "Holonomic brain corpus",
+      "claim_type": "HOLOMIC",
+      "claim": "Pribram's holonomic brain theory proposes that brain processing can be described using distributed wave-like and spectral transformations.",
+      "motifs": [
+        "M03",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "35"
+    },
+    {
+      "global_claim_id": "G35-S301-K02",
+      "claim_id": "K02",
+      "source_id": "S301",
+      "corpus_id": "C295",
+      "location": "Holonomic brain corpus",
+      "claim_type": "DISTRIBUTED",
+      "claim": "Information relevant to perception and memory is treated as distributed across neural fields rather than stored only in one local site.",
+      "motifs": [
+        "M07",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "35"
+    },
+    {
+      "global_claim_id": "G35-S301-K03",
+      "claim_id": "K03",
+      "source_id": "S301",
+      "corpus_id": "C295",
+      "location": "Holonomic brain corpus",
+      "claim_type": "FOURIER",
+      "claim": "Fourier-like transformations provide a mathematical framework for translating between spatial-temporal and spectral descriptions of neural activity.",
+      "motifs": [
+        "M03",
+        "M11"
+      ],
+      "provenance": "P2*",
+      "batch": "35"
+    },
+    {
+      "global_claim_id": "G35-S301-K04",
+      "claim_id": "K04",
+      "source_id": "S301",
+      "corpus_id": "C295",
+      "location": "Holonomic brain corpus",
+      "claim_type": "WAVELETS",
+      "claim": "The theory uses local field potentials, wavelets and related signal representations to model fine-fibered neural processing.",
+      "motifs": [
+        "M03",
+        "M24"
+      ],
+      "provenance": "P2*",
+      "batch": "35"
+    },
+    {
+      "global_claim_id": "G35-S301-K05",
+      "claim_id": "K05",
+      "source_id": "S301",
+      "corpus_id": "C295",
+      "location": "Holonomic brain corpus",
+      "claim_type": "PERCEPTION",
+      "claim": "Perception is modeled as an active process in which sensory and cognitive operations address distributed features.",
+      "motifs": [
+        "M06",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "35"
+    },
+    {
+      "global_claim_id": "G35-S301-K06",
+      "claim_id": "K06",
+      "source_id": "S301",
+      "corpus_id": "C295",
+      "location": "Holonomic brain corpus",
+      "claim_type": "MOTOR",
+      "claim": "Holonomic accounts emphasize sensory-motor reciprocity in imaging and object perception.",
+      "motifs": [
+        "M08",
+        "M09"
+      ],
+      "provenance": "P2*",
+      "batch": "35"
+    },
+    {
+      "global_claim_id": "G35-S301-K07",
+      "claim_id": "K07",
+      "source_id": "S301",
+      "corpus_id": "C295",
+      "location": "Holonomic brain corpus",
+      "claim_type": "MEMORY",
+      "claim": "The holographic analogy is used to explain how memory can be represented in distributed neural activity.",
+      "motifs": [
+        "M07",
+        "M11"
+      ],
+      "provenance": "P2*",
+      "batch": "35"
+    },
+    {
+      "global_claim_id": "G35-S301-K08",
+      "claim_id": "K08",
+      "source_id": "S301",
+      "corpus_id": "C295",
+      "location": "Holonomic brain corpus",
+      "claim_type": "UNITY",
+      "claim": "Distributed representations offer a candidate mechanism for preserving global patterns without requiring a single central storage location.",
+      "motifs": [
+        "M05",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "35"
+    },
+    {
+      "global_claim_id": "G35-S301-K09",
+      "claim_id": "K09",
+      "source_id": "S301",
+      "corpus_id": "C295",
+      "location": "Holonomic brain corpus",
+      "claim_type": "TRANSFORMATION",
+      "claim": "A change of representational basis can transform the description of neural information without eliminating the underlying information.",
+      "motifs": [
+        "M12",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "35"
+    },
+    {
+      "global_claim_id": "G35-S301-K10",
+      "claim_id": "K10",
+      "source_id": "S301",
+      "corpus_id": "C295",
+      "location": "Holonomic brain corpus",
+      "claim_type": "CAUSAL",
+      "claim": "The theory aims to connect measurable neural dynamics to cognitive functions through identifiable transformations.",
+      "motifs": [
+        "M09",
+        "M24"
+      ],
+      "provenance": "P2*",
+      "batch": "35"
+    },
+    {
+      "global_claim_id": "G35-S301-K11",
+      "claim_id": "K11",
+      "source_id": "S301",
+      "corpus_id": "C295",
+      "location": "Holonomic brain corpus",
+      "claim_type": "CONTRAST",
+      "claim": "Holonomic theory is broader than the claim that the brain literally functions as an optical hologram.",
+      "motifs": [
+        "M04",
+        "M14"
+      ],
+      "provenance": "P2*",
+      "batch": "35"
+    },
+    {
+      "global_claim_id": "G35-S301-K12",
+      "claim_id": "K12",
+      "source_id": "S301",
+      "corpus_id": "C295",
+      "location": "Holonomic brain corpus",
+      "claim_type": "CONSCIOUSNESS",
+      "claim": "The theory is relevant to consciousness research through perception, memory and distributed processing, but does not by itself establish a complete phenomenology.",
+      "motifs": [
+        "M01",
+        "M17"
+      ],
+      "provenance": "P2*",
+      "batch": "35"
+    },
+    {
+      "global_claim_id": "G35-S301-K13",
+      "claim_id": "K13",
+      "source_id": "S301",
+      "corpus_id": "C295",
+      "location": "Holonomic brain corpus",
+      "claim_type": "PRACTICE",
+      "claim": "Claims about quantum or holographic consciousness must be kept separate from the empirically grounded signal-processing components of Pribram's work.",
+      "motifs": [
+        "M24",
+        "M25"
+      ],
+      "provenance": "P2*",
+      "batch": "35"
+    },
+    {
+      "global_claim_id": "G35-S302-K01",
+      "claim_id": "K01",
+      "source_id": "S302",
+      "corpus_id": "C296",
+      "location": "Science and the Akashic Field",
+      "claim_type": "FIELD",
+      "claim": "Laszlo proposes an information-bearing field as a fundamental connective layer underlying physical and living systems.",
+      "motifs": [
+        "M03",
+        "M15"
+      ],
+      "provenance": "P2*",
+      "batch": "35"
+    },
+    {
+      "global_claim_id": "G35-S302-K02",
+      "claim_id": "K02",
+      "source_id": "S302",
+      "corpus_id": "C296",
+      "location": "Science and the Akashic Field",
+      "claim_type": "INFORMATION",
+      "claim": "The Akashic-field concept is presented as a way of explaining persistence and transmission of information across systems.",
+      "motifs": [
+        "M03",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "35"
+    },
+    {
+      "global_claim_id": "G35-S302-K03",
+      "claim_id": "K03",
+      "source_id": "S302",
+      "corpus_id": "C296",
+      "location": "Science and the Akashic Field",
+      "claim_type": "UNITY",
+      "claim": "The framework emphasizes interconnectedness of organisms, physical processes and consciousness.",
+      "motifs": [
+        "M05",
+        "M15"
+      ],
+      "provenance": "P2*",
+      "batch": "35"
+    },
+    {
+      "global_claim_id": "G35-S302-K04",
+      "claim_id": "K04",
+      "source_id": "S302",
+      "corpus_id": "C296",
+      "location": "Science and the Akashic Field",
+      "claim_type": "COSMO",
+      "claim": "The proposal extends from local biological events to a cosmological picture of a unified information field.",
+      "motifs": [
+        "M15",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "35"
+    },
+    {
+      "global_claim_id": "G35-S302-K05",
+      "claim_id": "K05",
+      "source_id": "S302",
+      "corpus_id": "C296",
+      "location": "Science and the Akashic Field",
+      "claim_type": "MEMORY",
+      "claim": "The field is described as conserving information in a manner analogous to a cosmic memory.",
+      "motifs": [
+        "M07",
+        "M15"
+      ],
+      "provenance": "P2*",
+      "batch": "35"
+    },
+    {
+      "global_claim_id": "G35-S302-K06",
+      "claim_id": "K06",
+      "source_id": "S302",
+      "corpus_id": "C296",
+      "location": "Science and the Akashic Field",
+      "claim_type": "NONLOCAL",
+      "claim": "Some claimed effects are framed as correlations not adequately explained by ordinary local transmission.",
+      "motifs": [
+        "M05",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "35"
+    },
+    {
+      "global_claim_id": "G35-S302-K07",
+      "claim_id": "K07",
+      "source_id": "S302",
+      "corpus_id": "C296",
+      "location": "Science and the Akashic Field",
+      "claim_type": "CONSCIOUSNESS",
+      "claim": "Consciousness is included as part of the broad field-level account of reality proposed by Laszlo.",
+      "motifs": [
+        "M01",
+        "M15"
+      ],
+      "provenance": "P2*",
+      "batch": "35"
+    },
+    {
+      "global_claim_id": "G35-S302-K08",
+      "claim_id": "K08",
+      "source_id": "S302",
+      "corpus_id": "C296",
+      "location": "Science and the Akashic Field",
+      "claim_type": "ANIMAL",
+      "claim": "The source extends its framework to claimed anomalous information transfer involving animals.",
+      "motifs": [
+        "M15",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "35"
+    },
+    {
+      "global_claim_id": "G35-S302-K09",
+      "claim_id": "K09",
+      "source_id": "S302",
+      "corpus_id": "C296",
+      "location": "Science and the Akashic Field",
+      "claim_type": "EVOLUTION",
+      "claim": "The theory links evolutionary development with accumulation and reuse of information patterns.",
+      "motifs": [
+        "M12",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "35"
+    },
+    {
+      "global_claim_id": "G35-S302-K10",
+      "claim_id": "K10",
+      "source_id": "S302",
+      "corpus_id": "C296",
+      "location": "Science and the Akashic Field",
+      "claim_type": "META",
+      "claim": "The Akashic-field account is a heterodox synthesis and should not be treated as a settled physical theory.",
+      "motifs": [
+        "M14",
+        "M17"
+      ],
+      "provenance": "P2*",
+      "batch": "35"
+    },
+    {
+      "global_claim_id": "G35-S302-K11",
+      "claim_id": "K11",
+      "source_id": "S302",
+      "corpus_id": "C296",
+      "location": "Science and the Akashic Field",
+      "claim_type": "CONTRAST",
+      "claim": "The proposed field is conceptually broader than the experimentally established zero-point field of quantum field theory.",
+      "motifs": [
+        "M04",
+        "M14"
+      ],
+      "provenance": "P2*",
+      "batch": "35"
+    },
+    {
+      "global_claim_id": "G35-S302-K12",
+      "claim_id": "K12",
+      "source_id": "S302",
+      "corpus_id": "C296",
+      "location": "Science and the Akashic Field",
+      "claim_type": "PREDICTION",
+      "claim": "Its scientific status depends on whether alleged field effects can be operationalized into reproducible measurements.",
+      "motifs": [
+        "M22",
+        "M24"
+      ],
+      "provenance": "P2*",
+      "batch": "35"
+    },
+    {
+      "global_claim_id": "G35-S302-K13",
+      "claim_id": "K13",
+      "source_id": "S302",
+      "corpus_id": "C296",
+      "location": "Science and the Akashic Field",
+      "claim_type": "PRACTICE",
+      "claim": "Corpus analysis should separate descriptions of established physics from Laszlo's speculative interpretation of those results.",
+      "motifs": [
+        "M24",
+        "M25"
+      ],
+      "provenance": "P2*",
+      "batch": "35"
+    },
+    {
+      "global_claim_id": "G35-S303-K01",
+      "claim_id": "K01",
+      "source_id": "S303",
+      "corpus_id": "C297",
+      "location": "God, the Universe and Consciousness",
+      "claim_type": "COSMO",
+      "claim": "The corpus links questions about God, the universe and consciousness within one explanatory or metaphysical frame.",
+      "motifs": [
+        "M15",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "35"
+    },
+    {
+      "global_claim_id": "G35-S303-K02",
+      "claim_id": "K02",
+      "source_id": "S303",
+      "corpus_id": "C297",
+      "location": "God, the Universe and Consciousness",
+      "claim_type": "CONSCIOUSNESS",
+      "claim": "Consciousness is treated as relevant to the interpretation of cosmological reality rather than only as a local brain phenomenon.",
+      "motifs": [
+        "M01",
+        "M15"
+      ],
+      "provenance": "P2*",
+      "batch": "35"
+    },
+    {
+      "global_claim_id": "G35-S303-K03",
+      "claim_id": "K03",
+      "source_id": "S303",
+      "corpus_id": "C297",
+      "location": "God, the Universe and Consciousness",
+      "claim_type": "TRANSPERSONAL",
+      "claim": "The framing permits interpretations in which consciousness extends beyond individual human perspective, subject to source verification.",
+      "motifs": [
+        "M01",
+        "M17"
+      ],
+      "provenance": "P2*",
+      "batch": "35"
+    },
+    {
+      "global_claim_id": "G35-S303-K04",
+      "claim_id": "K04",
+      "source_id": "S303",
+      "corpus_id": "C297",
+      "location": "God, the Universe and Consciousness",
+      "claim_type": "ULTIMATE",
+      "claim": "The source family addresses questions about ultimate reality rather than restricting analysis to operational neuroscience.",
+      "motifs": [
+        "M14",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "35"
+    },
+    {
+      "global_claim_id": "G35-S303-K05",
+      "claim_id": "K05",
+      "source_id": "S303",
+      "corpus_id": "C297",
+      "location": "God, the Universe and Consciousness",
+      "claim_type": "RELATION",
+      "claim": "God, universe and consciousness are treated as conceptually related domains rather than independent topics.",
+      "motifs": [
+        "M05",
+        "M15"
+      ],
+      "provenance": "P2*",
+      "batch": "35"
+    },
+    {
+      "global_claim_id": "G35-S303-K06",
+      "claim_id": "K06",
+      "source_id": "S303",
+      "corpus_id": "C297",
+      "location": "God, the Universe and Consciousness",
+      "claim_type": "UNITY",
+      "claim": "A unifying metaphysical interpretation is a central motif of the corpus entry.",
+      "motifs": [
+        "M05",
+        "M15"
+      ],
+      "provenance": "P2*",
+      "batch": "35"
+    },
+    {
+      "global_claim_id": "G35-S303-K07",
+      "claim_id": "K07",
+      "source_id": "S303",
+      "corpus_id": "C297",
+      "location": "God, the Universe and Consciousness",
+      "claim_type": "SELF",
+      "claim": "The relation between individual consciousness and a larger reality is an implied problem for the corpus.",
+      "motifs": [
+        "M02",
+        "M16"
+      ],
+      "provenance": "P2*",
+      "batch": "35"
+    },
+    {
+      "global_claim_id": "G35-S303-K08",
+      "claim_id": "K08",
+      "source_id": "S303",
+      "corpus_id": "C297",
+      "location": "God, the Universe and Consciousness",
+      "claim_type": "MEANING",
+      "claim": "Questions of consciousness are connected with broader questions of purpose, existence or meaning.",
+      "motifs": [
+        "M10",
+        "M15"
+      ],
+      "provenance": "P2*",
+      "batch": "35"
+    },
+    {
+      "global_claim_id": "G35-S303-K09",
+      "claim_id": "K09",
+      "source_id": "S303",
+      "corpus_id": "C297",
+      "location": "God, the Universe and Consciousness",
+      "claim_type": "COSMIC",
+      "claim": "The framework invites claims about consciousness at cosmic or universal scale.",
+      "motifs": [
+        "M15",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "35"
+    },
+    {
+      "global_claim_id": "G35-S303-K10",
+      "claim_id": "K10",
+      "source_id": "S303",
+      "corpus_id": "C297",
+      "location": "God, the Universe and Consciousness",
+      "claim_type": "META",
+      "claim": "The corpus is explicitly classified as heterodox/extended and its metaphysical claims must not be promoted to scientific findings.",
+      "motifs": [
+        "M14",
+        "M17"
+      ],
+      "provenance": "P2*",
+      "batch": "35"
+    },
+    {
+      "global_claim_id": "G35-S303-K11",
+      "claim_id": "K11",
+      "source_id": "S303",
+      "corpus_id": "C297",
+      "location": "God, the Universe and Consciousness",
+      "claim_type": "EVIDENCE",
+      "claim": "Any empirical support claimed by the source must be separated from philosophical or theological inference during later verification.",
+      "motifs": [
+        "M14",
+        "M24"
+      ],
+      "provenance": "P2*",
+      "batch": "35"
+    },
+    {
+      "global_claim_id": "G35-S303-K12",
+      "claim_id": "K12",
+      "source_id": "S303",
+      "corpus_id": "C297",
+      "location": "God, the Universe and Consciousness",
+      "claim_type": "CONTRAST",
+      "claim": "A metaphysical identification of consciousness with cosmic reality is distinct from empirical claims about neural mechanisms.",
+      "motifs": [
+        "M04",
+        "M03"
+      ],
+      "provenance": "P2*",
+      "batch": "35"
+    },
+    {
+      "global_claim_id": "G35-S303-K13",
+      "claim_id": "K13",
+      "source_id": "S303",
+      "corpus_id": "C297",
+      "location": "God, the Universe and Consciousness",
+      "claim_type": "PRACTICE",
+      "claim": "This entry should remain title-level and provenance-pending until the exact source, edition and transmission path are recovered.",
+      "motifs": [
+        "M24",
+        "M25"
+      ],
+      "provenance": "P2*",
+      "batch": "35"
+    },
+    {
+      "global_claim_id": "G35-S304-K01",
+      "claim_id": "K01",
+      "source_id": "S304",
+      "corpus_id": "C298",
+      "location": "The Self-Aware Universe",
+      "claim_type": "IDEALISM",
+      "claim": "Goswami presents consciousness rather than matter as the fundamental basis of reality in his quantum-idealism framework.",
+      "motifs": [
+        "M01",
+        "M15"
+      ],
+      "provenance": "P2*",
+      "batch": "35"
+    },
+    {
+      "global_claim_id": "G35-S304-K02",
+      "claim_id": "K02",
+      "source_id": "S304",
+      "corpus_id": "C298",
+      "location": "The Self-Aware Universe",
+      "claim_type": "QUANTUM",
+      "claim": "Quantum theory is interpreted as compatible with a worldview in which consciousness is ontologically primary.",
+      "motifs": [
+        "M03",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "35"
+    },
+    {
+      "global_claim_id": "G35-S304-K03",
+      "claim_id": "K03",
+      "source_id": "S304",
+      "corpus_id": "C298",
+      "location": "The Self-Aware Universe",
+      "claim_type": "OBSERVER",
+      "claim": "The role of observation is used to motivate a consciousness-centered interpretation of quantum measurement.",
+      "motifs": [
+        "M06",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "35"
+    },
+    {
+      "global_claim_id": "G35-S304-K04",
+      "claim_id": "K04",
+      "source_id": "S304",
+      "corpus_id": "C298",
+      "location": "The Self-Aware Universe",
+      "claim_type": "COLLAPSE",
+      "claim": "The framework associates conscious observation with the selection of particular measurement outcomes.",
+      "motifs": [
+        "M06",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "35"
+    },
+    {
+      "global_claim_id": "G35-S304-K05",
+      "claim_id": "K05",
+      "source_id": "S304",
+      "corpus_id": "C298",
+      "location": "The Self-Aware Universe",
+      "claim_type": "NONLOCAL",
+      "claim": "Quantum nonlocality is used to support a picture in which separateness is not fundamental at the deepest level.",
+      "motifs": [
+        "M05",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "35"
+    },
+    {
+      "global_claim_id": "G35-S304-K06",
+      "claim_id": "K06",
+      "source_id": "S304",
+      "corpus_id": "C298",
+      "location": "The Self-Aware Universe",
+      "claim_type": "UNITY",
+      "claim": "The source connects quantum physics with a unitary conception of consciousness and reality.",
+      "motifs": [
+        "M05",
+        "M15"
+      ],
+      "provenance": "P2*",
+      "batch": "35"
+    },
+    {
+      "global_claim_id": "G35-S304-K07",
+      "claim_id": "K07",
+      "source_id": "S304",
+      "corpus_id": "C298",
+      "location": "The Self-Aware Universe",
+      "claim_type": "SELF",
+      "claim": "Individual minds are interpreted within a larger consciousness-centered ontology.",
+      "motifs": [
+        "M02",
+        "M16"
+      ],
+      "provenance": "P2*",
+      "batch": "35"
+    },
+    {
+      "global_claim_id": "G35-S304-K08",
+      "claim_id": "K08",
+      "source_id": "S304",
+      "corpus_id": "C298",
+      "location": "The Self-Aware Universe",
+      "claim_type": "TRANSPERSONAL",
+      "claim": "The framework allows consciousness to exceed the boundaries of individual biological organisms.",
+      "motifs": [
+        "M01",
+        "M15"
+      ],
+      "provenance": "P2*",
+      "batch": "35"
+    },
+    {
+      "global_claim_id": "G35-S304-K09",
+      "claim_id": "K09",
+      "source_id": "S304",
+      "corpus_id": "C298",
+      "location": "The Self-Aware Universe",
+      "claim_type": "REALITY",
+      "claim": "Physical reality is treated as dependent on or emergent within a deeper conscious ground.",
+      "motifs": [
+        "M15",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "35"
+    },
+    {
+      "global_claim_id": "G35-S304-K10",
+      "claim_id": "K10",
+      "source_id": "S304",
+      "corpus_id": "C298",
+      "location": "The Self-Aware Universe",
+      "claim_type": "META",
+      "claim": "The interpretation is heterodox and its quantum-physics claims must be distinguished from standard operational formulations of quantum mechanics.",
+      "motifs": [
+        "M14",
+        "M17"
+      ],
+      "provenance": "P2*",
+      "batch": "35"
+    },
+    {
+      "global_claim_id": "G35-S304-K11",
+      "claim_id": "K11",
+      "source_id": "S304",
+      "corpus_id": "C298",
+      "location": "The Self-Aware Universe",
+      "claim_type": "CONTRAST",
+      "claim": "Using quantum measurement language to motivate idealism is philosophically different from an experimentally demonstrated consciousness-causes-collapse mechanism.",
+      "motifs": [
+        "M04",
+        "M14"
+      ],
+      "provenance": "P2*",
+      "batch": "35"
+    },
+    {
+      "global_claim_id": "G35-S304-K12",
+      "claim_id": "K12",
+      "source_id": "S304",
+      "corpus_id": "C298",
+      "location": "The Self-Aware Universe",
+      "claim_type": "PRACTICE",
+      "claim": "The corpus is useful for comparing observer, unity and idealist claims while preserving a strict distinction between interpretation and established physics.",
+      "motifs": [
+        "M24",
+        "M25"
+      ],
+      "provenance": "P2*",
+      "batch": "35"
+    },
+    {
+      "global_claim_id": "G35-S304-K13",
+      "claim_id": "K13",
+      "source_id": "S304",
+      "corpus_id": "C298",
+      "location": "The Self-Aware Universe",
+      "claim_type": "TRANSFORMATION",
+      "claim": "Changes in conscious perspective or state are presented within a broader model in which consciousness participates in the unfolding of experienced reality.",
+      "motifs": [
+        "M12",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "35"
+    },
+    {
+      "global_claim_id": "G35-S305-K01",
+      "claim_id": "K01",
+      "source_id": "S305",
+      "corpus_id": "C299",
+      "location": "Hagelin self-referral corpus",
+      "claim_type": "SELF_REFERRAL",
+      "claim": "Hagelin characterizes a unified field as dynamically self-interacting and self-referring, and identifies self-referral with consciousness.",
+      "motifs": [
+        "M02",
+        "M09"
+      ],
+      "provenance": "P2*",
+      "batch": "35"
+    },
+    {
+      "global_claim_id": "G35-S305-K02",
+      "claim_id": "K02",
+      "source_id": "S305",
+      "corpus_id": "C299",
+      "location": "Hagelin self-referral corpus",
+      "claim_type": "UNIFIED_FIELD",
+      "claim": "The framework identifies the unified field of fundamental physics with a field of intelligence.",
+      "motifs": [
+        "M03",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "35"
+    },
+    {
+      "global_claim_id": "G35-S305-K03",
+      "claim_id": "K03",
+      "source_id": "S305",
+      "corpus_id": "C299",
+      "location": "Hagelin self-referral corpus",
+      "claim_type": "CONSCIOUSNESS",
+      "claim": "Consciousness is proposed as a fundamental property of the unified level of nature in Hagelin's interpretation.",
+      "motifs": [
+        "M01",
+        "M15"
+      ],
+      "provenance": "P2*",
+      "batch": "35"
+    },
+    {
+      "global_claim_id": "G35-S305-K04",
+      "claim_id": "K04",
+      "source_id": "S305",
+      "corpus_id": "C299",
+      "location": "Hagelin self-referral corpus",
+      "claim_type": "UNITY",
+      "claim": "The diversity of physical phenomena is described as emerging from an underlying unified field.",
+      "motifs": [
+        "M05",
+        "M15"
+      ],
+      "provenance": "P2*",
+      "batch": "35"
+    },
+    {
+      "global_claim_id": "G35-S305-K05",
+      "claim_id": "K05",
+      "source_id": "S305",
+      "corpus_id": "C299",
+      "location": "Hagelin self-referral corpus",
+      "claim_type": "SELF_INTERACTION",
+      "claim": "The proposed mechanism for self-awareness is recursive interaction of a field with itself.",
+      "motifs": [
+        "M02",
+        "M09"
+      ],
+      "provenance": "P2*",
+      "batch": "35"
+    },
+    {
+      "global_claim_id": "G35-S305-K06",
+      "claim_id": "K06",
+      "source_id": "S305",
+      "corpus_id": "C299",
+      "location": "Hagelin self-referral corpus",
+      "claim_type": "COSMO",
+      "claim": "Human consciousness is placed within a universal field rather than treated as an isolated local occurrence.",
+      "motifs": [
+        "M15",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "35"
+    },
+    {
+      "global_claim_id": "G35-S305-K07",
+      "claim_id": "K07",
+      "source_id": "S305",
+      "corpus_id": "C299",
+      "location": "Hagelin self-referral corpus",
+      "claim_type": "MEDITATION",
+      "claim": "Hagelin links the proposed unified-field account to training of the human nervous system and meditative access.",
+      "motifs": [
+        "M12",
+        "M25"
+      ],
+      "provenance": "P2*",
+      "batch": "35"
+    },
+    {
+      "global_claim_id": "G35-S305-K08",
+      "claim_id": "K08",
+      "source_id": "S305",
+      "corpus_id": "C299",
+      "location": "Hagelin self-referral corpus",
+      "claim_type": "TRANSPERSONAL",
+      "claim": "The framework explicitly supports a transpersonal conception in which individual consciousness can access a universal consciousness.",
+      "motifs": [
+        "M01",
+        "M15"
+      ],
+      "provenance": "P2*",
+      "batch": "35"
+    },
+    {
+      "global_claim_id": "G35-S305-K09",
+      "claim_id": "K09",
+      "source_id": "S305",
+      "corpus_id": "C299",
+      "location": "Hagelin self-referral corpus",
+      "claim_type": "PHYSICAL",
+      "claim": "The source attempts to ground its metaphysical consciousness claims in mathematical physics and unified-field concepts.",
+      "motifs": [
+        "M03",
+        "M14"
+      ],
+      "provenance": "P2*",
+      "batch": "35"
+    },
+    {
+      "global_claim_id": "G35-S305-K10",
+      "claim_id": "K10",
+      "source_id": "S305",
+      "corpus_id": "C299",
+      "location": "Hagelin self-referral corpus",
+      "claim_type": "CONTRAST",
+      "claim": "Self-interaction in a physical field is not by itself equivalent to phenomenological self-awareness under standard scientific definitions.",
+      "motifs": [
+        "M04",
+        "M14"
+      ],
+      "provenance": "P2*",
+      "batch": "35"
+    },
+    {
+      "global_claim_id": "G35-S305-K11",
+      "claim_id": "K11",
+      "source_id": "S305",
+      "corpus_id": "C299",
+      "location": "Hagelin self-referral corpus",
+      "claim_type": "UNCERTAINTY",
+      "claim": "The consciousness interpretation is a heterodox extension and should be coded as attributed proposal rather than consensus physics.",
+      "motifs": [
+        "M14",
+        "M17"
+      ],
+      "provenance": "P2*",
+      "batch": "35"
+    },
+    {
+      "global_claim_id": "G35-S305-K12",
+      "claim_id": "K12",
+      "source_id": "S305",
+      "corpus_id": "C299",
+      "location": "Hagelin self-referral corpus",
+      "claim_type": "PREDICTION",
+      "claim": "To become empirically discriminating, the self-referral proposal would require measurable signatures that differ from ordinary field dynamics.",
+      "motifs": [
+        "M22",
+        "M24"
+      ],
+      "provenance": "P2*",
+      "batch": "35"
+    },
+    {
+      "global_claim_id": "G35-S305-K13",
+      "claim_id": "K13",
+      "source_id": "S305",
+      "corpus_id": "C299",
+      "location": "Hagelin self-referral corpus",
+      "claim_type": "PRACTICE",
+      "claim": "Exact source provenance should distinguish Hagelin's physics claims, later institutional presentation and broader consciousness interpretations.",
+      "motifs": [
+        "M24",
+        "M25"
+      ],
+      "provenance": "P2*",
+      "batch": "35"
+    },
+    {
+      "global_claim_id": "G35-S306-K01",
+      "claim_id": "K01",
+      "source_id": "S306",
+      "corpus_id": "C300",
+      "location": "Analytic Idealism corpus",
+      "claim_type": "IDEALISM",
+      "claim": "Analytic idealism treats mind or consciousness as fundamental and physical reality as appearing within consciousness rather than producing consciousness.",
+      "motifs": [
+        "M01",
+        "M15"
+      ],
+      "provenance": "P2*",
+      "batch": "35"
+    },
+    {
+      "global_claim_id": "G35-S306-K02",
+      "claim_id": "K02",
+      "source_id": "S306",
+      "corpus_id": "C300",
+      "location": "Analytic Idealism corpus",
+      "claim_type": "PHYSICALISM",
+      "claim": "Kastrup argues that mainstream physicalism faces conceptual problems in treating consciousness as a derivative property of matter.",
+      "motifs": [
+        "M14",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "35"
+    },
+    {
+      "global_claim_id": "G35-S306-K03",
+      "claim_id": "K03",
+      "source_id": "S306",
+      "corpus_id": "C300",
+      "location": "Analytic Idealism corpus",
+      "claim_type": "UNIVERSAL",
+      "claim": "The framework posits a transpersonal or universal consciousness underlying individual streams of experience.",
+      "motifs": [
+        "M01",
+        "M15"
+      ],
+      "provenance": "P2*",
+      "batch": "35"
+    },
+    {
+      "global_claim_id": "G35-S306-K04",
+      "claim_id": "K04",
+      "source_id": "S306",
+      "corpus_id": "C300",
+      "location": "Analytic Idealism corpus",
+      "claim_type": "DISSOCIATION",
+      "claim": "Individual minds are modeled as dissociated processes or perspectives within a broader conscious field.",
+      "motifs": [
+        "M02",
+        "M16"
+      ],
+      "provenance": "P2*",
+      "batch": "35"
+    },
+    {
+      "global_claim_id": "G35-S306-K05",
+      "claim_id": "K05",
+      "source_id": "S306",
+      "corpus_id": "C300",
+      "location": "Analytic Idealism corpus",
+      "claim_type": "SELF",
+      "claim": "The individual self is interpreted as a localized or dissociated perspective rather than an ultimately separate conscious substance.",
+      "motifs": [
+        "M02",
+        "M16"
+      ],
+      "provenance": "P2*",
+      "batch": "35"
+    },
+    {
+      "global_claim_id": "G35-S306-K06",
+      "claim_id": "K06",
+      "source_id": "S306",
+      "corpus_id": "C300",
+      "location": "Analytic Idealism corpus",
+      "claim_type": "WORLD_MODEL",
+      "claim": "The experienced physical world is modeled as the representation or appearance of a deeper mental reality.",
+      "motifs": [
+        "M15",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "35"
+    },
+    {
+      "global_claim_id": "G35-S306-K07",
+      "claim_id": "K07",
+      "source_id": "S306",
+      "corpus_id": "C300",
+      "location": "Analytic Idealism corpus",
+      "claim_type": "COMBINATION",
+      "claim": "The framework addresses the problem of how individual subjects can arise without requiring many fundamentally separate consciousnesses.",
+      "motifs": [
+        "M04",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "35"
+    },
+    {
+      "global_claim_id": "G35-S306-K08",
+      "claim_id": "K08",
+      "source_id": "S306",
+      "corpus_id": "C300",
+      "location": "Analytic Idealism corpus",
+      "claim_type": "BRAIN",
+      "claim": "Brain activity is treated as correlated with experience while the correlation is interpreted through an idealist ontology rather than production by matter alone.",
+      "motifs": [
+        "M03",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "35"
+    },
+    {
+      "global_claim_id": "G35-S306-K09",
+      "claim_id": "K09",
+      "source_id": "S306",
+      "corpus_id": "C300",
+      "location": "Analytic Idealism corpus",
+      "claim_type": "METAPHYSICS",
+      "claim": "Analytic idealism is explicitly a metaphysical theory of the nature of reality, not a narrow neural mechanism.",
+      "motifs": [
+        "M14",
+        "M17"
+      ],
+      "provenance": "P2*",
+      "batch": "35"
+    },
+    {
+      "global_claim_id": "G35-S306-K10",
+      "claim_id": "K10",
+      "source_id": "S306",
+      "corpus_id": "C300",
+      "location": "Analytic Idealism corpus",
+      "claim_type": "EVIDENCE",
+      "claim": "Kastrup presents empirical and neuroscientific observations as constraints or support for his metaphysical interpretation.",
+      "motifs": [
+        "M22",
+        "M24"
+      ],
+      "provenance": "P2*",
+      "batch": "35"
+    },
+    {
+      "global_claim_id": "G35-S306-K11",
+      "claim_id": "K11",
+      "source_id": "S306",
+      "corpus_id": "C300",
+      "location": "Analytic Idealism corpus",
+      "claim_type": "CONTRAST",
+      "claim": "The theory differs from bottom-up panpsychism by treating one underlying consciousness and dissociation, rather than many micro-conscious units, as fundamental.",
+      "motifs": [
+        "M04",
+        "M15"
+      ],
+      "provenance": "P2*",
+      "batch": "35"
+    },
+    {
+      "global_claim_id": "G35-S306-K12",
+      "claim_id": "K12",
+      "source_id": "S306",
+      "corpus_id": "C300",
+      "location": "Analytic Idealism corpus",
+      "claim_type": "UNCERTAINTY",
+      "claim": "The corpus should distinguish Kastrup's arguments from claims that analytic idealism has become scientific consensus.",
+      "motifs": [
+        "M14",
+        "M17"
+      ],
+      "provenance": "P2*",
+      "batch": "35"
+    },
+    {
+      "global_claim_id": "G35-S306-K13",
+      "claim_id": "K13",
+      "source_id": "S306",
+      "corpus_id": "C300",
+      "location": "Analytic Idealism corpus",
+      "claim_type": "TRANSFORMATION",
+      "claim": "Changes in dissociation or perspective are used within the framework to explain changes in individual experience.",
+      "motifs": [
+        "M12",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "35"
+    },
+    {
+      "global_claim_id": "G35-S307-K01",
+      "claim_id": "K01",
+      "source_id": "S307",
+      "corpus_id": "C301",
+      "location": "Why Materialism Is Baloney",
+      "claim_type": "ANTI_MATERIALISM",
+      "claim": "Kastrup argues that materialism is not the only coherent metaphysical framework for explaining mind and reality.",
+      "motifs": [
+        "M14",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "35"
+    },
+    {
+      "global_claim_id": "G35-S307-K02",
+      "claim_id": "K02",
+      "source_id": "S307",
+      "corpus_id": "C301",
+      "location": "Why Materialism Is Baloney",
+      "claim_type": "CONSCIOUSNESS",
+      "claim": "The book treats consciousness as more fundamental than an emergent byproduct of matter.",
+      "motifs": [
+        "M01",
+        "M15"
+      ],
+      "provenance": "P2*",
+      "batch": "35"
+    },
+    {
+      "global_claim_id": "G35-S307-K03",
+      "claim_id": "K03",
+      "source_id": "S307",
+      "corpus_id": "C301",
+      "location": "Why Materialism Is Baloney",
+      "claim_type": "IDEALISM",
+      "claim": "The proposed alternative is a non-materialist idealism in which reality is fundamentally mental.",
+      "motifs": [
+        "M01",
+        "M15"
+      ],
+      "provenance": "P2*",
+      "batch": "35"
+    },
+    {
+      "global_claim_id": "G35-S307-K04",
+      "claim_id": "K04",
+      "source_id": "S307",
+      "corpus_id": "C301",
+      "location": "Why Materialism Is Baloney",
+      "claim_type": "EMPIRICAL",
+      "claim": "Kastrup presents his idealist case as compatible with, and motivated by, empirical observations rather than as a purely spiritual doctrine.",
+      "motifs": [
+        "M22",
+        "M24"
+      ],
+      "provenance": "P2*",
+      "batch": "35"
+    },
+    {
+      "global_claim_id": "G35-S307-K05",
+      "claim_id": "K05",
+      "source_id": "S307",
+      "corpus_id": "C301",
+      "location": "Why Materialism Is Baloney",
+      "claim_type": "SELF",
+      "claim": "Individual minds are treated as perspectives within a larger mental reality rather than separate ontological substances.",
+      "motifs": [
+        "M02",
+        "M16"
+      ],
+      "provenance": "P2*",
+      "batch": "35"
+    },
+    {
+      "global_claim_id": "G35-S307-K06",
+      "claim_id": "K06",
+      "source_id": "S307",
+      "corpus_id": "C301",
+      "location": "Why Materialism Is Baloney",
+      "claim_type": "WORLD_MODEL",
+      "claim": "The physical world is interpreted as the appearance of processes in consciousness rather than a mind-independent material substrate.",
+      "motifs": [
+        "M15",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "35"
+    },
+    {
+      "global_claim_id": "G35-S307-K07",
+      "claim_id": "K07",
+      "source_id": "S307",
+      "corpus_id": "C301",
+      "location": "Why Materialism Is Baloney",
+      "claim_type": "DEATH",
+      "claim": "The argument challenges materialist assumptions concerning whether consciousness necessarily ends when the individual organism dies.",
+      "motifs": [
+        "M10",
+        "M17"
+      ],
+      "provenance": "P2*",
+      "batch": "35"
+    },
+    {
+      "global_claim_id": "G35-S307-K08",
+      "claim_id": "K08",
+      "source_id": "S307",
+      "corpus_id": "C301",
+      "location": "Why Materialism Is Baloney",
+      "claim_type": "DISSOCIATION",
+      "claim": "The dissociation idea is used to explain how apparently separate individual subjects can exist within one underlying consciousness.",
+      "motifs": [
+        "M02",
+        "M16"
+      ],
+      "provenance": "P2*",
+      "batch": "35"
+    },
+    {
+      "global_claim_id": "G35-S307-K09",
+      "claim_id": "K09",
+      "source_id": "S307",
+      "corpus_id": "C301",
+      "location": "Why Materialism Is Baloney",
+      "claim_type": "CONTRAST",
+      "claim": "The critique targets materialism as an ontology and should not be confused with rejection of empirical neuroscience or physical causal descriptions.",
+      "motifs": [
+        "M04",
+        "M14"
+      ],
+      "provenance": "P2*",
+      "batch": "35"
+    },
+    {
+      "global_claim_id": "G35-S307-K10",
+      "claim_id": "K10",
+      "source_id": "S307",
+      "corpus_id": "C301",
+      "location": "Why Materialism Is Baloney",
+      "claim_type": "METAPHYSICS",
+      "claim": "The project is explicitly metaphysical, seeking a coherent ontology rather than a single laboratory mechanism of consciousness.",
+      "motifs": [
+        "M14",
+        "M17"
+      ],
+      "provenance": "P2*",
+      "batch": "35"
+    },
+    {
+      "global_claim_id": "G35-S307-K11",
+      "claim_id": "K11",
+      "source_id": "S307",
+      "corpus_id": "C301",
+      "location": "Why Materialism Is Baloney",
+      "claim_type": "MEANING",
+      "claim": "The proposed worldview has implications for how individuals understand life, identity and the status of personal existence.",
+      "motifs": [
+        "M10",
+        "M15"
+      ],
+      "provenance": "P2*",
+      "batch": "35"
+    },
+    {
+      "global_claim_id": "G35-S307-K12",
+      "claim_id": "K12",
+      "source_id": "S307",
+      "corpus_id": "C301",
+      "location": "Why Materialism Is Baloney",
+      "claim_type": "UNCERTAINTY",
+      "claim": "Claims presented as philosophical arguments should remain separated from stronger claims that empirical evidence has established idealism.",
+      "motifs": [
+        "M14",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "35"
+    },
+    {
+      "global_claim_id": "G35-S307-K13",
+      "claim_id": "K13",
+      "source_id": "S307",
+      "corpus_id": "C301",
+      "location": "Why Materialism Is Baloney",
+      "claim_type": "PRACTICE",
+      "claim": "For comparative coding, the book is valuable as a coherent idealist counterpoint to materialism while requiring strict separation of argument and evidence.",
+      "motifs": [
+        "M24",
+        "M25"
+      ],
+      "provenance": "P2*",
+      "batch": "35"
+    }
+  ]
+}

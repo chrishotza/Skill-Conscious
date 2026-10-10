@@ -1,0 +1,1981 @@
+{
+  "schema_version": "1.0-append",
+  "base_ledger": "claim_ledger_v1.json",
+  "batch": "24",
+  "claim_count": 130,
+  "records": [
+    {
+      "global_claim_id": "G24-S188-K01",
+      "claim_id": "K01",
+      "source_id": "S188",
+      "corpus_id": "C164",
+      "location": "Interior Castle, First–Seventh Mansions; prayer, self-knowledge and union",
+      "claim_type": "INTERIORITY",
+      "claim": "Teresa represents the soul as an interior castle with multiple rooms or mansions.",
+      "motifs": [
+        "M02",
+        "M07"
+      ],
+      "provenance": "P2*",
+      "batch": "24"
+    },
+    {
+      "global_claim_id": "G24-S188-K02",
+      "claim_id": "K02",
+      "source_id": "S188",
+      "corpus_id": "C164",
+      "location": "Interior Castle, First–Seventh Mansions; prayer, self-knowledge and union",
+      "claim_type": "PRACTICE",
+      "claim": "Prayer and recollection function as the gate and discipline for entering deeper levels of interior life.",
+      "motifs": [
+        "M24",
+        "M25"
+      ],
+      "provenance": "P2*",
+      "batch": "24"
+    },
+    {
+      "global_claim_id": "G24-S188-K03",
+      "claim_id": "K03",
+      "source_id": "S188",
+      "corpus_id": "C164",
+      "location": "Interior Castle, First–Seventh Mansions; prayer, self-knowledge and union",
+      "claim_type": "REFLEXIVITY",
+      "claim": "Self-knowledge is treated as necessary for understanding the soul's relation to God.",
+      "motifs": [
+        "M02",
+        "M06",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "24"
+    },
+    {
+      "global_claim_id": "G24-S188-K04",
+      "claim_id": "K04",
+      "source_id": "S188",
+      "corpus_id": "C164",
+      "location": "Interior Castle, First–Seventh Mansions; prayer, self-knowledge and union",
+      "claim_type": "STATE",
+      "claim": "The mansions distinguish progressively different states of prayer, attention and union.",
+      "motifs": [
+        "M07",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "24"
+    },
+    {
+      "global_claim_id": "G24-S188-K05",
+      "claim_id": "K05",
+      "source_id": "S188",
+      "corpus_id": "C164",
+      "location": "Interior Castle, First–Seventh Mansions; prayer, self-knowledge and union",
+      "claim_type": "TRANSFORMATION",
+      "claim": "Movement through the mansions represents a progressive transformation of the subject.",
+      "motifs": [
+        "M12",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "24"
+    },
+    {
+      "global_claim_id": "G24-S188-K06",
+      "claim_id": "K06",
+      "source_id": "S188",
+      "corpus_id": "C164",
+      "location": "Interior Castle, First–Seventh Mansions; prayer, self-knowledge and union",
+      "claim_type": "UNITY",
+      "claim": "The deepest mansion is described in terms of union with God rather than simple accumulation of knowledge.",
+      "motifs": [
+        "M03",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "24"
+    },
+    {
+      "global_claim_id": "G24-S188-K07",
+      "claim_id": "K07",
+      "source_id": "S188",
+      "corpus_id": "C164",
+      "location": "Interior Castle, First–Seventh Mansions; prayer, self-knowledge and union",
+      "claim_type": "ATTENTION",
+      "claim": "The practitioner must learn to distinguish wandering imagination from deeper forms of prayer.",
+      "motifs": [
+        "M06",
+        "M24"
+      ],
+      "provenance": "P2*",
+      "batch": "24"
+    },
+    {
+      "global_claim_id": "G24-S188-K08",
+      "claim_id": "K08",
+      "source_id": "S188",
+      "corpus_id": "C164",
+      "location": "Interior Castle, First–Seventh Mansions; prayer, self-knowledge and union",
+      "claim_type": "VALENCE",
+      "claim": "Humility, love and detachment are treated as markers of a well-ordered spiritual trajectory.",
+      "motifs": [
+        "M10",
+        "M12"
+      ],
+      "provenance": "P2*",
+      "batch": "24"
+    },
+    {
+      "global_claim_id": "G24-S188-K09",
+      "claim_id": "K09",
+      "source_id": "S188",
+      "corpus_id": "C164",
+      "location": "Interior Castle, First–Seventh Mansions; prayer, self-knowledge and union",
+      "claim_type": "EMBODIMENT",
+      "claim": "Teresa repeatedly connects mystical states with bodily effects while refusing to identify the soul with those effects.",
+      "motifs": [
+        "M08",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "24"
+    },
+    {
+      "global_claim_id": "G24-S188-K10",
+      "claim_id": "K10",
+      "source_id": "S188",
+      "corpus_id": "C164",
+      "location": "Interior Castle, First–Seventh Mansions; prayer, self-knowledge and union",
+      "claim_type": "INEFFABILITY",
+      "claim": "Higher states are described as difficult to communicate and vulnerable to misunderstanding.",
+      "motifs": [
+        "M14",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "24"
+    },
+    {
+      "global_claim_id": "G24-S188-K11",
+      "claim_id": "K11",
+      "source_id": "S188",
+      "corpus_id": "C164",
+      "location": "Interior Castle, First–Seventh Mansions; prayer, self-knowledge and union",
+      "claim_type": "TEMPORAL",
+      "claim": "The architecture of the mansions makes transformation explicitly developmental and sequential.",
+      "motifs": [
+        "M11",
+        "M12"
+      ],
+      "provenance": "P2*",
+      "batch": "24"
+    },
+    {
+      "global_claim_id": "G24-S188-K12",
+      "claim_id": "K12",
+      "source_id": "S188",
+      "corpus_id": "C164",
+      "location": "Interior Castle, First–Seventh Mansions; prayer, self-knowledge and union",
+      "claim_type": "DEATH",
+      "claim": "Mystical death and longing for God are used as metaphors for relinquishing ordinary self-orientation.",
+      "motifs": [
+        "M12",
+        "M19"
+      ],
+      "provenance": "P2*",
+      "batch": "24"
+    },
+    {
+      "global_claim_id": "G24-S188-K13",
+      "claim_id": "K13",
+      "source_id": "S188",
+      "corpus_id": "C164",
+      "location": "Interior Castle, First–Seventh Mansions; prayer, self-knowledge and union",
+      "claim_type": "META",
+      "claim": "Interior Castle is a sixteenth-century Christian mystical testimony and should not be treated as empirical evidence of altered consciousness.",
+      "motifs": [
+        "M14",
+        "M17",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "24"
+    },
+    {
+      "global_claim_id": "G24-S189-K01",
+      "claim_id": "K01",
+      "source_id": "S189",
+      "corpus_id": "C165",
+      "location": "Books I–II; active/passive purgation, contemplation and union",
+      "claim_type": "TRANSFORMATION",
+      "claim": "The dark night is presented as a purgative process intended to prepare the soul for union.",
+      "motifs": [
+        "M12",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "24"
+    },
+    {
+      "global_claim_id": "G24-S189-K02",
+      "claim_id": "K02",
+      "source_id": "S189",
+      "corpus_id": "C165",
+      "location": "Books I–II; active/passive purgation, contemplation and union",
+      "claim_type": "STATE",
+      "claim": "John distinguishes novice, proficient and perfected states along the spiritual path.",
+      "motifs": [
+        "M07",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "24"
+    },
+    {
+      "global_claim_id": "G24-S189-K03",
+      "claim_id": "K03",
+      "source_id": "S189",
+      "corpus_id": "C165",
+      "location": "Books I–II; active/passive purgation, contemplation and union",
+      "claim_type": "PRACTICE",
+      "claim": "Active detachment and discipline precede or accompany passive purification.",
+      "motifs": [
+        "M24",
+        "M25"
+      ],
+      "provenance": "P2*",
+      "batch": "24"
+    },
+    {
+      "global_claim_id": "G24-S189-K04",
+      "claim_id": "K04",
+      "source_id": "S189",
+      "corpus_id": "C165",
+      "location": "Books I–II; active/passive purgation, contemplation and union",
+      "claim_type": "INTERIORITY",
+      "claim": "The purification targets sensory and spiritual faculties within the person.",
+      "motifs": [
+        "M02",
+        "M08"
+      ],
+      "provenance": "P2*",
+      "batch": "24"
+    },
+    {
+      "global_claim_id": "G24-S189-K05",
+      "claim_id": "K05",
+      "source_id": "S189",
+      "corpus_id": "C165",
+      "location": "Books I–II; active/passive purgation, contemplation and union",
+      "claim_type": "REFLEXIVITY",
+      "claim": "The practitioner is asked to recognize the limits and attachments of ordinary knowing and desiring.",
+      "motifs": [
+        "M02",
+        "M06",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "24"
+    },
+    {
+      "global_claim_id": "G24-S189-K06",
+      "claim_id": "K06",
+      "source_id": "S189",
+      "corpus_id": "C165",
+      "location": "Books I–II; active/passive purgation, contemplation and union",
+      "claim_type": "VALENCE",
+      "claim": "Darkness is paradoxically treated as a condition that can prepare greater light and freedom.",
+      "motifs": [
+        "M10",
+        "M12"
+      ],
+      "provenance": "P2*",
+      "batch": "24"
+    },
+    {
+      "global_claim_id": "G24-S189-K07",
+      "claim_id": "K07",
+      "source_id": "S189",
+      "corpus_id": "C165",
+      "location": "Books I–II; active/passive purgation, contemplation and union",
+      "claim_type": "INEFFABILITY",
+      "claim": "The deepest contemplation is described as darkness precisely because it exceeds ordinary conceptual understanding.",
+      "motifs": [
+        "M14",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "24"
+    },
+    {
+      "global_claim_id": "G24-S189-K08",
+      "claim_id": "K08",
+      "source_id": "S189",
+      "corpus_id": "C165",
+      "location": "Books I–II; active/passive purgation, contemplation and union",
+      "claim_type": "UNITY",
+      "claim": "The trajectory culminates in union of love with God rather than in a new catalogue of concepts.",
+      "motifs": [
+        "M03",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "24"
+    },
+    {
+      "global_claim_id": "G24-S189-K09",
+      "claim_id": "K09",
+      "source_id": "S189",
+      "corpus_id": "C165",
+      "location": "Books I–II; active/passive purgation, contemplation and union",
+      "claim_type": "ATTENTION",
+      "claim": "The work distinguishes discursive meditation from more passive contemplative awareness.",
+      "motifs": [
+        "M06",
+        "M24"
+      ],
+      "provenance": "P2*",
+      "batch": "24"
+    },
+    {
+      "global_claim_id": "G24-S189-K10",
+      "claim_id": "K10",
+      "source_id": "S189",
+      "corpus_id": "C165",
+      "location": "Books I–II; active/passive purgation, contemplation and union",
+      "claim_type": "DYNAMICS",
+      "claim": "Purgation is described as a dynamic process in which faculties lose habitual attachments and are reordered.",
+      "motifs": [
+        "M09",
+        "M12"
+      ],
+      "provenance": "P2*",
+      "batch": "24"
+    },
+    {
+      "global_claim_id": "G24-S189-K11",
+      "claim_id": "K11",
+      "source_id": "S189",
+      "corpus_id": "C165",
+      "location": "Books I–II; active/passive purgation, contemplation and union",
+      "claim_type": "TEMPORAL",
+      "claim": "The two nights introduce a staged progression through different forms of purification.",
+      "motifs": [
+        "M11",
+        "M12"
+      ],
+      "provenance": "P2*",
+      "batch": "24"
+    },
+    {
+      "global_claim_id": "G24-S189-K12",
+      "claim_id": "K12",
+      "source_id": "S189",
+      "corpus_id": "C165",
+      "location": "Books I–II; active/passive purgation, contemplation and union",
+      "claim_type": "DEATH",
+      "claim": "The language of dying to self and to created attachments functions as a transformation of identity rather than literal destruction.",
+      "motifs": [
+        "M12",
+        "M19"
+      ],
+      "provenance": "P2*",
+      "batch": "24"
+    },
+    {
+      "global_claim_id": "G24-S189-K13",
+      "claim_id": "K13",
+      "source_id": "S189",
+      "corpus_id": "C165",
+      "location": "Books I–II; active/passive purgation, contemplation and union",
+      "claim_type": "META",
+      "claim": "The Dark Night is a theological-mystical account of Christian spiritual formation, not a modern clinical model of cognition.",
+      "motifs": [
+        "M14",
+        "M17",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "24"
+    },
+    {
+      "global_claim_id": "G24-S190-K01",
+      "claim_id": "K01",
+      "source_id": "S190",
+      "corpus_id": "C166",
+      "location": "Spiritual Canticle, stanzas on bride, bridegroom, contemplation and transformation",
+      "claim_type": "RELATION",
+      "claim": "The soul's transformation is expressed through a relational image of bride and Bridegroom.",
+      "motifs": [
+        "M05",
+        "M16"
+      ],
+      "provenance": "P2*",
+      "batch": "24"
+    },
+    {
+      "global_claim_id": "G24-S190-K02",
+      "claim_id": "K02",
+      "source_id": "S190",
+      "corpus_id": "C166",
+      "location": "Spiritual Canticle, stanzas on bride, bridegroom, contemplation and transformation",
+      "claim_type": "STATE",
+      "claim": "The canticle differentiates longing, search, encounter, repose and consummation as distinct experiential conditions.",
+      "motifs": [
+        "M07",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "24"
+    },
+    {
+      "global_claim_id": "G24-S190-K03",
+      "claim_id": "K03",
+      "source_id": "S190",
+      "corpus_id": "C166",
+      "location": "Spiritual Canticle, stanzas on bride, bridegroom, contemplation and transformation",
+      "claim_type": "TRANSFORMATION",
+      "claim": "Desire is progressively reoriented toward union rather than ordinary possession.",
+      "motifs": [
+        "M12",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "24"
+    },
+    {
+      "global_claim_id": "G24-S190-K04",
+      "claim_id": "K04",
+      "source_id": "S190",
+      "corpus_id": "C166",
+      "location": "Spiritual Canticle, stanzas on bride, bridegroom, contemplation and transformation",
+      "claim_type": "INTERIORITY",
+      "claim": "The search for the Beloved is simultaneously an inward movement of the soul.",
+      "motifs": [
+        "M02",
+        "M06"
+      ],
+      "provenance": "P2*",
+      "batch": "24"
+    },
+    {
+      "global_claim_id": "G24-S190-K05",
+      "claim_id": "K05",
+      "source_id": "S190",
+      "corpus_id": "C166",
+      "location": "Spiritual Canticle, stanzas on bride, bridegroom, contemplation and transformation",
+      "claim_type": "PRACTICE",
+      "claim": "Contemplation, recollection and detachment support the journey represented by the poem.",
+      "motifs": [
+        "M24",
+        "M25"
+      ],
+      "provenance": "P2*",
+      "batch": "24"
+    },
+    {
+      "global_claim_id": "G24-S190-K06",
+      "claim_id": "K06",
+      "source_id": "S190",
+      "corpus_id": "C166",
+      "location": "Spiritual Canticle, stanzas on bride, bridegroom, contemplation and transformation",
+      "claim_type": "ATTENTION",
+      "claim": "The soul learns to recognize traces of the Beloved in creation and in its own interior life.",
+      "motifs": [
+        "M06",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "24"
+    },
+    {
+      "global_claim_id": "G24-S190-K07",
+      "claim_id": "K07",
+      "source_id": "S190",
+      "corpus_id": "C166",
+      "location": "Spiritual Canticle, stanzas on bride, bridegroom, contemplation and transformation",
+      "claim_type": "UNITY",
+      "claim": "The culmination is framed as a unitive knowledge and love in which separation is radically reduced.",
+      "motifs": [
+        "M03",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "24"
+    },
+    {
+      "global_claim_id": "G24-S190-K08",
+      "claim_id": "K08",
+      "source_id": "S190",
+      "corpus_id": "C166",
+      "location": "Spiritual Canticle, stanzas on bride, bridegroom, contemplation and transformation",
+      "claim_type": "VALENCE",
+      "claim": "Love, desire and peaceful rest provide the main evaluative orientation of the journey.",
+      "motifs": [
+        "M10",
+        "M12"
+      ],
+      "provenance": "P2*",
+      "batch": "24"
+    },
+    {
+      "global_claim_id": "G24-S190-K09",
+      "claim_id": "K09",
+      "source_id": "S190",
+      "corpus_id": "C166",
+      "location": "Spiritual Canticle, stanzas on bride, bridegroom, contemplation and transformation",
+      "claim_type": "INEFFABILITY",
+      "claim": "Poetic symbols are used because the contemplated relation is not adequately captured by literal description.",
+      "motifs": [
+        "M14",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "24"
+    },
+    {
+      "global_claim_id": "G24-S190-K10",
+      "claim_id": "K10",
+      "source_id": "S190",
+      "corpus_id": "C166",
+      "location": "Spiritual Canticle, stanzas on bride, bridegroom, contemplation and transformation",
+      "claim_type": "TEMPORAL",
+      "claim": "The poem preserves a narrative of seeking, finding and deepening union.",
+      "motifs": [
+        "M11",
+        "M12"
+      ],
+      "provenance": "P2*",
+      "batch": "24"
+    },
+    {
+      "global_claim_id": "G24-S190-K11",
+      "claim_id": "K11",
+      "source_id": "S190",
+      "corpus_id": "C166",
+      "location": "Spiritual Canticle, stanzas on bride, bridegroom, contemplation and transformation",
+      "claim_type": "EMBODIMENT",
+      "claim": "Images of sleep, touch, wounds, scent and landscape connect bodily imagery with spiritual transformation.",
+      "motifs": [
+        "M08",
+        "M18"
+      ],
+      "provenance": "P2*",
+      "batch": "24"
+    },
+    {
+      "global_claim_id": "G24-S190-K12",
+      "claim_id": "K12",
+      "source_id": "S190",
+      "corpus_id": "C166",
+      "location": "Spiritual Canticle, stanzas on bride, bridegroom, contemplation and transformation",
+      "claim_type": "DEATH",
+      "claim": "The soul's yearning can include desire for death as release into fuller union with the Beloved.",
+      "motifs": [
+        "M19",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "24"
+    },
+    {
+      "global_claim_id": "G24-S190-K13",
+      "claim_id": "K13",
+      "source_id": "S190",
+      "corpus_id": "C166",
+      "location": "Spiritual Canticle, stanzas on bride, bridegroom, contemplation and transformation",
+      "claim_type": "META",
+      "claim": "The text is a Christian mystical poem and its experiential language should not be universalized without historical qualification.",
+      "motifs": [
+        "M14",
+        "M17",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "24"
+    },
+    {
+      "global_claim_id": "G24-S191-K01",
+      "claim_id": "K01",
+      "source_id": "S191",
+      "corpus_id": "C167",
+      "location": "Aurora: first principles, nature, divine manifestation, polarity and inner awakening",
+      "claim_type": "ONTO",
+      "claim": "Böhme describes reality through a dynamic relation between divine ground, manifestation and natural qualities.",
+      "motifs": [
+        "M03",
+        "M09",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "24"
+    },
+    {
+      "global_claim_id": "G24-S191-K02",
+      "claim_id": "K02",
+      "source_id": "S191",
+      "corpus_id": "C167",
+      "location": "Aurora: first principles, nature, divine manifestation, polarity and inner awakening",
+      "claim_type": "DYNAMICS",
+      "claim": "Opposed qualities and forces are treated as necessary to the emergence of differentiated manifestation.",
+      "motifs": [
+        "M04",
+        "M09",
+        "M18"
+      ],
+      "provenance": "P2*",
+      "batch": "24"
+    },
+    {
+      "global_claim_id": "G24-S191-K03",
+      "claim_id": "K03",
+      "source_id": "S191",
+      "corpus_id": "C167",
+      "location": "Aurora: first principles, nature, divine manifestation, polarity and inner awakening",
+      "claim_type": "UNITY",
+      "claim": "Multiplicity is repeatedly related back to an underlying divine ground.",
+      "motifs": [
+        "M03",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "24"
+    },
+    {
+      "global_claim_id": "G24-S191-K04",
+      "claim_id": "K04",
+      "source_id": "S191",
+      "corpus_id": "C167",
+      "location": "Aurora: first principles, nature, divine manifestation, polarity and inner awakening",
+      "claim_type": "COSMO",
+      "claim": "Nature functions as an arena in which spiritual principles become manifest and legible.",
+      "motifs": [
+        "M15",
+        "M18"
+      ],
+      "provenance": "P2*",
+      "batch": "24"
+    },
+    {
+      "global_claim_id": "G24-S191-K05",
+      "claim_id": "K05",
+      "source_id": "S191",
+      "corpus_id": "C167",
+      "location": "Aurora: first principles, nature, divine manifestation, polarity and inner awakening",
+      "claim_type": "REFLEXIVITY",
+      "claim": "Human beings can investigate the same dynamic principles within themselves.",
+      "motifs": [
+        "M02",
+        "M06",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "24"
+    },
+    {
+      "global_claim_id": "G24-S191-K06",
+      "claim_id": "K06",
+      "source_id": "S191",
+      "corpus_id": "C167",
+      "location": "Aurora: first principles, nature, divine manifestation, polarity and inner awakening",
+      "claim_type": "INTERIORITY",
+      "claim": "Inner experience is treated as a locus where divine and natural dynamics become perceivable.",
+      "motifs": [
+        "M02",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "24"
+    },
+    {
+      "global_claim_id": "G24-S191-K07",
+      "claim_id": "K07",
+      "source_id": "S191",
+      "corpus_id": "C167",
+      "location": "Aurora: first principles, nature, divine manifestation, polarity and inner awakening",
+      "claim_type": "TRANSFORMATION",
+      "claim": "Awakening involves movement from obscurity toward recognition of the divine source within created existence.",
+      "motifs": [
+        "M12",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "24"
+    },
+    {
+      "global_claim_id": "G24-S191-K08",
+      "claim_id": "K08",
+      "source_id": "S191",
+      "corpus_id": "C167",
+      "location": "Aurora: first principles, nature, divine manifestation, polarity and inner awakening",
+      "claim_type": "VALENCE",
+      "claim": "Light and darkness, good and evil, and attraction and resistance are interpreted within a larger dynamic theology.",
+      "motifs": [
+        "M10",
+        "M18"
+      ],
+      "provenance": "P2*",
+      "batch": "24"
+    },
+    {
+      "global_claim_id": "G24-S191-K09",
+      "claim_id": "K09",
+      "source_id": "S191",
+      "corpus_id": "C167",
+      "location": "Aurora: first principles, nature, divine manifestation, polarity and inner awakening",
+      "claim_type": "EMBODIMENT",
+      "claim": "Human embodiment is not excluded from the spiritual drama but participates in the manifestation of principles.",
+      "motifs": [
+        "M08",
+        "M16"
+      ],
+      "provenance": "P2*",
+      "batch": "24"
+    },
+    {
+      "global_claim_id": "G24-S191-K10",
+      "claim_id": "K10",
+      "source_id": "S191",
+      "corpus_id": "C167",
+      "location": "Aurora: first principles, nature, divine manifestation, polarity and inner awakening",
+      "claim_type": "CORRESPONDENCE",
+      "claim": "Natural qualities can signify or correspond to spiritual structures in Böhme's symbolic cosmology.",
+      "motifs": [
+        "M18",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "24"
+    },
+    {
+      "global_claim_id": "G24-S191-K11",
+      "claim_id": "K11",
+      "source_id": "S191",
+      "corpus_id": "C167",
+      "location": "Aurora: first principles, nature, divine manifestation, polarity and inner awakening",
+      "claim_type": "STATE",
+      "claim": "The soul can be represented as undergoing different conditions according to which principle dominates its orientation.",
+      "motifs": [
+        "M07",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "24"
+    },
+    {
+      "global_claim_id": "G24-S191-K12",
+      "claim_id": "K12",
+      "source_id": "S191",
+      "corpus_id": "C167",
+      "location": "Aurora: first principles, nature, divine manifestation, polarity and inner awakening",
+      "claim_type": "INEFFABILITY",
+      "claim": "The divine ground is described through paradoxical language because it exceeds ordinary conceptual representation.",
+      "motifs": [
+        "M14",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "24"
+    },
+    {
+      "global_claim_id": "G24-S191-K13",
+      "claim_id": "K13",
+      "source_id": "S191",
+      "corpus_id": "C167",
+      "location": "Aurora: first principles, nature, divine manifestation, polarity and inner awakening",
+      "claim_type": "META",
+      "claim": "Aurora is an early modern Christian theosophical work whose cosmology should be distinguished from later scientific theories of nature or mind.",
+      "motifs": [
+        "M14",
+        "M17",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "24"
+    },
+    {
+      "global_claim_id": "G24-S192-K01",
+      "claim_id": "K01",
+      "source_id": "S192",
+      "corpus_id": "C168",
+      "location": "De Signatura Rerum; signatures, nature, inner qualities and correspondence",
+      "claim_type": "CORRESPONDENCE",
+      "claim": "Böhme treats visible forms and qualities as signs or signatures of deeper spiritual principles.",
+      "motifs": [
+        "M18",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "24"
+    },
+    {
+      "global_claim_id": "G24-S192-K02",
+      "claim_id": "K02",
+      "source_id": "S192",
+      "corpus_id": "C168",
+      "location": "De Signatura Rerum; signatures, nature, inner qualities and correspondence",
+      "claim_type": "ONTO",
+      "claim": "Nature is described as containing an interior or spiritual dimension not exhausted by outward appearance.",
+      "motifs": [
+        "M03",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "24"
+    },
+    {
+      "global_claim_id": "G24-S192-K03",
+      "claim_id": "K03",
+      "source_id": "S192",
+      "corpus_id": "C168",
+      "location": "De Signatura Rerum; signatures, nature, inner qualities and correspondence",
+      "claim_type": "REFLEXIVITY",
+      "claim": "Learning to read signatures requires an interpreter who attends to relationships between visible and invisible orders.",
+      "motifs": [
+        "M02",
+        "M06",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "24"
+    },
+    {
+      "global_claim_id": "G24-S192-K04",
+      "claim_id": "K04",
+      "source_id": "S192",
+      "corpus_id": "C168",
+      "location": "De Signatura Rerum; signatures, nature, inner qualities and correspondence",
+      "claim_type": "PRACTICE",
+      "claim": "Discernment of signatures functions as a contemplative and interpretive discipline.",
+      "motifs": [
+        "M24",
+        "M25"
+      ],
+      "provenance": "P2*",
+      "batch": "24"
+    },
+    {
+      "global_claim_id": "G24-S192-K05",
+      "claim_id": "K05",
+      "source_id": "S192",
+      "corpus_id": "C168",
+      "location": "De Signatura Rerum; signatures, nature, inner qualities and correspondence",
+      "claim_type": "STATE",
+      "claim": "The capacity to perceive inner significance depends on the spiritual condition and orientation of the observer.",
+      "motifs": [
+        "M07",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "24"
+    },
+    {
+      "global_claim_id": "G24-S192-K06",
+      "claim_id": "K06",
+      "source_id": "S192",
+      "corpus_id": "C168",
+      "location": "De Signatura Rerum; signatures, nature, inner qualities and correspondence",
+      "claim_type": "EMBODIMENT",
+      "claim": "Material bodies and qualities are treated as vehicles through which hidden properties can appear.",
+      "motifs": [
+        "M08",
+        "M18"
+      ],
+      "provenance": "P2*",
+      "batch": "24"
+    },
+    {
+      "global_claim_id": "G24-S192-K07",
+      "claim_id": "K07",
+      "source_id": "S192",
+      "corpus_id": "C168",
+      "location": "De Signatura Rerum; signatures, nature, inner qualities and correspondence",
+      "claim_type": "DYNAMICS",
+      "claim": "The interaction of forces within nature gives rise to signs that reveal the quality of underlying processes.",
+      "motifs": [
+        "M09",
+        "M18"
+      ],
+      "provenance": "P2*",
+      "batch": "24"
+    },
+    {
+      "global_claim_id": "G24-S192-K08",
+      "claim_id": "K08",
+      "source_id": "S192",
+      "corpus_id": "C168",
+      "location": "De Signatura Rerum; signatures, nature, inner qualities and correspondence",
+      "claim_type": "UNITY",
+      "claim": "External and internal orders remain connected through systematic correspondence.",
+      "motifs": [
+        "M03",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "24"
+    },
+    {
+      "global_claim_id": "G24-S192-K09",
+      "claim_id": "K09",
+      "source_id": "S192",
+      "corpus_id": "C168",
+      "location": "De Signatura Rerum; signatures, nature, inner qualities and correspondence",
+      "claim_type": "VALENCE",
+      "claim": "Natural things are interpreted in relation to beneficial or harmful qualities and spiritual orientation.",
+      "motifs": [
+        "M10",
+        "M18"
+      ],
+      "provenance": "P2*",
+      "batch": "24"
+    },
+    {
+      "global_claim_id": "G24-S192-K10",
+      "claim_id": "K10",
+      "source_id": "S192",
+      "corpus_id": "C168",
+      "location": "De Signatura Rerum; signatures, nature, inner qualities and correspondence",
+      "claim_type": "TRANSFORMATION",
+      "claim": "The knower's relation to nature changes when visible forms are understood as expressions of deeper principles.",
+      "motifs": [
+        "M12",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "24"
+    },
+    {
+      "global_claim_id": "G24-S192-K11",
+      "claim_id": "K11",
+      "source_id": "S192",
+      "corpus_id": "C168",
+      "location": "De Signatura Rerum; signatures, nature, inner qualities and correspondence",
+      "claim_type": "ATTENTION",
+      "claim": "Close observation is necessary to distinguish a mere appearance from a meaningful signature.",
+      "motifs": [
+        "M06",
+        "M24"
+      ],
+      "provenance": "P2*",
+      "batch": "24"
+    },
+    {
+      "global_claim_id": "G24-S192-K12",
+      "claim_id": "K12",
+      "source_id": "S192",
+      "corpus_id": "C168",
+      "location": "De Signatura Rerum; signatures, nature, inner qualities and correspondence",
+      "claim_type": "INEFFABILITY",
+      "claim": "Hidden principles require symbolic language because their full nature is not directly available to ordinary perception.",
+      "motifs": [
+        "M14",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "24"
+    },
+    {
+      "global_claim_id": "G24-S192-K13",
+      "claim_id": "K13",
+      "source_id": "S192",
+      "corpus_id": "C168",
+      "location": "De Signatura Rerum; signatures, nature, inner qualities and correspondence",
+      "claim_type": "META",
+      "claim": "De Signatura Rerum belongs to Böhme's theosophical system and its doctrine of signatures is historical/esoteric rather than established natural science.",
+      "motifs": [
+        "M14",
+        "M17",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "24"
+    },
+    {
+      "global_claim_id": "G24-S193-K01",
+      "claim_id": "K01",
+      "source_id": "S193",
+      "corpus_id": "C169",
+      "location": "Chapters II–VI and later analysis of numinous experience",
+      "claim_type": "STATE",
+      "claim": "Otto distinguishes the numinous as a distinctive state of consciousness rather than ordinary conceptual knowledge.",
+      "motifs": [
+        "M07",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "24"
+    },
+    {
+      "global_claim_id": "G24-S193-K02",
+      "claim_id": "K02",
+      "source_id": "S193",
+      "corpus_id": "C169",
+      "location": "Chapters II–VI and later analysis of numinous experience",
+      "claim_type": "VALENCE",
+      "claim": "Awe, fascination and dread form a characteristic evaluative structure of numinous experience.",
+      "motifs": [
+        "M10",
+        "M14"
+      ],
+      "provenance": "P2*",
+      "batch": "24"
+    },
+    {
+      "global_claim_id": "G24-S193-K03",
+      "claim_id": "K03",
+      "source_id": "S193",
+      "corpus_id": "C169",
+      "location": "Chapters II–VI and later analysis of numinous experience",
+      "claim_type": "INEFFABILITY",
+      "claim": "The numinous cannot be fully defined propositionally and must be approached through analogy and contrast.",
+      "motifs": [
+        "M14",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "24"
+    },
+    {
+      "global_claim_id": "G24-S193-K04",
+      "claim_id": "K04",
+      "source_id": "S193",
+      "corpus_id": "C169",
+      "location": "Chapters II–VI and later analysis of numinous experience",
+      "claim_type": "INTERIORITY",
+      "claim": "Religious experience is analyzed through changes occurring within consciousness and feeling.",
+      "motifs": [
+        "M02",
+        "M07"
+      ],
+      "provenance": "P2*",
+      "batch": "24"
+    },
+    {
+      "global_claim_id": "G24-S193-K05",
+      "claim_id": "K05",
+      "source_id": "S193",
+      "corpus_id": "C169",
+      "location": "Chapters II–VI and later analysis of numinous experience",
+      "claim_type": "REFLEXIVITY",
+      "claim": "The subject is guided to notice analogous experiences within their own mental life in order to grasp the numinous.",
+      "motifs": [
+        "M02",
+        "M06",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "24"
+    },
+    {
+      "global_claim_id": "G24-S193-K06",
+      "claim_id": "K06",
+      "source_id": "S193",
+      "corpus_id": "C169",
+      "location": "Chapters II–VI and later analysis of numinous experience",
+      "claim_type": "ATTENTION",
+      "claim": "Otto's method deliberately directs attention toward distinctive affective and experiential features.",
+      "motifs": [
+        "M06",
+        "M24"
+      ],
+      "provenance": "P2*",
+      "batch": "24"
+    },
+    {
+      "global_claim_id": "G24-S193-K07",
+      "claim_id": "K07",
+      "source_id": "S193",
+      "corpus_id": "C169",
+      "location": "Chapters II–VI and later analysis of numinous experience",
+      "claim_type": "RELATION",
+      "claim": "The numinous concerns the subject's relation to what is experienced as mysteriously beyond the ordinary self.",
+      "motifs": [
+        "M05",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "24"
+    },
+    {
+      "global_claim_id": "G24-S193-K08",
+      "claim_id": "K08",
+      "source_id": "S193",
+      "corpus_id": "C169",
+      "location": "Chapters II–VI and later analysis of numinous experience",
+      "claim_type": "UNITY",
+      "claim": "Otto resists reducing the holy to any one rational or ethical category, preserving a complex experiential whole.",
+      "motifs": [
+        "M03",
+        "M14"
+      ],
+      "provenance": "P2*",
+      "batch": "24"
+    },
+    {
+      "global_claim_id": "G24-S193-K09",
+      "claim_id": "K09",
+      "source_id": "S193",
+      "corpus_id": "C169",
+      "location": "Chapters II–VI and later analysis of numinous experience",
+      "claim_type": "DYNAMICS",
+      "claim": "Mysterium tremendum and fascination describe different but related poles of the same experiential encounter.",
+      "motifs": [
+        "M04",
+        "M10"
+      ],
+      "provenance": "P2*",
+      "batch": "24"
+    },
+    {
+      "global_claim_id": "G24-S193-K10",
+      "claim_id": "K10",
+      "source_id": "S193",
+      "corpus_id": "C169",
+      "location": "Chapters II–VI and later analysis of numinous experience",
+      "claim_type": "TRANSFORMATION",
+      "claim": "Encounter with the numinous is treated as capable of reshaping the subject's religious orientation.",
+      "motifs": [
+        "M12",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "24"
+    },
+    {
+      "global_claim_id": "G24-S193-K11",
+      "claim_id": "K11",
+      "source_id": "S193",
+      "corpus_id": "C169",
+      "location": "Chapters II–VI and later analysis of numinous experience",
+      "claim_type": "TEMPORAL",
+      "claim": "Otto distinguishes historical developmental forms of the holy while preserving a recurring experiential core.",
+      "motifs": [
+        "M11",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "24"
+    },
+    {
+      "global_claim_id": "G24-S193-K12",
+      "claim_id": "K12",
+      "source_id": "S193",
+      "corpus_id": "C169",
+      "location": "Chapters II–VI and later analysis of numinous experience",
+      "claim_type": "SELF_MODEL",
+      "claim": "The experiencing subject is not presented as a detached observer but as affectively involved in the numinous encounter.",
+      "motifs": [
+        "M02",
+        "M05"
+      ],
+      "provenance": "P2*",
+      "batch": "24"
+    },
+    {
+      "global_claim_id": "G24-S193-K13",
+      "claim_id": "K13",
+      "source_id": "S193",
+      "corpus_id": "C169",
+      "location": "Chapters II–VI and later analysis of numinous experience",
+      "claim_type": "META",
+      "claim": "Otto's phenomenological-theological analysis describes religious experience; it does not establish an ontological proof of supernatural entities.",
+      "motifs": [
+        "M14",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "24"
+    },
+    {
+      "global_claim_id": "G24-S194-K01",
+      "claim_id": "K01",
+      "source_id": "S194",
+      "corpus_id": "C170",
+      "location": "Arcana Coelestia; internal sense, correspondences, influx and regeneration",
+      "claim_type": "CORRESPONDENCE",
+      "claim": "Swedenborg interprets natural forms, human interiors and spiritual realities through systematic correspondences.",
+      "motifs": [
+        "M18",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "24"
+    },
+    {
+      "global_claim_id": "G24-S194-K02",
+      "claim_id": "K02",
+      "source_id": "S194",
+      "corpus_id": "C170",
+      "location": "Arcana Coelestia; internal sense, correspondences, influx and regeneration",
+      "claim_type": "INFLUX",
+      "claim": "He describes spiritual and divine life as flowing through ordered levels into natural and bodily manifestations.",
+      "motifs": [
+        "M09",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "24"
+    },
+    {
+      "global_claim_id": "G24-S194-K03",
+      "claim_id": "K03",
+      "source_id": "S194",
+      "corpus_id": "C170",
+      "location": "Arcana Coelestia; internal sense, correspondences, influx and regeneration",
+      "claim_type": "SELF_MODEL",
+      "claim": "Human interiors of understanding, will and memory are treated as distinct dimensions of an internal person.",
+      "motifs": [
+        "M02",
+        "M08"
+      ],
+      "provenance": "P2*",
+      "batch": "24"
+    },
+    {
+      "global_claim_id": "G24-S194-K04",
+      "claim_id": "K04",
+      "source_id": "S194",
+      "corpus_id": "C170",
+      "location": "Arcana Coelestia; internal sense, correspondences, influx and regeneration",
+      "claim_type": "RELATION",
+      "claim": "The internal and external human are connected through affection, thought and action.",
+      "motifs": [
+        "M05",
+        "M16"
+      ],
+      "provenance": "P2*",
+      "batch": "24"
+    },
+    {
+      "global_claim_id": "G24-S194-K05",
+      "claim_id": "K05",
+      "source_id": "S194",
+      "corpus_id": "C170",
+      "location": "Arcana Coelestia; internal sense, correspondences, influx and regeneration",
+      "claim_type": "DYNAMICS",
+      "claim": "End, cause and effect are linked in a sequence through which spiritual purposes become natural actions.",
+      "motifs": [
+        "M09",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "24"
+    },
+    {
+      "global_claim_id": "G24-S194-K06",
+      "claim_id": "K06",
+      "source_id": "S194",
+      "corpus_id": "C170",
+      "location": "Arcana Coelestia; internal sense, correspondences, influx and regeneration",
+      "claim_type": "TRANSFORMATION",
+      "claim": "Regeneration is described as bringing interior and exterior levels into greater correspondence.",
+      "motifs": [
+        "M12",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "24"
+    },
+    {
+      "global_claim_id": "G24-S194-K07",
+      "claim_id": "K07",
+      "source_id": "S194",
+      "corpus_id": "C170",
+      "location": "Arcana Coelestia; internal sense, correspondences, influx and regeneration",
+      "claim_type": "STATE",
+      "claim": "Different states of affection, thought and life correspond to different degrees of spiritual alignment.",
+      "motifs": [
+        "M07",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "24"
+    },
+    {
+      "global_claim_id": "G24-S194-K08",
+      "claim_id": "K08",
+      "source_id": "S194",
+      "corpus_id": "C170",
+      "location": "Arcana Coelestia; internal sense, correspondences, influx and regeneration",
+      "claim_type": "EMBODIMENT",
+      "claim": "Body, senses, speech and action are treated as external expressions of internal states.",
+      "motifs": [
+        "M08",
+        "M18"
+      ],
+      "provenance": "P2*",
+      "batch": "24"
+    },
+    {
+      "global_claim_id": "G24-S194-K09",
+      "claim_id": "K09",
+      "source_id": "S194",
+      "corpus_id": "C170",
+      "location": "Arcana Coelestia; internal sense, correspondences, influx and regeneration",
+      "claim_type": "VALENCE",
+      "claim": "Love, charity, truth and their opposites are used to evaluate whether correspondence is healthy or distorted.",
+      "motifs": [
+        "M10",
+        "M12"
+      ],
+      "provenance": "P2*",
+      "batch": "24"
+    },
+    {
+      "global_claim_id": "G24-S194-K10",
+      "claim_id": "K10",
+      "source_id": "S194",
+      "corpus_id": "C170",
+      "location": "Arcana Coelestia; internal sense, correspondences, influx and regeneration",
+      "claim_type": "REFLEXIVITY",
+      "claim": "The internal sense of scripture is also a method for re-reading one's own inner condition.",
+      "motifs": [
+        "M02",
+        "M06",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "24"
+    },
+    {
+      "global_claim_id": "G24-S194-K11",
+      "claim_id": "K11",
+      "source_id": "S194",
+      "corpus_id": "C170",
+      "location": "Arcana Coelestia; internal sense, correspondences, influx and regeneration",
+      "claim_type": "PERSISTENCE",
+      "claim": "Swedenborg's anthropology includes a doctrine of continuity of the inner person beyond bodily death.",
+      "motifs": [
+        "M19",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "24"
+    },
+    {
+      "global_claim_id": "G24-S194-K12",
+      "claim_id": "K12",
+      "source_id": "S194",
+      "corpus_id": "C170",
+      "location": "Arcana Coelestia; internal sense, correspondences, influx and regeneration",
+      "claim_type": "COSMO",
+      "claim": "Human nature and the broader spiritual world are mapped onto one another as nested correspondences.",
+      "motifs": [
+        "M15",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "24"
+    },
+    {
+      "global_claim_id": "G24-S194-K13",
+      "claim_id": "K13",
+      "source_id": "S194",
+      "corpus_id": "C170",
+      "location": "Arcana Coelestia; internal sense, correspondences, influx and regeneration",
+      "claim_type": "META",
+      "claim": "Arcana Coelestia is an eighteenth-century theological exegesis and should be separated from modern empirical theories of mind.",
+      "motifs": [
+        "M14",
+        "M17",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "24"
+    },
+    {
+      "global_claim_id": "G24-S195-K01",
+      "claim_id": "K01",
+      "source_id": "S195",
+      "corpus_id": "C171",
+      "location": "Heaven and Hell; spiritual world, correspondence, states after death and personhood",
+      "claim_type": "COSMO",
+      "claim": "Swedenborg describes heaven and the natural world as related domains with systematic correspondences.",
+      "motifs": [
+        "M15",
+        "M18",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "24"
+    },
+    {
+      "global_claim_id": "G24-S195-K02",
+      "claim_id": "K02",
+      "source_id": "S195",
+      "corpus_id": "C171",
+      "location": "Heaven and Hell; spiritual world, correspondence, states after death and personhood",
+      "claim_type": "PERSON",
+      "claim": "The inner person is represented as continuous with a spiritual environment after bodily death.",
+      "motifs": [
+        "M05",
+        "M16",
+        "M19"
+      ],
+      "provenance": "P2*",
+      "batch": "24"
+    },
+    {
+      "global_claim_id": "G24-S195-K03",
+      "claim_id": "K03",
+      "source_id": "S195",
+      "corpus_id": "C171",
+      "location": "Heaven and Hell; spiritual world, correspondence, states after death and personhood",
+      "claim_type": "STATE",
+      "claim": "Heavenly societies and individual beings are differentiated by states of love, intention and understanding.",
+      "motifs": [
+        "M07",
+        "M10"
+      ],
+      "provenance": "P2*",
+      "batch": "24"
+    },
+    {
+      "global_claim_id": "G24-S195-K04",
+      "claim_id": "K04",
+      "source_id": "S195",
+      "corpus_id": "C171",
+      "location": "Heaven and Hell; spiritual world, correspondence, states after death and personhood",
+      "claim_type": "CORRESPONDENCE",
+      "claim": "Objects and events in the natural world are treated as signs of spiritual realities.",
+      "motifs": [
+        "M18",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "24"
+    },
+    {
+      "global_claim_id": "G24-S195-K05",
+      "claim_id": "K05",
+      "source_id": "S195",
+      "corpus_id": "C171",
+      "location": "Heaven and Hell; spiritual world, correspondence, states after death and personhood",
+      "claim_type": "RELATION",
+      "claim": "Personhood is fundamentally relational, shaped by community and the dominant loves of the individual.",
+      "motifs": [
+        "M05",
+        "M16"
+      ],
+      "provenance": "P2*",
+      "batch": "24"
+    },
+    {
+      "global_claim_id": "G24-S195-K06",
+      "claim_id": "K06",
+      "source_id": "S195",
+      "corpus_id": "C171",
+      "location": "Heaven and Hell; spiritual world, correspondence, states after death and personhood",
+      "claim_type": "TRANSFORMATION",
+      "claim": "The post-mortem trajectory is presented as a continuation and clarification of the person's ruling loves.",
+      "motifs": [
+        "M12",
+        "M19"
+      ],
+      "provenance": "P2*",
+      "batch": "24"
+    },
+    {
+      "global_claim_id": "G24-S195-K07",
+      "claim_id": "K07",
+      "source_id": "S195",
+      "corpus_id": "C171",
+      "location": "Heaven and Hell; spiritual world, correspondence, states after death and personhood",
+      "claim_type": "SELF_MODEL",
+      "claim": "Understanding and will are treated as core interior faculties that structure the person's spiritual life.",
+      "motifs": [
+        "M02",
+        "M06"
+      ],
+      "provenance": "P2*",
+      "batch": "24"
+    },
+    {
+      "global_claim_id": "G24-S195-K08",
+      "claim_id": "K08",
+      "source_id": "S195",
+      "corpus_id": "C171",
+      "location": "Heaven and Hell; spiritual world, correspondence, states after death and personhood",
+      "claim_type": "EMBODIMENT",
+      "claim": "The body is the natural level through which interior affections and thoughts become externally manifest.",
+      "motifs": [
+        "M08",
+        "M18"
+      ],
+      "provenance": "P2*",
+      "batch": "24"
+    },
+    {
+      "global_claim_id": "G24-S195-K09",
+      "claim_id": "K09",
+      "source_id": "S195",
+      "corpus_id": "C171",
+      "location": "Heaven and Hell; spiritual world, correspondence, states after death and personhood",
+      "claim_type": "VALENCE",
+      "claim": "Love of self, love of the world and love of the divine are treated as competing organizing orientations.",
+      "motifs": [
+        "M10",
+        "M12"
+      ],
+      "provenance": "P2*",
+      "batch": "24"
+    },
+    {
+      "global_claim_id": "G24-S195-K10",
+      "claim_id": "K10",
+      "source_id": "S195",
+      "corpus_id": "C171",
+      "location": "Heaven and Hell; spiritual world, correspondence, states after death and personhood",
+      "claim_type": "TEMPORAL",
+      "claim": "States after death are described as developments of dispositions already formed during earthly life.",
+      "motifs": [
+        "M11",
+        "M19"
+      ],
+      "provenance": "P2*",
+      "batch": "24"
+    },
+    {
+      "global_claim_id": "G24-S195-K11",
+      "claim_id": "K11",
+      "source_id": "S195",
+      "corpus_id": "C171",
+      "location": "Heaven and Hell; spiritual world, correspondence, states after death and personhood",
+      "claim_type": "UNITY",
+      "claim": "Heaven is repeatedly portrayed as an ordered whole whose parts reflect a single human form.",
+      "motifs": [
+        "M03",
+        "M16",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "24"
+    },
+    {
+      "global_claim_id": "G24-S195-K12",
+      "claim_id": "K12",
+      "source_id": "S195",
+      "corpus_id": "C171",
+      "location": "Heaven and Hell; spiritual world, correspondence, states after death and personhood",
+      "claim_type": "ATTENTION",
+      "claim": "Learning spiritual meaning involves looking beyond surface appearances toward correspondential structures.",
+      "motifs": [
+        "M06",
+        "M18"
+      ],
+      "provenance": "P2*",
+      "batch": "24"
+    },
+    {
+      "global_claim_id": "G24-S195-K13",
+      "claim_id": "K13",
+      "source_id": "S195",
+      "corpus_id": "C171",
+      "location": "Heaven and Hell; spiritual world, correspondence, states after death and personhood",
+      "claim_type": "META",
+      "claim": "Heaven and Hell presents a nineteenth-century reception of Swedenborgian theology, not an empirically verified map of an afterlife.",
+      "motifs": [
+        "M14",
+        "M17",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "24"
+    },
+    {
+      "global_claim_id": "G24-S196-K01",
+      "claim_id": "K01",
+      "source_id": "S196",
+      "corpus_id": "C172",
+      "location": "Qur'an; nafs, qalb, ruh, remembrance, perception and moral transformation",
+      "claim_type": "PERSON",
+      "claim": "The Qur'an uses nafs to speak about the self or person in contexts of responsibility, desire and moral change.",
+      "motifs": [
+        "M05",
+        "M16"
+      ],
+      "provenance": "P2*",
+      "batch": "24"
+    },
+    {
+      "global_claim_id": "G24-S196-K02",
+      "claim_id": "K02",
+      "source_id": "S196",
+      "corpus_id": "C172",
+      "location": "Qur'an; nafs, qalb, ruh, remembrance, perception and moral transformation",
+      "claim_type": "INTERIORITY",
+      "claim": "The heart (qalb) is repeatedly associated with understanding, responsiveness, and moral orientation.",
+      "motifs": [
+        "M02",
+        "M06",
+        "M10"
+      ],
+      "provenance": "P2*",
+      "batch": "24"
+    },
+    {
+      "global_claim_id": "G24-S196-K03",
+      "claim_id": "K03",
+      "source_id": "S196",
+      "corpus_id": "C172",
+      "location": "Qur'an; nafs, qalb, ruh, remembrance, perception and moral transformation",
+      "claim_type": "SELF_MODEL",
+      "claim": "The human being is depicted as capable of self-examination, self-reproach and purification.",
+      "motifs": [
+        "M02",
+        "M06",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "24"
+    },
+    {
+      "global_claim_id": "G24-S196-K04",
+      "claim_id": "K04",
+      "source_id": "S196",
+      "corpus_id": "C172",
+      "location": "Qur'an; nafs, qalb, ruh, remembrance, perception and moral transformation",
+      "claim_type": "SPIRIT",
+      "claim": "Ruh is used in several distinct Qur'anic contexts and should not be collapsed into a single modern notion of consciousness.",
+      "motifs": [
+        "M14",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "24"
+    },
+    {
+      "global_claim_id": "G24-S196-K05",
+      "claim_id": "K05",
+      "source_id": "S196",
+      "corpus_id": "C172",
+      "location": "Qur'an; nafs, qalb, ruh, remembrance, perception and moral transformation",
+      "claim_type": "STATE",
+      "claim": "The text differentiates states such as remembrance, heedlessness, gratitude, hardness and tranquility of the heart.",
+      "motifs": [
+        "M07",
+        "M10"
+      ],
+      "provenance": "P2*",
+      "batch": "24"
+    },
+    {
+      "global_claim_id": "G24-S196-K06",
+      "claim_id": "K06",
+      "source_id": "S196",
+      "corpus_id": "C172",
+      "location": "Qur'an; nafs, qalb, ruh, remembrance, perception and moral transformation",
+      "claim_type": "PRACTICE",
+      "claim": "Remembrance, prayer, recitation and ethical action function as practices for reorienting the person.",
+      "motifs": [
+        "M24",
+        "M25"
+      ],
+      "provenance": "P2*",
+      "batch": "24"
+    },
+    {
+      "global_claim_id": "G24-S196-K07",
+      "claim_id": "K07",
+      "source_id": "S196",
+      "corpus_id": "C172",
+      "location": "Qur'an; nafs, qalb, ruh, remembrance, perception and moral transformation",
+      "claim_type": "TRANSFORMATION",
+      "claim": "Repentance and purification are represented as processes through which the person changes moral and spiritual condition.",
+      "motifs": [
+        "M12",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "24"
+    },
+    {
+      "global_claim_id": "G24-S196-K08",
+      "claim_id": "K08",
+      "source_id": "S196",
+      "corpus_id": "C172",
+      "location": "Qur'an; nafs, qalb, ruh, remembrance, perception and moral transformation",
+      "claim_type": "VALENCE",
+      "claim": "God-consciousness, justice, gratitude and mercy form central evaluative axes for human action.",
+      "motifs": [
+        "M10",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "24"
+    },
+    {
+      "global_claim_id": "G24-S196-K09",
+      "claim_id": "K09",
+      "source_id": "S196",
+      "corpus_id": "C172",
+      "location": "Qur'an; nafs, qalb, ruh, remembrance, perception and moral transformation",
+      "claim_type": "ATTENTION",
+      "claim": "Remembrance and heedfulness emphasize sustained orientation of attention toward God and moral accountability.",
+      "motifs": [
+        "M06",
+        "M24"
+      ],
+      "provenance": "P2*",
+      "batch": "24"
+    },
+    {
+      "global_claim_id": "G24-S196-K10",
+      "claim_id": "K10",
+      "source_id": "S196",
+      "corpus_id": "C172",
+      "location": "Qur'an; nafs, qalb, ruh, remembrance, perception and moral transformation",
+      "claim_type": "RELATION",
+      "claim": "Human identity is defined through relation to God, other people, creation and one's own acts.",
+      "motifs": [
+        "M05",
+        "M16",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "24"
+    },
+    {
+      "global_claim_id": "G24-S196-K11",
+      "claim_id": "K11",
+      "source_id": "S196",
+      "corpus_id": "C172",
+      "location": "Qur'an; nafs, qalb, ruh, remembrance, perception and moral transformation",
+      "claim_type": "TEMPORAL",
+      "claim": "The Qur'an links present action with future accountability, creating a temporally extended moral self-model.",
+      "motifs": [
+        "M11",
+        "M19"
+      ],
+      "provenance": "P2*",
+      "batch": "24"
+    },
+    {
+      "global_claim_id": "G24-S196-K12",
+      "claim_id": "K12",
+      "source_id": "S196",
+      "corpus_id": "C172",
+      "location": "Qur'an; nafs, qalb, ruh, remembrance, perception and moral transformation",
+      "claim_type": "UNITY",
+      "claim": "Creation is presented within a unified divine sovereignty while preserving distinctions among creatures.",
+      "motifs": [
+        "M03",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "24"
+    },
+    {
+      "global_claim_id": "G24-S196-K13",
+      "claim_id": "K13",
+      "source_id": "S196",
+      "corpus_id": "C172",
+      "location": "Qur'an; nafs, qalb, ruh, remembrance, perception and moral transformation",
+      "claim_type": "META",
+      "claim": "The Qur'an is a foundational Islamic scripture whose vocabulary of nafs, qalb and ruh must be read contextually rather than translated into one technical consciousness construct.",
+      "motifs": [
+        "M14",
+        "M17",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "24"
+    },
+    {
+      "global_claim_id": "G24-S197-K01",
+      "claim_id": "K01",
+      "source_id": "S197",
+      "corpus_id": "C173",
+      "location": "Selected Qudsi traditions; divine-human proximity, worship, love, hearing and action",
+      "claim_type": "RELATION",
+      "claim": "Hadith Qudsi often frame spiritual life as an intimate relationship between God and the devoted servant.",
+      "motifs": [
+        "M05",
+        "M16"
+      ],
+      "provenance": "P2*",
+      "batch": "24"
+    },
+    {
+      "global_claim_id": "G24-S197-K02",
+      "claim_id": "K02",
+      "source_id": "S197",
+      "corpus_id": "C173",
+      "location": "Selected Qudsi traditions; divine-human proximity, worship, love, hearing and action",
+      "claim_type": "PRACTICE",
+      "claim": "Obligatory and supererogatory acts are presented as a graded path of approach to God.",
+      "motifs": [
+        "M24",
+        "M25"
+      ],
+      "provenance": "P2*",
+      "batch": "24"
+    },
+    {
+      "global_claim_id": "G24-S197-K03",
+      "claim_id": "K03",
+      "source_id": "S197",
+      "corpus_id": "C173",
+      "location": "Selected Qudsi traditions; divine-human proximity, worship, love, hearing and action",
+      "claim_type": "TRANSFORMATION",
+      "claim": "Continued practice is described as changing the servant's relation to God and the way action is experienced.",
+      "motifs": [
+        "M12",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "24"
+    },
+    {
+      "global_claim_id": "G24-S197-K04",
+      "claim_id": "K04",
+      "source_id": "S197",
+      "corpus_id": "C173",
+      "location": "Selected Qudsi traditions; divine-human proximity, worship, love, hearing and action",
+      "claim_type": "EMBODIMENT",
+      "claim": "One major tradition expresses divine nearness through the servant's hearing, seeing, hand and foot as metaphors of aligned agency.",
+      "motifs": [
+        "M08",
+        "M16"
+      ],
+      "provenance": "P2*",
+      "batch": "24"
+    },
+    {
+      "global_claim_id": "G24-S197-K05",
+      "claim_id": "K05",
+      "source_id": "S197",
+      "corpus_id": "C173",
+      "location": "Selected Qudsi traditions; divine-human proximity, worship, love, hearing and action",
+      "claim_type": "STATE",
+      "claim": "The servant moves from ordinary devotion toward a state characterized by divine love and protection.",
+      "motifs": [
+        "M07",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "24"
+    },
+    {
+      "global_claim_id": "G24-S197-K06",
+      "claim_id": "K06",
+      "source_id": "S197",
+      "corpus_id": "C173",
+      "location": "Selected Qudsi traditions; divine-human proximity, worship, love, hearing and action",
+      "claim_type": "VALENCE",
+      "claim": "Devotion, love, sincerity and obedience have positive normative status within the corpus.",
+      "motifs": [
+        "M10",
+        "M12"
+      ],
+      "provenance": "P2*",
+      "batch": "24"
+    },
+    {
+      "global_claim_id": "G24-S197-K07",
+      "claim_id": "K07",
+      "source_id": "S197",
+      "corpus_id": "C173",
+      "location": "Selected Qudsi traditions; divine-human proximity, worship, love, hearing and action",
+      "claim_type": "ATTENTION",
+      "claim": "The graded practice model implies sustained orientation rather than isolated acts of remembrance.",
+      "motifs": [
+        "M06",
+        "M24"
+      ],
+      "provenance": "P2*",
+      "batch": "24"
+    },
+    {
+      "global_claim_id": "G24-S197-K08",
+      "claim_id": "K08",
+      "source_id": "S197",
+      "corpus_id": "C173",
+      "location": "Selected Qudsi traditions; divine-human proximity, worship, love, hearing and action",
+      "claim_type": "PERSON",
+      "claim": "The individual remains a servant with personal agency while becoming more deeply aligned with divine will.",
+      "motifs": [
+        "M05",
+        "M16"
+      ],
+      "provenance": "P2*",
+      "batch": "24"
+    },
+    {
+      "global_claim_id": "G24-S197-K09",
+      "claim_id": "K09",
+      "source_id": "S197",
+      "corpus_id": "C173",
+      "location": "Selected Qudsi traditions; divine-human proximity, worship, love, hearing and action",
+      "claim_type": "RELATION",
+      "claim": "The divine-human relation is reciprocal in idiom: devotion elicits divine favor, love and response.",
+      "motifs": [
+        "M05",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "24"
+    },
+    {
+      "global_claim_id": "G24-S197-K10",
+      "claim_id": "K10",
+      "source_id": "S197",
+      "corpus_id": "C173",
+      "location": "Selected Qudsi traditions; divine-human proximity, worship, love, hearing and action",
+      "claim_type": "DEATH",
+      "claim": "One Qudsi tradition explicitly speaks about the servant's soul and reluctance to die, integrating mortality into the devotional model.",
+      "motifs": [
+        "M19",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "24"
+    },
+    {
+      "global_claim_id": "G24-S197-K11",
+      "claim_id": "K11",
+      "source_id": "S197",
+      "corpus_id": "C173",
+      "location": "Selected Qudsi traditions; divine-human proximity, worship, love, hearing and action",
+      "claim_type": "DYNAMICS",
+      "claim": "Repeated practice is presented as a process in which proximity and love increase rather than remain static.",
+      "motifs": [
+        "M09",
+        "M12"
+      ],
+      "provenance": "P2*",
+      "batch": "24"
+    },
+    {
+      "global_claim_id": "G24-S197-K12",
+      "claim_id": "K12",
+      "source_id": "S197",
+      "corpus_id": "C173",
+      "location": "Selected Qudsi traditions; divine-human proximity, worship, love, hearing and action",
+      "claim_type": "UNITY",
+      "claim": "Hearing, seeing and acting are symbolically unified around one devotional orientation rather than treated as disconnected faculties.",
+      "motifs": [
+        "M03",
+        "M08"
+      ],
+      "provenance": "P2*",
+      "batch": "24"
+    },
+    {
+      "global_claim_id": "G24-S197-K13",
+      "claim_id": "K13",
+      "source_id": "S197",
+      "corpus_id": "C173",
+      "location": "Selected Qudsi traditions; divine-human proximity, worship, love, hearing and action",
+      "claim_type": "META",
+      "claim": "The hadith qudsi corpus is transmitted through individual hadith reports of differing chains and grades; claims must therefore remain report-specific.",
+      "motifs": [
+        "M14",
+        "M17",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "24"
+    }
+  ]
+}

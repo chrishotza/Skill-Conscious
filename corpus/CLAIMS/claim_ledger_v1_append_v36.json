@@ -1,0 +1,1958 @@
+{
+  "schema_version": "1.0-append",
+  "base_ledger": "claim_ledger_v1.json",
+  "batch": "36",
+  "claim_count": 130,
+  "records": [
+    {
+      "global_claim_id": "G36-S308-K01",
+      "claim_id": "K01",
+      "source_id": "S308",
+      "corpus_id": "C302",
+      "location": "The Conscious Universe",
+      "claim_type": "PHEN",
+      "claim": "Radin treats subjective experience as a primary phenomenon for a science of consciousness rather than reducing the question to reportable behavior alone.",
+      "motifs": [
+        "M01",
+        "M07"
+      ],
+      "provenance": "P2*",
+      "batch": "36"
+    },
+    {
+      "global_claim_id": "G36-S308-K02",
+      "claim_id": "K02",
+      "source_id": "S308",
+      "corpus_id": "C302",
+      "location": "The Conscious Universe",
+      "claim_type": "ANOMALY",
+      "claim": "The book surveys anomalous mental phenomena as potentially relevant evidence for broader models of consciousness.",
+      "motifs": [
+        "M03",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "36"
+    },
+    {
+      "global_claim_id": "G36-S308-K03",
+      "claim_id": "K03",
+      "source_id": "S308",
+      "corpus_id": "C302",
+      "location": "The Conscious Universe",
+      "claim_type": "NONLOCAL",
+      "claim": "Radin interprets some experimental results as compatible with nonlocal or extended relations involving consciousness.",
+      "motifs": [
+        "M05",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "36"
+    },
+    {
+      "global_claim_id": "G36-S308-K04",
+      "claim_id": "K04",
+      "source_id": "S308",
+      "corpus_id": "C302",
+      "location": "The Conscious Universe",
+      "claim_type": "ENTANGLEMENT",
+      "claim": "Quantum-entanglement language is used as a possible conceptual framework for discussing correlations in consciousness research.",
+      "motifs": [
+        "M03",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "36"
+    },
+    {
+      "global_claim_id": "G36-S308-K05",
+      "claim_id": "K05",
+      "source_id": "S308",
+      "corpus_id": "C302",
+      "location": "The Conscious Universe",
+      "claim_type": "PRECOGNITION",
+      "claim": "The corpus includes claims and experiments concerning information apparently related to events not yet available through ordinary sensory channels.",
+      "motifs": [
+        "M11",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "36"
+    },
+    {
+      "global_claim_id": "G36-S308-K06",
+      "claim_id": "K06",
+      "source_id": "S308",
+      "corpus_id": "C302",
+      "location": "The Conscious Universe",
+      "claim_type": "TELEPATHY",
+      "claim": "Experimental paradigms for anomalous information transfer between people are treated as candidate evidence for consciousness extending beyond ordinary sensory communication.",
+      "motifs": [
+        "M05",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "36"
+    },
+    {
+      "global_claim_id": "G36-S308-K07",
+      "claim_id": "K07",
+      "source_id": "S308",
+      "corpus_id": "C302",
+      "location": "The Conscious Universe",
+      "claim_type": "PSYCHOKINESIS",
+      "claim": "Radin's broader program includes experiments examining whether intention can correlate with deviations in random physical systems.",
+      "motifs": [
+        "M09",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "36"
+    },
+    {
+      "global_claim_id": "G36-S308-K08",
+      "claim_id": "K08",
+      "source_id": "S308",
+      "corpus_id": "C302",
+      "location": "The Conscious Universe",
+      "claim_type": "REPLICATION",
+      "claim": "A central methodological issue is whether statistically reported anomalies survive replication, meta-analysis and appropriate controls.",
+      "motifs": [
+        "M24",
+        "M25"
+      ],
+      "provenance": "P2*",
+      "batch": "36"
+    },
+    {
+      "global_claim_id": "G36-S308-K09",
+      "claim_id": "K09",
+      "source_id": "S308",
+      "corpus_id": "C302",
+      "location": "The Conscious Universe",
+      "claim_type": "UNCERTAINTY",
+      "claim": "The anomalous-phenomena interpretation remains contested and should not be treated as established neuroscience.",
+      "motifs": [
+        "M14",
+        "M17"
+      ],
+      "provenance": "P2*",
+      "batch": "36"
+    },
+    {
+      "global_claim_id": "G36-S308-K10",
+      "claim_id": "K10",
+      "source_id": "S308",
+      "corpus_id": "C302",
+      "location": "The Conscious Universe",
+      "claim_type": "CONSCIOUSNESS",
+      "claim": "The source broadens the scope of consciousness science from neural mechanisms toward questions about mind-matter interaction and anomalous cognition.",
+      "motifs": [
+        "M01",
+        "M15"
+      ],
+      "provenance": "P2*",
+      "batch": "36"
+    },
+    {
+      "global_claim_id": "G36-S308-K11",
+      "claim_id": "K11",
+      "source_id": "S308",
+      "corpus_id": "C302",
+      "location": "The Conscious Universe",
+      "claim_type": "TEMPORAL",
+      "claim": "Precognition-style claims challenge a strictly one-directional model of information access in subjective experience.",
+      "motifs": [
+        "M11",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "36"
+    },
+    {
+      "global_claim_id": "G36-S308-K12",
+      "claim_id": "K12",
+      "source_id": "S308",
+      "corpus_id": "C302",
+      "location": "The Conscious Universe",
+      "claim_type": "CONTRAST",
+      "claim": "An observed statistical anomaly does not by itself establish a mechanism such as quantum entanglement or a nonlocal mind.",
+      "motifs": [
+        "M04",
+        "M14"
+      ],
+      "provenance": "P2*",
+      "batch": "36"
+    },
+    {
+      "global_claim_id": "G36-S308-K13",
+      "claim_id": "K13",
+      "source_id": "S308",
+      "corpus_id": "C302",
+      "location": "The Conscious Universe",
+      "claim_type": "PRACTICE",
+      "claim": "Comparative corpus analysis should separate reported effect sizes and experimental methods from the metaphysical interpretation assigned to them.",
+      "motifs": [
+        "M24",
+        "M25"
+      ],
+      "provenance": "P2*",
+      "batch": "36"
+    },
+    {
+      "global_claim_id": "G36-S309-K01",
+      "claim_id": "K01",
+      "source_id": "S309",
+      "corpus_id": "C303",
+      "location": "Entangled Minds",
+      "claim_type": "TELEPATHY",
+      "claim": "Radin reviews experiments in which information transfer between people is investigated beyond ordinary sensory channels.",
+      "motifs": [
+        "M05",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "36"
+    },
+    {
+      "global_claim_id": "G36-S309-K02",
+      "claim_id": "K02",
+      "source_id": "S309",
+      "corpus_id": "C303",
+      "location": "Entangled Minds",
+      "claim_type": "PRECOGNITION",
+      "claim": "The book includes evidence and arguments concerning apparent anticipation of future events under controlled experimental conditions.",
+      "motifs": [
+        "M11",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "36"
+    },
+    {
+      "global_claim_id": "G36-S309-K03",
+      "claim_id": "K03",
+      "source_id": "S309",
+      "corpus_id": "C303",
+      "location": "Entangled Minds",
+      "claim_type": "PRESENTIMENT",
+      "claim": "Physiological responses are discussed as possible indicators occurring before randomly selected future stimuli.",
+      "motifs": [
+        "M08",
+        "M11"
+      ],
+      "provenance": "P2*",
+      "batch": "36"
+    },
+    {
+      "global_claim_id": "G36-S309-K04",
+      "claim_id": "K04",
+      "source_id": "S309",
+      "corpus_id": "C303",
+      "location": "Entangled Minds",
+      "claim_type": "PSYCHOKINESIS",
+      "claim": "Experimental work on intention and random systems is included as part of the broader anomalous-consciousness program.",
+      "motifs": [
+        "M09",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "36"
+    },
+    {
+      "global_claim_id": "G36-S309-K05",
+      "claim_id": "K05",
+      "source_id": "S309",
+      "corpus_id": "C303",
+      "location": "Entangled Minds",
+      "claim_type": "QUANTUM",
+      "claim": "Quantum concepts are used by Radin as candidate explanatory analogies or mechanisms for some anomalous correlations.",
+      "motifs": [
+        "M03",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "36"
+    },
+    {
+      "global_claim_id": "G36-S309-K06",
+      "claim_id": "K06",
+      "source_id": "S309",
+      "corpus_id": "C303",
+      "location": "Entangled Minds",
+      "claim_type": "NONLOCAL",
+      "claim": "The overall framework treats some mind-related effects as potentially extending beyond ordinary local sensory interaction.",
+      "motifs": [
+        "M05",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "36"
+    },
+    {
+      "global_claim_id": "G36-S309-K07",
+      "claim_id": "K07",
+      "source_id": "S309",
+      "corpus_id": "C303",
+      "location": "Entangled Minds",
+      "claim_type": "EXPERIMENT",
+      "claim": "The corpus emphasizes statistical experiments, control conditions and aggregate evidence rather than purely autobiographical reports.",
+      "motifs": [
+        "M24",
+        "M25"
+      ],
+      "provenance": "P2*",
+      "batch": "36"
+    },
+    {
+      "global_claim_id": "G36-S309-K08",
+      "claim_id": "K08",
+      "source_id": "S309",
+      "corpus_id": "C303",
+      "location": "Entangled Minds",
+      "claim_type": "META",
+      "claim": "Experimental anomalies are interpreted within a broader model of consciousness, but the interpretation remains scientifically contested.",
+      "motifs": [
+        "M14",
+        "M17"
+      ],
+      "provenance": "P2*",
+      "batch": "36"
+    },
+    {
+      "global_claim_id": "G36-S309-K09",
+      "claim_id": "K09",
+      "source_id": "S309",
+      "corpus_id": "C303",
+      "location": "Entangled Minds",
+      "claim_type": "PHEN",
+      "claim": "Anomalous cognition is presented as potentially relevant because it may reveal properties of consciousness not captured by standard cognitive models.",
+      "motifs": [
+        "M01",
+        "M15"
+      ],
+      "provenance": "P2*",
+      "batch": "36"
+    },
+    {
+      "global_claim_id": "G36-S309-K10",
+      "claim_id": "K10",
+      "source_id": "S309",
+      "corpus_id": "C303",
+      "location": "Entangled Minds",
+      "claim_type": "TEMPORAL",
+      "claim": "Precognitive paradigms directly challenge assumptions that information relevant to present experience can only originate from the past.",
+      "motifs": [
+        "M11",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "36"
+    },
+    {
+      "global_claim_id": "G36-S309-K11",
+      "claim_id": "K11",
+      "source_id": "S309",
+      "corpus_id": "C303",
+      "location": "Entangled Minds",
+      "claim_type": "CAUSAL",
+      "claim": "Psychokinesis-style paradigms test whether intention could correlate with physical outcomes without a conventional mechanical pathway.",
+      "motifs": [
+        "M09",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "36"
+    },
+    {
+      "global_claim_id": "G36-S309-K12",
+      "claim_id": "K12",
+      "source_id": "S309",
+      "corpus_id": "C303",
+      "location": "Entangled Minds",
+      "claim_type": "CONTRAST",
+      "claim": "Statistical evidence for an anomalous effect is not equivalent to proof of a particular causal theory such as quantum mind.",
+      "motifs": [
+        "M04",
+        "M14"
+      ],
+      "provenance": "P2*",
+      "batch": "36"
+    },
+    {
+      "global_claim_id": "G36-S309-K13",
+      "claim_id": "K13",
+      "source_id": "S309",
+      "corpus_id": "C303",
+      "location": "Entangled Minds",
+      "claim_type": "PRACTICE",
+      "claim": "Claims should be coded at the level of experimental result, replication status and theoretical interpretation separately.",
+      "motifs": [
+        "M24",
+        "M25"
+      ],
+      "provenance": "P2*",
+      "batch": "36"
+    },
+    {
+      "global_claim_id": "G36-S310-K01",
+      "claim_id": "K01",
+      "source_id": "S310",
+      "corpus_id": "C304",
+      "location": "Global Consciousness Project corpus",
+      "claim_type": "RNG",
+      "claim": "The GCP collects synchronized outputs from a geographically distributed network of physical random-number generators.",
+      "motifs": [
+        "M03",
+        "M24"
+      ],
+      "provenance": "P2*",
+      "batch": "36"
+    },
+    {
+      "global_claim_id": "G36-S310-K02",
+      "claim_id": "K02",
+      "source_id": "S310",
+      "corpus_id": "C304",
+      "location": "Global Consciousness Project corpus",
+      "claim_type": "EVENT",
+      "claim": "The project tests whether major events associated with synchronized human attention correspond to deviations or structure in RNG data.",
+      "motifs": [
+        "M06",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "36"
+    },
+    {
+      "global_claim_id": "G36-S310-K03",
+      "claim_id": "K03",
+      "source_id": "S310",
+      "corpus_id": "C304",
+      "location": "Global Consciousness Project corpus",
+      "claim_type": "COHERENCE",
+      "claim": "The project's interpretation proposes that coherent collective attention might correlate with increased order in otherwise random systems.",
+      "motifs": [
+        "M05",
+        "M15"
+      ],
+      "provenance": "P2*",
+      "batch": "36"
+    },
+    {
+      "global_claim_id": "G36-S310-K04",
+      "claim_id": "K04",
+      "source_id": "S310",
+      "corpus_id": "C304",
+      "location": "Global Consciousness Project corpus",
+      "claim_type": "GLOBAL",
+      "claim": "The project frames the network as a way to test possible relationships between collective consciousness and distributed physical processes.",
+      "motifs": [
+        "M01",
+        "M15"
+      ],
+      "provenance": "P2*",
+      "batch": "36"
+    },
+    {
+      "global_claim_id": "G36-S310-K05",
+      "claim_id": "K05",
+      "source_id": "S310",
+      "corpus_id": "C304",
+      "location": "Global Consciousness Project corpus",
+      "claim_type": "STATISTICS",
+      "claim": "The evidence is evaluated through aggregate statistical methods over long sequences rather than direct observation of subjective experience.",
+      "motifs": [
+        "M22",
+        "M24"
+      ],
+      "provenance": "P2*",
+      "batch": "36"
+    },
+    {
+      "global_claim_id": "G36-S310-K06",
+      "claim_id": "K06",
+      "source_id": "S310",
+      "corpus_id": "C304",
+      "location": "Global Consciousness Project corpus",
+      "claim_type": "NETWORK",
+      "claim": "The corpus treats many spatially separated RNG nodes as one measurement network for possible global effects.",
+      "motifs": [
+        "M05",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "36"
+    },
+    {
+      "global_claim_id": "G36-S310-K07",
+      "claim_id": "K07",
+      "source_id": "S310",
+      "corpus_id": "C304",
+      "location": "Global Consciousness Project corpus",
+      "claim_type": "TEMPORAL",
+      "claim": "Analyses align physical random sequences with precisely timed global events or periods of collective attention.",
+      "motifs": [
+        "M11",
+        "M24"
+      ],
+      "provenance": "P2*",
+      "batch": "36"
+    },
+    {
+      "global_claim_id": "G36-S310-K08",
+      "claim_id": "K08",
+      "source_id": "S310",
+      "corpus_id": "C304",
+      "location": "Global Consciousness Project corpus",
+      "claim_type": "CAUSAL",
+      "claim": "Observed correlations, even if statistically reliable, do not alone identify whether consciousness caused the RNG deviation or some third factor did.",
+      "motifs": [
+        "M09",
+        "M14"
+      ],
+      "provenance": "P2*",
+      "batch": "36"
+    },
+    {
+      "global_claim_id": "G36-S310-K09",
+      "claim_id": "K09",
+      "source_id": "S310",
+      "corpus_id": "C304",
+      "location": "Global Consciousness Project corpus",
+      "claim_type": "REPLICATION",
+      "claim": "Replication power and alternative analyses are central methodological questions for interpreting the GCP database.",
+      "motifs": [
+        "M24",
+        "M25"
+      ],
+      "provenance": "P2*",
+      "batch": "36"
+    },
+    {
+      "global_claim_id": "G36-S310-K10",
+      "claim_id": "K10",
+      "source_id": "S310",
+      "corpus_id": "C304",
+      "location": "Global Consciousness Project corpus",
+      "claim_type": "UNCERTAINTY",
+      "claim": "The project's interpretation as evidence for a global consciousness field remains heterodox and contested.",
+      "motifs": [
+        "M14",
+        "M17"
+      ],
+      "provenance": "P2*",
+      "batch": "36"
+    },
+    {
+      "global_claim_id": "G36-S310-K11",
+      "claim_id": "K11",
+      "source_id": "S310",
+      "corpus_id": "C304",
+      "location": "Global Consciousness Project corpus",
+      "claim_type": "FIELD",
+      "claim": "GCP materials describe an emerging noosphere or field-like conception of collective consciousness as an interpretation of the data.",
+      "motifs": [
+        "M03",
+        "M15"
+      ],
+      "provenance": "P2*",
+      "batch": "36"
+    },
+    {
+      "global_claim_id": "G36-S310-K12",
+      "claim_id": "K12",
+      "source_id": "S310",
+      "corpus_id": "C304",
+      "location": "Global Consciousness Project corpus",
+      "claim_type": "CONTRAST",
+      "claim": "The existence of statistical structure in random data should be distinguished from establishing a physical field or mechanism of consciousness.",
+      "motifs": [
+        "M04",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "36"
+    },
+    {
+      "global_claim_id": "G36-S310-K13",
+      "claim_id": "K13",
+      "source_id": "S310",
+      "corpus_id": "C304",
+      "location": "Global Consciousness Project corpus",
+      "claim_type": "PRACTICE",
+      "claim": "For the corpus, raw-data claims, statistical results and metaphysical interpretations should remain separate layers.",
+      "motifs": [
+        "M24",
+        "M25"
+      ],
+      "provenance": "P2*",
+      "batch": "36"
+    },
+    {
+      "global_claim_id": "G36-S311-K01",
+      "claim_id": "K01",
+      "source_id": "S311",
+      "corpus_id": "C305",
+      "location": "HeartMath coherence corpus",
+      "claim_type": "HEART_BRAIN",
+      "claim": "HeartMath research emphasizes bidirectional communication between cardiac and brain systems through neural and physiological pathways.",
+      "motifs": [
+        "M08",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "36"
+    },
+    {
+      "global_claim_id": "G36-S311-K02",
+      "claim_id": "K02",
+      "source_id": "S311",
+      "corpus_id": "C305",
+      "location": "HeartMath coherence corpus",
+      "claim_type": "HRV",
+      "claim": "Heart-rate variability is used as a measurable physiological signal in studies of autonomic regulation and coherence.",
+      "motifs": [
+        "M08",
+        "M24"
+      ],
+      "provenance": "P2*",
+      "batch": "36"
+    },
+    {
+      "global_claim_id": "G36-S311-K03",
+      "claim_id": "K03",
+      "source_id": "S311",
+      "corpus_id": "C305",
+      "location": "HeartMath coherence corpus",
+      "claim_type": "COHERENCE",
+      "claim": "Heart-brain coherence is operationalized through patterns of heart-rate variability associated with relatively ordered rhythmic dynamics.",
+      "motifs": [
+        "M03",
+        "M11"
+      ],
+      "provenance": "P2*",
+      "batch": "36"
+    },
+    {
+      "global_claim_id": "G36-S311-K04",
+      "claim_id": "K04",
+      "source_id": "S311",
+      "corpus_id": "C305",
+      "location": "HeartMath coherence corpus",
+      "claim_type": "EMOTION",
+      "claim": "Positive emotional states are proposed to influence autonomic and cardiac dynamics and thereby affect cognitive or affective regulation.",
+      "motifs": [
+        "M10",
+        "M12"
+      ],
+      "provenance": "P2*",
+      "batch": "36"
+    },
+    {
+      "global_claim_id": "G36-S311-K05",
+      "claim_id": "K05",
+      "source_id": "S311",
+      "corpus_id": "C305",
+      "location": "HeartMath coherence corpus",
+      "claim_type": "SELF_REGULATION",
+      "claim": "Breathing, attention and emotion-regulation practices are used to alter physiological coherence.",
+      "motifs": [
+        "M06",
+        "M24"
+      ],
+      "provenance": "P2*",
+      "batch": "36"
+    },
+    {
+      "global_claim_id": "G36-S311-K06",
+      "claim_id": "K06",
+      "source_id": "S311",
+      "corpus_id": "C305",
+      "location": "HeartMath coherence corpus",
+      "claim_type": "ATTENTION",
+      "claim": "The framework proposes relationships between physiological coherence and attention, cognition or decision-making.",
+      "motifs": [
+        "M06",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "36"
+    },
+    {
+      "global_claim_id": "G36-S311-K07",
+      "claim_id": "K07",
+      "source_id": "S311",
+      "corpus_id": "C305",
+      "location": "HeartMath coherence corpus",
+      "claim_type": "EMBODIMENT",
+      "claim": "The corpus treats conscious and affective states as coupled to bodily physiology rather than isolated brain activity.",
+      "motifs": [
+        "M08",
+        "M16"
+      ],
+      "provenance": "P2*",
+      "batch": "36"
+    },
+    {
+      "global_claim_id": "G36-S311-K08",
+      "claim_id": "K08",
+      "source_id": "S311",
+      "corpus_id": "C305",
+      "location": "HeartMath coherence corpus",
+      "claim_type": "INTEROCEPTION",
+      "claim": "Cardiac signals provide bodily information that can participate in ongoing brain-body regulation and subjective state.",
+      "motifs": [
+        "M08",
+        "M01"
+      ],
+      "provenance": "P2*",
+      "batch": "36"
+    },
+    {
+      "global_claim_id": "G36-S311-K09",
+      "claim_id": "K09",
+      "source_id": "S311",
+      "corpus_id": "C305",
+      "location": "HeartMath coherence corpus",
+      "claim_type": "GROUP",
+      "claim": "Some HeartMath programs extend coherence research to interpersonal or collective synchronization.",
+      "motifs": [
+        "M05",
+        "M15"
+      ],
+      "provenance": "P2*",
+      "batch": "36"
+    },
+    {
+      "global_claim_id": "G36-S311-K10",
+      "claim_id": "K10",
+      "source_id": "S311",
+      "corpus_id": "C305",
+      "location": "HeartMath coherence corpus",
+      "claim_type": "GLOBAL",
+      "claim": "The Global Coherence Initiative explores proposed links among human physiology, collective behavior and geomagnetic activity.",
+      "motifs": [
+        "M05",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "36"
+    },
+    {
+      "global_claim_id": "G36-S311-K11",
+      "claim_id": "K11",
+      "source_id": "S311",
+      "corpus_id": "C305",
+      "location": "HeartMath coherence corpus",
+      "claim_type": "EVIDENCE",
+      "claim": "The HeartMath research program contains peer-reviewed psychophysiology and HRV work, while broader field and interconnectivity claims require separate evaluation.",
+      "motifs": [
+        "M24",
+        "M25"
+      ],
+      "provenance": "P2*",
+      "batch": "36"
+    },
+    {
+      "global_claim_id": "G36-S311-K12",
+      "claim_id": "K12",
+      "source_id": "S311",
+      "corpus_id": "C305",
+      "location": "HeartMath coherence corpus",
+      "claim_type": "CONTRAST",
+      "claim": "Measurable HRV coherence is not itself evidence that a nonlocal consciousness field exists.",
+      "motifs": [
+        "M04",
+        "M14"
+      ],
+      "provenance": "P2*",
+      "batch": "36"
+    },
+    {
+      "global_claim_id": "G36-S311-K13",
+      "claim_id": "K13",
+      "source_id": "S311",
+      "corpus_id": "C305",
+      "location": "HeartMath coherence corpus",
+      "claim_type": "PRACTICE",
+      "claim": "Corpus coding should separate robust heart-brain physiology from stronger claims about intuition, collective consciousness or human-Earth coupling.",
+      "motifs": [
+        "M24",
+        "M25"
+      ],
+      "provenance": "P2*",
+      "batch": "36"
+    },
+    {
+      "global_claim_id": "G36-S312-K01",
+      "claim_id": "K01",
+      "source_id": "S312",
+      "corpus_id": "C306",
+      "location": "Holotropic Breathwork corpus",
+      "claim_type": "ALTERED_STATE",
+      "claim": "Holotropic Breathwork is designed to facilitate non-ordinary states of consciousness through intensified breathing, evocative music and focused bodywork.",
+      "motifs": [
+        "M01",
+        "M12"
+      ],
+      "provenance": "P2*",
+      "batch": "36"
+    },
+    {
+      "global_claim_id": "G36-S312-K02",
+      "claim_id": "K02",
+      "source_id": "S312",
+      "corpus_id": "C306",
+      "location": "Holotropic Breathwork corpus",
+      "claim_type": "BREATH",
+      "claim": "Accelerated deeper breathing is a core practical component of the method.",
+      "motifs": [
+        "M08",
+        "M24"
+      ],
+      "provenance": "P2*",
+      "batch": "36"
+    },
+    {
+      "global_claim_id": "G36-S312-K03",
+      "claim_id": "K03",
+      "source_id": "S312",
+      "corpus_id": "C306",
+      "location": "Holotropic Breathwork corpus",
+      "claim_type": "MUSIC",
+      "claim": "Evocative music is used to support immersion and unfolding of the altered-state process.",
+      "motifs": [
+        "M06",
+        "M12"
+      ],
+      "provenance": "P2*",
+      "batch": "36"
+    },
+    {
+      "global_claim_id": "G36-S312-K04",
+      "claim_id": "K04",
+      "source_id": "S312",
+      "corpus_id": "C306",
+      "location": "Holotropic Breathwork corpus",
+      "claim_type": "BODYWORK",
+      "claim": "Facilitated bodywork is used to support physical expression and completion of emotional processes during sessions.",
+      "motifs": [
+        "M08",
+        "M12"
+      ],
+      "provenance": "P2*",
+      "batch": "36"
+    },
+    {
+      "global_claim_id": "G36-S312-K05",
+      "claim_id": "K05",
+      "source_id": "S312",
+      "corpus_id": "C306",
+      "location": "Holotropic Breathwork corpus",
+      "claim_type": "PSYCHE",
+      "claim": "Grof's framework includes biographical, perinatal and transpersonal dimensions of the psyche.",
+      "motifs": [
+        "M01",
+        "M15"
+      ],
+      "provenance": "P2*",
+      "batch": "36"
+    },
+    {
+      "global_claim_id": "G36-S312-K06",
+      "claim_id": "K06",
+      "source_id": "S312",
+      "corpus_id": "C306",
+      "location": "Holotropic Breathwork corpus",
+      "claim_type": "TRANSPERSONAL",
+      "claim": "Experiences interpreted as transpersonal are treated as possible natural components of the human psychological process.",
+      "motifs": [
+        "M15",
+        "M17"
+      ],
+      "provenance": "P2*",
+      "batch": "36"
+    },
+    {
+      "global_claim_id": "G36-S312-K07",
+      "claim_id": "K07",
+      "source_id": "S312",
+      "corpus_id": "C306",
+      "location": "Holotropic Breathwork corpus",
+      "claim_type": "HEALING",
+      "claim": "The method proposes that non-ordinary states can mobilize intrinsic psychological and bodily healing processes.",
+      "motifs": [
+        "M10",
+        "M12"
+      ],
+      "provenance": "P2*",
+      "batch": "36"
+    },
+    {
+      "global_claim_id": "G36-S312-K08",
+      "claim_id": "K08",
+      "source_id": "S312",
+      "corpus_id": "C306",
+      "location": "Holotropic Breathwork corpus",
+      "claim_type": "INNER_HEALER",
+      "claim": "The framework uses an 'inner healer' concept to describe experiential wisdom arising during the process.",
+      "motifs": [
+        "M02",
+        "M10"
+      ],
+      "provenance": "P2*",
+      "batch": "36"
+    },
+    {
+      "global_claim_id": "G36-S312-K09",
+      "claim_id": "K09",
+      "source_id": "S312",
+      "corpus_id": "C306",
+      "location": "Holotropic Breathwork corpus",
+      "claim_type": "TRANSFORMATION",
+      "claim": "Participants are expected to undergo shifts in emotional processing, self-understanding and worldview through the state process.",
+      "motifs": [
+        "M12",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "36"
+    },
+    {
+      "global_claim_id": "G36-S312-K10",
+      "claim_id": "K10",
+      "source_id": "S312",
+      "corpus_id": "C306",
+      "location": "Holotropic Breathwork corpus",
+      "claim_type": "TEMPORAL",
+      "claim": "Sessions are treated as unfolding processes rather than static drug-like state changes.",
+      "motifs": [
+        "M11",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "36"
+    },
+    {
+      "global_claim_id": "G36-S312-K11",
+      "claim_id": "K11",
+      "source_id": "S312",
+      "corpus_id": "C306",
+      "location": "Holotropic Breathwork corpus",
+      "claim_type": "CONTRAST",
+      "claim": "The transpersonal interpretation is broader than established mechanisms explaining the physiological effects of breathing or music.",
+      "motifs": [
+        "M04",
+        "M14"
+      ],
+      "provenance": "P2*",
+      "batch": "36"
+    },
+    {
+      "global_claim_id": "G36-S312-K12",
+      "claim_id": "K12",
+      "source_id": "S312",
+      "corpus_id": "C306",
+      "location": "Holotropic Breathwork corpus",
+      "claim_type": "UNCERTAINTY",
+      "claim": "Claims about transpersonal realities remain interpretive and should not be coded as experimentally established ontologies.",
+      "motifs": [
+        "M14",
+        "M17"
+      ],
+      "provenance": "P2*",
+      "batch": "36"
+    },
+    {
+      "global_claim_id": "G36-S312-K13",
+      "claim_id": "K13",
+      "source_id": "S312",
+      "corpus_id": "C306",
+      "location": "Holotropic Breathwork corpus",
+      "claim_type": "PRACTICE",
+      "claim": "The corpus distinguishes the reproducible procedural elements of the method from Grof's theoretical interpretation of resulting experiences.",
+      "motifs": [
+        "M24",
+        "M25"
+      ],
+      "provenance": "P2*",
+      "batch": "36"
+    },
+    {
+      "global_claim_id": "G36-S313-K01",
+      "claim_id": "K01",
+      "source_id": "S313",
+      "corpus_id": "C307",
+      "location": "The Transpersonal Vision",
+      "claim_type": "TRANSPERSONAL",
+      "claim": "Grof's transpersonal psychology treats experiences that exceed ordinary personal identity as legitimate objects of psychological inquiry.",
+      "motifs": [
+        "M01",
+        "M15"
+      ],
+      "provenance": "P2*",
+      "batch": "36"
+    },
+    {
+      "global_claim_id": "G36-S313-K02",
+      "claim_id": "K02",
+      "source_id": "S313",
+      "corpus_id": "C307",
+      "location": "The Transpersonal Vision",
+      "claim_type": "PSYCHE",
+      "claim": "The model expands the map of the psyche beyond biography to include perinatal and transpersonal domains.",
+      "motifs": [
+        "M02",
+        "M15"
+      ],
+      "provenance": "P2*",
+      "batch": "36"
+    },
+    {
+      "global_claim_id": "G36-S313-K03",
+      "claim_id": "K03",
+      "source_id": "S313",
+      "corpus_id": "C307",
+      "location": "The Transpersonal Vision",
+      "claim_type": "ALTERED_STATE",
+      "claim": "Non-ordinary states are presented as important sources of information about consciousness and human potential.",
+      "motifs": [
+        "M01",
+        "M12"
+      ],
+      "provenance": "P2*",
+      "batch": "36"
+    },
+    {
+      "global_claim_id": "G36-S313-K04",
+      "claim_id": "K04",
+      "source_id": "S313",
+      "corpus_id": "C307",
+      "location": "The Transpersonal Vision",
+      "claim_type": "MYSTICAL",
+      "claim": "Mystical experiences are considered psychologically significant phenomena rather than automatically dismissed as pathology.",
+      "motifs": [
+        "M01",
+        "M17"
+      ],
+      "provenance": "P2*",
+      "batch": "36"
+    },
+    {
+      "global_claim_id": "G36-S313-K05",
+      "claim_id": "K05",
+      "source_id": "S313",
+      "corpus_id": "C307",
+      "location": "The Transpersonal Vision",
+      "claim_type": "IDENTITY",
+      "claim": "The sense of personal identity can change substantially during transpersonal experiences.",
+      "motifs": [
+        "M02",
+        "M16"
+      ],
+      "provenance": "P2*",
+      "batch": "36"
+    },
+    {
+      "global_claim_id": "G36-S313-K06",
+      "claim_id": "K06",
+      "source_id": "S313",
+      "corpus_id": "C307",
+      "location": "The Transpersonal Vision",
+      "claim_type": "DEATH",
+      "claim": "Experiences involving death and rebirth themes are treated as potentially transformative psychological processes.",
+      "motifs": [
+        "M10",
+        "M12"
+      ],
+      "provenance": "P2*",
+      "batch": "36"
+    },
+    {
+      "global_claim_id": "G36-S313-K07",
+      "claim_id": "K07",
+      "source_id": "S313",
+      "corpus_id": "C307",
+      "location": "The Transpersonal Vision",
+      "claim_type": "UNITY",
+      "claim": "Unitive and interconnected experiences are recurrent transpersonal motifs.",
+      "motifs": [
+        "M05",
+        "M15"
+      ],
+      "provenance": "P2*",
+      "batch": "36"
+    },
+    {
+      "global_claim_id": "G36-S313-K08",
+      "claim_id": "K08",
+      "source_id": "S313",
+      "corpus_id": "C307",
+      "location": "The Transpersonal Vision",
+      "claim_type": "SPIRITUAL",
+      "claim": "Spiritual traditions are treated as sources of observations about unusual states of consciousness.",
+      "motifs": [
+        "M14",
+        "M15"
+      ],
+      "provenance": "P2*",
+      "batch": "36"
+    },
+    {
+      "global_claim_id": "G36-S313-K09",
+      "claim_id": "K09",
+      "source_id": "S313",
+      "corpus_id": "C307",
+      "location": "The Transpersonal Vision",
+      "claim_type": "EMBODIMENT",
+      "claim": "Breath, physiology, sensory conditions and bodily experience participate in the induction and expression of altered states.",
+      "motifs": [
+        "M08",
+        "M12"
+      ],
+      "provenance": "P2*",
+      "batch": "36"
+    },
+    {
+      "global_claim_id": "G36-S313-K10",
+      "claim_id": "K10",
+      "source_id": "S313",
+      "corpus_id": "C307",
+      "location": "The Transpersonal Vision",
+      "claim_type": "TEMPORAL",
+      "claim": "Transpersonal states can alter ordinary experience of time and autobiographical sequence.",
+      "motifs": [
+        "M11",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "36"
+    },
+    {
+      "global_claim_id": "G36-S313-K11",
+      "claim_id": "K11",
+      "source_id": "S313",
+      "corpus_id": "C307",
+      "location": "The Transpersonal Vision",
+      "claim_type": "TRANSFORMATION",
+      "claim": "The framework emphasizes integration of unusual experiences into long-term psychological development.",
+      "motifs": [
+        "M12",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "36"
+    },
+    {
+      "global_claim_id": "G36-S313-K12",
+      "claim_id": "K12",
+      "source_id": "S313",
+      "corpus_id": "C307",
+      "location": "The Transpersonal Vision",
+      "claim_type": "CONTRAST",
+      "claim": "Grof's expanded cartography is a theoretical/clinical framework and should not be confused with a demonstrated map of metaphysical reality.",
+      "motifs": [
+        "M04",
+        "M17"
+      ],
+      "provenance": "P2*",
+      "batch": "36"
+    },
+    {
+      "global_claim_id": "G36-S313-K13",
+      "claim_id": "K13",
+      "source_id": "S313",
+      "corpus_id": "C307",
+      "location": "The Transpersonal Vision",
+      "claim_type": "PRACTICE",
+      "claim": "Comparative analysis should separate phenomenological reports, therapeutic claims and ontological interpretations.",
+      "motifs": [
+        "M24",
+        "M25"
+      ],
+      "provenance": "P2*",
+      "batch": "36"
+    },
+    {
+      "global_claim_id": "G36-S314-K01",
+      "claim_id": "K01",
+      "source_id": "S314",
+      "corpus_id": "C308",
+      "location": "The Ultimate Journey",
+      "claim_type": "DEATH",
+      "claim": "Grof centers the book on consciousness, death, dying and the role of ancient or indigenous ritual traditions.",
+      "motifs": [
+        "M10",
+        "M15"
+      ],
+      "provenance": "P2*",
+      "batch": "36"
+    },
+    {
+      "global_claim_id": "G36-S314-K02",
+      "claim_id": "K02",
+      "source_id": "S314",
+      "corpus_id": "C308",
+      "location": "The Ultimate Journey",
+      "claim_type": "PSYCHE",
+      "claim": "The treatment uses transpersonal psychology to interpret experiences associated with dying and death.",
+      "motifs": [
+        "M01",
+        "M15"
+      ],
+      "provenance": "P2*",
+      "batch": "36"
+    },
+    {
+      "global_claim_id": "G36-S314-K03",
+      "claim_id": "K03",
+      "source_id": "S314",
+      "corpus_id": "C308",
+      "location": "The Ultimate Journey",
+      "claim_type": "TRANSFORMATION",
+      "claim": "Death is framed as a psychological and spiritual transition that can alter meaning and identity.",
+      "motifs": [
+        "M10",
+        "M12"
+      ],
+      "provenance": "P2*",
+      "batch": "36"
+    },
+    {
+      "global_claim_id": "G36-S314-K04",
+      "claim_id": "K04",
+      "source_id": "S314",
+      "corpus_id": "C308",
+      "location": "The Ultimate Journey",
+      "claim_type": "MYSTICAL",
+      "claim": "Ritual and contemplative traditions are discussed as technologies for encountering profound states around death.",
+      "motifs": [
+        "M15",
+        "M25"
+      ],
+      "provenance": "P2*",
+      "batch": "36"
+    },
+    {
+      "global_claim_id": "G36-S314-K05",
+      "claim_id": "K05",
+      "source_id": "S314",
+      "corpus_id": "C308",
+      "location": "The Ultimate Journey",
+      "claim_type": "IDENTITY",
+      "claim": "The book explores changes in personal identity that can occur when ordinary ego boundaries are weakened.",
+      "motifs": [
+        "M02",
+        "M16"
+      ],
+      "provenance": "P2*",
+      "batch": "36"
+    },
+    {
+      "global_claim_id": "G36-S314-K06",
+      "claim_id": "K06",
+      "source_id": "S314",
+      "corpus_id": "C308",
+      "location": "The Ultimate Journey",
+      "claim_type": "UNITY",
+      "claim": "Experiences of connection or unity are treated as recurring elements in exceptional states.",
+      "motifs": [
+        "M05",
+        "M15"
+      ],
+      "provenance": "P2*",
+      "batch": "36"
+    },
+    {
+      "global_claim_id": "G36-S314-K07",
+      "claim_id": "K07",
+      "source_id": "S314",
+      "corpus_id": "C308",
+      "location": "The Ultimate Journey",
+      "claim_type": "TEMPORAL",
+      "claim": "Accounts of dying and extraordinary states can disrupt ordinary linear experience of time.",
+      "motifs": [
+        "M11",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "36"
+    },
+    {
+      "global_claim_id": "G36-S314-K08",
+      "claim_id": "K08",
+      "source_id": "S314",
+      "corpus_id": "C308",
+      "location": "The Ultimate Journey",
+      "claim_type": "EMBODIMENT",
+      "claim": "The approach addresses the relation between physiological dying processes and subjective experience.",
+      "motifs": [
+        "M08",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "36"
+    },
+    {
+      "global_claim_id": "G36-S314-K09",
+      "claim_id": "K09",
+      "source_id": "S314",
+      "corpus_id": "C308",
+      "location": "The Ultimate Journey",
+      "claim_type": "TRANSPERSONAL",
+      "claim": "The book includes claims that consciousness may involve dimensions extending beyond ordinary personal biography.",
+      "motifs": [
+        "M01",
+        "M17"
+      ],
+      "provenance": "P2*",
+      "batch": "36"
+    },
+    {
+      "global_claim_id": "G36-S314-K10",
+      "claim_id": "K10",
+      "source_id": "S314",
+      "corpus_id": "C308",
+      "location": "The Ultimate Journey",
+      "claim_type": "MEANING",
+      "claim": "Grof connects encounters with death to questions of meaning, values and the integration of life.",
+      "motifs": [
+        "M10",
+        "M15"
+      ],
+      "provenance": "P2*",
+      "batch": "36"
+    },
+    {
+      "global_claim_id": "G36-S314-K11",
+      "claim_id": "K11",
+      "source_id": "S314",
+      "corpus_id": "C308",
+      "location": "The Ultimate Journey",
+      "claim_type": "CONTRAST",
+      "claim": "Describing reported death-related experiences is not equivalent to establishing survival of consciousness after biological death.",
+      "motifs": [
+        "M04",
+        "M14"
+      ],
+      "provenance": "P2*",
+      "batch": "36"
+    },
+    {
+      "global_claim_id": "G36-S314-K12",
+      "claim_id": "K12",
+      "source_id": "S314",
+      "corpus_id": "C308",
+      "location": "The Ultimate Journey",
+      "claim_type": "UNCERTAINTY",
+      "claim": "Ontological conclusions about postmortem consciousness remain distinct from phenomenological descriptions and spiritual interpretations.",
+      "motifs": [
+        "M14",
+        "M17"
+      ],
+      "provenance": "P2*",
+      "batch": "36"
+    },
+    {
+      "global_claim_id": "G36-S314-K13",
+      "claim_id": "K13",
+      "source_id": "S314",
+      "corpus_id": "C308",
+      "location": "The Ultimate Journey",
+      "claim_type": "PRACTICE",
+      "claim": "The corpus should code experiences, therapeutic integration and metaphysical survival claims as separate evidential levels.",
+      "motifs": [
+        "M24",
+        "M25"
+      ],
+      "provenance": "P2*",
+      "batch": "36"
+    },
+    {
+      "global_claim_id": "G36-S315-K01",
+      "claim_id": "K01",
+      "source_id": "S315",
+      "corpus_id": "C309",
+      "location": "Journeys Out of the Body",
+      "claim_type": "OBE",
+      "claim": "Monroe presents recurrent experiences that he interprets as leaving the physical body and perceiving from another location or state.",
+      "motifs": [
+        "M01",
+        "M08"
+      ],
+      "provenance": "P2*",
+      "batch": "36"
+    },
+    {
+      "global_claim_id": "G36-S315-K02",
+      "claim_id": "K02",
+      "source_id": "S315",
+      "corpus_id": "C309",
+      "location": "Journeys Out of the Body",
+      "claim_type": "SECOND_BODY",
+      "claim": "The narrative uses a 'second body' concept to describe a felt vehicle or mode of experience distinct from ordinary bodily awareness.",
+      "motifs": [
+        "M02",
+        "M16"
+      ],
+      "provenance": "P2*",
+      "batch": "36"
+    },
+    {
+      "global_claim_id": "G36-S315-K03",
+      "claim_id": "K03",
+      "source_id": "S315",
+      "corpus_id": "C309",
+      "location": "Journeys Out of the Body",
+      "claim_type": "SPACE",
+      "claim": "The reported experiences include perceived movement through locations outside ordinary waking bodily perspective.",
+      "motifs": [
+        "M15",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "36"
+    },
+    {
+      "global_claim_id": "G36-S315-K04",
+      "claim_id": "K04",
+      "source_id": "S315",
+      "corpus_id": "C309",
+      "location": "Journeys Out of the Body",
+      "claim_type": "TEMPORAL",
+      "claim": "Some experiences are described as occurring in environments where ordinary time appears altered or absent.",
+      "motifs": [
+        "M11",
+        "M15"
+      ],
+      "provenance": "P2*",
+      "batch": "36"
+    },
+    {
+      "global_claim_id": "G36-S315-K05",
+      "claim_id": "K05",
+      "source_id": "S315",
+      "corpus_id": "C309",
+      "location": "Journeys Out of the Body",
+      "claim_type": "DEATH",
+      "claim": "The book explores realms or experiences interpreted in relation to death and nonordinary states.",
+      "motifs": [
+        "M10",
+        "M17"
+      ],
+      "provenance": "P2*",
+      "batch": "36"
+    },
+    {
+      "global_claim_id": "G36-S315-K06",
+      "claim_id": "K06",
+      "source_id": "S315",
+      "corpus_id": "C309",
+      "location": "Journeys Out of the Body",
+      "claim_type": "TRAINING",
+      "claim": "Monroe develops practical procedures intended to induce or stabilize out-of-body experiences.",
+      "motifs": [
+        "M12",
+        "M24"
+      ],
+      "provenance": "P2*",
+      "batch": "36"
+    },
+    {
+      "global_claim_id": "G36-S315-K07",
+      "claim_id": "K07",
+      "source_id": "S315",
+      "corpus_id": "C309",
+      "location": "Journeys Out of the Body",
+      "claim_type": "SENSATION",
+      "claim": "The accounts emphasize vivid bodily and perceptual sensations associated with separation experiences.",
+      "motifs": [
+        "M08",
+        "M01"
+      ],
+      "provenance": "P2*",
+      "batch": "36"
+    },
+    {
+      "global_claim_id": "G36-S315-K08",
+      "claim_id": "K08",
+      "source_id": "S315",
+      "corpus_id": "C309",
+      "location": "Journeys Out of the Body",
+      "claim_type": "IDENTITY",
+      "claim": "The subject's sense of self can persist while ordinary bodily identification is weakened.",
+      "motifs": [
+        "M02",
+        "M16"
+      ],
+      "provenance": "P2*",
+      "batch": "36"
+    },
+    {
+      "global_claim_id": "G36-S315-K09",
+      "claim_id": "K09",
+      "source_id": "S315",
+      "corpus_id": "C309",
+      "location": "Journeys Out of the Body",
+      "claim_type": "NONLOCAL",
+      "claim": "Monroe interprets some experiences as involving perception of places or realities beyond normal sensory access.",
+      "motifs": [
+        "M05",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "36"
+    },
+    {
+      "global_claim_id": "G36-S315-K10",
+      "claim_id": "K10",
+      "source_id": "S315",
+      "corpus_id": "C309",
+      "location": "Journeys Out of the Body",
+      "claim_type": "UNCERTAINTY",
+      "claim": "Whether OBEs reflect literal separation, altered body representation, dreamlike states or other mechanisms remains an open interpretation outside the narrative itself.",
+      "motifs": [
+        "M04",
+        "M14"
+      ],
+      "provenance": "P2*",
+      "batch": "36"
+    },
+    {
+      "global_claim_id": "G36-S315-K11",
+      "claim_id": "K11",
+      "source_id": "S315",
+      "corpus_id": "C309",
+      "location": "Journeys Out of the Body",
+      "claim_type": "PRACTICE",
+      "claim": "The book is primarily an experiential report and practical account, not a controlled demonstration that consciousness literally exits the body.",
+      "motifs": [
+        "M24",
+        "M17"
+      ],
+      "provenance": "P2*",
+      "batch": "36"
+    },
+    {
+      "global_claim_id": "G36-S315-K12",
+      "claim_id": "K12",
+      "source_id": "S315",
+      "corpus_id": "C309",
+      "location": "Journeys Out of the Body",
+      "claim_type": "TRANSFORMATION",
+      "claim": "The experiences are presented as life-changing and as altering Monroe's assumptions about mind and reality.",
+      "motifs": [
+        "M12",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "36"
+    },
+    {
+      "global_claim_id": "G36-S315-K13",
+      "claim_id": "K13",
+      "source_id": "S315",
+      "corpus_id": "C309",
+      "location": "Journeys Out of the Body",
+      "claim_type": "CONTRAST",
+      "claim": "Phenomenological evidence of feeling outside the body should be separated from claims about objective remote perception.",
+      "motifs": [
+        "M04",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "36"
+    },
+    {
+      "global_claim_id": "G36-S316-K01",
+      "claim_id": "K01",
+      "source_id": "S316",
+      "corpus_id": "C310",
+      "location": "Focus Levels corpus",
+      "claim_type": "STATE",
+      "claim": "The Monroe Institute labels altered awareness states as 'Focus levels' in a progression of experiential conditions.",
+      "motifs": [
+        "M07",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "36"
+    },
+    {
+      "global_claim_id": "G36-S316-K02",
+      "claim_id": "K02",
+      "source_id": "S316",
+      "corpus_id": "C310",
+      "location": "Focus Levels corpus",
+      "claim_type": "FOCUS_15",
+      "claim": "Focus 15 is described by Monroe materials as a state in which linear time is no longer experienced in the ordinary way.",
+      "motifs": [
+        "M11",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "36"
+    },
+    {
+      "global_claim_id": "G36-S316-K03",
+      "claim_id": "K03",
+      "source_id": "S316",
+      "corpus_id": "C310",
+      "location": "Focus Levels corpus",
+      "claim_type": "HEMISYNC",
+      "claim": "Hemi-Sync and later Monroe Sound Science use auditory technologies intended to support transitions into identified states of awareness.",
+      "motifs": [
+        "M03",
+        "M24"
+      ],
+      "provenance": "P2*",
+      "batch": "36"
+    },
+    {
+      "global_claim_id": "G36-S316-K04",
+      "claim_id": "K04",
+      "source_id": "S316",
+      "corpus_id": "C310",
+      "location": "Focus Levels corpus",
+      "claim_type": "BINAURAL",
+      "claim": "Binaural-beat stimulation is one of the historical components of Monroe's audio technology.",
+      "motifs": [
+        "M03",
+        "M24"
+      ],
+      "provenance": "P2*",
+      "batch": "36"
+    },
+    {
+      "global_claim_id": "G36-S316-K05",
+      "claim_id": "K05",
+      "source_id": "S316",
+      "corpus_id": "C310",
+      "location": "Focus Levels corpus",
+      "claim_type": "ALTERED_STATE",
+      "claim": "The system is designed around deliberate induction and stabilization of nonordinary states of consciousness.",
+      "motifs": [
+        "M01",
+        "M12"
+      ],
+      "provenance": "P2*",
+      "batch": "36"
+    },
+    {
+      "global_claim_id": "G36-S316-K06",
+      "claim_id": "K06",
+      "source_id": "S316",
+      "corpus_id": "C310",
+      "location": "Focus Levels corpus",
+      "claim_type": "TRAINING",
+      "claim": "Repeated exercises are used to cultivate familiarity with specific experiential states.",
+      "motifs": [
+        "M12",
+        "M24"
+      ],
+      "provenance": "P2*",
+      "batch": "36"
+    },
+    {
+      "global_claim_id": "G36-S316-K07",
+      "claim_id": "K07",
+      "source_id": "S316",
+      "corpus_id": "C310",
+      "location": "Focus Levels corpus",
+      "claim_type": "LUCID",
+      "claim": "Monroe materials extend the program to states associated with lucid dreaming and other altered experiences.",
+      "motifs": [
+        "M07",
+        "M12"
+      ],
+      "provenance": "P2*",
+      "batch": "36"
+    },
+    {
+      "global_claim_id": "G36-S316-K08",
+      "claim_id": "K08",
+      "source_id": "S316",
+      "corpus_id": "C310",
+      "location": "Focus Levels corpus",
+      "claim_type": "TIME",
+      "claim": "Some Focus-level descriptions explicitly alter the subject's experience or representation of time.",
+      "motifs": [
+        "M11",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "36"
+    },
+    {
+      "global_claim_id": "G36-S316-K09",
+      "claim_id": "K09",
+      "source_id": "S316",
+      "corpus_id": "C310",
+      "location": "Focus Levels corpus",
+      "claim_type": "BODY",
+      "claim": "The program includes states described as involving reduced ordinary bodily identification.",
+      "motifs": [
+        "M08",
+        "M16"
+      ],
+      "provenance": "P2*",
+      "batch": "36"
+    },
+    {
+      "global_claim_id": "G36-S316-K10",
+      "claim_id": "K10",
+      "source_id": "S316",
+      "corpus_id": "C310",
+      "location": "Focus Levels corpus",
+      "claim_type": "TRANSPERSONAL",
+      "claim": "Later Focus-level language includes experiences interpreted as expanded or nonordinary forms of awareness.",
+      "motifs": [
+        "M15",
+        "M17"
+      ],
+      "provenance": "P2*",
+      "batch": "36"
+    },
+    {
+      "global_claim_id": "G36-S316-K11",
+      "claim_id": "K11",
+      "source_id": "S316",
+      "corpus_id": "C310",
+      "location": "Focus Levels corpus",
+      "claim_type": "MECHANISM",
+      "claim": "Auditory entrainment is proposed as a mechanism or aid, but the subjective state does not by itself validate the stronger metaphysical interpretation.",
+      "motifs": [
+        "M03",
+        "M14"
+      ],
+      "provenance": "P2*",
+      "batch": "36"
+    },
+    {
+      "global_claim_id": "G36-S316-K12",
+      "claim_id": "K12",
+      "source_id": "S316",
+      "corpus_id": "C310",
+      "location": "Focus Levels corpus",
+      "claim_type": "EVIDENCE",
+      "claim": "Historical Monroe claims and participant reports should be distinguished from independently replicated neuroscience on binaural stimulation.",
+      "motifs": [
+        "M24",
+        "M25"
+      ],
+      "provenance": "P2*",
+      "batch": "36"
+    },
+    {
+      "global_claim_id": "G36-S316-K13",
+      "claim_id": "K13",
+      "source_id": "S316",
+      "corpus_id": "C310",
+      "location": "Focus Levels corpus",
+      "claim_type": "PRACTICE",
+      "claim": "For corpus use, Focus labels are best treated as phenomenological state categories until their physiological correlates are independently established.",
+      "motifs": [
+        "M24",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "36"
+    },
+    {
+      "global_claim_id": "G36-S317-K01",
+      "claim_id": "K01",
+      "source_id": "S317",
+      "corpus_id": "C312",
+      "location": "Autobiography of a Yogi",
+      "claim_type": "MEDITATION",
+      "claim": "Yogananda presents yogic meditation and disciplined practice as methods for transforming consciousness and attaining spiritual realization.",
+      "motifs": [
+        "M12",
+        "M25"
+      ],
+      "provenance": "P2*",
+      "batch": "36"
+    },
+    {
+      "global_claim_id": "G36-S317-K02",
+      "claim_id": "K02",
+      "source_id": "S317",
+      "corpus_id": "C312",
+      "location": "Autobiography of a Yogi",
+      "claim_type": "SELF_REALIZATION",
+      "claim": "The narrative centers on realization of a deeper spiritual self beyond ordinary ego identity.",
+      "motifs": [
+        "M02",
+        "M15"
+      ],
+      "provenance": "P2*",
+      "batch": "36"
+    },
+    {
+      "global_claim_id": "G36-S317-K03",
+      "claim_id": "K03",
+      "source_id": "S317",
+      "corpus_id": "C312",
+      "location": "Autobiography of a Yogi",
+      "claim_type": "UNITY",
+      "claim": "Advanced spiritual realization is associated with a sense of unity or relationship with a larger divine reality.",
+      "motifs": [
+        "M05",
+        "M15"
+      ],
+      "provenance": "P2*",
+      "batch": "36"
+    },
+    {
+      "global_claim_id": "G36-S317-K04",
+      "claim_id": "K04",
+      "source_id": "S317",
+      "corpus_id": "C312",
+      "location": "Autobiography of a Yogi",
+      "claim_type": "TRANSPERSONAL",
+      "claim": "Experiences are interpreted within a spiritual framework that extends consciousness beyond ordinary personal limits.",
+      "motifs": [
+        "M01",
+        "M15"
+      ],
+      "provenance": "P2*",
+      "batch": "36"
+    },
+    {
+      "global_claim_id": "G36-S317-K05",
+      "claim_id": "K05",
+      "source_id": "S317",
+      "corpus_id": "C312",
+      "location": "Autobiography of a Yogi",
+      "claim_type": "DEATH",
+      "claim": "The autobiography includes teachings and narratives concerning death, rebirth, immortality and the continuity of spiritual identity.",
+      "motifs": [
+        "M10",
+        "M17"
+      ],
+      "provenance": "P2*",
+      "batch": "36"
+    },
+    {
+      "global_claim_id": "G36-S317-K06",
+      "claim_id": "K06",
+      "source_id": "S317",
+      "corpus_id": "C312",
+      "location": "Autobiography of a Yogi",
+      "claim_type": "KARMA",
+      "claim": "Actions and consequences are interpreted through a yogic framework of karma and spiritual development across lives.",
+      "motifs": [
+        "M09",
+        "M15"
+      ],
+      "provenance": "P2*",
+      "batch": "36"
+    },
+    {
+      "global_claim_id": "G36-S317-K07",
+      "claim_id": "K07",
+      "source_id": "S317",
+      "corpus_id": "C312",
+      "location": "Autobiography of a Yogi",
+      "claim_type": "GURU",
+      "claim": "Teacher-student transmission is presented as a central mechanism for spiritual development and transformation.",
+      "motifs": [
+        "M05",
+        "M12"
+      ],
+      "provenance": "P2*",
+      "batch": "36"
+    },
+    {
+      "global_claim_id": "G36-S317-K08",
+      "claim_id": "K08",
+      "source_id": "S317",
+      "corpus_id": "C312",
+      "location": "Autobiography of a Yogi",
+      "claim_type": "ALTERED_STATE",
+      "claim": "Meditative absorption and extraordinary experiences are described as distinct modes of consciousness.",
+      "motifs": [
+        "M01",
+        "M12"
+      ],
+      "provenance": "P2*",
+      "batch": "36"
+    },
+    {
+      "global_claim_id": "G36-S317-K09",
+      "claim_id": "K09",
+      "source_id": "S317",
+      "corpus_id": "C312",
+      "location": "Autobiography of a Yogi",
+      "claim_type": "BODY",
+      "claim": "Yogic practice is presented as involving disciplined regulation of breath, attention and bodily processes.",
+      "motifs": [
+        "M08",
+        "M24"
+      ],
+      "provenance": "P2*",
+      "batch": "36"
+    },
+    {
+      "global_claim_id": "G36-S317-K10",
+      "claim_id": "K10",
+      "source_id": "S317",
+      "corpus_id": "C312",
+      "location": "Autobiography of a Yogi",
+      "claim_type": "MEANING",
+      "claim": "The narrative links consciousness development with ethical purpose, service and liberation.",
+      "motifs": [
+        "M10",
+        "M15"
+      ],
+      "provenance": "P2*",
+      "batch": "36"
+    },
+    {
+      "global_claim_id": "G36-S317-K11",
+      "claim_id": "K11",
+      "source_id": "S317",
+      "corpus_id": "C312",
+      "location": "Autobiography of a Yogi",
+      "claim_type": "MYSTICAL",
+      "claim": "Miracles, visions and unusual capacities are reported as part of the spiritual narrative.",
+      "motifs": [
+        "M01",
+        "M17"
+      ],
+      "provenance": "P2*",
+      "batch": "36"
+    },
+    {
+      "global_claim_id": "G36-S317-K12",
+      "claim_id": "K12",
+      "source_id": "S317",
+      "corpus_id": "C312",
+      "location": "Autobiography of a Yogi",
+      "claim_type": "CONTRAST",
+      "claim": "The autobiography is a spiritual memoir and should not be treated as controlled evidence establishing supernatural mechanisms.",
+      "motifs": [
+        "M04",
+        "M14"
+      ],
+      "provenance": "P2*",
+      "batch": "36"
+    },
+    {
+      "global_claim_id": "G36-S317-K13",
+      "claim_id": "K13",
+      "source_id": "S317",
+      "corpus_id": "C312",
+      "location": "Autobiography of a Yogi",
+      "claim_type": "PRACTICE",
+      "claim": "The source is particularly valuable for phenomenological and contemplative coding while maintaining strict separation between testimony and empirical verification.",
+      "motifs": [
+        "M24",
+        "M25"
+      ],
+      "provenance": "P2*",
+      "batch": "36"
+    }
+  ]
+}
