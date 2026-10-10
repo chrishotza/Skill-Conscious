@@ -1,0 +1,1984 @@
+{
+  "schema_version": "1.0-append",
+  "base_ledger": "claim_ledger_v1.json",
+  "batch": "32",
+  "claim_count": 130,
+  "records": [
+    {
+      "global_claim_id": "G32-S268-K01",
+      "claim_id": "K01",
+      "source_id": "S268",
+      "corpus_id": "C261",
+      "location": "The Conscious Mind",
+      "claim_type": "PHEN",
+      "claim": "Chalmers distingue la experiencia fenomenal de las funciones cognitivas estudiables funcionalmente.",
+      "motifs": [
+        "M01",
+        "M07"
+      ],
+      "provenance": "P2*",
+      "batch": "32"
+    },
+    {
+      "global_claim_id": "G32-S268-K02",
+      "claim_id": "K02",
+      "source_id": "S268",
+      "corpus_id": "C261",
+      "location": "The Conscious Mind",
+      "claim_type": "CONTRAST",
+      "claim": "Explicar discriminación, integración, reporte y control no parece por sí solo explicar por qué existe experiencia subjetiva.",
+      "motifs": [
+        "M04",
+        "M06",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "32"
+    },
+    {
+      "global_claim_id": "G32-S268-K03",
+      "claim_id": "K03",
+      "source_id": "S268",
+      "corpus_id": "C261",
+      "location": "The Conscious Mind",
+      "claim_type": "REFLEXIVITY",
+      "claim": "El problema de conciencia incluye explicar cómo un sistema tiene experiencia desde una perspectiva de primera persona.",
+      "motifs": [
+        "M02",
+        "M06",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "32"
+    },
+    {
+      "global_claim_id": "G32-S268-K04",
+      "claim_id": "K04",
+      "source_id": "S268",
+      "corpus_id": "C261",
+      "location": "The Conscious Mind",
+      "claim_type": "ONTO",
+      "claim": "Chalmers propone tratar la conciencia como un rasgo que requiere principios psicofísicos además de leyes físicas ordinarias.",
+      "motifs": [
+        "M03",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "32"
+    },
+    {
+      "global_claim_id": "G32-S268-K05",
+      "claim_id": "K05",
+      "source_id": "S268",
+      "corpus_id": "C261",
+      "location": "The Conscious Mind",
+      "claim_type": "SUPERVENT",
+      "claim": "El libro diferencia dependencia funcional de experiencia y reducción completa de experiencia a descripciones físicas.",
+      "motifs": [
+        "M03",
+        "M14"
+      ],
+      "provenance": "P2*",
+      "batch": "32"
+    },
+    {
+      "global_claim_id": "G32-S268-K06",
+      "claim_id": "K06",
+      "source_id": "S268",
+      "corpus_id": "C261",
+      "location": "The Conscious Mind",
+      "claim_type": "STATE",
+      "claim": "Experiencias conscientes pueden variar en contenido sin que cambie necesariamente la organización funcional relevante del sistema.",
+      "motifs": [
+        "M07",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "32"
+    },
+    {
+      "global_claim_id": "G32-S268-K07",
+      "claim_id": "K07",
+      "source_id": "S268",
+      "corpus_id": "C261",
+      "location": "The Conscious Mind",
+      "claim_type": "WORLD_MODEL",
+      "claim": "La teoría busca relacionar estados físicos y experiencias mediante una estructura sistemática de correspondencias.",
+      "motifs": [
+        "M15",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "32"
+    },
+    {
+      "global_claim_id": "G32-S268-K08",
+      "claim_id": "K08",
+      "source_id": "S268",
+      "corpus_id": "C261",
+      "location": "The Conscious Mind",
+      "claim_type": "SELF_MODEL",
+      "claim": "La conciencia puede incluir contenidos sobre el propio sistema, pero la experiencia no se reduce a auto-representación.",
+      "motifs": [
+        "M02",
+        "M16"
+      ],
+      "provenance": "P2*",
+      "batch": "32"
+    },
+    {
+      "global_claim_id": "G32-S268-K09",
+      "claim_id": "K09",
+      "source_id": "S268",
+      "corpus_id": "C261",
+      "location": "The Conscious Mind",
+      "claim_type": "TRANSFORMATION",
+      "claim": "El análisis conceptual modifica cómo se formula el problema al separar acceso funcional de fenomenología.",
+      "motifs": [
+        "M12",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "32"
+    },
+    {
+      "global_claim_id": "G32-S268-K10",
+      "claim_id": "K10",
+      "source_id": "S268",
+      "corpus_id": "C261",
+      "location": "The Conscious Mind",
+      "claim_type": "META",
+      "claim": "The Conscious Mind desarrolla una posición filosófica no reductiva; sus argumentos no constituyen mediciones experimentales de la experiencia.",
+      "motifs": [
+        "M14",
+        "M17",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "32"
+    },
+    {
+      "global_claim_id": "G32-S268-K11",
+      "claim_id": "K11",
+      "source_id": "S268",
+      "corpus_id": "C261",
+      "location": "The Conscious Mind",
+      "claim_type": "AI",
+      "claim": "Chalmers utiliza el análisis para defender que una forma de inteligencia artificial podría ser consciente bajo condiciones apropiadas.",
+      "motifs": [
+        "M03",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "32"
+    },
+    {
+      "global_claim_id": "G32-S268-K12",
+      "claim_id": "K12",
+      "source_id": "S268",
+      "corpus_id": "C261",
+      "location": "The Conscious Mind",
+      "claim_type": "INEFFABILITY",
+      "claim": "La dificultad del problema se relaciona con explicar algo conocido directamente en primera persona mediante descripciones de tercera persona.",
+      "motifs": [
+        "M14",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "32"
+    },
+    {
+      "global_claim_id": "G32-S268-K13",
+      "claim_id": "K13",
+      "source_id": "S268",
+      "corpus_id": "C261",
+      "location": "The Conscious Mind",
+      "claim_type": "CONTRAST",
+      "claim": "La posibilidad lógica de sistemas funcionalmente equivalentes sin experiencia es utilizada como argumento filosófico, no como demostración empírica.",
+      "motifs": [
+        "M04",
+        "M14",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "32"
+    },
+    {
+      "global_claim_id": "G32-S269-K01",
+      "claim_id": "K01",
+      "source_id": "S269",
+      "corpus_id": "C262",
+      "location": "Feeling of What Happens",
+      "claim_type": "PHEN",
+      "claim": "Damasio presenta la conciencia como un fenómeno biológico ligado a cómo el organismo experimenta sus propios estados y relaciones con objetos.",
+      "motifs": [
+        "M01",
+        "M07"
+      ],
+      "provenance": "P2*",
+      "batch": "32"
+    },
+    {
+      "global_claim_id": "G32-S269-K02",
+      "claim_id": "K02",
+      "source_id": "S269",
+      "corpus_id": "C262",
+      "location": "Feeling of What Happens",
+      "claim_type": "SELF_MODEL",
+      "claim": "El core self surge como una representación transitoria del organismo en interacción con objetos.",
+      "motifs": [
+        "M02",
+        "M16"
+      ],
+      "provenance": "P2*",
+      "batch": "32"
+    },
+    {
+      "global_claim_id": "G32-S269-K03",
+      "claim_id": "K03",
+      "source_id": "S269",
+      "corpus_id": "C262",
+      "location": "Feeling of What Happens",
+      "claim_type": "TEMPORAL",
+      "claim": "La conciencia extendida incorpora pasado vivido y futuro anticipado dentro de una identidad personal más rica.",
+      "motifs": [
+        "M11",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "32"
+    },
+    {
+      "global_claim_id": "G32-S269-K04",
+      "claim_id": "K04",
+      "source_id": "S269",
+      "corpus_id": "C262",
+      "location": "Feeling of What Happens",
+      "claim_type": "PERSISTENCE",
+      "claim": "Damasio distingue un core self transitorio de un autobiographical self sostenido por memoria organizada.",
+      "motifs": [
+        "M19",
+        "M16"
+      ],
+      "provenance": "P2*",
+      "batch": "32"
+    },
+    {
+      "global_claim_id": "G32-S269-K05",
+      "claim_id": "K05",
+      "source_id": "S269",
+      "corpus_id": "C262",
+      "location": "Feeling of What Happens",
+      "claim_type": "EMBODIMENT",
+      "claim": "El cuerpo y sus cambios internos participan en la construcción de conciencia y sentimiento.",
+      "motifs": [
+        "M08",
+        "M16"
+      ],
+      "provenance": "P2*",
+      "batch": "32"
+    },
+    {
+      "global_claim_id": "G32-S269-K06",
+      "claim_id": "K06",
+      "source_id": "S269",
+      "corpus_id": "C262",
+      "location": "Feeling of What Happens",
+      "claim_type": "STATE",
+      "claim": "Core consciousness y extended consciousness representan niveles diferentes de organización de la experiencia.",
+      "motifs": [
+        "M07",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "32"
+    },
+    {
+      "global_claim_id": "G32-S269-K07",
+      "claim_id": "K07",
+      "source_id": "S269",
+      "corpus_id": "C262",
+      "location": "Feeling of What Happens",
+      "claim_type": "RELATION",
+      "claim": "La conciencia emerge en la relación entre organismo, objeto conocido y cambios internos del organismo.",
+      "motifs": [
+        "M05",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "32"
+    },
+    {
+      "global_claim_id": "G32-S269-K08",
+      "claim_id": "K08",
+      "source_id": "S269",
+      "corpus_id": "C262",
+      "location": "Feeling of What Happens",
+      "claim_type": "ATTENTION",
+      "claim": "El organismo construye conciencia a partir de relaciones continuamente actualizadas con objetos y estados corporales.",
+      "motifs": [
+        "M06",
+        "M24"
+      ],
+      "provenance": "P2*",
+      "batch": "32"
+    },
+    {
+      "global_claim_id": "G32-S269-K09",
+      "claim_id": "K09",
+      "source_id": "S269",
+      "corpus_id": "C262",
+      "location": "Feeling of What Happens",
+      "claim_type": "TRANSFORMATION",
+      "claim": "La conciencia extendida se desarrolla sobre una forma más básica de conciencia central en el curso de la vida del organismo.",
+      "motifs": [
+        "M12",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "32"
+    },
+    {
+      "global_claim_id": "G32-S269-K10",
+      "claim_id": "K10",
+      "source_id": "S269",
+      "corpus_id": "C262",
+      "location": "Feeling of What Happens",
+      "claim_type": "META",
+      "claim": "La propuesta de Damasio es neurobiológica y teórica; distingue mecanismos de conciencia de interpretaciones filosóficas más fuertes sobre subjetividad.",
+      "motifs": [
+        "M14",
+        "M17",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "32"
+    },
+    {
+      "global_claim_id": "G32-S269-K11",
+      "claim_id": "K11",
+      "source_id": "S269",
+      "corpus_id": "C262",
+      "location": "Feeling of What Happens",
+      "claim_type": "VALENCE",
+      "claim": "Los sentimientos corporales y emocionales participan en la orientación del organismo y en la construcción del sentido personal.",
+      "motifs": [
+        "M10",
+        "M12"
+      ],
+      "provenance": "P2*",
+      "batch": "32"
+    },
+    {
+      "global_claim_id": "G32-S269-K12",
+      "claim_id": "K12",
+      "source_id": "S269",
+      "corpus_id": "C262",
+      "location": "Feeling of What Happens",
+      "claim_type": "REFLEXIVITY",
+      "claim": "La representación del organismo como sujeto de experiencias introduce una dimensión de conciencia de sí sin postular un homúnculo.",
+      "motifs": [
+        "M02",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "32"
+    },
+    {
+      "global_claim_id": "G32-S269-K13",
+      "claim_id": "K13",
+      "source_id": "S269",
+      "corpus_id": "C262",
+      "location": "Feeling of What Happens",
+      "claim_type": "CONTRAST",
+      "claim": "La memoria convencional no es presentada como requisito de la conciencia central, aunque es fundamental para la forma autobiográfica extendida.",
+      "motifs": [
+        "M04",
+        "M11",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "32"
+    },
+    {
+      "global_claim_id": "G32-S270-K01",
+      "claim_id": "K01",
+      "source_id": "S270",
+      "corpus_id": "C263",
+      "location": "Descartes' Error",
+      "claim_type": "EMBODIMENT",
+      "claim": "Damasio sostiene que decisión y razonamiento dependen de sistemas corporales y emocionales además de procesos cognitivos.",
+      "motifs": [
+        "M08",
+        "M16"
+      ],
+      "provenance": "P2*",
+      "batch": "32"
+    },
+    {
+      "global_claim_id": "G32-S270-K02",
+      "claim_id": "K02",
+      "source_id": "S270",
+      "corpus_id": "C263",
+      "location": "Descartes' Error",
+      "claim_type": "VALENCE",
+      "claim": "Las emociones proporcionan señales de valor que pueden orientar decisiones antes de un cálculo exhaustivo de alternativas.",
+      "motifs": [
+        "M10",
+        "M12"
+      ],
+      "provenance": "P2*",
+      "batch": "32"
+    },
+    {
+      "global_claim_id": "G32-S270-K03",
+      "claim_id": "K03",
+      "source_id": "S270",
+      "corpus_id": "C263",
+      "location": "Descartes' Error",
+      "claim_type": "REFLEXIVITY",
+      "claim": "Daños en sistemas relacionados con emoción permiten observar cambios en la capacidad de evaluar consecuencias personales de decisiones.",
+      "motifs": [
+        "M02",
+        "M06",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "32"
+    },
+    {
+      "global_claim_id": "G32-S270-K04",
+      "claim_id": "K04",
+      "source_id": "S270",
+      "corpus_id": "C263",
+      "location": "Descartes' Error",
+      "claim_type": "SELF_MODEL",
+      "claim": "El sentido de sí depende de la integración de señales corporales, memoria, emoción y acción.",
+      "motifs": [
+        "M02",
+        "M08",
+        "M16"
+      ],
+      "provenance": "P2*",
+      "batch": "32"
+    },
+    {
+      "global_claim_id": "G32-S270-K05",
+      "claim_id": "K05",
+      "source_id": "S270",
+      "corpus_id": "C263",
+      "location": "Descartes' Error",
+      "claim_type": "STATE",
+      "claim": "Alteraciones neurológicas pueden producir perfiles diferenciados de emoción, razonamiento, conciencia y comportamiento social.",
+      "motifs": [
+        "M07",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "32"
+    },
+    {
+      "global_claim_id": "G32-S270-K06",
+      "claim_id": "K06",
+      "source_id": "S270",
+      "corpus_id": "C263",
+      "location": "Descartes' Error",
+      "claim_type": "RELATION",
+      "claim": "Las decisiones humanas se sitúan dentro de relaciones sociales y consecuencias personales, no sólo dentro de representaciones abstractas.",
+      "motifs": [
+        "M05",
+        "M16"
+      ],
+      "provenance": "P2*",
+      "batch": "32"
+    },
+    {
+      "global_claim_id": "G32-S270-K07",
+      "claim_id": "K07",
+      "source_id": "S270",
+      "corpus_id": "C263",
+      "location": "Descartes' Error",
+      "claim_type": "TRANSFORMATION",
+      "claim": "La alteración de sistemas somáticos y emocionales puede reorganizar radicalmente la conducta deliberativa.",
+      "motifs": [
+        "M12",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "32"
+    },
+    {
+      "global_claim_id": "G32-S270-K08",
+      "claim_id": "K08",
+      "source_id": "S270",
+      "corpus_id": "C263",
+      "location": "Descartes' Error",
+      "claim_type": "ATTENTION",
+      "claim": "Los marcadores somáticos pueden sesgar la atención hacia opciones potencialmente favorables o desfavorables.",
+      "motifs": [
+        "M06",
+        "M24"
+      ],
+      "provenance": "P2*",
+      "batch": "32"
+    },
+    {
+      "global_claim_id": "G32-S270-K09",
+      "claim_id": "K09",
+      "source_id": "S270",
+      "corpus_id": "C263",
+      "location": "Descartes' Error",
+      "claim_type": "TEMPORAL",
+      "claim": "La toma de decisiones integra experiencias pasadas con anticipaciones de consecuencias futuras.",
+      "motifs": [
+        "M11",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "32"
+    },
+    {
+      "global_claim_id": "G32-S270-K10",
+      "claim_id": "K10",
+      "source_id": "S270",
+      "corpus_id": "C263",
+      "location": "Descartes' Error",
+      "claim_type": "WORLD_MODEL",
+      "claim": "El conocimiento de una situación incluye valoración de posibilidades y consecuencias para el organismo.",
+      "motifs": [
+        "M15",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "32"
+    },
+    {
+      "global_claim_id": "G32-S270-K11",
+      "claim_id": "K11",
+      "source_id": "S270",
+      "corpus_id": "C263",
+      "location": "Descartes' Error",
+      "claim_type": "META",
+      "claim": "Descartes' Error desarrolla una tesis neurobiológica contra una separación fuerte entre razón y emoción; no elimina todas las distinciones filosóficas entre mente y cuerpo.",
+      "motifs": [
+        "M14",
+        "M17",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "32"
+    },
+    {
+      "global_claim_id": "G32-S270-K12",
+      "claim_id": "K12",
+      "source_id": "S270",
+      "corpus_id": "C263",
+      "location": "Descartes' Error",
+      "claim_type": "CAUSAL",
+      "claim": "Las señales emocionales no son meros efectos pasivos de la decisión: pueden contribuir causalmente a cómo se selecciona una alternativa.",
+      "motifs": [
+        "M09",
+        "M10"
+      ],
+      "provenance": "P2*",
+      "batch": "32"
+    },
+    {
+      "global_claim_id": "G32-S270-K13",
+      "claim_id": "K13",
+      "source_id": "S270",
+      "corpus_id": "C263",
+      "location": "Descartes' Error",
+      "claim_type": "CONTRAST",
+      "claim": "La racionalidad práctica no requiere ausencia de emoción; ciertos procesos emocionales pueden sostener la decisión eficaz.",
+      "motifs": [
+        "M04",
+        "M10",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "32"
+    },
+    {
+      "global_claim_id": "G32-S271-K01",
+      "claim_id": "K01",
+      "source_id": "S271",
+      "corpus_id": "C264",
+      "location": "Consciousness Explained",
+      "claim_type": "ACCESS",
+      "claim": "Dennett analiza conciencia en términos de procesos cognitivos, acceso, discriminación, reporte y control sin postular un teatro central.",
+      "motifs": [
+        "M06",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "32"
+    },
+    {
+      "global_claim_id": "G32-S271-K02",
+      "claim_id": "K02",
+      "source_id": "S271",
+      "corpus_id": "C264",
+      "location": "Consciousness Explained",
+      "claim_type": "CONTRAST",
+      "claim": "La idea de un único lugar donde toda experiencia se vuelve consciente es rechazada en favor de múltiples procesos distribuidos.",
+      "motifs": [
+        "M04",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "32"
+    },
+    {
+      "global_claim_id": "G32-S271-K03",
+      "claim_id": "K03",
+      "source_id": "S271",
+      "corpus_id": "C264",
+      "location": "Consciousness Explained",
+      "claim_type": "MULTIPLE",
+      "claim": "El modelo de multiple drafts permite que diferentes interpretaciones de una entrada se elaboren en paralelo y se integren funcionalmente.",
+      "motifs": [
+        "M03",
+        "M09"
+      ],
+      "provenance": "P2*",
+      "batch": "32"
+    },
+    {
+      "global_claim_id": "G32-S271-K04",
+      "claim_id": "K04",
+      "source_id": "S271",
+      "corpus_id": "C264",
+      "location": "Consciousness Explained",
+      "claim_type": "SELF_MODEL",
+      "claim": "El self aparece como un centro narrativo o modelo explicativo generado por múltiples procesos, no como un homúnculo interno.",
+      "motifs": [
+        "M02",
+        "M16"
+      ],
+      "provenance": "P2*",
+      "batch": "32"
+    },
+    {
+      "global_claim_id": "G32-S271-K05",
+      "claim_id": "K05",
+      "source_id": "S271",
+      "corpus_id": "C264",
+      "location": "Consciousness Explained",
+      "claim_type": "REFLEXIVITY",
+      "claim": "La heterofenomenología intenta describir sistemáticamente informes y comportamientos sin tomar interpretaciones subjetivas como teoría causal final.",
+      "motifs": [
+        "M02",
+        "M06",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "32"
+    },
+    {
+      "global_claim_id": "G32-S271-K06",
+      "claim_id": "K06",
+      "source_id": "S271",
+      "corpus_id": "C264",
+      "location": "Consciousness Explained",
+      "claim_type": "STATE",
+      "claim": "Procesos diferentes pueden alcanzar distintos grados de disponibilidad, influencia conductual y reporte.",
+      "motifs": [
+        "M07",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "32"
+    },
+    {
+      "global_claim_id": "G32-S271-K07",
+      "claim_id": "K07",
+      "source_id": "S271",
+      "corpus_id": "C264",
+      "location": "Consciousness Explained",
+      "claim_type": "ATTENTION",
+      "claim": "La atención modifica qué información obtiene efectos posteriores en múltiples procesos cognitivos.",
+      "motifs": [
+        "M06",
+        "M24"
+      ],
+      "provenance": "P2*",
+      "batch": "32"
+    },
+    {
+      "global_claim_id": "G32-S271-K08",
+      "claim_id": "K08",
+      "source_id": "S271",
+      "corpus_id": "C264",
+      "location": "Consciousness Explained",
+      "claim_type": "TEMPORAL",
+      "claim": "La conciencia se analiza como una historia distribuida de revisiones y efectos, en lugar de un instante de presentación final.",
+      "motifs": [
+        "M11",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "32"
+    },
+    {
+      "global_claim_id": "G32-S271-K09",
+      "claim_id": "K09",
+      "source_id": "S271",
+      "corpus_id": "C264",
+      "location": "Consciousness Explained",
+      "claim_type": "RELATION",
+      "claim": "La conciencia funcional se estudia en interacción entre organismo, entorno, lenguaje y prácticas de reporte.",
+      "motifs": [
+        "M05",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "32"
+    },
+    {
+      "global_claim_id": "G32-S271-K10",
+      "claim_id": "K10",
+      "source_id": "S271",
+      "corpus_id": "C264",
+      "location": "Consciousness Explained",
+      "claim_type": "TRANSFORMATION",
+      "claim": "Aprendizaje y revisión de múltiples procesos pueden cambiar qué interpretaciones dominan conducta e informes.",
+      "motifs": [
+        "M12",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "32"
+    },
+    {
+      "global_claim_id": "G32-S271-K11",
+      "claim_id": "K11",
+      "source_id": "S271",
+      "corpus_id": "C264",
+      "location": "Consciousness Explained",
+      "claim_type": "META",
+      "claim": "Consciousness Explained ofrece una teoría deflacionista y funcional; no debe presentarse como consenso definitivo sobre experiencia fenomenal.",
+      "motifs": [
+        "M14",
+        "M17",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "32"
+    },
+    {
+      "global_claim_id": "G32-S271-K12",
+      "claim_id": "K12",
+      "source_id": "S271",
+      "corpus_id": "C264",
+      "location": "Consciousness Explained",
+      "claim_type": "CONTRAST",
+      "claim": "Dennett cuestiona que las apariencias introspectivas deban convertirse directamente en entidades internas que expliquen la propia experiencia.",
+      "motifs": [
+        "M04",
+        "M02",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "32"
+    },
+    {
+      "global_claim_id": "G32-S271-K13",
+      "claim_id": "K13",
+      "source_id": "S271",
+      "corpus_id": "C264",
+      "location": "Consciousness Explained",
+      "claim_type": "AI",
+      "claim": "El marco funcional permite comparar propiedades de conciencia con arquitecturas computacionales y sistemas artificiales.",
+      "motifs": [
+        "M03",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "32"
+    },
+    {
+      "global_claim_id": "G32-S272-K01",
+      "claim_id": "K01",
+      "source_id": "S272",
+      "corpus_id": "C265",
+      "location": "What Is It Like to Be a Bat?",
+      "claim_type": "PHEN",
+      "claim": "Nagel formula conciencia en términos del carácter subjetivo de una experiencia: qué es para un sujeto estar en ese estado.",
+      "motifs": [
+        "M01",
+        "M07"
+      ],
+      "provenance": "P2*",
+      "batch": "32"
+    },
+    {
+      "global_claim_id": "G32-S272-K02",
+      "claim_id": "K02",
+      "source_id": "S272",
+      "corpus_id": "C265",
+      "location": "What Is It Like to Be a Bat?",
+      "claim_type": "SELF_MODEL",
+      "claim": "El acceso a la experiencia de otro organismo está limitado por la perspectiva específica desde la que ese organismo vive.",
+      "motifs": [
+        "M02",
+        "M16"
+      ],
+      "provenance": "P2*",
+      "batch": "32"
+    },
+    {
+      "global_claim_id": "G32-S272-K03",
+      "claim_id": "K03",
+      "source_id": "S272",
+      "corpus_id": "C265",
+      "location": "What Is It Like to Be a Bat?",
+      "claim_type": "RELATION",
+      "claim": "La diferencia entre experiencia humana y experiencia de un murciélago muestra que una descripción objetiva puede omitir la perspectiva del sujeto.",
+      "motifs": [
+        "M05",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "32"
+    },
+    {
+      "global_claim_id": "G32-S272-K04",
+      "claim_id": "K04",
+      "source_id": "S272",
+      "corpus_id": "C265",
+      "location": "What Is It Like to Be a Bat?",
+      "claim_type": "EMBODIMENT",
+      "claim": "Las capacidades sensoriales y corporales específicas del murciélago forman parte de su forma posible de experiencia.",
+      "motifs": [
+        "M08",
+        "M16"
+      ],
+      "provenance": "P2*",
+      "batch": "32"
+    },
+    {
+      "global_claim_id": "G32-S272-K05",
+      "claim_id": "K05",
+      "source_id": "S272",
+      "corpus_id": "C265",
+      "location": "What Is It Like to Be a Bat?",
+      "claim_type": "CONTRAST",
+      "claim": "Conocer exhaustivamente hechos físicos sobre un organismo no garantiza que sepamos cómo es su experiencia subjetiva.",
+      "motifs": [
+        "M04",
+        "M14"
+      ],
+      "provenance": "P2*",
+      "batch": "32"
+    },
+    {
+      "global_claim_id": "G32-S272-K06",
+      "claim_id": "K06",
+      "source_id": "S272",
+      "corpus_id": "C265",
+      "location": "What Is It Like to Be a Bat?",
+      "claim_type": "INEFFABILITY",
+      "claim": "La estructura de una experiencia puede resistirse a una traducción completa al vocabulario objetivo disponible para otro tipo de sujeto.",
+      "motifs": [
+        "M14",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "32"
+    },
+    {
+      "global_claim_id": "G32-S272-K07",
+      "claim_id": "K07",
+      "source_id": "S272",
+      "corpus_id": "C265",
+      "location": "What Is It Like to Be a Bat?",
+      "claim_type": "STATE",
+      "claim": "El argumento se centra en la especificidad del estado consciente para el sujeto que lo experimenta.",
+      "motifs": [
+        "M07",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "32"
+    },
+    {
+      "global_claim_id": "G32-S272-K08",
+      "claim_id": "K08",
+      "source_id": "S272",
+      "corpus_id": "C265",
+      "location": "What Is It Like to Be a Bat?",
+      "claim_type": "REFLEXIVITY",
+      "claim": "La pregunta por cómo es obliga a distinguir conocimiento de tercera persona y perspectiva de primera persona.",
+      "motifs": [
+        "M02",
+        "M06",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "32"
+    },
+    {
+      "global_claim_id": "G32-S272-K09",
+      "claim_id": "K09",
+      "source_id": "S272",
+      "corpus_id": "C265",
+      "location": "What Is It Like to Be a Bat?",
+      "claim_type": "WORLD_MODEL",
+      "claim": "El mundo perceptivo de un organismo depende de sus capacidades sensoriales y de su forma de acceso al entorno.",
+      "motifs": [
+        "M15",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "32"
+    },
+    {
+      "global_claim_id": "G32-S272-K10",
+      "claim_id": "K10",
+      "source_id": "S272",
+      "corpus_id": "C265",
+      "location": "What Is It Like to Be a Bat?",
+      "claim_type": "TRANSFORMATION",
+      "claim": "El experimento conceptual cambia la forma de plantear el problema mente-cuerpo aunque no ofrezca un mecanismo experimental.",
+      "motifs": [
+        "M12",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "32"
+    },
+    {
+      "global_claim_id": "G32-S272-K11",
+      "claim_id": "K11",
+      "source_id": "S272",
+      "corpus_id": "C265",
+      "location": "What Is It Like to Be a Bat?",
+      "claim_type": "META",
+      "claim": "El artículo es un argumento filosófico sobre subjetividad y reducción, no evidencia experimental contra el fisicalismo.",
+      "motifs": [
+        "M14",
+        "M17",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "32"
+    },
+    {
+      "global_claim_id": "G32-S272-K12",
+      "claim_id": "K12",
+      "source_id": "S272",
+      "corpus_id": "C265",
+      "location": "What Is It Like to Be a Bat?",
+      "claim_type": "CONTRAST",
+      "claim": "Nagel no concluye simplemente que una teoría física sea imposible; insiste en que debe explicar el carácter subjetivo.",
+      "motifs": [
+        "M04",
+        "M14",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "32"
+    },
+    {
+      "global_claim_id": "G32-S272-K13",
+      "claim_id": "K13",
+      "source_id": "S272",
+      "corpus_id": "C265",
+      "location": "What Is It Like to Be a Bat?",
+      "claim_type": "UNIVERSAL",
+      "claim": "La estructura subjetiva de la conciencia plantea una pregunta general que no puede resolverse tomando la perspectiva humana como norma.",
+      "motifs": [
+        "M03",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "32"
+    },
+    {
+      "global_claim_id": "G32-S273-K01",
+      "claim_id": "K01",
+      "source_id": "S273",
+      "corpus_id": "C266",
+      "location": "Facing Up to the Problem of Consciousness",
+      "claim_type": "CONTRAST",
+      "claim": "Chalmers distingue problemas funcionales de conciencia de la cuestión de por qué esos procesos van acompañados de experiencia.",
+      "motifs": [
+        "M04",
+        "M06",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "32"
+    },
+    {
+      "global_claim_id": "G32-S273-K02",
+      "claim_id": "K02",
+      "source_id": "S273",
+      "corpus_id": "C266",
+      "location": "Facing Up to the Problem of Consciousness",
+      "claim_type": "PHEN",
+      "claim": "El problema difícil se formula alrededor de la experiencia consciente o qualia.",
+      "motifs": [
+        "M01",
+        "M07"
+      ],
+      "provenance": "P2*",
+      "batch": "32"
+    },
+    {
+      "global_claim_id": "G32-S273-K03",
+      "claim_id": "K03",
+      "source_id": "S273",
+      "corpus_id": "C266",
+      "location": "Facing Up to the Problem of Consciousness",
+      "claim_type": "ACCESS",
+      "claim": "Discriminación, integración, reporte, atención y control deliberado son ejemplos de problemas más directamente abordables funcionalmente.",
+      "motifs": [
+        "M06",
+        "M24"
+      ],
+      "provenance": "P2*",
+      "batch": "32"
+    },
+    {
+      "global_claim_id": "G32-S273-K04",
+      "claim_id": "K04",
+      "source_id": "S273",
+      "corpus_id": "C266",
+      "location": "Facing Up to the Problem of Consciousness",
+      "claim_type": "REFLEXIVITY",
+      "claim": "La explicación debe distinguir explicar la capacidad de un sistema y explicar su experiencia.",
+      "motifs": [
+        "M02",
+        "M06",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "32"
+    },
+    {
+      "global_claim_id": "G32-S273-K05",
+      "claim_id": "K05",
+      "source_id": "S273",
+      "corpus_id": "C266",
+      "location": "Facing Up to the Problem of Consciousness",
+      "claim_type": "ONTO",
+      "claim": "Chalmers sostiene que una explicación no reductiva podría requerir principios psicofísicos que conecten físico y experiencia.",
+      "motifs": [
+        "M03",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "32"
+    },
+    {
+      "global_claim_id": "G32-S273-K06",
+      "claim_id": "K06",
+      "source_id": "S273",
+      "corpus_id": "C266",
+      "location": "Facing Up to the Problem of Consciousness",
+      "claim_type": "SUPERVENT",
+      "claim": "El argumento cuestiona que todos los hechos sobre experiencia sobrevengan conceptualmente de una descripción puramente funcional.",
+      "motifs": [
+        "M03",
+        "M14"
+      ],
+      "provenance": "P2*",
+      "batch": "32"
+    },
+    {
+      "global_claim_id": "G32-S273-K07",
+      "claim_id": "K07",
+      "source_id": "S273",
+      "corpus_id": "C266",
+      "location": "Facing Up to the Problem of Consciousness",
+      "claim_type": "STATE",
+      "claim": "Estados conscientes pueden compartir funciones similares y, según el argumento, dejar abierta una diferencia fenomenal.",
+      "motifs": [
+        "M07",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "32"
+    },
+    {
+      "global_claim_id": "G32-S273-K08",
+      "claim_id": "K08",
+      "source_id": "S273",
+      "corpus_id": "C266",
+      "location": "Facing Up to the Problem of Consciousness",
+      "claim_type": "META",
+      "claim": "Facing Up es un argumento filosófico de 1995 sobre fundamentos explicativos; no es un resultado experimental aislado.",
+      "motifs": [
+        "M14",
+        "M17",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "32"
+    },
+    {
+      "global_claim_id": "G32-S273-K09",
+      "claim_id": "K09",
+      "source_id": "S273",
+      "corpus_id": "C266",
+      "location": "Facing Up to the Problem of Consciousness",
+      "claim_type": "AI",
+      "claim": "El marco permite preguntar si una duplicación funcional sería suficiente para duplicar experiencia o deja abierta la cuestión fenomenal.",
+      "motifs": [
+        "M03",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "32"
+    },
+    {
+      "global_claim_id": "G32-S273-K10",
+      "claim_id": "K10",
+      "source_id": "S273",
+      "corpus_id": "C266",
+      "location": "Facing Up to the Problem of Consciousness",
+      "claim_type": "INEFFABILITY",
+      "claim": "La brecha explicativa se vincula con la dificultad de pasar de descripciones funcionales a cómo es experimentar.",
+      "motifs": [
+        "M14",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "32"
+    },
+    {
+      "global_claim_id": "G32-S273-K11",
+      "claim_id": "K11",
+      "source_id": "S273",
+      "corpus_id": "C266",
+      "location": "Facing Up to the Problem of Consciousness",
+      "claim_type": "ATTENTION",
+      "claim": "Chalmers incluye la atención entre capacidades que pueden recibir explicaciones funcionales aunque eso no resuelva automáticamente la fenomenología.",
+      "motifs": [
+        "M06",
+        "M24"
+      ],
+      "provenance": "P2*",
+      "batch": "32"
+    },
+    {
+      "global_claim_id": "G32-S273-K12",
+      "claim_id": "K12",
+      "source_id": "S273",
+      "corpus_id": "C266",
+      "location": "Facing Up to the Problem of Consciousness",
+      "claim_type": "CONTRAST",
+      "claim": "Separar problemas fáciles y problema difícil no implica que los problemas funcionales sean triviales ni que dejen de requerir ciencia detallada.",
+      "motifs": [
+        "M04",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "32"
+    },
+    {
+      "global_claim_id": "G32-S273-K13",
+      "claim_id": "K13",
+      "source_id": "S273",
+      "corpus_id": "C266",
+      "location": "Facing Up to the Problem of Consciousness",
+      "claim_type": "TRANSFORMATION",
+      "claim": "La estrategia propuesta añade un nivel explicativo específicamente sobre experiencia en vez de abandonar el estudio mecanístico.",
+      "motifs": [
+        "M12",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "32"
+    },
+    {
+      "global_claim_id": "G32-S274-K01",
+      "claim_id": "K01",
+      "source_id": "S274",
+      "corpus_id": "C267",
+      "location": "On a Confusion about a Function of Consciousness",
+      "claim_type": "PHEN",
+      "claim": "Block define phenomenal consciousness en términos de experiencia y de qué es estar en un estado.",
+      "motifs": [
+        "M01",
+        "M07"
+      ],
+      "provenance": "P2*",
+      "batch": "32"
+    },
+    {
+      "global_claim_id": "G32-S274-K02",
+      "claim_id": "K02",
+      "source_id": "S274",
+      "corpus_id": "C267",
+      "location": "On a Confusion about a Function of Consciousness",
+      "claim_type": "ACCESS",
+      "claim": "Access consciousness se refiere a información disponible para razonamiento y control racional de habla y acción.",
+      "motifs": [
+        "M06",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "32"
+    },
+    {
+      "global_claim_id": "G32-S274-K03",
+      "claim_id": "K03",
+      "source_id": "S274",
+      "corpus_id": "C267",
+      "location": "On a Confusion about a Function of Consciousness",
+      "claim_type": "CONTRAST",
+      "claim": "Phenomenal consciousness y access consciousness pueden distinguirse conceptualmente aunque estén relacionadas en muchos casos.",
+      "motifs": [
+        "M04",
+        "M14"
+      ],
+      "provenance": "P2*",
+      "batch": "32"
+    },
+    {
+      "global_claim_id": "G32-S274-K04",
+      "claim_id": "K04",
+      "source_id": "S274",
+      "corpus_id": "C267",
+      "location": "On a Confusion about a Function of Consciousness",
+      "claim_type": "BLINDSIGHT",
+      "claim": "El caso de blindsight se usa para cuestionar inferencias que trasladan funciones de acceso a la fenomenología.",
+      "motifs": [
+        "M07",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "32"
+    },
+    {
+      "global_claim_id": "G32-S274-K05",
+      "claim_id": "K05",
+      "source_id": "S274",
+      "corpus_id": "C267",
+      "location": "On a Confusion about a Function of Consciousness",
+      "claim_type": "ATTENTION",
+      "claim": "Atención y acceso funcional son analíticamente relevantes, pero no deben identificarse automáticamente con experiencia.",
+      "motifs": [
+        "M06",
+        "M24"
+      ],
+      "provenance": "P2*",
+      "batch": "32"
+    },
+    {
+      "global_claim_id": "G32-S274-K06",
+      "claim_id": "K06",
+      "source_id": "S274",
+      "corpus_id": "C267",
+      "location": "On a Confusion about a Function of Consciousness",
+      "claim_type": "REPORT",
+      "claim": "La posibilidad de reportar un contenido es una función distinta de que ese contenido tenga carácter fenomenal.",
+      "motifs": [
+        "M06",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "32"
+    },
+    {
+      "global_claim_id": "G32-S274-K07",
+      "claim_id": "K07",
+      "source_id": "S274",
+      "corpus_id": "C267",
+      "location": "On a Confusion about a Function of Consciousness",
+      "claim_type": "SELF_MODEL",
+      "claim": "Un sistema puede disponer de información para guiar conducta sin que de ello se siga que exista experiencia correspondiente.",
+      "motifs": [
+        "M02",
+        "M16"
+      ],
+      "provenance": "P2*",
+      "batch": "32"
+    },
+    {
+      "global_claim_id": "G32-S274-K08",
+      "claim_id": "K08",
+      "source_id": "S274",
+      "corpus_id": "C267",
+      "location": "On a Confusion about a Function of Consciousness",
+      "claim_type": "STATE",
+      "claim": "La distinción permite imaginar estados con distintos perfiles de experiencia y disponibilidad funcional.",
+      "motifs": [
+        "M07",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "32"
+    },
+    {
+      "global_claim_id": "G32-S274-K09",
+      "claim_id": "K09",
+      "source_id": "S274",
+      "corpus_id": "C267",
+      "location": "On a Confusion about a Function of Consciousness",
+      "claim_type": "META",
+      "claim": "El artículo es una intervención filosófica en psicología de la conciencia y no una teoría neurobiológica completa.",
+      "motifs": [
+        "M14",
+        "M17",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "32"
+    },
+    {
+      "global_claim_id": "G32-S274-K10",
+      "claim_id": "K10",
+      "source_id": "S274",
+      "corpus_id": "C267",
+      "location": "On a Confusion about a Function of Consciousness",
+      "claim_type": "CAUSAL",
+      "claim": "La función de control racional puede pertenecer a mecanismos de acceso sin constituir por ello una función definitoria de la experiencia fenomenal.",
+      "motifs": [
+        "M09",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "32"
+    },
+    {
+      "global_claim_id": "G32-S274-K11",
+      "claim_id": "K11",
+      "source_id": "S274",
+      "corpus_id": "C267",
+      "location": "On a Confusion about a Function of Consciousness",
+      "claim_type": "TRANSFORMATION",
+      "claim": "La distinción transforma la taxonomía del campo al separar preguntas sobre experiencia de preguntas sobre disponibilidad cognitiva.",
+      "motifs": [
+        "M12",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "32"
+    },
+    {
+      "global_claim_id": "G32-S274-K12",
+      "claim_id": "K12",
+      "source_id": "S274",
+      "corpus_id": "C267",
+      "location": "On a Confusion about a Function of Consciousness",
+      "claim_type": "CONTRAST",
+      "claim": "Un mismo contenido representacional puede analizarse desde su disponibilidad funcional sin asumir que esa disponibilidad agota su carácter fenomenal.",
+      "motifs": [
+        "M04",
+        "M01",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "32"
+    },
+    {
+      "global_claim_id": "G32-S274-K13",
+      "claim_id": "K13",
+      "source_id": "S274",
+      "corpus_id": "C267",
+      "location": "On a Confusion about a Function of Consciousness",
+      "claim_type": "META",
+      "claim": "Block usa blindsight como ejemplo de una falacia inferencial y no como demostración de una arquitectura única de conciencia.",
+      "motifs": [
+        "M14",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "32"
+    },
+    {
+      "global_claim_id": "G32-S275-K01",
+      "claim_id": "K01",
+      "source_id": "S275",
+      "corpus_id": "C268",
+      "location": "A Cognitive Theory of Consciousness",
+      "claim_type": "GLOBAL",
+      "claim": "Baars propone un global workspace en el que información seleccionada puede hacerse ampliamente accesible a distintos procesos cognitivos.",
+      "motifs": [
+        "M03",
+        "M06",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "32"
+    },
+    {
+      "global_claim_id": "G32-S275-K02",
+      "claim_id": "K02",
+      "source_id": "S275",
+      "corpus_id": "C268",
+      "location": "A Cognitive Theory of Consciousness",
+      "claim_type": "ACCESS",
+      "claim": "La conciencia se vincula con disponibilidad global de determinadas representaciones frente a procesos que permanecen locales o no conscientes.",
+      "motifs": [
+        "M06",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "32"
+    },
+    {
+      "global_claim_id": "G32-S275-K03",
+      "claim_id": "K03",
+      "source_id": "S275",
+      "corpus_id": "C268",
+      "location": "A Cognitive Theory of Consciousness",
+      "claim_type": "ATTENTION",
+      "claim": "La atención regula el acceso al workspace y participa en la selección de contenidos conscientes.",
+      "motifs": [
+        "M06",
+        "M24"
+      ],
+      "provenance": "P2*",
+      "batch": "32"
+    },
+    {
+      "global_claim_id": "G32-S275-K04",
+      "claim_id": "K04",
+      "source_id": "S275",
+      "corpus_id": "C268",
+      "location": "A Cognitive Theory of Consciousness",
+      "claim_type": "CONTEXT",
+      "claim": "Contextos y objetivos inconscientes contribuyen a determinar qué contenido alcanza el espacio global.",
+      "motifs": [
+        "M09",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "32"
+    },
+    {
+      "global_claim_id": "G32-S275-K05",
+      "claim_id": "K05",
+      "source_id": "S275",
+      "corpus_id": "C268",
+      "location": "A Cognitive Theory of Consciousness",
+      "claim_type": "SELF_MODEL",
+      "claim": "Baars incluye self y conscious self-monitoring entre funciones y dominios que una teoría de workspace debe explicar.",
+      "motifs": [
+        "M02",
+        "M16"
+      ],
+      "provenance": "P2*",
+      "batch": "32"
+    },
+    {
+      "global_claim_id": "G32-S275-K06",
+      "claim_id": "K06",
+      "source_id": "S275",
+      "corpus_id": "C268",
+      "location": "A Cognitive Theory of Consciousness",
+      "claim_type": "STATE",
+      "claim": "Representaciones conscientes y no conscientes pueden diferenciarse por distribución, acceso y función cognitiva.",
+      "motifs": [
+        "M07",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "32"
+    },
+    {
+      "global_claim_id": "G32-S275-K07",
+      "claim_id": "K07",
+      "source_id": "S275",
+      "corpus_id": "C268",
+      "location": "A Cognitive Theory of Consciousness",
+      "claim_type": "MEMORY",
+      "claim": "El workspace se vincula con memoria de trabajo y disponibilidad de información para planificación.",
+      "motifs": [
+        "M11",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "32"
+    },
+    {
+      "global_claim_id": "G32-S275-K08",
+      "claim_id": "K08",
+      "source_id": "S275",
+      "corpus_id": "C268",
+      "location": "A Cognitive Theory of Consciousness",
+      "claim_type": "VOLITION",
+      "claim": "Metas y control voluntario pueden usar contenidos globalmente accesibles para coordinar acciones.",
+      "motifs": [
+        "M10",
+        "M12"
+      ],
+      "provenance": "P2*",
+      "batch": "32"
+    },
+    {
+      "global_claim_id": "G32-S275-K09",
+      "claim_id": "K09",
+      "source_id": "S275",
+      "corpus_id": "C268",
+      "location": "A Cognitive Theory of Consciousness",
+      "claim_type": "UNITY",
+      "claim": "El broadcasting permite coordinar múltiples procesos especializados alrededor de información común.",
+      "motifs": [
+        "M03",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "32"
+    },
+    {
+      "global_claim_id": "G32-S275-K10",
+      "claim_id": "K10",
+      "source_id": "S275",
+      "corpus_id": "C268",
+      "location": "A Cognitive Theory of Consciousness",
+      "claim_type": "META",
+      "claim": "A Cognitive Theory of Consciousness es una teoría cognitiva/arquitectónica de 1988; no equivale por sí sola a una prueba de que toda conciencia sea un workspace.",
+      "motifs": [
+        "M14",
+        "M17",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "32"
+    },
+    {
+      "global_claim_id": "G32-S275-K11",
+      "claim_id": "K11",
+      "source_id": "S275",
+      "corpus_id": "C268",
+      "location": "A Cognitive Theory of Consciousness",
+      "claim_type": "AI",
+      "claim": "La arquitectura de workspace proporciona una forma de formular modelos computacionales de funciones asociadas con conciencia.",
+      "motifs": [
+        "M03",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "32"
+    },
+    {
+      "global_claim_id": "G32-S275-K12",
+      "claim_id": "K12",
+      "source_id": "S275",
+      "corpus_id": "C268",
+      "location": "A Cognitive Theory of Consciousness",
+      "claim_type": "CONTRAST",
+      "claim": "Los procesos inconscientes no son considerados vacíos: pueden procesar información mientras el workspace ofrece integración global.",
+      "motifs": [
+        "M04",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "32"
+    },
+    {
+      "global_claim_id": "G32-S275-K13",
+      "claim_id": "K13",
+      "source_id": "S275",
+      "corpus_id": "C268",
+      "location": "A Cognitive Theory of Consciousness",
+      "claim_type": "PRACTICE",
+      "claim": "La teoría usa contrastes sistemáticos entre condiciones conscientes y comparables no conscientes como estrategia de modelado.",
+      "motifs": [
+        "M24",
+        "M25"
+      ],
+      "provenance": "P2*",
+      "batch": "32"
+    },
+    {
+      "global_claim_id": "G32-S276-K01",
+      "claim_id": "K01",
+      "source_id": "S276",
+      "corpus_id": "C269",
+      "location": "Consciousness and the Brain",
+      "claim_type": "GLOBAL",
+      "claim": "Dehaene vincula acceso consciente con disponibilidad global de información dentro del cerebro.",
+      "motifs": [
+        "M03",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "32"
+    },
+    {
+      "global_claim_id": "G32-S276-K02",
+      "claim_id": "K02",
+      "source_id": "S276",
+      "corpus_id": "C269",
+      "location": "Consciousness and the Brain",
+      "claim_type": "IGNITION",
+      "claim": "La actividad consciente se caracteriza mediante amplificación y distribución neuronal asociadas con acceso global.",
+      "motifs": [
+        "M09",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "32"
+    },
+    {
+      "global_claim_id": "G32-S276-K03",
+      "claim_id": "K03",
+      "source_id": "S276",
+      "corpus_id": "C269",
+      "location": "Consciousness and the Brain",
+      "claim_type": "STATE",
+      "claim": "El contraste entre procesamiento consciente y no consciente permite investigar diferentes modos de procesamiento perceptivo.",
+      "motifs": [
+        "M07",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "32"
+    },
+    {
+      "global_claim_id": "G32-S276-K04",
+      "claim_id": "K04",
+      "source_id": "S276",
+      "corpus_id": "C269",
+      "location": "Consciousness and the Brain",
+      "claim_type": "REPORT",
+      "claim": "Los paradigmas experimentales usan reporte y otras medidas conductuales para comparar acceso consciente con procesamiento inconsciente.",
+      "motifs": [
+        "M06",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "32"
+    },
+    {
+      "global_claim_id": "G32-S276-K05",
+      "claim_id": "K05",
+      "source_id": "S276",
+      "corpus_id": "C269",
+      "location": "Consciousness and the Brain",
+      "claim_type": "ATTENTION",
+      "claim": "Atención y conciencia están relacionadas experimentalmente, aunque no deben identificarse sin más.",
+      "motifs": [
+        "M06",
+        "M24"
+      ],
+      "provenance": "P2*",
+      "batch": "32"
+    },
+    {
+      "global_claim_id": "G32-S276-K06",
+      "claim_id": "K06",
+      "source_id": "S276",
+      "corpus_id": "C269",
+      "location": "Consciousness and the Brain",
+      "claim_type": "WORLD_MODEL",
+      "claim": "La experiencia consciente permite integrar contenidos de diferentes sistemas en una representación más globalmente disponible.",
+      "motifs": [
+        "M15",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "32"
+    },
+    {
+      "global_claim_id": "G32-S276-K07",
+      "claim_id": "K07",
+      "source_id": "S276",
+      "corpus_id": "C269",
+      "location": "Consciousness and the Brain",
+      "claim_type": "SELF_MODEL",
+      "claim": "El enfoque considera cómo información relevante para la acción y el monitoreo puede alcanzar disponibilidad global.",
+      "motifs": [
+        "M02",
+        "M16"
+      ],
+      "provenance": "P2*",
+      "batch": "32"
+    },
+    {
+      "global_claim_id": "G32-S276-K08",
+      "claim_id": "K08",
+      "source_id": "S276",
+      "corpus_id": "C269",
+      "location": "Consciousness and the Brain",
+      "claim_type": "TRANSFORMATION",
+      "claim": "El modelo distingue etapas de procesamiento desde señales inicialmente inconscientes hasta acceso consciente amplificado.",
+      "motifs": [
+        "M12",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "32"
+    },
+    {
+      "global_claim_id": "G32-S276-K09",
+      "claim_id": "K09",
+      "source_id": "S276",
+      "corpus_id": "C269",
+      "location": "Consciousness and the Brain",
+      "claim_type": "CAUSAL",
+      "claim": "El acceso consciente se relaciona con interacciones de gran escala y no sólo con activación local de receptores.",
+      "motifs": [
+        "M09",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "32"
+    },
+    {
+      "global_claim_id": "G32-S276-K10",
+      "claim_id": "K10",
+      "source_id": "S276",
+      "corpus_id": "C269",
+      "location": "Consciousness and the Brain",
+      "claim_type": "META",
+      "claim": "Consciousness and the Brain presenta un programa neurocientífico basado en evidencia experimental y workspace, no una resolución definitiva del problema fenomenal.",
+      "motifs": [
+        "M14",
+        "M17",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "32"
+    },
+    {
+      "global_claim_id": "G32-S276-K11",
+      "claim_id": "K11",
+      "source_id": "S276",
+      "corpus_id": "C269",
+      "location": "Consciousness and the Brain",
+      "claim_type": "AI",
+      "claim": "El marco es computacionalmente explícito en varias formulaciones, pero el libro trata principalmente de conciencia biológica y sus mecanismos.",
+      "motifs": [
+        "M03",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "32"
+    },
+    {
+      "global_claim_id": "G32-S276-K12",
+      "claim_id": "K12",
+      "source_id": "S276",
+      "corpus_id": "C269",
+      "location": "Consciousness and the Brain",
+      "claim_type": "CONTRAST",
+      "claim": "Procesamiento sin conciencia puede ser sofisticado; la diferencia relevante está en el acceso global y no simplemente en presencia o ausencia de procesamiento.",
+      "motifs": [
+        "M04",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "32"
+    },
+    {
+      "global_claim_id": "G32-S276-K13",
+      "claim_id": "K13",
+      "source_id": "S276",
+      "corpus_id": "C269",
+      "location": "Consciousness and the Brain",
+      "claim_type": "ATTENTION",
+      "claim": "La evidencia sobre atención, percepción y acceso permite separar parcialmente funciones que suelen agruparse bajo 'conciencia'.",
+      "motifs": [
+        "M06",
+        "M24"
+      ],
+      "provenance": "P2*",
+      "batch": "32"
+    },
+    {
+      "global_claim_id": "G32-S277-K01",
+      "claim_id": "K01",
+      "source_id": "S277",
+      "corpus_id": "C270",
+      "location": "The Feeling of Life Itself",
+      "claim_type": "PHEN",
+      "claim": "Koch define conciencia en términos de experiencia subjetiva, desde experiencias ordinarias hasta estados más complejos.",
+      "motifs": [
+        "M01",
+        "M07"
+      ],
+      "provenance": "P2*",
+      "batch": "32"
+    },
+    {
+      "global_claim_id": "G32-S277-K02",
+      "claim_id": "K02",
+      "source_id": "S277",
+      "corpus_id": "C270",
+      "location": "The Feeling of Life Itself",
+      "claim_type": "ONTO",
+      "claim": "El libro propone comenzar desde la existencia de experiencia y buscar una teoría cuantitativa que la conecte con procesos físicos.",
+      "motifs": [
+        "M03",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "32"
+    },
+    {
+      "global_claim_id": "G32-S277-K03",
+      "claim_id": "K03",
+      "source_id": "S277",
+      "corpus_id": "C270",
+      "location": "The Feeling of Life Itself",
+      "claim_type": "INTEGRATION",
+      "claim": "La teoría defendida por Koch utiliza información integrada como principio para relacionar organización física y experiencia.",
+      "motifs": [
+        "M03",
+        "M09"
+      ],
+      "provenance": "P2*",
+      "batch": "32"
+    },
+    {
+      "global_claim_id": "G32-S277-K04",
+      "claim_id": "K04",
+      "source_id": "S277",
+      "corpus_id": "C270",
+      "location": "The Feeling of Life Itself",
+      "claim_type": "EMBODIMENT",
+      "claim": "La propuesta se centra en sistemas biológicos concretos y en cómo la organización del cerebro sustenta experiencia.",
+      "motifs": [
+        "M08",
+        "M16"
+      ],
+      "provenance": "P2*",
+      "batch": "32"
+    },
+    {
+      "global_claim_id": "G32-S277-K05",
+      "claim_id": "K05",
+      "source_id": "S277",
+      "corpus_id": "C270",
+      "location": "The Feeling of Life Itself",
+      "claim_type": "STATE",
+      "claim": "Koch discute variaciones en estados de conciencia y su relación con actividad cerebral y condiciones neurológicas.",
+      "motifs": [
+        "M07",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "32"
+    },
+    {
+      "global_claim_id": "G32-S277-K06",
+      "claim_id": "K06",
+      "source_id": "S277",
+      "corpus_id": "C270",
+      "location": "The Feeling of Life Itself",
+      "claim_type": "WORLD_MODEL",
+      "claim": "La experiencia incluye una perspectiva sobre el mundo generada por sistemas nerviosos organizados.",
+      "motifs": [
+        "M15",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "32"
+    },
+    {
+      "global_claim_id": "G32-S277-K07",
+      "claim_id": "K07",
+      "source_id": "S277",
+      "corpus_id": "C270",
+      "location": "The Feeling of Life Itself",
+      "claim_type": "SELF_MODEL",
+      "claim": "La subjetividad implica una perspectiva del organismo sobre su propia actividad y entorno, aunque no se reduce a una narrativa del yo.",
+      "motifs": [
+        "M02",
+        "M16"
+      ],
+      "provenance": "P2*",
+      "batch": "32"
+    },
+    {
+      "global_claim_id": "G32-S277-K08",
+      "claim_id": "K08",
+      "source_id": "S277",
+      "corpus_id": "C270",
+      "location": "The Feeling of Life Itself",
+      "claim_type": "VALENCE",
+      "claim": "Sentir estar vivo se presenta como rasgo básico de experiencia, con implicaciones para considerar otros organismos conscientes.",
+      "motifs": [
+        "M10",
+        "M12"
+      ],
+      "provenance": "P2*",
+      "batch": "32"
+    },
+    {
+      "global_claim_id": "G32-S277-K09",
+      "claim_id": "K09",
+      "source_id": "S277",
+      "corpus_id": "C270",
+      "location": "The Feeling of Life Itself",
+      "claim_type": "TEMPORAL",
+      "claim": "La conciencia es tratada como proceso físico/experiencial dependiente de organización dinámica del sistema.",
+      "motifs": [
+        "M11",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "32"
+    },
+    {
+      "global_claim_id": "G32-S277-K10",
+      "claim_id": "K10",
+      "source_id": "S277",
+      "corpus_id": "C270",
+      "location": "The Feeling of Life Itself",
+      "claim_type": "META",
+      "claim": "Koch defiende una teoría de información integrada, pero sus tesis sobre qué sistemas podrían ser conscientes son posiciones teóricas y no consenso cerrado.",
+      "motifs": [
+        "M14",
+        "M17",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "32"
+    },
+    {
+      "global_claim_id": "G32-S277-K11",
+      "claim_id": "K11",
+      "source_id": "S277",
+      "corpus_id": "C270",
+      "location": "The Feeling of Life Itself",
+      "claim_type": "AI",
+      "claim": "El libro sostiene una posición escéptica sobre que software ejecutado en computadoras programables sea por sí mismo consciente.",
+      "motifs": [
+        "M03",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "32"
+    },
+    {
+      "global_claim_id": "G32-S277-K12",
+      "claim_id": "K12",
+      "source_id": "S277",
+      "corpus_id": "C270",
+      "location": "The Feeling of Life Itself",
+      "claim_type": "PRACTICE",
+      "claim": "La propuesta conecta teoría con medición de estados de conciencia, incluyendo la idea de instrumentos o métricas clínicas.",
+      "motifs": [
+        "M24",
+        "M25"
+      ],
+      "provenance": "P2*",
+      "batch": "32"
+    },
+    {
+      "global_claim_id": "G32-S277-K13",
+      "claim_id": "K13",
+      "source_id": "S277",
+      "corpus_id": "C270",
+      "location": "The Feeling of Life Itself",
+      "claim_type": "CONTRAST",
+      "claim": "Koch distingue una explicación de funciones cognitivas de una explicación de por qué existe experiencia, manteniendo abierta la brecha entre correlato neural y fenomenología.",
+      "motifs": [
+        "M04",
+        "M14",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "32"
+    }
+  ]
+}

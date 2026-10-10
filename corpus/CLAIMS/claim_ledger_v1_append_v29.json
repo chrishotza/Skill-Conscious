@@ -1,0 +1,1983 @@
+{
+  "schema_version": "1.0-append",
+  "base_ledger": "claim_ledger_v1.json",
+  "batch": "29",
+  "claim_count": 130,
+  "records": [
+    {
+      "global_claim_id": "G29-S238-K01",
+      "claim_id": "K01",
+      "source_id": "S238",
+      "corpus_id": "C223",
+      "location": "Frankl; logotherapy, suffering, freedom, responsibility, meaning and existential orientation",
+      "claim_type": "PERSON",
+      "claim": "Frankl describe a la persona como capaz de conservar una orientación y una actitud aun bajo condiciones extremas.",
+      "motifs": [
+        "M02",
+        "M05",
+        "M16"
+      ],
+      "provenance": "P2*",
+      "batch": "29"
+    },
+    {
+      "global_claim_id": "G29-S238-K02",
+      "claim_id": "K02",
+      "source_id": "S238",
+      "corpus_id": "C223",
+      "location": "Frankl; logotherapy, suffering, freedom, responsibility, meaning and existential orientation",
+      "claim_type": "VALENCE",
+      "claim": "El sentido funciona como orientación evaluativa que puede ordenar decisiones incluso bajo sufrimiento.",
+      "motifs": [
+        "M10",
+        "M12"
+      ],
+      "provenance": "P2*",
+      "batch": "29"
+    },
+    {
+      "global_claim_id": "G29-S238-K03",
+      "claim_id": "K03",
+      "source_id": "S238",
+      "corpus_id": "C223",
+      "location": "Frankl; logotherapy, suffering, freedom, responsibility, meaning and existential orientation",
+      "claim_type": "TRANSFORMATION",
+      "claim": "La búsqueda o descubrimiento de sentido puede modificar profundamente la actitud del sujeto ante su situación.",
+      "motifs": [
+        "M12",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "29"
+    },
+    {
+      "global_claim_id": "G29-S238-K04",
+      "claim_id": "K04",
+      "source_id": "S238",
+      "corpus_id": "C223",
+      "location": "Frankl; logotherapy, suffering, freedom, responsibility, meaning and existential orientation",
+      "claim_type": "REFLEXIVITY",
+      "claim": "El sujeto puede tomar distancia respecto de sus estados y decidir cómo responder a ellos.",
+      "motifs": [
+        "M02",
+        "M06",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "29"
+    },
+    {
+      "global_claim_id": "G29-S238-K05",
+      "claim_id": "K05",
+      "source_id": "S238",
+      "corpus_id": "C223",
+      "location": "Frankl; logotherapy, suffering, freedom, responsibility, meaning and existential orientation",
+      "claim_type": "STATE",
+      "claim": "Frankl distingue sufrimiento, desesperación, esperanza, amor y sentido como configuraciones psicológicas diferentes.",
+      "motifs": [
+        "M07",
+        "M10"
+      ],
+      "provenance": "P2*",
+      "batch": "29"
+    },
+    {
+      "global_claim_id": "G29-S238-K06",
+      "claim_id": "K06",
+      "source_id": "S238",
+      "corpus_id": "C223",
+      "location": "Frankl; logotherapy, suffering, freedom, responsibility, meaning and existential orientation",
+      "claim_type": "RELATION",
+      "claim": "El vínculo con otras personas, especialmente el amor, aparece como una vía para descubrir significado.",
+      "motifs": [
+        "M05",
+        "M16"
+      ],
+      "provenance": "P2*",
+      "batch": "29"
+    },
+    {
+      "global_claim_id": "G29-S238-K07",
+      "claim_id": "K07",
+      "source_id": "S238",
+      "corpus_id": "C223",
+      "location": "Frankl; logotherapy, suffering, freedom, responsibility, meaning and existential orientation",
+      "claim_type": "PRACTICE",
+      "claim": "Responsabilidad, decisión y orientación hacia una tarea forman parte de la respuesta existencial propuesta.",
+      "motifs": [
+        "M24",
+        "M25"
+      ],
+      "provenance": "P2*",
+      "batch": "29"
+    },
+    {
+      "global_claim_id": "G29-S238-K08",
+      "claim_id": "K08",
+      "source_id": "S238",
+      "corpus_id": "C223",
+      "location": "Frankl; logotherapy, suffering, freedom, responsibility, meaning and existential orientation",
+      "claim_type": "TEMPORAL",
+      "claim": "La orientación hacia un futuro posible permite sostener una estructura temporal del significado.",
+      "motifs": [
+        "M11",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "29"
+    },
+    {
+      "global_claim_id": "G29-S238-K09",
+      "claim_id": "K09",
+      "source_id": "S238",
+      "corpus_id": "C223",
+      "location": "Frankl; logotherapy, suffering, freedom, responsibility, meaning and existential orientation",
+      "claim_type": "DEATH",
+      "claim": "La mortalidad forma parte del horizonte existencial que hace urgente la cuestión del sentido.",
+      "motifs": [
+        "M19",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "29"
+    },
+    {
+      "global_claim_id": "G29-S238-K10",
+      "claim_id": "K10",
+      "source_id": "S238",
+      "corpus_id": "C223",
+      "location": "Frankl; logotherapy, suffering, freedom, responsibility, meaning and existential orientation",
+      "claim_type": "ATTENTION",
+      "claim": "El cambio de foco desde sufrimiento inmediato hacia significado y responsabilidad reestructura la atención.",
+      "motifs": [
+        "M06",
+        "M24"
+      ],
+      "provenance": "P2*",
+      "batch": "29"
+    },
+    {
+      "global_claim_id": "G29-S238-K11",
+      "claim_id": "K11",
+      "source_id": "S238",
+      "corpus_id": "C223",
+      "location": "Frankl; logotherapy, suffering, freedom, responsibility, meaning and existential orientation",
+      "claim_type": "UNITY",
+      "claim": "Psicología, ética y orientación existencial se integran en un único marco de tratamiento del ser humano.",
+      "motifs": [
+        "M03",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "29"
+    },
+    {
+      "global_claim_id": "G29-S238-K12",
+      "claim_id": "K12",
+      "source_id": "S238",
+      "corpus_id": "C223",
+      "location": "Frankl; logotherapy, suffering, freedom, responsibility, meaning and existential orientation",
+      "claim_type": "META",
+      "claim": "Man's Search for Meaning es un testimonio y una formulación clínica-filosófica de Frankl, no evidencia experimental de una metafísica del sentido.",
+      "motifs": [
+        "M14",
+        "M17",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "29"
+    },
+    {
+      "global_claim_id": "G29-S238-K13",
+      "claim_id": "K13",
+      "source_id": "S238",
+      "corpus_id": "C223",
+      "location": "Frankl; logotherapy, suffering, freedom, responsibility, meaning and existential orientation",
+      "claim_type": "CONTRAST",
+      "claim": "La logoterapia no elimina el sufrimiento como hecho, sino que centra la cuestión en la actitud y en el significado atribuido.",
+      "motifs": [
+        "M10",
+        "M12",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "29"
+    },
+    {
+      "global_claim_id": "G29-S239-K01",
+      "claim_id": "K01",
+      "source_id": "S239",
+      "corpus_id": "C224",
+      "location": "Huxley; perennialist thesis, mysticism, ultimate reality, ethics and transformation",
+      "claim_type": "UNITY",
+      "claim": "Huxley propone que diversas tradiciones contienen formulaciones convergentes sobre una realidad última y una transformación del sujeto.",
+      "motifs": [
+        "M03",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "29"
+    },
+    {
+      "global_claim_id": "G29-S239-K02",
+      "claim_id": "K02",
+      "source_id": "S239",
+      "corpus_id": "C224",
+      "location": "Huxley; perennialist thesis, mysticism, ultimate reality, ethics and transformation",
+      "claim_type": "RELATION",
+      "claim": "El individuo es entendido en relación con una realidad o fundamento que trasciende el ego ordinario.",
+      "motifs": [
+        "M05",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "29"
+    },
+    {
+      "global_claim_id": "G29-S239-K03",
+      "claim_id": "K03",
+      "source_id": "S239",
+      "corpus_id": "C224",
+      "location": "Huxley; perennialist thesis, mysticism, ultimate reality, ethics and transformation",
+      "claim_type": "STATE",
+      "claim": "Experiencias místicas y estados contemplativos son tratados como modos especiales de conocimiento o percepción.",
+      "motifs": [
+        "M07",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "29"
+    },
+    {
+      "global_claim_id": "G29-S239-K04",
+      "claim_id": "K04",
+      "source_id": "S239",
+      "corpus_id": "C224",
+      "location": "Huxley; perennialist thesis, mysticism, ultimate reality, ethics and transformation",
+      "claim_type": "TRANSFORMATION",
+      "claim": "La realización espiritual requiere cambios en carácter, percepción y orientación vital.",
+      "motifs": [
+        "M12",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "29"
+    },
+    {
+      "global_claim_id": "G29-S239-K05",
+      "claim_id": "K05",
+      "source_id": "S239",
+      "corpus_id": "C224",
+      "location": "Huxley; perennialist thesis, mysticism, ultimate reality, ethics and transformation",
+      "claim_type": "VALENCE",
+      "claim": "Compasión, desapego y amor funcionan como criterios éticos recurrentes de transformación.",
+      "motifs": [
+        "M10",
+        "M12"
+      ],
+      "provenance": "P2*",
+      "batch": "29"
+    },
+    {
+      "global_claim_id": "G29-S239-K06",
+      "claim_id": "K06",
+      "source_id": "S239",
+      "corpus_id": "C224",
+      "location": "Huxley; perennialist thesis, mysticism, ultimate reality, ethics and transformation",
+      "claim_type": "PRACTICE",
+      "claim": "Meditación, contemplación y disciplinas religiosas son presentadas como caminos para cultivar la percepción espiritual.",
+      "motifs": [
+        "M24",
+        "M25"
+      ],
+      "provenance": "P2*",
+      "batch": "29"
+    },
+    {
+      "global_claim_id": "G29-S239-K07",
+      "claim_id": "K07",
+      "source_id": "S239",
+      "corpus_id": "C224",
+      "location": "Huxley; perennialist thesis, mysticism, ultimate reality, ethics and transformation",
+      "claim_type": "INTERIORITY",
+      "claim": "La conciencia interior aparece como ámbito donde puede reconocerse una realidad más profunda que el yo cotidiano.",
+      "motifs": [
+        "M01",
+        "M02"
+      ],
+      "provenance": "P2*",
+      "batch": "29"
+    },
+    {
+      "global_claim_id": "G29-S239-K08",
+      "claim_id": "K08",
+      "source_id": "S239",
+      "corpus_id": "C224",
+      "location": "Huxley; perennialist thesis, mysticism, ultimate reality, ethics and transformation",
+      "claim_type": "REFLEXIVITY",
+      "claim": "La transformación implica investigar quién conoce y qué condiciones limitan el conocimiento ordinario.",
+      "motifs": [
+        "M02",
+        "M06",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "29"
+    },
+    {
+      "global_claim_id": "G29-S239-K09",
+      "claim_id": "K09",
+      "source_id": "S239",
+      "corpus_id": "C224",
+      "location": "Huxley; perennialist thesis, mysticism, ultimate reality, ethics and transformation",
+      "claim_type": "INEFFABILITY",
+      "claim": "Huxley destaca que los estados místicos no son completamente reducibles a conceptos discursivos ordinarios.",
+      "motifs": [
+        "M14",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "29"
+    },
+    {
+      "global_claim_id": "G29-S239-K10",
+      "claim_id": "K10",
+      "source_id": "S239",
+      "corpus_id": "C224",
+      "location": "Huxley; perennialist thesis, mysticism, ultimate reality, ethics and transformation",
+      "claim_type": "UNITY",
+      "claim": "El libro relaciona tradiciones orientales y occidentales mediante un esquema comparativo de principios semejantes.",
+      "motifs": [
+        "M03",
+        "M17"
+      ],
+      "provenance": "P2*",
+      "batch": "29"
+    },
+    {
+      "global_claim_id": "G29-S239-K11",
+      "claim_id": "K11",
+      "source_id": "S239",
+      "corpus_id": "C224",
+      "location": "Huxley; perennialist thesis, mysticism, ultimate reality, ethics and transformation",
+      "claim_type": "TEMPORAL",
+      "claim": "La tesis perennialista trata la recurrencia histórica de motivos espirituales como evidencia comparativa de larga duración.",
+      "motifs": [
+        "M11",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "29"
+    },
+    {
+      "global_claim_id": "G29-S239-K12",
+      "claim_id": "K12",
+      "source_id": "S239",
+      "corpus_id": "C224",
+      "location": "Huxley; perennialist thesis, mysticism, ultimate reality, ethics and transformation",
+      "claim_type": "META",
+      "claim": "The Perennial Philosophy es una síntesis comparativa de Huxley, no una demostración de que todas las religiones enseñen una doctrina idéntica.",
+      "motifs": [
+        "M14",
+        "M17",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "29"
+    },
+    {
+      "global_claim_id": "G29-S239-K13",
+      "claim_id": "K13",
+      "source_id": "S239",
+      "corpus_id": "C224",
+      "location": "Huxley; perennialist thesis, mysticism, ultimate reality, ethics and transformation",
+      "claim_type": "CONTRAST",
+      "claim": "La convergencia temática no elimina las diferencias doctrinales, históricas y prácticas entre las tradiciones comparadas.",
+      "motifs": [
+        "M04",
+        "M14",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "29"
+    },
+    {
+      "global_claim_id": "G29-S240-K01",
+      "claim_id": "K01",
+      "source_id": "S240",
+      "corpus_id": "C225",
+      "location": "William James; individual religious experience, divided self, conversion, mysticism and pragmatism",
+      "claim_type": "STATE",
+      "claim": "James trata las experiencias religiosas como estados concretos de conciencia que pueden estudiarse por sus características psicológicas.",
+      "motifs": [
+        "M07",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "29"
+    },
+    {
+      "global_claim_id": "G29-S240-K02",
+      "claim_id": "K02",
+      "source_id": "S240",
+      "corpus_id": "C225",
+      "location": "William James; individual religious experience, divided self, conversion, mysticism and pragmatism",
+      "claim_type": "REFLEXIVITY",
+      "claim": "La experiencia religiosa puede reorganizar la relación que una persona mantiene con su propio yo y sus conflictos internos.",
+      "motifs": [
+        "M02",
+        "M06",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "29"
+    },
+    {
+      "global_claim_id": "G29-S240-K03",
+      "claim_id": "K03",
+      "source_id": "S240",
+      "corpus_id": "C225",
+      "location": "William James; individual religious experience, divided self, conversion, mysticism and pragmatism",
+      "claim_type": "TRANSFORMATION",
+      "claim": "La conversión aparece como un proceso por el cual un self dividido puede volverse más unificado y orientado.",
+      "motifs": [
+        "M12",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "29"
+    },
+    {
+      "global_claim_id": "G29-S240-K04",
+      "claim_id": "K04",
+      "source_id": "S240",
+      "corpus_id": "C225",
+      "location": "William James; individual religious experience, divided self, conversion, mysticism and pragmatism",
+      "claim_type": "VALENCE",
+      "claim": "James analiza cambios en felicidad, confianza, culpa, esperanza y sentido como dimensiones de la experiencia religiosa.",
+      "motifs": [
+        "M10",
+        "M12"
+      ],
+      "provenance": "P2*",
+      "batch": "29"
+    },
+    {
+      "global_claim_id": "G29-S240-K05",
+      "claim_id": "K05",
+      "source_id": "S240",
+      "corpus_id": "C225",
+      "location": "William James; individual religious experience, divided self, conversion, mysticism and pragmatism",
+      "claim_type": "INTERIORITY",
+      "claim": "Su objeto principal es la experiencia vivida 'within the private breast' más que la institución religiosa.",
+      "motifs": [
+        "M01",
+        "M02"
+      ],
+      "provenance": "P2*",
+      "batch": "29"
+    },
+    {
+      "global_claim_id": "G29-S240-K06",
+      "claim_id": "K06",
+      "source_id": "S240",
+      "corpus_id": "C225",
+      "location": "William James; individual religious experience, divided self, conversion, mysticism and pragmatism",
+      "claim_type": "RELATION",
+      "claim": "La experiencia religiosa combina estados afectivos con objetos o interpretaciones religiosas específicos.",
+      "motifs": [
+        "M05",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "29"
+    },
+    {
+      "global_claim_id": "G29-S240-K07",
+      "claim_id": "K07",
+      "source_id": "S240",
+      "corpus_id": "C225",
+      "location": "William James; individual religious experience, divided self, conversion, mysticism and pragmatism",
+      "claim_type": "ATTENTION",
+      "claim": "James compara testimonios individuales para estudiar cómo se configuran diferentes focos de atención y experiencia.",
+      "motifs": [
+        "M06",
+        "M24"
+      ],
+      "provenance": "P2*",
+      "batch": "29"
+    },
+    {
+      "global_claim_id": "G29-S240-K08",
+      "claim_id": "K08",
+      "source_id": "S240",
+      "corpus_id": "C225",
+      "location": "William James; individual religious experience, divided self, conversion, mysticism and pragmatism",
+      "claim_type": "INEFFABILITY",
+      "claim": "Los estados místicos incluyen una dimensión que los sujetos describen como difícil de comunicar completamente.",
+      "motifs": [
+        "M14",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "29"
+    },
+    {
+      "global_claim_id": "G29-S240-K09",
+      "claim_id": "K09",
+      "source_id": "S240",
+      "corpus_id": "C225",
+      "location": "William James; individual religious experience, divided self, conversion, mysticism and pragmatism",
+      "claim_type": "TEMPORAL",
+      "claim": "Conversión, regeneración y desarrollo religioso pueden ser repentinos o graduales y se organizan como procesos de cambio.",
+      "motifs": [
+        "M11",
+        "M12"
+      ],
+      "provenance": "P2*",
+      "batch": "29"
+    },
+    {
+      "global_claim_id": "G29-S240-K10",
+      "claim_id": "K10",
+      "source_id": "S240",
+      "corpus_id": "C225",
+      "location": "William James; individual religious experience, divided self, conversion, mysticism and pragmatism",
+      "claim_type": "SELF_MODEL",
+      "claim": "El libro distingue entre self dividido y formas más integradas de identidad experimentada.",
+      "motifs": [
+        "M02",
+        "M16"
+      ],
+      "provenance": "P2*",
+      "batch": "29"
+    },
+    {
+      "global_claim_id": "G29-S240-K11",
+      "claim_id": "K11",
+      "source_id": "S240",
+      "corpus_id": "C225",
+      "location": "William James; individual religious experience, divided self, conversion, mysticism and pragmatism",
+      "claim_type": "META",
+      "claim": "James estudia experiencias religiosas desde una perspectiva psicológica y filosófica, sin convertir por ello sus testimonios en prueba directa de su interpretación teológica.",
+      "motifs": [
+        "M14",
+        "M17",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "29"
+    },
+    {
+      "global_claim_id": "G29-S240-K12",
+      "claim_id": "K12",
+      "source_id": "S240",
+      "corpus_id": "C225",
+      "location": "William James; individual religious experience, divided self, conversion, mysticism and pragmatism",
+      "claim_type": "PRACTICE",
+      "claim": "Los relatos muestran oración, aislamiento, disciplina y otras prácticas como factores que acompañan cambios religiosos.",
+      "motifs": [
+        "M24",
+        "M25"
+      ],
+      "provenance": "P2*",
+      "batch": "29"
+    },
+    {
+      "global_claim_id": "G29-S240-K13",
+      "claim_id": "K13",
+      "source_id": "S240",
+      "corpus_id": "C225",
+      "location": "William James; individual religious experience, divided self, conversion, mysticism and pragmatism",
+      "claim_type": "CONTRAST",
+      "claim": "James mantiene abierta la relación entre interpretación naturalista y religiosa, en vez de resolverla simplemente a favor de una metafísica única.",
+      "motifs": [
+        "M04",
+        "M14",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "29"
+    },
+    {
+      "global_claim_id": "G29-S241-K01",
+      "claim_id": "K01",
+      "source_id": "S241",
+      "corpus_id": "C226",
+      "location": "Huxley; mescaline, ordinary perception, filter/reduction metaphor, art and mystical experience",
+      "claim_type": "STATE",
+      "claim": "Huxley describe la experiencia con mescalina como una modificación marcada de percepción, atención y saliencia.",
+      "motifs": [
+        "M07",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "29"
+    },
+    {
+      "global_claim_id": "G29-S241-K02",
+      "claim_id": "K02",
+      "source_id": "S241",
+      "corpus_id": "C226",
+      "location": "Huxley; mescaline, ordinary perception, filter/reduction metaphor, art and mystical experience",
+      "claim_type": "ATTENTION",
+      "claim": "La experiencia altera qué estímulos adquieren prioridad y cómo se distribuyen los recursos atencionales.",
+      "motifs": [
+        "M01",
+        "M06"
+      ],
+      "provenance": "P2*",
+      "batch": "29"
+    },
+    {
+      "global_claim_id": "G29-S241-K03",
+      "claim_id": "K03",
+      "source_id": "S241",
+      "corpus_id": "C226",
+      "location": "Huxley; mescaline, ordinary perception, filter/reduction metaphor, art and mystical experience",
+      "claim_type": "SELF_MODEL",
+      "claim": "La percepción del ego cotidiano puede disminuir en importancia relativa durante la experiencia descrita.",
+      "motifs": [
+        "M02",
+        "M16"
+      ],
+      "provenance": "P2*",
+      "batch": "29"
+    },
+    {
+      "global_claim_id": "G29-S241-K04",
+      "claim_id": "K04",
+      "source_id": "S241",
+      "corpus_id": "C226",
+      "location": "Huxley; mescaline, ordinary perception, filter/reduction metaphor, art and mystical experience",
+      "claim_type": "WORLD_MODEL",
+      "claim": "Objetos ordinarios pueden adquirir una presencia, detalle o significado perceptivo inusualmente intensos.",
+      "motifs": [
+        "M15",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "29"
+    },
+    {
+      "global_claim_id": "G29-S241-K05",
+      "claim_id": "K05",
+      "source_id": "S241",
+      "corpus_id": "C226",
+      "location": "Huxley; mescaline, ordinary perception, filter/reduction metaphor, art and mystical experience",
+      "claim_type": "TRANSFORMATION",
+      "claim": "La alteración perceptiva puede cambiar temporalmente la relación del sujeto con arte, naturaleza y mundo cotidiano.",
+      "motifs": [
+        "M12",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "29"
+    },
+    {
+      "global_claim_id": "G29-S241-K06",
+      "claim_id": "K06",
+      "source_id": "S241",
+      "corpus_id": "C226",
+      "location": "Huxley; mescaline, ordinary perception, filter/reduction metaphor, art and mystical experience",
+      "claim_type": "INEFFABILITY",
+      "claim": "Huxley recurre a analogías para describir contenidos experienciales que considera difíciles de expresar literalmente.",
+      "motifs": [
+        "M14",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "29"
+    },
+    {
+      "global_claim_id": "G29-S241-K07",
+      "claim_id": "K07",
+      "source_id": "S241",
+      "corpus_id": "C226",
+      "location": "Huxley; mescaline, ordinary perception, filter/reduction metaphor, art and mystical experience",
+      "claim_type": "VALENCE",
+      "claim": "Asombro, fascinación y extrañamiento forman parte importante del tono afectivo de la experiencia.",
+      "motifs": [
+        "M10",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "29"
+    },
+    {
+      "global_claim_id": "G29-S241-K08",
+      "claim_id": "K08",
+      "source_id": "S241",
+      "corpus_id": "C226",
+      "location": "Huxley; mescaline, ordinary perception, filter/reduction metaphor, art and mystical experience",
+      "claim_type": "RELATION",
+      "claim": "El sujeto permanece relacionado con el entorno, pero su modo de percibir esa relación se modifica.",
+      "motifs": [
+        "M05",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "29"
+    },
+    {
+      "global_claim_id": "G29-S241-K09",
+      "claim_id": "K09",
+      "source_id": "S241",
+      "corpus_id": "C226",
+      "location": "Huxley; mescaline, ordinary perception, filter/reduction metaphor, art and mystical experience",
+      "claim_type": "EMBODIMENT",
+      "claim": "La experiencia es corporalmente situada y dependiente de cambios en percepción, sensación y respuesta física.",
+      "motifs": [
+        "M08",
+        "M16"
+      ],
+      "provenance": "P2*",
+      "batch": "29"
+    },
+    {
+      "global_claim_id": "G29-S241-K10",
+      "claim_id": "K10",
+      "source_id": "S241",
+      "corpus_id": "C226",
+      "location": "Huxley; mescaline, ordinary perception, filter/reduction metaphor, art and mystical experience",
+      "claim_type": "TEMPORAL",
+      "claim": "La experiencia psicodélica es transitoria, aunque Huxley describe posibles efectos posteriores sobre su interpretación de la realidad.",
+      "motifs": [
+        "M11",
+        "M12"
+      ],
+      "provenance": "P2*",
+      "batch": "29"
+    },
+    {
+      "global_claim_id": "G29-S241-K11",
+      "claim_id": "K11",
+      "source_id": "S241",
+      "corpus_id": "C226",
+      "location": "Huxley; mescaline, ordinary perception, filter/reduction metaphor, art and mystical experience",
+      "claim_type": "META",
+      "claim": "The Doors of Perception es un ensayo testimonial sobre una experiencia con mescalina, no una demostración de que su metáfora perceptual sea un modelo científico del cerebro.",
+      "motifs": [
+        "M14",
+        "M17",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "29"
+    },
+    {
+      "global_claim_id": "G29-S241-K12",
+      "claim_id": "K12",
+      "source_id": "S241",
+      "corpus_id": "C226",
+      "location": "Huxley; mescaline, ordinary perception, filter/reduction metaphor, art and mystical experience",
+      "claim_type": "REFLEXIVITY",
+      "claim": "La experiencia lleva al autor a cuestionar supuestos ordinarios sobre qué significa percibir y conocer.",
+      "motifs": [
+        "M02",
+        "M06",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "29"
+    },
+    {
+      "global_claim_id": "G29-S241-K13",
+      "claim_id": "K13",
+      "source_id": "S241",
+      "corpus_id": "C226",
+      "location": "Huxley; mescaline, ordinary perception, filter/reduction metaphor, art and mystical experience",
+      "claim_type": "PRACTICE",
+      "claim": "La preparación, observación y posterior interpretación de la experiencia forman parte de la estructura del relato.",
+      "motifs": [
+        "M24",
+        "M25"
+      ],
+      "provenance": "P2*",
+      "batch": "29"
+    },
+    {
+      "global_claim_id": "G29-S242-K01",
+      "claim_id": "K01",
+      "source_id": "S242",
+      "corpus_id": "C229",
+      "location": "Maya colonial manuscript tradition; creation, calendrical cycles, prophecy, place and sacred history",
+      "claim_type": "COSMO",
+      "claim": "El libro integra relatos de creación, calendarios, historia y orden sagrado dentro de una misma memoria cultural.",
+      "motifs": [
+        "M15",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "29"
+    },
+    {
+      "global_claim_id": "G29-S242-K02",
+      "claim_id": "K02",
+      "source_id": "S242",
+      "corpus_id": "C229",
+      "location": "Maya colonial manuscript tradition; creation, calendrical cycles, prophecy, place and sacred history",
+      "claim_type": "TEMPORAL",
+      "claim": "Los ciclos calendáricos organizan la experiencia del tiempo como estructura cosmológica e histórica.",
+      "motifs": [
+        "M11",
+        "M15"
+      ],
+      "provenance": "P2*",
+      "batch": "29"
+    },
+    {
+      "global_claim_id": "G29-S242-K03",
+      "claim_id": "K03",
+      "source_id": "S242",
+      "corpus_id": "C229",
+      "location": "Maya colonial manuscript tradition; creation, calendrical cycles, prophecy, place and sacred history",
+      "claim_type": "RELATION",
+      "claim": "Historia, territorio, linaje y fuerzas sagradas aparecen vinculados en la organización del mundo maya colonial.",
+      "motifs": [
+        "M05",
+        "M16",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "29"
+    },
+    {
+      "global_claim_id": "G29-S242-K04",
+      "claim_id": "K04",
+      "source_id": "S242",
+      "corpus_id": "C229",
+      "location": "Maya colonial manuscript tradition; creation, calendrical cycles, prophecy, place and sacred history",
+      "claim_type": "STATE",
+      "claim": "Profecía y presagio permiten describir condiciones diferentes del mundo según ciclos temporales y acontecimientos.",
+      "motifs": [
+        "M07",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "29"
+    },
+    {
+      "global_claim_id": "G29-S242-K05",
+      "claim_id": "K05",
+      "source_id": "S242",
+      "corpus_id": "C229",
+      "location": "Maya colonial manuscript tradition; creation, calendrical cycles, prophecy, place and sacred history",
+      "claim_type": "PRACTICE",
+      "claim": "El conocimiento ritual depende de calendarios, memoria textual, interpretación y transmisión especializada.",
+      "motifs": [
+        "M24",
+        "M25"
+      ],
+      "provenance": "P2*",
+      "batch": "29"
+    },
+    {
+      "global_claim_id": "G29-S242-K06",
+      "claim_id": "K06",
+      "source_id": "S242",
+      "corpus_id": "C229",
+      "location": "Maya colonial manuscript tradition; creation, calendrical cycles, prophecy, place and sacred history",
+      "claim_type": "CORRESPONDENCE",
+      "claim": "Fechas, fenómenos y eventos históricos se conectan mediante sistemas calendáricos y simbólicos.",
+      "motifs": [
+        "M18",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "29"
+    },
+    {
+      "global_claim_id": "G29-S242-K07",
+      "claim_id": "K07",
+      "source_id": "S242",
+      "corpus_id": "C229",
+      "location": "Maya colonial manuscript tradition; creation, calendrical cycles, prophecy, place and sacred history",
+      "claim_type": "PERSON",
+      "claim": "La identidad colectiva se articula alrededor de comunidades, antepasados, gobernantes y memoria histórica.",
+      "motifs": [
+        "M05",
+        "M16"
+      ],
+      "provenance": "P2*",
+      "batch": "29"
+    },
+    {
+      "global_claim_id": "G29-S242-K08",
+      "claim_id": "K08",
+      "source_id": "S242",
+      "corpus_id": "C229",
+      "location": "Maya colonial manuscript tradition; creation, calendrical cycles, prophecy, place and sacred history",
+      "claim_type": "TRANSFORMATION",
+      "claim": "Los cambios de ciclo permiten representar renovaciones y reorganizaciones del orden social y cósmico.",
+      "motifs": [
+        "M12",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "29"
+    },
+    {
+      "global_claim_id": "G29-S242-K09",
+      "claim_id": "K09",
+      "source_id": "S242",
+      "corpus_id": "C229",
+      "location": "Maya colonial manuscript tradition; creation, calendrical cycles, prophecy, place and sacred history",
+      "claim_type": "VALENCE",
+      "claim": "Los textos combinan advertencia, esperanza, memoria y orientación moral según la interpretación de acontecimientos.",
+      "motifs": [
+        "M10",
+        "M12"
+      ],
+      "provenance": "P2*",
+      "batch": "29"
+    },
+    {
+      "global_claim_id": "G29-S242-K10",
+      "claim_id": "K10",
+      "source_id": "S242",
+      "corpus_id": "C229",
+      "location": "Maya colonial manuscript tradition; creation, calendrical cycles, prophecy, place and sacred history",
+      "claim_type": "EMBODIMENT",
+      "claim": "Espacios, cultivos, cuerpos celestes y prácticas rituales hacen tangible el vínculo entre territorio y cosmología.",
+      "motifs": [
+        "M08",
+        "M15"
+      ],
+      "provenance": "P2*",
+      "batch": "29"
+    },
+    {
+      "global_claim_id": "G29-S242-K11",
+      "claim_id": "K11",
+      "source_id": "S242",
+      "corpus_id": "C229",
+      "location": "Maya colonial manuscript tradition; creation, calendrical cycles, prophecy, place and sacred history",
+      "claim_type": "META",
+      "claim": "Chilam Balam of Chumayel es una fuente colonial maya compleja, con capas indígenas y cristianas; no representa de manera transparente un sistema prehispánico intacto.",
+      "motifs": [
+        "M14",
+        "M17",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "29"
+    },
+    {
+      "global_claim_id": "G29-S242-K12",
+      "claim_id": "K12",
+      "source_id": "S242",
+      "corpus_id": "C229",
+      "location": "Maya colonial manuscript tradition; creation, calendrical cycles, prophecy, place and sacred history",
+      "claim_type": "ATTENTION",
+      "claim": "La lectura requiere reconocer géneros distintos dentro del manuscrito, en lugar de tratarlos como una sola voz doctrinal.",
+      "motifs": [
+        "M06",
+        "M14"
+      ],
+      "provenance": "P2*",
+      "batch": "29"
+    },
+    {
+      "global_claim_id": "G29-S242-K13",
+      "claim_id": "K13",
+      "source_id": "S242",
+      "corpus_id": "C229",
+      "location": "Maya colonial manuscript tradition; creation, calendrical cycles, prophecy, place and sacred history",
+      "claim_type": "DEATH",
+      "claim": "Memoria de ancestros, ciclos y relatos de destrucción/renovación sitúan la mortalidad dentro de una historia cósmica y comunitaria.",
+      "motifs": [
+        "M19",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "29"
+    },
+    {
+      "global_claim_id": "G29-S243-K01",
+      "claim_id": "K01",
+      "source_id": "S243",
+      "corpus_id": "C231",
+      "location": "Dagara cosmology in ethnographic sources; person, earth, ancestors, ritual and community",
+      "claim_type": "PERSON",
+      "claim": "Las fuentes etnográficas describen a la persona en continuidad con comunidad, tierra, ancestros y fuerzas cosmológicas.",
+      "motifs": [
+        "M05",
+        "M16",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "29"
+    },
+    {
+      "global_claim_id": "G29-S243-K02",
+      "claim_id": "K02",
+      "source_id": "S243",
+      "corpus_id": "C231",
+      "location": "Dagara cosmology in ethnographic sources; person, earth, ancestors, ritual and community",
+      "claim_type": "COSMO",
+      "claim": "La cosmología dagara presentada por las fuentes clásicas integra creación, elementos, animales, ritual y vida social.",
+      "motifs": [
+        "M15",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "29"
+    },
+    {
+      "global_claim_id": "G29-S243-K03",
+      "claim_id": "K03",
+      "source_id": "S243",
+      "corpus_id": "C231",
+      "location": "Dagara cosmology in ethnographic sources; person, earth, ancestors, ritual and community",
+      "claim_type": "RELATION",
+      "claim": "La identidad no se formula sólo en términos individuales, sino mediante relaciones con comunidad, naturaleza y antepasados.",
+      "motifs": [
+        "M05",
+        "M16"
+      ],
+      "provenance": "P2*",
+      "batch": "29"
+    },
+    {
+      "global_claim_id": "G29-S243-K04",
+      "claim_id": "K04",
+      "source_id": "S243",
+      "corpus_id": "C231",
+      "location": "Dagara cosmology in ethnographic sources; person, earth, ancestors, ritual and community",
+      "claim_type": "EMBODIMENT",
+      "claim": "Cuerpo, trabajo, agricultura y objetos rituales funcionan como partes materiales de una cosmología vivida.",
+      "motifs": [
+        "M08",
+        "M18"
+      ],
+      "provenance": "P2*",
+      "batch": "29"
+    },
+    {
+      "global_claim_id": "G29-S243-K05",
+      "claim_id": "K05",
+      "source_id": "S243",
+      "corpus_id": "C231",
+      "location": "Dagara cosmology in ethnographic sources; person, earth, ancestors, ritual and community",
+      "claim_type": "PRACTICE",
+      "claim": "Rituales, iniciaciones y acciones comunitarias sirven para mantener relaciones adecuadas con fuerzas y ancestros.",
+      "motifs": [
+        "M24",
+        "M25"
+      ],
+      "provenance": "P2*",
+      "batch": "29"
+    },
+    {
+      "global_claim_id": "G29-S243-K06",
+      "claim_id": "K06",
+      "source_id": "S243",
+      "corpus_id": "C231",
+      "location": "Dagara cosmology in ethnographic sources; person, earth, ancestors, ritual and community",
+      "claim_type": "VALENCE",
+      "claim": "Equilibrio, reciprocidad y orden comunitario aparecen como condiciones valiosas dentro de la cosmología descrita.",
+      "motifs": [
+        "M10",
+        "M16"
+      ],
+      "provenance": "P2*",
+      "batch": "29"
+    },
+    {
+      "global_claim_id": "G29-S243-K07",
+      "claim_id": "K07",
+      "source_id": "S243",
+      "corpus_id": "C231",
+      "location": "Dagara cosmology in ethnographic sources; person, earth, ancestors, ritual and community",
+      "claim_type": "STATE",
+      "claim": "Los especialistas rituales ocupan posiciones diferentes respecto de conocimiento, mediación y acceso simbólico.",
+      "motifs": [
+        "M07",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "29"
+    },
+    {
+      "global_claim_id": "G29-S243-K08",
+      "claim_id": "K08",
+      "source_id": "S243",
+      "corpus_id": "C231",
+      "location": "Dagara cosmology in ethnographic sources; person, earth, ancestors, ritual and community",
+      "claim_type": "TRANSFORMATION",
+      "claim": "Ritos y ciclos vitales transforman el estatus y la relación de una persona con la comunidad.",
+      "motifs": [
+        "M12",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "29"
+    },
+    {
+      "global_claim_id": "G29-S243-K09",
+      "claim_id": "K09",
+      "source_id": "S243",
+      "corpus_id": "C231",
+      "location": "Dagara cosmology in ethnographic sources; person, earth, ancestors, ritual and community",
+      "claim_type": "ANCESTRAL",
+      "claim": "Los muertos pueden continuar siendo referencias activas dentro de la memoria ritual y social.",
+      "motifs": [
+        "M19",
+        "M16"
+      ],
+      "provenance": "P2*",
+      "batch": "29"
+    },
+    {
+      "global_claim_id": "G29-S243-K10",
+      "claim_id": "K10",
+      "source_id": "S243",
+      "corpus_id": "C231",
+      "location": "Dagara cosmology in ethnographic sources; person, earth, ancestors, ritual and community",
+      "claim_type": "CORRESPONDENCE",
+      "claim": "Animales, objetos, plantas y espacios pueden cumplir funciones simbólicas dentro de una red de relaciones cosmológicas.",
+      "motifs": [
+        "M18",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "29"
+    },
+    {
+      "global_claim_id": "G29-S243-K11",
+      "claim_id": "K11",
+      "source_id": "S243",
+      "corpus_id": "C231",
+      "location": "Dagara cosmology in ethnographic sources; person, earth, ancestors, ritual and community",
+      "claim_type": "ATTENTION",
+      "claim": "La comprensión de la cosmología depende de aprendizaje progresivo y transmisión oral/ritual.",
+      "motifs": [
+        "M06",
+        "M24"
+      ],
+      "provenance": "P2*",
+      "batch": "29"
+    },
+    {
+      "global_claim_id": "G29-S243-K12",
+      "claim_id": "K12",
+      "source_id": "S243",
+      "corpus_id": "C231",
+      "location": "Dagara cosmology in ethnographic sources; person, earth, ancestors, ritual and community",
+      "claim_type": "META",
+      "claim": "Las fuentes clásicas disponibles son etnográficas y mediadas por investigadores occidentales; no deben confundirse automáticamente con una voz indígena única o sin mediación.",
+      "motifs": [
+        "M14",
+        "M17",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "29"
+    },
+    {
+      "global_claim_id": "G29-S243-K13",
+      "claim_id": "K13",
+      "source_id": "S243",
+      "corpus_id": "C231",
+      "location": "Dagara cosmology in ethnographic sources; person, earth, ancestors, ritual and community",
+      "claim_type": "UNITY",
+      "claim": "La descripción integra cosmología y organización social en lugar de separarlas como dominios independientes.",
+      "motifs": [
+        "M03",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "29"
+    },
+    {
+      "global_claim_id": "G29-S244-K01",
+      "claim_id": "K01",
+      "source_id": "S244",
+      "corpus_id": "C232",
+      "location": "Lakota sacred narrative traditions; Wakan Tanka, Black Elk, vision, kinship and sacred landscape",
+      "claim_type": "PERSON",
+      "claim": "Las narrativas sagradas lakota sitúan a la persona dentro de relaciones con comunidad, ancestros, seres no humanos y paisaje.",
+      "motifs": [
+        "M05",
+        "M16",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "29"
+    },
+    {
+      "global_claim_id": "G29-S244-K02",
+      "claim_id": "K02",
+      "source_id": "S244",
+      "corpus_id": "C232",
+      "location": "Lakota sacred narrative traditions; Wakan Tanka, Black Elk, vision, kinship and sacred landscape",
+      "claim_type": "VISION",
+      "claim": "Experiencias visionarias pueden funcionar como momentos de orientación, aprendizaje y relación con lo sagrado.",
+      "motifs": [
+        "M01",
+        "M07",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "29"
+    },
+    {
+      "global_claim_id": "G29-S244-K03",
+      "claim_id": "K03",
+      "source_id": "S244",
+      "corpus_id": "C232",
+      "location": "Lakota sacred narrative traditions; Wakan Tanka, Black Elk, vision, kinship and sacred landscape",
+      "claim_type": "RELATION",
+      "claim": "La identidad se expresa a través de parentesco, comunidad y obligaciones recíprocas más que como individualidad aislada.",
+      "motifs": [
+        "M05",
+        "M16"
+      ],
+      "provenance": "P2*",
+      "batch": "29"
+    },
+    {
+      "global_claim_id": "G29-S244-K04",
+      "claim_id": "K04",
+      "source_id": "S244",
+      "corpus_id": "C232",
+      "location": "Lakota sacred narrative traditions; Wakan Tanka, Black Elk, vision, kinship and sacred landscape",
+      "claim_type": "LAND",
+      "claim": "Paisaje, direcciones, lugares y elementos naturales forman parte de la estructura de significado religioso.",
+      "motifs": [
+        "M15",
+        "M18",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "29"
+    },
+    {
+      "global_claim_id": "G29-S244-K05",
+      "claim_id": "K05",
+      "source_id": "S244",
+      "corpus_id": "C232",
+      "location": "Lakota sacred narrative traditions; Wakan Tanka, Black Elk, vision, kinship and sacred landscape",
+      "claim_type": "PRACTICE",
+      "claim": "Oración, ceremonia, ayuno y búsqueda visionaria aparecen como prácticas de relación con lo sagrado dentro de fuentes modernas de transmisión.",
+      "motifs": [
+        "M24",
+        "M25"
+      ],
+      "provenance": "P2*",
+      "batch": "29"
+    },
+    {
+      "global_claim_id": "G29-S244-K06",
+      "claim_id": "K06",
+      "source_id": "S244",
+      "corpus_id": "C232",
+      "location": "Lakota sacred narrative traditions; Wakan Tanka, Black Elk, vision, kinship and sacred landscape",
+      "claim_type": "VALENCE",
+      "claim": "Respeto, reciprocidad, coraje y cuidado de la comunidad funcionan como valores recurrentes de orientación.",
+      "motifs": [
+        "M10",
+        "M16"
+      ],
+      "provenance": "P2*",
+      "batch": "29"
+    },
+    {
+      "global_claim_id": "G29-S244-K07",
+      "claim_id": "K07",
+      "source_id": "S244",
+      "corpus_id": "C232",
+      "location": "Lakota sacred narrative traditions; Wakan Tanka, Black Elk, vision, kinship and sacred landscape",
+      "claim_type": "STATE",
+      "claim": "La experiencia ordinaria y la visión ritual son tratadas como modos diferentes de relación con el mundo sagrado.",
+      "motifs": [
+        "M07",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "29"
+    },
+    {
+      "global_claim_id": "G29-S244-K08",
+      "claim_id": "K08",
+      "source_id": "S244",
+      "corpus_id": "C232",
+      "location": "Lakota sacred narrative traditions; Wakan Tanka, Black Elk, vision, kinship and sacred landscape",
+      "claim_type": "TRANSFORMATION",
+      "claim": "Una visión o rito puede modificar el rol social y la comprensión de la responsabilidad personal.",
+      "motifs": [
+        "M12",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "29"
+    },
+    {
+      "global_claim_id": "G29-S244-K09",
+      "claim_id": "K09",
+      "source_id": "S244",
+      "corpus_id": "C232",
+      "location": "Lakota sacred narrative traditions; Wakan Tanka, Black Elk, vision, kinship and sacred landscape",
+      "claim_type": "EMBODIMENT",
+      "claim": "Cuerpo, movimiento, canto y objetos ceremoniales median la relación con el mundo sagrado.",
+      "motifs": [
+        "M08",
+        "M18"
+      ],
+      "provenance": "P2*",
+      "batch": "29"
+    },
+    {
+      "global_claim_id": "G29-S244-K10",
+      "claim_id": "K10",
+      "source_id": "S244",
+      "corpus_id": "C232",
+      "location": "Lakota sacred narrative traditions; Wakan Tanka, Black Elk, vision, kinship and sacred landscape",
+      "claim_type": "COSMO",
+      "claim": "La cosmología relaciona cielo, tierra, direcciones, seres poderosos y comunidad humana.",
+      "motifs": [
+        "M15",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "29"
+    },
+    {
+      "global_claim_id": "G29-S244-K11",
+      "claim_id": "K11",
+      "source_id": "S244",
+      "corpus_id": "C232",
+      "location": "Lakota sacred narrative traditions; Wakan Tanka, Black Elk, vision, kinship and sacred landscape",
+      "claim_type": "TEMPORAL",
+      "claim": "Narrativas, genealogías y ceremonias conectan generaciones presentes con antepasados y futuro comunitario.",
+      "motifs": [
+        "M11",
+        "M16"
+      ],
+      "provenance": "P2*",
+      "batch": "29"
+    },
+    {
+      "global_claim_id": "G29-S244-K12",
+      "claim_id": "K12",
+      "source_id": "S244",
+      "corpus_id": "C232",
+      "location": "Lakota sacred narrative traditions; Wakan Tanka, Black Elk, vision, kinship and sacred landscape",
+      "claim_type": "META",
+      "claim": "'Lakota sacred narrative corpus' es una categoría amplia; no debe reducirse a una única voz de Black Elk ni tratarse como una doctrina uniforme.",
+      "motifs": [
+        "M14",
+        "M17",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "29"
+    },
+    {
+      "global_claim_id": "G29-S244-K13",
+      "claim_id": "K13",
+      "source_id": "S244",
+      "corpus_id": "C232",
+      "location": "Lakota sacred narrative traditions; Wakan Tanka, Black Elk, vision, kinship and sacred landscape",
+      "claim_type": "DEATH",
+      "claim": "La relación con ancestros y muertos integra mortalidad individual dentro de una continuidad comunitaria y ritual.",
+      "motifs": [
+        "M19",
+        "M16"
+      ],
+      "provenance": "P2*",
+      "batch": "29"
+    },
+    {
+      "global_claim_id": "G29-S245-K01",
+      "claim_id": "K01",
+      "source_id": "S245",
+      "corpus_id": "C237",
+      "location": "Polynesian traditions of mana, genealogy, chiefs, sacred objects, ocean and ancestral potency",
+      "claim_type": "VALENCE",
+      "claim": "Mana puede funcionar en distintas tradiciones polinesias como una forma de potencia o eficacia sagrada asociada a personas, objetos y ancestros.",
+      "motifs": [
+        "M10",
+        "M18"
+      ],
+      "provenance": "P2*",
+      "batch": "29"
+    },
+    {
+      "global_claim_id": "G29-S245-K02",
+      "claim_id": "K02",
+      "source_id": "S245",
+      "corpus_id": "C237",
+      "location": "Polynesian traditions of mana, genealogy, chiefs, sacred objects, ocean and ancestral potency",
+      "claim_type": "RELATION",
+      "claim": "La potencia se articula con genealogía, rango, ancestros y relaciones sociales.",
+      "motifs": [
+        "M05",
+        "M16",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "29"
+    },
+    {
+      "global_claim_id": "G29-S245-K03",
+      "claim_id": "K03",
+      "source_id": "S245",
+      "corpus_id": "C237",
+      "location": "Polynesian traditions of mana, genealogy, chiefs, sacred objects, ocean and ancestral potency",
+      "claim_type": "EMBODIMENT",
+      "claim": "Objetos materiales como plumas, marfil, madera y ornamentos pueden actuar como soportes de potencia y memoria ancestral.",
+      "motifs": [
+        "M08",
+        "M18"
+      ],
+      "provenance": "P2*",
+      "batch": "29"
+    },
+    {
+      "global_claim_id": "G29-S245-K04",
+      "claim_id": "K04",
+      "source_id": "S245",
+      "corpus_id": "C237",
+      "location": "Polynesian traditions of mana, genealogy, chiefs, sacred objects, ocean and ancestral potency",
+      "claim_type": "COSMO",
+      "claim": "La cosmología polinesia vincula océano, tierra, cielo, antepasados y divinidades dentro de un mismo mundo relacional.",
+      "motifs": [
+        "M15",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "29"
+    },
+    {
+      "global_claim_id": "G29-S245-K05",
+      "claim_id": "K05",
+      "source_id": "S245",
+      "corpus_id": "C237",
+      "location": "Polynesian traditions of mana, genealogy, chiefs, sacred objects, ocean and ancestral potency",
+      "claim_type": "PRACTICE",
+      "claim": "Objetos y ceremonias funcionan como medios para activar o canalizar relaciones con lo sagrado.",
+      "motifs": [
+        "M24",
+        "M25"
+      ],
+      "provenance": "P2*",
+      "batch": "29"
+    },
+    {
+      "global_claim_id": "G29-S245-K06",
+      "claim_id": "K06",
+      "source_id": "S245",
+      "corpus_id": "C237",
+      "location": "Polynesian traditions of mana, genealogy, chiefs, sacred objects, ocean and ancestral potency",
+      "claim_type": "PERSON",
+      "claim": "El estatus de los jefes puede estar ligado a genealogía divina y a la posesión de mana dentro de tradiciones específicas.",
+      "motifs": [
+        "M05",
+        "M16"
+      ],
+      "provenance": "P2*",
+      "batch": "29"
+    },
+    {
+      "global_claim_id": "G29-S245-K07",
+      "claim_id": "K07",
+      "source_id": "S245",
+      "corpus_id": "C237",
+      "location": "Polynesian traditions of mana, genealogy, chiefs, sacred objects, ocean and ancestral potency",
+      "claim_type": "CORRESPONDENCE",
+      "claim": "Formas naturales y materiales rituales pueden expresar vínculos entre mundo ancestral y presente.",
+      "motifs": [
+        "M18",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "29"
+    },
+    {
+      "global_claim_id": "G29-S245-K08",
+      "claim_id": "K08",
+      "source_id": "S245",
+      "corpus_id": "C237",
+      "location": "Polynesian traditions of mana, genealogy, chiefs, sacred objects, ocean and ancestral potency",
+      "claim_type": "TRANSFORMATION",
+      "claim": "La activación ritual de objetos puede modificar su estatus y eficacia percibida dentro de la comunidad.",
+      "motifs": [
+        "M12",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "29"
+    },
+    {
+      "global_claim_id": "G29-S245-K09",
+      "claim_id": "K09",
+      "source_id": "S245",
+      "corpus_id": "C237",
+      "location": "Polynesian traditions of mana, genealogy, chiefs, sacred objects, ocean and ancestral potency",
+      "claim_type": "STATE",
+      "claim": "Lo tapu y otros estados de sacralidad distinguen espacios, objetos y personas en contextos rituales.",
+      "motifs": [
+        "M07",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "29"
+    },
+    {
+      "global_claim_id": "G29-S245-K10",
+      "claim_id": "K10",
+      "source_id": "S245",
+      "corpus_id": "C237",
+      "location": "Polynesian traditions of mana, genealogy, chiefs, sacred objects, ocean and ancestral potency",
+      "claim_type": "TEMPORAL",
+      "claim": "Genealogía y ancestros proporcionan continuidad temporal entre generaciones.",
+      "motifs": [
+        "M11",
+        "M16"
+      ],
+      "provenance": "P2*",
+      "batch": "29"
+    },
+    {
+      "global_claim_id": "G29-S245-K11",
+      "claim_id": "K11",
+      "source_id": "S245",
+      "corpus_id": "C237",
+      "location": "Polynesian traditions of mana, genealogy, chiefs, sacred objects, ocean and ancestral potency",
+      "claim_type": "ATTENTION",
+      "claim": "Los objetos rituales exigen modos específicos de uso, tratamiento y cuidado porque su valor es relacional y sagrado.",
+      "motifs": [
+        "M06",
+        "M24"
+      ],
+      "provenance": "P2*",
+      "batch": "29"
+    },
+    {
+      "global_claim_id": "G29-S245-K12",
+      "claim_id": "K12",
+      "source_id": "S245",
+      "corpus_id": "C237",
+      "location": "Polynesian traditions of mana, genealogy, chiefs, sacred objects, ocean and ancestral potency",
+      "claim_type": "META",
+      "claim": "'Polynesian mana traditions' agrupa culturas insulares diversas; mana no debe traducirse como una sustancia única idéntica en todas ellas.",
+      "motifs": [
+        "M14",
+        "M17",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "29"
+    },
+    {
+      "global_claim_id": "G29-S245-K13",
+      "claim_id": "K13",
+      "source_id": "S245",
+      "corpus_id": "C237",
+      "location": "Polynesian traditions of mana, genealogy, chiefs, sacred objects, ocean and ancestral potency",
+      "claim_type": "UNITY",
+      "claim": "Las relaciones entre naturaleza, ancestros, autoridad y ritual forman una red integrada más que dominios separados.",
+      "motifs": [
+        "M03",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "29"
+    },
+    {
+      "global_claim_id": "G29-S246-K01",
+      "claim_id": "K01",
+      "source_id": "S246",
+      "corpus_id": "C238",
+      "location": "Ainu kamuy traditions; animal/spirit relations, ritual exchange, ancestors and landscape",
+      "claim_type": "RELATION",
+      "claim": "Kamuy describe seres o potencias con los que las personas mantienen relaciones rituales y materiales.",
+      "motifs": [
+        "M05",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "29"
+    },
+    {
+      "global_claim_id": "G29-S246-K02",
+      "claim_id": "K02",
+      "source_id": "S246",
+      "corpus_id": "C238",
+      "location": "Ainu kamuy traditions; animal/spirit relations, ritual exchange, ancestors and landscape",
+      "claim_type": "PERSON",
+      "claim": "La vida humana se integra con animales, paisaje y antepasados dentro de una cosmología relacional.",
+      "motifs": [
+        "M05",
+        "M16",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "29"
+    },
+    {
+      "global_claim_id": "G29-S246-K03",
+      "claim_id": "K03",
+      "source_id": "S246",
+      "corpus_id": "C238",
+      "location": "Ainu kamuy traditions; animal/spirit relations, ritual exchange, ancestors and landscape",
+      "claim_type": "EMBODIMENT",
+      "claim": "Animales, objetos, vestimenta y alimentos pueden participar de relaciones rituales con kamuy.",
+      "motifs": [
+        "M08",
+        "M18"
+      ],
+      "provenance": "P2*",
+      "batch": "29"
+    },
+    {
+      "global_claim_id": "G29-S246-K04",
+      "claim_id": "K04",
+      "source_id": "S246",
+      "corpus_id": "C238",
+      "location": "Ainu kamuy traditions; animal/spirit relations, ritual exchange, ancestors and landscape",
+      "claim_type": "PRACTICE",
+      "claim": "Ceremonias de intercambio, ofrenda y despedida expresan obligaciones entre humanos y potencias no humanas.",
+      "motifs": [
+        "M24",
+        "M25"
+      ],
+      "provenance": "P2*",
+      "batch": "29"
+    },
+    {
+      "global_claim_id": "G29-S246-K05",
+      "claim_id": "K05",
+      "source_id": "S246",
+      "corpus_id": "C238",
+      "location": "Ainu kamuy traditions; animal/spirit relations, ritual exchange, ancestors and landscape",
+      "claim_type": "VALENCE",
+      "claim": "Respeto, reciprocidad y manejo correcto de relaciones son condiciones centrales de la práctica ritual.",
+      "motifs": [
+        "M10",
+        "M16"
+      ],
+      "provenance": "P2*",
+      "batch": "29"
+    },
+    {
+      "global_claim_id": "G29-S246-K06",
+      "claim_id": "K06",
+      "source_id": "S246",
+      "corpus_id": "C238",
+      "location": "Ainu kamuy traditions; animal/spirit relations, ritual exchange, ancestors and landscape",
+      "claim_type": "STATE",
+      "claim": "Lo cotidiano y lo ritual se distinguen por las relaciones específicas que se activan con kamuy.",
+      "motifs": [
+        "M07",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "29"
+    },
+    {
+      "global_claim_id": "G29-S246-K07",
+      "claim_id": "K07",
+      "source_id": "S246",
+      "corpus_id": "C238",
+      "location": "Ainu kamuy traditions; animal/spirit relations, ritual exchange, ancestors and landscape",
+      "claim_type": "TRANSFORMATION",
+      "claim": "Rituales como los vinculados con el oso reorganizan la relación entre comunidad, animal y mundo espiritual.",
+      "motifs": [
+        "M12",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "29"
+    },
+    {
+      "global_claim_id": "G29-S246-K08",
+      "claim_id": "K08",
+      "source_id": "S246",
+      "corpus_id": "C238",
+      "location": "Ainu kamuy traditions; animal/spirit relations, ritual exchange, ancestors and landscape",
+      "claim_type": "COSMO",
+      "claim": "Los animales y lugares del paisaje forman parte de un mundo donde humanidad y no humanidad están conectadas.",
+      "motifs": [
+        "M15",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "29"
+    },
+    {
+      "global_claim_id": "G29-S246-K09",
+      "claim_id": "K09",
+      "source_id": "S246",
+      "corpus_id": "C238",
+      "location": "Ainu kamuy traditions; animal/spirit relations, ritual exchange, ancestors and landscape",
+      "claim_type": "TEMPORAL",
+      "claim": "Rituales y genealogías mantienen continuidad entre generaciones y relaciones ancestrales.",
+      "motifs": [
+        "M11",
+        "M16"
+      ],
+      "provenance": "P2*",
+      "batch": "29"
+    },
+    {
+      "global_claim_id": "G29-S246-K10",
+      "claim_id": "K10",
+      "source_id": "S246",
+      "corpus_id": "C238",
+      "location": "Ainu kamuy traditions; animal/spirit relations, ritual exchange, ancestors and landscape",
+      "claim_type": "CORRESPONDENCE",
+      "claim": "Formas materiales pueden funcionar como vehículos de significados y potencias asociadas a kamuy.",
+      "motifs": [
+        "M18",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "29"
+    },
+    {
+      "global_claim_id": "G29-S246-K11",
+      "claim_id": "K11",
+      "source_id": "S246",
+      "corpus_id": "C238",
+      "location": "Ainu kamuy traditions; animal/spirit relations, ritual exchange, ancestors and landscape",
+      "claim_type": "ATTENTION",
+      "claim": "La manipulación ritual correcta de objetos y cuerpos exige cuidado específico según su estatus sagrado.",
+      "motifs": [
+        "M06",
+        "M24"
+      ],
+      "provenance": "P2*",
+      "batch": "29"
+    },
+    {
+      "global_claim_id": "G29-S246-K12",
+      "claim_id": "K12",
+      "source_id": "S246",
+      "corpus_id": "C238",
+      "location": "Ainu kamuy traditions; animal/spirit relations, ritual exchange, ancestors and landscape",
+      "claim_type": "META",
+      "claim": "Las fuentes museísticas modernas señalan una base animista para la religión Ainu, pero no deben aplanar las variaciones históricas y locales de las tradiciones kamuy.",
+      "motifs": [
+        "M14",
+        "M17",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "29"
+    },
+    {
+      "global_claim_id": "G29-S246-K13",
+      "claim_id": "K13",
+      "source_id": "S246",
+      "corpus_id": "C238",
+      "location": "Ainu kamuy traditions; animal/spirit relations, ritual exchange, ancestors and landscape",
+      "claim_type": "DEATH",
+      "claim": "La relación con animales sacrificados y ancestros integra muerte, intercambio y continuidad ritual.",
+      "motifs": [
+        "M19",
+        "M16"
+      ],
+      "provenance": "P2*",
+      "batch": "29"
+    },
+    {
+      "global_claim_id": "G29-S247-K01",
+      "claim_id": "K01",
+      "source_id": "S247",
+      "corpus_id": "C239",
+      "location": "Comparative Siberian shamanic collections; soul flight, healing, spirits, drums and ritual specialists",
+      "claim_type": "STATE",
+      "claim": "Las fuentes comparativas describen trance, sueño, vigilia y viaje ritual como estados diferenciados de experiencia.",
+      "motifs": [
+        "M07",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "29"
+    },
+    {
+      "global_claim_id": "G29-S247-K02",
+      "claim_id": "K02",
+      "source_id": "S247",
+      "corpus_id": "C239",
+      "location": "Comparative Siberian shamanic collections; soul flight, healing, spirits, drums and ritual specialists",
+      "claim_type": "PRACTICE",
+      "claim": "Tambor, canto, vestimenta, danza y preparación ritual forman parte de las técnicas de especialistas en distintos pueblos siberianos.",
+      "motifs": [
+        "M24",
+        "M25"
+      ],
+      "provenance": "P2*",
+      "batch": "29"
+    },
+    {
+      "global_claim_id": "G29-S247-K03",
+      "claim_id": "K03",
+      "source_id": "S247",
+      "corpus_id": "C239",
+      "location": "Comparative Siberian shamanic collections; soul flight, healing, spirits, drums and ritual specialists",
+      "claim_type": "RELATION",
+      "claim": "El chamán funciona como mediador entre comunidad, espíritus, animales y territorios en diversos sistemas.",
+      "motifs": [
+        "M05",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "29"
+    },
+    {
+      "global_claim_id": "G29-S247-K04",
+      "claim_id": "K04",
+      "source_id": "S247",
+      "corpus_id": "C239",
+      "location": "Comparative Siberian shamanic collections; soul flight, healing, spirits, drums and ritual specialists",
+      "claim_type": "PERSON",
+      "claim": "La identidad del especialista se define por obligaciones rituales y relaciones con espíritus y comunidad.",
+      "motifs": [
+        "M05",
+        "M16"
+      ],
+      "provenance": "P2*",
+      "batch": "29"
+    },
+    {
+      "global_claim_id": "G29-S247-K05",
+      "claim_id": "K05",
+      "source_id": "S247",
+      "corpus_id": "C239",
+      "location": "Comparative Siberian shamanic collections; soul flight, healing, spirits, drums and ritual specialists",
+      "claim_type": "EMBODIMENT",
+      "claim": "El cuerpo y los instrumentos rituales se convierten en soportes de transformación perceptiva y acción ceremonial.",
+      "motifs": [
+        "M08",
+        "M18"
+      ],
+      "provenance": "P2*",
+      "batch": "29"
+    },
+    {
+      "global_claim_id": "G29-S247-K06",
+      "claim_id": "K06",
+      "source_id": "S247",
+      "corpus_id": "C239",
+      "location": "Comparative Siberian shamanic collections; soul flight, healing, spirits, drums and ritual specialists",
+      "claim_type": "TRANSFORMATION",
+      "claim": "El viaje ritual se describe como cambio de condición del especialista y del problema que busca resolver.",
+      "motifs": [
+        "M12",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "29"
+    },
+    {
+      "global_claim_id": "G29-S247-K07",
+      "claim_id": "K07",
+      "source_id": "S247",
+      "corpus_id": "C239",
+      "location": "Comparative Siberian shamanic collections; soul flight, healing, spirits, drums and ritual specialists",
+      "claim_type": "COSMO",
+      "claim": "Cielo, tierra, mundo subterráneo, animales y espíritus forman arquitecturas cosmológicas en distintas tradiciones.",
+      "motifs": [
+        "M15",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "29"
+    },
+    {
+      "global_claim_id": "G29-S247-K08",
+      "claim_id": "K08",
+      "source_id": "S247",
+      "corpus_id": "C239",
+      "location": "Comparative Siberian shamanic collections; soul flight, healing, spirits, drums and ritual specialists",
+      "claim_type": "DYNAMICS",
+      "claim": "La enfermedad puede ser modelada en algunas tradiciones como pérdida, captura o perturbación de un componente del alma.",
+      "motifs": [
+        "M09",
+        "M19"
+      ],
+      "provenance": "P2*",
+      "batch": "29"
+    },
+    {
+      "global_claim_id": "G29-S247-K09",
+      "claim_id": "K09",
+      "source_id": "S247",
+      "corpus_id": "C239",
+      "location": "Comparative Siberian shamanic collections; soul flight, healing, spirits, drums and ritual specialists",
+      "claim_type": "VALENCE",
+      "claim": "Curación, equilibrio, protección y restauración del orden tienen valor positivo dentro de la práctica ritual.",
+      "motifs": [
+        "M10",
+        "M12"
+      ],
+      "provenance": "P2*",
+      "batch": "29"
+    },
+    {
+      "global_claim_id": "G29-S247-K10",
+      "claim_id": "K10",
+      "source_id": "S247",
+      "corpus_id": "C239",
+      "location": "Comparative Siberian shamanic collections; soul flight, healing, spirits, drums and ritual specialists",
+      "claim_type": "ATTENTION",
+      "claim": "El especialista debe reconocer signos, sonidos, sueños y condiciones rituales para orientar la intervención.",
+      "motifs": [
+        "M06",
+        "M24"
+      ],
+      "provenance": "P2*",
+      "batch": "29"
+    },
+    {
+      "global_claim_id": "G29-S247-K11",
+      "claim_id": "K11",
+      "source_id": "S247",
+      "corpus_id": "C239",
+      "location": "Comparative Siberian shamanic collections; soul flight, healing, spirits, drums and ritual specialists",
+      "claim_type": "TEMPORAL",
+      "claim": "El aprendizaje chamánico suele representarse como una trayectoria de iniciación, crisis y dominio progresivo de técnicas.",
+      "motifs": [
+        "M11",
+        "M12"
+      ],
+      "provenance": "P2*",
+      "batch": "29"
+    },
+    {
+      "global_claim_id": "G29-S247-K12",
+      "claim_id": "K12",
+      "source_id": "S247",
+      "corpus_id": "C239",
+      "location": "Comparative Siberian shamanic collections; soul flight, healing, spirits, drums and ritual specialists",
+      "claim_type": "META",
+      "claim": "'Siberian shamanic source collections' reúne sociedades distintas y no autoriza una teoría única del chamanismo; las generalizaciones comparativas deben señalar la heterogeneidad.",
+      "motifs": [
+        "M14",
+        "M17",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "29"
+    },
+    {
+      "global_claim_id": "G29-S247-K13",
+      "claim_id": "K13",
+      "source_id": "S247",
+      "corpus_id": "C239",
+      "location": "Comparative Siberian shamanic collections; soul flight, healing, spirits, drums and ritual specialists",
+      "claim_type": "DEATH",
+      "claim": "La relación con muertos, ancestros y mundos no ordinarios ocupa un lugar importante en varios repertorios chamánicos siberianos.",
+      "motifs": [
+        "M19",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "29"
+    }
+  ]
+}

@@ -1,0 +1,1988 @@
+{
+  "schema_version": "1.0-append",
+  "base_ledger": "claim_ledger_v1.json",
+  "batch": "30",
+  "claim_count": 130,
+  "records": [
+    {
+      "global_claim_id": "G30-S248-K01",
+      "claim_id": "K01",
+      "source_id": "S248",
+      "corpus_id": "C241",
+      "location": "Aristotle, Nicomachean Ethics; eudaimonia, virtue, habituation, practical wisdom and flourishing",
+      "claim_type": "VALENCE",
+      "claim": "Aristotle organiza la ética alrededor del bien humano y de la vida lograda, eudaimonia.",
+      "motifs": [
+        "M10",
+        "M12"
+      ],
+      "provenance": "P2*",
+      "batch": "30"
+    },
+    {
+      "global_claim_id": "G30-S248-K02",
+      "claim_id": "K02",
+      "source_id": "S248",
+      "corpus_id": "C241",
+      "location": "Aristotle, Nicomachean Ethics; eudaimonia, virtue, habituation, practical wisdom and flourishing",
+      "claim_type": "PERSON",
+      "claim": "La vida humana se entiende como actividad del alma conforme a excelencia, no sólo como posesión de estados internos.",
+      "motifs": [
+        "M02",
+        "M16"
+      ],
+      "provenance": "P2*",
+      "batch": "30"
+    },
+    {
+      "global_claim_id": "G30-S248-K03",
+      "claim_id": "K03",
+      "source_id": "S248",
+      "corpus_id": "C241",
+      "location": "Aristotle, Nicomachean Ethics; eudaimonia, virtue, habituation, practical wisdom and flourishing",
+      "claim_type": "PRACTICE",
+      "claim": "Las virtudes éticas se adquieren mediante habituación y práctica repetida.",
+      "motifs": [
+        "M24",
+        "M25"
+      ],
+      "provenance": "P2*",
+      "batch": "30"
+    },
+    {
+      "global_claim_id": "G30-S248-K04",
+      "claim_id": "K04",
+      "source_id": "S248",
+      "corpus_id": "C241",
+      "location": "Aristotle, Nicomachean Ethics; eudaimonia, virtue, habituation, practical wisdom and flourishing",
+      "claim_type": "TRANSFORMATION",
+      "claim": "La formación del carácter modifica disposiciones de deseo, emoción y acción a lo largo del tiempo.",
+      "motifs": [
+        "M12",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "30"
+    },
+    {
+      "global_claim_id": "G30-S248-K05",
+      "claim_id": "K05",
+      "source_id": "S248",
+      "corpus_id": "C241",
+      "location": "Aristotle, Nicomachean Ethics; eudaimonia, virtue, habituation, practical wisdom and flourishing",
+      "claim_type": "REFLEXIVITY",
+      "claim": "La deliberación y la elección requieren evaluar razones y circunstancias antes de actuar.",
+      "motifs": [
+        "M02",
+        "M06",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "30"
+    },
+    {
+      "global_claim_id": "G30-S248-K06",
+      "claim_id": "K06",
+      "source_id": "S248",
+      "corpus_id": "C241",
+      "location": "Aristotle, Nicomachean Ethics; eudaimonia, virtue, habituation, practical wisdom and flourishing",
+      "claim_type": "STATE",
+      "claim": "Aristotle diferencia estados de carácter, pasiones y disposiciones estables como elementos de la vida moral.",
+      "motifs": [
+        "M07",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "30"
+    },
+    {
+      "global_claim_id": "G30-S248-K07",
+      "claim_id": "K07",
+      "source_id": "S248",
+      "corpus_id": "C241",
+      "location": "Aristotle, Nicomachean Ethics; eudaimonia, virtue, habituation, practical wisdom and flourishing",
+      "claim_type": "ATTENTION",
+      "claim": "La percepción práctica de lo que conviene en una situación depende de experiencia y educación del juicio.",
+      "motifs": [
+        "M06",
+        "M24"
+      ],
+      "provenance": "P2*",
+      "batch": "30"
+    },
+    {
+      "global_claim_id": "G30-S248-K08",
+      "claim_id": "K08",
+      "source_id": "S248",
+      "corpus_id": "C241",
+      "location": "Aristotle, Nicomachean Ethics; eudaimonia, virtue, habituation, practical wisdom and flourishing",
+      "claim_type": "RELATION",
+      "claim": "La vida buena se desarrolla en relación con otros, amistad, comunidad y prácticas compartidas.",
+      "motifs": [
+        "M05",
+        "M16"
+      ],
+      "provenance": "P2*",
+      "batch": "30"
+    },
+    {
+      "global_claim_id": "G30-S248-K09",
+      "claim_id": "K09",
+      "source_id": "S248",
+      "corpus_id": "C241",
+      "location": "Aristotle, Nicomachean Ethics; eudaimonia, virtue, habituation, practical wisdom and flourishing",
+      "claim_type": "UNITY",
+      "claim": "Razonamiento, emoción, hábito y acción forman un sistema práctico integrado en el carácter.",
+      "motifs": [
+        "M03",
+        "M16"
+      ],
+      "provenance": "P2*",
+      "batch": "30"
+    },
+    {
+      "global_claim_id": "G30-S248-K10",
+      "claim_id": "K10",
+      "source_id": "S248",
+      "corpus_id": "C241",
+      "location": "Aristotle, Nicomachean Ethics; eudaimonia, virtue, habituation, practical wisdom and flourishing",
+      "claim_type": "TEMPORAL",
+      "claim": "La virtud necesita desarrollo temporal; no se adquiere por una sola decisión aislada.",
+      "motifs": [
+        "M11",
+        "M12"
+      ],
+      "provenance": "P2*",
+      "batch": "30"
+    },
+    {
+      "global_claim_id": "G30-S248-K11",
+      "claim_id": "K11",
+      "source_id": "S248",
+      "corpus_id": "C241",
+      "location": "Aristotle, Nicomachean Ethics; eudaimonia, virtue, habituation, practical wisdom and flourishing",
+      "claim_type": "WORLD_MODEL",
+      "claim": "La deliberación moral presupone un mundo de fines, circunstancias y bienes humanos objetivos dentro de la teoría aristotélica.",
+      "motifs": [
+        "M15",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "30"
+    },
+    {
+      "global_claim_id": "G30-S248-K12",
+      "claim_id": "K12",
+      "source_id": "S248",
+      "corpus_id": "C241",
+      "location": "Aristotle, Nicomachean Ethics; eudaimonia, virtue, habituation, practical wisdom and flourishing",
+      "claim_type": "META",
+      "claim": "La ética aristotélica es una teoría filosófica histórica de la vida buena y la virtud, no una teoría científica contemporánea de conciencia.",
+      "motifs": [
+        "M14",
+        "M17",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "30"
+    },
+    {
+      "global_claim_id": "G30-S248-K13",
+      "claim_id": "K13",
+      "source_id": "S248",
+      "corpus_id": "C241",
+      "location": "Aristotle, Nicomachean Ethics; eudaimonia, virtue, habituation, practical wisdom and flourishing",
+      "claim_type": "CONTRAST",
+      "claim": "La excelencia práctica no se reduce a obedecer reglas abstractas: requiere juicio situado y habituación.",
+      "motifs": [
+        "M04",
+        "M06",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "30"
+    },
+    {
+      "global_claim_id": "G30-S249-K01",
+      "claim_id": "K01",
+      "source_id": "S249",
+      "corpus_id": "C242",
+      "location": "Leibniz, Monadology; monads, perception, apperception, appetition, harmony and plurality",
+      "claim_type": "ONTO",
+      "claim": "Leibniz concibe las sustancias simples o mónadas como unidades no compuestas con estados internos de percepción y apetición.",
+      "motifs": [
+        "M03",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "30"
+    },
+    {
+      "global_claim_id": "G30-S249-K02",
+      "claim_id": "K02",
+      "source_id": "S249",
+      "corpus_id": "C242",
+      "location": "Leibniz, Monadology; monads, perception, apperception, appetition, harmony and plurality",
+      "claim_type": "PERCEPTION",
+      "claim": "La percepción representa una multiplicidad en una unidad y constituye un principio básico de la vida interna de la mónada.",
+      "motifs": [
+        "M01",
+        "M02"
+      ],
+      "provenance": "P2*",
+      "batch": "30"
+    },
+    {
+      "global_claim_id": "G30-S249-K03",
+      "claim_id": "K03",
+      "source_id": "S249",
+      "corpus_id": "C242",
+      "location": "Leibniz, Monadology; monads, perception, apperception, appetition, harmony and plurality",
+      "claim_type": "APPETITION",
+      "claim": "La apetición funciona como tendencia de una percepción hacia otra y da dinámica al cambio interno.",
+      "motifs": [
+        "M09",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "30"
+    },
+    {
+      "global_claim_id": "G30-S249-K04",
+      "claim_id": "K04",
+      "source_id": "S249",
+      "corpus_id": "C242",
+      "location": "Leibniz, Monadology; monads, perception, apperception, appetition, harmony and plurality",
+      "claim_type": "SELF_MODEL",
+      "claim": "La apercepción distingue casos en que una percepción es consciente de aquellos en que no lo es.",
+      "motifs": [
+        "M02",
+        "M06"
+      ],
+      "provenance": "P2*",
+      "batch": "30"
+    },
+    {
+      "global_claim_id": "G30-S249-K05",
+      "claim_id": "K05",
+      "source_id": "S249",
+      "corpus_id": "C242",
+      "location": "Leibniz, Monadology; monads, perception, apperception, appetition, harmony and plurality",
+      "claim_type": "STATE",
+      "claim": "Las mónadas pueden pasar por diferentes estados perceptivos sin cambiar de identidad sustancial.",
+      "motifs": [
+        "M07",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "30"
+    },
+    {
+      "global_claim_id": "G30-S249-K06",
+      "claim_id": "K06",
+      "source_id": "S249",
+      "corpus_id": "C242",
+      "location": "Leibniz, Monadology; monads, perception, apperception, appetition, harmony and plurality",
+      "claim_type": "RELATION",
+      "claim": "La armonía preestablecida coordina series internas de mónadas sin requerir interacción causal directa entre sustancias.",
+      "motifs": [
+        "M05",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "30"
+    },
+    {
+      "global_claim_id": "G30-S249-K07",
+      "claim_id": "K07",
+      "source_id": "S249",
+      "corpus_id": "C242",
+      "location": "Leibniz, Monadology; monads, perception, apperception, appetition, harmony and plurality",
+      "claim_type": "UNITY",
+      "claim": "Cada mónada expresa desde su propia perspectiva un orden más amplio del universo.",
+      "motifs": [
+        "M03",
+        "M15"
+      ],
+      "provenance": "P2*",
+      "batch": "30"
+    },
+    {
+      "global_claim_id": "G30-S249-K08",
+      "claim_id": "K08",
+      "source_id": "S249",
+      "corpus_id": "C242",
+      "location": "Leibniz, Monadology; monads, perception, apperception, appetition, harmony and plurality",
+      "claim_type": "TEMPORAL",
+      "claim": "La vida mental aparece como flujo continuo de cambios perceptivos y apetitivos.",
+      "motifs": [
+        "M11",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "30"
+    },
+    {
+      "global_claim_id": "G30-S249-K09",
+      "claim_id": "K09",
+      "source_id": "S249",
+      "corpus_id": "C242",
+      "location": "Leibniz, Monadology; monads, perception, apperception, appetition, harmony and plurality",
+      "claim_type": "VALENCE",
+      "claim": "Las tendencias internas pueden orientarse hacia estados que representan bienes y fines dentro de la teleología leibniziana.",
+      "motifs": [
+        "M10",
+        "M12"
+      ],
+      "provenance": "P2*",
+      "batch": "30"
+    },
+    {
+      "global_claim_id": "G30-S249-K10",
+      "claim_id": "K10",
+      "source_id": "S249",
+      "corpus_id": "C242",
+      "location": "Leibniz, Monadology; monads, perception, apperception, appetition, harmony and plurality",
+      "claim_type": "REFLEXIVITY",
+      "claim": "La autoconciencia no constituye toda percepción: Leibniz permite percepciones y apetitos de los que no somos conscientes.",
+      "motifs": [
+        "M02",
+        "M07"
+      ],
+      "provenance": "P2*",
+      "batch": "30"
+    },
+    {
+      "global_claim_id": "G30-S249-K11",
+      "claim_id": "K11",
+      "source_id": "S249",
+      "corpus_id": "C242",
+      "location": "Leibniz, Monadology; monads, perception, apperception, appetition, harmony and plurality",
+      "claim_type": "WORLD_MODEL",
+      "claim": "El universo es entendido como una pluralidad coordinada de centros de representación, no como una única sustancia espacial homogénea.",
+      "motifs": [
+        "M15",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "30"
+    },
+    {
+      "global_claim_id": "G30-S249-K12",
+      "claim_id": "K12",
+      "source_id": "S249",
+      "corpus_id": "C242",
+      "location": "Leibniz, Monadology; monads, perception, apperception, appetition, harmony and plurality",
+      "claim_type": "META",
+      "claim": "La Monadology ofrece metafísica racionalista histórica; su tesis sobre percepción no debe confundirse con una explicación neurocientífica.",
+      "motifs": [
+        "M14",
+        "M17",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "30"
+    },
+    {
+      "global_claim_id": "G30-S249-K13",
+      "claim_id": "K13",
+      "source_id": "S249",
+      "corpus_id": "C242",
+      "location": "Leibniz, Monadology; monads, perception, apperception, appetition, harmony and plurality",
+      "claim_type": "CONTRAST",
+      "claim": "La posibilidad de percepción sin appercepción impide identificar automáticamente conciencia y toda forma de representación interna.",
+      "motifs": [
+        "M04",
+        "M06",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "30"
+    },
+    {
+      "global_claim_id": "G30-S250-K01",
+      "claim_id": "K01",
+      "source_id": "S250",
+      "corpus_id": "C243",
+      "location": "Kant, Critique of Pure Reason; forms of intuition, categories, apperception and conditions of experience",
+      "claim_type": "SELF_MODEL",
+      "claim": "Kant distingue conciencia empírica de sí mismo y apercepción trascendental como condición formal de unidad del 'yo pienso'.",
+      "motifs": [
+        "M02",
+        "M06",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "30"
+    },
+    {
+      "global_claim_id": "G30-S250-K02",
+      "claim_id": "K02",
+      "source_id": "S250",
+      "corpus_id": "C243",
+      "location": "Kant, Critique of Pure Reason; forms of intuition, categories, apperception and conditions of experience",
+      "claim_type": "STATE",
+      "claim": "La experiencia humana depende de formas de intuición y conceptos que estructuran cómo aparecen los objetos.",
+      "motifs": [
+        "M07",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "30"
+    },
+    {
+      "global_claim_id": "G30-S250-K03",
+      "claim_id": "K03",
+      "source_id": "S250",
+      "corpus_id": "C243",
+      "location": "Kant, Critique of Pure Reason; forms of intuition, categories, apperception and conditions of experience",
+      "claim_type": "WORLD_MODEL",
+      "claim": "Espacio y tiempo funcionan como formas de nuestra sensibilidad, de modo que los objetos de experiencia son fenómenos.",
+      "motifs": [
+        "M15",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "30"
+    },
+    {
+      "global_claim_id": "G30-S250-K04",
+      "claim_id": "K04",
+      "source_id": "S250",
+      "corpus_id": "C243",
+      "location": "Kant, Critique of Pure Reason; forms of intuition, categories, apperception and conditions of experience",
+      "claim_type": "TRANSFORMATION",
+      "claim": "La síntesis del múltiple sensible permite constituir una experiencia unificada de objetos y sucesos.",
+      "motifs": [
+        "M12",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "30"
+    },
+    {
+      "global_claim_id": "G30-S250-K05",
+      "claim_id": "K05",
+      "source_id": "S250",
+      "corpus_id": "C243",
+      "location": "Kant, Critique of Pure Reason; forms of intuition, categories, apperception and conditions of experience",
+      "claim_type": "UNITY",
+      "claim": "La unidad de apercepción proporciona una condición de posibilidad para combinar representaciones en una experiencia coherente.",
+      "motifs": [
+        "M03",
+        "M06"
+      ],
+      "provenance": "P2*",
+      "batch": "30"
+    },
+    {
+      "global_claim_id": "G30-S250-K06",
+      "claim_id": "K06",
+      "source_id": "S250",
+      "corpus_id": "C243",
+      "location": "Kant, Critique of Pure Reason; forms of intuition, categories, apperception and conditions of experience",
+      "claim_type": "RELATION",
+      "claim": "Las categorías del entendimiento son condiciones necesarias para pensar objetos de experiencia bajo conceptos como sustancia o causalidad.",
+      "motifs": [
+        "M05",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "30"
+    },
+    {
+      "global_claim_id": "G30-S250-K07",
+      "claim_id": "K07",
+      "source_id": "S250",
+      "corpus_id": "C243",
+      "location": "Kant, Critique of Pure Reason; forms of intuition, categories, apperception and conditions of experience",
+      "claim_type": "REFLEXIVITY",
+      "claim": "La filosofía trascendental investiga las condiciones que hacen posible el propio acto de conocer.",
+      "motifs": [
+        "M02",
+        "M06",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "30"
+    },
+    {
+      "global_claim_id": "G30-S250-K08",
+      "claim_id": "K08",
+      "source_id": "S250",
+      "corpus_id": "C243",
+      "location": "Kant, Critique of Pure Reason; forms of intuition, categories, apperception and conditions of experience",
+      "claim_type": "ATTENTION",
+      "claim": "La síntesis exige combinar y ordenar un múltiple dado en la intuición bajo reglas del entendimiento.",
+      "motifs": [
+        "M06",
+        "M24"
+      ],
+      "provenance": "P2*",
+      "batch": "30"
+    },
+    {
+      "global_claim_id": "G30-S250-K09",
+      "claim_id": "K09",
+      "source_id": "S250",
+      "corpus_id": "C243",
+      "location": "Kant, Critique of Pure Reason; forms of intuition, categories, apperception and conditions of experience",
+      "claim_type": "TEMPORAL",
+      "claim": "La experiencia de estados internos también ocurre bajo la forma del sentido interno y, por tanto, de temporalidad.",
+      "motifs": [
+        "M11",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "30"
+    },
+    {
+      "global_claim_id": "G30-S250-K10",
+      "claim_id": "K10",
+      "source_id": "S250",
+      "corpus_id": "C243",
+      "location": "Kant, Critique of Pure Reason; forms of intuition, categories, apperception and conditions of experience",
+      "claim_type": "INEFFABILITY",
+      "claim": "Las cosas en sí mismas no son conocidas del mismo modo que los objetos dados en la experiencia.",
+      "motifs": [
+        "M14",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "30"
+    },
+    {
+      "global_claim_id": "G30-S250-K11",
+      "claim_id": "K11",
+      "source_id": "S250",
+      "corpus_id": "C243",
+      "location": "Kant, Critique of Pure Reason; forms of intuition, categories, apperception and conditions of experience",
+      "claim_type": "PERSON",
+      "claim": "El sujeto trascendental no se identifica sin más con una personalidad psicológica empírica.",
+      "motifs": [
+        "M05",
+        "M16"
+      ],
+      "provenance": "P2*",
+      "batch": "30"
+    },
+    {
+      "global_claim_id": "G30-S250-K12",
+      "claim_id": "K12",
+      "source_id": "S250",
+      "corpus_id": "C243",
+      "location": "Kant, Critique of Pure Reason; forms of intuition, categories, apperception and conditions of experience",
+      "claim_type": "META",
+      "claim": "La teoría kantiana de experiencia y subjetividad es filosofía trascendental, no una medición empírica de la conciencia.",
+      "motifs": [
+        "M14",
+        "M17",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "30"
+    },
+    {
+      "global_claim_id": "G30-S250-K13",
+      "claim_id": "K13",
+      "source_id": "S250",
+      "corpus_id": "C243",
+      "location": "Kant, Critique of Pure Reason; forms of intuition, categories, apperception and conditions of experience",
+      "claim_type": "CONTRAST",
+      "claim": "Kant no permite inferir directamente de la estructura de experiencia cómo son las cosas independientemente de las condiciones humanas de conocimiento.",
+      "motifs": [
+        "M04",
+        "M14",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "30"
+    },
+    {
+      "global_claim_id": "G30-S251-K01",
+      "claim_id": "K01",
+      "source_id": "S251",
+      "corpus_id": "C244",
+      "location": "Bergson, Matter and Memory; perception, memory, duration, body and action",
+      "claim_type": "EMBODIMENT",
+      "claim": "Bergson vincula la percepción con la situación corporal y con necesidades de acción sobre el mundo.",
+      "motifs": [
+        "M08",
+        "M16"
+      ],
+      "provenance": "P2*",
+      "batch": "30"
+    },
+    {
+      "global_claim_id": "G30-S251-K02",
+      "claim_id": "K02",
+      "source_id": "S251",
+      "corpus_id": "C244",
+      "location": "Bergson, Matter and Memory; perception, memory, duration, body and action",
+      "claim_type": "PERCEPTION",
+      "claim": "La percepción selecciona del entorno aquello que resulta relevante para la acción en lugar de reproducirlo exhaustivamente.",
+      "motifs": [
+        "M01",
+        "M06"
+      ],
+      "provenance": "P2*",
+      "batch": "30"
+    },
+    {
+      "global_claim_id": "G30-S251-K03",
+      "claim_id": "K03",
+      "source_id": "S251",
+      "corpus_id": "C244",
+      "location": "Bergson, Matter and Memory; perception, memory, duration, body and action",
+      "claim_type": "MEMORY",
+      "claim": "La memoria no se reduce al hábito corporal; Bergson distingue memoria pura de recuerdos ligados a la acción.",
+      "motifs": [
+        "M11",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "30"
+    },
+    {
+      "global_claim_id": "G30-S251-K04",
+      "claim_id": "K04",
+      "source_id": "S251",
+      "corpus_id": "C244",
+      "location": "Bergson, Matter and Memory; perception, memory, duration, body and action",
+      "claim_type": "STATE",
+      "claim": "El presente perceptivo y las capas de memoria forman configuraciones diferentes que interactúan en la experiencia.",
+      "motifs": [
+        "M07",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "30"
+    },
+    {
+      "global_claim_id": "G30-S251-K05",
+      "claim_id": "K05",
+      "source_id": "S251",
+      "corpus_id": "C244",
+      "location": "Bergson, Matter and Memory; perception, memory, duration, body and action",
+      "claim_type": "TEMPORAL",
+      "claim": "La duración organiza la continuidad de la conciencia de un modo diferente del tiempo espacializado medible externamente.",
+      "motifs": [
+        "M11",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "30"
+    },
+    {
+      "global_claim_id": "G30-S251-K06",
+      "claim_id": "K06",
+      "source_id": "S251",
+      "corpus_id": "C244",
+      "location": "Bergson, Matter and Memory; perception, memory, duration, body and action",
+      "claim_type": "SELF_MODEL",
+      "claim": "El cuerpo funciona como centro de acción y selección perceptiva, mientras la memoria amplia el campo de experiencia más allá del presente.",
+      "motifs": [
+        "M02",
+        "M08"
+      ],
+      "provenance": "P2*",
+      "batch": "30"
+    },
+    {
+      "global_claim_id": "G30-S251-K07",
+      "claim_id": "K07",
+      "source_id": "S251",
+      "corpus_id": "C244",
+      "location": "Bergson, Matter and Memory; perception, memory, duration, body and action",
+      "claim_type": "TRANSFORMATION",
+      "claim": "Cambiar el grado de atención a la vida práctica puede alterar qué contenidos perceptivos y recuerdos entran en primer plano.",
+      "motifs": [
+        "M12",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "30"
+    },
+    {
+      "global_claim_id": "G30-S251-K08",
+      "claim_id": "K08",
+      "source_id": "S251",
+      "corpus_id": "C244",
+      "location": "Bergson, Matter and Memory; perception, memory, duration, body and action",
+      "claim_type": "ATTENTION",
+      "claim": "La atención puede estrecharse sobre la utilidad práctica o ampliarse para incluir dimensiones menos inmediatamente instrumentales.",
+      "motifs": [
+        "M06",
+        "M24"
+      ],
+      "provenance": "P2*",
+      "batch": "30"
+    },
+    {
+      "global_claim_id": "G30-S251-K09",
+      "claim_id": "K09",
+      "source_id": "S251",
+      "corpus_id": "C244",
+      "location": "Bergson, Matter and Memory; perception, memory, duration, body and action",
+      "claim_type": "RELATION",
+      "claim": "La conciencia se define parcialmente por su relación dinámica entre cuerpo, percepción, memoria y acción.",
+      "motifs": [
+        "M05",
+        "M16"
+      ],
+      "provenance": "P2*",
+      "batch": "30"
+    },
+    {
+      "global_claim_id": "G30-S251-K10",
+      "claim_id": "K10",
+      "source_id": "S251",
+      "corpus_id": "C244",
+      "location": "Bergson, Matter and Memory; perception, memory, duration, body and action",
+      "claim_type": "UNITY",
+      "claim": "Percepción presente y memoria forman una continuidad dinámica en lugar de módulos totalmente aislados.",
+      "motifs": [
+        "M03",
+        "M09"
+      ],
+      "provenance": "P2*",
+      "batch": "30"
+    },
+    {
+      "global_claim_id": "G30-S251-K11",
+      "claim_id": "K11",
+      "source_id": "S251",
+      "corpus_id": "C244",
+      "location": "Bergson, Matter and Memory; perception, memory, duration, body and action",
+      "claim_type": "VALENCE",
+      "claim": "La selección perceptiva está ligada a intereses y necesidades de acción del organismo.",
+      "motifs": [
+        "M10",
+        "M16"
+      ],
+      "provenance": "P2*",
+      "batch": "30"
+    },
+    {
+      "global_claim_id": "G30-S251-K12",
+      "claim_id": "K12",
+      "source_id": "S251",
+      "corpus_id": "C244",
+      "location": "Bergson, Matter and Memory; perception, memory, duration, body and action",
+      "claim_type": "META",
+      "claim": "Matter and Memory ofrece una filosofía de mente y tiempo de Bergson y no constituye un modelo neurocientífico contemporáneo validado.",
+      "motifs": [
+        "M14",
+        "M17",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "30"
+    },
+    {
+      "global_claim_id": "G30-S251-K13",
+      "claim_id": "K13",
+      "source_id": "S251",
+      "corpus_id": "C244",
+      "location": "Bergson, Matter and Memory; perception, memory, duration, body and action",
+      "claim_type": "CONTRAST",
+      "claim": "Bergson distingue la duración vivida del tiempo espacializado, por lo que no equipara sin más experiencia temporal y medida física.",
+      "motifs": [
+        "M04",
+        "M11",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "30"
+    },
+    {
+      "global_claim_id": "G30-S252-K01",
+      "claim_id": "K01",
+      "source_id": "S252",
+      "corpus_id": "C245",
+      "location": "Bergson, Creative Evolution; duration, life, novelty, evolution and élan vital",
+      "claim_type": "DYNAMICS",
+      "claim": "Bergson describe la vida como movimiento temporal creativo en el que surgen novedades que no se reducen a una repetición mecánica.",
+      "motifs": [
+        "M09",
+        "M12"
+      ],
+      "provenance": "P2*",
+      "batch": "30"
+    },
+    {
+      "global_claim_id": "G30-S252-K02",
+      "claim_id": "K02",
+      "source_id": "S252",
+      "corpus_id": "C245",
+      "location": "Bergson, Creative Evolution; duration, life, novelty, evolution and élan vital",
+      "claim_type": "TEMPORAL",
+      "claim": "La duración es constitutiva de la vida y permite pensar continuidad junto con diferenciación evolutiva.",
+      "motifs": [
+        "M11",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "30"
+    },
+    {
+      "global_claim_id": "G30-S252-K03",
+      "claim_id": "K03",
+      "source_id": "S252",
+      "corpus_id": "C245",
+      "location": "Bergson, Creative Evolution; duration, life, novelty, evolution and élan vital",
+      "claim_type": "TRANSFORMATION",
+      "claim": "La evolución se entiende como proceso creativo de diferenciación, no sólo como adaptación mecánica acumulativa.",
+      "motifs": [
+        "M12",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "30"
+    },
+    {
+      "global_claim_id": "G30-S252-K04",
+      "claim_id": "K04",
+      "source_id": "S252",
+      "corpus_id": "C245",
+      "location": "Bergson, Creative Evolution; duration, life, novelty, evolution and élan vital",
+      "claim_type": "UNITY",
+      "claim": "La continuidad de la vida se mantiene a través de formas diferentes sin reducir esas formas a identidad literal.",
+      "motifs": [
+        "M03",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "30"
+    },
+    {
+      "global_claim_id": "G30-S252-K05",
+      "claim_id": "K05",
+      "source_id": "S252",
+      "corpus_id": "C245",
+      "location": "Bergson, Creative Evolution; duration, life, novelty, evolution and élan vital",
+      "claim_type": "STATE",
+      "claim": "Diferentes líneas evolutivas expresan soluciones diferenciadas dentro de un proceso vital común.",
+      "motifs": [
+        "M07",
+        "M15"
+      ],
+      "provenance": "P2*",
+      "batch": "30"
+    },
+    {
+      "global_claim_id": "G30-S252-K06",
+      "claim_id": "K06",
+      "source_id": "S252",
+      "corpus_id": "C245",
+      "location": "Bergson, Creative Evolution; duration, life, novelty, evolution and élan vital",
+      "claim_type": "WORLD_MODEL",
+      "claim": "La evolución conecta materia, vida, percepción y organización en una historia temporal amplia.",
+      "motifs": [
+        "M15",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "30"
+    },
+    {
+      "global_claim_id": "G30-S252-K07",
+      "claim_id": "K07",
+      "source_id": "S252",
+      "corpus_id": "C245",
+      "location": "Bergson, Creative Evolution; duration, life, novelty, evolution and élan vital",
+      "claim_type": "EMBODIMENT",
+      "claim": "Las limitaciones y posibilidades corporales participan en cómo la vida adopta trayectorias evolutivas distintas.",
+      "motifs": [
+        "M08",
+        "M16"
+      ],
+      "provenance": "P2*",
+      "batch": "30"
+    },
+    {
+      "global_claim_id": "G30-S252-K08",
+      "claim_id": "K08",
+      "source_id": "S252",
+      "corpus_id": "C245",
+      "location": "Bergson, Creative Evolution; duration, life, novelty, evolution and élan vital",
+      "claim_type": "ATTENTION",
+      "claim": "La filosofía de Bergson intenta volver la atención hacia la experiencia de duración que el pensamiento espacializado tiende a ocultar.",
+      "motifs": [
+        "M06",
+        "M24"
+      ],
+      "provenance": "P2*",
+      "batch": "30"
+    },
+    {
+      "global_claim_id": "G30-S252-K09",
+      "claim_id": "K09",
+      "source_id": "S252",
+      "corpus_id": "C245",
+      "location": "Bergson, Creative Evolution; duration, life, novelty, evolution and élan vital",
+      "claim_type": "REFLEXIVITY",
+      "claim": "El sujeto filosófico puede revisar sus propias categorías conceptuales para aproximarse mejor al flujo temporal de la vida.",
+      "motifs": [
+        "M02",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "30"
+    },
+    {
+      "global_claim_id": "G30-S252-K10",
+      "claim_id": "K10",
+      "source_id": "S252",
+      "corpus_id": "C245",
+      "location": "Bergson, Creative Evolution; duration, life, novelty, evolution and élan vital",
+      "claim_type": "VALENCE",
+      "claim": "La creatividad y apertura a novedad son tratadas positivamente frente a interpretaciones que reducen vida a mecanismo fijo.",
+      "motifs": [
+        "M10",
+        "M12"
+      ],
+      "provenance": "P2*",
+      "batch": "30"
+    },
+    {
+      "global_claim_id": "G30-S252-K11",
+      "claim_id": "K11",
+      "source_id": "S252",
+      "corpus_id": "C245",
+      "location": "Bergson, Creative Evolution; duration, life, novelty, evolution and élan vital",
+      "claim_type": "META",
+      "claim": "Creative Evolution es una filosofía de la evolución de comienzos del siglo XX; su élan vital no equivale a una hipótesis biológica contemporánea establecida.",
+      "motifs": [
+        "M14",
+        "M17",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "30"
+    },
+    {
+      "global_claim_id": "G30-S252-K12",
+      "claim_id": "K12",
+      "source_id": "S252",
+      "corpus_id": "C245",
+      "location": "Bergson, Creative Evolution; duration, life, novelty, evolution and élan vital",
+      "claim_type": "CONTRAST",
+      "claim": "Bergson busca explicar simultáneamente continuidad y novedad sin reducir una a la otra.",
+      "motifs": [
+        "M04",
+        "M09",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "30"
+    },
+    {
+      "global_claim_id": "G30-S252-K13",
+      "claim_id": "K13",
+      "source_id": "S252",
+      "corpus_id": "C245",
+      "location": "Bergson, Creative Evolution; duration, life, novelty, evolution and élan vital",
+      "claim_type": "RELATION",
+      "claim": "La vida se entiende en relación dinámica con materia y con las condiciones que permiten diferentes trayectorias evolutivas.",
+      "motifs": [
+        "M05",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "30"
+    },
+    {
+      "global_claim_id": "G30-S253-K01",
+      "claim_id": "K01",
+      "source_id": "S253",
+      "corpus_id": "C246",
+      "location": "William James, Principles of Psychology; stream of consciousness, habit, attention, self and emotion",
+      "claim_type": "STREAM",
+      "claim": "James caracteriza la conciencia como un flujo continuo en lugar de una suma de estados discretos completamente separados.",
+      "motifs": [
+        "M01",
+        "M11"
+      ],
+      "provenance": "P2*",
+      "batch": "30"
+    },
+    {
+      "global_claim_id": "G30-S253-K02",
+      "claim_id": "K02",
+      "source_id": "S253",
+      "corpus_id": "C246",
+      "location": "William James, Principles of Psychology; stream of consciousness, habit, attention, self and emotion",
+      "claim_type": "ATTENTION",
+      "claim": "La atención selecciona ciertos contenidos dentro del flujo y determina qué adquiere mayor prominencia.",
+      "motifs": [
+        "M06",
+        "M24"
+      ],
+      "provenance": "P2*",
+      "batch": "30"
+    },
+    {
+      "global_claim_id": "G30-S253-K03",
+      "claim_id": "K03",
+      "source_id": "S253",
+      "corpus_id": "C246",
+      "location": "William James, Principles of Psychology; stream of consciousness, habit, attention, self and emotion",
+      "claim_type": "SELF_MODEL",
+      "claim": "James distingue componentes del self y analiza cómo el sentido de identidad se organiza en experiencia y conducta.",
+      "motifs": [
+        "M02",
+        "M16"
+      ],
+      "provenance": "P2*",
+      "batch": "30"
+    },
+    {
+      "global_claim_id": "G30-S253-K04",
+      "claim_id": "K04",
+      "source_id": "S253",
+      "corpus_id": "C246",
+      "location": "William James, Principles of Psychology; stream of consciousness, habit, attention, self and emotion",
+      "claim_type": "HABIT",
+      "claim": "Los hábitos estructuran percepción y acción y pueden automatizar grandes partes de la conducta.",
+      "motifs": [
+        "M09",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "30"
+    },
+    {
+      "global_claim_id": "G30-S253-K05",
+      "claim_id": "K05",
+      "source_id": "S253",
+      "corpus_id": "C246",
+      "location": "William James, Principles of Psychology; stream of consciousness, habit, attention, self and emotion",
+      "claim_type": "STATE",
+      "claim": "Emoción, pensamiento, sensación y atención aparecen como procesos relacionados dentro del flujo mental.",
+      "motifs": [
+        "M07",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "30"
+    },
+    {
+      "global_claim_id": "G30-S253-K06",
+      "claim_id": "K06",
+      "source_id": "S253",
+      "corpus_id": "C246",
+      "location": "William James, Principles of Psychology; stream of consciousness, habit, attention, self and emotion",
+      "claim_type": "TRANSFORMATION",
+      "claim": "Cambios de hábito y entrenamiento de atención pueden modificar patrones relativamente estables de conducta.",
+      "motifs": [
+        "M12",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "30"
+    },
+    {
+      "global_claim_id": "G30-S253-K07",
+      "claim_id": "K07",
+      "source_id": "S253",
+      "corpus_id": "C246",
+      "location": "William James, Principles of Psychology; stream of consciousness, habit, attention, self and emotion",
+      "claim_type": "EMBODIMENT",
+      "claim": "La psicología de James integra experiencia corporal, emoción, acción y percepción.",
+      "motifs": [
+        "M08",
+        "M16"
+      ],
+      "provenance": "P2*",
+      "batch": "30"
+    },
+    {
+      "global_claim_id": "G30-S253-K08",
+      "claim_id": "K08",
+      "source_id": "S253",
+      "corpus_id": "C246",
+      "location": "William James, Principles of Psychology; stream of consciousness, habit, attention, self and emotion",
+      "claim_type": "VALENCE",
+      "claim": "Intereses y sentimientos influyen en qué contenidos captan atención y cómo se organiza la experiencia.",
+      "motifs": [
+        "M10",
+        "M06"
+      ],
+      "provenance": "P2*",
+      "batch": "30"
+    },
+    {
+      "global_claim_id": "G30-S253-K09",
+      "claim_id": "K09",
+      "source_id": "S253",
+      "corpus_id": "C246",
+      "location": "William James, Principles of Psychology; stream of consciousness, habit, attention, self and emotion",
+      "claim_type": "RELATION",
+      "claim": "La conciencia está ligada a un organismo situado y a su interacción con un ambiente.",
+      "motifs": [
+        "M05",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "30"
+    },
+    {
+      "global_claim_id": "G30-S253-K10",
+      "claim_id": "K10",
+      "source_id": "S253",
+      "corpus_id": "C246",
+      "location": "William James, Principles of Psychology; stream of consciousness, habit, attention, self and emotion",
+      "claim_type": "TEMPORAL",
+      "claim": "Continuidad y secuencia son rasgos esenciales de la vida consciente tal como James la describe.",
+      "motifs": [
+        "M11",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "30"
+    },
+    {
+      "global_claim_id": "G30-S253-K11",
+      "claim_id": "K11",
+      "source_id": "S253",
+      "corpus_id": "C246",
+      "location": "William James, Principles of Psychology; stream of consciousness, habit, attention, self and emotion",
+      "claim_type": "REFLEXIVITY",
+      "claim": "El pensamiento puede dirigirse hacia contenidos propios y formar parte de la conciencia de sí.",
+      "motifs": [
+        "M02",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "30"
+    },
+    {
+      "global_claim_id": "G30-S253-K12",
+      "claim_id": "K12",
+      "source_id": "S253",
+      "corpus_id": "C246",
+      "location": "William James, Principles of Psychology; stream of consciousness, habit, attention, self and emotion",
+      "claim_type": "META",
+      "claim": "Principles of Psychology es una obra fundacional de psicología filosófico-científica; no debe tratarse como una teoría moderna completa del cerebro.",
+      "motifs": [
+        "M14",
+        "M17",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "30"
+    },
+    {
+      "global_claim_id": "G30-S253-K13",
+      "claim_id": "K13",
+      "source_id": "S253",
+      "corpus_id": "C246",
+      "location": "William James, Principles of Psychology; stream of consciousness, habit, attention, self and emotion",
+      "claim_type": "CONTRAST",
+      "claim": "James combina descripción psicológica con crítica de modelos excesivamente atomistas de la mente.",
+      "motifs": [
+        "M04",
+        "M14",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "30"
+    },
+    {
+      "global_claim_id": "G30-S254-K01",
+      "claim_id": "K01",
+      "source_id": "S254",
+      "corpus_id": "C247",
+      "location": "Husserl, Ideas I; intentionality, epoché, reduction, noesis/noema and transcendental subjectivity",
+      "claim_type": "INTENTIONALITY",
+      "claim": "Husserl caracteriza los actos de conciencia por su direccionalidad hacia objetos o contenidos intencionales.",
+      "motifs": [
+        "M01",
+        "M05"
+      ],
+      "provenance": "P2*",
+      "batch": "30"
+    },
+    {
+      "global_claim_id": "G30-S254-K02",
+      "claim_id": "K02",
+      "source_id": "S254",
+      "corpus_id": "C247",
+      "location": "Husserl, Ideas I; intentionality, epoché, reduction, noesis/noema and transcendental subjectivity",
+      "claim_type": "REFLEXIVITY",
+      "claim": "La fenomenología convierte la propia experiencia y sus condiciones de aparición en tema explícito de investigación.",
+      "motifs": [
+        "M02",
+        "M06",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "30"
+    },
+    {
+      "global_claim_id": "G30-S254-K03",
+      "claim_id": "K03",
+      "source_id": "S254",
+      "corpus_id": "C247",
+      "location": "Husserl, Ideas I; intentionality, epoché, reduction, noesis/noema and transcendental subjectivity",
+      "claim_type": "EPOCHE",
+      "claim": "La epoché suspende ciertos supuestos ordinarios sobre la existencia para describir cómo los fenómenos se dan a la conciencia.",
+      "motifs": [
+        "M06",
+        "M24"
+      ],
+      "provenance": "P2*",
+      "batch": "30"
+    },
+    {
+      "global_claim_id": "G30-S254-K04",
+      "claim_id": "K04",
+      "source_id": "S254",
+      "corpus_id": "C247",
+      "location": "Husserl, Ideas I; intentionality, epoché, reduction, noesis/noema and transcendental subjectivity",
+      "claim_type": "REDUCTION",
+      "claim": "La reducción fenomenológica desplaza el análisis desde una actitud natural hacia estructuras de experiencia y constitución.",
+      "motifs": [
+        "M07",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "30"
+    },
+    {
+      "global_claim_id": "G30-S254-K05",
+      "claim_id": "K05",
+      "source_id": "S254",
+      "corpus_id": "C247",
+      "location": "Husserl, Ideas I; intentionality, epoché, reduction, noesis/noema and transcendental subjectivity",
+      "claim_type": "SELF_MODEL",
+      "claim": "La subjetividad trascendental aparece como polo implicado en la constitución de sentido y no como un objeto psicológico entre otros.",
+      "motifs": [
+        "M02",
+        "M16"
+      ],
+      "provenance": "P2*",
+      "batch": "30"
+    },
+    {
+      "global_claim_id": "G30-S254-K06",
+      "claim_id": "K06",
+      "source_id": "S254",
+      "corpus_id": "C247",
+      "location": "Husserl, Ideas I; intentionality, epoché, reduction, noesis/noema and transcendental subjectivity",
+      "claim_type": "STATE",
+      "claim": "Percepción, imaginación, memoria y otros actos pueden tener estructuras intencionales diferentes.",
+      "motifs": [
+        "M07",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "30"
+    },
+    {
+      "global_claim_id": "G30-S254-K07",
+      "claim_id": "K07",
+      "source_id": "S254",
+      "corpus_id": "C247",
+      "location": "Husserl, Ideas I; intentionality, epoché, reduction, noesis/noema and transcendental subjectivity",
+      "claim_type": "UNITY",
+      "claim": "La síntesis de múltiples perfiles de un objeto permite que la experiencia lo constituya como una misma cosa.",
+      "motifs": [
+        "M03",
+        "M05"
+      ],
+      "provenance": "P2*",
+      "batch": "30"
+    },
+    {
+      "global_claim_id": "G30-S254-K08",
+      "claim_id": "K08",
+      "source_id": "S254",
+      "corpus_id": "C247",
+      "location": "Husserl, Ideas I; intentionality, epoché, reduction, noesis/noema and transcendental subjectivity",
+      "claim_type": "TEMPORAL",
+      "claim": "La conciencia posee estructura temporal interna y retenciones/protenciones que sostienen continuidad.",
+      "motifs": [
+        "M11",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "30"
+    },
+    {
+      "global_claim_id": "G30-S254-K09",
+      "claim_id": "K09",
+      "source_id": "S254",
+      "corpus_id": "C247",
+      "location": "Husserl, Ideas I; intentionality, epoché, reduction, noesis/noema and transcendental subjectivity",
+      "claim_type": "ATTENTION",
+      "claim": "El análisis fenomenológico puede modificar qué aspecto de la experiencia está en primer plano sin cambiar simplemente el objeto temático.",
+      "motifs": [
+        "M06",
+        "M24"
+      ],
+      "provenance": "P2*",
+      "batch": "30"
+    },
+    {
+      "global_claim_id": "G30-S254-K10",
+      "claim_id": "K10",
+      "source_id": "S254",
+      "corpus_id": "C247",
+      "location": "Husserl, Ideas I; intentionality, epoché, reduction, noesis/noema and transcendental subjectivity",
+      "claim_type": "TRANSFORMATION",
+      "claim": "Adoptar la actitud fenomenológica transforma el modo en que el investigador se relaciona con su propia experiencia.",
+      "motifs": [
+        "M12",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "30"
+    },
+    {
+      "global_claim_id": "G30-S254-K11",
+      "claim_id": "K11",
+      "source_id": "S254",
+      "corpus_id": "C247",
+      "location": "Husserl, Ideas I; intentionality, epoché, reduction, noesis/noema and transcendental subjectivity",
+      "claim_type": "INEFFABILITY",
+      "claim": "La descripción fenomenológica intenta mantener cercanía con lo dado sin reducirlo prematuramente a explicaciones externas.",
+      "motifs": [
+        "M14",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "30"
+    },
+    {
+      "global_claim_id": "G30-S254-K12",
+      "claim_id": "K12",
+      "source_id": "S254",
+      "corpus_id": "C247",
+      "location": "Husserl, Ideas I; intentionality, epoché, reduction, noesis/noema and transcendental subjectivity",
+      "claim_type": "META",
+      "claim": "Ideas I formula un giro trascendental de Husserl y debe distinguirse tanto del naturalismo psicológico como de una metafísica empírica de la mente.",
+      "motifs": [
+        "M14",
+        "M17",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "30"
+    },
+    {
+      "global_claim_id": "G30-S254-K13",
+      "claim_id": "K13",
+      "source_id": "S254",
+      "corpus_id": "C247",
+      "location": "Husserl, Ideas I; intentionality, epoché, reduction, noesis/noema and transcendental subjectivity",
+      "claim_type": "CONTRAST",
+      "claim": "La fenomenología no se identifica sin más con introspección psicológica ordinaria, porque modifica explícitamente la actitud desde la que se describe la experiencia.",
+      "motifs": [
+        "M04",
+        "M06",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "30"
+    },
+    {
+      "global_claim_id": "G30-S255-K01",
+      "claim_id": "K01",
+      "source_id": "S255",
+      "corpus_id": "C248",
+      "location": "Husserl, Cartesian Meditations; transcendental ego, constitution, intersubjectivity and lifeworld",
+      "claim_type": "SELF_MODEL",
+      "claim": "Husserl presenta al ego trascendental como polo de actos de conciencia y constitución de sentido.",
+      "motifs": [
+        "M02",
+        "M06",
+        "M16"
+      ],
+      "provenance": "P2*",
+      "batch": "30"
+    },
+    {
+      "global_claim_id": "G30-S255-K02",
+      "claim_id": "K02",
+      "source_id": "S255",
+      "corpus_id": "C248",
+      "location": "Husserl, Cartesian Meditations; transcendental ego, constitution, intersubjectivity and lifeworld",
+      "claim_type": "REFLEXIVITY",
+      "claim": "La reducción dirige la investigación hacia cómo objetos, mundo y otros sujetos adquieren sentido en la experiencia.",
+      "motifs": [
+        "M02",
+        "M06",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "30"
+    },
+    {
+      "global_claim_id": "G30-S255-K03",
+      "claim_id": "K03",
+      "source_id": "S255",
+      "corpus_id": "C248",
+      "location": "Husserl, Cartesian Meditations; transcendental ego, constitution, intersubjectivity and lifeworld",
+      "claim_type": "INTENTIONALITY",
+      "claim": "Los objetos son investigados según los modos intencionales mediante los que son dados y constituidos.",
+      "motifs": [
+        "M01",
+        "M05"
+      ],
+      "provenance": "P2*",
+      "batch": "30"
+    },
+    {
+      "global_claim_id": "G30-S255-K04",
+      "claim_id": "K04",
+      "source_id": "S255",
+      "corpus_id": "C248",
+      "location": "Husserl, Cartesian Meditations; transcendental ego, constitution, intersubjectivity and lifeworld",
+      "claim_type": "INTERSUBJECTIVITY",
+      "claim": "La experiencia de otros sujetos exige explicar cómo una subjetividad puede acceder a otros centros de experiencia.",
+      "motifs": [
+        "M05",
+        "M16"
+      ],
+      "provenance": "P2*",
+      "batch": "30"
+    },
+    {
+      "global_claim_id": "G30-S255-K05",
+      "claim_id": "K05",
+      "source_id": "S255",
+      "corpus_id": "C248",
+      "location": "Husserl, Cartesian Meditations; transcendental ego, constitution, intersubjectivity and lifeworld",
+      "claim_type": "WORLD_MODEL",
+      "claim": "El mundo de la vida funciona como horizonte previo y compartido para múltiples actos de experiencia y conocimiento.",
+      "motifs": [
+        "M15",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "30"
+    },
+    {
+      "global_claim_id": "G30-S255-K06",
+      "claim_id": "K06",
+      "source_id": "S255",
+      "corpus_id": "C248",
+      "location": "Husserl, Cartesian Meditations; transcendental ego, constitution, intersubjectivity and lifeworld",
+      "claim_type": "STATE",
+      "claim": "Percepción, recuerdo, fantasía y otros actos tienen estructuras diferentes pero pertenecen a una corriente de conciencia unificada.",
+      "motifs": [
+        "M07",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "30"
+    },
+    {
+      "global_claim_id": "G30-S255-K07",
+      "claim_id": "K07",
+      "source_id": "S255",
+      "corpus_id": "C248",
+      "location": "Husserl, Cartesian Meditations; transcendental ego, constitution, intersubjectivity and lifeworld",
+      "claim_type": "UNITY",
+      "claim": "La constitución del objeto y del mundo implica síntesis que reúnen multiplicidades experienciales.",
+      "motifs": [
+        "M03",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "30"
+    },
+    {
+      "global_claim_id": "G30-S255-K08",
+      "claim_id": "K08",
+      "source_id": "S255",
+      "corpus_id": "C248",
+      "location": "Husserl, Cartesian Meditations; transcendental ego, constitution, intersubjectivity and lifeworld",
+      "claim_type": "TEMPORAL",
+      "claim": "La corriente de conciencia proporciona continuidad mediante estructuras temporales internas.",
+      "motifs": [
+        "M11",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "30"
+    },
+    {
+      "global_claim_id": "G30-S255-K09",
+      "claim_id": "K09",
+      "source_id": "S255",
+      "corpus_id": "C248",
+      "location": "Husserl, Cartesian Meditations; transcendental ego, constitution, intersubjectivity and lifeworld",
+      "claim_type": "ATTENTION",
+      "claim": "La fenomenología exige orientar deliberadamente la atención hacia modos de donación y constitución.",
+      "motifs": [
+        "M06",
+        "M24"
+      ],
+      "provenance": "P2*",
+      "batch": "30"
+    },
+    {
+      "global_claim_id": "G30-S255-K10",
+      "claim_id": "K10",
+      "source_id": "S255",
+      "corpus_id": "C248",
+      "location": "Husserl, Cartesian Meditations; transcendental ego, constitution, intersubjectivity and lifeworld",
+      "claim_type": "TRANSFORMATION",
+      "claim": "Adoptar la reducción modifica el punto de partida desde el que el sujeto comprende mundo, objeto y sí mismo.",
+      "motifs": [
+        "M12",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "30"
+    },
+    {
+      "global_claim_id": "G30-S255-K11",
+      "claim_id": "K11",
+      "source_id": "S255",
+      "corpus_id": "C248",
+      "location": "Husserl, Cartesian Meditations; transcendental ego, constitution, intersubjectivity and lifeworld",
+      "claim_type": "RELATION",
+      "claim": "La objetividad plena incluye referencia a otros sujetos y no puede explicarse desde un solipsismo simple.",
+      "motifs": [
+        "M05",
+        "M16"
+      ],
+      "provenance": "P2*",
+      "batch": "30"
+    },
+    {
+      "global_claim_id": "G30-S255-K12",
+      "claim_id": "K12",
+      "source_id": "S255",
+      "corpus_id": "C248",
+      "location": "Husserl, Cartesian Meditations; transcendental ego, constitution, intersubjectivity and lifeworld",
+      "claim_type": "META",
+      "claim": "Cartesian Meditations es una exposición filosófica del método fenomenológico trascendental, no una prueba experimental de su ontología.",
+      "motifs": [
+        "M14",
+        "M17",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "30"
+    },
+    {
+      "global_claim_id": "G30-S255-K13",
+      "claim_id": "K13",
+      "source_id": "S255",
+      "corpus_id": "C248",
+      "location": "Husserl, Cartesian Meditations; transcendental ego, constitution, intersubjectivity and lifeworld",
+      "claim_type": "CONTRAST",
+      "claim": "Husserl intenta superar tanto el objetivismo ingenuo como un subjetivismo puramente privado mediante análisis de constitución e intersubjetividad.",
+      "motifs": [
+        "M04",
+        "M05",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "30"
+    },
+    {
+      "global_claim_id": "G30-S256-K01",
+      "claim_id": "K01",
+      "source_id": "S256",
+      "corpus_id": "C249",
+      "location": "Heidegger, Being and Time; Dasein, being-in-the-world, care, temporality, authenticity and death",
+      "claim_type": "PERSON",
+      "claim": "Dasein se define no como una sustancia aislada sino por su modo de estar implicado en un mundo.",
+      "motifs": [
+        "M05",
+        "M16",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "30"
+    },
+    {
+      "global_claim_id": "G30-S256-K02",
+      "claim_id": "K02",
+      "source_id": "S256",
+      "corpus_id": "C249",
+      "location": "Heidegger, Being and Time; Dasein, being-in-the-world, care, temporality, authenticity and death",
+      "claim_type": "WORLD_MODEL",
+      "claim": "El estar-en-el-mundo indica que sujeto y mundo no aparecen como polos completamente separados desde el comienzo.",
+      "motifs": [
+        "M03",
+        "M05"
+      ],
+      "provenance": "P2*",
+      "batch": "30"
+    },
+    {
+      "global_claim_id": "G30-S256-K03",
+      "claim_id": "K03",
+      "source_id": "S256",
+      "corpus_id": "C249",
+      "location": "Heidegger, Being and Time; Dasein, being-in-the-world, care, temporality, authenticity and death",
+      "claim_type": "CARE",
+      "claim": "La estructura de cuidado organiza la existencia cotidiana y sus posibilidades prácticas.",
+      "motifs": [
+        "M10",
+        "M12"
+      ],
+      "provenance": "P2*",
+      "batch": "30"
+    },
+    {
+      "global_claim_id": "G30-S256-K04",
+      "claim_id": "K04",
+      "source_id": "S256",
+      "corpus_id": "C249",
+      "location": "Heidegger, Being and Time; Dasein, being-in-the-world, care, temporality, authenticity and death",
+      "claim_type": "STATE",
+      "claim": "Heidegger diferencia modos cotidianos de existencia de posibilidades de autenticidad y de apropiación propia.",
+      "motifs": [
+        "M07",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "30"
+    },
+    {
+      "global_claim_id": "G30-S256-K05",
+      "claim_id": "K05",
+      "source_id": "S256",
+      "corpus_id": "C249",
+      "location": "Heidegger, Being and Time; Dasein, being-in-the-world, care, temporality, authenticity and death",
+      "claim_type": "TRANSFORMATION",
+      "claim": "La resolución puede modificar la relación del Dasein con sus posibilidades sin convertirlo en una sustancia diferente.",
+      "motifs": [
+        "M12",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "30"
+    },
+    {
+      "global_claim_id": "G30-S256-K06",
+      "claim_id": "K06",
+      "source_id": "S256",
+      "corpus_id": "C249",
+      "location": "Heidegger, Being and Time; Dasein, being-in-the-world, care, temporality, authenticity and death",
+      "claim_type": "TEMPORAL",
+      "claim": "La temporalidad es constitutiva de la estructura existencial del Dasein.",
+      "motifs": [
+        "M11",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "30"
+    },
+    {
+      "global_claim_id": "G30-S256-K07",
+      "claim_id": "K07",
+      "source_id": "S256",
+      "corpus_id": "C249",
+      "location": "Heidegger, Being and Time; Dasein, being-in-the-world, care, temporality, authenticity and death",
+      "claim_type": "DEATH",
+      "claim": "El ser-para-la-muerte individualiza la existencia al confrontar el límite propio de las posibilidades.",
+      "motifs": [
+        "M19",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "30"
+    },
+    {
+      "global_claim_id": "G30-S256-K08",
+      "claim_id": "K08",
+      "source_id": "S256",
+      "corpus_id": "C249",
+      "location": "Heidegger, Being and Time; Dasein, being-in-the-world, care, temporality, authenticity and death",
+      "claim_type": "REFLEXIVITY",
+      "claim": "La angustia y otros fenómenos pueden desocultar estructuras de existencia que la cotidianidad tiende a encubrir.",
+      "motifs": [
+        "M02",
+        "M06",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "30"
+    },
+    {
+      "global_claim_id": "G30-S256-K09",
+      "claim_id": "K09",
+      "source_id": "S256",
+      "corpus_id": "C249",
+      "location": "Heidegger, Being and Time; Dasein, being-in-the-world, care, temporality, authenticity and death",
+      "claim_type": "ATTENTION",
+      "claim": "La ruptura de la absorción cotidiana permite advertir aspectos del mundo y de sí mismo normalmente dados por sentados.",
+      "motifs": [
+        "M06",
+        "M24"
+      ],
+      "provenance": "P2*",
+      "batch": "30"
+    },
+    {
+      "global_claim_id": "G30-S256-K10",
+      "claim_id": "K10",
+      "source_id": "S256",
+      "corpus_id": "C249",
+      "location": "Heidegger, Being and Time; Dasein, being-in-the-world, care, temporality, authenticity and death",
+      "claim_type": "RELATION",
+      "claim": "El ser-con-los-otros forma parte de la estructura del Dasein y no es un agregado posterior.",
+      "motifs": [
+        "M05",
+        "M16"
+      ],
+      "provenance": "P2*",
+      "batch": "30"
+    },
+    {
+      "global_claim_id": "G30-S256-K11",
+      "claim_id": "K11",
+      "source_id": "S256",
+      "corpus_id": "C249",
+      "location": "Heidegger, Being and Time; Dasein, being-in-the-world, care, temporality, authenticity and death",
+      "claim_type": "EMBODIMENT",
+      "claim": "Aunque no desarrolla una teoría somática al estilo de Merleau-Ponty, la existencia descrita por Heidegger está siempre situada y práctica.",
+      "motifs": [
+        "M08",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "30"
+    },
+    {
+      "global_claim_id": "G30-S256-K12",
+      "claim_id": "K12",
+      "source_id": "S256",
+      "corpus_id": "C249",
+      "location": "Heidegger, Being and Time; Dasein, being-in-the-world, care, temporality, authenticity and death",
+      "claim_type": "META",
+      "claim": "Being and Time es ontología fundamental y fenomenología existencial, no una teoría empírica de la conciencia.",
+      "motifs": [
+        "M14",
+        "M17",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "30"
+    },
+    {
+      "global_claim_id": "G30-S256-K13",
+      "claim_id": "K13",
+      "source_id": "S256",
+      "corpus_id": "C249",
+      "location": "Heidegger, Being and Time; Dasein, being-in-the-world, care, temporality, authenticity and death",
+      "claim_type": "CONTRAST",
+      "claim": "La autenticidad no significa retirarse del mundo, sino apropiarse de las propias posibilidades dentro de una existencia situada.",
+      "motifs": [
+        "M04",
+        "M05",
+        "M12"
+      ],
+      "provenance": "P2*",
+      "batch": "30"
+    },
+    {
+      "global_claim_id": "G30-S257-K01",
+      "claim_id": "K01",
+      "source_id": "S257",
+      "corpus_id": "C250",
+      "location": "Merleau-Ponty, Phenomenology of Perception; embodiment, lived body, perception, habit and world",
+      "claim_type": "EMBODIMENT",
+      "claim": "La percepción está estructurada por el cuerpo vivido, no por una mente desencarnada que observa desde fuera.",
+      "motifs": [
+        "M08",
+        "M16"
+      ],
+      "provenance": "P2*",
+      "batch": "30"
+    },
+    {
+      "global_claim_id": "G30-S257-K02",
+      "claim_id": "K02",
+      "source_id": "S257",
+      "corpus_id": "C250",
+      "location": "Merleau-Ponty, Phenomenology of Perception; embodiment, lived body, perception, habit and world",
+      "claim_type": "PERCEPTION",
+      "claim": "Percibir implica una relación activa y situada entre organismo y mundo.",
+      "motifs": [
+        "M01",
+        "M05",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "30"
+    },
+    {
+      "global_claim_id": "G30-S257-K03",
+      "claim_id": "K03",
+      "source_id": "S257",
+      "corpus_id": "C250",
+      "location": "Merleau-Ponty, Phenomenology of Perception; embodiment, lived body, perception, habit and world",
+      "claim_type": "STATE",
+      "claim": "Hábitos corporales, motricidad y atención configuran distintos modos de acceso perceptivo.",
+      "motifs": [
+        "M07",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "30"
+    },
+    {
+      "global_claim_id": "G30-S257-K04",
+      "claim_id": "K04",
+      "source_id": "S257",
+      "corpus_id": "C250",
+      "location": "Merleau-Ponty, Phenomenology of Perception; embodiment, lived body, perception, habit and world",
+      "claim_type": "WORLD_MODEL",
+      "claim": "El cuerpo vivido funciona como anclaje desde el cual se organiza un mundo significativo.",
+      "motifs": [
+        "M15",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "30"
+    },
+    {
+      "global_claim_id": "G30-S257-K05",
+      "claim_id": "K05",
+      "source_id": "S257",
+      "corpus_id": "C250",
+      "location": "Merleau-Ponty, Phenomenology of Perception; embodiment, lived body, perception, habit and world",
+      "claim_type": "SELF_MODEL",
+      "claim": "El sentido de sí emerge en relación con capacidades corporales, orientación espacial y acción.",
+      "motifs": [
+        "M02",
+        "M08"
+      ],
+      "provenance": "P2*",
+      "batch": "30"
+    },
+    {
+      "global_claim_id": "G30-S257-K06",
+      "claim_id": "K06",
+      "source_id": "S257",
+      "corpus_id": "C250",
+      "location": "Merleau-Ponty, Phenomenology of Perception; embodiment, lived body, perception, habit and world",
+      "claim_type": "TRANSFORMATION",
+      "claim": "Los hábitos pueden reorganizar la relación perceptiva con el mundo sin necesitar representaciones explícitas de cada movimiento.",
+      "motifs": [
+        "M12",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "30"
+    },
+    {
+      "global_claim_id": "G30-S257-K07",
+      "claim_id": "K07",
+      "source_id": "S257",
+      "corpus_id": "C250",
+      "location": "Merleau-Ponty, Phenomenology of Perception; embodiment, lived body, perception, habit and world",
+      "claim_type": "ATTENTION",
+      "claim": "La atención puede abrir nuevas figuras sobre un fondo perceptivo ya estructurado.",
+      "motifs": [
+        "M06",
+        "M24"
+      ],
+      "provenance": "P2*",
+      "batch": "30"
+    },
+    {
+      "global_claim_id": "G30-S257-K08",
+      "claim_id": "K08",
+      "source_id": "S257",
+      "corpus_id": "C250",
+      "location": "Merleau-Ponty, Phenomenology of Perception; embodiment, lived body, perception, habit and world",
+      "claim_type": "RELATION",
+      "claim": "Sujeto y mundo forman una relación entrelazada más primaria que la separación cartesiana entre interior y exterior.",
+      "motifs": [
+        "M03",
+        "M05"
+      ],
+      "provenance": "P2*",
+      "batch": "30"
+    },
+    {
+      "global_claim_id": "G30-S257-K09",
+      "claim_id": "K09",
+      "source_id": "S257",
+      "corpus_id": "C250",
+      "location": "Merleau-Ponty, Phenomenology of Perception; embodiment, lived body, perception, habit and world",
+      "claim_type": "UNITY",
+      "claim": "Percepción, cuerpo, motricidad y significado forman un sistema integrado.",
+      "motifs": [
+        "M03",
+        "M08",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "30"
+    },
+    {
+      "global_claim_id": "G30-S257-K10",
+      "claim_id": "K10",
+      "source_id": "S257",
+      "corpus_id": "C250",
+      "location": "Merleau-Ponty, Phenomenology of Perception; embodiment, lived body, perception, habit and world",
+      "claim_type": "TEMPORAL",
+      "claim": "La percepción se apoya en continuidad corporal y hábitos adquiridos a través del tiempo.",
+      "motifs": [
+        "M11",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "30"
+    },
+    {
+      "global_claim_id": "G30-S257-K11",
+      "claim_id": "K11",
+      "source_id": "S257",
+      "corpus_id": "C250",
+      "location": "Merleau-Ponty, Phenomenology of Perception; embodiment, lived body, perception, habit and world",
+      "claim_type": "VALENCE",
+      "claim": "El mundo percibido está estructurado por relevancias prácticas y afectivas para el cuerpo.",
+      "motifs": [
+        "M10",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "30"
+    },
+    {
+      "global_claim_id": "G30-S257-K12",
+      "claim_id": "K12",
+      "source_id": "S257",
+      "corpus_id": "C250",
+      "location": "Merleau-Ponty, Phenomenology of Perception; embodiment, lived body, perception, habit and world",
+      "claim_type": "META",
+      "claim": "Phenomenology of Perception es una filosofía fenomenológica del cuerpo y la percepción, no una descripción neurocientífica exhaustiva del cerebro.",
+      "motifs": [
+        "M14",
+        "M17",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "30"
+    },
+    {
+      "global_claim_id": "G30-S257-K13",
+      "claim_id": "K13",
+      "source_id": "S257",
+      "corpus_id": "C250",
+      "location": "Merleau-Ponty, Phenomenology of Perception; embodiment, lived body, perception, habit and world",
+      "claim_type": "CONTRAST",
+      "claim": "Merleau-Ponty rechaza una separación simple entre percepción como representación interna y acción como respuesta posterior: el cuerpo ya está orientado hacia el mundo.",
+      "motifs": [
+        "M04",
+        "M05",
+        "M08"
+      ],
+      "provenance": "P2*",
+      "batch": "30"
+    }
+  ]
+}

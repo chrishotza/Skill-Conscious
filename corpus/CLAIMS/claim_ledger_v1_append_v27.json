@@ -1,0 +1,1986 @@
+{
+  "schema_version": "1.0-append",
+  "base_ledger": "claim_ledger_v1.json",
+  "batch": "27",
+  "claim_count": 130,
+  "records": [
+    {
+      "global_claim_id": "G27-S218-K01",
+      "claim_id": "K01",
+      "source_id": "S218",
+      "corpus_id": "C199",
+      "location": "Lévi, Dogme et Rituel; balance, will, initiation, Kabbalah, astral force and transformation",
+      "claim_type": "ONTO",
+      "claim": "Lévi presenta la magia como una ciencia simbólica de principios, relaciones y fuerzas que pretende conectar planos naturales y espirituales.",
+      "motifs": [
+        "M03",
+        "M18",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "27"
+    },
+    {
+      "global_claim_id": "G27-S218-K02",
+      "claim_id": "K02",
+      "source_id": "S218",
+      "corpus_id": "C199",
+      "location": "Lévi, Dogme et Rituel; balance, will, initiation, Kabbalah, astral force and transformation",
+      "claim_type": "SELF_MODEL",
+      "claim": "La voluntad y la imaginación del operador son tratadas como capacidades centrales para la práctica mágica.",
+      "motifs": [
+        "M02",
+        "M06",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "27"
+    },
+    {
+      "global_claim_id": "G27-S218-K03",
+      "claim_id": "K03",
+      "source_id": "S218",
+      "corpus_id": "C199",
+      "location": "Lévi, Dogme et Rituel; balance, will, initiation, Kabbalah, astral force and transformation",
+      "claim_type": "PRACTICE",
+      "claim": "La obra organiza la práctica mediante preparación, equilibrio, ritual, símbolos, palabras y disciplina del operador.",
+      "motifs": [
+        "M24",
+        "M25"
+      ],
+      "provenance": "P2*",
+      "batch": "27"
+    },
+    {
+      "global_claim_id": "G27-S218-K04",
+      "claim_id": "K04",
+      "source_id": "S218",
+      "corpus_id": "C199",
+      "location": "Lévi, Dogme et Rituel; balance, will, initiation, Kabbalah, astral force and transformation",
+      "claim_type": "STATE",
+      "claim": "Iniciación implica cambios en la capacidad del sujeto para interpretar y actuar dentro del sistema mágico.",
+      "motifs": [
+        "M07",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "27"
+    },
+    {
+      "global_claim_id": "G27-S218-K05",
+      "claim_id": "K05",
+      "source_id": "S218",
+      "corpus_id": "C199",
+      "location": "Lévi, Dogme et Rituel; balance, will, initiation, Kabbalah, astral force and transformation",
+      "claim_type": "CORRESPONDENCE",
+      "claim": "Pentagrama, letras, números, planetas y otros símbolos se vinculan mediante correspondencias sistemáticas.",
+      "motifs": [
+        "M18",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "27"
+    },
+    {
+      "global_claim_id": "G27-S218-K06",
+      "claim_id": "K06",
+      "source_id": "S218",
+      "corpus_id": "C199",
+      "location": "Lévi, Dogme et Rituel; balance, will, initiation, Kabbalah, astral force and transformation",
+      "claim_type": "TRANSFORMATION",
+      "claim": "La obra interpreta la voluntad disciplinada como capaz de transformar la relación del sujeto con fuerzas y circunstancias.",
+      "motifs": [
+        "M12",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "27"
+    },
+    {
+      "global_claim_id": "G27-S218-K07",
+      "claim_id": "K07",
+      "source_id": "S218",
+      "corpus_id": "C199",
+      "location": "Lévi, Dogme et Rituel; balance, will, initiation, Kabbalah, astral force and transformation",
+      "claim_type": "ATTENTION",
+      "claim": "La lectura ritual exige precisión en signos, nombres, posiciones y secuencias.",
+      "motifs": [
+        "M06",
+        "M24"
+      ],
+      "provenance": "P2*",
+      "batch": "27"
+    },
+    {
+      "global_claim_id": "G27-S218-K08",
+      "claim_id": "K08",
+      "source_id": "S218",
+      "corpus_id": "C199",
+      "location": "Lévi, Dogme et Rituel; balance, will, initiation, Kabbalah, astral force and transformation",
+      "claim_type": "RELATION",
+      "claim": "El operador es concebido como mediador entre dimensiones humanas, naturales y espirituales.",
+      "motifs": [
+        "M05",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "27"
+    },
+    {
+      "global_claim_id": "G27-S218-K09",
+      "claim_id": "K09",
+      "source_id": "S218",
+      "corpus_id": "C199",
+      "location": "Lévi, Dogme et Rituel; balance, will, initiation, Kabbalah, astral force and transformation",
+      "claim_type": "VALENCE",
+      "claim": "Equilibrio, voluntad y disciplina se valoran por encima de la acción mágica impulsiva.",
+      "motifs": [
+        "M10",
+        "M12"
+      ],
+      "provenance": "P2*",
+      "batch": "27"
+    },
+    {
+      "global_claim_id": "G27-S218-K10",
+      "claim_id": "K10",
+      "source_id": "S218",
+      "corpus_id": "C199",
+      "location": "Lévi, Dogme et Rituel; balance, will, initiation, Kabbalah, astral force and transformation",
+      "claim_type": "UNITY",
+      "claim": "La doctrina intenta unificar simbolismo religioso, cabalístico, natural y ritual en una arquitectura única.",
+      "motifs": [
+        "M03",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "27"
+    },
+    {
+      "global_claim_id": "G27-S218-K11",
+      "claim_id": "K11",
+      "source_id": "S218",
+      "corpus_id": "C199",
+      "location": "Lévi, Dogme et Rituel; balance, will, initiation, Kabbalah, astral force and transformation",
+      "claim_type": "EMBODIMENT",
+      "claim": "Gestos, voz, postura e instrumentos corporales forman parte de la realización ritual.",
+      "motifs": [
+        "M08",
+        "M18"
+      ],
+      "provenance": "P2*",
+      "batch": "27"
+    },
+    {
+      "global_claim_id": "G27-S218-K12",
+      "claim_id": "K12",
+      "source_id": "S218",
+      "corpus_id": "C199",
+      "location": "Lévi, Dogme et Rituel; balance, will, initiation, Kabbalah, astral force and transformation",
+      "claim_type": "DEATH",
+      "claim": "Muerte, evocación y transmutación son tratados como problemas dentro de una doctrina de límites, transformación y contacto con lo invisible.",
+      "motifs": [
+        "M19",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "27"
+    },
+    {
+      "global_claim_id": "G27-S218-K13",
+      "claim_id": "K13",
+      "source_id": "S218",
+      "corpus_id": "C199",
+      "location": "Lévi, Dogme et Rituel; balance, will, initiation, Kabbalah, astral force and transformation",
+      "claim_type": "META",
+      "claim": "Dogme et Rituel es una síntesis esotérica francesa del siglo XIX; sus causalidades mágicas deben tratarse como afirmaciones históricas del autor, no como mecanismos empíricos establecidos.",
+      "motifs": [
+        "M14",
+        "M17",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "27"
+    },
+    {
+      "global_claim_id": "G27-S219-K01",
+      "claim_id": "K01",
+      "source_id": "S219",
+      "corpus_id": "C200",
+      "location": "Lévi, La Clef des Grands Mystères; numbers, will, Qabalah, symbolism and occult philosophy",
+      "claim_type": "ONTO",
+      "claim": "Lévi relaciona religión, naturaleza y simbolismo dentro de una visión en la que el misterio último excede la comprensión completa.",
+      "motifs": [
+        "M14",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "27"
+    },
+    {
+      "global_claim_id": "G27-S219-K02",
+      "claim_id": "K02",
+      "source_id": "S219",
+      "corpus_id": "C200",
+      "location": "Lévi, La Clef des Grands Mystères; numbers, will, Qabalah, symbolism and occult philosophy",
+      "claim_type": "INEFFABILITY",
+      "claim": "El misterio infinito es presentado como algo que razón y ciencia pueden aproximar pero no agotar.",
+      "motifs": [
+        "M14",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "27"
+    },
+    {
+      "global_claim_id": "G27-S219-K03",
+      "claim_id": "K03",
+      "source_id": "S219",
+      "corpus_id": "C200",
+      "location": "Lévi, La Clef des Grands Mystères; numbers, will, Qabalah, symbolism and occult philosophy",
+      "claim_type": "SELF_MODEL",
+      "claim": "La voluntad humana aparece como una facultad que puede ser educada, dirigida y teóricamente eficaz dentro del sistema mágico.",
+      "motifs": [
+        "M02",
+        "M06"
+      ],
+      "provenance": "P2*",
+      "batch": "27"
+    },
+    {
+      "global_claim_id": "G27-S219-K04",
+      "claim_id": "K04",
+      "source_id": "S219",
+      "corpus_id": "C200",
+      "location": "Lévi, La Clef des Grands Mystères; numbers, will, Qabalah, symbolism and occult philosophy",
+      "claim_type": "PRACTICE",
+      "claim": "La obra convierte números, símbolos, Qabalah y axiomas de voluntad en herramientas de investigación y práctica ocultista.",
+      "motifs": [
+        "M24",
+        "M25"
+      ],
+      "provenance": "P2*",
+      "batch": "27"
+    },
+    {
+      "global_claim_id": "G27-S219-K05",
+      "claim_id": "K05",
+      "source_id": "S219",
+      "corpus_id": "C200",
+      "location": "Lévi, La Clef des Grands Mystères; numbers, will, Qabalah, symbolism and occult philosophy",
+      "claim_type": "CORRESPONDENCE",
+      "claim": "Los números y símbolos funcionan como claves para vincular dominios religiosos, naturales y mágicos.",
+      "motifs": [
+        "M18",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "27"
+    },
+    {
+      "global_claim_id": "G27-S219-K06",
+      "claim_id": "K06",
+      "source_id": "S219",
+      "corpus_id": "C200",
+      "location": "Lévi, La Clef des Grands Mystères; numbers, will, Qabalah, symbolism and occult philosophy",
+      "claim_type": "STATE",
+      "claim": "La iniciación supone un cambio en la relación del sujeto con el misterio y con sus propios poderes.",
+      "motifs": [
+        "M07",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "27"
+    },
+    {
+      "global_claim_id": "G27-S219-K07",
+      "claim_id": "K07",
+      "source_id": "S219",
+      "corpus_id": "C200",
+      "location": "Lévi, La Clef des Grands Mystères; numbers, will, Qabalah, symbolism and occult philosophy",
+      "claim_type": "TRANSFORMATION",
+      "claim": "El conocimiento esotérico pretende transformar la orientación del individuo hacia naturaleza, religión y voluntad.",
+      "motifs": [
+        "M12",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "27"
+    },
+    {
+      "global_claim_id": "G27-S219-K08",
+      "claim_id": "K08",
+      "source_id": "S219",
+      "corpus_id": "C200",
+      "location": "Lévi, La Clef des Grands Mystères; numbers, will, Qabalah, symbolism and occult philosophy",
+      "claim_type": "REFLEXIVITY",
+      "claim": "El buscador debe examinar las limitaciones de sus propias categorías al enfrentarse con lo incomprensible.",
+      "motifs": [
+        "M02",
+        "M06",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "27"
+    },
+    {
+      "global_claim_id": "G27-S219-K09",
+      "claim_id": "K09",
+      "source_id": "S219",
+      "corpus_id": "C200",
+      "location": "Lévi, La Clef des Grands Mystères; numbers, will, Qabalah, symbolism and occult philosophy",
+      "claim_type": "UNITY",
+      "claim": "Los planos prácticos pueden distinguirse para operar, pero Lévi los reconecta en una unidad más profunda.",
+      "motifs": [
+        "M03",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "27"
+    },
+    {
+      "global_claim_id": "G27-S219-K10",
+      "claim_id": "K10",
+      "source_id": "S219",
+      "corpus_id": "C200",
+      "location": "Lévi, La Clef des Grands Mystères; numbers, will, Qabalah, symbolism and occult philosophy",
+      "claim_type": "VALENCE",
+      "claim": "La voluntad disciplinada y el conocimiento prudente son presentados como superiores a la superstición irreflexiva.",
+      "motifs": [
+        "M10",
+        "M12"
+      ],
+      "provenance": "P2*",
+      "batch": "27"
+    },
+    {
+      "global_claim_id": "G27-S219-K11",
+      "claim_id": "K11",
+      "source_id": "S219",
+      "corpus_id": "C200",
+      "location": "Lévi, La Clef des Grands Mystères; numbers, will, Qabalah, symbolism and occult philosophy",
+      "claim_type": "RELATION",
+      "claim": "El ocultista es presentado como intérprete y mediador entre símbolos, naturaleza y experiencia religiosa.",
+      "motifs": [
+        "M05",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "27"
+    },
+    {
+      "global_claim_id": "G27-S219-K12",
+      "claim_id": "K12",
+      "source_id": "S219",
+      "corpus_id": "C200",
+      "location": "Lévi, La Clef des Grands Mystères; numbers, will, Qabalah, symbolism and occult philosophy",
+      "claim_type": "TEMPORAL",
+      "claim": "La investigación de los misterios es acumulativa: números, signos y doctrinas se articulan progresivamente.",
+      "motifs": [
+        "M11",
+        "M12"
+      ],
+      "provenance": "P2*",
+      "batch": "27"
+    },
+    {
+      "global_claim_id": "G27-S219-K13",
+      "claim_id": "K13",
+      "source_id": "S219",
+      "corpus_id": "C200",
+      "location": "Lévi, La Clef des Grands Mystères; numbers, will, Qabalah, symbolism and occult philosophy",
+      "claim_type": "META",
+      "claim": "The Key of the Mysteries es una culminación de la filosofía ocultista de Lévi; su 'ciencia divina' es una categoría histórico-esotérica, no una ciencia empírica moderna.",
+      "motifs": [
+        "M14",
+        "M17",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "27"
+    },
+    {
+      "global_claim_id": "G27-S220-K01",
+      "claim_id": "K01",
+      "source_id": "S220",
+      "corpus_id": "C201",
+      "location": "Blavatsky, 1888; Stanzas of Dzyan, cosmogenesis, anthropogenesis, universal mind and cycles",
+      "claim_type": "COSMO",
+      "claim": "The Secret Doctrine organiza la realidad mediante ciclos cósmicos de manifestación, diferenciación y reabsorción.",
+      "motifs": [
+        "M09",
+        "M15",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "27"
+    },
+    {
+      "global_claim_id": "G27-S220-K02",
+      "claim_id": "K02",
+      "source_id": "S220",
+      "corpus_id": "C201",
+      "location": "Blavatsky, 1888; Stanzas of Dzyan, cosmogenesis, anthropogenesis, universal mind and cycles",
+      "claim_type": "UNITY",
+      "claim": "El Proem presenta una unidad primordial de la que emergen diferenciaciones y a la que finalmente retornan.",
+      "motifs": [
+        "M03",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "27"
+    },
+    {
+      "global_claim_id": "G27-S220-K03",
+      "claim_id": "K03",
+      "source_id": "S220",
+      "corpus_id": "C201",
+      "location": "Blavatsky, 1888; Stanzas of Dzyan, cosmogenesis, anthropogenesis, universal mind and cycles",
+      "claim_type": "STATE",
+      "claim": "La obra vincula diferentes estados de conciencia con distintos niveles o etapas de evolución.",
+      "motifs": [
+        "M07",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "27"
+    },
+    {
+      "global_claim_id": "G27-S220-K04",
+      "claim_id": "K04",
+      "source_id": "S220",
+      "corpus_id": "C201",
+      "location": "Blavatsky, 1888; Stanzas of Dzyan, cosmogenesis, anthropogenesis, universal mind and cycles",
+      "claim_type": "TRANSFORMATION",
+      "claim": "La evolución humana es descrita como una secuencia de transformaciones de formas, capacidades y conciencia.",
+      "motifs": [
+        "M12",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "27"
+    },
+    {
+      "global_claim_id": "G27-S220-K05",
+      "claim_id": "K05",
+      "source_id": "S220",
+      "corpus_id": "C201",
+      "location": "Blavatsky, 1888; Stanzas of Dzyan, cosmogenesis, anthropogenesis, universal mind and cycles",
+      "claim_type": "SELF_MODEL",
+      "claim": "El ser humano es presentado como una entidad compleja con dimensiones físicas, psíquicas y espirituales.",
+      "motifs": [
+        "M02",
+        "M08",
+        "M16"
+      ],
+      "provenance": "P2*",
+      "batch": "27"
+    },
+    {
+      "global_claim_id": "G27-S220-K06",
+      "claim_id": "K06",
+      "source_id": "S220",
+      "corpus_id": "C201",
+      "location": "Blavatsky, 1888; Stanzas of Dzyan, cosmogenesis, anthropogenesis, universal mind and cycles",
+      "claim_type": "WORLD_MODEL",
+      "claim": "Cosmos, planeta y ser humano se modelan mediante escalas anidadas de evolución.",
+      "motifs": [
+        "M15",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "27"
+    },
+    {
+      "global_claim_id": "G27-S220-K07",
+      "claim_id": "K07",
+      "source_id": "S220",
+      "corpus_id": "C201",
+      "location": "Blavatsky, 1888; Stanzas of Dzyan, cosmogenesis, anthropogenesis, universal mind and cycles",
+      "claim_type": "RELATION",
+      "claim": "La conciencia humana aparece relacionada con la evolución general de mundos y jerarquías.",
+      "motifs": [
+        "M05",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "27"
+    },
+    {
+      "global_claim_id": "G27-S220-K08",
+      "claim_id": "K08",
+      "source_id": "S220",
+      "corpus_id": "C201",
+      "location": "Blavatsky, 1888; Stanzas of Dzyan, cosmogenesis, anthropogenesis, universal mind and cycles",
+      "claim_type": "TEMPORAL",
+      "claim": "El sistema teosófico emplea enormes ciclos temporales en lugar de una historia lineal corta.",
+      "motifs": [
+        "M11",
+        "M15"
+      ],
+      "provenance": "P2*",
+      "batch": "27"
+    },
+    {
+      "global_claim_id": "G27-S220-K09",
+      "claim_id": "K09",
+      "source_id": "S220",
+      "corpus_id": "C201",
+      "location": "Blavatsky, 1888; Stanzas of Dzyan, cosmogenesis, anthropogenesis, universal mind and cycles",
+      "claim_type": "REFLEXIVITY",
+      "claim": "El estudio de la cosmología pretende también explicar la evolución de la conciencia del propio investigador.",
+      "motifs": [
+        "M02",
+        "M06",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "27"
+    },
+    {
+      "global_claim_id": "G27-S220-K10",
+      "claim_id": "K10",
+      "source_id": "S220",
+      "corpus_id": "C201",
+      "location": "Blavatsky, 1888; Stanzas of Dzyan, cosmogenesis, anthropogenesis, universal mind and cycles",
+      "claim_type": "INEFFABILITY",
+      "claim": "Los estados previos a la manifestación son descritos simbólicamente porque se consideran difíciles de conceptualizar directamente.",
+      "motifs": [
+        "M14",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "27"
+    },
+    {
+      "global_claim_id": "G27-S220-K11",
+      "claim_id": "K11",
+      "source_id": "S220",
+      "corpus_id": "C201",
+      "location": "Blavatsky, 1888; Stanzas of Dzyan, cosmogenesis, anthropogenesis, universal mind and cycles",
+      "claim_type": "ATTENTION",
+      "claim": "La interpretación de las Stanzas requiere una lectura comparativa y simbólica de términos, jerarquías y procesos.",
+      "motifs": [
+        "M06",
+        "M24"
+      ],
+      "provenance": "P2*",
+      "batch": "27"
+    },
+    {
+      "global_claim_id": "G27-S220-K12",
+      "claim_id": "K12",
+      "source_id": "S220",
+      "corpus_id": "C201",
+      "location": "Blavatsky, 1888; Stanzas of Dzyan, cosmogenesis, anthropogenesis, universal mind and cycles",
+      "claim_type": "DEATH",
+      "claim": "La evolución incluye muerte, renovación y paso entre formas como componentes del proceso general.",
+      "motifs": [
+        "M19",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "27"
+    },
+    {
+      "global_claim_id": "G27-S220-K13",
+      "claim_id": "K13",
+      "source_id": "S220",
+      "corpus_id": "C201",
+      "location": "Blavatsky, 1888; Stanzas of Dzyan, cosmogenesis, anthropogenesis, universal mind and cycles",
+      "claim_type": "META",
+      "claim": "The Secret Doctrine es una obra teosófica de 1888; sus cosmologías y afirmaciones evolutivas son doctrinas esotéricas históricas, no resultados empíricos de cosmología o biología.",
+      "motifs": [
+        "M14",
+        "M17",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "27"
+    },
+    {
+      "global_claim_id": "G27-S221-K01",
+      "claim_id": "K01",
+      "source_id": "S221",
+      "corpus_id": "C202",
+      "location": "Blavatsky, 1877; critique of materialism, comparative religion, occult phenomena and spiritual principles",
+      "claim_type": "ONTO",
+      "claim": "Isis Unveiled intenta construir un marco en el que ciencia, religión y filosofía puedan compararse mediante principios espirituales y ocultos.",
+      "motifs": [
+        "M03",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "27"
+    },
+    {
+      "global_claim_id": "G27-S221-K02",
+      "claim_id": "K02",
+      "source_id": "S221",
+      "corpus_id": "C202",
+      "location": "Blavatsky, 1877; critique of materialism, comparative religion, occult phenomena and spiritual principles",
+      "claim_type": "REFLEXIVITY",
+      "claim": "La obra cuestiona supuestos dominantes y pide examinar críticamente los límites de explicaciones exclusivamente materialistas.",
+      "motifs": [
+        "M02",
+        "M06",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "27"
+    },
+    {
+      "global_claim_id": "G27-S221-K03",
+      "claim_id": "K03",
+      "source_id": "S221",
+      "corpus_id": "C202",
+      "location": "Blavatsky, 1877; critique of materialism, comparative religion, occult phenomena and spiritual principles",
+      "claim_type": "SELF_MODEL",
+      "claim": "El ser humano es tratado como algo más complejo que el organismo físico, con dimensiones psíquicas y espirituales.",
+      "motifs": [
+        "M02",
+        "M08",
+        "M16"
+      ],
+      "provenance": "P2*",
+      "batch": "27"
+    },
+    {
+      "global_claim_id": "G27-S221-K04",
+      "claim_id": "K04",
+      "source_id": "S221",
+      "corpus_id": "C202",
+      "location": "Blavatsky, 1877; critique of materialism, comparative religion, occult phenomena and spiritual principles",
+      "claim_type": "STATE",
+      "claim": "La autora distingue estados o capacidades humanas ordinarias de fenómenos y experiencias consideradas ocultas.",
+      "motifs": [
+        "M07",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "27"
+    },
+    {
+      "global_claim_id": "G27-S221-K05",
+      "claim_id": "K05",
+      "source_id": "S221",
+      "corpus_id": "C202",
+      "location": "Blavatsky, 1877; critique of materialism, comparative religion, occult phenomena and spiritual principles",
+      "claim_type": "RELATION",
+      "claim": "Religión, naturaleza y sujeto cognoscente son conectados mediante una interpretación comparativa.",
+      "motifs": [
+        "M05",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "27"
+    },
+    {
+      "global_claim_id": "G27-S221-K06",
+      "claim_id": "K06",
+      "source_id": "S221",
+      "corpus_id": "C202",
+      "location": "Blavatsky, 1877; critique of materialism, comparative religion, occult phenomena and spiritual principles",
+      "claim_type": "TRANSFORMATION",
+      "claim": "El conocimiento de tradiciones ocultas se plantea como una vía para transformar la comprensión de la naturaleza humana.",
+      "motifs": [
+        "M12",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "27"
+    },
+    {
+      "global_claim_id": "G27-S221-K07",
+      "claim_id": "K07",
+      "source_id": "S221",
+      "corpus_id": "C202",
+      "location": "Blavatsky, 1877; critique of materialism, comparative religion, occult phenomena and spiritual principles",
+      "claim_type": "CORRESPONDENCE",
+      "claim": "La comparación de religiones, símbolos y doctrinas busca identificar patrones comunes entre sistemas alejados.",
+      "motifs": [
+        "M18",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "27"
+    },
+    {
+      "global_claim_id": "G27-S221-K08",
+      "claim_id": "K08",
+      "source_id": "S221",
+      "corpus_id": "C202",
+      "location": "Blavatsky, 1877; critique of materialism, comparative religion, occult phenomena and spiritual principles",
+      "claim_type": "VALENCE",
+      "claim": "La crítica a dogmatismo y materialismo se combina con una valoración positiva de búsqueda, conocimiento y libertad intelectual.",
+      "motifs": [
+        "M10",
+        "M12"
+      ],
+      "provenance": "P2*",
+      "batch": "27"
+    },
+    {
+      "global_claim_id": "G27-S221-K09",
+      "claim_id": "K09",
+      "source_id": "S221",
+      "corpus_id": "C202",
+      "location": "Blavatsky, 1877; critique of materialism, comparative religion, occult phenomena and spiritual principles",
+      "claim_type": "ATTENTION",
+      "claim": "La obra exige comparar relatos, doctrinas y testimonios en lugar de aceptar una única tradición como medida universal.",
+      "motifs": [
+        "M06",
+        "M24"
+      ],
+      "provenance": "P2*",
+      "batch": "27"
+    },
+    {
+      "global_claim_id": "G27-S221-K10",
+      "claim_id": "K10",
+      "source_id": "S221",
+      "corpus_id": "C202",
+      "location": "Blavatsky, 1877; critique of materialism, comparative religion, occult phenomena and spiritual principles",
+      "claim_type": "UNITY",
+      "claim": "El proyecto busca una integración de conocimiento religioso, filosófico y natural dentro de un único horizonte interpretativo.",
+      "motifs": [
+        "M03",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "27"
+    },
+    {
+      "global_claim_id": "G27-S221-K11",
+      "claim_id": "K11",
+      "source_id": "S221",
+      "corpus_id": "C202",
+      "location": "Blavatsky, 1877; critique of materialism, comparative religion, occult phenomena and spiritual principles",
+      "claim_type": "DEATH",
+      "claim": "Fenómenos de supervivencia, mediumnidad y continuidad espiritual son discutidos como posibilidades defendidas por la autora.",
+      "motifs": [
+        "M19",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "27"
+    },
+    {
+      "global_claim_id": "G27-S221-K12",
+      "claim_id": "K12",
+      "source_id": "S221",
+      "corpus_id": "C202",
+      "location": "Blavatsky, 1877; critique of materialism, comparative religion, occult phenomena and spiritual principles",
+      "claim_type": "INEFFABILITY",
+      "claim": "Ciertos fenómenos son descritos como difíciles de capturar mediante las categorías ordinarias de la ciencia y la teología.",
+      "motifs": [
+        "M14",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "27"
+    },
+    {
+      "global_claim_id": "G27-S221-K13",
+      "claim_id": "K13",
+      "source_id": "S221",
+      "corpus_id": "C202",
+      "location": "Blavatsky, 1877; critique of materialism, comparative religion, occult phenomena and spiritual principles",
+      "claim_type": "META",
+      "claim": "Isis Unveiled fue publicada en 1877; sus afirmaciones sobre ocultismo y ciencia son posiciones polémicas de Blavatsky y no deben confundirse con consenso científico.",
+      "motifs": [
+        "M14",
+        "M17",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "27"
+    },
+    {
+      "global_claim_id": "G27-S222-K01",
+      "claim_id": "K01",
+      "source_id": "S222",
+      "corpus_id": "C203",
+      "location": "Annie Besant; physical, etheric, astral, mental and higher bodies, consciousness and development",
+      "claim_type": "SELF_MODEL",
+      "claim": "Besant presenta al ser humano como una organización de varios cuerpos o vehículos asociados a distintos niveles de experiencia.",
+      "motifs": [
+        "M02",
+        "M08",
+        "M16"
+      ],
+      "provenance": "P2*",
+      "batch": "27"
+    },
+    {
+      "global_claim_id": "G27-S222-K02",
+      "claim_id": "K02",
+      "source_id": "S222",
+      "corpus_id": "C203",
+      "location": "Annie Besant; physical, etheric, astral, mental and higher bodies, consciousness and development",
+      "claim_type": "STATE",
+      "claim": "Diferentes planos y cuerpos corresponden a distintas modalidades de percepción, emoción, pensamiento y conciencia dentro del sistema teosófico.",
+      "motifs": [
+        "M07",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "27"
+    },
+    {
+      "global_claim_id": "G27-S222-K03",
+      "claim_id": "K03",
+      "source_id": "S222",
+      "corpus_id": "C203",
+      "location": "Annie Besant; physical, etheric, astral, mental and higher bodies, consciousness and development",
+      "claim_type": "EMBODIMENT",
+      "claim": "El cuerpo físico es tratado como uno de varios vehículos, junto con cuerpos etérico, astral y mental.",
+      "motifs": [
+        "M08",
+        "M16"
+      ],
+      "provenance": "P2*",
+      "batch": "27"
+    },
+    {
+      "global_claim_id": "G27-S222-K04",
+      "claim_id": "K04",
+      "source_id": "S222",
+      "corpus_id": "C203",
+      "location": "Annie Besant; physical, etheric, astral, mental and higher bodies, consciousness and development",
+      "claim_type": "TRANSFORMATION",
+      "claim": "El desarrollo implica purificación, educación y progresiva integración de vehículos superiores.",
+      "motifs": [
+        "M12",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "27"
+    },
+    {
+      "global_claim_id": "G27-S222-K05",
+      "claim_id": "K05",
+      "source_id": "S222",
+      "corpus_id": "C203",
+      "location": "Annie Besant; physical, etheric, astral, mental and higher bodies, consciousness and development",
+      "claim_type": "ATTENTION",
+      "claim": "La observación de pensamientos, deseos y sensaciones sirve para distinguir funciones de diferentes vehículos.",
+      "motifs": [
+        "M06",
+        "M24"
+      ],
+      "provenance": "P2*",
+      "batch": "27"
+    },
+    {
+      "global_claim_id": "G27-S222-K06",
+      "claim_id": "K06",
+      "source_id": "S222",
+      "corpus_id": "C203",
+      "location": "Annie Besant; physical, etheric, astral, mental and higher bodies, consciousness and development",
+      "claim_type": "RELATION",
+      "claim": "Los cuerpos funcionan como interfaces entre el individuo y distintos ambientes o planos.",
+      "motifs": [
+        "M05",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "27"
+    },
+    {
+      "global_claim_id": "G27-S222-K07",
+      "claim_id": "K07",
+      "source_id": "S222",
+      "corpus_id": "C203",
+      "location": "Annie Besant; physical, etheric, astral, mental and higher bodies, consciousness and development",
+      "claim_type": "TEMPORAL",
+      "claim": "La evolución de la conciencia se representa como desarrollo gradual a través de la vida y procesos posteriores.",
+      "motifs": [
+        "M11",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "27"
+    },
+    {
+      "global_claim_id": "G27-S222-K08",
+      "claim_id": "K08",
+      "source_id": "S222",
+      "corpus_id": "C203",
+      "location": "Annie Besant; physical, etheric, astral, mental and higher bodies, consciousness and development",
+      "claim_type": "VALENCE",
+      "claim": "Purificación y dominio de deseos se presentan como condiciones para una conciencia más refinada.",
+      "motifs": [
+        "M10",
+        "M12"
+      ],
+      "provenance": "P2*",
+      "batch": "27"
+    },
+    {
+      "global_claim_id": "G27-S222-K09",
+      "claim_id": "K09",
+      "source_id": "S222",
+      "corpus_id": "C203",
+      "location": "Annie Besant; physical, etheric, astral, mental and higher bodies, consciousness and development",
+      "claim_type": "PERSISTENCE",
+      "claim": "La continuidad de la persona se describe como más amplia que la permanencia del cuerpo físico.",
+      "motifs": [
+        "M19",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "27"
+    },
+    {
+      "global_claim_id": "G27-S222-K10",
+      "claim_id": "K10",
+      "source_id": "S222",
+      "corpus_id": "C203",
+      "location": "Annie Besant; physical, etheric, astral, mental and higher bodies, consciousness and development",
+      "claim_type": "UNITY",
+      "claim": "Aunque se distinguen vehículos, todos forman una arquitectura coordinada del ser humano.",
+      "motifs": [
+        "M03",
+        "M08"
+      ],
+      "provenance": "P2*",
+      "batch": "27"
+    },
+    {
+      "global_claim_id": "G27-S222-K11",
+      "claim_id": "K11",
+      "source_id": "S222",
+      "corpus_id": "C203",
+      "location": "Annie Besant; physical, etheric, astral, mental and higher bodies, consciousness and development",
+      "claim_type": "REFLEXIVITY",
+      "claim": "El estudiante debe observar qué facultad o cuerpo está operando para comprender su propia experiencia.",
+      "motifs": [
+        "M02",
+        "M06",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "27"
+    },
+    {
+      "global_claim_id": "G27-S222-K12",
+      "claim_id": "K12",
+      "source_id": "S222",
+      "corpus_id": "C203",
+      "location": "Annie Besant; physical, etheric, astral, mental and higher bodies, consciousness and development",
+      "claim_type": "PRACTICE",
+      "claim": "El estudio, autocontrol y entrenamiento son presentados como medios para desarrollar capacidades superiores.",
+      "motifs": [
+        "M24",
+        "M25"
+      ],
+      "provenance": "P2*",
+      "batch": "27"
+    },
+    {
+      "global_claim_id": "G27-S222-K13",
+      "claim_id": "K13",
+      "source_id": "S222",
+      "corpus_id": "C203",
+      "location": "Annie Besant; physical, etheric, astral, mental and higher bodies, consciousness and development",
+      "claim_type": "META",
+      "claim": "Man and His Bodies es un manual teosófico moderno; sus 'cuerpos' son categorías esotéricas históricas, no estructuras anatómicas establecidas científicamente.",
+      "motifs": [
+        "M14",
+        "M17",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "27"
+    },
+    {
+      "global_claim_id": "G27-S223-K01",
+      "claim_id": "K01",
+      "source_id": "S223",
+      "corpus_id": "C204",
+      "location": "Annie Besant; occult training, consciousness, planes, intuition, dreams and spiritual development",
+      "claim_type": "INTERIORITY",
+      "claim": "La vida interior se presenta como un campo de experiencias, percepciones y disciplinas distinto de la actividad exterior ordinaria.",
+      "motifs": [
+        "M02",
+        "M07"
+      ],
+      "provenance": "P2*",
+      "batch": "27"
+    },
+    {
+      "global_claim_id": "G27-S223-K02",
+      "claim_id": "K02",
+      "source_id": "S223",
+      "corpus_id": "C204",
+      "location": "Annie Besant; occult training, consciousness, planes, intuition, dreams and spiritual development",
+      "claim_type": "STATE",
+      "claim": "Sueño, meditación, intuición y percepción subjetiva son diferenciados como estados o modalidades de experiencia.",
+      "motifs": [
+        "M07",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "27"
+    },
+    {
+      "global_claim_id": "G27-S223-K03",
+      "claim_id": "K03",
+      "source_id": "S223",
+      "corpus_id": "C204",
+      "location": "Annie Besant; occult training, consciousness, planes, intuition, dreams and spiritual development",
+      "claim_type": "PRACTICE",
+      "claim": "Entrenamiento, meditación y vigilancia del pensamiento forman parte del desarrollo ocultista descrito por Besant.",
+      "motifs": [
+        "M24",
+        "M25"
+      ],
+      "provenance": "P2*",
+      "batch": "27"
+    },
+    {
+      "global_claim_id": "G27-S223-K04",
+      "claim_id": "K04",
+      "source_id": "S223",
+      "corpus_id": "C204",
+      "location": "Annie Besant; occult training, consciousness, planes, intuition, dreams and spiritual development",
+      "claim_type": "REFLEXIVITY",
+      "claim": "El practicante debe observar sus propios pensamientos, emociones y motivaciones para comprender su progreso.",
+      "motifs": [
+        "M02",
+        "M06",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "27"
+    },
+    {
+      "global_claim_id": "G27-S223-K05",
+      "claim_id": "K05",
+      "source_id": "S223",
+      "corpus_id": "C204",
+      "location": "Annie Besant; occult training, consciousness, planes, intuition, dreams and spiritual development",
+      "claim_type": "TRANSFORMATION",
+      "claim": "El desarrollo espiritual requiere una modificación sostenida de hábitos, sensibilidad y orientación de la conciencia.",
+      "motifs": [
+        "M12",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "27"
+    },
+    {
+      "global_claim_id": "G27-S223-K06",
+      "claim_id": "K06",
+      "source_id": "S223",
+      "corpus_id": "C204",
+      "location": "Annie Besant; occult training, consciousness, planes, intuition, dreams and spiritual development",
+      "claim_type": "RELATION",
+      "claim": "La persona se entiende en relación con ambientes y planos que la teosofía describe como niveles de vida y conciencia.",
+      "motifs": [
+        "M05",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "27"
+    },
+    {
+      "global_claim_id": "G27-S223-K07",
+      "claim_id": "K07",
+      "source_id": "S223",
+      "corpus_id": "C204",
+      "location": "Annie Besant; occult training, consciousness, planes, intuition, dreams and spiritual development",
+      "claim_type": "SELF_MODEL",
+      "claim": "Besant distingue facultades y vehículos de conciencia para explicar variaciones en experiencia y desarrollo.",
+      "motifs": [
+        "M02",
+        "M08",
+        "M16"
+      ],
+      "provenance": "P2*",
+      "batch": "27"
+    },
+    {
+      "global_claim_id": "G27-S223-K08",
+      "claim_id": "K08",
+      "source_id": "S223",
+      "corpus_id": "C204",
+      "location": "Annie Besant; occult training, consciousness, planes, intuition, dreams and spiritual development",
+      "claim_type": "TEMPORAL",
+      "claim": "El desarrollo es acumulativo y se extiende más allá de episodios aislados de experiencia.",
+      "motifs": [
+        "M11",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "27"
+    },
+    {
+      "global_claim_id": "G27-S223-K09",
+      "claim_id": "K09",
+      "source_id": "S223",
+      "corpus_id": "C204",
+      "location": "Annie Besant; occult training, consciousness, planes, intuition, dreams and spiritual development",
+      "claim_type": "ATTENTION",
+      "claim": "La atención dirigida aparece como condición para observar y entrenar aspectos sutiles de la experiencia.",
+      "motifs": [
+        "M06",
+        "M24"
+      ],
+      "provenance": "P2*",
+      "batch": "27"
+    },
+    {
+      "global_claim_id": "G27-S223-K10",
+      "claim_id": "K10",
+      "source_id": "S223",
+      "corpus_id": "C204",
+      "location": "Annie Besant; occult training, consciousness, planes, intuition, dreams and spiritual development",
+      "claim_type": "VALENCE",
+      "claim": "Autocontrol, servicio y orientación impersonal reciben un valor superior al interés meramente personal.",
+      "motifs": [
+        "M10",
+        "M12"
+      ],
+      "provenance": "P2*",
+      "batch": "27"
+    },
+    {
+      "global_claim_id": "G27-S223-K11",
+      "claim_id": "K11",
+      "source_id": "S223",
+      "corpus_id": "C204",
+      "location": "Annie Besant; occult training, consciousness, planes, intuition, dreams and spiritual development",
+      "claim_type": "PERSISTENCE",
+      "claim": "La vida de conciencia se representa como continua a través de estados que no coinciden completamente con la vigilia corporal.",
+      "motifs": [
+        "M19",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "27"
+    },
+    {
+      "global_claim_id": "G27-S223-K12",
+      "claim_id": "K12",
+      "source_id": "S223",
+      "corpus_id": "C204",
+      "location": "Annie Besant; occult training, consciousness, planes, intuition, dreams and spiritual development",
+      "claim_type": "INEFFABILITY",
+      "claim": "Algunas experiencias internas se consideran difíciles de traducir a lenguaje ordinario y requieren analogía.",
+      "motifs": [
+        "M14",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "27"
+    },
+    {
+      "global_claim_id": "G27-S223-K13",
+      "claim_id": "K13",
+      "source_id": "S223",
+      "corpus_id": "C204",
+      "location": "Annie Besant; occult training, consciousness, planes, intuition, dreams and spiritual development",
+      "claim_type": "META",
+      "claim": "The Inner Life debe leerse como manual teosófico de entrenamiento y fenomenología espiritual histórica, no como una taxonomía científica validada de estados mentales.",
+      "motifs": [
+        "M14",
+        "M17",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "27"
+    },
+    {
+      "global_claim_id": "G27-S224-K01",
+      "claim_id": "K01",
+      "source_id": "S224",
+      "corpus_id": "C205",
+      "location": "Liber AL vel Legis; will, love, individual law, consciousness and transformation",
+      "claim_type": "SELF_MODEL",
+      "claim": "La obra centra la vida espiritual en una forma radical de individualidad orientada por una voluntad propia.",
+      "motifs": [
+        "M02",
+        "M16"
+      ],
+      "provenance": "P2*",
+      "batch": "27"
+    },
+    {
+      "global_claim_id": "G27-S224-K02",
+      "claim_id": "K02",
+      "source_id": "S224",
+      "corpus_id": "C205",
+      "location": "Liber AL vel Legis; will, love, individual law, consciousness and transformation",
+      "claim_type": "VALENCE",
+      "claim": "Will y love funcionan como principios normativos centrales de la vida thelémica.",
+      "motifs": [
+        "M10",
+        "M12"
+      ],
+      "provenance": "P2*",
+      "batch": "27"
+    },
+    {
+      "global_claim_id": "G27-S224-K03",
+      "claim_id": "K03",
+      "source_id": "S224",
+      "corpus_id": "C205",
+      "location": "Liber AL vel Legis; will, love, individual law, consciousness and transformation",
+      "claim_type": "TRANSFORMATION",
+      "claim": "La persona ideal debe descubrir y realizar su verdadera voluntad en lugar de vivir según imposiciones externas.",
+      "motifs": [
+        "M12",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "27"
+    },
+    {
+      "global_claim_id": "G27-S224-K04",
+      "claim_id": "K04",
+      "source_id": "S224",
+      "corpus_id": "C205",
+      "location": "Liber AL vel Legis; will, love, individual law, consciousness and transformation",
+      "claim_type": "RELATION",
+      "claim": "El individuo se define simultáneamente como autónomo y situado dentro de una cosmología simbólica de Nuit, Hadit y Ra-Hoor-Khuit.",
+      "motifs": [
+        "M05",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "27"
+    },
+    {
+      "global_claim_id": "G27-S224-K05",
+      "claim_id": "K05",
+      "source_id": "S224",
+      "corpus_id": "C205",
+      "location": "Liber AL vel Legis; will, love, individual law, consciousness and transformation",
+      "claim_type": "UNITY",
+      "claim": "El texto intenta reunir voluntad, amor y conocimiento en una arquitectura espiritual integrada.",
+      "motifs": [
+        "M03",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "27"
+    },
+    {
+      "global_claim_id": "G27-S224-K06",
+      "claim_id": "K06",
+      "source_id": "S224",
+      "corpus_id": "C205",
+      "location": "Liber AL vel Legis; will, love, individual law, consciousness and transformation",
+      "claim_type": "STATE",
+      "claim": "La identidad y experiencia del practicante se transforman mediante iniciación y reinterpretación de valores ordinarios.",
+      "motifs": [
+        "M07",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "27"
+    },
+    {
+      "global_claim_id": "G27-S224-K07",
+      "claim_id": "K07",
+      "source_id": "S224",
+      "corpus_id": "C205",
+      "location": "Liber AL vel Legis; will, love, individual law, consciousness and transformation",
+      "claim_type": "PRACTICE",
+      "claim": "La obra se convirtió en texto central para prácticas e interpretaciones posteriores de Thelema.",
+      "motifs": [
+        "M24",
+        "M25"
+      ],
+      "provenance": "P2*",
+      "batch": "27"
+    },
+    {
+      "global_claim_id": "G27-S224-K08",
+      "claim_id": "K08",
+      "source_id": "S224",
+      "corpus_id": "C205",
+      "location": "Liber AL vel Legis; will, love, individual law, consciousness and transformation",
+      "claim_type": "REFLEXIVITY",
+      "claim": "El practicante debe interpretar su vida a partir de la idea de una voluntad auténtica, examinando sus motivaciones.",
+      "motifs": [
+        "M02",
+        "M06",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "27"
+    },
+    {
+      "global_claim_id": "G27-S224-K09",
+      "claim_id": "K09",
+      "source_id": "S224",
+      "corpus_id": "C205",
+      "location": "Liber AL vel Legis; will, love, individual law, consciousness and transformation",
+      "claim_type": "ATTENTION",
+      "claim": "La lectura del texto requiere distinguir voz revelatoria, simbolismo y aplicación individual.",
+      "motifs": [
+        "M06",
+        "M24"
+      ],
+      "provenance": "P2*",
+      "batch": "27"
+    },
+    {
+      "global_claim_id": "G27-S224-K10",
+      "claim_id": "K10",
+      "source_id": "S224",
+      "corpus_id": "C205",
+      "location": "Liber AL vel Legis; will, love, individual law, consciousness and transformation",
+      "claim_type": "TEMPORAL",
+      "claim": "El texto presenta un cambio de aeón y una reorganización histórica de valores espirituales.",
+      "motifs": [
+        "M11",
+        "M12"
+      ],
+      "provenance": "P2*",
+      "batch": "27"
+    },
+    {
+      "global_claim_id": "G27-S224-K11",
+      "claim_id": "K11",
+      "source_id": "S224",
+      "corpus_id": "C205",
+      "location": "Liber AL vel Legis; will, love, individual law, consciousness and transformation",
+      "claim_type": "EMBODIMENT",
+      "claim": "Deseo, cuerpo y acción aparecen integrados en una concepción donde la vida encarnada participa del propósito espiritual.",
+      "motifs": [
+        "M08",
+        "M16"
+      ],
+      "provenance": "P2*",
+      "batch": "27"
+    },
+    {
+      "global_claim_id": "G27-S224-K12",
+      "claim_id": "K12",
+      "source_id": "S224",
+      "corpus_id": "C205",
+      "location": "Liber AL vel Legis; will, love, individual law, consciousness and transformation",
+      "claim_type": "INEFFABILITY",
+      "claim": "Sus voces y símbolos rituales son construidos para mantener múltiples niveles de interpretación.",
+      "motifs": [
+        "M14",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "27"
+    },
+    {
+      "global_claim_id": "G27-S224-K13",
+      "claim_id": "K13",
+      "source_id": "S224",
+      "corpus_id": "C205",
+      "location": "Liber AL vel Legis; will, love, individual law, consciousness and transformation",
+      "claim_type": "META",
+      "claim": "Liber AL es un texto central del sistema religioso/esotérico de Thelema; sus afirmaciones metafísicas son históricas y doctrinales, no hechos empíricos establecidos.",
+      "motifs": [
+        "M14",
+        "M17",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "27"
+    },
+    {
+      "global_claim_id": "G27-S225-K01",
+      "claim_id": "K01",
+      "source_id": "S225",
+      "corpus_id": "C206",
+      "location": "Aleister Crowley; tables of magical correspondences, Qabalah, planets, elements, numbers and faculties",
+      "claim_type": "CORRESPONDENCE",
+      "claim": "777 organiza una tabla extensiva que relaciona dioses, planetas, colores, perfumes, plantas, piedras y facultades humanas con el Árbol de la Vida.",
+      "motifs": [
+        "M18",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "27"
+    },
+    {
+      "global_claim_id": "G27-S225-K02",
+      "claim_id": "K02",
+      "source_id": "S225",
+      "corpus_id": "C206",
+      "location": "Aleister Crowley; tables of magical correspondences, Qabalah, planets, elements, numbers and faculties",
+      "claim_type": "UNITY",
+      "claim": "El sistema intenta reunir dominios muy diferentes dentro de una gramática simbólica común.",
+      "motifs": [
+        "M03",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "27"
+    },
+    {
+      "global_claim_id": "G27-S225-K03",
+      "claim_id": "K03",
+      "source_id": "S225",
+      "corpus_id": "C206",
+      "location": "Aleister Crowley; tables of magical correspondences, Qabalah, planets, elements, numbers and faculties",
+      "claim_type": "SELF_MODEL",
+      "claim": "Las facultades humanas aparecen como un dominio más dentro de una red que también incluye elementos y símbolos cósmicos.",
+      "motifs": [
+        "M02",
+        "M18"
+      ],
+      "provenance": "P2*",
+      "batch": "27"
+    },
+    {
+      "global_claim_id": "G27-S225-K04",
+      "claim_id": "K04",
+      "source_id": "S225",
+      "corpus_id": "C206",
+      "location": "Aleister Crowley; tables of magical correspondences, Qabalah, planets, elements, numbers and faculties",
+      "claim_type": "WORLD_MODEL",
+      "claim": "Planetas, signos, elementos y sefirot forman un mapa simbólico del mundo dentro de la Qabalah hermética.",
+      "motifs": [
+        "M15",
+        "M18",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "27"
+    },
+    {
+      "global_claim_id": "G27-S225-K05",
+      "claim_id": "K05",
+      "source_id": "S225",
+      "corpus_id": "C206",
+      "location": "Aleister Crowley; tables of magical correspondences, Qabalah, planets, elements, numbers and faculties",
+      "claim_type": "STATE",
+      "claim": "Las correspondencias permiten describir estados o funciones simbólicas del practicante mediante combinaciones de atributos.",
+      "motifs": [
+        "M07",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "27"
+    },
+    {
+      "global_claim_id": "G27-S225-K06",
+      "claim_id": "K06",
+      "source_id": "S225",
+      "corpus_id": "C206",
+      "location": "Aleister Crowley; tables of magical correspondences, Qabalah, planets, elements, numbers and faculties",
+      "claim_type": "PRACTICE",
+      "claim": "Las tablas están diseñadas como referencia para construcción ritual y asociación de símbolos.",
+      "motifs": [
+        "M24",
+        "M25"
+      ],
+      "provenance": "P2*",
+      "batch": "27"
+    },
+    {
+      "global_claim_id": "G27-S225-K07",
+      "claim_id": "K07",
+      "source_id": "S225",
+      "corpus_id": "C206",
+      "location": "Aleister Crowley; tables of magical correspondences, Qabalah, planets, elements, numbers and faculties",
+      "claim_type": "ATTENTION",
+      "claim": "El valor operativo del sistema depende de seleccionar con precisión la correspondencia adecuada para cada contexto.",
+      "motifs": [
+        "M06",
+        "M24"
+      ],
+      "provenance": "P2*",
+      "batch": "27"
+    },
+    {
+      "global_claim_id": "G27-S225-K08",
+      "claim_id": "K08",
+      "source_id": "S225",
+      "corpus_id": "C206",
+      "location": "Aleister Crowley; tables of magical correspondences, Qabalah, planets, elements, numbers and faculties",
+      "claim_type": "TRANSFORMATION",
+      "claim": "La combinación de correspondencias se propone como herramienta para modificar la orientación y práctica ritual del operador.",
+      "motifs": [
+        "M12",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "27"
+    },
+    {
+      "global_claim_id": "G27-S225-K09",
+      "claim_id": "K09",
+      "source_id": "S225",
+      "corpus_id": "C206",
+      "location": "Aleister Crowley; tables of magical correspondences, Qabalah, planets, elements, numbers and faculties",
+      "claim_type": "RELATION",
+      "claim": "El mago ocupa una posición de mediador que conecta símbolos humanos, naturales, planetarios y divinos.",
+      "motifs": [
+        "M05",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "27"
+    },
+    {
+      "global_claim_id": "G27-S225-K10",
+      "claim_id": "K10",
+      "source_id": "S225",
+      "corpus_id": "C206",
+      "location": "Aleister Crowley; tables of magical correspondences, Qabalah, planets, elements, numbers and faculties",
+      "claim_type": "TEMPORAL",
+      "claim": "Los ciclos planetarios y calendáricos introducen una dimensión temporal en la red de correspondencias.",
+      "motifs": [
+        "M11",
+        "M15"
+      ],
+      "provenance": "P2*",
+      "batch": "27"
+    },
+    {
+      "global_claim_id": "G27-S225-K11",
+      "claim_id": "K11",
+      "source_id": "S225",
+      "corpus_id": "C206",
+      "location": "Aleister Crowley; tables of magical correspondences, Qabalah, planets, elements, numbers and faculties",
+      "claim_type": "VALENCE",
+      "claim": "Los sistemas de correspondencia clasifican cualidades y asociaciones según funciones simbólicas positivas o negativas.",
+      "motifs": [
+        "M10",
+        "M18"
+      ],
+      "provenance": "P2*",
+      "batch": "27"
+    },
+    {
+      "global_claim_id": "G27-S225-K12",
+      "claim_id": "K12",
+      "source_id": "S225",
+      "corpus_id": "C206",
+      "location": "Aleister Crowley; tables of magical correspondences, Qabalah, planets, elements, numbers and faculties",
+      "claim_type": "REFLEXIVITY",
+      "claim": "El operador puede usar la tabla para mapear su propia experiencia simbólica y disciplina interior.",
+      "motifs": [
+        "M02",
+        "M06",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "27"
+    },
+    {
+      "global_claim_id": "G27-S225-K13",
+      "claim_id": "K13",
+      "source_id": "S225",
+      "corpus_id": "C206",
+      "location": "Aleister Crowley; tables of magical correspondences, Qabalah, planets, elements, numbers and faculties",
+      "claim_type": "META",
+      "claim": "777 es una obra de Qabalah hermética y magia ceremonial; sus correspondencias son un sistema simbólico histórico, no una taxonomía causal científicamente validada.",
+      "motifs": [
+        "M14",
+        "M17",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "27"
+    },
+    {
+      "global_claim_id": "G27-S226-K01",
+      "claim_id": "K01",
+      "source_id": "S226",
+      "corpus_id": "C207",
+      "location": "Dion Fortune; Tree of Life, spheres, paths, polarity, psychology and Western mystery tradition",
+      "claim_type": "WORLD_MODEL",
+      "claim": "El Árbol de la Vida funciona como mapa estructural de distintos aspectos de experiencia, cosmología y desarrollo espiritual.",
+      "motifs": [
+        "M15",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "27"
+    },
+    {
+      "global_claim_id": "G27-S226-K02",
+      "claim_id": "K02",
+      "source_id": "S226",
+      "corpus_id": "C207",
+      "location": "Dion Fortune; Tree of Life, spheres, paths, polarity, psychology and Western mystery tradition",
+      "claim_type": "SELF_MODEL",
+      "claim": "La psicología humana se interpreta mediante relaciones entre esferas y caminos del Árbol.",
+      "motifs": [
+        "M02",
+        "M16"
+      ],
+      "provenance": "P2*",
+      "batch": "27"
+    },
+    {
+      "global_claim_id": "G27-S226-K03",
+      "claim_id": "K03",
+      "source_id": "S226",
+      "corpus_id": "C207",
+      "location": "Dion Fortune; Tree of Life, spheres, paths, polarity, psychology and Western mystery tradition",
+      "claim_type": "STATE",
+      "claim": "Las sefirot y senderos permiten distinguir grados, funciones y condiciones de desarrollo interior.",
+      "motifs": [
+        "M07",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "27"
+    },
+    {
+      "global_claim_id": "G27-S226-K04",
+      "claim_id": "K04",
+      "source_id": "S226",
+      "corpus_id": "C207",
+      "location": "Dion Fortune; Tree of Life, spheres, paths, polarity, psychology and Western mystery tradition",
+      "claim_type": "CORRESPONDENCE",
+      "claim": "Astrología, tarot y otros símbolos son articulados mediante el Árbol como una red de correspondencias.",
+      "motifs": [
+        "M18",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "27"
+    },
+    {
+      "global_claim_id": "G27-S226-K05",
+      "claim_id": "K05",
+      "source_id": "S226",
+      "corpus_id": "C207",
+      "location": "Dion Fortune; Tree of Life, spheres, paths, polarity, psychology and Western mystery tradition",
+      "claim_type": "TRANSFORMATION",
+      "claim": "El estudio y trabajo con el Árbol se presenta como herramienta para desarrollo psicológico y espiritual.",
+      "motifs": [
+        "M12",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "27"
+    },
+    {
+      "global_claim_id": "G27-S226-K06",
+      "claim_id": "K06",
+      "source_id": "S226",
+      "corpus_id": "C207",
+      "location": "Dion Fortune; Tree of Life, spheres, paths, polarity, psychology and Western mystery tradition",
+      "claim_type": "PRACTICE",
+      "claim": "Meditación, imaginación simbólica y estudio de correspondencias forman parte del trabajo práctico propuesto.",
+      "motifs": [
+        "M24",
+        "M25"
+      ],
+      "provenance": "P2*",
+      "batch": "27"
+    },
+    {
+      "global_claim_id": "G27-S226-K07",
+      "claim_id": "K07",
+      "source_id": "S226",
+      "corpus_id": "C207",
+      "location": "Dion Fortune; Tree of Life, spheres, paths, polarity, psychology and Western mystery tradition",
+      "claim_type": "ATTENTION",
+      "claim": "La lectura de símbolos exige atención sostenida a relaciones, polaridades y posiciones dentro del esquema.",
+      "motifs": [
+        "M06",
+        "M24"
+      ],
+      "provenance": "P2*",
+      "batch": "27"
+    },
+    {
+      "global_claim_id": "G27-S226-K08",
+      "claim_id": "K08",
+      "source_id": "S226",
+      "corpus_id": "C207",
+      "location": "Dion Fortune; Tree of Life, spheres, paths, polarity, psychology and Western mystery tradition",
+      "claim_type": "RELATION",
+      "claim": "La persona se interpreta como participante en redes simbólicas mayores que ella misma.",
+      "motifs": [
+        "M05",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "27"
+    },
+    {
+      "global_claim_id": "G27-S226-K09",
+      "claim_id": "K09",
+      "source_id": "S226",
+      "corpus_id": "C207",
+      "location": "Dion Fortune; Tree of Life, spheres, paths, polarity, psychology and Western mystery tradition",
+      "claim_type": "UNITY",
+      "claim": "El Árbol pretende integrar psicología, cosmología y simbolismo religioso en una estructura única.",
+      "motifs": [
+        "M03",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "27"
+    },
+    {
+      "global_claim_id": "G27-S226-K10",
+      "claim_id": "K10",
+      "source_id": "S226",
+      "corpus_id": "C207",
+      "location": "Dion Fortune; Tree of Life, spheres, paths, polarity, psychology and Western mystery tradition",
+      "claim_type": "VALENCE",
+      "claim": "Equilibrio entre polaridades y correcta orientación de las fuerzas se presenta como condición de desarrollo.",
+      "motifs": [
+        "M10",
+        "M12"
+      ],
+      "provenance": "P2*",
+      "batch": "27"
+    },
+    {
+      "global_claim_id": "G27-S226-K11",
+      "claim_id": "K11",
+      "source_id": "S226",
+      "corpus_id": "C207",
+      "location": "Dion Fortune; Tree of Life, spheres, paths, polarity, psychology and Western mystery tradition",
+      "claim_type": "INTERIORITY",
+      "claim": "El mapa externo de las sefirot se usa como lenguaje para organizar procesos internos del practicante.",
+      "motifs": [
+        "M02",
+        "M18"
+      ],
+      "provenance": "P2*",
+      "batch": "27"
+    },
+    {
+      "global_claim_id": "G27-S226-K12",
+      "claim_id": "K12",
+      "source_id": "S226",
+      "corpus_id": "C207",
+      "location": "Dion Fortune; Tree of Life, spheres, paths, polarity, psychology and Western mystery tradition",
+      "claim_type": "TEMPORAL",
+      "claim": "El desarrollo del estudiante se presenta como recorrido por etapas y niveles de comprensión.",
+      "motifs": [
+        "M11",
+        "M12"
+      ],
+      "provenance": "P2*",
+      "batch": "27"
+    },
+    {
+      "global_claim_id": "G27-S226-K13",
+      "claim_id": "K13",
+      "source_id": "S226",
+      "corpus_id": "C207",
+      "location": "Dion Fortune; Tree of Life, spheres, paths, polarity, psychology and Western mystery tradition",
+      "claim_type": "META",
+      "claim": "The Mystical Qabalah es una reinterpretación occidental del Árbol de la Vida y no debe confundirse con una representación histórica directa de la Kabbalah judía clásica.",
+      "motifs": [
+        "M14",
+        "M17",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "27"
+    },
+    {
+      "global_claim_id": "G27-S227-K01",
+      "claim_id": "K01",
+      "source_id": "S227",
+      "corpus_id": "C209",
+      "location": "Rudolf Steiner; supersensible knowledge, human constitution, evolution, sleep, death and initiation",
+      "claim_type": "SELF_MODEL",
+      "claim": "Steiner presenta al ser humano mediante una constitución diferenciada que incluye cuerpo, alma y espíritu.",
+      "motifs": [
+        "M02",
+        "M08",
+        "M16"
+      ],
+      "provenance": "P2*",
+      "batch": "27"
+    },
+    {
+      "global_claim_id": "G27-S227-K02",
+      "claim_id": "K02",
+      "source_id": "S227",
+      "corpus_id": "C209",
+      "location": "Rudolf Steiner; supersensible knowledge, human constitution, evolution, sleep, death and initiation",
+      "claim_type": "STATE",
+      "claim": "Sueño, vigilia, muerte y experiencias de conocimiento suprasensible son tratados como configuraciones diferentes de la relación entre componentes humanos.",
+      "motifs": [
+        "M07",
+        "M19",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "27"
+    },
+    {
+      "global_claim_id": "G27-S227-K03",
+      "claim_id": "K03",
+      "source_id": "S227",
+      "corpus_id": "C209",
+      "location": "Rudolf Steiner; supersensible knowledge, human constitution, evolution, sleep, death and initiation",
+      "claim_type": "TRANSFORMATION",
+      "claim": "La iniciación se describe como desarrollo deliberado de capacidades de percepción y conocimiento suprasensible.",
+      "motifs": [
+        "M12",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "27"
+    },
+    {
+      "global_claim_id": "G27-S227-K04",
+      "claim_id": "K04",
+      "source_id": "S227",
+      "corpus_id": "C209",
+      "location": "Rudolf Steiner; supersensible knowledge, human constitution, evolution, sleep, death and initiation",
+      "claim_type": "PRACTICE",
+      "claim": "El entrenamiento meditativo, concentración y disciplina moral forman parte del camino de conocimiento espiritual.",
+      "motifs": [
+        "M24",
+        "M25"
+      ],
+      "provenance": "P2*",
+      "batch": "27"
+    },
+    {
+      "global_claim_id": "G27-S227-K05",
+      "claim_id": "K05",
+      "source_id": "S227",
+      "corpus_id": "C209",
+      "location": "Rudolf Steiner; supersensible knowledge, human constitution, evolution, sleep, death and initiation",
+      "claim_type": "REFLEXIVITY",
+      "claim": "El investigador debe entrenar la atención sobre sus propios procesos interiores para estudiar lo suprasensible.",
+      "motifs": [
+        "M02",
+        "M06",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "27"
+    },
+    {
+      "global_claim_id": "G27-S227-K06",
+      "claim_id": "K06",
+      "source_id": "S227",
+      "corpus_id": "C209",
+      "location": "Rudolf Steiner; supersensible knowledge, human constitution, evolution, sleep, death and initiation",
+      "claim_type": "WORLD_MODEL",
+      "claim": "La evolución humana se sitúa dentro de una evolución cósmica y planetaria más amplia.",
+      "motifs": [
+        "M15",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "27"
+    },
+    {
+      "global_claim_id": "G27-S227-K07",
+      "claim_id": "K07",
+      "source_id": "S227",
+      "corpus_id": "C209",
+      "location": "Rudolf Steiner; supersensible knowledge, human constitution, evolution, sleep, death and initiation",
+      "claim_type": "TEMPORAL",
+      "claim": "La evolución se concibe como un proceso prolongado con etapas sucesivas de desarrollo humano y cósmico.",
+      "motifs": [
+        "M11",
+        "M15"
+      ],
+      "provenance": "P2*",
+      "batch": "27"
+    },
+    {
+      "global_claim_id": "G27-S227-K08",
+      "claim_id": "K08",
+      "source_id": "S227",
+      "corpus_id": "C209",
+      "location": "Rudolf Steiner; supersensible knowledge, human constitution, evolution, sleep, death and initiation",
+      "claim_type": "PERSISTENCE",
+      "claim": "La muerte es tratada como una transición dentro de una continuidad del ser humano, no como simple extinción.",
+      "motifs": [
+        "M19",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "27"
+    },
+    {
+      "global_claim_id": "G27-S227-K09",
+      "claim_id": "K09",
+      "source_id": "S227",
+      "corpus_id": "C209",
+      "location": "Rudolf Steiner; supersensible knowledge, human constitution, evolution, sleep, death and initiation",
+      "claim_type": "RELATION",
+      "claim": "La vida humana está conectada con entidades, mundos y procesos cósmicos dentro del modelo antroposófico.",
+      "motifs": [
+        "M05",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "27"
+    },
+    {
+      "global_claim_id": "G27-S227-K10",
+      "claim_id": "K10",
+      "source_id": "S227",
+      "corpus_id": "C209",
+      "location": "Rudolf Steiner; supersensible knowledge, human constitution, evolution, sleep, death and initiation",
+      "claim_type": "VALENCE",
+      "claim": "Disciplina, claridad moral y responsabilidad son condiciones para un conocimiento espiritual válido dentro del sistema.",
+      "motifs": [
+        "M10",
+        "M12"
+      ],
+      "provenance": "P2*",
+      "batch": "27"
+    },
+    {
+      "global_claim_id": "G27-S227-K11",
+      "claim_id": "K11",
+      "source_id": "S227",
+      "corpus_id": "C209",
+      "location": "Rudolf Steiner; supersensible knowledge, human constitution, evolution, sleep, death and initiation",
+      "claim_type": "ATTENTION",
+      "claim": "La concentración sostenida se considera una capacidad entrenable para el desarrollo del conocimiento suprasensible.",
+      "motifs": [
+        "M06",
+        "M24"
+      ],
+      "provenance": "P2*",
+      "batch": "27"
+    },
+    {
+      "global_claim_id": "G27-S227-K12",
+      "claim_id": "K12",
+      "source_id": "S227",
+      "corpus_id": "C209",
+      "location": "Rudolf Steiner; supersensible knowledge, human constitution, evolution, sleep, death and initiation",
+      "claim_type": "INTERIORITY",
+      "claim": "La experiencia interna es el campo inicial donde el estudiante desarrolla capacidades de conocimiento.",
+      "motifs": [
+        "M01",
+        "M02"
+      ],
+      "provenance": "P2*",
+      "batch": "27"
+    },
+    {
+      "global_claim_id": "G27-S227-K13",
+      "claim_id": "K13",
+      "source_id": "S227",
+      "corpus_id": "C209",
+      "location": "Rudolf Steiner; supersensible knowledge, human constitution, evolution, sleep, death and initiation",
+      "claim_type": "META",
+      "claim": "Occult Science es una obra antroposófica histórica; sus afirmaciones sobre evolución espiritual y mundos suprasensibles deben distinguirse de resultados científicos contemporáneos.",
+      "motifs": [
+        "M14",
+        "M17",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "27"
+    }
+  ]
+}

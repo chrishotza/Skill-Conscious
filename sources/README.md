@@ -4,6 +4,12 @@ This directory is the source layer of Skill-Conscious.
 
 The purpose is traceability: every major ontological or architectural idea should be traceable to a source, a project artifact, an explicit inference, and eventually an implementation or experiment.
 
+## Canonical corpus state
+
+`corpus/CANONICAL_CORPUS_STATE_V1.md` is the reconciled corpus state: **4,315 atomic claims, 325 registered source records, 328 effective source IDs**. The large ledger is preserved under `corpus/CLAIMS/` with append-only deltas v24–v37.
+
+The closed register currently ends at C325. The repository does not contain a verified C326–C350 continuation, so that historical 350-source figure remains an unresolved bookkeeping discrepancy rather than fabricated data.
+
 ## Source pipeline
 
 PRIMARY SOURCE
@@ -60,6 +66,8 @@ The goal is a versioned knowledge graph of consciousness, not a collection of in
 See:
 
 - BIBLIOGRAPHY.md
+- ../corpus/CANONICAL_CORPUS_STATE_V1.md
+- ../corpus/CLAIMS/CLAIM_EXTRACTION_INDEX_V1.md
 - PRIMARY_SOURCES.md
 - EVIDENCE_MATRIX.md
 - CONSCIOUSNESS_MAP.md
