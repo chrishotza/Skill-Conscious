@@ -1,0 +1,1986 @@
+{
+  "schema_version": "1.0-append",
+  "base_ledger": "claim_ledger_v1.json",
+  "batch": "25",
+  "claim_count": 130,
+  "records": [
+    {
+      "global_claim_id": "G25-S198-K01",
+      "claim_id": "K01",
+      "source_id": "S198",
+      "corpus_id": "C174",
+      "location": "Risala: maqamat, ahwal, nafs, qalb, dhikr and spiritual discipline",
+      "claim_type": "PERSON",
+      "claim": "La Risala describe al practicante mediante relaciones entre nafs, qalb, intención, conducta y vínculo con Dios.",
+      "motifs": [
+        "M02",
+        "M05",
+        "M16"
+      ],
+      "provenance": "P2*",
+      "batch": "25"
+    },
+    {
+      "global_claim_id": "G25-S198-K02",
+      "claim_id": "K02",
+      "source_id": "S198",
+      "corpus_id": "C174",
+      "location": "Risala: maqamat, ahwal, nafs, qalb, dhikr and spiritual discipline",
+      "claim_type": "STATE",
+      "claim": "Distingue maqamat y ahwal como condiciones y estaciones diferenciadas del camino espiritual.",
+      "motifs": [
+        "M07",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "25"
+    },
+    {
+      "global_claim_id": "G25-S198-K03",
+      "claim_id": "K03",
+      "source_id": "S198",
+      "corpus_id": "C174",
+      "location": "Risala: maqamat, ahwal, nafs, qalb, dhikr and spiritual discipline",
+      "claim_type": "PRACTICE",
+      "claim": "La disciplina sufí incluye recuerdo, vigilancia, arrepentimiento, paciencia y otras prácticas formativas.",
+      "motifs": [
+        "M24",
+        "M25"
+      ],
+      "provenance": "P2*",
+      "batch": "25"
+    },
+    {
+      "global_claim_id": "G25-S198-K04",
+      "claim_id": "K04",
+      "source_id": "S198",
+      "corpus_id": "C174",
+      "location": "Risala: maqamat, ahwal, nafs, qalb, dhikr and spiritual discipline",
+      "claim_type": "REFLEXIVITY",
+      "claim": "La vigilancia interior exige reconocer estados, intenciones y movimientos del propio nafs.",
+      "motifs": [
+        "M02",
+        "M06",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "25"
+    },
+    {
+      "global_claim_id": "G25-S198-K05",
+      "claim_id": "K05",
+      "source_id": "S198",
+      "corpus_id": "C174",
+      "location": "Risala: maqamat, ahwal, nafs, qalb, dhikr and spiritual discipline",
+      "claim_type": "TRANSFORMATION",
+      "claim": "El camino transforma progresivamente disposiciones ordinarias en estados espirituales más estables.",
+      "motifs": [
+        "M12",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "25"
+    },
+    {
+      "global_claim_id": "G25-S198-K06",
+      "claim_id": "K06",
+      "source_id": "S198",
+      "corpus_id": "C174",
+      "location": "Risala: maqamat, ahwal, nafs, qalb, dhikr and spiritual discipline",
+      "claim_type": "VALENCE",
+      "claim": "Sinceridad, humildad, paciencia y confianza se tratan como cualidades que orientan la vida hacia Dios.",
+      "motifs": [
+        "M10",
+        "M12"
+      ],
+      "provenance": "P2*",
+      "batch": "25"
+    },
+    {
+      "global_claim_id": "G25-S198-K07",
+      "claim_id": "K07",
+      "source_id": "S198",
+      "corpus_id": "C174",
+      "location": "Risala: maqamat, ahwal, nafs, qalb, dhikr and spiritual discipline",
+      "claim_type": "ATTENTION",
+      "claim": "Dhikr y muraqaba mantienen la atención orientada hacia Dios y reducen la dispersión.",
+      "motifs": [
+        "M06",
+        "M24"
+      ],
+      "provenance": "P2*",
+      "batch": "25"
+    },
+    {
+      "global_claim_id": "G25-S198-K08",
+      "claim_id": "K08",
+      "source_id": "S198",
+      "corpus_id": "C174",
+      "location": "Risala: maqamat, ahwal, nafs, qalb, dhikr and spiritual discipline",
+      "claim_type": "RELATION",
+      "claim": "La relación maestro-discípulo y la transmisión de adab forman parte del entrenamiento sufí.",
+      "motifs": [
+        "M05",
+        "M24"
+      ],
+      "provenance": "P2*",
+      "batch": "25"
+    },
+    {
+      "global_claim_id": "G25-S198-K09",
+      "claim_id": "K09",
+      "source_id": "S198",
+      "corpus_id": "C174",
+      "location": "Risala: maqamat, ahwal, nafs, qalb, dhikr and spiritual discipline",
+      "claim_type": "UNITY",
+      "claim": "El objetivo espiritual tiende hacia una integración de intención, corazón y conducta.",
+      "motifs": [
+        "M03",
+        "M16"
+      ],
+      "provenance": "P2*",
+      "batch": "25"
+    },
+    {
+      "global_claim_id": "G25-S198-K10",
+      "claim_id": "K10",
+      "source_id": "S198",
+      "corpus_id": "C174",
+      "location": "Risala: maqamat, ahwal, nafs, qalb, dhikr and spiritual discipline",
+      "claim_type": "INTERIORITY",
+      "claim": "El corazón funciona como centro de experiencia espiritual y recepción de conocimiento transformador.",
+      "motifs": [
+        "M02",
+        "M06"
+      ],
+      "provenance": "P2*",
+      "batch": "25"
+    },
+    {
+      "global_claim_id": "G25-S198-K11",
+      "claim_id": "K11",
+      "source_id": "S198",
+      "corpus_id": "C174",
+      "location": "Risala: maqamat, ahwal, nafs, qalb, dhikr and spiritual discipline",
+      "claim_type": "TEMPORAL",
+      "claim": "Maqamat introduce una trayectoria gradual, donde ciertas disposiciones se cultivan a través del tiempo.",
+      "motifs": [
+        "M11",
+        "M12"
+      ],
+      "provenance": "P2*",
+      "batch": "25"
+    },
+    {
+      "global_claim_id": "G25-S198-K12",
+      "claim_id": "K12",
+      "source_id": "S198",
+      "corpus_id": "C174",
+      "location": "Risala: maqamat, ahwal, nafs, qalb, dhikr and spiritual discipline",
+      "claim_type": "DEATH",
+      "claim": "La desapropiación del yo y el recuerdo de la muerte aparecen como instrumentos de reorientación espiritual.",
+      "motifs": [
+        "M19",
+        "M25"
+      ],
+      "provenance": "P2*",
+      "batch": "25"
+    },
+    {
+      "global_claim_id": "G25-S198-K13",
+      "claim_id": "K13",
+      "source_id": "S198",
+      "corpus_id": "C174",
+      "location": "Risala: maqamat, ahwal, nafs, qalb, dhikr and spiritual discipline",
+      "claim_type": "META",
+      "claim": "La Risala compila tradiciones tempranas sufíes de múltiples autoridades; las atribuciones concretas deben mantenerse ligadas a cada reporte.",
+      "motifs": [
+        "M14",
+        "M17",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "25"
+    },
+    {
+      "global_claim_id": "G25-S199-K01",
+      "claim_id": "K01",
+      "source_id": "S199",
+      "corpus_id": "C175",
+      "location": "Hujwiri: unveiling, Sufi doctrine, stations, spiritual states and self-discipline",
+      "claim_type": "ONTO",
+      "claim": "Hujwiri presenta la vida espiritual mediante realidades y grados que no se agotan en la percepción ordinaria.",
+      "motifs": [
+        "M03",
+        "M07"
+      ],
+      "provenance": "P2*",
+      "batch": "25"
+    },
+    {
+      "global_claim_id": "G25-S199-K02",
+      "claim_id": "K02",
+      "source_id": "S199",
+      "corpus_id": "C175",
+      "location": "Hujwiri: unveiling, Sufi doctrine, stations, spiritual states and self-discipline",
+      "claim_type": "STATE",
+      "claim": "El lenguaje de estados y estaciones diferencia experiencias transitorias de disposiciones cultivadas.",
+      "motifs": [
+        "M07",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "25"
+    },
+    {
+      "global_claim_id": "G25-S199-K03",
+      "claim_id": "K03",
+      "source_id": "S199",
+      "corpus_id": "C175",
+      "location": "Hujwiri: unveiling, Sufi doctrine, stations, spiritual states and self-discipline",
+      "claim_type": "PRACTICE",
+      "claim": "Disciplina, recuerdo, conducta ética y guía espiritual forman parte del camino hacia el kashf.",
+      "motifs": [
+        "M24",
+        "M25"
+      ],
+      "provenance": "P2*",
+      "batch": "25"
+    },
+    {
+      "global_claim_id": "G25-S199-K04",
+      "claim_id": "K04",
+      "source_id": "S199",
+      "corpus_id": "C175",
+      "location": "Hujwiri: unveiling, Sufi doctrine, stations, spiritual states and self-discipline",
+      "claim_type": "REFLEXIVITY",
+      "claim": "El buscador debe examinar su intención y distinguir conocimiento auténtico de autoengaño espiritual.",
+      "motifs": [
+        "M02",
+        "M06",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "25"
+    },
+    {
+      "global_claim_id": "G25-S199-K05",
+      "claim_id": "K05",
+      "source_id": "S199",
+      "corpus_id": "C175",
+      "location": "Hujwiri: unveiling, Sufi doctrine, stations, spiritual states and self-discipline",
+      "claim_type": "TRANSFORMATION",
+      "claim": "El unveiling implica una transformación de la relación del sujeto consigo mismo y con Dios.",
+      "motifs": [
+        "M12",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "25"
+    },
+    {
+      "global_claim_id": "G25-S199-K06",
+      "claim_id": "K06",
+      "source_id": "S199",
+      "corpus_id": "C175",
+      "location": "Hujwiri: unveiling, Sufi doctrine, stations, spiritual states and self-discipline",
+      "claim_type": "VALENCE",
+      "claim": "Sinceridad, pobreza espiritual y confianza se presentan como cualidades superiores al orgullo del conocimiento.",
+      "motifs": [
+        "M10",
+        "M12"
+      ],
+      "provenance": "P2*",
+      "batch": "25"
+    },
+    {
+      "global_claim_id": "G25-S199-K07",
+      "claim_id": "K07",
+      "source_id": "S199",
+      "corpus_id": "C175",
+      "location": "Hujwiri: unveiling, Sufi doctrine, stations, spiritual states and self-discipline",
+      "claim_type": "RELATION",
+      "claim": "La autoridad de maestros y compañeros es integrada en una pedagogía de transformación.",
+      "motifs": [
+        "M05",
+        "M24"
+      ],
+      "provenance": "P2*",
+      "batch": "25"
+    },
+    {
+      "global_claim_id": "G25-S199-K08",
+      "claim_id": "K08",
+      "source_id": "S199",
+      "corpus_id": "C175",
+      "location": "Hujwiri: unveiling, Sufi doctrine, stations, spiritual states and self-discipline",
+      "claim_type": "INTERIORITY",
+      "claim": "El corazón y la conciencia interior son lugares donde se reconoce el significado espiritual.",
+      "motifs": [
+        "M02",
+        "M06"
+      ],
+      "provenance": "P2*",
+      "batch": "25"
+    },
+    {
+      "global_claim_id": "G25-S199-K09",
+      "claim_id": "K09",
+      "source_id": "S199",
+      "corpus_id": "C175",
+      "location": "Hujwiri: unveiling, Sufi doctrine, stations, spiritual states and self-discipline",
+      "claim_type": "UNITY",
+      "claim": "El camino busca armonizar conocimiento, acción y estado interior en una persona integrada.",
+      "motifs": [
+        "M03",
+        "M16"
+      ],
+      "provenance": "P2*",
+      "batch": "25"
+    },
+    {
+      "global_claim_id": "G25-S199-K10",
+      "claim_id": "K10",
+      "source_id": "S199",
+      "corpus_id": "C175",
+      "location": "Hujwiri: unveiling, Sufi doctrine, stations, spiritual states and self-discipline",
+      "claim_type": "ATTENTION",
+      "claim": "La vigilancia sobre pensamientos e intenciones funciona como protección frente a la distracción.",
+      "motifs": [
+        "M06",
+        "M24"
+      ],
+      "provenance": "P2*",
+      "batch": "25"
+    },
+    {
+      "global_claim_id": "G25-S199-K11",
+      "claim_id": "K11",
+      "source_id": "S199",
+      "corpus_id": "C175",
+      "location": "Hujwiri: unveiling, Sufi doctrine, stations, spiritual states and self-discipline",
+      "claim_type": "TEMPORAL",
+      "claim": "El recorrido espiritual se entiende como un proceso de maduración, no como una sola experiencia.",
+      "motifs": [
+        "M11",
+        "M12"
+      ],
+      "provenance": "P2*",
+      "batch": "25"
+    },
+    {
+      "global_claim_id": "G25-S199-K12",
+      "claim_id": "K12",
+      "source_id": "S199",
+      "corpus_id": "C175",
+      "location": "Hujwiri: unveiling, Sufi doctrine, stations, spiritual states and self-discipline",
+      "claim_type": "DEATH",
+      "claim": "La conciencia de la finitud ayuda a desmontar la pretensión del ego y orientar la vida hacia Dios.",
+      "motifs": [
+        "M19",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "25"
+    },
+    {
+      "global_claim_id": "G25-S199-K13",
+      "claim_id": "K13",
+      "source_id": "S199",
+      "corpus_id": "C175",
+      "location": "Hujwiri: unveiling, Sufi doctrine, stations, spiritual states and self-discipline",
+      "claim_type": "META",
+      "claim": "Kashf al-Mahjub es una fuente medieval sufí de carácter doctrinal y autobiográfico; sus términos deben conservarse dentro de ese contexto histórico.",
+      "motifs": [
+        "M14",
+        "M17",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "25"
+    },
+    {
+      "global_claim_id": "G25-S200-K01",
+      "claim_id": "K01",
+      "source_id": "S200",
+      "corpus_id": "C177",
+      "location": "Ghazali: Light Verse, intellect, heart, perception and symbolic illumination",
+      "claim_type": "ONTO",
+      "claim": "Ghazali analiza la luz como símbolo escalonado que puede referirse desde la percepción sensible hasta el intelecto y la realidad divina.",
+      "motifs": [
+        "M03",
+        "M06",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "25"
+    },
+    {
+      "global_claim_id": "G25-S200-K02",
+      "claim_id": "K02",
+      "source_id": "S200",
+      "corpus_id": "C177",
+      "location": "Ghazali: Light Verse, intellect, heart, perception and symbolic illumination",
+      "claim_type": "INTERIORITY",
+      "claim": "El corazón contiene una facultad cognitiva que el texto relaciona con percepción interior y comprensión.",
+      "motifs": [
+        "M02",
+        "M06"
+      ],
+      "provenance": "P2*",
+      "batch": "25"
+    },
+    {
+      "global_claim_id": "G25-S200-K03",
+      "claim_id": "K03",
+      "source_id": "S200",
+      "corpus_id": "C177",
+      "location": "Ghazali: Light Verse, intellect, heart, perception and symbolic illumination",
+      "claim_type": "SELF_MODEL",
+      "claim": "La persona posee niveles o facultades de percepción que no se reducen al órgano sensorial externo.",
+      "motifs": [
+        "M02",
+        "M08",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "25"
+    },
+    {
+      "global_claim_id": "G25-S200-K04",
+      "claim_id": "K04",
+      "source_id": "S200",
+      "corpus_id": "C177",
+      "location": "Ghazali: Light Verse, intellect, heart, perception and symbolic illumination",
+      "claim_type": "STATE",
+      "claim": "Diferentes grados de luz corresponden a distintos modos de conocimiento y claridad.",
+      "motifs": [
+        "M07",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "25"
+    },
+    {
+      "global_claim_id": "G25-S200-K05",
+      "claim_id": "K05",
+      "source_id": "S200",
+      "corpus_id": "C177",
+      "location": "Ghazali: Light Verse, intellect, heart, perception and symbolic illumination",
+      "claim_type": "TRANSFORMATION",
+      "claim": "La iluminación del corazón se presenta como conocimiento que cambia la orientación del sujeto.",
+      "motifs": [
+        "M12",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "25"
+    },
+    {
+      "global_claim_id": "G25-S200-K06",
+      "claim_id": "K06",
+      "source_id": "S200",
+      "corpus_id": "C177",
+      "location": "Ghazali: Light Verse, intellect, heart, perception and symbolic illumination",
+      "claim_type": "PRACTICE",
+      "claim": "Purificación, aprendizaje y contemplación preparan la capacidad receptiva del buscador.",
+      "motifs": [
+        "M24",
+        "M25"
+      ],
+      "provenance": "P2*",
+      "batch": "25"
+    },
+    {
+      "global_claim_id": "G25-S200-K07",
+      "claim_id": "K07",
+      "source_id": "S200",
+      "corpus_id": "C177",
+      "location": "Ghazali: Light Verse, intellect, heart, perception and symbolic illumination",
+      "claim_type": "REFLEXIVITY",
+      "claim": "La metáfora de luz permite al sujeto investigar las condiciones internas de su propio conocer.",
+      "motifs": [
+        "M02",
+        "M06",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "25"
+    },
+    {
+      "global_claim_id": "G25-S200-K08",
+      "claim_id": "K08",
+      "source_id": "S200",
+      "corpus_id": "C177",
+      "location": "Ghazali: Light Verse, intellect, heart, perception and symbolic illumination",
+      "claim_type": "UNITY",
+      "claim": "La jerarquía de luces conduce desde manifestaciones múltiples hacia una fuente divina unificadora.",
+      "motifs": [
+        "M03",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "25"
+    },
+    {
+      "global_claim_id": "G25-S200-K09",
+      "claim_id": "K09",
+      "source_id": "S200",
+      "corpus_id": "C177",
+      "location": "Ghazali: Light Verse, intellect, heart, perception and symbolic illumination",
+      "claim_type": "VALENCE",
+      "claim": "Conocimiento, pureza y claridad son asociados positivamente frente a ignorancia y opacidad.",
+      "motifs": [
+        "M10",
+        "M12"
+      ],
+      "provenance": "P2*",
+      "batch": "25"
+    },
+    {
+      "global_claim_id": "G25-S200-K10",
+      "claim_id": "K10",
+      "source_id": "S200",
+      "corpus_id": "C177",
+      "location": "Ghazali: Light Verse, intellect, heart, perception and symbolic illumination",
+      "claim_type": "CORRESPONDENCE",
+      "claim": "La estructura de lámpara, nicho, aceite y luz sirve como sistema analógico entre realidades sensibles e inteligibles.",
+      "motifs": [
+        "M18",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "25"
+    },
+    {
+      "global_claim_id": "G25-S200-K11",
+      "claim_id": "K11",
+      "source_id": "S200",
+      "corpus_id": "C177",
+      "location": "Ghazali: Light Verse, intellect, heart, perception and symbolic illumination",
+      "claim_type": "ATTENTION",
+      "claim": "La comprensión de las alegorías exige atención sostenida y lectura simbólica.",
+      "motifs": [
+        "M06",
+        "M24"
+      ],
+      "provenance": "P2*",
+      "batch": "25"
+    },
+    {
+      "global_claim_id": "G25-S200-K12",
+      "claim_id": "K12",
+      "source_id": "S200",
+      "corpus_id": "C177",
+      "location": "Ghazali: Light Verse, intellect, heart, perception and symbolic illumination",
+      "claim_type": "INEFFABILITY",
+      "claim": "La fuente divina de luz trasciende cualquier analogía física simple y requiere lenguaje simbólico.",
+      "motifs": [
+        "M14",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "25"
+    },
+    {
+      "global_claim_id": "G25-S200-K13",
+      "claim_id": "K13",
+      "source_id": "S200",
+      "corpus_id": "C177",
+      "location": "Ghazali: Light Verse, intellect, heart, perception and symbolic illumination",
+      "claim_type": "META",
+      "claim": "Mishkat al-Anwar es una exégesis teológica y filosófica de Ghazali; sus modelos de luz no constituyen una teoría neurocientífica de conciencia.",
+      "motifs": [
+        "M14",
+        "M17",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "25"
+    },
+    {
+      "global_claim_id": "G25-S201-K01",
+      "claim_id": "K01",
+      "source_id": "S201",
+      "corpus_id": "C178",
+      "location": "Attar: seven valleys, journey, guide, birds, Simurgh and self-recognition",
+      "claim_type": "TRANSFORMATION",
+      "claim": "El viaje de las aves representa un proceso de transformación progresiva del buscador.",
+      "motifs": [
+        "M12",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "25"
+    },
+    {
+      "global_claim_id": "G25-S201-K02",
+      "claim_id": "K02",
+      "source_id": "S201",
+      "corpus_id": "C178",
+      "location": "Attar: seven valleys, journey, guide, birds, Simurgh and self-recognition",
+      "claim_type": "STATE",
+      "claim": "Los siete valles funcionan como etapas diferenciadas de experiencia y maduración espiritual.",
+      "motifs": [
+        "M07",
+        "M12"
+      ],
+      "provenance": "P2*",
+      "batch": "25"
+    },
+    {
+      "global_claim_id": "G25-S201-K03",
+      "claim_id": "K03",
+      "source_id": "S201",
+      "corpus_id": "C178",
+      "location": "Attar: seven valleys, journey, guide, birds, Simurgh and self-recognition",
+      "claim_type": "RELATION",
+      "claim": "El hoopoe ocupa el rol de guía que orienta a los buscadores a través de las pruebas del camino.",
+      "motifs": [
+        "M05",
+        "M24"
+      ],
+      "provenance": "P2*",
+      "batch": "25"
+    },
+    {
+      "global_claim_id": "G25-S201-K04",
+      "claim_id": "K04",
+      "source_id": "S201",
+      "corpus_id": "C178",
+      "location": "Attar: seven valleys, journey, guide, birds, Simurgh and self-recognition",
+      "claim_type": "PRACTICE",
+      "claim": "El viaje exige perseverancia, renuncia, búsqueda y aceptación de pruebas.",
+      "motifs": [
+        "M24",
+        "M25"
+      ],
+      "provenance": "P2*",
+      "batch": "25"
+    },
+    {
+      "global_claim_id": "G25-S201-K05",
+      "claim_id": "K05",
+      "source_id": "S201",
+      "corpus_id": "C178",
+      "location": "Attar: seven valleys, journey, guide, birds, Simurgh and self-recognition",
+      "claim_type": "REFLEXIVITY",
+      "claim": "Los obstáculos de las aves funcionan también como imágenes de apegos y limitaciones internas.",
+      "motifs": [
+        "M02",
+        "M06",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "25"
+    },
+    {
+      "global_claim_id": "G25-S201-K06",
+      "claim_id": "K06",
+      "source_id": "S201",
+      "corpus_id": "C178",
+      "location": "Attar: seven valleys, journey, guide, birds, Simurgh and self-recognition",
+      "claim_type": "UNITY",
+      "claim": "La culminación del relato relaciona al buscador con aquello que buscaba, cuestionando una separación simple entre sujeto y objeto.",
+      "motifs": [
+        "M03",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "25"
+    },
+    {
+      "global_claim_id": "G25-S201-K07",
+      "claim_id": "K07",
+      "source_id": "S201",
+      "corpus_id": "C178",
+      "location": "Attar: seven valleys, journey, guide, birds, Simurgh and self-recognition",
+      "claim_type": "PERSON",
+      "claim": "Cada ave representa una configuración particular de deseo, miedo o hábito dentro del viaje colectivo.",
+      "motifs": [
+        "M05",
+        "M16"
+      ],
+      "provenance": "P2*",
+      "batch": "25"
+    },
+    {
+      "global_claim_id": "G25-S201-K08",
+      "claim_id": "K08",
+      "source_id": "S201",
+      "corpus_id": "C178",
+      "location": "Attar: seven valleys, journey, guide, birds, Simurgh and self-recognition",
+      "claim_type": "VALENCE",
+      "claim": "Amor, conocimiento, desapego, pobreza y unidad organizan el itinerario como una transformación valorativa.",
+      "motifs": [
+        "M10",
+        "M12"
+      ],
+      "provenance": "P2*",
+      "batch": "25"
+    },
+    {
+      "global_claim_id": "G25-S201-K09",
+      "claim_id": "K09",
+      "source_id": "S201",
+      "corpus_id": "C178",
+      "location": "Attar: seven valleys, journey, guide, birds, Simurgh and self-recognition",
+      "claim_type": "ATTENTION",
+      "claim": "La búsqueda requiere abandonar interpretaciones superficiales y atender al significado alegórico del viaje.",
+      "motifs": [
+        "M06",
+        "M24"
+      ],
+      "provenance": "P2*",
+      "batch": "25"
+    },
+    {
+      "global_claim_id": "G25-S201-K10",
+      "claim_id": "K10",
+      "source_id": "S201",
+      "corpus_id": "C178",
+      "location": "Attar: seven valleys, journey, guide, birds, Simurgh and self-recognition",
+      "claim_type": "TEMPORAL",
+      "claim": "El relato conserva una secuencia explícita de etapas y pérdidas, haciendo visible la trayectoria transformativa.",
+      "motifs": [
+        "M11",
+        "M12"
+      ],
+      "provenance": "P2*",
+      "batch": "25"
+    },
+    {
+      "global_claim_id": "G25-S201-K11",
+      "claim_id": "K11",
+      "source_id": "S201",
+      "corpus_id": "C178",
+      "location": "Attar: seven valleys, journey, guide, birds, Simurgh and self-recognition",
+      "claim_type": "DEATH",
+      "claim": "Pobreza y aniquilación funcionan como metáforas de abandono de una autoimagen separada.",
+      "motifs": [
+        "M19",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "25"
+    },
+    {
+      "global_claim_id": "G25-S201-K12",
+      "claim_id": "K12",
+      "source_id": "S201",
+      "corpus_id": "C178",
+      "location": "Attar: seven valleys, journey, guide, birds, Simurgh and self-recognition",
+      "claim_type": "INEFFABILITY",
+      "claim": "Las parábolas y símbolos permiten expresar contenidos que el relato no presenta como definiciones conceptuales directas.",
+      "motifs": [
+        "M14",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "25"
+    },
+    {
+      "global_claim_id": "G25-S201-K13",
+      "claim_id": "K13",
+      "source_id": "S201",
+      "corpus_id": "C178",
+      "location": "Attar: seven valleys, journey, guide, birds, Simurgh and self-recognition",
+      "claim_type": "META",
+      "claim": "Conference of the Birds es una alegoría sufí persa y sus imágenes no deben convertirse sin más en afirmaciones ontológicas universales.",
+      "motifs": [
+        "M14",
+        "M17",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "25"
+    },
+    {
+      "global_claim_id": "G25-S202-K01",
+      "claim_id": "K01",
+      "source_id": "S202",
+      "corpus_id": "C183",
+      "location": "Commentary tradition around Fusus al-Hikam; prophet-wisdom chapters, logos, human and divine relation",
+      "claim_type": "ONTO",
+      "claim": "La tradición comentarial lee cada bezel como una configuración de sabiduría divina expresada a través de una figura profética.",
+      "motifs": [
+        "M03",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "25"
+    },
+    {
+      "global_claim_id": "G25-S202-K02",
+      "claim_id": "K02",
+      "source_id": "S202",
+      "corpus_id": "C183",
+      "location": "Commentary tradition around Fusus al-Hikam; prophet-wisdom chapters, logos, human and divine relation",
+      "claim_type": "RELATION",
+      "claim": "El ser humano es interpretado como lugar de encuentro entre nombres divinos, cosmos y responsabilidad personal.",
+      "motifs": [
+        "M05",
+        "M16",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "25"
+    },
+    {
+      "global_claim_id": "G25-S202-K03",
+      "claim_id": "K03",
+      "source_id": "S202",
+      "corpus_id": "C183",
+      "location": "Commentary tradition around Fusus al-Hikam; prophet-wisdom chapters, logos, human and divine relation",
+      "claim_type": "UNITY",
+      "claim": "La diversidad de profetas y sabidurías se integra en una visión de unidad divina sin eliminar la diferencia.",
+      "motifs": [
+        "M03",
+        "M04"
+      ],
+      "provenance": "P2*",
+      "batch": "25"
+    },
+    {
+      "global_claim_id": "G25-S202-K04",
+      "claim_id": "K04",
+      "source_id": "S202",
+      "corpus_id": "C183",
+      "location": "Commentary tradition around Fusus al-Hikam; prophet-wisdom chapters, logos, human and divine relation",
+      "claim_type": "REFLEXIVITY",
+      "claim": "Conocer al profeta o la sabiduría correspondiente implica también examinar la estructura del propio ser humano.",
+      "motifs": [
+        "M02",
+        "M06",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "25"
+    },
+    {
+      "global_claim_id": "G25-S202-K05",
+      "claim_id": "K05",
+      "source_id": "S202",
+      "corpus_id": "C183",
+      "location": "Commentary tradition around Fusus al-Hikam; prophet-wisdom chapters, logos, human and divine relation",
+      "claim_type": "SELF_MODEL",
+      "claim": "El concepto de humano perfecto funciona como modelo relacional de conocimiento, receptividad y manifestación.",
+      "motifs": [
+        "M02",
+        "M05",
+        "M16"
+      ],
+      "provenance": "P2*",
+      "batch": "25"
+    },
+    {
+      "global_claim_id": "G25-S202-K06",
+      "claim_id": "K06",
+      "source_id": "S202",
+      "corpus_id": "C183",
+      "location": "Commentary tradition around Fusus al-Hikam; prophet-wisdom chapters, logos, human and divine relation",
+      "claim_type": "CORRESPONDENCE",
+      "claim": "Los capítulos proféticos relacionan cualidades humanas, nombres divinos y estructuras del cosmos.",
+      "motifs": [
+        "M18",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "25"
+    },
+    {
+      "global_claim_id": "G25-S202-K07",
+      "claim_id": "K07",
+      "source_id": "S202",
+      "corpus_id": "C183",
+      "location": "Commentary tradition around Fusus al-Hikam; prophet-wisdom chapters, logos, human and divine relation",
+      "claim_type": "STATE",
+      "claim": "Los distintos modos de sabiduría permiten clasificar diversas formas de realización espiritual.",
+      "motifs": [
+        "M07",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "25"
+    },
+    {
+      "global_claim_id": "G25-S202-K08",
+      "claim_id": "K08",
+      "source_id": "S202",
+      "corpus_id": "C183",
+      "location": "Commentary tradition around Fusus al-Hikam; prophet-wisdom chapters, logos, human and divine relation",
+      "claim_type": "TRANSFORMATION",
+      "claim": "La lectura contemplativa del texto busca transformar la comprensión del lector sobre sí mismo y sobre la realidad.",
+      "motifs": [
+        "M12",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "25"
+    },
+    {
+      "global_claim_id": "G25-S202-K09",
+      "claim_id": "K09",
+      "source_id": "S202",
+      "corpus_id": "C183",
+      "location": "Commentary tradition around Fusus al-Hikam; prophet-wisdom chapters, logos, human and divine relation",
+      "claim_type": "VALENCE",
+      "claim": "Cada sabiduría funciona como orientación normativa vinculada con una cualidad espiritual particular.",
+      "motifs": [
+        "M10",
+        "M12"
+      ],
+      "provenance": "P2*",
+      "batch": "25"
+    },
+    {
+      "global_claim_id": "G25-S202-K10",
+      "claim_id": "K10",
+      "source_id": "S202",
+      "corpus_id": "C183",
+      "location": "Commentary tradition around Fusus al-Hikam; prophet-wisdom chapters, logos, human and divine relation",
+      "claim_type": "UNITY",
+      "claim": "El lenguaje de espejo, barzakh y manifestación permite representar continuidad sin borrar las distinciones ontológicas.",
+      "motifs": [
+        "M03",
+        "M05"
+      ],
+      "provenance": "P2*",
+      "batch": "25"
+    },
+    {
+      "global_claim_id": "G25-S202-K11",
+      "claim_id": "K11",
+      "source_id": "S202",
+      "corpus_id": "C183",
+      "location": "Commentary tradition around Fusus al-Hikam; prophet-wisdom chapters, logos, human and divine relation",
+      "claim_type": "ATTENTION",
+      "claim": "El comentario requiere distinguir niveles literal, simbólico y metafísico de lectura.",
+      "motifs": [
+        "M06",
+        "M24"
+      ],
+      "provenance": "P2*",
+      "batch": "25"
+    },
+    {
+      "global_claim_id": "G25-S202-K12",
+      "claim_id": "K12",
+      "source_id": "S202",
+      "corpus_id": "C183",
+      "location": "Commentary tradition around Fusus al-Hikam; prophet-wisdom chapters, logos, human and divine relation",
+      "claim_type": "INEFFABILITY",
+      "claim": "La tradición utiliza paradojas y lenguaje de nombres para hablar de una realidad que excede conceptos simples.",
+      "motifs": [
+        "M14",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "25"
+    },
+    {
+      "global_claim_id": "G25-S202-K13",
+      "claim_id": "K13",
+      "source_id": "S202",
+      "corpus_id": "C183",
+      "location": "Commentary tradition around Fusus al-Hikam; prophet-wisdom chapters, logos, human and divine relation",
+      "claim_type": "META",
+      "claim": "Se trata de una tradición comentarial alrededor de Fusus al-Hikam, no de una fuente primaria única; deben separarse texto, comentario y reconstrucción moderna.",
+      "motifs": [
+        "M14",
+        "M17",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "25"
+    },
+    {
+      "global_claim_id": "G25-S203-K01",
+      "claim_id": "K01",
+      "source_id": "S203",
+      "corpus_id": "C184",
+      "location": "Early and classical Sufi aphoristic literature; heart, sincerity, remembrance, knowledge and conduct",
+      "claim_type": "INTERIORITY",
+      "claim": "Los aforismos sufíes suelen presentar el corazón como lugar donde intención, conocimiento y experiencia espiritual se encuentran.",
+      "motifs": [
+        "M02",
+        "M06"
+      ],
+      "provenance": "P2*",
+      "batch": "25"
+    },
+    {
+      "global_claim_id": "G25-S203-K02",
+      "claim_id": "K02",
+      "source_id": "S203",
+      "corpus_id": "C184",
+      "location": "Early and classical Sufi aphoristic literature; heart, sincerity, remembrance, knowledge and conduct",
+      "claim_type": "PRACTICE",
+      "claim": "Recuerdo, silencio, vigilancia y servicio aparecen como prácticas recurrentes de entrenamiento interior.",
+      "motifs": [
+        "M24",
+        "M25"
+      ],
+      "provenance": "P2*",
+      "batch": "25"
+    },
+    {
+      "global_claim_id": "G25-S203-K03",
+      "claim_id": "K03",
+      "source_id": "S203",
+      "corpus_id": "C184",
+      "location": "Early and classical Sufi aphoristic literature; heart, sincerity, remembrance, knowledge and conduct",
+      "claim_type": "REFLEXIVITY",
+      "claim": "La observación del ego y de sus pretensiones es una operación central del discurso aforístico sufí.",
+      "motifs": [
+        "M02",
+        "M06",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "25"
+    },
+    {
+      "global_claim_id": "G25-S203-K04",
+      "claim_id": "K04",
+      "source_id": "S203",
+      "corpus_id": "C184",
+      "location": "Early and classical Sufi aphoristic literature; heart, sincerity, remembrance, knowledge and conduct",
+      "claim_type": "STATE",
+      "claim": "Los dichos distinguen entre diversos grados de presencia, ausencia, certeza y olvido.",
+      "motifs": [
+        "M07",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "25"
+    },
+    {
+      "global_claim_id": "G25-S203-K05",
+      "claim_id": "K05",
+      "source_id": "S203",
+      "corpus_id": "C184",
+      "location": "Early and classical Sufi aphoristic literature; heart, sincerity, remembrance, knowledge and conduct",
+      "claim_type": "TRANSFORMATION",
+      "claim": "La brevedad aforística busca producir cambio de orientación más que sólo información acumulativa.",
+      "motifs": [
+        "M12",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "25"
+    },
+    {
+      "global_claim_id": "G25-S203-K06",
+      "claim_id": "K06",
+      "source_id": "S203",
+      "corpus_id": "C184",
+      "location": "Early and classical Sufi aphoristic literature; heart, sincerity, remembrance, knowledge and conduct",
+      "claim_type": "VALENCE",
+      "claim": "Sinceridad, humildad, amor y generosidad reciben valor positivo frente a ostentación y egoísmo.",
+      "motifs": [
+        "M10",
+        "M12"
+      ],
+      "provenance": "P2*",
+      "batch": "25"
+    },
+    {
+      "global_claim_id": "G25-S203-K07",
+      "claim_id": "K07",
+      "source_id": "S203",
+      "corpus_id": "C184",
+      "location": "Early and classical Sufi aphoristic literature; heart, sincerity, remembrance, knowledge and conduct",
+      "claim_type": "RELATION",
+      "claim": "El maestro, el compañero y la comunidad funcionan como espejos y agentes de corrección del practicante.",
+      "motifs": [
+        "M05",
+        "M16"
+      ],
+      "provenance": "P2*",
+      "batch": "25"
+    },
+    {
+      "global_claim_id": "G25-S203-K08",
+      "claim_id": "K08",
+      "source_id": "S203",
+      "corpus_id": "C184",
+      "location": "Early and classical Sufi aphoristic literature; heart, sincerity, remembrance, knowledge and conduct",
+      "claim_type": "UNITY",
+      "claim": "La integración entre corazón, palabra y acto es presentada como signo de autenticidad.",
+      "motifs": [
+        "M03",
+        "M16"
+      ],
+      "provenance": "P2*",
+      "batch": "25"
+    },
+    {
+      "global_claim_id": "G25-S203-K09",
+      "claim_id": "K09",
+      "source_id": "S203",
+      "corpus_id": "C184",
+      "location": "Early and classical Sufi aphoristic literature; heart, sincerity, remembrance, knowledge and conduct",
+      "claim_type": "ATTENTION",
+      "claim": "La presencia consciente y el recuerdo continuo son tratados como antídotos contra ghafla o descuido.",
+      "motifs": [
+        "M01",
+        "M06",
+        "M24"
+      ],
+      "provenance": "P2*",
+      "batch": "25"
+    },
+    {
+      "global_claim_id": "G25-S203-K10",
+      "claim_id": "K10",
+      "source_id": "S203",
+      "corpus_id": "C184",
+      "location": "Early and classical Sufi aphoristic literature; heart, sincerity, remembrance, knowledge and conduct",
+      "claim_type": "TEMPORAL",
+      "claim": "El aforismo se inserta en una pedagogía de repetición y maduración a través del tiempo.",
+      "motifs": [
+        "M11",
+        "M25"
+      ],
+      "provenance": "P2*",
+      "batch": "25"
+    },
+    {
+      "global_claim_id": "G25-S203-K11",
+      "claim_id": "K11",
+      "source_id": "S203",
+      "corpus_id": "C184",
+      "location": "Early and classical Sufi aphoristic literature; heart, sincerity, remembrance, knowledge and conduct",
+      "claim_type": "DEATH",
+      "claim": "Recordar la muerte sirve para relativizar la identificación con deseos pasajeros.",
+      "motifs": [
+        "M19",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "25"
+    },
+    {
+      "global_claim_id": "G25-S203-K12",
+      "claim_id": "K12",
+      "source_id": "S203",
+      "corpus_id": "C184",
+      "location": "Early and classical Sufi aphoristic literature; heart, sincerity, remembrance, knowledge and conduct",
+      "claim_type": "INEFFABILITY",
+      "claim": "Muchos aforismos usan paradoja porque buscan señalar una experiencia que resiste exposición discursiva extensa.",
+      "motifs": [
+        "M14",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "25"
+    },
+    {
+      "global_claim_id": "G25-S203-K13",
+      "claim_id": "K13",
+      "source_id": "S203",
+      "corpus_id": "C184",
+      "location": "Early and classical Sufi aphoristic literature; heart, sincerity, remembrance, knowledge and conduct",
+      "claim_type": "META",
+      "claim": "El 'corpus aforístico sufí' es una categoría transversal y heterogénea; ninguna afirmación debe atribuirse a un autor concreto sin fuente identificable.",
+      "motifs": [
+        "M14",
+        "M17",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "25"
+    },
+    {
+      "global_claim_id": "G25-S204-K01",
+      "claim_id": "K01",
+      "source_id": "S204",
+      "corpus_id": "C185",
+      "location": "Attributed sayings and ethical-spiritual wisdom associated with Imam Ali; nafs, knowledge, justice and self-governance",
+      "claim_type": "REFLEXIVITY",
+      "claim": "La sabiduría atribuida a Ali vincula autoconocimiento con gobierno de las pasiones y comprensión moral.",
+      "motifs": [
+        "M02",
+        "M06",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "25"
+    },
+    {
+      "global_claim_id": "G25-S204-K02",
+      "claim_id": "K02",
+      "source_id": "S204",
+      "corpus_id": "C185",
+      "location": "Attributed sayings and ethical-spiritual wisdom associated with Imam Ali; nafs, knowledge, justice and self-governance",
+      "claim_type": "PERSON",
+      "claim": "La persona aparece como agente responsable capaz de ordenar deseo, razón, acción y carácter.",
+      "motifs": [
+        "M05",
+        "M16"
+      ],
+      "provenance": "P2*",
+      "batch": "25"
+    },
+    {
+      "global_claim_id": "G25-S204-K03",
+      "claim_id": "K03",
+      "source_id": "S204",
+      "corpus_id": "C185",
+      "location": "Attributed sayings and ethical-spiritual wisdom associated with Imam Ali; nafs, knowledge, justice and self-governance",
+      "claim_type": "VALENCE",
+      "claim": "Justicia, autocontrol, conocimiento y verdad funcionan como orientaciones centrales de la vida correcta.",
+      "motifs": [
+        "M10",
+        "M12"
+      ],
+      "provenance": "P2*",
+      "batch": "25"
+    },
+    {
+      "global_claim_id": "G25-S204-K04",
+      "claim_id": "K04",
+      "source_id": "S204",
+      "corpus_id": "C185",
+      "location": "Attributed sayings and ethical-spiritual wisdom associated with Imam Ali; nafs, knowledge, justice and self-governance",
+      "claim_type": "PRACTICE",
+      "claim": "La vigilancia de la conducta y el examen de intención funcionan como disciplinas de formación.",
+      "motifs": [
+        "M24",
+        "M25"
+      ],
+      "provenance": "P2*",
+      "batch": "25"
+    },
+    {
+      "global_claim_id": "G25-S204-K05",
+      "claim_id": "K05",
+      "source_id": "S204",
+      "corpus_id": "C185",
+      "location": "Attributed sayings and ethical-spiritual wisdom associated with Imam Ali; nafs, knowledge, justice and self-governance",
+      "claim_type": "STATE",
+      "claim": "La sabiduría distingue entre ignorancia, comprensión, dominio propio y liberación de deseos.",
+      "motifs": [
+        "M07",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "25"
+    },
+    {
+      "global_claim_id": "G25-S204-K06",
+      "claim_id": "K06",
+      "source_id": "S204",
+      "corpus_id": "C185",
+      "location": "Attributed sayings and ethical-spiritual wisdom associated with Imam Ali; nafs, knowledge, justice and self-governance",
+      "claim_type": "TRANSFORMATION",
+      "claim": "El conocimiento ético se presenta como eficaz sólo cuando transforma conducta y carácter.",
+      "motifs": [
+        "M12",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "25"
+    },
+    {
+      "global_claim_id": "G25-S204-K07",
+      "claim_id": "K07",
+      "source_id": "S204",
+      "corpus_id": "C185",
+      "location": "Attributed sayings and ethical-spiritual wisdom associated with Imam Ali; nafs, knowledge, justice and self-governance",
+      "claim_type": "RELATION",
+      "claim": "La responsabilidad hacia otros se integra con el trabajo interior sobre el propio nafs.",
+      "motifs": [
+        "M05",
+        "M16"
+      ],
+      "provenance": "P2*",
+      "batch": "25"
+    },
+    {
+      "global_claim_id": "G25-S204-K08",
+      "claim_id": "K08",
+      "source_id": "S204",
+      "corpus_id": "C185",
+      "location": "Attributed sayings and ethical-spiritual wisdom associated with Imam Ali; nafs, knowledge, justice and self-governance",
+      "claim_type": "ATTENTION",
+      "claim": "La prudencia requiere observar consecuencias y no actuar según impulsos inmediatos.",
+      "motifs": [
+        "M06",
+        "M24"
+      ],
+      "provenance": "P2*",
+      "batch": "25"
+    },
+    {
+      "global_claim_id": "G25-S204-K09",
+      "claim_id": "K09",
+      "source_id": "S204",
+      "corpus_id": "C185",
+      "location": "Attributed sayings and ethical-spiritual wisdom associated with Imam Ali; nafs, knowledge, justice and self-governance",
+      "claim_type": "UNITY",
+      "claim": "Conocimiento, virtud y acción son tratados como componentes de una misma arquitectura moral.",
+      "motifs": [
+        "M03",
+        "M16"
+      ],
+      "provenance": "P2*",
+      "batch": "25"
+    },
+    {
+      "global_claim_id": "G25-S204-K10",
+      "claim_id": "K10",
+      "source_id": "S204",
+      "corpus_id": "C185",
+      "location": "Attributed sayings and ethical-spiritual wisdom associated with Imam Ali; nafs, knowledge, justice and self-governance",
+      "claim_type": "DEATH",
+      "claim": "La conciencia de la finitud orienta la prioridad entre bienes temporales y responsabilidad última.",
+      "motifs": [
+        "M19",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "25"
+    },
+    {
+      "global_claim_id": "G25-S204-K11",
+      "claim_id": "K11",
+      "source_id": "S204",
+      "corpus_id": "C185",
+      "location": "Attributed sayings and ethical-spiritual wisdom associated with Imam Ali; nafs, knowledge, justice and self-governance",
+      "claim_type": "SELF_MODEL",
+      "claim": "El nafs es tratado como algo que debe ser educado, limitado y comprendido, no simplemente satisfecho.",
+      "motifs": [
+        "M02",
+        "M06"
+      ],
+      "provenance": "P2*",
+      "batch": "25"
+    },
+    {
+      "global_claim_id": "G25-S204-K12",
+      "claim_id": "K12",
+      "source_id": "S204",
+      "corpus_id": "C185",
+      "location": "Attributed sayings and ethical-spiritual wisdom associated with Imam Ali; nafs, knowledge, justice and self-governance",
+      "claim_type": "DYNAMICS",
+      "claim": "Las disposiciones morales pueden fortalecerse o debilitarse mediante repetición y elección.",
+      "motifs": [
+        "M09",
+        "M12"
+      ],
+      "provenance": "P2*",
+      "batch": "25"
+    },
+    {
+      "global_claim_id": "G25-S204-K13",
+      "claim_id": "K13",
+      "source_id": "S204",
+      "corpus_id": "C185",
+      "location": "Attributed sayings and ethical-spiritual wisdom associated with Imam Ali; nafs, knowledge, justice and self-governance",
+      "claim_type": "META",
+      "claim": "La categoría 'wisdom corpus' reúne materiales de atribución y transmisión diversa; la autenticidad textual debe verificarse por dicho individual.",
+      "motifs": [
+        "M14",
+        "M17",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "25"
+    },
+    {
+      "global_claim_id": "G25-S205-K01",
+      "claim_id": "K01",
+      "source_id": "S205",
+      "corpus_id": "C186",
+      "location": "Ibn Tufayl: solitary cognition, nature, abstraction, self-knowledge and encounter with the divine",
+      "claim_type": "REFLEXIVITY",
+      "claim": "Hayy llega a investigar su propia condición como parte de una investigación más amplia sobre naturaleza y realidad.",
+      "motifs": [
+        "M02",
+        "M06",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "25"
+    },
+    {
+      "global_claim_id": "G25-S205-K02",
+      "claim_id": "K02",
+      "source_id": "S205",
+      "corpus_id": "C186",
+      "location": "Ibn Tufayl: solitary cognition, nature, abstraction, self-knowledge and encounter with the divine",
+      "claim_type": "EMBODIMENT",
+      "claim": "La observación del cuerpo y de los animales sirve como punto de partida para investigar vida y función.",
+      "motifs": [
+        "M08",
+        "M16"
+      ],
+      "provenance": "P2*",
+      "batch": "25"
+    },
+    {
+      "global_claim_id": "G25-S205-K03",
+      "claim_id": "K03",
+      "source_id": "S205",
+      "corpus_id": "C186",
+      "location": "Ibn Tufayl: solitary cognition, nature, abstraction, self-knowledge and encounter with the divine",
+      "claim_type": "STATE",
+      "claim": "El aprendizaje de Hayy progresa desde percepción sensible hacia abstracción y contemplación.",
+      "motifs": [
+        "M07",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "25"
+    },
+    {
+      "global_claim_id": "G25-S205-K04",
+      "claim_id": "K04",
+      "source_id": "S205",
+      "corpus_id": "C186",
+      "location": "Ibn Tufayl: solitary cognition, nature, abstraction, self-knowledge and encounter with the divine",
+      "claim_type": "TRANSFORMATION",
+      "claim": "La adquisición de conocimiento modifica progresivamente su relación con el mundo y consigo mismo.",
+      "motifs": [
+        "M12",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "25"
+    },
+    {
+      "global_claim_id": "G25-S205-K05",
+      "claim_id": "K05",
+      "source_id": "S205",
+      "corpus_id": "C186",
+      "location": "Ibn Tufayl: solitary cognition, nature, abstraction, self-knowledge and encounter with the divine",
+      "claim_type": "PRACTICE",
+      "claim": "Observación, comparación, experimentación y contemplación constituyen métodos de aprendizaje dentro del relato.",
+      "motifs": [
+        "M24",
+        "M25"
+      ],
+      "provenance": "P2*",
+      "batch": "25"
+    },
+    {
+      "global_claim_id": "G25-S205-K06",
+      "claim_id": "K06",
+      "source_id": "S205",
+      "corpus_id": "C186",
+      "location": "Ibn Tufayl: solitary cognition, nature, abstraction, self-knowledge and encounter with the divine",
+      "claim_type": "COSMO",
+      "claim": "La investigación del mundo natural conduce a preguntas sobre origen, orden y causa primera.",
+      "motifs": [
+        "M15",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "25"
+    },
+    {
+      "global_claim_id": "G25-S205-K07",
+      "claim_id": "K07",
+      "source_id": "S205",
+      "corpus_id": "C186",
+      "location": "Ibn Tufayl: solitary cognition, nature, abstraction, self-knowledge and encounter with the divine",
+      "claim_type": "SELF_MODEL",
+      "claim": "Hayy construye un modelo de sí mismo mediante inferencia a partir de cuerpo, movimiento, percepción y vida.",
+      "motifs": [
+        "M02",
+        "M08"
+      ],
+      "provenance": "P2*",
+      "batch": "25"
+    },
+    {
+      "global_claim_id": "G25-S205-K08",
+      "claim_id": "K08",
+      "source_id": "S205",
+      "corpus_id": "C186",
+      "location": "Ibn Tufayl: solitary cognition, nature, abstraction, self-knowledge and encounter with the divine",
+      "claim_type": "UNITY",
+      "claim": "La multiplicidad de fenómenos naturales es progresivamente integrada en explicaciones más generales.",
+      "motifs": [
+        "M03",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "25"
+    },
+    {
+      "global_claim_id": "G25-S205-K09",
+      "claim_id": "K09",
+      "source_id": "S205",
+      "corpus_id": "C186",
+      "location": "Ibn Tufayl: solitary cognition, nature, abstraction, self-knowledge and encounter with the divine",
+      "claim_type": "ATTENTION",
+      "claim": "La curiosidad sostenida y la observación minuciosa impulsan el desarrollo cognitivo del protagonista.",
+      "motifs": [
+        "M06",
+        "M24"
+      ],
+      "provenance": "P2*",
+      "batch": "25"
+    },
+    {
+      "global_claim_id": "G25-S205-K10",
+      "claim_id": "K10",
+      "source_id": "S205",
+      "corpus_id": "C186",
+      "location": "Ibn Tufayl: solitary cognition, nature, abstraction, self-knowledge and encounter with the divine",
+      "claim_type": "VALENCE",
+      "claim": "El conocimiento se presenta como algo valioso porque permite una vida más ordenada y contemplativa.",
+      "motifs": [
+        "M10",
+        "M12"
+      ],
+      "provenance": "P2*",
+      "batch": "25"
+    },
+    {
+      "global_claim_id": "G25-S205-K11",
+      "claim_id": "K11",
+      "source_id": "S205",
+      "corpus_id": "C186",
+      "location": "Ibn Tufayl: solitary cognition, nature, abstraction, self-knowledge and encounter with the divine",
+      "claim_type": "INEFFABILITY",
+      "claim": "Las experiencias contemplativas finales se describen mediante imágenes y lenguaje que exceden la explicación natural ordinaria.",
+      "motifs": [
+        "M14",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "25"
+    },
+    {
+      "global_claim_id": "G25-S205-K12",
+      "claim_id": "K12",
+      "source_id": "S205",
+      "corpus_id": "C186",
+      "location": "Ibn Tufayl: solitary cognition, nature, abstraction, self-knowledge and encounter with the divine",
+      "claim_type": "RELATION",
+      "claim": "El encuentro posterior con una comunidad humana introduce una tensión entre conocimiento contemplativo y estructuras sociales.",
+      "motifs": [
+        "M05",
+        "M16"
+      ],
+      "provenance": "P2*",
+      "batch": "25"
+    },
+    {
+      "global_claim_id": "G25-S205-K13",
+      "claim_id": "K13",
+      "source_id": "S205",
+      "corpus_id": "C186",
+      "location": "Ibn Tufayl: solitary cognition, nature, abstraction, self-knowledge and encounter with the divine",
+      "claim_type": "META",
+      "claim": "Hayy ibn Yaqzan es un relato filosófico medieval de Ibn Tufayl; funciona como experimento narrativo sobre conocimiento y sociedad, no como registro empírico de un caso real.",
+      "motifs": [
+        "M14",
+        "M17",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "25"
+    },
+    {
+      "global_claim_id": "G25-S206-K01",
+      "claim_id": "K01",
+      "source_id": "S206",
+      "corpus_id": "C187",
+      "location": "Ghāyat al-Hakim / Picatrix; astral magic, talismans, correspondences and celestial influences",
+      "claim_type": "COSMO",
+      "claim": "Picatrix organiza una cosmología donde configuraciones celestes se relacionan con procesos y propiedades del mundo sublunar.",
+      "motifs": [
+        "M15",
+        "M18",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "25"
+    },
+    {
+      "global_claim_id": "G25-S206-K02",
+      "claim_id": "K02",
+      "source_id": "S206",
+      "corpus_id": "C187",
+      "location": "Ghāyat al-Hakim / Picatrix; astral magic, talismans, correspondences and celestial influences",
+      "claim_type": "CORRESPONDENCE",
+      "claim": "El texto construye relaciones operativas entre astros, imágenes, materiales, tiempos y efectos buscados.",
+      "motifs": [
+        "M18",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "25"
+    },
+    {
+      "global_claim_id": "G25-S206-K03",
+      "claim_id": "K03",
+      "source_id": "S206",
+      "corpus_id": "C187",
+      "location": "Ghāyat al-Hakim / Picatrix; astral magic, talismans, correspondences and celestial influences",
+      "claim_type": "PRACTICE",
+      "claim": "La magia astral se presenta como un conjunto de procedimientos para fabricar y activar talismanes bajo condiciones específicas.",
+      "motifs": [
+        "M24",
+        "M25"
+      ],
+      "provenance": "P2*",
+      "batch": "25"
+    },
+    {
+      "global_claim_id": "G25-S206-K04",
+      "claim_id": "K04",
+      "source_id": "S206",
+      "corpus_id": "C187",
+      "location": "Ghāyat al-Hakim / Picatrix; astral magic, talismans, correspondences and celestial influences",
+      "claim_type": "STATE",
+      "claim": "La capacidad del operador depende de conocimiento, preparación y orientación adecuada de la práctica.",
+      "motifs": [
+        "M07",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "25"
+    },
+    {
+      "global_claim_id": "G25-S206-K05",
+      "claim_id": "K05",
+      "source_id": "S206",
+      "corpus_id": "C187",
+      "location": "Ghāyat al-Hakim / Picatrix; astral magic, talismans, correspondences and celestial influences",
+      "claim_type": "RELATION",
+      "claim": "El mago ocupa una posición mediadora entre influencias celestes, materiales y objetivos humanos.",
+      "motifs": [
+        "M05",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "25"
+    },
+    {
+      "global_claim_id": "G25-S206-K06",
+      "claim_id": "K06",
+      "source_id": "S206",
+      "corpus_id": "C187",
+      "location": "Ghāyat al-Hakim / Picatrix; astral magic, talismans, correspondences and celestial influences",
+      "claim_type": "DYNAMICS",
+      "claim": "Momento, movimiento celeste y configuración simbólica son tratados como variables que afectan la operación.",
+      "motifs": [
+        "M09",
+        "M18"
+      ],
+      "provenance": "P2*",
+      "batch": "25"
+    },
+    {
+      "global_claim_id": "G25-S206-K07",
+      "claim_id": "K07",
+      "source_id": "S206",
+      "corpus_id": "C187",
+      "location": "Ghāyat al-Hakim / Picatrix; astral magic, talismans, correspondences and celestial influences",
+      "claim_type": "EMBODIMENT",
+      "claim": "Materiales, imágenes, aromas y formas físicas son componentes necesarios de operaciones simbólicas.",
+      "motifs": [
+        "M08",
+        "M18"
+      ],
+      "provenance": "P2*",
+      "batch": "25"
+    },
+    {
+      "global_claim_id": "G25-S206-K08",
+      "claim_id": "K08",
+      "source_id": "S206",
+      "corpus_id": "C187",
+      "location": "Ghāyat al-Hakim / Picatrix; astral magic, talismans, correspondences and celestial influences",
+      "claim_type": "ATTENTION",
+      "claim": "Precisión de correspondencias y condiciones temporales es presentada como parte de la eficacia ritual.",
+      "motifs": [
+        "M06",
+        "M24"
+      ],
+      "provenance": "P2*",
+      "batch": "25"
+    },
+    {
+      "global_claim_id": "G25-S206-K09",
+      "claim_id": "K09",
+      "source_id": "S206",
+      "corpus_id": "C187",
+      "location": "Ghāyat al-Hakim / Picatrix; astral magic, talismans, correspondences and celestial influences",
+      "claim_type": "VALENCE",
+      "claim": "Las operaciones se clasifican por beneficios, protección, conocimiento, atracción u otros efectos buscados.",
+      "motifs": [
+        "M10",
+        "M18"
+      ],
+      "provenance": "P2*",
+      "batch": "25"
+    },
+    {
+      "global_claim_id": "G25-S206-K10",
+      "claim_id": "K10",
+      "source_id": "S206",
+      "corpus_id": "C187",
+      "location": "Ghāyat al-Hakim / Picatrix; astral magic, talismans, correspondences and celestial influences",
+      "claim_type": "TRANSFORMATION",
+      "claim": "El propósito mágico es modificar estados o circunstancias mediante intervención en una red de correspondencias.",
+      "motifs": [
+        "M12",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "25"
+    },
+    {
+      "global_claim_id": "G25-S206-K11",
+      "claim_id": "K11",
+      "source_id": "S206",
+      "corpus_id": "C187",
+      "location": "Ghāyat al-Hakim / Picatrix; astral magic, talismans, correspondences and celestial influences",
+      "claim_type": "UNITY",
+      "claim": "La obra busca integrar mundo celestial, natural y humano dentro de una única estructura operativa.",
+      "motifs": [
+        "M03",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "25"
+    },
+    {
+      "global_claim_id": "G25-S206-K12",
+      "claim_id": "K12",
+      "source_id": "S206",
+      "corpus_id": "C187",
+      "location": "Ghāyat al-Hakim / Picatrix; astral magic, talismans, correspondences and celestial influences",
+      "claim_type": "META",
+      "claim": "El Picatrix latino es una redacción medieval derivada del Ghāyat al-Hakim y no debe confundirse literalmente con su fuente árabe.",
+      "motifs": [
+        "M14",
+        "M17",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "25"
+    },
+    {
+      "global_claim_id": "G25-S206-K13",
+      "claim_id": "K13",
+      "source_id": "S206",
+      "corpus_id": "C187",
+      "location": "Ghāyat al-Hakim / Picatrix; astral magic, talismans, correspondences and celestial influences",
+      "claim_type": "CAUSAL",
+      "claim": "El sistema propone causalidades ocultas entre condiciones celestes y efectos terrestres, las cuales son históricas/esotéricas, no causalidades científicamente establecidas.",
+      "motifs": [
+        "M09",
+        "M20",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "25"
+    },
+    {
+      "global_claim_id": "G25-S207-K01",
+      "claim_id": "K01",
+      "source_id": "S207",
+      "corpus_id": "C188",
+      "location": "Agrippa: elemental, celestial and intellectual magic; correspondences, numbers, religion and ascent",
+      "claim_type": "ONTO",
+      "claim": "Agrippa organiza la magia según niveles elemental, celestial e intelectual.",
+      "motifs": [
+        "M07",
+        "M15",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "25"
+    },
+    {
+      "global_claim_id": "G25-S207-K02",
+      "claim_id": "K02",
+      "source_id": "S207",
+      "corpus_id": "C188",
+      "location": "Agrippa: elemental, celestial and intellectual magic; correspondences, numbers, religion and ascent",
+      "claim_type": "CORRESPONDENCE",
+      "claim": "El sistema relaciona propiedades naturales, patrones celestes, símbolos, nombres y efectos rituales.",
+      "motifs": [
+        "M18",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "25"
+    },
+    {
+      "global_claim_id": "G25-S207-K03",
+      "claim_id": "K03",
+      "source_id": "S207",
+      "corpus_id": "C188",
+      "location": "Agrippa: elemental, celestial and intellectual magic; correspondences, numbers, religion and ascent",
+      "claim_type": "COSMO",
+      "claim": "La naturaleza es presentada como una red jerárquica de elementos, astros y realidades intelectuales.",
+      "motifs": [
+        "M15",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "25"
+    },
+    {
+      "global_claim_id": "G25-S207-K04",
+      "claim_id": "K04",
+      "source_id": "S207",
+      "corpus_id": "C188",
+      "location": "Agrippa: elemental, celestial and intellectual magic; correspondences, numbers, religion and ascent",
+      "claim_type": "SELF_MODEL",
+      "claim": "El operador ideal debe formar su propio carácter y capacidad antes de pretender producir efectos mágicos.",
+      "motifs": [
+        "M02",
+        "M06",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "25"
+    },
+    {
+      "global_claim_id": "G25-S207-K05",
+      "claim_id": "K05",
+      "source_id": "S207",
+      "corpus_id": "C188",
+      "location": "Agrippa: elemental, celestial and intellectual magic; correspondences, numbers, religion and ascent",
+      "claim_type": "PRACTICE",
+      "claim": "La obra presenta magia como disciplina que exige conocimiento, preparación y conducta apropiada.",
+      "motifs": [
+        "M24",
+        "M25"
+      ],
+      "provenance": "P2*",
+      "batch": "25"
+    },
+    {
+      "global_claim_id": "G25-S207-K06",
+      "claim_id": "K06",
+      "source_id": "S207",
+      "corpus_id": "C188",
+      "location": "Agrippa: elemental, celestial and intellectual magic; correspondences, numbers, religion and ascent",
+      "claim_type": "TRANSFORMATION",
+      "claim": "La dignificación del operador supone elevar su condición intelectual y espiritual.",
+      "motifs": [
+        "M12",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "25"
+    },
+    {
+      "global_claim_id": "G25-S207-K07",
+      "claim_id": "K07",
+      "source_id": "S207",
+      "corpus_id": "C188",
+      "location": "Agrippa: elemental, celestial and intellectual magic; correspondences, numbers, religion and ascent",
+      "claim_type": "RELATION",
+      "claim": "El mago actúa como mediador entre fuerzas naturales, celestes y religiosas.",
+      "motifs": [
+        "M05",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "25"
+    },
+    {
+      "global_claim_id": "G25-S207-K08",
+      "claim_id": "K08",
+      "source_id": "S207",
+      "corpus_id": "C188",
+      "location": "Agrippa: elemental, celestial and intellectual magic; correspondences, numbers, religion and ascent",
+      "claim_type": "VALENCE",
+      "claim": "Religión, piedad y orientación correcta se presentan como condiciones superiores a la mera técnica.",
+      "motifs": [
+        "M10",
+        "M12"
+      ],
+      "provenance": "P2*",
+      "batch": "25"
+    },
+    {
+      "global_claim_id": "G25-S207-K09",
+      "claim_id": "K09",
+      "source_id": "S207",
+      "corpus_id": "C188",
+      "location": "Agrippa: elemental, celestial and intellectual magic; correspondences, numbers, religion and ascent",
+      "claim_type": "ATTENTION",
+      "claim": "Números, nombres, correspondencias y configuraciones requieren lectura cuidadosa y discriminación contextual.",
+      "motifs": [
+        "M06",
+        "M18"
+      ],
+      "provenance": "P2*",
+      "batch": "25"
+    },
+    {
+      "global_claim_id": "G25-S207-K10",
+      "claim_id": "K10",
+      "source_id": "S207",
+      "corpus_id": "C188",
+      "location": "Agrippa: elemental, celestial and intellectual magic; correspondences, numbers, religion and ascent",
+      "claim_type": "UNITY",
+      "claim": "Los tres libros intentan conectar naturaleza, cosmos y dimensión intelectual en una sola filosofía de la magia.",
+      "motifs": [
+        "M03",
+        "M20"
+      ],
+      "provenance": "P2*",
+      "batch": "25"
+    },
+    {
+      "global_claim_id": "G25-S207-K11",
+      "claim_id": "K11",
+      "source_id": "S207",
+      "corpus_id": "C188",
+      "location": "Agrippa: elemental, celestial and intellectual magic; correspondences, numbers, religion and ascent",
+      "claim_type": "STATE",
+      "claim": "Agrippa diferencia capacidades y niveles de conocimiento necesarios para operaciones de distintos órdenes.",
+      "motifs": [
+        "M07",
+        "M23"
+      ],
+      "provenance": "P2*",
+      "batch": "25"
+    },
+    {
+      "global_claim_id": "G25-S207-K12",
+      "claim_id": "K12",
+      "source_id": "S207",
+      "corpus_id": "C188",
+      "location": "Agrippa: elemental, celestial and intellectual magic; correspondences, numbers, religion and ascent",
+      "claim_type": "INEFFABILITY",
+      "claim": "La dimensión intelectual y divina se presenta mediante símbolos, nombres y jerarquías difíciles de reducir a descripción física.",
+      "motifs": [
+        "M14",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "25"
+    },
+    {
+      "global_claim_id": "G25-S207-K13",
+      "claim_id": "K13",
+      "source_id": "S207",
+      "corpus_id": "C188",
+      "location": "Agrippa: elemental, celestial and intellectual magic; correspondences, numbers, religion and ascent",
+      "claim_type": "META",
+      "claim": "La obra es una síntesis renacentista de filosofía natural, magia y religión; sus correspondencias son históricas y esotéricas, no evidencia científica de causalidad oculta.",
+      "motifs": [
+        "M14",
+        "M17",
+        "M22"
+      ],
+      "provenance": "P2*",
+      "batch": "25"
+    }
+  ]
+}
