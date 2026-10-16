@@ -162,3 +162,6 @@ If the evidence corpus changes, update the evidence index and this memory.
 An AI entering this repository should be able to start here and reconstruct the project map without the human repeating the context.
 RESEARCH_MAP.md → research/CURRENT_CHECKPOINT.md → REPO_MEMORY.md → research/CLAIM_FAMILY_REGISTRY.md → research/README.md → sources/README.md → corpus-v1/corpus/ → docs/CLAIM_TO_PAPER_PROTOCOL.md → docs/THREE_SCALE_CONSCIOUSNESS.md → papers/README.md → active paper → relevant experiments → source/claim records
 This chain is the canonical AI navigation path.
+## P008 next engineering gate, 2026-10-16
+
+The verified 32-scenario pilot remains exploratory. Proposed `experiments/p008_generalization_holdout.py` defines a 128-scenario internal reserved-split evaluator, with main-branch lineage/frozen-path verification and first-attempt single-release guard; `.github/workflows/p008-generalization-holdout.yml` only triggers on a separately committed release marker. **Not yet frozen or executed**; do not claim holdout evidence from code existing. Active next step is green CI and freeze PR, then a distinct release review, followed by raw evidence audit. Independent scientific review remains pending.
