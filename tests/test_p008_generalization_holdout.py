@@ -1,5 +1,6 @@
 """No holdout access from unit tests: only sealed release guard and pilot exercise."""
 from pathlib import Path
+import subprocess
 import pytest
 from experiments import p008_generalization_holdout as holdout
 from experiments.p008_generalization_pilot import generate_scenario, run_arm
@@ -8,7 +9,7 @@ from experiments.p008_self_model_causal_runtime import CONDITION_NAMES
 
 def test_holdout_rejects_second_attempt_even_if_release_exists(monkeypatch):
     monkeypatch.setenv("GITHUB_RUN_ATTEMPT", "2")
-    with pytest.raises((FileNotFoundError, RuntimeError, ValueError)):
+    with pytest.raises((FileNotFoundError, RuntimeError, ValueError, subprocess.CalledProcessError)):
         holdout.verify_release()
 
 

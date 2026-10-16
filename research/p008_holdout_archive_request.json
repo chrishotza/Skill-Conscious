@@ -1,0 +1,12 @@
+{
+  "schema_version": "1.0",
+  "operation": "ARCHIVE_EXISTING_VERIFIED_ACTIONS_ZIP_UNCHANGED",
+  "study_id": "P008-CF01-GENERALIZATION-V1",
+  "source_run_id": 38980796822,
+  "source_artifact_id": 12081087004,
+  "source_zip_sha256": "8903448199c676ec10cef090751dd73ed2087e263d75e472a29f0b908d189c32",
+  "source_size_bytes": 633705,
+  "release_tag": "p008-cf01-internal-holdout-20261016",
+  "release_target_commit": "c9728d2552b184d4b37c8590279e8ea4e8a04337",
+  "immutable_policy": "Verify downloaded Actions ZIP SHA-256 before uploading unchanged bytes to persistent GitHub Release. Do not run any experiment or regenerate data."
+}

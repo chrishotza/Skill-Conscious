@@ -67,3 +67,7 @@ The 32-scenario pilot CI run 38978718548 completed; 8 focused tests and 136 full
 ## P008 internally sealed release
 
 The frozen synthetic evaluation baseline is PR #94 merge `c0278493e8ef31520beea29355f947a7ea3739a8`. A separately proposed `research/p008_holdout_release.json` authorizes the guarded workflow on main; it is **not evidence that the 128 reserved cases ran**. The archived run and analysis must be verified before presenting a holdout result. Independent external methodological review remains pending.
+
+## Verified P008 internal holdout (2026-10-16)
+
+Internally frozen code `c0278493` and separate release `c9728d25` executed a complete 128-scenario synthetic reserved-split in Actions run 38980796822, with 140 passing pre-run tests and SHA-256 re-audit. C-vs-B/C-vs-D divergence 0.234375 (scenario bootstrap 95% 0.164062–0.3125); B-vs-D and A-vs-B 0. The software mechanism gate passed. The original frozen protocol is intentionally unchanged after execution; new outcome record is `research/p008_holdout_result_v1.json` and `research/results/p008/P008_CF01_INTERNAL_HOLDOUT_2026-10-16.md`. Evidence artifact 12081087004 expires January 2027 unless durable archive step succeeds. **Not independent confirmation or consciousness evidence.**

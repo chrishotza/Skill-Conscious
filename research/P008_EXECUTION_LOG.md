@@ -99,3 +99,8 @@ After PR #93 green (140 tests, pilot reproducible), a separate PR sealed the int
 ## 2026-10-16 — internal freeze merged; sealed release requested (NO RESULT YET)
 
 PR #94 merged at SHA `c0278493e8ef31520beea29355f947a7ea3739a8`, freezing the P008 protocol and evaluator after green CI. The next separately proposed release marker pins this SHA. At the time this entry was written no holdout output had been inspected; its outcome and any negative/null findings must be recorded only from GitHub Actions per-scenario artifacts.
+
+
+## 2026-10-16 — completed verified internal 128-scenario reserved holdout
+
+Frozen baseline SHA c0278493e8ef31520beea29355f947a7ea3739a8; separately merged release SHA c9728d2552b184d4b37c8590279e8ea4e8a04337. GitHub Actions 38980796822 / job 117240940963 passed freeze verification and 140 pre-run tests, executed all 128 held-out IDs, re-audited 640 raw JSON records and paired bootstrap, and retained ZIP artifact 12081087004 SHA-256 8903448199c676ec10cef090751dd73ed2087e263d75e472a29f0b908d189c32. C-vs-B=C-vs-D=0.234375 (CI 0.164062..0.3125); A-vs-B=B-vs-D=0. Internal software mechanism gate passed; no external independent methodological review. Full result research/results/p008/P008_CF01_INTERNAL_HOLDOUT_2026-10-16.md; machine record research/p008_holdout_result_v1.json. Artifact expires 2027-01-14; durable archive workflow requested separately.
