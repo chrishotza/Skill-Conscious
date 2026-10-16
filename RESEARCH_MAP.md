@@ -217,3 +217,7 @@ Frozen baseline PR #94 merge SHA `c0278493e8ef31520beea29355f947a7ea3739a8` → 
 ## P008 internal reserved-split result navigation — 2026-10-16
 
 `research/p008_generalization_protocol_v1.json` (immutable internal freeze) → `research/p008_holdout_release.json` (separate trigger, frozen commit pinned) → `experiments/p008_generalization_holdout.py` → GitHub Actions **38980796822** → `research/p008_holdout_result_v1.json` + `research/results/p008/P008_CF01_INTERNAL_HOLDOUT_2026-10-16.md` (128 synthetic scenarios, positive internal gate, all control/audit checks) → Actions artifact **12081087004** (SHA-256 in result JSON; time-limited) → proposed permanent release archive workflow. The empirical classification is synthetic runtime parameter sensitivity, never phenomenal consciousness; independent scientific review pending.
+
+## Verified P008 permanent archive
+
+`research/p008_holdout_result_v1.json` → GitHub Release `p008-cf01-internal-holdout-20261016` (asset 648924054, SHA-256 `8903448199c676ec10cef090751dd73ed2087e263d75e472a29f0b908d189c32`) ← original Actions 38980796822 artifact 12081087004; independent archival verification Actions 38981166451 PASS. This is the source for durable raw results. Frozen experiment protocol has not been edited after the holdout. Review status and open external-validation tasks in `research/CURRENT_CHECKPOINT.md`.

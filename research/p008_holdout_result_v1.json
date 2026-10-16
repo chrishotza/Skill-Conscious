@@ -15,7 +15,7 @@
   "artifact_zip_sha256": "8903448199c676ec10cef090751dd73ed2087e263d75e472a29f0b908d189c32",
   "artifact_expires_utc": "2027-01-14T23:19:20Z",
   "archive_release_tag": "p008-cf01-internal-holdout-20261016",
-  "archive_status": "GITHUB_RELEASE_PENDING_ARCHIVE_WORKFLOW",
+  "archive_status": "GITHUB_RELEASE_VERIFIED_SHA256_AND_SIZE",
   "scenario_count": 128,
   "scenario_id_range": "1000..1127",
   "arms": [
@@ -69,5 +69,15 @@
     "GitHub Actions run 38980796822 (holdout)",
     "Artifact 12081087004 ZIP SHA-256 8903448199c676ec10cef090751dd73ed2087e263d75e472a29f0b908d189c32",
     "GitHub Actions frozen main code c0278493; release merge c9728d2552b184d4b37c8590279e8ea4e8a04337"
-  ]
+  ],
+  "archive_workflow_run_id": 38981166451,
+  "archive_release_id": 415457666,
+  "archive_asset_id": 648924054,
+  "archive_asset_name": "p008-cf01-raw-evidence.zip",
+  "archive_asset_url": "https://github.com/chrishotza/Skill-Conscious/releases/download/p008-cf01-internal-holdout-20261016/p008-cf01-raw-evidence.zip",
+  "archive_release_url": "https://github.com/chrishotza/Skill-Conscious/releases/tag/p008-cf01-internal-holdout-20261016",
+  "archive_asset_size_bytes": 633705,
+  "archive_asset_sha256": "8903448199c676ec10cef090751dd73ed2087e263d75e472a29f0b908d189c32",
+  "archive_published_at": "2026-10-16T23:23:27Z",
+  "archive_verification": "Checked public GitHub Release API: asset digest and size match run 38980796822 Actions artifact 12081087004; archive workflow 38981166451 success."
 }

@@ -71,3 +71,7 @@ The frozen synthetic evaluation baseline is PR #94 merge `c0278493e8ef31520beea2
 ## Verified P008 internal holdout (2026-10-16)
 
 Internally frozen code `c0278493` and separate release `c9728d25` executed a complete 128-scenario synthetic reserved-split in Actions run 38980796822, with 140 passing pre-run tests and SHA-256 re-audit. C-vs-B/C-vs-D divergence 0.234375 (scenario bootstrap 95% 0.164062–0.3125); B-vs-D and A-vs-B 0. The software mechanism gate passed. The original frozen protocol is intentionally unchanged after execution; new outcome record is `research/p008_holdout_result_v1.json` and `research/results/p008/P008_CF01_INTERNAL_HOLDOUT_2026-10-16.md`. Evidence artifact 12081087004 expires January 2027 unless durable archive step succeeds. **Not independent confirmation or consciousness evidence.**
+
+## Long-lived P008 raw archive verified
+
+Original 128-scenario holdout ZIP preserved unchanged in GitHub Release `p008-cf01-internal-holdout-20261016` on 2026-10-16 (archive workflow run 38981166451), release ID 415457666, asset 648924054, SHA-256 `8903448199c676ec10cef090751dd73ed2087e263d75e472a29f0b908d189c32`, 633705 bytes. It matches original Actions artifact 12081087004; see `research/p008_holdout_result_v1.json`. This archives software evidence, not independent validation of a consciousness hypothesis.

@@ -104,3 +104,8 @@ PR #94 merged at SHA `c0278493e8ef31520beea29355f947a7ea3739a8`, freezing the P0
 ## 2026-10-16 — completed verified internal 128-scenario reserved holdout
 
 Frozen baseline SHA c0278493e8ef31520beea29355f947a7ea3739a8; separately merged release SHA c9728d2552b184d4b37c8590279e8ea4e8a04337. GitHub Actions 38980796822 / job 117240940963 passed freeze verification and 140 pre-run tests, executed all 128 held-out IDs, re-audited 640 raw JSON records and paired bootstrap, and retained ZIP artifact 12081087004 SHA-256 8903448199c676ec10cef090751dd73ed2087e263d75e472a29f0b908d189c32. C-vs-B=C-vs-D=0.234375 (CI 0.164062..0.3125); A-vs-B=B-vs-D=0. Internal software mechanism gate passed; no external independent methodological review. Full result research/results/p008/P008_CF01_INTERNAL_HOLDOUT_2026-10-16.md; machine record research/p008_holdout_result_v1.json. Artifact expires 2027-01-14; durable archive workflow requested separately.
+
+
+## 2026-10-16 — P008 reserved-split original artifact backed up (verified)
+
+Archive Actions 38981166451 downloaded original raw ZIP artifact 12081087004, checked SHA-256/633705-byte length, created GitHub Release `p008-cf01-internal-holdout-20261016` (release 415457666, asset 648924054). Release API confirms matching digest sha256:8903448199c676ec10cef090751dd73ed2087e263d75e472a29f0b908d189c32. The frozen study and primary output are unchanged. Post-hoc archive data lives in `research/p008_holdout_result_v1.json`.
