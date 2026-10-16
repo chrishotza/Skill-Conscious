@@ -130,15 +130,15 @@ Do not store ephemeral chat dialogue here. Store durable project state and decis
 
 ## 10. Current checkpoint
 
-CURRENT_STATE = S01 outcomes recorded with original raw-output archive incomplete; P008/CF01 deterministic fixture and full CI checks verified; PR #90 merged to main (e919057). Follow-up generalization protocol remains an unfrozen draft; a pilot-only 32-scenario harness is in review and no holdout execution has been performed.
+CURRENT_STATE = S01 outcomes recorded with original raw-output archive incomplete; P008/CF01 deterministic fixture and full CI checks verified; PR #90 merged to main (e919057). Follow-up generalization protocol remains an unfrozen draft; a pilot-only 32-scenario harness completed development-sample execution with 12.5% divergence, no negative-control disagreement; holdout untouched.
 LAST_COMPLETED = Frozen S01 protocol/data snapshot and negative findings; Drive master Git backup and 11-file SHA-256 verification; P008 CF01 controlled fixture output; 2026-10-16 CI validation: 128/128 tests in both native-dynamic-core run 38977366222 and P008 workflow run 38977365990.
 ACTIVE_PAPER = NONE — S01 is not promoted to a paper while original-artifact provenance remains incomplete.
-ACTIVE_STUDY = P008/CF01 generalized development-pilot implementation, CI and output audit pending; S01 archival/provenance reconciliation remains open.
+ACTIVE_STUDY = P008/CF01 exploratory 32-scenario pilot audited (12.5% C-B/C-D divergence; 0% B-D/A-B); next independently frozen 128-scenario holdout remains unexecuted; S01 archival reconciliation still open.
 ACTIVE_HYPOTHESIS = P008 self-model intervention may causally change future trajectory selection beyond matched generic/disconnected state controls; the existing 2-cycle hand-constructed fixture does not establish generalization. S01's recorded cross-family recurrence prediction was not supported in the preregistered direction.
 EVIDENCE_STATUS = 4,315 effective claims / 325 corpus units / 328 effective source IDs / 19 source families; passage-level verification and source dependency review remain incomplete.
-EXPERIMENT_STATUS = S01 primary and robustness outcomes reported; 23 robustness conditions all retained negative DeltaS and upper-tail p=1.0; V10 metadata audit had 3 missing-count failures; raw output archive incomplete. P008 mechanism fixture run 37898192199 passed focused tests and artifact inspection; both 2026-10-16 full 128-test suites passed (runs 38977366222 and 38977365990).
-NEXT_STEP = Verify 32-scenario P008 development pilot CI, inspect raw SHA-256 evidence and limitations, then freeze protocol/code independently before opening 128 holdout scenarios.
-BLOCKERS = S01 original run-output directories not recovered; P008 pilot verification pending and holdout untested; P009 broader validation; P010 discriminating physical model; 52 non-canonical provenance labels await source review.
+EXPERIMENT_STATUS = P008 exploratory pilot 32/32, C-B=C-D=0.125 (scenario bootstrap 95% 0.03125..0.25), B-D=A-B=0; Actions run 38978718548 artifact 12079189698, 136/136 full tests. S01 primary and robustness outcomes reported; 23 robustness conditions all retained negative DeltaS and upper-tail p=1.0; V10 metadata audit had 3 missing-count failures; raw output archive incomplete. P008 mechanism fixture run 37898192199 passed focused tests and artifact inspection; both 2026-10-16 full 128-test suites passed (runs 38977366222 and 38977365990).
+NEXT_STEP = Durably preserve P008 pilot artifact 12079189698 before 2027-01-14 expiry; independently review sample distribution and freeze code/protocol before any holdout; no consciousness inference.
+BLOCKERS = S01 original run-output directories not recovered; P008 holdout untested, pilot evidence in expiring GitHub artifact;  P009 broader validation; P010 discriminating physical model; 52 non-canonical provenance labels await source review.
 LAST_UPDATE = 2026-10-16
 
 ## 11. Navigation rule

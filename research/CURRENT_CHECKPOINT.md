@@ -6,7 +6,7 @@
 
 ## Current state
 
-The repository has a substantial experimental runtime and a structured research program. No paper is currently publication-ready. Canonical documentation/state consolidation is merged. The P008 / CF01 deterministic mechanism fixture passed its focused tests and two complete CI suites and PR #90 was merged into main. A diversified follow-up protocol remains an unfrozen draft. The pilot-only generator and matched A/B/C/D runner are implemented in review, with holdout 1000..1127 locked and pilot CI evidence pending. S01's raw-output gap remains documented and does not block that work.
+The repository has a substantial experimental runtime and a structured research program. No paper is currently publication-ready. Canonical documentation/state consolidation is merged. The P008 / CF01 deterministic mechanism fixture passed its focused tests and two complete CI suites and PR #90 was merged into main. A diversified follow-up protocol remains an unfrozen draft. The pilot-only generator and matched A/B/C/D runner are implemented in review, with holdout 1000..1127 locked and the 32-scenario pilot has since executed and passed artifact audit on 2026-10-16; holdout 1000..1127 remains untouched. Its 12.5% paired divergence is exploratory, not confirmation. S01's raw-output gap remains documented and does not block that work.
 
 ## Corpus snapshot
 
@@ -78,7 +78,11 @@ Hypothesis: intervention on a persistent self-model changes future trajectory se
 
 ## Immediate sequence
 
-1. Execute and audit only the 32-scenario P008 development pilot through CI with all raw per-arm JSON, paired controls and SHA-256 manifest.
-2. Treat the two-cycle P008 result only as a controlled mechanism fixture, not evidence of phenomenal consciousness.
+1. Preserve a durable copy of the verified P008 pilot artifact (GitHub Actions 38978718548; 90-day expiry 2027-01-14), then independently review scenario sampling and limitations.
+2. Treat both the initial two-candidate fixture and the 32-scenario development pilot as functional synthetic software evidence, not evidence of phenomenal consciousness.
 3. Independently review and freeze the generator, inference plan and exact runtime implementation before any holdout access.
 4. Keep S01 raw-artifact recovery/inventory open without altering preregistered S01 results; continue P009/P010 only at their respective evidence gates.
+
+## 2026-10-16 development-pilot result (exploratory)
+
+P008 generalized runner succeeded with 32 seeded pilot scenarios, four arms and two cycles each. C-vs-B and C-vs-D divergence were both 0.125 (scenario bootstrap 95% interval 0.03125–0.25); B-vs-D and A-vs-B disagreements were zero. Focused tests 8/8 and complete suite 136/136. GitHub Actions run 38978718548 uploaded audited ZIP artifact 12079189698 (SHA-256 ef0d38acf1f1661298bd3472fe5747da59a5b087abf0c4e678ec20bf93a24ea5). Detailed limits and expiry: research/results/p008/P008_GENERALIZATION_PILOT_2026-10-16.md. This is **not** a confirmatory holdout result; IDs 1000–1127 remain untested.

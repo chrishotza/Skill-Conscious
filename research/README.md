@@ -59,3 +59,7 @@ Any substantive change in research/, papers/, experiments/, docs/, sources/, or 
 ## Development pilot implementation
 
 The current generalized P008 runner `experiments/p008_generalization_pilot.py` is **pilot-only**. It accepts scenario IDs 0..31, enforces matched controls and restart, writes hashed per-arm raw artifacts, and refuses holdout IDs 1000..1127. See the workflow `.github/workflows/p008-generalization-pilot.yml`. CI and pilot results must be inspected before any empirical result is claimed. The generalization protocol remains an unfrozen draft.
+
+## Audited P008 development pilot (2026-10-16)
+
+The 32-scenario pilot CI run 38978718548 completed; 8 focused tests and 136 full tests passed, raw output was SHA-256 audited and uploaded as artifact 12079189698. C-vs-B/C-vs-D divergence: 0.125, controls 0. This is **exploratory synthetic functional evidence only**, not a frozen confirmatory generalization or consciousness result. Raw archive expires 2027-01-14. See research/results/p008/P008_GENERALIZATION_PILOT_2026-10-16.md.

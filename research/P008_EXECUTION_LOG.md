@@ -84,3 +84,8 @@ The existing P008/CF01 fixed two-candidate fixture was retained unmodified. Runt
 ## 2026-10-16 — P008 generalized pilot implementation (execution pending)
 
 A deterministic pilot-only A/B/C/D generator/harness was implemented on `research/p008-generalization-pilot-harness-20261016`. It rejects all reserved holdout IDs, writes input and per-arm JSON with SHA-256 manifest, re-audits matched controls and persistent state, and summarizes correlated cycles per scenario. No successful pilot CI run or new generalization result had been verified at this point.
+
+
+## 2026-10-16 — 32-scenario exploratory pilot executed, audited
+
+GitHub Actions run 38978718548 completed all pilot tests (8 passed), 32 scenarios x four arms x two restarted cycles, independent saved-file SHA-256 audit, and artifact upload (ID 12079189698, ZIP SHA-256 ef0d38acf1f1661298bd3472fe5747da59a5b087abf0c4e678ec20bf93a24ea5, expires 2027-01-14). Full project CI run 38978718586 passed 136 tests. Development-only contrasts C-vs-B = C-vs-D = 0.125 (bootstrap scenario 95% interval 0.03125–0.25), B-vs-D = A-vs-B = 0. Holdout was not accessed. See research/results/p008/P008_GENERALIZATION_PILOT_2026-10-16.md for interpretation and limits.
