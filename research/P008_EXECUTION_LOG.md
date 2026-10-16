@@ -67,3 +67,15 @@ A dedicated CPU GitHub Actions workflow runs the complete pytest suite, runs the
 - The predeclared *mechanism-fixture* criterion was met.
 
 **Interpretation boundary:** this is a deliberately hand-constructed, deterministic two-candidate mechanism fixture with two cycles and no RNG. It demonstrates that, under this configuration, the scorer's selection changes when its `continuity` self-model weight changes from 1.0 to 0.0 and the difference is not reproduced by the disconnected or generic-state controls. It does **not** provide broad empirical validation, estimate variability across seeds/candidate sets, or establish phenomenal consciousness. The full suite and PR checks still need their final verdict.
+
+
+## 2026-10-16 — CI gate completed after runtime audit repairs
+
+The existing P008/CF01 fixed two-candidate fixture was retained unmodified. Runtime audit repairs now expose the pending-action transition, keep metacognitive state deltas bounded rather than recursively embedding prior traces, include numeric internal self-state in self-observation, and compact redundant historical snapshots while leaving canonical action/evidence ledgers intact. Full test execution then succeeded.
+
+- native-dynamic-core: https://github.com/chrishotza/Skill-Conscious/actions/runs/38977366222; 128 passed in 12.38 seconds (GitHub Actions job log inspected).
+- P008 CF01 Causal Assay: https://github.com/chrishotza/Skill-Conscious/actions/runs/38977365990; focused P008 job successful, full suite 128 passed in 18.59 seconds (job log inspected).
+- Branch validation commit at test time: `0e2d65d69f9dae565621c2f064b1fdf06a9bd0d7`; repository branch: `research/p008-cf01-audit-assay`; later documentation commits are non-experimental.
+- The ablation regression `test_self_development_ablation_has_four_conditions`, previously timing out after 60 seconds, passed in 11.05 seconds in native-dynamic-core. This is a performance/serialization repair, not a new mechanistic result.
+
+**Boundary:** green software tests and a deterministic fixture are not independent replication, broad causal-effect estimates, or proof of phenomenal consciousness. The next study must be preregistered separately, use wider candidate/input variation and matched controls, and persist its raw artifacts with versioned provenance.

@@ -182,16 +182,15 @@ Whenever a meaningful research, paper, experiment, source, or documentation stat
 - `REPO_MEMORY.md`
 - `RESEARCH_MAP.md`
 
-The CI workflow `research-sync-contract.yml` enforces the presence and navigation links of these state files. The checkpoint is the live scientific status; the memory is durable AI context; the map is the traversal contract. Current synchronization: 2026-10-09, canonical branch main. Pull requests that change the research surface are required to update all three.
+The CI workflow `research-sync-contract.yml` enforces the presence and navigation links of these state files. The checkpoint is the live scientific status; the memory is durable AI context; the map is the traversal contract. Current synchronization: 2026-10-16 for PR #90's research state, canonical branch main after integration. Pull requests that change the research surface are required to update all three.
 
 ## 10. Immediate research move
 
-1. Complete the state/navigation consolidation and pass the repository's synchronization checks.
-2. Keep S01's outcome and artifact limitation visible. Read research/S01_RESULTS_STATUS_2026-10-09.md; do not claim the original raw JSON/NPZ output directories were recovered.
-3. Verify the Drive recovery snapshot and maintain a file-level inventory. Do not reconstruct raw run files from summaries.
-4. Track PR #90: the focused CF01 job and artifact inspection succeeded for run 37898192199; the full repository pytest verdict still gates merge.
-5. Treat the archived result as a deterministic mechanism fixture, not broad empirical confirmation of P008 or phenomenal consciousness.
-6. After a green merge, preregister a broader P008 validation across varied inputs/candidate sets before returning to P009. P010 remains blocked until a physical model supplies a discriminating observable.
+1. Integrate PR #90 after its synchronized state update; the P008 focused assay passed and the 2026-10-16 full suites each recorded 128/128 passes (native run 38977366222; P008 run 38977365990).
+2. Keep S01's negative preregistered outcome and incomplete original-output archive visible; do not recreate original raw JSON/NPZ artifacts from summaries.
+3. Classify the P008 four-arm, two-cycle result as a hand-constructed deterministic mechanism fixture only, never general proof of consciousness.
+4. Preregister a separate P008 generalization study with varied input/candidate sets, matched resources/controls, and explicit fail criteria, then run only with durable output proven.
+5. P009 wider multi-condition testing and P010 fundamental-scale model discrimination remain independent unresolved gates.
 
 The project must keep the chain explicit:
 
