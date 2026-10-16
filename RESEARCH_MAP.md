@@ -205,3 +205,7 @@ Do not skip a stage. A protocol, implementation, test pass, or summary is not in
 ## P008 reserved-split implementation map
 
 `experiments/p008_generalization_holdout.py` (sealed runner and evidence audit) → `.github/workflows/p008-generalization-holdout.yml` (main push only, release marker path) → `research/p008_holdout_release.json` (must be committed separately after code freeze; absent until authorized). Baseline: 32-scenario pilot 0.125; holdout 128 scenarios unexecuted. See `research/CURRENT_CHECKPOINT.md` for live status. Independent review remains outstanding.
+
+## P008 freeze and release sequence (2026-10-16)
+
+1. Sealed runner PR #93 merged as `524f10a` with CI green. 2. This separate PR freezes `research/p008_generalization_protocol_v1.json` on main; its merge commit becomes the immutable `freeze_commit`. 3. Only a later, separate `research/p008_holdout_release.json` change may trigger 128 reserved cases. Full archives/audit remain required; independent methodological review pending. See `research/CURRENT_CHECKPOINT.md` and `REPO_MEMORY.md`.

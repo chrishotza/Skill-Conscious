@@ -49,3 +49,8 @@ The 32-scenario development run and raw SHA-256 audit succeeded in Actions run 3
 ## Reserved-split executor developed (not released)
 
 The holdout-only harness in `experiments/p008_generalization_holdout.py` enforces a separate release marker committed to `main` after a freeze commit, verifies commit ancestry, runs a frozen-path diff over all source/runtime files and protocol, and requires a first-attempt `main` push workflow. The corresponding workflow `.github/workflows/p008-generalization-holdout.yml` triggers **only** on creating/changing the release marker on main, not on PR CI. This revision is code prepared for freeze, not a claim that a holdout ran. Independent external methodological review remains valuable; internal code review cannot substitute for it.
+
+
+## Internal frozen protocol release (2026-10-16)
+
+Version `1.0-internal-freeze` pins the 128 reserved IDs 1000–1127, scenario-level bootstrap 2000 resamples seed 20261016, positive lower percentile bound for C-vs-B/C-vs-D, zero B-vs-D mismatch and complete artifact/state integrity. The source+protocol freeze is the *main merge commit* of the freeze PR; no holdout can be sampled before a later separate release marker pins that SHA. **Internal freeze is not independent external preregistration/review and does not establish phenomenal consciousness.**

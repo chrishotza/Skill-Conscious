@@ -1,7 +1,7 @@
 {
-  "schema_version": "0.1-draft",
+  "schema_version": "1.0-internal-freeze",
   "study_id": "P008-CF01-GENERALIZATION-V1",
-  "status": "DRAFT_HOLDOUT_CODE_NOT_FROZEN",
+  "status": "FROZEN_FOR_INTERNAL_RESERVED_SPLIT",
   "created_utc_date": "2026-10-16",
   "parent_fixture_registry": "research/p008_prediction_registry.json",
   "hypothesis": "Under identical candidate sets and exogenous input, consuming a persistent targeted self-model continuity weight changes trajectory selection more frequently than disconnected or generic-state controls across varied, pre-generated scenarios.",
@@ -55,7 +55,7 @@
   },
   "inference_policy": {
     "pilot": "May debug performance and evaluate scenario balance; modifications require a new protocol version and SHA before any holdout run.",
-    "holdout": "One locked evaluation after freezing generator and runtime. All cases included, regardless of result.",
+    "holdout": "Execute exactly once on the first main-push release marker after freezing the source and protocol. All 128 cases included, no adaptive tuning. Internal reserved-split test; publication-level independent methodological review remains pending.",
     "uncertainty": "95% scenario-level bootstrap interval with 2000 resamples; bootstrap seed 20261016. Descriptive over synthetic scenario generator only.",
     "mechanism_gate": "Nonzero lower 95% bootstrap bound for C-vs-B and C-vs-D divergence; B-vs-D disagreement equals zero, and 100% intervention/persistence/input-hash contract coverage. Report effect and failures even if gate is not met.",
     "invalid_run_conditions": [
@@ -89,17 +89,19 @@
     ],
     "storage": "research/results/p008/generalization/ or durable GitHub Actions artifacts; do not claim results without retained raw per-scenario rows and manifest"
   },
-  "implementation_status": "PILOT_COMPLETE_HOLDOUT_EXECUTOR_PENDING_FREEZE",
+  "implementation_status": "PILOT_AND_SEALED_HOLDOUT_IMPLEMENTED",
   "execution_status": "EXPLORATORY_PILOT_32_VERIFIED_HOLDOUT_NOT_RUN",
   "interpretation_boundary": "Even a positive gate demonstrates only wider functional dependence inside the constructed runtime, not an empirical consciousness claim.",
   "pilot_harness": "experiments/p008_generalization_pilot.py",
   "pilot_workflow": ".github/workflows/p008-generalization-pilot.yml",
-  "holdout_status": "NOT_ACCESSED_LOCKED_PENDING_SEPARATE_MAIN_RELEASE_COMMIT",
+  "holdout_status": "NOT_ACCESSED_FROZEN_AWAITING_SEPARATE_MAIN_RELEASE",
   "pilot_result_summary": "research/results/p008/P008_GENERALIZATION_PILOT_2026-10-16.md",
   "pilot_run_id": 38978718548,
   "pilot_artifact_id": 12079189698,
   "pilot_artifact_zip_sha256": "ef0d38acf1f1661298bd3472fe5747da59a5b087abf0c4e678ec20bf93a24ea5",
   "holdout_harness": "experiments/p008_generalization_holdout.py",
   "holdout_workflow": ".github/workflows/p008-generalization-holdout.yml",
-  "holdout_release_contract": "A separate main commit creates research/p008_holdout_release.json with a 40-character freeze_commit pinned to the first main commit containing the untouched code and protocol. No holdout run until release marker push and git diff of frozen implementation paths is empty."
+  "holdout_release_contract": "A separate main commit creates research/p008_holdout_release.json with a 40-character freeze_commit pinned to the first main commit containing the untouched code and protocol. No holdout run until release marker push and git diff of frozen implementation paths is empty.",
+  "methodological_review": "INTERNAL_CODE_AND_CI_REVIEW_ONLY; independent external scientific review has not been completed",
+  "freeze_rule": "Frozen baseline is immutable after this PR merges to main; a SEPARATE release marker must pin this exact main commit; executable rejects drift in source, experiment programs, protocol and workflow."
 }

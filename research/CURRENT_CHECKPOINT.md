@@ -90,3 +90,7 @@ P008 generalized runner succeeded with 32 seeded pilot scenarios, four arms and 
 ## 2026-10-16 reserved-holdout engineering checkpoint
 
 The 32-scenario pilot remains the latest verified generalized result. A separate 128-scenario runner and push-only workflow were implemented in a proposed PR. Their freeze/release contract requires a main-branch ancestor freeze SHA and rejects any changes under `src/`, relevant experiment code, the protocol and workflow. No holdout release marker exists yet; no 128-scenario execution is authorized or reported. Next steps: CI, freeze PR merge, and separately review/release the one-shot evaluation. Independent external scientific review is not yet recorded.
+
+## P008 freeze decision — 2026-10-16
+
+The guarded holdout executor passed a 140-test suite and a repeat of the 32-scenario exploratory pilot; PR #93 was merged at `524f10a8666510da5d1a3ab96ec0b5884130e237`. This follow-up freezes the internal P008 synthetic scenario protocol, controls, scenario-clustered bootstrap, failure gate and runtime source as a baseline before release. **Freeze baseline SHA is the main-branch squash merge of this freeze PR; no holdout IDs were accessed during the code/protocol validation.** A distinct release-marker PR must reference that SHA, and the first main push triggers the only authorized internal holdout. Independent external review has not occurred: do not call this a publication-grade preregistration or consciousness evidence.
