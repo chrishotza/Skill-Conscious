@@ -1,0 +1,47 @@
+name: P008 Generalization PILOT
+
+on:
+  pull_request:
+    paths:
+      - "experiments/p008_generalization_pilot.py"
+      - "tests/test_p008_generalization_pilot.py"
+      - "research/p008_generalization_protocol_v1.json"
+      - ".github/workflows/p008-generalization-pilot.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  development-pilot:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - name: Checkout tested revision
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Install development requirements
+        run: python -m pip install -e ".[dev]"
+      - name: Check pilot-only contracts
+        run: python -m pytest -q tests/test_p008_generalization_pilot.py tests/test_p008_generalization_protocol.py
+      - name: Execute development split, never holdout
+        run: |
+          python -m experiments.p008_generalization_pilot \
+            --pilot-output "artifacts/p008-pilot-$GITHUB_RUN_ID" --pilot-count 32
+      - name: Verify raw hashes and matched control conditions
+        run: |
+          python -m experiments.p008_generalization_pilot \
+            --audit "artifacts/p008-pilot-$GITHUB_RUN_ID"
+      - name: Upload raw pilot evidence
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: p008-generalization-pilot
+          path: artifacts/p008-pilot-*
+          if-no-files-found: warn
+          retention-days: 90
