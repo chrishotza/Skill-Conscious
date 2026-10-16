@@ -55,3 +55,7 @@ Any substantive change in research/, papers/, experiments/, docs/, sources/, or 
 - Persist artifacts before declaring a run complete.
 - State the strongest inference the data support—no stronger.
 - Functional continuity or causal self-reference is not, by itself, evidence of phenomenal consciousness.
+
+## Development pilot implementation
+
+The current generalized P008 runner `experiments/p008_generalization_pilot.py` is **pilot-only**. It accepts scenario IDs 0..31, enforces matched controls and restart, writes hashed per-arm raw artifacts, and refuses holdout IDs 1000..1127. See the workflow `.github/workflows/p008-generalization-pilot.yml`. CI and pilot results must be inspected before any empirical result is claimed. The generalization protocol remains an unfrozen draft.

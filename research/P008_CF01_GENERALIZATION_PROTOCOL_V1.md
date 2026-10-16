@@ -34,3 +34,8 @@ The pre-proposed *software mechanism gate*: positive lower bootstrap bound for b
 Persist one per-scenario/per-arm raw record with provenance, effective weights, candidate/input hashes, selections, score margins, restart check and timestamp; persist a manifest plus protocol/generator hashes. Verify identical candidate sets and inputs before comparing arms. Record any mismatch or timeout. The complete machine-readable draft and required fields are in `research/p008_generalization_protocol_v1.json`.
 
 **Missing, not implied complete:** (1) generator and executable harness, (2) full raw-artifact persistence, (3) pilot/performance inspection, (4) independent pre-holdout freeze, (5) confirmatory execution, (6) audit. Closed-loop outcome quality and genuine generalization outside hand-coded scoring are separate stronger research questions, not measured here.
+
+
+## Pilot implementation checkpoint (2026-10-16)
+
+A development-only implementation is provided in `experiments/p008_generalization_pilot.py`, with `.github/workflows/p008-generalization-pilot.yml` and tests. It generates IDs 0..31 only, runs four A/B/C/D controls and two restarted cycles, writes input/per-arm raw JSON with SHA-256 manifest, computes scenario-clustered descriptive bootstrap intervals, and re-audits output. CI will retain raw artifacts for 90 days. **CI verification is pending. The holdout is not accessed and the protocol is not frozen.**

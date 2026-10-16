@@ -6,7 +6,7 @@
 
 ## Current state
 
-The repository has a substantial experimental runtime and a structured research program. No paper is currently publication-ready. Canonical documentation/state consolidation is merged. The P008 / CF01 deterministic mechanism fixture passed its focused tests and two complete CI suites and PR #90 was merged into main. A diversified follow-up protocol is now a draft, not frozen or executed. S01's raw-output gap remains documented and does not block that work.
+The repository has a substantial experimental runtime and a structured research program. No paper is currently publication-ready. Canonical documentation/state consolidation is merged. The P008 / CF01 deterministic mechanism fixture passed its focused tests and two complete CI suites and PR #90 was merged into main. A diversified follow-up protocol remains an unfrozen draft. The pilot-only generator and matched A/B/C/D runner are implemented in review, with holdout 1000..1127 locked and pilot CI evidence pending. S01's raw-output gap remains documented and does not block that work.
 
 ## Corpus snapshot
 
@@ -78,7 +78,7 @@ Hypothesis: intervention on a persistent self-model changes future trajectory se
 
 ## Immediate sequence
 
-1. Review and implement research/P008_CF01_GENERALIZATION_PROTOCOL_V1.md and its machine-readable draft; freeze only before running a holdout.
+1. Execute and audit only the 32-scenario P008 development pilot through CI with all raw per-arm JSON, paired controls and SHA-256 manifest.
 2. Treat the two-cycle P008 result only as a controlled mechanism fixture, not evidence of phenomenal consciousness.
-3. Preregister a separate broad P008 study varying candidate sets, controlled inputs, random seeds where applicable, and matched state/compute budgets; define nulls and failure conditions before running.
+3. Independently review and freeze the generator, inference plan and exact runtime implementation before any holdout access.
 4. Keep S01 raw-artifact recovery/inventory open without altering preregistered S01 results; continue P009/P010 only at their respective evidence gates.

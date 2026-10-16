@@ -1,7 +1,7 @@
 {
   "schema_version": "0.1-draft",
   "study_id": "P008-CF01-GENERALIZATION-V1",
-  "status": "DRAFT_NOT_FROZEN_NOT_EXECUTED",
+  "status": "DRAFT_PILOT_HARNESS_UNFROZEN",
   "created_utc_date": "2026-10-16",
   "parent_fixture_registry": "research/p008_prediction_registry.json",
   "hypothesis": "Under identical candidate sets and exogenous input, consuming a persistent targeted self-model continuity weight changes trajectory selection more frequently than disconnected or generic-state controls across varied, pre-generated scenarios.",
@@ -89,7 +89,10 @@
     ],
     "storage": "research/results/p008/generalization/ or durable GitHub Actions artifacts; do not claim results without retained raw per-scenario rows and manifest"
   },
-  "implementation_status": "NOT_IMPLEMENTED",
-  "execution_status": "NOT_RUN",
-  "interpretation_boundary": "Even a positive gate demonstrates only wider functional dependence inside the constructed runtime, not an empirical consciousness claim."
+  "implementation_status": "PILOT_HARNESS_IMPLEMENTED_HOLDOUT_LOCKED",
+  "execution_status": "PILOT_CI_PENDING_NO_VERIFIED_RESULT",
+  "interpretation_boundary": "Even a positive gate demonstrates only wider functional dependence inside the constructed runtime, not an empirical consciousness claim.",
+  "pilot_harness": "experiments/p008_generalization_pilot.py",
+  "pilot_workflow": ".github/workflows/p008-generalization-pilot.yml",
+  "holdout_status": "NOT_ACCESSED_BY_PILOT_RUNNER; generator rejects IDs outside 0..31"
 }

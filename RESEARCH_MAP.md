@@ -114,7 +114,7 @@ A claim that cannot produce a measurable construct is tagged as **interpretive/o
 | P001 | Relational ontology for artificial consciousness | Working draft; framework, not an empirical result |
 | P002–P006 | Individual-scale mechanisms: self-reference, continuity, regimes, value, synthesis | Planned/working program; do not infer results from existing protocols |
 | P007 | Three-scale consciousness framework | Working framework; not an empirical result |
-| P008 | Individual-scale causal self-reference and continuity | PR #90 fixture run 37898192199 passed focused CF01 tests and artifact inspection; deterministic mechanism result only; full-suite merge validation pending |
+| P008 | Individual-scale causal self-reference and continuity | PR #90 fixture run 37898192199 passed focused CF01 tests and artifact inspection; deterministic mechanism result only; PR #90 green and merged; generalized pilot CI pending |
 | P009 | Relational coupling and reciprocal causality | Probes implemented; broader multi-condition validation remains |
 | P010 | Fundamental-scale testability and model discrimination | No specified physical model with a discriminating observable yet |
 | P012 | Three-consciousness bridge | Working framework connecting candidate research scales |
@@ -189,7 +189,7 @@ The CI workflow `research-sync-contract.yml` enforces the presence and navigatio
 1. PR #90 was merged (e919057). The P008 focused assay passed and 2026-10-16 full suites each recorded 128/128 passes (native run 38977366222; P008 run 38977365990).
 2. Keep S01's negative preregistered outcome and incomplete original-output archive visible; do not recreate original raw JSON/NPZ artifacts from summaries.
 3. Classify the P008 four-arm, two-cycle result as a hand-constructed deterministic mechanism fixture only, never general proof of consciousness.
-4. Review research/P008_CF01_GENERALIZATION_PROTOCOL_V1.md and research/p008_generalization_protocol_v1.json (DRAFT, UNEXECUTED), then implement/freeze a separate matched-control generalization assay with explicit failure criteria and durable artifacts.
+4. Audit `experiments/p008_generalization_pilot.py` and `.github/workflows/p008-generalization-pilot.yml` for pilot IDs 0..31, SHA-256 artifacts and four controls; reserved 1000..1127 holdout stays locked until a separate protocol freeze.
 5. P009 wider multi-condition testing and P010 fundamental-scale model discrimination remain independent unresolved gates.
 
 The project must keep the chain explicit:

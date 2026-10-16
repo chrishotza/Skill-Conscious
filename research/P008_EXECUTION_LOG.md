@@ -79,3 +79,8 @@ The existing P008/CF01 fixed two-candidate fixture was retained unmodified. Runt
 - The ablation regression `test_self_development_ablation_has_four_conditions`, previously timing out after 60 seconds, passed in 11.05 seconds in native-dynamic-core. This is a performance/serialization repair, not a new mechanistic result.
 
 **Boundary:** green software tests and a deterministic fixture are not independent replication, broad causal-effect estimates, or proof of phenomenal consciousness. The next study must be preregistered separately, use wider candidate/input variation and matched controls, and persist its raw artifacts with versioned provenance.
+
+
+## 2026-10-16 — P008 generalized pilot implementation (execution pending)
+
+A deterministic pilot-only A/B/C/D generator/harness was implemented on `research/p008-generalization-pilot-harness-20261016`. It rejects all reserved holdout IDs, writes input and per-arm JSON with SHA-256 manifest, re-audits matched controls and persistent state, and summarizes correlated cycles per scenario. No successful pilot CI run or new generalization result had been verified at this point.
