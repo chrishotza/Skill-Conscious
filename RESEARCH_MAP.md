@@ -114,7 +114,7 @@ A claim that cannot produce a measurable construct is tagged as **interpretive/o
 | P001 | Relational ontology for artificial consciousness | Working draft; framework, not an empirical result |
 | P002–P006 | Individual-scale mechanisms: self-reference, continuity, regimes, value, synthesis | Planned/working program; do not infer results from existing protocols |
 | P007 | Three-scale consciousness framework | Working framework; not an empirical result |
-| P008 | Individual-scale causal self-reference and continuity | Evidence map and executable assay exist; recorded run was blocked; no empirical result |
+| P008 | Individual-scale causal self-reference and continuity | PR #90 fixture run 37898192199 passed focused CF01 tests and artifact inspection; deterministic mechanism result only; full-suite merge validation pending |
 | P009 | Relational coupling and reciprocal causality | Probes implemented; broader multi-condition validation remains |
 | P010 | Fundamental-scale testability and model discrimination | No specified physical model with a discriminating observable yet |
 | P012 | Three-consciousness bridge | Working framework connecting candidate research scales |
@@ -182,16 +182,15 @@ Whenever a meaningful research, paper, experiment, source, or documentation stat
 - `REPO_MEMORY.md`
 - `RESEARCH_MAP.md`
 
-The CI workflow `research-sync-contract.yml` enforces the presence and navigation links of these state files. The checkpoint is the live scientific status; the memory is durable AI context; the map is the traversal contract. Current synchronization: 2026-10-09, canonical branch main. Pull requests that change the research surface are required to update all three.
+The CI workflow `research-sync-contract.yml` enforces the presence and navigation links of these state files. The checkpoint is the live scientific status; the memory is durable AI context; the map is the traversal contract. Current synchronization: 2026-10-16 for PR #90's research state, canonical branch main after integration. Pull requests that change the research surface are required to update all three.
 
 ## 10. Immediate research move
 
-1. Complete the state/navigation consolidation and pass the repository's synchronization checks.
-2. Keep S01's outcome and artifact limitation visible. Read research/S01_RESULTS_STATUS_2026-10-09.md; do not claim the original raw JSON/NPZ output directories were recovered.
-3. Verify the Drive recovery snapshot and maintain a file-level inventory. Do not reconstruct raw run files from summaries.
-4. Audit experiments/p008_self_model_causal_runtime.py against research/p008_prediction_registry.json and the matched-control requirements. This is a code/protocol audit first; the prior execution attempt produced no result.
-5. Before any new experiment, test durable output persistence and freeze commit, seed, model revision, configuration, and output path.
-6. Return to P009 only after P008's individual-scale controls are explicit. P010 remains blocked until a physical model supplies a discriminating observable.
+1. Integrate PR #90 after its synchronized state update; the P008 focused assay passed and the 2026-10-16 full suites each recorded 128/128 passes (native run 38977366222; P008 run 38977365990).
+2. Keep S01's negative preregistered outcome and incomplete original-output archive visible; do not recreate original raw JSON/NPZ artifacts from summaries.
+3. Classify the P008 four-arm, two-cycle result as a hand-constructed deterministic mechanism fixture only, never general proof of consciousness.
+4. Preregister a separate P008 generalization study with varied input/candidate sets, matched resources/controls, and explicit fail criteria, then run only with durable output proven.
+5. P009 wider multi-condition testing and P010 fundamental-scale model discrimination remain independent unresolved gates.
 
 The project must keep the chain explicit:
 

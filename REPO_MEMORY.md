@@ -99,7 +99,7 @@ The project has a substantial software architecture and a structured research pr
 The confirmatory coded and semantic outcomes and 23 robustness conditions have been recorded. The observed metrics do not support the preregistered prediction of greater cross-family recurrence in the tested direction. The original raw-output directories were not recovered into the durable archive. The consolidated status and values are in research/S01_RESULTS_STATUS_2026-10-09.md.
 
 ### P008 / CF01 — Self-model causality
-The hypothesis, evidence map, prediction registry, and runtime-connected assay exist. The recorded 2026-10-06 execution was blocked by inability to resolve github.com. No empirical P008 result has been produced. Static checking is not experiment execution.
+The hypothesis, evidence map, and registry remain the research basis. Open PR #90 rebuilds the primary assay against registered A/B/C/D conditions, freezes a one-factor continuity-weight intervention, exercises reload/consequence/re-entry, and writes a provenance-bearing JSON artifact. Focused CF01 tests, assay execution, and artifact upload succeeded in workflow run 37898192199; the exact JSON is archived at `research/results/p008/P008_CF01_37898192199.json`. A/B/D selected `preserve` and C selected `explore` in both cycles, with C-vs-B = 1.0, C-vs-D = 1.0, B-vs-D disagreement = 0.0, and all restart state-contract checks passing. This is recorded as a deterministic mechanism-fixture result only, not broad empirical validation. Full-repository pytest remains pending before merge.
 
 ### Other scales
 P009's relational probes require broader multi-condition validation. P010 lacks a specified physical model with an observable that discriminates it from plausible alternatives. P012 is a framework, not empirical evidence.
@@ -130,16 +130,16 @@ Do not store ephemeral chat dialogue here. Store durable project state and decis
 
 ## 10. Current checkpoint
 
-CURRENT_STATE = S01 outcomes recorded; original raw-output archive incomplete; state/navigation consolidation merged to main.
-LAST_COMPLETED = Frozen S01 protocol/data snapshot; recorded confirmatory coded and semantic outcomes; recorded 23 robustness conditions; created Drive master Git backup and SHA-256-verified its 11 inventoried files.
+CURRENT_STATE = S01 outcomes recorded with original raw-output archive incomplete; P008/CF01 deterministic fixture and full CI checks verified in PR #90 (pending integration into main).
+LAST_COMPLETED = Frozen S01 protocol/data snapshot and negative findings; Drive master Git backup and 11-file SHA-256 verification; P008 CF01 controlled fixture output; 2026-10-16 CI validation: 128/128 tests in both native-dynamic-core run 38977366222 and P008 workflow run 38977365990.
 ACTIVE_PAPER = NONE — S01 is not promoted to a paper while original-artifact provenance remains incomplete.
-ACTIVE_STUDY = S01 archival/provenance reconciliation; the measured outcome is recorded but the original raw-output directories remain unrecovered.
-ACTIVE_HYPOTHESIS = S01 tested whether coded motif recurrence and raw-text semantic neighborhoods show cross-family recurrence beyond source-family-label nulls; the recorded results did not support the preregistered direction.
+ACTIVE_STUDY = P008/CF01 broad-validation design after controlled mechanism fixture; S01 archival/provenance reconciliation remains open.
+ACTIVE_HYPOTHESIS = P008 self-model intervention may causally change future trajectory selection beyond matched generic/disconnected state controls; the existing 2-cycle hand-constructed fixture does not establish generalization. S01's recorded cross-family recurrence prediction was not supported in the preregistered direction.
 EVIDENCE_STATUS = 4,315 effective claims / 325 corpus units / 328 effective source IDs / 19 source families; passage-level verification and source dependency review remain incomplete.
-EXPERIMENT_STATUS = S01 primary and robustness outcomes reported; 23 robustness conditions all retained negative DeltaS and upper-tail p=1.0; V10 metadata audit had 3 missing-count failures; raw output archive incomplete. P008 has code/protocol but no empirical result.
-NEXT_STEP = Complete documentation/state cleanup; verify the Drive S01 snapshot and file-level raw-artifact inventory; then audit P008 controls and output persistence before running it.
-BLOCKERS = S01 original run-output directories not recovered; P008 execution environment/output persistence not yet validated; P009 broader validation; P010 discriminating physical model; 52 non-canonical provenance labels await source review.
-LAST_UPDATE = 2026-10-09
+EXPERIMENT_STATUS = S01 primary and robustness outcomes reported; 23 robustness conditions all retained negative DeltaS and upper-tail p=1.0; V10 metadata audit had 3 missing-count failures; raw output archive incomplete. P008 mechanism fixture run 37898192199 passed focused tests and artifact inspection; both 2026-10-16 full 128-test suites passed (runs 38977366222 and 38977365990).
+NEXT_STEP = Integrate green PR #90 after state synchronization, then preregister a broader P008 validation across varied inputs/candidate sets with matched controls and negative criteria before P009.
+BLOCKERS = S01 original run-output directories not recovered; P008 broad preregistered generalization not yet tested; P009 broader validation; P010 discriminating physical model; 52 non-canonical provenance labels await source review.
+LAST_UPDATE = 2026-10-16
 
 ## 11. Navigation rule
 If asked where we are, use this memory and verify referenced files.

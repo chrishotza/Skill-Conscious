@@ -59,6 +59,7 @@ def state_delta(
         "workspace",
         "intention",
         "selected_trajectory",
+        "pending_action",
         "valuation",
         "valence",
         "coherence",
