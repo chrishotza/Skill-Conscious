@@ -6,7 +6,8 @@ from experiments.p008_generalization_pilot import generate_scenario, run_arm
 from experiments.p008_self_model_causal_runtime import CONDITION_NAMES
 
 
-def test_holdout_not_released_before_separate_main_commit():
+def test_holdout_rejects_second_attempt_even_if_release_exists(monkeypatch):
+    monkeypatch.setenv("GITHUB_RUN_ATTEMPT", "2")
     with pytest.raises((FileNotFoundError, RuntimeError, ValueError)):
         holdout.verify_release()
 
