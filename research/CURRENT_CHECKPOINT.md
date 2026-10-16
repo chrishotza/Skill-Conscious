@@ -94,3 +94,7 @@ The 32-scenario pilot remains the latest verified generalized result. A separate
 ## P008 freeze decision — 2026-10-16
 
 The guarded holdout executor passed a 140-test suite and a repeat of the 32-scenario exploratory pilot; PR #93 was merged at `524f10a8666510da5d1a3ab96ec0b5884130e237`. This follow-up freezes the internal P008 synthetic scenario protocol, controls, scenario-clustered bootstrap, failure gate and runtime source as a baseline before release. **Freeze baseline SHA is the main-branch squash merge of this freeze PR; no holdout IDs were accessed during the code/protocol validation.** A distinct release-marker PR must reference that SHA, and the first main push triggers the only authorized internal holdout. Independent external review has not occurred: do not call this a publication-grade preregistration or consciousness evidence.
+
+## P008 sealed internal holdout release preparation (2026-10-16)
+
+The internally frozen main baseline is **`c0278493e8ef31520beea29355f947a7ea3739a8`** (PR #94); prior implementation PR #93 was already green (140 tests). A *separate* release marker `research/p008_holdout_release.json` is proposed, referencing this SHA with IDs 1000–1127 and fixed outcome policy. The sealed workflow triggers on its first merge into main only. The holdout was NOT run when this release proposal was authored; verify GitHub Actions, manifest/raw records and controls before updating this claim. Independent external methodological review remains outstanding, so report any future evaluation as internal synthetic evidence only.

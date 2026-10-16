@@ -63,3 +63,7 @@ The current generalized P008 runner `experiments/p008_generalization_pilot.py` i
 ## Audited P008 development pilot (2026-10-16)
 
 The 32-scenario pilot CI run 38978718548 completed; 8 focused tests and 136 full tests passed, raw output was SHA-256 audited and uploaded as artifact 12079189698. C-vs-B/C-vs-D divergence: 0.125, controls 0. This is **exploratory synthetic functional evidence only**, not a frozen confirmatory generalization or consciousness result. Raw archive expires 2027-01-14. See research/results/p008/P008_GENERALIZATION_PILOT_2026-10-16.md.
+
+## P008 internally sealed release
+
+The frozen synthetic evaluation baseline is PR #94 merge `c0278493e8ef31520beea29355f947a7ea3739a8`. A separately proposed `research/p008_holdout_release.json` authorizes the guarded workflow on main; it is **not evidence that the 128 reserved cases ran**. The archived run and analysis must be verified before presenting a holdout result. Independent external methodological review remains pending.
