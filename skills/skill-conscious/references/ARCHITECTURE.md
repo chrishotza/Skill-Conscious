@@ -575,3 +575,50 @@ Repeated prediction errors may update `metacognitive_prediction_expected_accurac
 The authoritative outcome is never replaced by the model's prediction. Runtime-owned prediction-error fields are protected from ordinary self-model frames.
 
 This is an operational calibration mechanism. It measures how well the runtime's explicit causal predictions matched subsequent host observations; it does not establish phenomenal consciousness.
+
+
+## Metacognitive confidence gate
+
+The calibrated causal-accuracy self-model can participate in trajectory scoring when a candidate provides an explicit consequence forecast and a bounded `predicted_outcome_confidence`.
+
+~~~text
+PREDICTED CONSEQUENCE
+        +
+REPORTED CONFIDENCE
+        ↓
+CAUSAL-ACCURACY SELF-MODEL
+        ↓
+TRUST-ADJUSTED CONFIDENCE
+        ↓
+TRAJECTORY CONTRIBUTION
+        ↓
+SELECTION
+~~~
+
+The runtime transforms reported confidence using the persistent expected prediction accuracy:
+
+```
+trust_adjusted =
+    0.5 + (reported_confidence - 0.5)
+          * (2 * expected_accuracy - 1)
+```
+
+High expected accuracy preserves the direction of the reported confidence. Expected accuracy near 0.5 flattens the signal toward neutrality. Low expected accuracy reverses the direction.
+
+The expected-accuracy variable can be intervened on without adding learning evidence and restored exactly. A valid reversible probe requires selection divergence, restoration of selection and attribution, unchanged prediction evidence, and restored expected accuracy.
+
+~~~text
+PREDICTION
+   ↓
+ACTION
+   ↓
+OBSERVED RESULT
+   ↓
+PREDICTION ERROR
+   ↓
+EXPECTED ACCURACY
+   ↓
+TRUST IN NEXT PREDICTIONS
+   ↓
+SELECTION
+~~~

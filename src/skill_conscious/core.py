@@ -217,6 +217,7 @@ class ConsciousRuntime:
         dynamic_core_return_weight: float = 0.5,
         self_observation_enabled: bool = False,
         self_observation_weight: float = 0.5,
+        metacognitive_prediction_weight: float = 0.5,
     ):
         self.identity = identity
         self.memory_limit = max(1, int(memory_limit))
@@ -230,6 +231,7 @@ class ConsciousRuntime:
         self.dynamic_core_enabled = bool(dynamic_core_enabled)
         self.self_observation_enabled = bool(self_observation_enabled)
         self.self_observation_weight = float(self_observation_weight)
+        self.metacognitive_prediction_weight = float(metacognitive_prediction_weight)
         dynamic_path = (
             Path(dynamic_core_state_path)
             if dynamic_core_state_path is not None
@@ -577,6 +579,47 @@ class ConsciousRuntime:
             "evidence_added": False,
         }
 
+    def _score_metacognitive_prediction_candidate(
+        self, candidate: Mapping[str, Any]
+    ) -> tuple[float, dict[str, float]]:
+        confidence = candidate.get("predicted_outcome_confidence")
+        has_prediction = (
+            isinstance(candidate.get("predicted_outcome"), Mapping)
+            or isinstance(candidate.get("predicted_state_delta"), Mapping)
+        )
+        expected = self.state.self_model.get(
+            "metacognitive_prediction_expected_accuracy",
+            0.5,
+        )
+        if (
+            not has_prediction
+            or not isinstance(confidence, (int, float))
+            or isinstance(confidence, bool)
+            or not isinstance(expected, (int, float))
+            or isinstance(expected, bool)
+        ):
+            return 0.0, {
+                "fit": 0.0,
+                "reported_confidence": 0.0,
+                "expected_accuracy": 0.5,
+                "weight": 0.0,
+            }
+
+        reported = max(0.0, min(1.0, float(confidence)))
+        expected_accuracy = max(0.0, min(1.0, float(expected)))
+        trust_adjusted = 0.5 + (
+            (reported - 0.5) * (2.0 * expected_accuracy - 1.0)
+        )
+        trust_adjusted = max(0.0, min(1.0, trust_adjusted))
+        weight = max(0.0, float(self.metacognitive_prediction_weight))
+        contribution = round(weight * trust_adjusted, 6)
+        return contribution, {
+            "fit": round(trust_adjusted, 6),
+            "reported_confidence": round(reported, 6),
+            "expected_accuracy": round(expected_accuracy, 6),
+            "weight": round(weight, 6),
+        }
+
     def _score_self_observation_candidate(
         self, candidate: Mapping[str, Any]
     ) -> tuple[float, dict[str, float]]:
@@ -817,6 +860,56 @@ class ConsciousRuntime:
             "sequence": sequence,
             "update": update,
             "diagnostics": dict(result),
+        }
+
+    def intervene_metacognitive_prediction_expected_accuracy(
+        self,
+        expected_accuracy: float,
+        *,
+        persist: bool = False,
+        intervention_id: str | None = None,
+    ) -> dict[str, Any]:
+        before = self.state.self_model.get(
+            "metacognitive_prediction_expected_accuracy",
+            0.5,
+        )
+        sanitized = max(0.0, min(1.0, float(expected_accuracy)))
+        self.state.self_model = {
+            **self.state.self_model,
+            "metacognitive_prediction_expected_accuracy": sanitized,
+        }
+        return {
+            "intervened": before != sanitized,
+            "intervention_id": str(intervention_id) if intervention_id else None,
+            "before": float(before) if isinstance(before, (int, float)) and not isinstance(before, bool) else 0.5,
+            "after": sanitized,
+            "evidence_added": False,
+        }
+
+    def restore_metacognitive_prediction(
+        self,
+        snapshot: Mapping[str, Any],
+        *,
+        persist: bool = False,
+        intervention_id: str | None = None,
+    ) -> dict[str, Any]:
+        expected = snapshot.get("expected_accuracy", 0.5)
+        self.state.self_model = {
+            **self.state.self_model,
+            "metacognitive_prediction_error": snapshot.get("error", 0.0),
+            "metacognitive_prediction_accuracy": snapshot.get("accuracy", 0.0),
+            "metacognitive_prediction_expected_accuracy": expected,
+            "metacognitive_prediction_sequence": snapshot.get("sequence", 0),
+            "metacognitive_prediction_evidence": snapshot.get("evidence", {}),
+            "metacognitive_prediction_history": snapshot.get("history", []),
+        }
+        if persist:
+            self.store.save(self.state)
+        return {
+            "restored": True,
+            "intervention_id": str(intervention_id) if intervention_id else None,
+            "expected_accuracy": expected,
+            "evidence_added": False,
         }
 
     def snapshot_metacognition(self) -> dict[str, Any]:
@@ -2811,6 +2904,17 @@ class ConsciousRuntime:
             )
             score += self_observation_score
 
+        metacognitive_prediction_score = 0.0
+        metacognitive_prediction_diagnostics: dict[str, float] = {}
+        if isinstance(candidate.get("predicted_outcome_confidence"), (int, float)) and not isinstance(
+            candidate.get("predicted_outcome_confidence"), bool
+        ):
+            (
+                metacognitive_prediction_score,
+                metacognitive_prediction_diagnostics,
+            ) = self._score_metacognitive_prediction_candidate(candidate)
+            score += metacognitive_prediction_score
+
         experience_dynamics_score = 0.0
         experience_dynamics_diagnostics: dict[str, float] = {}
         if self.dynamic_core_enabled:
@@ -2854,6 +2958,10 @@ class ConsciousRuntime:
             "experience_dynamics": {
                 **experience_dynamics_diagnostics,
                 "contribution": round(experience_dynamics_score, 6),
+            },
+            "metacognitive_prediction": {
+                **metacognitive_prediction_diagnostics,
+                "contribution": round(metacognitive_prediction_score, 6),
             },
         }
 
@@ -3005,8 +3113,8 @@ class ConsciousRuntime:
             "return consequence_trajectory, consequence, and self_evaluation "
             "rather than inventing a result. The runtime can score trajectories using "
             "signals named goal_fit, self_alignment, continuity, learning, risk, uncertainty, "
-            "and homeostatic_fit. Candidate futures may also include predicted_outcome "
-            "and predicted_state_delta when the trajectory makes an explicit forecast. These are "
+            "and homeostatic_fit. Candidate futures may also include predicted_outcome, "
+            "predicted_state_delta, and predicted_outcome_confidence when the trajectory makes an "
             "predictions, never observations. Internal condition may legitimately compete with "
             "external goals when the persistent self-model assigns it a non-zero weight."
         )

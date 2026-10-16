@@ -23,6 +23,7 @@ class MetacognitiveTrace:
     selected_signal_contributions: dict[str, float]
     self_observation: dict[str, float]
     experience_dynamics: dict[str, float]
+    metacognitive_prediction: dict[str, float]
     valuation_weights: dict[str, float]
     predicted_outcome: dict[str, Any] | None = None
     predicted_state_delta: dict[str, Any] | None = None
@@ -106,6 +107,7 @@ def build_metacognitive_trace(
 
     raw_self = raw_breakdown.get("self_observation", {})
     raw_dynamic = raw_breakdown.get("experience_dynamics", {})
+    raw_metacognitive_prediction = raw_breakdown.get("metacognitive_prediction", {})
     raw_predicted_outcome = selected.get("predicted_outcome")
     raw_predicted_state_delta = selected.get("predicted_state_delta")
 
@@ -121,6 +123,12 @@ def build_metacognitive_trace(
         if isinstance(value, (int, float)) and not isinstance(value, bool)
     } if isinstance(raw_dynamic, Mapping) else {}
 
+    metacognitive_prediction = {
+        str(key): float(value)
+        for key, value in raw_metacognitive_prediction.items()
+        if isinstance(value, (int, float)) and not isinstance(value, bool)
+    } if isinstance(raw_metacognitive_prediction, Mapping) else {}
+
     return MetacognitiveTrace(
         sequence=int(sequence),
         revision=int(revision),
@@ -132,6 +140,7 @@ def build_metacognitive_trace(
         selected_signal_contributions=selected_signal_contributions,
         self_observation=self_observation,
         experience_dynamics=experience_dynamics,
+        metacognitive_prediction=metacognitive_prediction,
         valuation_weights=_numeric_mapping(valuation_weights),
         predicted_outcome=(
             dict(raw_predicted_outcome)
