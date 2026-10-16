@@ -213,3 +213,7 @@ Do not skip a stage. A protocol, implementation, test pass, or summary is not in
 ## P008 release navigation (2026-10-16)
 
 Frozen baseline PR #94 merge SHA `c0278493e8ef31520beea29355f947a7ea3739a8` → separately proposed `research/p008_holdout_release.json` → main-push `.github/workflows/p008-generalization-holdout.yml` → archived raw ZIP and independent SHA audit → `research/CURRENT_CHECKPOINT.md` result (only after observed). The release file alone is NOT a holdout result. External independent methodological review pending.
+
+## P008 internal reserved-split result navigation — 2026-10-16
+
+`research/p008_generalization_protocol_v1.json` (immutable internal freeze) → `research/p008_holdout_release.json` (separate trigger, frozen commit pinned) → `experiments/p008_generalization_holdout.py` → GitHub Actions **38980796822** → `research/p008_holdout_result_v1.json` + `research/results/p008/P008_CF01_INTERNAL_HOLDOUT_2026-10-16.md` (128 synthetic scenarios, positive internal gate, all control/audit checks) → Actions artifact **12081087004** (SHA-256 in result JSON; time-limited) → proposed permanent release archive workflow. The empirical classification is synthetic runtime parameter sensitivity, never phenomenal consciousness; independent scientific review pending.

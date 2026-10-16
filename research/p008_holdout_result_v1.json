@@ -1,0 +1,73 @@
+{
+  "schema_version": "1.0",
+  "study_id": "P008-CF01-GENERALIZATION-V1",
+  "record_type": "POST_HOLDOUT_INTERNAL_RESULT",
+  "completed_utc_date": "2026-10-16",
+  "evidence_label": "EMPIRICAL RESULT — controlled synthetic software behavior ONLY",
+  "status": "COMPLETED_VERIFIED_INTERNAL_RESERVED_SPLIT",
+  "protocol_file": "research/p008_generalization_protocol_v1.json",
+  "freeze_commit": "c0278493e8ef31520beea29355f947a7ea3739a8",
+  "release_commit": "c9728d2552b184d4b37c8590279e8ea4e8a04337",
+  "workflow_run_id": 38980796822,
+  "artifact_id": 12081087004,
+  "artifact_name": "p008-reserved-holdout",
+  "artifact_size_bytes": 633705,
+  "artifact_zip_sha256": "8903448199c676ec10cef090751dd73ed2087e263d75e472a29f0b908d189c32",
+  "artifact_expires_utc": "2027-01-14T23:19:20Z",
+  "archive_release_tag": "p008-cf01-internal-holdout-20261016",
+  "archive_status": "GITHUB_RELEASE_PENDING_ARCHIVE_WORKFLOW",
+  "scenario_count": 128,
+  "scenario_id_range": "1000..1127",
+  "arms": [
+    "A_no_self_model",
+    "B_disconnected_self_model",
+    "C_causal_self_model",
+    "D_matched_generic_state"
+  ],
+  "cycles_per_arm": 2,
+  "expected_raw_rows": 640,
+  "expected_total_arm_cycles": 1024,
+  "test_count": 140,
+  "all_tests_passed": true,
+  "freeze_ancestry_and_file_diff_verified": true,
+  "raw_sha256_manifest_verified": true,
+  "all_scenario_integrity_verified": true,
+  "bootstrap_method": "2,000 scenario-level cluster resamples, seed 20261016, 95% percentile interval",
+  "comparisons": {
+    "C_vs_B": {
+      "mean": 0.234375,
+      "bootstrap_95": [
+        0.164062,
+        0.3125
+      ]
+    },
+    "C_vs_D": {
+      "mean": 0.234375,
+      "bootstrap_95": [
+        0.164062,
+        0.3125
+      ]
+    },
+    "B_vs_D": {
+      "mean": 0,
+      "bootstrap_95": [
+        0,
+        0
+      ]
+    },
+    "A_vs_B": {
+      "mean": 0,
+      "bootstrap_95": [
+        0,
+        0
+      ]
+    }
+  },
+  "predeclared_software_mechanism_gate_passed": true,
+  "review_limit": "Internally frozen, no independent external scientific/methodological review. Functional software evidence ONLY; no phenomenal consciousness inference.",
+  "sources": [
+    "GitHub Actions run 38980796822 (holdout)",
+    "Artifact 12081087004 ZIP SHA-256 8903448199c676ec10cef090751dd73ed2087e263d75e472a29f0b908d189c32",
+    "GitHub Actions frozen main code c0278493; release merge c9728d2552b184d4b37c8590279e8ea4e8a04337"
+  ]
+}

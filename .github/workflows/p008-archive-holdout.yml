@@ -1,0 +1,45 @@
+name: P008 Preserve sealed holdout evidence
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'research/p008_holdout_archive_request.json'
+
+permissions:
+  contents: write
+  actions: read
+
+jobs:
+  preserve-verified-archive:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - name: Fetch original immutable GitHub Actions artifact ZIP
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          set -euo pipefail
+          curl --fail --silent --show-error --location --retry 2 \
+            -H "Authorization: Bearer $GH_TOKEN" \
+            -H "Accept: application/vnd.github+json" \
+            "https://api.github.com/repos/chrishotza/Skill-Conscious/actions/artifacts/12081087004/zip" \
+            --output p008-cf01-raw-evidence.zip
+          echo "8903448199c676ec10cef090751dd73ed2087e263d75e472a29f0b908d189c32  p008-cf01-raw-evidence.zip" | sha256sum --check --status
+          test "$(stat -c%s p008-cf01-raw-evidence.zip)" -eq 633705
+      - name: Create persistent GitHub Release with exact verified ZIP
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          set -euo pipefail
+          if gh release view p008-cf01-internal-holdout-20261016 >/dev/null 2>&1; then
+            echo "Release tag already exists: refusing to overwrite an existing archive"
+            exit 1
+          fi
+          gh release create p008-cf01-internal-holdout-20261016 \
+            "p008-cf01-raw-evidence.zip#P008 CF01 original holdout raw ZIP" \
+            --target "c9728d2552b184d4b37c8590279e8ea4e8a04337" \
+            --title "P008 CF01 | Frozen internal synthetic holdout evidence (2026-10-16)" \
+            --notes-file research/results/p008/P008_CF01_INTERNAL_HOLDOUT_2026-10-16.md \
+            --latest=false
