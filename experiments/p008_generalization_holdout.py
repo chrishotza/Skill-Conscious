@@ -232,7 +232,12 @@ def main():
     modes = parser.add_mutually_exclusive_group(required=True)
     modes.add_argument("--holdout-output", type=Path)
     modes.add_argument("--audit", type=Path)
+    modes.add_argument("--verify-release", action="store_true")
     args = parser.parse_args()
+    if args.verify_release:
+        release = verify_release()
+        print(json.dumps({"release_verified": True, "freeze_commit": release["freeze_commit"]}, sort_keys=True))
+        return
     result = run_holdout(args.holdout_output) if args.holdout_output else audit_holdout(args.audit)
     print(json.dumps({
         "status": result["status"], "scenario_count": result["scenario_count"],
