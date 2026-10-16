@@ -169,3 +169,7 @@ The verified 32-scenario pilot remains exploratory. Proposed `experiments/p008_g
 ## P008 internal freeze checkpoint — 2026-10-16
 
 PR #93 merged to main at `524f10a` with a 140-test verified, guarded reserved-split runner. Next separate PR freezes the protocol status `FROZEN_FOR_INTERNAL_RESERVED_SPLIT` and pilot compatibility, with exact merge SHA used as the holdout `freeze_commit`. After that, only a separate release-marker PR may authorize one main-branch push execution. Independent external scientific review remains pending; status is *internal synthetic reserved-split evaluation*, not validated consciousness evidence.
+
+## P008 separate-release handoff (2026-10-16)
+
+Frozen internal protocol/main SHA: `c0278493e8ef31520beea29355f947a7ea3739a8` (PR #94). Release-marker PR proposes `research/p008_holdout_release.json` on a *separate* commit without touching `src/`, P008 code or frozen protocol. This change launches the main-push holdout on merge. Next: verify workflow/job, all 640 raw input/arm JSON, 2000 cluster bootstrap, controls, SHA-256 manifest; archive complete primary results and update canonical three state documents. Do not assert holdout result from a pending marker; external independent review is not complete.

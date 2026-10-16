@@ -209,3 +209,7 @@ Do not skip a stage. A protocol, implementation, test pass, or summary is not in
 ## P008 freeze and release sequence (2026-10-16)
 
 1. Sealed runner PR #93 merged as `524f10a` with CI green. 2. This separate PR freezes `research/p008_generalization_protocol_v1.json` on main; its merge commit becomes the immutable `freeze_commit`. 3. Only a later, separate `research/p008_holdout_release.json` change may trigger 128 reserved cases. Full archives/audit remain required; independent methodological review pending. See `research/CURRENT_CHECKPOINT.md` and `REPO_MEMORY.md`.
+
+## P008 release navigation (2026-10-16)
+
+Frozen baseline PR #94 merge SHA `c0278493e8ef31520beea29355f947a7ea3739a8` → separately proposed `research/p008_holdout_release.json` → main-push `.github/workflows/p008-generalization-holdout.yml` → archived raw ZIP and independent SHA audit → `research/CURRENT_CHECKPOINT.md` result (only after observed). The release file alone is NOT a holdout result. External independent methodological review pending.

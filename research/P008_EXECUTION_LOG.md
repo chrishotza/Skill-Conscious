@@ -94,3 +94,8 @@ GitHub Actions run 38978718548 completed all pilot tests (8 passed), 32 scenario
 ## 2026-10-16 — formal internal freeze preparation, holdout still unexecuted
 
 After PR #93 green (140 tests, pilot reproducible), a separate PR sealed the internal synthetic generator/protocol while preserving original exploratory pilot evidence. The relevant freeze SHA is the eventual merge commit to main, and a distinct release marker is required. Do not infer a holdout result until its run/logs/archive are observed and audited.
+
+
+## 2026-10-16 — internal freeze merged; sealed release requested (NO RESULT YET)
+
+PR #94 merged at SHA `c0278493e8ef31520beea29355f947a7ea3739a8`, freezing the P008 protocol and evaluator after green CI. The next separately proposed release marker pins this SHA. At the time this entry was written no holdout output had been inspected; its outcome and any negative/null findings must be recorded only from GitHub Actions per-scenario artifacts.

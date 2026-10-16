@@ -1,0 +1,14 @@
+{
+  "schema_version": "1.0",
+  "status": "SEALED_ON_MAIN_FOR_SINGLE_HOLDOUT",
+  "freeze_commit": "c0278493e8ef31520beea29355f947a7ea3739a8",
+  "split": "holdout",
+  "scenario_ids": "1000..1127",
+  "expected_count": 128,
+  "pilot_reference_run_id": 38978718548,
+  "prepared_utc_date": "2026-10-16",
+  "reason": "Execute first internal reserved split after versioned code+protocol freeze, exactly once; no adaptive modification after any held-out result.",
+  "scientific_classification": "Internal synthetic software mechanism stress test; no independent external methodological review or phenomenal consciousness evidence.",
+  "evidence_contract": "128 inputs + 512 arm raw rows + manifest, SHA-256 audits, cluster-bootstrap 2000 seed 20261016, report all nulls and failures.",
+  "base_commit_requirement": "No diff against freeze_commit in src/, P008 evaluation source, protocol, package metadata or main-push holdout workflow."
+}
