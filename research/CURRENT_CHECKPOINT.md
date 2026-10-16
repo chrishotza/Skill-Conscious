@@ -86,3 +86,7 @@ Hypothesis: intervention on a persistent self-model changes future trajectory se
 ## 2026-10-16 development-pilot result (exploratory)
 
 P008 generalized runner succeeded with 32 seeded pilot scenarios, four arms and two cycles each. C-vs-B and C-vs-D divergence were both 0.125 (scenario bootstrap 95% interval 0.03125–0.25); B-vs-D and A-vs-B disagreements were zero. Focused tests 8/8 and complete suite 136/136. GitHub Actions run 38978718548 uploaded audited ZIP artifact 12079189698 (SHA-256 ef0d38acf1f1661298bd3472fe5747da59a5b087abf0c4e678ec20bf93a24ea5). Detailed limits and expiry: research/results/p008/P008_GENERALIZATION_PILOT_2026-10-16.md. This is **not** a confirmatory holdout result; IDs 1000–1127 remain untested.
+
+## 2026-10-16 reserved-holdout engineering checkpoint
+
+The 32-scenario pilot remains the latest verified generalized result. A separate 128-scenario runner and push-only workflow were implemented in a proposed PR. Their freeze/release contract requires a main-branch ancestor freeze SHA and rejects any changes under `src/`, relevant experiment code, the protocol and workflow. No holdout release marker exists yet; no 128-scenario execution is authorized or reported. Next steps: CI, freeze PR merge, and separately review/release the one-shot evaluation. Independent external scientific review is not yet recorded.

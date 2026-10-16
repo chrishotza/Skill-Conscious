@@ -44,3 +44,8 @@ A development-only implementation is provided in `experiments/p008_generalizatio
 ## Observed exploratory pilot (2026-10-16)
 
 The 32-scenario development run and raw SHA-256 audit succeeded in Actions run 38978718548. C-vs-B = C-vs-D = 0.125, B-vs-D = A-vs-B = 0; scenario-clustered bootstrap 95% 0.03125–0.25 for active contrasts. Full suite: 136 passed. Artifact 12079189698 expires 2027-01-14. **Still a draft; no holdout or claim of phenomenal consciousness.** See research/results/p008/P008_GENERALIZATION_PILOT_2026-10-16.md.
+
+
+## Reserved-split executor developed (not released)
+
+The holdout-only harness in `experiments/p008_generalization_holdout.py` enforces a separate release marker committed to `main` after a freeze commit, verifies commit ancestry, runs a frozen-path diff over all source/runtime files and protocol, and requires a first-attempt `main` push workflow. The corresponding workflow `.github/workflows/p008-generalization-holdout.yml` triggers **only** on creating/changing the release marker on main, not on PR CI. This revision is code prepared for freeze, not a claim that a holdout ran. Independent external methodological review remains valuable; internal code review cannot substitute for it.

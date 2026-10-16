@@ -1,0 +1,48 @@
+name: P008 Reserved Holdout - sealed single run
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "research/p008_holdout_release.json"
+
+permissions:
+  contents: read
+
+concurrency:
+  group: p008-holdout-single-release
+  cancel-in-progress: false
+
+jobs:
+  reserved-holdout:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - name: Checkout complete frozen lineage
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Configure Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Install registered runtime
+        run: python -m pip install -e ".[dev]"
+      - name: Run all registered regression tests before accessing reserved inputs
+        run: python -m pytest -q tests/ --maxfail=1
+      - name: Verify separately merged freeze and release contract
+        run: python -m experiments.p008_generalization_holdout --verify-release
+      - name: Run locked 128-scenario holdout
+        run: |
+          python -m experiments.p008_generalization_holdout --holdout-output "artifacts/p008-holdout-$GITHUB_RUN_ID"
+      - name: Re-audit every raw row, protocol and outcome metric
+        run: |
+          python -m experiments.p008_generalization_holdout --audit "artifacts/p008-holdout-$GITHUB_RUN_ID"
+      - name: Preserve every raw record even if assay fails
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: p008-reserved-holdout
+          path: artifacts/p008-holdout-*
+          if-no-files-found: warn
+          retention-days: 90

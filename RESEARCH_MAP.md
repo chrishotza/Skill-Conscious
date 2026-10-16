@@ -201,3 +201,7 @@ SOURCE → CLAIM → CONSTRUCT → HYPOTHESIS → PREDICTION
 ~~~
 
 Do not skip a stage. A protocol, implementation, test pass, or summary is not interchangeable with the next stage.
+
+## P008 reserved-split implementation map
+
+`experiments/p008_generalization_holdout.py` (sealed runner and evidence audit) → `.github/workflows/p008-generalization-holdout.yml` (main push only, release marker path) → `research/p008_holdout_release.json` (must be committed separately after code freeze; absent until authorized). Baseline: 32-scenario pilot 0.125; holdout 128 scenarios unexecuted. See `research/CURRENT_CHECKPOINT.md` for live status. Independent review remains outstanding.

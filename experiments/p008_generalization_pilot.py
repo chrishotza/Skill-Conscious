@@ -114,7 +114,7 @@ def run_arm(condition, scenario, folder, metadata):
     _verify_weights(restarted, condition)
     return {
         **metadata, "scenario_id": scenario["scenario_id"],
-        "split": "pilot", "seed": scenario["seed"],
+        "split": scenario["split"], "seed": scenario["seed"],
         "condition": condition,
         "external_input_sha256": _sha256(scenario["external_input"]),
         "candidate_set_sha256": _sha256(scenario["candidates"]),
