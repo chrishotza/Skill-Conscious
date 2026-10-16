@@ -13,12 +13,13 @@ on:
 jobs:
   pytest:
     runs-on: ubuntu-latest
+    timeout-minutes: 25
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with:
           python-version: "3.11"
       - name: Install test dependencies
-        run: python -m pip install --upgrade pip pytest
+        run: python -m pip install --upgrade pip 'pytest>=8' 'pytest-timeout>=2'
       - name: Run test suite
-        run: python -m pytest -q
+        run: python -m pytest -vv --tb=short --durations=10 --timeout=60 --timeout-method=signal
