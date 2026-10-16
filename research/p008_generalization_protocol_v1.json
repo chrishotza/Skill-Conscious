@@ -1,0 +1,95 @@
+{
+  "schema_version": "0.1-draft",
+  "study_id": "P008-CF01-GENERALIZATION-V1",
+  "status": "DRAFT_NOT_FROZEN_NOT_EXECUTED",
+  "created_utc_date": "2026-10-16",
+  "parent_fixture_registry": "research/p008_prediction_registry.json",
+  "hypothesis": "Under identical candidate sets and exogenous input, consuming a persistent targeted self-model continuity weight changes trajectory selection more frequently than disconnected or generic-state controls across varied, pre-generated scenarios.",
+  "scope": "Synthetic randomized-input functional mechanism stress test only; no inference about phenomenal consciousness, real-world task performance or learned agency.",
+  "conditions": [
+    "A_no_self_model",
+    "B_disconnected_self_model",
+    "C_causal_self_model",
+    "D_matched_generic_state"
+  ],
+  "single_factor_intervention": {
+    "path": "self_model.trajectory_weights.continuity",
+    "from": 1,
+    "to": 0,
+    "other_weights": "unchanged"
+  },
+  "scenario_design": {
+    "pilot_scenario_ids": "0..31",
+    "holdout_scenario_ids": "1000..1127",
+    "pilot_count": 32,
+    "holdout_count": 128,
+    "matched_cycles_per_arm": 2,
+    "actors_per_scenario": 4,
+    "candidates_per_scenario": 2,
+    "candidate_dimensions": [
+      "goal_fit",
+      "continuity",
+      "learning",
+      "risk"
+    ],
+    "numeric_interval": [
+      0,
+      1
+    ],
+    "generator": "local Python random.Random(scenario_id) per scenario; preserve generated canonical JSON and SHA-256; no RNG inside runtime decision",
+    "generator_freeze_rule": "Generator source+runtime commit, candidates, seeds and metric definitions must be frozen on main and hashed before the first holdout execution; do not alter holdout after inspection.",
+    "candidate_order": "stable IDs candidate_0, candidate_1; order kept identical across arms",
+    "comparison": "Each scenario uses separately initialized same-identity runtimes per arm; persist/reload between cycles; disable adaptation, self-observation and dynamic core; identical consequence and external input in every arm."
+  },
+  "metrics": {
+    "primary": "paired trajectory-selection divergence for C vs B and C vs D over holdout scenarios x 2 cycles",
+    "negative_control": "paired B vs D disagreement rate",
+    "persistence": "all arms preserve their condition state contract on restart",
+    "secondary": [
+      "A vs B agreement",
+      "score margin changes",
+      "divergence by continuity-signal gap",
+      "input/candidate hash consistency"
+    ],
+    "unit": "scenario; both cycles are clustered together in uncertainty summaries"
+  },
+  "inference_policy": {
+    "pilot": "May debug performance and evaluate scenario balance; modifications require a new protocol version and SHA before any holdout run.",
+    "holdout": "One locked evaluation after freezing generator and runtime. All cases included, regardless of result.",
+    "uncertainty": "95% scenario-level bootstrap interval with 2000 resamples; bootstrap seed 20261016. Descriptive over synthetic scenario generator only.",
+    "mechanism_gate": "Nonzero lower 95% bootstrap bound for C-vs-B and C-vs-D divergence; B-vs-D disagreement equals zero, and 100% intervention/persistence/input-hash contract coverage. Report effect and failures even if gate is not met.",
+    "invalid_run_conditions": [
+      "Any changed non-target weight",
+      "Control mismatch or nonidentical candidate/input hashes",
+      "Unrecorded runtime/commit/seed",
+      "Missing condition/artifact or failed restart contract",
+      "Nonfinite candidate scores",
+      "Any holdout-generator modification after inspecting holdout"
+    ]
+  },
+  "artifact_contract": {
+    "mandatory": [
+      "git_commit",
+      "runtime_version",
+      "python_version",
+      "protocol_sha256",
+      "generator_sha256",
+      "scenario_id",
+      "split",
+      "seed",
+      "condition",
+      "external_input_sha256",
+      "candidate_set_sha256",
+      "intervention_payload",
+      "effective_weights",
+      "selected_trajectory_each_cycle",
+      "score_margin_each_cycle",
+      "restart_integrity",
+      "timestamp_utc"
+    ],
+    "storage": "research/results/p008/generalization/ or durable GitHub Actions artifacts; do not claim results without retained raw per-scenario rows and manifest"
+  },
+  "implementation_status": "NOT_IMPLEMENTED",
+  "execution_status": "NOT_RUN",
+  "interpretation_boundary": "Even a positive gate demonstrates only wider functional dependence inside the constructed runtime, not an empirical consciousness claim."
+}

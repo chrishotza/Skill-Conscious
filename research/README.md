@@ -6,7 +6,7 @@ This directory connects sources and claims to testable hypotheses, experiments, 
 
 S01 has recorded confirmatory coded and semantic outcomes plus 23 robustness conditions. The reported outcomes do not support the preregistered cross-family-recurrence prediction in its tested direction. Its original raw-output archive remains incomplete, so the study is not promoted to a paper. See research/S01_RESULTS_STATUS_2026-10-09.md and research/CURRENT_CHECKPOINT.md.
 
-P008 is the next individual-scale mechanism target. Its evidence map, prediction registry, executable assay, and blocked-execution log exist; no empirical P008 result has been produced.
+P008/CF01 has a validated deterministic, hand-built mechanism fixture (128/128 CI tests on 2026-10-16; merged PR #90). Its result does not establish broad empirical generalization or phenomenal consciousness. A separate, unexecuted draft for generalized synthetic candidate sets is in research/P008_CF01_GENERALIZATION_PROTOCOL_V1.md and research/p008_generalization_protocol_v1.json.
 
 ## Canonical navigation
 
@@ -17,7 +17,7 @@ P008 is the next individual-scale mechanism target. Its evidence map, prediction
 5. docs/RESEARCH_METHOD_NORTH.md — methodological standard.
 6. research/CLAIM_FAMILY_REGISTRY.md and research/CLAIM_FAMILY_TRIAGE.md — claim families and research triage.
 7. research/S01_PREREGISTRATION_V1.md, research/S01_DATA_MANIFEST_V1.json, and research/S01_RESULTS_STATUS_2026-10-09.md — S01 protocol, frozen data description, and reported outcome/archive status.
-8. research/P008_EVIDENCE_MAP_V1.md, research/p008_prediction_registry.json, and research/P008_EXECUTION_LOG.md — P008 target, controls, prediction, and execution status.
+8. research/P008_EVIDENCE_MAP_V1.md, research/p008_prediction_registry.json, research/P008_EXECUTION_LOG.md, and research/P008_CF01_GENERALIZATION_PROTOCOL_V1.md — P008 completed fixture, controls, provenance and *draft* next assay.
 9. papers/README.md and docs/CLAIM_TO_PAPER_PROTOCOL.md — publication map and promotion gate.
 10. Relevant files under experiments/, src/, tests/, and corpus-v1 only after identifying the specific question.
 

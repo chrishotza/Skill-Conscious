@@ -6,7 +6,7 @@
 
 ## Current state
 
-The repository has a substantial experimental runtime and a structured research program. No paper is currently publication-ready. Canonical documentation/state consolidation is merged. The P008 / CF01 deterministic mechanism fixture passed its focused tests and two complete CI suites in PR #90; the next scientific task is a separately preregistered, diversified validation. S01's raw-output gap remains documented and does not block that work.
+The repository has a substantial experimental runtime and a structured research program. No paper is currently publication-ready. Canonical documentation/state consolidation is merged. The P008 / CF01 deterministic mechanism fixture passed its focused tests and two complete CI suites and PR #90 was merged into main. A diversified follow-up protocol is now a draft, not frozen or executed. S01's raw-output gap remains documented and does not block that work.
 
 ## Corpus snapshot
 
@@ -52,7 +52,7 @@ Hypothesis: intervention on a persistent self-model changes future trajectory se
 - The PR's CPU workflow runs the complete pytest suite and uploads a result artifact with 90-day retention.
 - Focused CF01 tests, assay execution, and artifact upload succeeded in workflow run 37898192199. The archived JSON is `research/results/p008/P008_CF01_37898192199.json`.
 - The fixture produced A/B/D=`preserve` and C=`explore` in both cycles; C-vs-B and C-vs-D divergence were 1.0, B-vs-D disagreement was 0.0, and all restart state-contract checks passed.
-- **This is accepted only as a deterministic mechanism-fixture result, not broad empirical validation.** On 2026-10-16, native-dynamic-core run 38977366222 passed 128 tests in 12.38 s and P008 run 38977365990 passed its focused job plus the full 128-test suite in 18.59 s. This establishes CI readiness for PR #90, not scientific generalization.
+- **This is accepted only as a deterministic mechanism-fixture result, not broad empirical validation.** On 2026-10-16, native-dynamic-core run 38977366222 passed 128 tests in 12.38 s and P008 run 38977365990 passed its focused job plus the full 128-test suite in 18.59 s. This establishes CI validated and PR #90 merged to main at commit e919057a9f07975242ea37bf2c30689e53e8c09c, not scientific generalization.
 
 ## P009 and P010
 
@@ -78,7 +78,7 @@ Hypothesis: intervention on a persistent self-model changes future trajectory se
 
 ## Immediate sequence
 
-1. Integrate green PR #90 into main after the branch's scientific state synchronization is verified.
+1. Review and implement research/P008_CF01_GENERALIZATION_PROTOCOL_V1.md and its machine-readable draft; freeze only before running a holdout.
 2. Treat the two-cycle P008 result only as a controlled mechanism fixture, not evidence of phenomenal consciousness.
 3. Preregister a separate broad P008 study varying candidate sets, controlled inputs, random seeds where applicable, and matched state/compute budgets; define nulls and failure conditions before running.
 4. Keep S01 raw-artifact recovery/inventory open without altering preregistered S01 results; continue P009/P010 only at their respective evidence gates.
