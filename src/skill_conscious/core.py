@@ -856,6 +856,36 @@ class ConsciousRuntime:
         self.state.self_model = model
 
     @staticmethod
+    def _historical_audit_snapshot(snapshot: Mapping[str, Any]) -> dict[str, Any]:
+        """Compact duplicated audit copies; canonical event ledgers stay intact.
+
+        Persisted self_model history and action receipts are already first-class
+        records. Embedding all prior ledgers inside *each* history/transition
+        entry makes serialisation superlinear and can exhaust CPU/memory.
+        """
+        compact = dict(snapshot)
+        model = snapshot.get("self_model")
+        if isinstance(model, Mapping):
+            compact["self_model"] = {
+                key: value for key, value in model.items()
+                if not str(key).endswith("_history")
+                and key not in {"metacognitive_trace"}
+            }
+        workspace = snapshot.get("workspace")
+        if isinstance(workspace, Mapping):
+            compact["workspace"] = {
+                key: value for key, value in workspace.items()
+                if key not in {"last_action_receipt", "pending_action"}
+            }
+        trajectory = snapshot.get("selected_trajectory")
+        if isinstance(trajectory, Mapping):
+            compact["selected_trajectory"] = {
+                key: value for key, value in trajectory.items()
+                if key != "metacognition"
+            }
+        return compact
+
+    @staticmethod
     def _metacognitive_delta_snapshot(snapshot: Mapping[str, Any]) -> dict[str, Any]:
         """Bound action-transition evidence without recursively embedding past traces.
 
@@ -3494,9 +3524,11 @@ class ConsciousRuntime:
 
         changed: dict[str, Any] = {}
         current_snapshot = self.state.to_dict()
+        previous_audit = self._historical_audit_snapshot(previous_snapshot)
+        current_audit = self._historical_audit_snapshot(current_snapshot)
         for key in ("self_state", "self_model", "workspace", "intention", "attention", "salience", "layers", "regime", "attractor", "valuation", "valence", "coherence", "relation_topology", "latent_patterns", "self_dissonance", "interoceptive_state", "affective_state", "temporal_state", "perspectives"):
-            if previous_snapshot.get(key) != current_snapshot.get(key):
-                changed[key] = {"before": previous_snapshot.get(key), "after": current_snapshot.get(key)}
+            if previous_audit.get(key) != current_audit.get(key):
+                changed[key] = {"before": previous_audit.get(key), "after": current_audit.get(key)}
         if changed:
             self.state.transformation_log.append({
                 "revision": self.state.revision,
@@ -3509,10 +3541,10 @@ class ConsciousRuntime:
                 "revision": self.state.revision,
                 "response": response,
                 "self_state": dict(self.state.self_state),
-                "self_model": dict(self.state.self_model),
+                "self_model": current_audit["self_model"],
                 "intention": self.state.intention,
-                "workspace": self.state.workspace,
-                "selected_trajectory": self.state.selected_trajectory,
+                "workspace": current_audit["workspace"],
+                "selected_trajectory": current_audit["selected_trajectory"],
                 "attention": self.state.attention,
                 "salience": self.state.salience,
                 "layers": self.state.layers,
