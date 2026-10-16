@@ -165,3 +165,7 @@ This chain is the canonical AI navigation path.
 ## P008 next engineering gate, 2026-10-16
 
 The verified 32-scenario pilot remains exploratory. Proposed `experiments/p008_generalization_holdout.py` defines a 128-scenario internal reserved-split evaluator, with main-branch lineage/frozen-path verification and first-attempt single-release guard; `.github/workflows/p008-generalization-holdout.yml` only triggers on a separately committed release marker. **Not yet frozen or executed**; do not claim holdout evidence from code existing. Active next step is green CI and freeze PR, then a distinct release review, followed by raw evidence audit. Independent scientific review remains pending.
+
+## P008 internal freeze checkpoint — 2026-10-16
+
+PR #93 merged to main at `524f10a` with a 140-test verified, guarded reserved-split runner. Next separate PR freezes the protocol status `FROZEN_FOR_INTERNAL_RESERVED_SPLIT` and pilot compatibility, with exact merge SHA used as the holdout `freeze_commit`. After that, only a separate release-marker PR may authorize one main-branch push execution. Independent external scientific review remains pending; status is *internal synthetic reserved-split evaluation*, not validated consciousness evidence.

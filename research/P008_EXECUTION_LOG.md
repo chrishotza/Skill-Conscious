@@ -89,3 +89,8 @@ A deterministic pilot-only A/B/C/D generator/harness was implemented on `researc
 ## 2026-10-16 — 32-scenario exploratory pilot executed, audited
 
 GitHub Actions run 38978718548 completed all pilot tests (8 passed), 32 scenarios x four arms x two restarted cycles, independent saved-file SHA-256 audit, and artifact upload (ID 12079189698, ZIP SHA-256 ef0d38acf1f1661298bd3472fe5747da59a5b087abf0c4e678ec20bf93a24ea5, expires 2027-01-14). Full project CI run 38978718586 passed 136 tests. Development-only contrasts C-vs-B = C-vs-D = 0.125 (bootstrap scenario 95% interval 0.03125–0.25), B-vs-D = A-vs-B = 0. Holdout was not accessed. See research/results/p008/P008_GENERALIZATION_PILOT_2026-10-16.md for interpretation and limits.
+
+
+## 2026-10-16 — formal internal freeze preparation, holdout still unexecuted
+
+After PR #93 green (140 tests, pilot reproducible), a separate PR sealed the internal synthetic generator/protocol while preserving original exploratory pilot evidence. The relevant freeze SHA is the eventual merge commit to main, and a distinct release marker is required. Do not infer a holdout result until its run/logs/archive are observed and audited.
