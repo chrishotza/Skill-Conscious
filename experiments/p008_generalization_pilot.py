@@ -187,7 +187,7 @@ def run_pilot(folder, *, count=32):
     if type(count) is not int or not 1 <= count <= 32:
         raise ValueError("pilot count must be 1..32")
     protocol = json.loads(PROTOCOL.read_text(encoding="utf-8"))
-    if protocol["status"] not in ("DRAFT_NOT_FROZEN_NOT_EXECUTED", "DRAFT_PILOT_HARNESS_UNFROZEN"):
+    if protocol["status"] not in ("DRAFT_NOT_FROZEN_NOT_EXECUTED", "DRAFT_PILOT_HARNESS_UNFROZEN", "DRAFT_HOLDOUT_CODE_NOT_FROZEN"):
         raise RuntimeError("Protocol status changed: pilot must be reviewed")
     if tuple(protocol["conditions"]) != CONDITION_NAMES:
         raise RuntimeError("Arm registration differs")
