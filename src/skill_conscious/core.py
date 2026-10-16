@@ -643,6 +643,10 @@ class ConsciousRuntime:
             ] if isinstance(history, list) else [],
         }
 
+    def snapshot_metacognition_prediction(self) -> dict[str, Any]:
+        """Compatibility alias for the persisted metacognitive prediction snapshot."""
+        return self.snapshot_metacognitive_prediction()
+
     def _record_metacognitive_prediction(
         self,
         result: Mapping[str, Any],
@@ -851,6 +855,40 @@ class ConsciousRuntime:
         model["metacognitive_history"] = history
         self.state.self_model = model
 
+    @staticmethod
+    def _metacognitive_delta_snapshot(snapshot: Mapping[str, Any]) -> dict[str, Any]:
+        """Bound action-transition evidence without recursively embedding past traces.
+
+        A trace must never contain its own previous full self-model/history or
+        the previous full action receipt: both create geometric JSON growth
+        over repeated cycles. Keep other state fields observable.
+        """
+        filtered = dict(snapshot)
+        raw_model = snapshot.get("self_model")
+        if isinstance(raw_model, Mapping):
+            private_keys = (
+                METACOGNITIVE_RUNTIME_KEYS
+                | METACOGNITIVE_PREDICTION_RUNTIME_KEYS
+                | SELF_OBSERVATION_RUNTIME_KEYS
+            )
+            filtered["self_model"] = {
+                key: value for key, value in raw_model.items()
+                if key not in private_keys
+            }
+        raw_workspace = snapshot.get("workspace")
+        if isinstance(raw_workspace, Mapping):
+            filtered["workspace"] = {
+                key: value for key, value in raw_workspace.items()
+                if key not in {"pending_action", "last_action_receipt"}
+            }
+        raw_pending = snapshot.get("pending_action")
+        if isinstance(raw_pending, Mapping):
+            filtered["pending_action"] = {
+                "action_id": raw_pending.get("action_id"),
+                "status": raw_pending.get("status"),
+            }
+        return filtered
+
     def _close_metacognitive_trace(
         self,
         action: Mapping[str, Any],
@@ -861,9 +899,18 @@ class ConsciousRuntime:
         if not isinstance(current, Mapping):
             return None
 
-        actual_delta = state_delta(before_snapshot, self.state.to_dict())
+        actual_delta = state_delta(
+            self._metacognitive_delta_snapshot(before_snapshot),
+            self._metacognitive_delta_snapshot(self.state.to_dict()),
+        )
         updated = dict(current)
-        updated["action"] = dict(action)
+        # Store an action reference, not a receipt containing prior traces.
+        trajectory = action.get("trajectory")
+        updated["action"] = {
+            "action_id": action.get("action_id"),
+            "status": action.get("status"),
+            "trajectory_id": trajectory.get("id") if isinstance(trajectory, Mapping) else None,
+        }
         updated["outcome"] = dict(outcome)
         updated["state_delta"] = actual_delta
 
@@ -2974,6 +3021,7 @@ class ConsciousRuntime:
             "identity": self.state.identity,
             "revision": self.state.revision,
             "present": frame,
+            "self_observation": self.snapshot_self_observation(),
             "self_access": {
                 "self_state": dict(self.state.self_state),
                 "self_model": dict(self.state.self_model),
