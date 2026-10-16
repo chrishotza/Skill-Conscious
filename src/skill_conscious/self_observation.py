@@ -23,6 +23,7 @@ def _clamp01(value: Any, default: float = 0.0) -> float:
 @dataclass(frozen=True)
 class SelfObservationProfile:
     coherence: float = 0.0
+    self_state_level: float = 0.0
     homeostatic_fit: float = 0.0
     self_model_prediction_error: float = 0.0
     trajectory_presence: float = 0.0
@@ -106,6 +107,17 @@ def build_self_observation(
         and isinstance(last_action.get("outcome"), Mapping)
     ) else 0.0
 
+    # Include a bounded measurement of numeric internal state, otherwise a
+    # change in focus/energy could remain invisible to self-observation.
+    state_values = [
+        _clamp01(value)
+        for value in self_state.values()
+        if isinstance(value, (int, float)) and not isinstance(value, bool)
+    ]
+    self_state_level = (
+        sum(state_values) / len(state_values) if state_values else 0.0
+    )
+
     homeostatic_fit = affective.get("homeostatic_fit", 0.0)
     attribution_keys = (
         "candidate_ids",
@@ -122,6 +134,7 @@ def build_self_observation(
 
     return SelfObservationProfile(
         coherence=_clamp01(snapshot.get("coherence"), 0.0),
+        self_state_level=round(self_state_level, 6),
         homeostatic_fit=_clamp01(homeostatic_fit, 0.0),
         self_model_prediction_error=_self_model_prediction_error(
             self_state,
