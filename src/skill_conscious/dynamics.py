@@ -32,9 +32,18 @@ class DynamicProfile:
 def _clean_channels(channels: Iterable[Sequence[float]]) -> list[list[float]]:
     cleaned: list[list[float]] = []
     for channel in channels:
-        values = [float(value) for value in channel if isfinite(float(value))]
-        if values:
-            cleaned.append(values)
+        # Reject invalid samples rather than deleting them independently:
+        # removing one NaN at position t shifts that channel's time axis and
+        # manufactures inter-channel correlations at the wrong timestamps.
+        try:
+            values = [float(value) for value in channel]
+        except (ValueError, TypeError, OverflowError) as exc:
+            raise ValueError("channel samples must be numeric and finite") from exc
+        if not values:
+            raise ValueError("channels must be non-empty")
+        if any(not isfinite(value) for value in values):
+            raise ValueError("channel samples must be numeric and finite")
+        cleaned.append(values)
     if not cleaned:
         raise ValueError("at least one non-empty numeric channel is required")
     length = min(len(channel) for channel in cleaned)
@@ -129,10 +138,18 @@ def measure_dynamics(
     avalanche_threshold_sigma: float = 2.0,
 ) -> DynamicProfile:
     """Compute the first dependency-free Dynamic Core profile."""
+    if isinstance(avalanche_threshold_sigma, bool):
+        raise ValueError("avalanche_threshold_sigma must be finite and positive")
+    try:
+        threshold = float(avalanche_threshold_sigma)
+    except (ValueError, TypeError, OverflowError) as exc:
+        raise ValueError("avalanche_threshold_sigma must be finite and positive") from exc
+    if not isfinite(threshold) or threshold <= 0.0:
+        raise ValueError("avalanche_threshold_sigma must be finite and positive")
     cleaned = _clean_channels(channels)
     flattened = [value for channel in cleaned for value in channel]
     synchrony = _timewise_synchrony(cleaned)
-    avalanche_sizes = _avalanche_sizes(cleaned, float(avalanche_threshold_sigma))
+    avalanche_sizes = _avalanche_sizes(cleaned, threshold)
 
     reference = cleaned[0]
     median = sorted(reference)[len(reference) // 2]
