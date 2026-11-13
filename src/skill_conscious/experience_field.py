@@ -1,7 +1,7 @@
 from __future__ import annotations
 
 from dataclasses import asdict, dataclass
-from math import sqrt
+from math import isfinite, sqrt
 from typing import Mapping, Sequence
 
 from .dynamics import DynamicProfile, measure_dynamics
@@ -53,8 +53,21 @@ def build_experience_field(
     dynamic = measure_dynamics(channels, avalanche_threshold_sigma=avalanche_threshold_sigma)
 
     weights = {"sensory_coherence": 1.0, "dynamic_synchrony": 1.0}
-    if coupling_weights:
-        weights.update({str(k): float(v) for k, v in coupling_weights.items()})
+    if coupling_weights is not None:
+        for name, raw in coupling_weights.items():
+            if name not in weights:
+                raise ValueError(f"unknown coupling weight: {name}")
+            if isinstance(raw, bool):
+                raise ValueError(f"coupling weight {name} must be finite and nonnegative")
+            try:
+                value = float(raw)
+            except (ValueError, TypeError, OverflowError) as exc:
+                raise ValueError(f"coupling weight {name} must be finite and nonnegative") from exc
+            if not isfinite(value) or value < 0.0:
+                raise ValueError(f"coupling weight {name} must be finite and nonnegative")
+            weights[name] = value
+    if not isfinite(sum(weights.values())):
+        raise ValueError("coupling weights must have a finite total")
 
     field_coherence = (
         weights["sensory_coherence"] * sensory.coherence
