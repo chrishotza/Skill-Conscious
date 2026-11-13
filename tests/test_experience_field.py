@@ -50,3 +50,37 @@ def test_sensory_counterfactual_can_reverse_action_preference():
         affective_weights={"vision": -1.0}, affect_weight=1.0,
     )
     assert delta < 0.0
+
+
+def test_coupling_weights_reject_nonfinite_negative_boolean_and_misspelled_keys():
+    import pytest
+
+    invalid = [
+        {"sensory_coherence": float("nan")},
+        {"dynamic_synchrony": float("inf")},
+        {"sensory_coherence": float("-inf")},
+        {"sensory_coherence": -1.0},
+        {"sensory_coherence": True},
+        {"sensory_coherence": "not-a-number"},
+        {"sensory_coherance": 1.0},
+        {"sensory_coherence": 1e308, "dynamic_synchrony": 1e308},
+    ]
+    for weights in invalid:
+        with pytest.raises(ValueError, match="coupling weight"):
+            build_experience_field(
+                {"vision": 0.5}, {"vision": 0.0}, _channels(), coupling_weights=weights
+            )
+
+
+def test_nonnegative_finite_coupling_weights_keep_explicit_control():
+    sensor_only, *_ = build_experience_field(
+        {"vision": 1.0}, {"vision": 0.0}, _channels(),
+        coupling_weights={"sensory_coherence": 1.0, "dynamic_synchrony": 0.0},
+    )
+    dynamic_only, *_ = build_experience_field(
+        {"vision": 1.0}, {"vision": 0.0}, _channels(),
+        coupling_weights={"sensory_coherence": 0.0, "dynamic_synchrony": 1.0},
+    )
+    assert sensor_only.field_coherence == sensor_only.sensory_coherence
+    assert 0.0 <= dynamic_only.field_coherence <= 1.0
+    assert sensor_only.field_coherence != dynamic_only.field_coherence
