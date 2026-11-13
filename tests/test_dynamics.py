@@ -45,3 +45,38 @@ def test_compare_dynamics_reports_directional_changes():
     delta = compare_dynamics(baseline, current)
     assert "pairwise_correlation" in delta
     assert delta["pairwise_correlation"] <= 0.0
+
+
+def test_invalid_samples_do_not_shift_channel_time_alignment():
+    import pytest
+
+    base = _oscillation(64)
+    for corrupt in (
+        base[:14] + [float("nan")] + base[15:],
+        base[:14] + [float("inf")] + base[15:],
+        base[:14] + [float("-inf")] + base[15:],
+        base[:14] + ["not-a-number"] + base[15:],
+    ):
+        with pytest.raises(ValueError, match="numeric and finite"):
+            measure_dynamics([base, corrupt])
+    with pytest.raises(ValueError, match="non-empty"):
+        measure_dynamics([base, []])
+
+
+def test_invalid_avalanche_thresholds_fail_instead_of_silent_zero_events():
+    import pytest
+
+    for threshold in (0.0, -1.0, float("nan"), float("inf"), float("-inf"), True, "bad"):
+        with pytest.raises(ValueError, match="finite and positive"):
+            measure_dynamics([_oscillation(64)], avalanche_threshold_sigma=threshold)
+
+
+def test_trailing_extra_samples_preserve_shared_time_axis():
+    # Preserve prior behavior of trimming only a longer *tail*, not
+    # dropping an internal nonfinite sample from either channel.
+    short = _oscillation(64)
+    longer = short + _oscillation(16)
+    baseline = measure_dynamics([short, short])
+    aligned = measure_dynamics([short, longer])
+    assert aligned.samples == 64
+    assert aligned.pairwise_correlation == baseline.pairwise_correlation
